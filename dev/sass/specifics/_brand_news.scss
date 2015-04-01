@@ -1,7 +1,7 @@
 $brand_news-font-size: 15px;
 .brand_news {
 	position: relative;
-	padding: em(115px, $base-font-size) 0 em(100px, $base-font-size) 0;
+	padding: em(90px, $base-font-size) 0 em(100px, $base-font-size) 0;
 	border-top: 1px solid #cecfd0;
 	border-bottom: 1px solid #cecfd0;
 	.btn_circle {
@@ -11,7 +11,7 @@ $brand_news-font-size: 15px;
 	}
 	.brand_news_list {
 		li {
-			margin-top: em(70px, $base-font-size);
+			margin-top: em(45px, $base-font-size);
 			p {
 				// font-family: 'proxima_nova_cn_rgregular';
 				font-family: pragmatica,Helvetica,Arial,sans-serif;
@@ -23,7 +23,7 @@ $brand_news-font-size: 15px;
 				letter-spacing: 1px;
 			}
 			.brand_news_title {
-				margin-bottom: em(40px, 24px);
+				margin-bottom: em(30px, $brand_news_title-font-size);
 			}
 			&:first-child {
 				margin-top: 0;

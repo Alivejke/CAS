@@ -6,6 +6,7 @@ $select-base-width: 100%;
 		margin-top: em(115px, $base-font-size);
 		.select2-container {
 			width: 100% !important;
+			text-align: left;
 			&.select2-container--default {
 				.select2-selection--single {
 					border-color: #929191;
@@ -13,7 +14,7 @@ $select-base-width: 100%;
 					-webkit-border-radius: 0;
 					-moz-border-radius: 0;
 					.select2-selection__rendered {
-						line-height: em(59px, $base-font-size);
+						line-height: em(61px, $base-font-size);
 					}
 					.select2-selection__arrow {
 						height: em(58px, $base-font-size);

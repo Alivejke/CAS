@@ -1,5 +1,7 @@
 .element_header {
-	background-color: #f8faf9;
+	.wrap {
+		background-color: #f8faf9;
+	}
 	.element_img {
 		display: block;
 		width: 100%;
@@ -7,18 +9,18 @@
 	.elem_logo_big {
 		display: block;
 		margin: 0 auto;
+		padding-top: em(110px, $base-font-size);
 	}
 	&.edit_brand {
 		height: em(290px, $base-font-size);
-		padding-top: em(110px, $base-font-size);
+		// padding-top: em(110px, $base-font-size);
 	}
 	.btn {
-		margin-top: em(45px, 12px);
-		
+		margin-top: em(46px, $base-font-size);
 	}
 }
 .menu_wrap {
-	margin-top: em(40px, $base-font-size);
+	margin-top: em(28px, $base-font-size);
 }
 .menu {
 	overflow: hidden;

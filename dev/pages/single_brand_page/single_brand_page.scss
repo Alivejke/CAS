@@ -1,12 +1,15 @@
 @import '../../sass/base/__base';
 .single_brand {
+	.main_menu_wrap {
+		margin-top: em(80px, $base-font-size);
+	}
 	.main_title {
-		margin-top: em(100px, $main_title-font-size);
+		margin-top: em(77px, $main_title-font-size);
 	}
 	.main_menu {
 		text-align: left;
 		left: em(45px, $base-font-size);
-		margin-top: em(100px, $base-font-size);
+		margin-top: em(80px, $base-font-size);
 		li {
 			width: flex(304px, $base-width-content);
 			height: em(314px, $base-font-size);
@@ -17,6 +20,9 @@
 				position: relative;
 				background: none;
 				padding: 0;
+				-webkit-box-shadow: -3px 3px 10px 0px rgba(0,0,0,0.68);
+				-moz-box-shadow: -3px 3px 10px 0px rgba(0,0,0,0.68);
+				box-shadow: -3px 3px 10px 0px rgba(0,0,0,0.68);
 				img {
 					position: absolute;
 					top: 0;
@@ -52,12 +58,15 @@
 						.glyphicon {
 							&.glyphicon-star {
 								color: #f4cd24;
+								margin-right: 4px;
 							}
 						}
 					}
 					.main_menu_title {
 						margin-top: em($main_menu_title-font-size, $main_menu_title-font-size);
 						width: 70%;
+						font-size: em($main_menu-font-size, $base-font-size);
+						line-height: em(27px, $main_menu-font-size);
 					}
 				}
 				.main_menu_view {
@@ -82,8 +91,9 @@
 			}
 			&:hover {
 				.main_menu_item {
-					width: 113.7%;
-					height: 113.7%;
+					margin-top:  em(-31px, $base-font-size);
+					width: 116.6%;
+					height: 116.7%;
 					// line-height: em(358px, $main_menu-font-size);
 					line-height: 1;
 					z-index: 15;
@@ -102,7 +112,7 @@
 						left: -19px;
 					}
 					.main_menu_text_wrap {
-						padding: 20px 45px;
+						padding: 20px 36px;
 					}
 					.main_menu_view {
 						display: block;

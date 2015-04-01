@@ -1,6 +1,6 @@
 .main_menu_wrap {
 	text-align: center;
-	margin-top: em(66px, $base-font-size);
+	margin-top: em(95px, $base-font-size);
 }
 .main_menu {
 	text-align: center;
@@ -10,15 +10,15 @@
 	top: -11px;
 	li {
 		display: inline-block;
-		width: flex(159px, $base-width-content);
-		height: em(165px, $base-font-size);
+		width: flex(161px, $base-width-content);
+		height: em(168px, $base-font-size);
 		vertical-align: top;
 		text-align: center;
 		// font-family: 'brandon_grotesquebold';
 		font-family: pragmatica,Helvetica,Arial,sans-serif;
 		font-weight: 300;
 		font-size: em($base-font-size, $base-font-size);
-		line-height: em(157px, $base-font-size);
+		line-height: em(168px, $base-font-size);
 		color: #323a45;
 		text-transform: uppercase;
 		margin: em(12px, $base-font-size) 0 0 em(7px, $base-font-size);
@@ -33,7 +33,8 @@
 			width: 100%;
 			height: 100%;
 			background-color: #d5d5d5;
-			padding: 0 flex(10px, $base-width-content) 0 0;
+			padding: 0 em(15px, $base-font-size);
+			// padding: 0 flex(10px, $base-width-content) 0 0;
 			img {
 				vertical-align: middle;
 				display: inline-block;
@@ -50,7 +51,7 @@
 				color: $white-color;
 				background-color: #0f3e6e;
 				margin: -6.9%;
-				padding: 0 em(15px, $base-font-size);
+				padding: 0 em(30px, $base-font-size);
 				z-index: 1;
 				position: relative;
 				img {
