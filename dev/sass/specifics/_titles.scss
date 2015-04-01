@@ -7,6 +7,12 @@
 	color: #323a45;
 	text-transform: uppercase;
 	margin: 0 0 0 2px;
+
+	&.main_title_actives {
+		font-size: em($main_title-font-size, $base-font-size);
+		width: flex(400px, $base-width-content);
+		margin-top: em(60px, $main_title-font-size);
+	}
 }
 
 .brand_news_title {

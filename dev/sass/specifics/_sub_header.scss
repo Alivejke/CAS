@@ -45,18 +45,18 @@
 				color: $gray-color;
 			}
 		}
-		&:before {
-			content: '';
-			display: inline-block;
-			width: 15px;
-			height: 12px;
-			background: url(/i/sprite.png) 6px -40px no-repeat;
+		&:after {
+		   content: '';
+		   display: inline-block;
+		   width: 15px;
+		   height: 12px;
+		   background: url(/i/sprite.png) 6px -40px no-repeat;
 		}
-		&:first-child {
-			&:before {
-				display: none;
-				background: none;
-			}
+		  &:last-child {
+		   &:after {
+		    display: none;
+		    background: none;
+		   }
 		}
 	}
 }

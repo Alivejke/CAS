@@ -1,0 +1,8 @@
+@import '../../sass/base/__base';
+
+.description {
+    position: relative;
+    padding: em(90px, $base-font-size) 0 em(100px, $base-font-size) 0;
+    border-top: 1px solid #cecfd0;
+    border-bottom: 1px solid #cecfd0;
+}
