@@ -1132,8 +1132,14 @@ textarea {
   text-transform: uppercase;
   margin: 0 0 0 2px;
 }
+/* line 11, ../../dev/sass/specifics/_titles.scss */
+.main_title.main_title_actives {
+  font-size: 1.8em;
+  width: 54.20054%;
+  margin-top: 2.22222em;
+}
 
-/* line 12, ../../dev/sass/specifics/_titles.scss */
+/* line 18, ../../dev/sass/specifics/_titles.scss */
 .brand_news_title {
   font-family: pragmatica,Helvetica,Arial,sans-serif;
   font-weight: 300;
@@ -1142,7 +1148,7 @@ textarea {
   color: #000;
 }
 
-/* line 22, ../../dev/sass/specifics/_titles.scss */
+/* line 28, ../../dev/sass/specifics/_titles.scss */
 .main_menu_title {
   font-family: pragmatica,Helvetica,Arial,sans-serif;
   font-weight: 300;
