@@ -11,7 +11,7 @@ $brand_news-font-size: 15px;
 	}
 	.brand_news_list {
 		li {
-			margin-top: em(45px, $base-font-size);
+			margin-top: em(43px, $base-font-size);
 			p {
 				// font-family: 'proxima_nova_cn_rgregular';
 				font-family: pragmatica,Helvetica,Arial,sans-serif;
@@ -23,7 +23,7 @@ $brand_news-font-size: 15px;
 				letter-spacing: 1px;
 			}
 			.brand_news_title {
-				margin-bottom: em(30px, $brand_news_title-font-size);
+				margin-bottom: em(28px, $main_title-font-size);
 			}
 			&:first-child {
 				margin-top: 0;
@@ -31,8 +31,8 @@ $brand_news-font-size: 15px;
 		}
 	}
 	.btn_wrap {
-		width: 960px;
-		height: 57px;
+		width: $base-width - $base-margin;
+		height: em(50px, $base-font-size);
 		margin: 0 auto;
 		position: absolute;
 		bottom: -28px;
@@ -41,9 +41,17 @@ $brand_news-font-size: 15px;
 		display: inline-block;
 		background-color: #fff;
 		width: 218px;
-		height: 57px;
+		height: em(50px, $btn-font-size);
 		position: absolute;
 		bottom: 0;
+		&.btn_toolbox {
+			width: flex(170px, $base-width);
+			height: em(50px, $base-font-size);
+			.btn_big_rounded {
+				height: em(50px, $btn-font-size);
+				line-height: em(50px, $btn-font-size);
+			}
+		}
 		&.pos_left {
 			left: 0;
 		}
@@ -52,6 +60,31 @@ $brand_news-font-size: 15px;
 		}
 		.btn_big_rounded {
 			background-color: #fff;
+		}
+	}
+}
+
+.brand_news_toolbax {
+	overflow: hidden;
+	.brand_news_list {
+		width: flex(460px, $base-width-content);
+		.btn {
+			margin-top: em(60px, $base-font-size);
+			&.btn_small {
+				width: flex(147px, 460px);
+			}
+		}
+	}
+	.brand_news_toolbax_list {
+		margin-left: flex(100px, $base-width-content);
+	}
+}
+.brand_news_toolbax_list {
+	margin-top: em(49px, $base-font-size);
+	li {
+		margin-top: em(35px, $base-font-size);
+		&:first-child {
+			margin-top: 0;
 		}
 	}
 }

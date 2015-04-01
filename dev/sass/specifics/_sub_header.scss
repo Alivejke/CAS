@@ -45,15 +45,16 @@
 				color: $gray-color;
 			}
 		}
-		&:before {
+		&:after {
 			content: '';
 			display: inline-block;
 			width: 15px;
 			height: 12px;
 			background: url(/i/sprite.png) 6px -40px no-repeat;
+			vertical-align: -1px;
 		}
-		&:first-child {
-			&:before {
+		&:last-child {
+			&:after {
 				display: none;
 				background: none;
 			}

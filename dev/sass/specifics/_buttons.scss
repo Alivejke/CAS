@@ -1,4 +1,5 @@
 .btn {
+	font-size: em($btn-font-size, $base-font-size);
 	display: inline-block;
 	background-color: transparent;
 	cursor: pointer;
@@ -57,10 +58,11 @@
 	}
 	&.btn_big_rounded {
 		border: 1px solid #cecfd0;
-		border-radius: 25px;
-		width: 218px;
-		height: 57px;
-		line-height: 57px;
+		border-radius: 30px;
+		// width: 218px;
+		width: 100%;
+		height: em(50px, $btn-font-size);
+		line-height: em(50px, $btn-font-size);
 		// color: #909294;
 		color: $gray-color;
 		&:hover {

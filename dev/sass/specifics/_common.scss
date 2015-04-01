@@ -11,10 +11,10 @@ body {
 
 #mainarea {
 	position: relative;
-	padding-bottom: 100px;
+	padding-bottom: em(100px, $base-font-size);
 	min-height: 100%;
 	height: auto !important;
-	margin: 0 auto -57px;
+	margin: 0 auto em(-57px, $base-font-size);
 }
 
 .wrap {
@@ -80,7 +80,7 @@ textarea {
 }
 
 .content_wrap {
-	margin-top: em(65px, $base-font-size);
+	margin-top: em(20px, $base-font-size);
 }
 
 // UI-elements

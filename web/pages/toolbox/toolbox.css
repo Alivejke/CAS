@@ -76,3 +76,39 @@
 .toolbox_wrap .content_wrap {
   margin-top: 4em;
 }
+
+/* line 13, ../../../dev/pages/toolbox/toolbox.scss */
+.content_wrap {
+  padding-bottom: 10.13333em;
+}
+
+/* line 17, ../../../dev/pages/toolbox/toolbox.scss */
+.brand_edit li {
+  float: left;
+  width: 15.3125%;
+  margin-left: 3.64583%;
+}
+/* line 21, ../../../dev/pages/toolbox/toolbox.scss */
+.brand_edit li:first-child {
+  margin-left: 0;
+}
+/* line 25, ../../../dev/pages/toolbox/toolbox.scss */
+.brand_edit li .btn.btn_small {
+  width: 100%;
+}
+/* line 31, ../../../dev/pages/toolbox/toolbox.scss */
+.brand_edit.btn_wrap {
+  position: absolute;
+  bottom: -6.33333em;
+  overflow: hidden;
+}
+
+/* line 38, ../../../dev/pages/toolbox/toolbox.scss */
+.brand_news.edit_brand {
+  padding: 2.2em 0 3.66667em 0;
+}
+
+/* line 42, ../../../dev/pages/toolbox/toolbox.scss */
+.brand_news_title {
+  font-size: 1.8em;
+}

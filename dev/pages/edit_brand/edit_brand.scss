@@ -1,6 +1,6 @@
 @import '../../sass/base/__base';
 .content_wrap {
-	padding-bottom: em(140px + 57px, $base-font-size);
+	padding-bottom: em(95px + 57px, $base-font-size);
 }
 .brand_edit {
 	li {
@@ -19,8 +19,13 @@
 	}
 	&.btn_wrap {
 		position: absolute;
-		bottom: em(-140px, $base-font-size);
+		bottom: em(-95px, $base-font-size);
 		overflow: hidden;
+	}
+}
+.brand_news {
+	&.edit_brand {
+		padding: em(33px, $base-font-size) 0 em(55px, $base-font-size) 0;
 	}
 }
 .brand_news_title {

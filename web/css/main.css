@@ -853,10 +853,10 @@ body {
 /* line 12, ../../dev/sass/specifics/_common.scss */
 #mainarea {
   position: relative;
-  padding-bottom: 100px;
+  padding-bottom: 6.66667em;
   min-height: 100%;
   height: auto !important;
-  margin: 0 auto -57px;
+  margin: 0 auto -3.8em;
 }
 
 /* line 20, ../../dev/sass/specifics/_common.scss */
@@ -936,7 +936,7 @@ textarea {
 
 /* line 82, ../../dev/sass/specifics/_common.scss */
 .content_wrap {
-  margin-top: 4.33333em;
+  margin-top: 1.33333em;
 }
 
 /* line 87, ../../dev/sass/specifics/_common.scss */
@@ -1487,6 +1487,7 @@ textarea {
 
 /* line 1, ../../dev/sass/specifics/_buttons.scss */
 .btn {
+  font-size: 0.93333em;
   display: inline-block;
   background-color: transparent;
   cursor: pointer;
@@ -1494,50 +1495,50 @@ textarea {
   font-weight: 300;
   text-transform: uppercase;
 }
-/* line 9, ../../dev/sass/specifics/_buttons.scss */
+/* line 10, ../../dev/sass/specifics/_buttons.scss */
 .btn.btn_circle {
   width: 58px;
   height: 58px;
   border: 1px solid #dedfdf;
   border-radius: 30px;
 }
-/* line 14, ../../dev/sass/specifics/_buttons.scss */
+/* line 15, ../../dev/sass/specifics/_buttons.scss */
 .btn.btn_circle.ico_star {
   background-position: -62px 18px;
 }
-/* line 16, ../../dev/sass/specifics/_buttons.scss */
+/* line 17, ../../dev/sass/specifics/_buttons.scss */
 .btn.btn_circle.ico_star:hover {
   background-position: -64px -24px;
 }
-/* line 19, ../../dev/sass/specifics/_buttons.scss */
+/* line 20, ../../dev/sass/specifics/_buttons.scss */
 .btn.btn_circle.ico_star.active {
   background-position: -62px -62px;
 }
-/* line 23, ../../dev/sass/specifics/_buttons.scss */
+/* line 24, ../../dev/sass/specifics/_buttons.scss */
 .btn.btn_circle.ico_eye {
   background-position: -266px 18px;
 }
-/* line 25, ../../dev/sass/specifics/_buttons.scss */
+/* line 26, ../../dev/sass/specifics/_buttons.scss */
 .btn.btn_circle.ico_eye:hover {
   background-position: -266px -62px;
 }
-/* line 28, ../../dev/sass/specifics/_buttons.scss */
+/* line 29, ../../dev/sass/specifics/_buttons.scss */
 .btn.btn_circle.ico_eye.active {
   background-position: -266px -142px;
 }
-/* line 32, ../../dev/sass/specifics/_buttons.scss */
+/* line 33, ../../dev/sass/specifics/_buttons.scss */
 .btn.btn_circle.ico_edit {
   background-position: -343px 16px;
 }
-/* line 34, ../../dev/sass/specifics/_buttons.scss */
+/* line 35, ../../dev/sass/specifics/_buttons.scss */
 .btn.btn_circle.ico_edit:hover {
   background-position: -343px -64px;
 }
-/* line 37, ../../dev/sass/specifics/_buttons.scss */
+/* line 38, ../../dev/sass/specifics/_buttons.scss */
 .btn.btn_circle.ico_edit.active {
   background-position: -343px -144px;
 }
-/* line 42, ../../dev/sass/specifics/_buttons.scss */
+/* line 43, ../../dev/sass/specifics/_buttons.scss */
 .btn.btn_rounded {
   border: none;
   border-radius: 5px;
@@ -1545,135 +1546,135 @@ textarea {
   height: 36px;
   color: #fff;
 }
-/* line 49, ../../dev/sass/specifics/_buttons.scss */
+/* line 50, ../../dev/sass/specifics/_buttons.scss */
 .btn.btn_rounded:hover {
   opacity: 0.5;
   filter: alpha(opacity=50);
 }
-/* line 53, ../../dev/sass/specifics/_buttons.scss */
+/* line 54, ../../dev/sass/specifics/_buttons.scss */
 .btn.btn_rounded.active {
   opacity: 1;
   filter: alpha(opacity=100);
 }
-/* line 58, ../../dev/sass/specifics/_buttons.scss */
+/* line 59, ../../dev/sass/specifics/_buttons.scss */
 .btn.btn_big_rounded {
   border: 1px solid #cecfd0;
-  border-radius: 25px;
-  width: 218px;
-  height: 57px;
-  line-height: 57px;
-  color: #77808b;
+  border-radius: 30px;
+  width: 100%;
+  height: 3.57143em;
+  line-height: 3.57143em;
+  color: #45484C;
 }
-/* line 66, ../../dev/sass/specifics/_buttons.scss */
+/* line 68, ../../dev/sass/specifics/_buttons.scss */
 .btn.btn_big_rounded:hover {
   opacity: 0.5;
   filter: alpha(opacity=50);
 }
-/* line 69, ../../dev/sass/specifics/_buttons.scss */
+/* line 71, ../../dev/sass/specifics/_buttons.scss */
 .btn.btn_big_rounded:hover .ico_upload {
   background-position: -440px 0px;
 }
-/* line 72, ../../dev/sass/specifics/_buttons.scss */
+/* line 74, ../../dev/sass/specifics/_buttons.scss */
 .btn.btn_big_rounded:hover .ico_edit {
   background-position: -520px 0px;
 }
-/* line 75, ../../dev/sass/specifics/_buttons.scss */
+/* line 77, ../../dev/sass/specifics/_buttons.scss */
 .btn.btn_big_rounded:hover .ico_add {
   background-position: -760px 0px;
 }
-/* line 79, ../../dev/sass/specifics/_buttons.scss */
+/* line 81, ../../dev/sass/specifics/_buttons.scss */
 .btn.btn_big_rounded.active {
   opacity: 1;
   filter: alpha(opacity=100);
 }
-/* line 82, ../../dev/sass/specifics/_buttons.scss */
+/* line 84, ../../dev/sass/specifics/_buttons.scss */
 .btn.btn_big_rounded.active .ico_upload {
   background-position: -440px 0px;
 }
-/* line 85, ../../dev/sass/specifics/_buttons.scss */
+/* line 87, ../../dev/sass/specifics/_buttons.scss */
 .btn.btn_big_rounded.active .ico_edit {
   background-position: -520px 0px;
 }
-/* line 88, ../../dev/sass/specifics/_buttons.scss */
+/* line 90, ../../dev/sass/specifics/_buttons.scss */
 .btn.btn_big_rounded.active .ico_add {
   background-position: -760px 0px;
 }
-/* line 92, ../../dev/sass/specifics/_buttons.scss */
+/* line 94, ../../dev/sass/specifics/_buttons.scss */
 .btn.btn_big_rounded .ico_upload {
   position: relative;
   top: 5px;
   left: -17px;
 }
-/* line 97, ../../dev/sass/specifics/_buttons.scss */
+/* line 99, ../../dev/sass/specifics/_buttons.scss */
 .btn.btn_big_rounded .ico_edit {
   position: relative;
   top: 5px;
   left: -17px;
 }
-/* line 102, ../../dev/sass/specifics/_buttons.scss */
+/* line 104, ../../dev/sass/specifics/_buttons.scss */
 .btn.btn_big_rounded .ico_add {
   position: relative;
   top: 5px;
   left: -17px;
 }
-/* line 108, ../../dev/sass/specifics/_buttons.scss */
+/* line 110, ../../dev/sass/specifics/_buttons.scss */
 .btn.btn-default {
   width: 194px;
   height: 54px;
   line-height: 54px;
   border: 1px solid #dedfdf;
 }
-/* line 113, ../../dev/sass/specifics/_buttons.scss */
+/* line 115, ../../dev/sass/specifics/_buttons.scss */
 .btn.btn-default:hover {
   background-color: #0f3e6e;
   color: #fff;
 }
-/* line 117, ../../dev/sass/specifics/_buttons.scss */
+/* line 119, ../../dev/sass/specifics/_buttons.scss */
 .btn.btn-default.active {
   background-color: #fff;
   color: #738189;
 }
-/* line 123, ../../dev/sass/specifics/_buttons.scss */
+/* line 125, ../../dev/sass/specifics/_buttons.scss */
 .btn.btn-save:hover {
   background-color: #2ecc71;
   color: #fff;
 }
-/* line 127, ../../dev/sass/specifics/_buttons.scss */
+/* line 129, ../../dev/sass/specifics/_buttons.scss */
 .btn.btn-save.active {
   background-color: #fff;
   color: #738189;
 }
-/* line 133, ../../dev/sass/specifics/_buttons.scss */
+/* line 135, ../../dev/sass/specifics/_buttons.scss */
 .btn.btn-delete:hover {
   background-color: #b70e12;
   color: #fff;
 }
-/* line 137, ../../dev/sass/specifics/_buttons.scss */
+/* line 139, ../../dev/sass/specifics/_buttons.scss */
 .btn.btn-delete.active {
   background-color: #fff;
   color: #738189;
 }
-/* line 143, ../../dev/sass/specifics/_buttons.scss */
+/* line 145, ../../dev/sass/specifics/_buttons.scss */
 .btn.btn-decline:hover {
   background-color: #b70e12;
   color: #fff;
 }
-/* line 147, ../../dev/sass/specifics/_buttons.scss */
+/* line 149, ../../dev/sass/specifics/_buttons.scss */
 .btn.btn-decline.active {
   background-color: #fff;
   color: #738189;
 }
-/* line 152, ../../dev/sass/specifics/_buttons.scss */
+/* line 154, ../../dev/sass/specifics/_buttons.scss */
 .btn.btn-upload {
   background-color: #f8faf9;
   color: #323a45;
 }
-/* line 155, ../../dev/sass/specifics/_buttons.scss */
+/* line 157, ../../dev/sass/specifics/_buttons.scss */
 .btn.btn-upload:hover, .btn.btn-upload.active {
   background-color: #f8faf9;
   color: rgba(50, 58, 69, 0.5);
 }
-/* line 160, ../../dev/sass/specifics/_buttons.scss */
+/* line 162, ../../dev/sass/specifics/_buttons.scss */
 .btn.btn-link {
   text-transform: none;
   display: inline;
@@ -1685,32 +1686,32 @@ textarea {
   border-bottom: 1px solid transparent;
   color: #747476;
 }
-/* line 170, ../../dev/sass/specifics/_buttons.scss */
+/* line 172, ../../dev/sass/specifics/_buttons.scss */
 .btn.btn-link:hover {
   border-bottom: 1px solid #9d9d9e;
   background: none;
   color: #747476;
 }
-/* line 175, ../../dev/sass/specifics/_buttons.scss */
+/* line 177, ../../dev/sass/specifics/_buttons.scss */
 .btn.btn-link.active {
   border-bottom: 1px solid transparent;
 }
-/* line 179, ../../dev/sass/specifics/_buttons.scss */
+/* line 181, ../../dev/sass/specifics/_buttons.scss */
 .btn.btn_small {
   font-size: 1em;
   height: 2.8em;
   line-height: 2.8em;
   width: 19.9187%;
 }
-/* line 185, ../../dev/sass/specifics/_buttons.scss */
+/* line 187, ../../dev/sass/specifics/_buttons.scss */
 .btn.btn_gray {
   background-color: #7e8890;
 }
-/* line 188, ../../dev/sass/specifics/_buttons.scss */
+/* line 190, ../../dev/sass/specifics/_buttons.scss */
 .btn.btn_red {
   background-color: #b70e12;
 }
-/* line 191, ../../dev/sass/specifics/_buttons.scss */
+/* line 193, ../../dev/sass/specifics/_buttons.scss */
 .btn.btn_green {
   background-color: #2ecc71;
 }
@@ -1764,36 +1765,37 @@ textarea {
 .menu li.active a {
   font-family: pragmatica,Helvetica,Arial,sans-serif;
   font-weight: 300;
-  color: #77808b;
+  color: #45484C;
 }
 /* line 48, ../../dev/sass/specifics/_sub_header.scss */
-.menu li:before {
+.menu li:after {
   content: '';
   display: inline-block;
   width: 15px;
   height: 12px;
   background: url(/i/sprite.png) 6px -40px no-repeat;
+  vertical-align: -1px;
 }
-/* line 56, ../../dev/sass/specifics/_sub_header.scss */
-.menu li:first-child:before {
+/* line 57, ../../dev/sass/specifics/_sub_header.scss */
+.menu li:last-child:after {
   display: none;
   background: none;
 }
 
-/* line 63, ../../dev/sass/specifics/_sub_header.scss */
+/* line 64, ../../dev/sass/specifics/_sub_header.scss */
 .go_to_search {
   font-size: 1em;
   font-family: pragmatica,Helvetica,Arial,sans-serif;
   font-weight: 300;
-  color: #77808b;
+  color: #45484C;
   cursor: pointer;
 }
-/* line 71, ../../dev/sass/specifics/_sub_header.scss */
+/* line 72, ../../dev/sass/specifics/_sub_header.scss */
 .go_to_search span {
   display: inline-block;
-  border-bottom: 1px solid #77808b;
+  border-bottom: 1px solid #45484C;
 }
-/* line 76, ../../dev/sass/specifics/_sub_header.scss */
+/* line 77, ../../dev/sass/specifics/_sub_header.scss */
 .go_to_search:after {
   content: '';
   display: inline-block;
@@ -1818,7 +1820,7 @@ textarea {
 }
 /* line 13, ../../dev/sass/specifics/_brand_news.scss */
 .brand_news .brand_news_list li {
-  margin-top: 3em;
+  margin-top: 2.86667em;
 }
 /* line 15, ../../dev/sass/specifics/_brand_news.scss */
 .brand_news .brand_news_list li p {
@@ -1826,12 +1828,12 @@ textarea {
   font-weight: 300;
   font-size: 1em;
   line-height: 1.4em;
-  color: #77808b;
+  color: #45484C;
   letter-spacing: 1px;
 }
 /* line 25, ../../dev/sass/specifics/_brand_news.scss */
 .brand_news .brand_news_list li .brand_news_title {
-  margin-bottom: 1.25em;
+  margin-bottom: 1.03704em;
 }
 /* line 28, ../../dev/sass/specifics/_brand_news.scss */
 .brand_news .brand_news_list li:first-child {
@@ -1839,8 +1841,8 @@ textarea {
 }
 /* line 33, ../../dev/sass/specifics/_brand_news.scss */
 .brand_news .btn_wrap {
-  width: 960px;
-  height: 57px;
+  width: 849px;
+  height: 3.33333em;
   margin: 0 auto;
   position: absolute;
   bottom: -28px;
@@ -1850,21 +1852,65 @@ textarea {
   display: inline-block;
   background-color: #fff;
   width: 218px;
-  height: 57px;
+  height: 3.57143em;
   position: absolute;
   bottom: 0;
 }
 /* line 47, ../../dev/sass/specifics/_brand_news.scss */
+.brand_news .btn_big_rounded_wrap.btn_toolbox {
+  width: 17.70833%;
+  height: 3.33333em;
+}
+/* line 50, ../../dev/sass/specifics/_brand_news.scss */
+.brand_news .btn_big_rounded_wrap.btn_toolbox .btn_big_rounded {
+  height: 3.57143em;
+  line-height: 3.57143em;
+}
+/* line 55, ../../dev/sass/specifics/_brand_news.scss */
 .brand_news .btn_big_rounded_wrap.pos_left {
   left: 0;
 }
-/* line 50, ../../dev/sass/specifics/_brand_news.scss */
+/* line 58, ../../dev/sass/specifics/_brand_news.scss */
 .brand_news .btn_big_rounded_wrap.pos_right {
   right: 0;
 }
-/* line 53, ../../dev/sass/specifics/_brand_news.scss */
+/* line 61, ../../dev/sass/specifics/_brand_news.scss */
 .brand_news .btn_big_rounded_wrap .btn_big_rounded {
   background-color: #fff;
+}
+
+/* line 67, ../../dev/sass/specifics/_brand_news.scss */
+.brand_news_toolbax {
+  overflow: hidden;
+}
+/* line 69, ../../dev/sass/specifics/_brand_news.scss */
+.brand_news_toolbax .brand_news_list {
+  width: 62.33062%;
+}
+/* line 71, ../../dev/sass/specifics/_brand_news.scss */
+.brand_news_toolbax .brand_news_list .btn {
+  margin-top: 4em;
+}
+/* line 73, ../../dev/sass/specifics/_brand_news.scss */
+.brand_news_toolbax .brand_news_list .btn.btn_small {
+  width: 31.95652%;
+}
+/* line 78, ../../dev/sass/specifics/_brand_news.scss */
+.brand_news_toolbax .brand_news_toolbax_list {
+  margin-left: 13.55014%;
+}
+
+/* line 82, ../../dev/sass/specifics/_brand_news.scss */
+.brand_news_toolbax_list {
+  margin-top: 3.26667em;
+}
+/* line 84, ../../dev/sass/specifics/_brand_news.scss */
+.brand_news_toolbax_list li {
+  margin-top: 2.33333em;
+}
+/* line 86, ../../dev/sass/specifics/_brand_news.scss */
+.brand_news_toolbax_list li:first-child {
+  margin-top: 0;
 }
 
 /* line 1, ../../dev/sass/specifics/_glyphicon.scss */
@@ -3199,4 +3245,28 @@ textarea {
   border-left: 2px solid #b7b8ba;
   border-bottom: 2px solid #c4c5c6;
   border-right: 2px solid #9d9fa1;
+}
+
+/* line 1, ../../dev/sass/specifics/_status.scss */
+.status_wrap_center {
+  position: relative;
+}
+
+/* line 4, ../../dev/sass/specifics/_status.scss */
+.status_wrap {
+  position: absolute;
+  top: -8em;
+  right: 0;
+  background: #fff;
+  width: 40.65041%;
+}
+/* line 11, ../../dev/sass/specifics/_status.scss */
+.status_wrap .btn_big_rounded {
+  width: 100%;
+}
+/* line 13, ../../dev/sass/specifics/_status.scss */
+.status_wrap .btn_big_rounded .ico_calendar {
+  margin: 0 10px;
+  height: 16px;
+  vertical-align: middle;
 }

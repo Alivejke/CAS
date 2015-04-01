@@ -1,0 +1,19 @@
+.status_wrap_center {
+	position: relative;
+}
+.status_wrap {
+	position: absolute;
+	top: em(-30px + -90px, $base-font-size);
+	// margin-left: flex(530px, $base-width);
+	right: 0;
+	background: $white-color;
+	width: flex(300px, $base-width-content);
+	.btn_big_rounded {
+		width: 100%;
+		.ico_calendar {
+			margin: 0 10px;
+			height: 16px;
+			vertical-align: middle;
+		}
+	}
+}
