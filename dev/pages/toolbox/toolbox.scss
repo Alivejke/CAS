@@ -1,0 +1,11 @@
+@import '../../sass/base/__base';
+.toolbox_wrap {
+	.main_title {
+		font-size: em($main_title-font-size, $base-font-size);
+		width: flex(400px, $base-width-content);
+		margin-top: em(60px, $main_title-font-size);
+	}
+	.content_wrap {
+		margin-top: em(60px, $base-font-size);
+	}
+}

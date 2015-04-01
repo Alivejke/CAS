@@ -1,0 +1,14 @@
+@import '../../sass/base/__base';
+.content_wrap {
+	&.choise_of_brands {
+		margin-top: em(75px, $base-font-size);
+		.main_menu_wrap {
+			margin: em(71px, $base-font-size) 0 0 15px;
+		}
+		.select_long {
+			&.select_wrap {
+				margin: em(104px, $base-font-size) 0 0 6px;
+			}
+		}
+	}
+}

@@ -1,0 +1,64 @@
+.footer {
+	position: relative;
+	height: em(57px, $base-font-size);
+	line-height: em(56px, $base-font-size);
+	width: 100%;
+	background-color: #ededed;
+}
+
+.footer_logo {
+	margin-left: flex(103px, $base-width);
+	img {
+		vertical-align: middle;
+		padding: em(5px, $base-font-size) 24px em(5px, $base-font-size) 0;
+		box-sizing: content-box;
+		border-right: 1px solid #707070;
+	}
+}
+
+$footer-font-size: 15px;
+.footer_navigate {
+	line-height: em(39px, $base-font-size);
+	margin-left: em(12px, $base-font-size);
+	a {
+		position: relative;
+		// font-family: 'Open Sans', sans-serif;
+		font-family: pragmatica,Helvetica,Arial,sans-serif;
+		font-weight: 300;
+		font-size: em($footer-font-size, $base-font-size);
+		color: #707070;
+		text-decoration: none;
+		text-transform: uppercase;
+		margin-left: em(2px, $footer-font-size);
+		padding-left: em(7px, $footer-font-size);
+		&:first-child:before {
+			display: none
+		}
+		&:before {
+			content: '';
+			display: inline-block;
+			width: 1px;
+			height: em($footer-font-size, $footer-font-size);
+			background-color: #707070;
+			position: absolute;
+			top: 2px;
+			left: 0px;
+		}
+		&:hover {
+			color: #c8c8c8;
+			&:before {
+				background-color: #c8c8c8;
+			}
+		}
+	}
+}
+
+.footer_copyright {
+	line-height: 1;
+	margin: em(-9px, $footer-font-size) 0 0 em(21px, $footer-font-size);
+	font-family: 'Open Sans', sans-serif;
+	font-family: pragmatica,Helvetica,Arial,sans-serif;
+	font-weight: 300;
+	font-size: em($footer-font-size, $base-font-size);
+	color: #707070;
+}

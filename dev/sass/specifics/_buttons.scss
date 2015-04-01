@@ -1,0 +1,194 @@
+.btn {
+	display: inline-block;
+	background-color: transparent;
+	cursor: pointer;
+	// font-family: 'brandon_grotesquebold';
+	font-family: pragmatica,Helvetica,Arial,sans-serif;
+	font-weight: 300;
+	text-transform: uppercase;
+	&.btn_circle {
+		width: 58px;
+		height: 58px;
+		border: 1px solid #dedfdf;
+		border-radius: 30px;
+		&.ico_star {
+			background-position: -62px 18px;
+			&:hover {
+				background-position: -64px -24px;
+			}
+			&.active {
+				background-position: -62px -62px;
+			}
+		}
+		&.ico_eye {
+			background-position: -266px 18px;
+			&:hover {
+				background-position: -266px -62px;
+			}
+			&.active {
+				background-position: -266px -142px;
+			}
+		}
+		&.ico_edit {
+			  background-position: -343px 16px;
+			&:hover {
+				background-position: -343px -64px;
+			}
+			&.active {
+				background-position: -343px -144px;
+			}
+		}
+	}
+	&.btn_rounded {
+		border: none;
+		border-radius: 5px;
+		width: 95px;
+		height: 36px;
+		color: $white-color;
+		
+		&:hover {
+			opacity: 0.5;
+			filter: alpha(opacity=50);
+		}
+		&.active {
+			opacity: 1;
+			filter: alpha(opacity=100);
+		}
+	}
+	&.btn_big_rounded {
+		border: 1px solid #cecfd0;
+		border-radius: 25px;
+		width: 218px;
+		height: 57px;
+		line-height: 57px;
+		// color: #909294;
+		color: $gray-color;
+		&:hover {
+			opacity: 0.5;
+			filter: alpha(opacity=50);
+			.ico_upload {
+				background-position: -440px 0px;
+			}
+			.ico_edit {
+				background-position: -520px 0px;
+			}
+			.ico_add {
+				background-position: -760px 0px;
+			}
+		}
+		&.active {
+			opacity: 1;
+			filter: alpha(opacity=100);
+			.ico_upload {
+				background-position: -440px 0px;
+			}
+			.ico_edit {
+				background-position: -520px 0px;
+			}
+			.ico_add {
+				background-position: -760px 0px;
+			}
+		}
+		.ico_upload {
+			position: relative;
+			top: 5px;
+			left: -17px;
+		}
+		.ico_edit {
+			position: relative;
+			top: 5px;
+			left: -17px;
+		}
+		.ico_add {
+			position: relative;
+			top: 5px;
+			left: -17px;
+		}
+	}
+	&.btn-default {
+		width: 194px;
+		height: 54px;
+		line-height: 54px;
+		border: 1px solid #dedfdf;
+		&:hover {
+			background-color: #0f3e6e;
+			color: $white-color;
+		}
+		&.active {
+			background-color: $white-color;
+			color: #738189;
+		}
+	}
+	&.btn-save {
+		&:hover {
+			background-color: #2ecc71;
+			color: $white-color;
+		}
+		&.active {
+			background-color: $white-color;
+			color: #738189;
+		}
+	}
+	&.btn-delete {
+		&:hover {
+			background-color: #b70e12;
+			color: $white-color;
+		}
+		&.active {
+			background-color: $white-color;
+			color: #738189;
+		}
+	}
+	&.btn-decline {
+		&:hover {
+			background-color: #b70e12;
+			color: $white-color;
+		}
+		&.active {
+			background-color: $white-color;
+			color: #738189;
+		}
+	}
+	&.btn-upload {
+		background-color: #f8faf9;
+		color: rgba(50, 58, 69, 100);
+		&:hover, &.active {
+			background-color: #f8faf9;
+			color: rgba(50,58,69, .5);
+		}
+	}
+	&.btn-link {
+		text-transform: none;
+		display: inline;
+		width: auto;
+		height: auto;
+		line-height: 1;
+		padding: 0;
+		border: none;
+		border-bottom: 1px solid transparent;
+		color: #747476;
+		&:hover {
+			border-bottom: 1px solid #9d9d9e;
+			background: none;
+			color: #747476;
+		}
+		&.active {
+			border-bottom: 1px solid transparent;
+		}
+	}
+	&.btn_small {
+		font-size: em($base-font-size, $base-font-size);
+		height: em(42px, $base-font-size);
+		line-height: em(42px, $base-font-size);
+		width: flex(147px, $base-width-content);
+	}
+	&.btn_gray {
+		background-color: #7e8890;
+	}
+	&.btn_red {
+		background-color: #b70e12;
+	}
+	&.btn_green {
+		background-color: #2ecc71;
+	}
+}

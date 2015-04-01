@@ -1,0 +1,30 @@
+.main_title {
+	// font-family: 'brandon_grotesquebold';
+	font-family: pragmatica,Helvetica,Arial,sans-serif;
+	font-weight: 300;
+	font-size: em($main_title-font-size, $base-font-size);
+	line-height: 1;
+	color: #323a45;
+	text-transform: uppercase;
+	margin: 0 0 0 2px;
+}
+
+.brand_news_title {
+	// font-family: 'proxima_novalight';
+	font-family: pragmatica,Helvetica,Arial,sans-serif;
+	font-weight: 300;
+	font-size: em($brand_news_title-font-size, $base-font-size);
+	line-height: 1;
+	// color: #323a45;
+	color: #000;
+}
+
+.main_menu_title {
+	// font-family: 'brandon_grotesquebold';
+	font-family: pragmatica,Helvetica,Arial,sans-serif;
+	font-weight: 300;
+	font-size: em($main_menu_title-font-size, $main_menu-font-size);
+	line-height: em(24px, $main_menu_title-font-size);
+	text-transform: uppercase;
+	color: $white-color;
+}

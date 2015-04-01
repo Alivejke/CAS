@@ -54,13 +54,19 @@ module.exports = function(grunt) {
                 expand: true,
                 cwd: 'img/',
                 src: '*',
-                dest: '../img/'
+                dest: '../web/img/'
             },
             i: {
                 expand: true,
                 cwd: 'i/',
                 src: '*',
-                dest: '../i/'
+                dest: '../web/i/'
+            },
+            fonts: {
+                expand: true,
+                cwd: 'fonts/',
+                src: '*',
+                dest: '../web/fonts/'
             },
             jsvendor: {
                 expand: true,
@@ -116,6 +122,14 @@ module.exports = function(grunt) {
             i: {
                 files: ['i/*'],
                 tasks: ['copy:i'],
+                options: {
+                    interrupt: true
+                }
+            },
+
+            fonts: {
+                files: ['fonts/*'],
+                tasks: ['copy:fonts'],
                 options: {
                     interrupt: true
                 }

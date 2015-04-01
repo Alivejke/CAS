@@ -1,0 +1,106 @@
+.sprite {
+	background: url(/i/sprite.png) 0px 0px no-repeat;
+	&.sprite_ico {
+		display: inline-block;
+	}
+}
+
+.ico_star {
+	background-position: -79px 1px;
+	width: 23px;
+	height: 22px;
+	&:hover {
+		background-position: -80px -40px;
+	}
+	&.active {
+		background-position: -80px -80px;
+	}
+}
+
+.ico_basket {
+	background-position: -200px 0px;
+	width: 25px;
+	height: 32px;
+	&:hover {
+		background-position: -200px -80px;
+	}
+	&.active {
+		background-position: -200px -160px;
+	}
+}
+
+.ico_upload {
+	background-position: -440px 0px;
+	width: 22px;
+	height: 22px;
+	&:hover {
+		background-position: -440px -80px;
+	}
+	&.active {
+		background-position: -440px -160px;
+	}
+}
+
+.ico_edit {
+	background-position: -520px 0px;
+	width: 24px;
+	height: 25px;
+	&:hover {
+		background-position: -520px -80px;
+	}
+	&.active {
+		background-position: -520px -160px;
+	}
+}
+
+.ico_download {
+	background-position: -600px 0px;
+	width: 23px;
+	height: 23px;
+	&:hover {
+		background-position: -600px -80px;
+	}
+	&.active {
+		background-position: -600px -160px;
+	}
+}
+
+.ico_add {
+	background-position: -760px 0px;
+	width: 23px;
+	height: 24px;
+	&:hover {
+		background-position: -760px -80px;
+	}
+	&.active {
+		background-position: -760px -160px;
+	}
+}
+
+.ico_status {
+	background-position: -120px 0px;
+	width: 12px;
+	height: 12px;
+	&:hover {
+		background-position: -120px -40px;
+	}
+	&.active {
+		background-position: -120px -80px;
+	}
+}
+
+.ico_status_big {
+	width: 30px;
+	height: 30px;
+	background-color: #22c866;
+	border: 4px solid #fff;
+	border-radius: 25px;
+	&.error {
+		background-color: #b70e12;
+	}
+}
+.ico_calendar {
+	background-position: -840px 0px;
+	width: 12px;
+	height: 14px;
+}
