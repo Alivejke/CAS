@@ -6,7 +6,7 @@ $brand_news-font-size: 15px;
 	border-bottom: 1px solid #cecfd0;
 	.btn_circle {
 		position: absolute;
-		top: -29px;
+		top: em(-23px, $btn-font-size);
 		background-color: $white-color;
 	}
 	.brand_news_list {
@@ -45,11 +45,14 @@ $brand_news-font-size: 15px;
 		position: absolute;
 		bottom: 0;
 		&.btn_toolbox {
-			width: flex(170px, $base-width);
-			height: em(50px, $base-font-size);
+			width: flex(170px, $base-width - $base-margin);
+			height: em(55px, $base-font-size);
 			.btn_big_rounded {
-				height: em(50px, $btn-font-size);
-				line-height: em(50px, $btn-font-size);
+				height: 100%;
+				line-height: em(55px, $btn-font-size);
+				.ico_edit, .ico_add, .ico_upload {
+					left: -5px;
+				}
 			}
 		}
 		&.pos_left {

@@ -94,7 +94,7 @@
 	height: 30px;
 	background-color: #22c866;
 	border: 4px solid #fff;
-	border-radius: 25px;
+	@include border-radius(25px);
 	&.error {
 		background-color: #b70e12;
 	}
@@ -103,4 +103,22 @@
 	background-position: -840px 0px;
 	width: 12px;
 	height: 14px;
+	&.ico_calendar_big {
+		background-position: -840px -40px;
+	}
+}
+.ico_status_basket {
+	background-position: -1200px 0px;
+	width: 30px;
+	height: 30px;
+}
+.ico_fragile {
+	background-position: -1240px 0px;
+	width: 30px;
+	height: 30px;
+}
+.ico_ecol {
+	background-position: -1280px 0px;
+	width: 30px;
+	height: 30px;
 }

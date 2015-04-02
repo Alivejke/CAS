@@ -1,19 +1,23 @@
+$status_wrap-width: 300px;
 .status_wrap_center {
 	position: relative;
 }
 .status_wrap {
 	position: absolute;
-	top: em(-30px + -90px, $base-font-size);
-	// margin-left: flex(530px, $base-width);
+	top: em(-116px, $base-font-size);
 	right: 0;
 	background: $white-color;
-	width: flex(300px, $base-width-content);
+	width: flex($status_wrap-width, $base-width-content);
 	.btn_big_rounded {
 		width: 100%;
+		height: em(42px, $btn-font-size);
 		.ico_calendar {
-			margin: 0 10px;
+			margin: 0 0 0 flex(20px, $status_wrap-width);
 			height: 16px;
-			vertical-align: middle;
+			vertical-align: -3px;
+		}
+		.ico_status {
+			vertical-align: -2px;
 		}
 	}
 }

@@ -81,6 +81,9 @@ textarea {
 
 .content_wrap {
 	margin-top: em(20px, $base-font-size);
+	&.content_wrap_indent {
+		margin-top: em(88px, $base-font-size);
+	}
 }
 
 // UI-elements
@@ -90,6 +93,6 @@ textarea {
 	li {
 		float: left;
 		width: 33%;
-		padding: 0 10px;
+		padding: 1px 10px;
 	}
 }
