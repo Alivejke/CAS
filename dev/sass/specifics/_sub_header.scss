@@ -1,6 +1,7 @@
 .element_header {
 	.wrap {
 		background-color: #f8faf9;
+		position: relative;
 	}
 	.element_img {
 		display: block;
@@ -16,7 +17,11 @@
 		// padding-top: em(110px, $base-font-size);
 	}
 	.btn {
-		margin-top: em(46px, $base-font-size);
+		position: absolute;
+		bottom: em(39px, $base-font-size);
+		left: 50%;
+		width: flex(147px, $base-width);
+		margin-left: flex(-147px / 2, $base-width);
 	}
 }
 .menu_wrap {

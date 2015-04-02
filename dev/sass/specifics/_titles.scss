@@ -22,7 +22,7 @@
 	font-size: em($brand_news_title-font-size, $base-font-size);
 	line-height: 1;
 	// color: #323a45;
-	color: #000;
+	color: $base-color;
 }
 
 .main_menu_title {
@@ -33,4 +33,13 @@
 	line-height: em(24px, $main_menu_title-font-size);
 	text-transform: uppercase;
 	color: $white-color;
+}
+
+.toolbox_edit_title {
+	font-family: pragmatica,Helvetica,Arial,sans-serif;
+	font-weight: 300;
+	color: $base-color;
+	font-size: em($main_title-font-size, $base-font-size);
+	line-height: em(30px, $main_title-font-size);
+	text-transform: uppercase;
 }

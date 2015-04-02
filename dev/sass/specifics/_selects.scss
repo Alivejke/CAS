@@ -53,7 +53,7 @@ $select-base-width: 100%;
 			&.select2-container--default {
 				.select2-selection--single {
 					.select2-selection__rendered {
-						line-height: em(41px, $base-font-size);
+						line-height: em(42px, $base-font-size);
 					}
 					.select2-selection__arrow {
 						border-left: none;
@@ -90,6 +90,9 @@ $select-base-width: 100%;
 						margin: -3px 0 0 -7px;
 					}
 				}
+				.select2-selection__placeholder {
+					color: $gray-color;
+				}
 			}
 			&.select2-container--open {
 				.select2-selection--single {
@@ -111,6 +114,7 @@ $select-base-width: 100%;
 			font-size: em($base-font-size, $base-font-size);
 			.select2-selection__rendered {
 				padding: 0 flex(70px, $select-base-width) 0 flex(20px, $select-base-width);
+				text-transform: uppercase;
 			}
 		}
 	}

@@ -105,7 +105,7 @@
 		}
 	}
 	&.btn-default {
-		width: 146px;
+		width: flex(146px, $base-width-content);
 		height: em(41px, $btn-font-size);
 		line-height: em(41px, $btn-font-size);
 		border: 1px solid #dedfdf;
@@ -180,6 +180,11 @@
 		height: em(42px, $base-font-size);
 		line-height: em(42px, $base-font-size);
 		width: flex(147px, $base-width-content);
+	}
+	&.btn_long {
+		height: em(45px, $base-font-size);
+		line-height: em(45px, $base-font-size);
+		width: flex(182px, $base-width-content);
 	}
 	&.btn_gray {
 		background-color: #7e8890;
