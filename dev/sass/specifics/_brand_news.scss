@@ -69,6 +69,14 @@ $brand_news-font-size: 15px;
 
 .brand_news_toolbax {
 	overflow: hidden;
+	&.description {
+		.brand_news_list {
+			width: flex(360px, $base-width-content);
+		}
+		.brand_news_toolbax_list {
+			margin-left: flex(60px, $base-width-content);
+		}
+	}
 	.brand_news_list {
 		width: flex(460px, $base-width-content);
 		.btn {

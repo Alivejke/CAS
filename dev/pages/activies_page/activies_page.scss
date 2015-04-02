@@ -1,8 +1,23 @@
 @import '../../sass/base/__base';
+@import "compass/css3";
 
-.description {
-    position: relative;
-    padding: em(90px, $base-font-size) 0 em(100px, $base-font-size) 0;
-    border-top: 1px solid #cecfd0;
-    border-bottom: 1px solid #cecfd0;
+.activies_page_wrap {
+    
+    .content_wrap, .wrap_channels {
+        margin-top: em(60px, $base-font-size);
+    }
+    .block_img {
+        border: 1px solid #cecfd0;
+        @include border-radius(4px);
+        // width: 296px;
+        // height: 283px;
+        // padding: 13px;
+        padding: em(13px, $base-font-size) flex(13px, 296px);
+        width: 100%;
+        display: block;
+    }
+    .brand_news_toolbax_list  {
+        width: flex(296px, $base-width-content);
+        height: em(283px, $base-font-size);
+    }
 }
