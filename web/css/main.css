@@ -2113,32 +2113,40 @@ textarea {
 .brand_news_toolbax {
   overflow: hidden;
 }
-/* line 72, ../../dev/sass/specifics/_brand_news.scss */
+/* line 73, ../../dev/sass/specifics/_brand_news.scss */
+.brand_news_toolbax.description .brand_news_list {
+  width: 48.78049%;
+}
+/* line 76, ../../dev/sass/specifics/_brand_news.scss */
+.brand_news_toolbax.description .brand_news_toolbax_list {
+  margin-left: 8.13008%;
+}
+/* line 80, ../../dev/sass/specifics/_brand_news.scss */
 .brand_news_toolbax .brand_news_list {
   width: 62.33062%;
 }
-/* line 74, ../../dev/sass/specifics/_brand_news.scss */
+/* line 82, ../../dev/sass/specifics/_brand_news.scss */
 .brand_news_toolbax .brand_news_list .btn {
   margin-top: 4em;
 }
-/* line 76, ../../dev/sass/specifics/_brand_news.scss */
+/* line 84, ../../dev/sass/specifics/_brand_news.scss */
 .brand_news_toolbax .brand_news_list .btn.btn_small {
   width: 31.95652%;
 }
-/* line 81, ../../dev/sass/specifics/_brand_news.scss */
+/* line 89, ../../dev/sass/specifics/_brand_news.scss */
 .brand_news_toolbax .brand_news_toolbax_list {
   margin-left: 13.55014%;
 }
 
-/* line 85, ../../dev/sass/specifics/_brand_news.scss */
+/* line 93, ../../dev/sass/specifics/_brand_news.scss */
 .brand_news_toolbax_list {
   margin-top: 3.26667em;
 }
-/* line 87, ../../dev/sass/specifics/_brand_news.scss */
+/* line 95, ../../dev/sass/specifics/_brand_news.scss */
 .brand_news_toolbax_list li {
   margin-top: 2.33333em;
 }
-/* line 89, ../../dev/sass/specifics/_brand_news.scss */
+/* line 97, ../../dev/sass/specifics/_brand_news.scss */
 .brand_news_toolbax_list li:first-child {
   margin-top: 0;
 }
