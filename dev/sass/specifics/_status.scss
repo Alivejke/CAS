@@ -4,7 +4,7 @@ $status_wrap-width: 300px;
 }
 .status_wrap {
 	position: absolute;
-	top: em(-116px, $base-font-size);
+	top: em(-113px, $base-font-size);
 	right: 0;
 	background: $white-color;
 	width: flex($status_wrap-width, $base-width-content);
