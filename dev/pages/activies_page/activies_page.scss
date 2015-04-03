@@ -1,6 +1,5 @@
 @import '../../sass/base/__base';
 @import "compass/css3";
-$brand_news-font-size: 15px;
 
 .activies_page_wrap {
     
@@ -16,10 +15,13 @@ $brand_news-font-size: 15px;
         padding: em(13px, $base-font-size) flex(13px, 296px);
         width: 100%;
         display: block;
+        img {
+            max-width: 100%;
+        }
     }
     .brand_news_toolbax_list  {
         width: flex(296px, $base-width-content);
-        height: em(283px, $base-font-size);
+        // height: em(283px, $base-font-size);
     }
     .channel {
         width: flex(320px, $base-width);
@@ -48,8 +50,9 @@ $brand_news-font-size: 15px;
                     text-decoration: none;
                     &:before {
                         content: '';
-                        width: 1px;
-                        height: 1px;
+                        width: 4px;
+                        height: 4px;
+                        @include border-radius(100%);
                         background-color: $gray-color;
                         position: absolute;
                         display: block;
@@ -72,10 +75,15 @@ $brand_news-font-size: 15px;
         p.text {
             font-family: pragmatica,Helvetica,Arial,sans-serif;
             font-weight: 300;
-            font-size: em($brand_news-font-size, $base-font-size);
-            line-height: em(21px, $brand_news-font-size);
+            font-size: em($base-font-size, $base-font-size);
+            line-height: em(21px, $base-font-size);
             color: $gray-color;
             letter-spacing: 1px;
+        }
+    }
+    .content_wrap {
+        .btn:nth-last-child(1) {
+            margin-bottom: 1px;
         }
     }
 }

@@ -29,6 +29,7 @@
 }
 .menu {
 	overflow: hidden;
+	max-width: flex(560px, $base-width-content);
 	li {
 		float: left;
 		// padding-left: 15px;
