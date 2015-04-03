@@ -1,9 +1,10 @@
 @import '../../sass/base/__base';
 @import "compass/css3";
+$brand_news-font-size: 15px;
 
 .activies_page_wrap {
     
-    .content_wrap, .wrap_channels {
+    .content_wrap, .wrap_block {
         margin-top: em(60px, $base-font-size);
     }
     .block_img {
@@ -19,5 +20,62 @@
     .brand_news_toolbax_list  {
         width: flex(296px, $base-width-content);
         height: em(283px, $base-font-size);
+    }
+    .channel {
+        width: flex(320px, $base-width);
+        float: left;
+
+        .icon {
+            margin: 0px auto;
+        }
+        .name_channels {
+            font-family: pragmatica,Helvetica,Arial,sans-serif;
+            font-weight: 300;
+            font-size: em($brand_news_title-font-size, $base-font-size);
+            line-height: 1;
+            color: $base-color;
+            text-align: center;
+            padding: em(15px, $base-font-size) 0;
+        }
+        ul {
+            li {
+                a {
+                    color: $gray-color;
+                    position: relative;
+                    margin-left: flex(90px, 246px);
+                    display: block;
+                    padding: em(5px, $base-font-size) 0;
+                    text-decoration: none;
+                    &:before {
+                        content: '';
+                        width: 1px;
+                        height: 1px;
+                        background-color: $gray-color;
+                        position: absolute;
+                        display: block;
+                        left: -12px;
+                        top: 12px;
+                    }
+                }
+            }
+        }
+    }
+    .wrap_block {
+        .title {
+            font-family: pragmatica,Helvetica,Arial,sans-serif;
+            font-weight: 300;
+            font-size: em($brand_news_title-font-size, $base-font-size);
+            line-height: 1;
+            color: $base-color;
+            margin-bottom: em(28px, $main_title-font-size);
+        }
+        p.text {
+            font-family: pragmatica,Helvetica,Arial,sans-serif;
+            font-weight: 300;
+            font-size: em($brand_news-font-size, $base-font-size);
+            line-height: em(21px, $brand_news-font-size);
+            color: $gray-color;
+            letter-spacing: 1px;
+        }
     }
 }

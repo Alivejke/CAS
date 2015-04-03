@@ -1693,6 +1693,27 @@ textarea {
   height: 30px;
 }
 
+/* line 125, ../../dev/sass/specifics/_icons.scss */
+.ico_tree {
+  background-position: -880px 0px;
+  width: 57px;
+  height: 55px;
+}
+
+/* line 130, ../../dev/sass/specifics/_icons.scss */
+.ico_glass {
+  background-position: -960px 0px;
+  width: 57px;
+  height: 55px;
+}
+
+/* line 135, ../../dev/sass/specifics/_icons.scss */
+.ico_cart {
+  background-position: -1040px 0px;
+  width: 57px;
+  height: 55px;
+}
+
 /* line 1, ../../dev/sass/specifics/_buttons.scss */
 .btn {
   font-size: 0.93333em;
@@ -2115,11 +2136,11 @@ textarea {
 }
 /* line 73, ../../dev/sass/specifics/_brand_news.scss */
 .brand_news_toolbax.description .brand_news_list {
-  width: 48.78049%;
+  width: 52.84553%;
 }
 /* line 76, ../../dev/sass/specifics/_brand_news.scss */
 .brand_news_toolbax.description .brand_news_toolbax_list {
-  margin-left: 8.13008%;
+  margin-left: 0;
 }
 /* line 80, ../../dev/sass/specifics/_brand_news.scss */
 .brand_news_toolbax .brand_news_list {
