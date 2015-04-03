@@ -862,67 +862,68 @@ body {
 /* line 20, ../../dev/sass/specifics/_common.scss */
 .wrap {
   width: 960px;
+  max-width: 100%;
   margin: 0 auto;
   padding: 0 111px;
   height: 100%;
 }
-/* line 25, ../../dev/sass/specifics/_common.scss */
+/* line 26, ../../dev/sass/specifics/_common.scss */
 .header .wrap, .footer .wrap {
   padding-right: 0;
 }
-/* line 28, ../../dev/sass/specifics/_common.scss */
+/* line 29, ../../dev/sass/specifics/_common.scss */
 .wrap.padding-none {
   padding: 0;
 }
 
-/* line 33, ../../dev/sass/specifics/_common.scss */
+/* line 34, ../../dev/sass/specifics/_common.scss */
 .float-right {
   float: right;
 }
 
-/* line 37, ../../dev/sass/specifics/_common.scss */
+/* line 38, ../../dev/sass/specifics/_common.scss */
 .float-left {
   float: left;
 }
 
-/* line 41, ../../dev/sass/specifics/_common.scss */
+/* line 42, ../../dev/sass/specifics/_common.scss */
 .center {
   text-align: center;
 }
 
-/* line 45, ../../dev/sass/specifics/_common.scss */
+/* line 46, ../../dev/sass/specifics/_common.scss */
 textarea {
   resize: none;
 }
 
-/* line 49, ../../dev/sass/specifics/_common.scss */
+/* line 50, ../../dev/sass/specifics/_common.scss */
 .clearfix:before, .clearfix:after {
   display: table;
   content: " ";
 }
 
-/* line 54, ../../dev/sass/specifics/_common.scss */
+/* line 55, ../../dev/sass/specifics/_common.scss */
 .clearfix:after {
   clear: both;
 }
 
-/* line 58, ../../dev/sass/specifics/_common.scss */
+/* line 59, ../../dev/sass/specifics/_common.scss */
 .clear {
   clear: both;
 }
 
-/* line 62, ../../dev/sass/specifics/_common.scss */
+/* line 63, ../../dev/sass/specifics/_common.scss */
 *, :after, :before {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
-/* line 66, ../../dev/sass/specifics/_common.scss */
+/* line 67, ../../dev/sass/specifics/_common.scss */
 *:focus, :after:focus, :before:focus {
   outline: none;
 }
 
-/* line 71, ../../dev/sass/specifics/_common.scss */
+/* line 72, ../../dev/sass/specifics/_common.scss */
 .caret {
   display: inline-block;
   width: 0;
@@ -934,21 +935,21 @@ textarea {
   border-left: 4px solid transparent;
 }
 
-/* line 82, ../../dev/sass/specifics/_common.scss */
+/* line 83, ../../dev/sass/specifics/_common.scss */
 .content_wrap {
   margin-top: 1.33333em;
 }
-/* line 84, ../../dev/sass/specifics/_common.scss */
+/* line 85, ../../dev/sass/specifics/_common.scss */
 .content_wrap.content_wrap_indent {
   margin-top: 5.86667em;
 }
 
-/* line 90, ../../dev/sass/specifics/_common.scss */
+/* line 91, ../../dev/sass/specifics/_common.scss */
 .ui_list {
   margin: 50px 25px;
   overflow: hidden;
 }
-/* line 93, ../../dev/sass/specifics/_common.scss */
+/* line 94, ../../dev/sass/specifics/_common.scss */
 .ui_list li {
   float: left;
   width: 33%;
