@@ -1093,7 +1093,7 @@ textarea {
 
 /* line 25, ../../dev/sass/specifics/_footer.scss */
 .footer_navigate {
-  margin-left: 0.8em;
+  margin-left: 1.26667em;
 }
 /* line 28, ../../dev/sass/specifics/_footer.scss */
 .footer_navigate a {
@@ -1108,10 +1108,14 @@ textarea {
   padding-left: 0.46667em;
 }
 /* line 39, ../../dev/sass/specifics/_footer.scss */
+.footer_navigate a:first-child {
+  padding: 0;
+}
+/* line 41, ../../dev/sass/specifics/_footer.scss */
 .footer_navigate a:first-child:before {
   display: none;
 }
-/* line 42, ../../dev/sass/specifics/_footer.scss */
+/* line 45, ../../dev/sass/specifics/_footer.scss */
 .footer_navigate a:before {
   content: '';
   display: inline-block;
@@ -1122,16 +1126,16 @@ textarea {
   top: 2px;
   left: 0px;
 }
-/* line 52, ../../dev/sass/specifics/_footer.scss */
+/* line 55, ../../dev/sass/specifics/_footer.scss */
 .footer_navigate a:hover {
   color: #c8c8c8;
 }
-/* line 54, ../../dev/sass/specifics/_footer.scss */
+/* line 57, ../../dev/sass/specifics/_footer.scss */
 .footer_navigate a:hover:before {
   background-color: #c8c8c8;
 }
 
-/* line 61, ../../dev/sass/specifics/_footer.scss */
+/* line 64, ../../dev/sass/specifics/_footer.scss */
 .footer_copyright {
   line-height: 1;
   margin: -0.6em 0 0 1.4em;
@@ -1605,7 +1609,7 @@ textarea {
 
 /* line 179, ../../dev/sass/specifics/_selects.scss */
 .select2-results__option {
-  padding: 13px 40px;
+  padding: 0.86667em 2.66667em;
 }
 /* line 181, ../../dev/sass/specifics/_selects.scss */
 .select2-results__option .select2-results__option--highlighted {
@@ -2176,12 +2180,13 @@ textarea {
 /* line 33, ../../dev/sass/specifics/_brand_news.scss */
 .brand_news .btn_wrap {
   width: 849px;
+  max-width: 76.875%;
   height: 3.33333em;
   margin: 0 auto;
   position: absolute;
   bottom: -1.86667em;
 }
-/* line 40, ../../dev/sass/specifics/_brand_news.scss */
+/* line 41, ../../dev/sass/specifics/_brand_news.scss */
 .brand_news .btn_big_rounded_wrap {
   display: inline-block;
   background-color: #fff;
@@ -2190,79 +2195,79 @@ textarea {
   position: absolute;
   bottom: 0;
 }
-/* line 49, ../../dev/sass/specifics/_brand_news.scss */
+/* line 50, ../../dev/sass/specifics/_brand_news.scss */
 .brand_news .btn_big_rounded_wrap .btn.btn_big_rounded .ico_edit {
   left: -8.25243%;
 }
-/* line 52, ../../dev/sass/specifics/_brand_news.scss */
+/* line 53, ../../dev/sass/specifics/_brand_news.scss */
 .brand_news .btn_big_rounded_wrap .btn.btn_big_rounded .ico_add {
   left: -8.25243%;
 }
-/* line 57, ../../dev/sass/specifics/_brand_news.scss */
+/* line 58, ../../dev/sass/specifics/_brand_news.scss */
 .brand_news .btn_big_rounded_wrap.btn_toolbox {
   width: 20.02356%;
   height: 3.66667em;
 }
-/* line 60, ../../dev/sass/specifics/_brand_news.scss */
+/* line 61, ../../dev/sass/specifics/_brand_news.scss */
 .brand_news .btn_big_rounded_wrap.btn_toolbox .btn_big_rounded {
   height: 100%;
   line-height: 3.92857em;
 }
-/* line 63, ../../dev/sass/specifics/_brand_news.scss */
+/* line 64, ../../dev/sass/specifics/_brand_news.scss */
 .brand_news .btn_big_rounded_wrap.btn_toolbox .btn_big_rounded .ico_edit, .brand_news .btn_big_rounded_wrap.btn_toolbox .btn_big_rounded .ico_add, .brand_news .btn_big_rounded_wrap.btn_toolbox .btn_big_rounded .ico_upload {
   left: -2.94118%;
 }
-/* line 68, ../../dev/sass/specifics/_brand_news.scss */
+/* line 69, ../../dev/sass/specifics/_brand_news.scss */
 .brand_news .btn_big_rounded_wrap.pos_left {
   left: 0;
 }
-/* line 71, ../../dev/sass/specifics/_brand_news.scss */
+/* line 72, ../../dev/sass/specifics/_brand_news.scss */
 .brand_news .btn_big_rounded_wrap.pos_right {
   right: 0;
 }
-/* line 74, ../../dev/sass/specifics/_brand_news.scss */
+/* line 75, ../../dev/sass/specifics/_brand_news.scss */
 .brand_news .btn_big_rounded_wrap .btn_big_rounded {
   background-color: #fff;
 }
 
-/* line 80, ../../dev/sass/specifics/_brand_news.scss */
+/* line 81, ../../dev/sass/specifics/_brand_news.scss */
 .brand_news_toolbax {
   overflow: hidden;
 }
-/* line 83, ../../dev/sass/specifics/_brand_news.scss */
+/* line 84, ../../dev/sass/specifics/_brand_news.scss */
 .brand_news_toolbax.description .brand_news_list {
   width: 52.84553%;
 }
-/* line 86, ../../dev/sass/specifics/_brand_news.scss */
+/* line 87, ../../dev/sass/specifics/_brand_news.scss */
 .brand_news_toolbax.description .brand_news_toolbax_list {
   margin-left: 0;
 }
-/* line 90, ../../dev/sass/specifics/_brand_news.scss */
+/* line 91, ../../dev/sass/specifics/_brand_news.scss */
 .brand_news_toolbax .brand_news_list {
   width: 62.33062%;
 }
-/* line 92, ../../dev/sass/specifics/_brand_news.scss */
+/* line 93, ../../dev/sass/specifics/_brand_news.scss */
 .brand_news_toolbax .brand_news_list .btn {
   margin-top: 4em;
 }
-/* line 94, ../../dev/sass/specifics/_brand_news.scss */
+/* line 95, ../../dev/sass/specifics/_brand_news.scss */
 .brand_news_toolbax .brand_news_list .btn.btn_small {
   width: 31.95652%;
 }
-/* line 99, ../../dev/sass/specifics/_brand_news.scss */
+/* line 100, ../../dev/sass/specifics/_brand_news.scss */
 .brand_news_toolbax .brand_news_toolbax_list {
   margin-left: 13.55014%;
 }
 
-/* line 103, ../../dev/sass/specifics/_brand_news.scss */
+/* line 104, ../../dev/sass/specifics/_brand_news.scss */
 .brand_news_toolbax_list {
   margin-top: 3.26667em;
 }
-/* line 105, ../../dev/sass/specifics/_brand_news.scss */
+/* line 106, ../../dev/sass/specifics/_brand_news.scss */
 .brand_news_toolbax_list li {
   margin-top: 2.33333em;
 }
-/* line 107, ../../dev/sass/specifics/_brand_news.scss */
+/* line 108, ../../dev/sass/specifics/_brand_news.scss */
 .brand_news_toolbax_list li:first-child {
   margin-top: 0;
 }

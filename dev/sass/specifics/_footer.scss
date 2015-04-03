@@ -24,7 +24,7 @@ $footer-font-size: 15px;
 }
 .footer_navigate {
 	// line-height: 1;
-	margin-left: em(12px, $base-font-size);
+	margin-left: em(19px, $base-font-size);
 	a {
 		position: relative;
 		// font-family: 'Open Sans', sans-serif;
@@ -36,8 +36,11 @@ $footer-font-size: 15px;
 		text-transform: uppercase;
 		margin-left: em(2px, $footer-font-size);
 		padding-left: em(7px, $footer-font-size);
-		&:first-child:before {
-			display: none;
+		&:first-child {
+			padding: 0;
+			&:before {
+				display: none;
+			}
 		}
 		&:before {
 			content: '';
