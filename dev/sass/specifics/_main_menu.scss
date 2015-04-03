@@ -1,4 +1,6 @@
 @import "compass/css3";
+$main_menu_item-width: 314px;
+$main_menu_item-width-hover: 367px;
 .main_menu_wrap {
 	text-align: center;
 	margin-top: em(95px, $base-font-size);
@@ -73,7 +75,7 @@
 			height: em(314px, $base-font-size);
 			// line-height: em(314px, $main_menu-font-size);
 			line-height: 1;
-			margin: 22px 0 0 22px;
+			margin: em(22px, $base-font-size) 0 0 flex(22px, $base-width-content);
 			.main_menu_item {
 				position: relative;
 				background: none;
@@ -86,6 +88,8 @@
 					top: 0;
 					left: 0;
 					z-index: -1;
+					width: 100%;
+					height: 100%;
 				}
 				.main_menu_item-bg {
 					display: none;
@@ -102,7 +106,7 @@
 				.main_menu_text_wrap {
 					position: relative;
 					z-index: 5;
-					padding: 20px 25px;
+					padding: em(20px, $base-font-size) flex(25px, $main_menu_item-width);
 					color: $white-color;
 					text-align: left;
 					.star_wrap {
@@ -137,7 +141,7 @@
 				.main_menu_view {
 					display: none;
 					width: 100%;
-					line-height: 76px;
+					line-height: em(76px, $base-font-size);
 					position: absolute;
 					bottom: 0;
 					left: 0;
@@ -148,6 +152,7 @@
 					z-index: 20;
 				}
 				.ico_status_big {
+					width: flex(30px, $main_menu_item-width);
 					position: absolute;
 					top: -15px;
 					left: -15px;
@@ -164,20 +169,19 @@
 					z-index: 15;
 					img {
 						display: block;
-						width: 100%;
 					}
 					.main_menu_item-bg {
 						display: block;
 					}
 					.ico_status_big {
-						width: 37px;
-						height: 37px;
+						width: flex(37px, $main_menu_item-width-hover);
+						height: em(37px, $base-font-size);
 						border-width: 7px;
-						top: -19px;
-						left: -19px;
+						top: em(-19px, $base-font-size);
+						left: flex(-19px, $main_menu_item-width-hover);
 					}
 					.main_menu_text_wrap {
-						padding: em(20px, $base-font-size) flex(65px, 366px) em(20px, $base-font-size) flex(36px, 366px);
+						padding: em(20px, $base-font-size) flex(65px, $main_menu_item-width-hover) em(20px, $base-font-size) flex(36px, $main_menu_item-width-hover);
 						.main_menu_status_product {
 							margin-top: em(38px, $base-font-size);
 						}
@@ -198,7 +202,7 @@
 	margin-top: em(53px, $base-font-size);
 	li {
 		float: left;
-		margin-left: flex(11px, 314px - 50px);
+		margin-left: flex(11px, $main_menu_item-width - 50px);
 		&:first-child {
 			margin-left: 0;
 		}

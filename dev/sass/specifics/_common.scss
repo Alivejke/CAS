@@ -20,7 +20,7 @@ body {
 .wrap {
 	width: $base-width;
 	margin: 0 auto;
-	padding: 0 $base-margin;
+	padding: 0 em($base-margin);
 	height: 100%;
 	.header &, .footer & {
 		padding-right: 0;
@@ -83,6 +83,9 @@ textarea {
 	margin-top: em(20px, $base-font-size);
 	&.content_wrap_indent {
 		margin-top: em(88px, $base-font-size);
+	}
+	&.bg_gray {
+		background-color: #f8faf9;
 	}
 }
 

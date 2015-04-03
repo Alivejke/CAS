@@ -90,17 +90,17 @@
 		}
 		.ico_upload {
 			position: relative;
-			top: 10px;
+			top: em(5px, $btn-font-size);
 			left: -17px;
 		}
 		.ico_edit {
 			position: relative;
-			top: 10px;
+			top: em(4px, $btn-font-size);
 			left: -17px;
 		}
 		.ico_add {
 			position: relative;
-			top: 10px;
+			top: em(5px, $btn-font-size);
 			left: -17px;
 		}
 	}

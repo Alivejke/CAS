@@ -4,13 +4,14 @@ $status_wrap-width: 300px;
 }
 .status_wrap {
 	position: absolute;
-	top: em(-116px, $base-font-size);
+	top: em(-113px, $base-font-size);
 	right: 0;
 	background: $white-color;
 	width: flex($status_wrap-width, $base-width-content);
 	.btn_big_rounded {
 		width: 100%;
 		height: em(42px, $btn-font-size);
+		line-height: em(42px, $btn-font-size);
 		.ico_calendar {
 			margin: 0 0 0 flex(20px, $status_wrap-width);
 			height: 16px;

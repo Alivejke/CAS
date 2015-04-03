@@ -3,7 +3,7 @@
 	@return $target / $context + 0em;
 }
 
-@function flex($target, $context: $container-width) {
+@function flex($target, $context: $base-width) {
 	@if $target == 0 { @return 0 }
 	@return $target / $context * 100%;
 }

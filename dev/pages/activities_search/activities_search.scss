@@ -1,0 +1,10 @@
+@import '../../sass/base/__base';
+.content_wrap {
+	&.activiities_search {
+		.select_wrap {
+			&.select_long {
+				margin-top: em(23px, $base-font-size);
+			}
+		}
+	}
+}

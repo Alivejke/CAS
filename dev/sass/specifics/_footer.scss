@@ -7,6 +7,7 @@
 }
 
 .footer_logo {
+	width: flex(125px, $base-width-content-one);
 	margin-left: flex(103px, $base-width);
 	img {
 		vertical-align: middle;
@@ -17,8 +18,12 @@
 }
 
 $footer-font-size: 15px;
-.footer_navigate {
+.footer_navigate_wrap {
+	width: flex(630px, $base-width-content-one);
 	line-height: em(39px, $base-font-size);
+}
+.footer_navigate {
+	// line-height: 1;
 	margin-left: em(12px, $base-font-size);
 	a {
 		position: relative;
@@ -32,7 +37,7 @@ $footer-font-size: 15px;
 		margin-left: em(2px, $footer-font-size);
 		padding-left: em(7px, $footer-font-size);
 		&:first-child:before {
-			display: none
+			display: none;
 		}
 		&:before {
 			content: '';

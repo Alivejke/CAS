@@ -57,6 +57,12 @@
 	font-size: em($base-font-size, $base-font-size);
 	text-transform: uppercase;
 	position: relative;
+	&.navigation_ico-big {
+		&:before {
+			background-position: 0 -80px;
+			top: em(-2px, $base-font-size);
+		}
+	}
 	&:before {
 		content: '';
 		display: inline-block;

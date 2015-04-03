@@ -35,15 +35,25 @@ $brand_news-font-size: 15px;
 		height: em(50px, $base-font-size);
 		margin: 0 auto;
 		position: absolute;
-		bottom: -28px;
+		bottom: em(-28px);
 	}
 	.btn_big_rounded_wrap {
 		display: inline-block;
 		background-color: #fff;
-		width: 218px;
+		width: flex(218px, $base-width - $base-margin);
 		height: em(50px, $btn-font-size);
 		position: absolute;
 		bottom: 0;
+		.btn {
+			&.btn_big_rounded {
+				.ico_edit {
+					left: flex(-17px, 218px - 12px);
+				}
+				.ico_add {
+					left: flex(-17px, 218px - 12px);
+				}
+			}
+		}
 		&.btn_toolbox {
 			width: flex(170px, $base-width - $base-margin);
 			height: em(55px, $base-font-size);
@@ -51,7 +61,7 @@ $brand_news-font-size: 15px;
 				height: 100%;
 				line-height: em(55px, $btn-font-size);
 				.ico_edit, .ico_add, .ico_upload {
-					left: -5px;
+					left: flex(-5px, 170px);
 				}
 			}
 		}
