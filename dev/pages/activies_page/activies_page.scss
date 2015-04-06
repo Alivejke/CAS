@@ -110,8 +110,14 @@
                 }
                 .ico_search {
                     position: absolute;
-                    top: 0;
-                    left: 0;
+                    // top: 1.6em;
+                    // left: 33%;
+                    top: em(25px, $base-font-size);
+                    left: flex(25px, 73px);
+                    display: none;
+                }
+                &:hover .ico_search{
+                    display: block;
                 }
             }
             .name {

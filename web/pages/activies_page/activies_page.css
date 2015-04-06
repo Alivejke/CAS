@@ -186,18 +186,23 @@
 /* line 111, ../../../dev/pages/activies_page/activies_page.scss */
 .activies_page_wrap .attachments_blocks .block .icon .ico_search {
   position: absolute;
-  top: 0;
-  left: 0;
+  top: 1.66667em;
+  left: 34.24658%;
+  display: none;
 }
-/* line 117, ../../../dev/pages/activies_page/activies_page.scss */
+/* line 119, ../../../dev/pages/activies_page/activies_page.scss */
+.activies_page_wrap .attachments_blocks .block .icon:hover .ico_search {
+  display: block;
+}
+/* line 123, ../../../dev/pages/activies_page/activies_page.scss */
 .activies_page_wrap .attachments_blocks .block .name {
   float: left;
 }
-/* line 120, ../../../dev/pages/activies_page/activies_page.scss */
+/* line 126, ../../../dev/pages/activies_page/activies_page.scss */
 .activies_page_wrap .attachments_blocks .block .text {
   float: left;
 }
-/* line 123, ../../../dev/pages/activies_page/activies_page.scss */
+/* line 129, ../../../dev/pages/activies_page/activies_page.scss */
 .activies_page_wrap .attachments_blocks .block .file_size {
   float: left;
   width: 66.66667%;

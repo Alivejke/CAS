@@ -18,7 +18,10 @@
 			&:hover {
 				background-position: -67px -27px;
 			}
-			&.active {
+			// &.active {
+			// 	background-position: -66px -66px;
+			// }
+			&:active {
 				background-position: -66px -66px;
 			}
 		}
@@ -27,7 +30,10 @@
 			&:hover {
 				background-position: -270px -65px;
 			}
-			&.active {
+			// &.active {
+			// 	background-position: -270px -145px;
+			// }
+			&:active {
 				background-position: -270px -145px;
 			}
 		}
@@ -36,7 +42,10 @@
 			&:hover {
 				background-position: -346px -69px;
 			}
-			&.active {
+			// &.active {
+			// 	background-position: -346px -149px;
+			// }
+			&:active {
 				background-position: -346px -149px;
 			}
 		}
@@ -51,7 +60,10 @@
 		&:hover {
 			@include opacity(0.5);
 		}
-		&.active {
+		// &.active {
+		// 	@include opaque;
+		// }
+		&:active {
 			@include opaque;
 		}
 	}
@@ -76,7 +88,19 @@
 				background-position: -760px 0px;
 			}
 		}
-		&.active {
+		// &.active {
+		// 	@include opaque;
+		// 	.ico_upload {
+		// 		background-position: -440px 0px;
+		// 	}
+		// 	.ico_edit {
+		// 		background-position: -520px 0px;
+		// 	}
+		// 	.ico_add {
+		// 		background-position: -760px 0px;
+		// 	}
+		// }
+		&:active {
 			@include opaque;
 			.ico_upload {
 				background-position: -440px 0px;
@@ -113,7 +137,11 @@
 			background-color: #0f3e6e;
 			color: $white-color;
 		}
-		&.active {
+		// &.active {
+		// 	background-color: $white-color;
+		// 	color: #738189;
+		// }
+		&:active {
 			background-color: $white-color;
 			color: #738189;
 		}
@@ -123,7 +151,11 @@
 			background-color: #2ecc71;
 			color: $white-color;
 		}
-		&.active {
+		// &.active {
+		// 	background-color: $white-color;
+		// 	color: #738189;
+		// }
+		&:active {
 			background-color: $white-color;
 			color: #738189;
 		}
@@ -133,7 +165,11 @@
 			background-color: #b70e12;
 			color: $white-color;
 		}
-		&.active {
+		// &.active {
+		// 	background-color: $white-color;
+		// 	color: #738189;
+		// }
+		&:active {
 			background-color: $white-color;
 			color: #738189;
 		}
@@ -143,7 +179,11 @@
 			background-color: #b70e12;
 			color: $white-color;
 		}
-		&.active {
+		// &.active {
+		// 	background-color: $white-color;
+		// 	color: #738189;
+		// }
+		&:active {
 			background-color: $white-color;
 			color: #738189;
 		}
@@ -151,7 +191,13 @@
 	&.btn-upload {
 		background-color: #f8faf9;
 		color: rgba(50, 58, 69, 100);
-		&:hover, &.active {
+		&:hover
+		// , &.active 
+		{
+			background-color: #f8faf9;
+			color: rgba(50,58,69, .5);
+		}
+		&:active {
 			background-color: #f8faf9;
 			color: rgba(50,58,69, .5);
 		}
@@ -171,7 +217,10 @@
 			background: none;
 			color: #747476;
 		}
-		&.active {
+		// &.active {
+		// 	border-bottom: 1px solid transparent;
+		// }
+		&:active {
 			border-bottom: 1px solid transparent;
 		}
 	}
