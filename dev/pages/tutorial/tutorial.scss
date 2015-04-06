@@ -1,0 +1,85 @@
+@import '../../sass/base/__base';
+@import "compass/css3";
+
+.main_title_actives {
+  margin-bottom: em(120px, $main_title-font-size);
+}
+
+.tutorial_heading {
+  border-bottom: 1px solid #CECFD0;
+  position: relative;
+  .btn_wrap {
+    width: $base-width - $base-margin;
+    max-width: flex($base-width - $base-margin*2);
+    height: em(50px, $base-font-size);
+    margin: 0 auto;
+    position: absolute;
+    bottom: em(-28px);
+  }
+  .btn_big_rounded_wrap {
+    display: inline-block;
+    background-color: #fff;
+    width: flex(218px, $base-width - $base-margin);
+    height: em(50px, $btn-font-size);
+    position: absolute;
+    bottom: 0;
+    &.pos_left {
+      left: 0;
+    }
+  }
+}
+.tutorial_documents {
+  margin: 120px auto 0 auto;
+  width: $base-width-content;
+  .wrap {
+    @include clearfix();
+  }
+}
+.container {
+  margin-left: -27px;
+  margin-right: -27px;
+  @include clearfix();
+}
+.document {
+  float: left;
+  width: 50%;
+  padding: 0 27px;
+  margin-bottom: em(180px);
+  &:nth-child(odd) {
+    clear: left;
+  }
+  .manage, .description {
+    float: left;
+  }
+  .manage {
+    width: 19.84585741811175%;
+    padding-right: 10px;
+    .rounded_image {
+      width: 100%;
+      max-width: 80px;
+      height: auto;
+    }
+    .sprite_ico {
+      display: block;
+      margin: 16px auto 0 auto;
+    }
+  }
+  .description {
+    width: 80.15414258188825%;
+    h2 {
+      color: #4D4D4D;
+      font-weight: 400;
+      font-size: em(16px);
+      margin-bottom: em(24px, 16px);
+      small {
+        display: block;
+      }
+    }
+    p {
+      color: #5A636E;
+      font-size: em(14px);
+      line-height: em(26px, 14px);
+      font-weight: 400;
+    }
+  }
+}

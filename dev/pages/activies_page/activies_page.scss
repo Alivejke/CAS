@@ -2,10 +2,10 @@
 @import "compass/css3";
 
 .activies_page_wrap {
-    
     .content_wrap, .wrap_block {
         margin-top: em(60px, $base-font-size);
     }
+
     .block_img {
         border: 1px solid #cecfd0;
         @include border-radius(4px);
