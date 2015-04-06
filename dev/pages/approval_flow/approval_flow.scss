@@ -1,0 +1,53 @@
+@import '../../sass/base/__base';
+@import "compass/css3";
+
+.approval_flow_wrap{
+	.main_title{
+		font-size: $main_title-font-size;
+		font-weight: 600;
+	}
+	.main_title_approval{
+		margin-top: em(60px, $main_title-font-size);
+	}
+	.approval_table{
+		width: 100%;
+		max-width: 960px;
+		margin: 0 auto;
+		td{
+			width: 20%;
+			color: $gray-color-old;
+		}
+		.wrap_comments_table {
+			.user_name{
+				color: $gray-color;
+			}
+			.comment_table{
+				margin-bottom: 10px;
+			}
+		}
+	}
+	.title_table{
+		width: 100%;
+		background-color: #f8faf9;
+		table{
+			max-width: 960px;
+			margin: 0 auto;
+			width: 100%;
+		}
+		th{
+			font-size: $base-font-size;
+			text-align: left;
+			text-transform: uppercase;
+			color: $gray-color;
+			width: 20%;
+		}
+	}
+}
+.wrap_table{
+	& > div{
+		padding: 1.5em 0;
+	}
+	& > div:nth-child(odd){
+		background-color: #f8faf9;
+	}
+}

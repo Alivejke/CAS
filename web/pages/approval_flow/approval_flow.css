@@ -1,0 +1,124 @@
+@font-face {
+  font-family: 'brandon_grotesquebold';
+  src: url("../fonts/brandon_bld.eot");
+  src: url("../fonts/brandon_bld.eot?#iefix") format("embedded-opentype"), url("../fonts/brandon_bld.woff2") format("woff2"), url("../fonts/brandon_bld.woff") format("woff"), url("../fonts/brandon_bld.ttf") format("truetype"), url("../fonts/brandon_bld.svg#brandon_grotesquebold") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'brandon_grotesquemedium';
+  src: url("../fonts/brandon_med.eot");
+  src: url("../fonts/brandon_med.eot?#iefix") format("embedded-opentype"), url("../fonts/brandon_med.woff2") format("woff2"), url("../fonts/brandon_med.woff") format("woff"), url("../fonts/brandon_med.ttf") format("truetype"), url("../fonts/brandon_med.svg#brandon_grotesquemedium") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'brandon_grotesque_regularRg';
+  src: url("../fonts/brandon_reg.eot");
+  src: url("../fonts/brandon_reg.eot?#iefix") format("embedded-opentype"), url("../fonts/brandon_reg.woff2") format("woff2"), url("../fonts/brandon_reg.woff") format("woff"), url("../fonts/brandon_reg.ttf") format("truetype"), url("../fonts/brandon_reg.svg#brandon_grotesque_regularRg") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'proxima_nova_cn_rgregular';
+  src: url("../fonts/proximanovacond-regular.eot");
+  src: url("../fonts/proximanovacond-regular.eot?#iefix") format("embedded-opentype"), url("../fonts/proximanovacond-regular.woff2") format("woff2"), url("../fonts/proximanovacond-regular.woff") format("woff"), url("../fonts/proximanovacond-regular.ttf") format("truetype"), url("../fonts/proximanovacond-regular.svg#proxima_nova_cn_rgregular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'proxima_novalight';
+  src: url("../fonts/proximanova-light.eot");
+  src: url("../fonts/proximanova-light.eot?#iefix") format("embedded-opentype"), url("../fonts/proximanova-light.woff2") format("woff2"), url("../fonts/proximanova-light.woff") format("woff"), url("../fonts/proximanova-light.ttf") format("truetype"), url("../fonts/proximanova-light.svg#proxima_novalight") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: pragmatica-el;
+  src: url(../fonts/pragmatica-extralight-v2.eot);
+  src: url(../fonts/pragmatica-extralight-v2.eot?#iefix) format("embedded-opentype"), url(../fonts/pragmatica-extralight-v2.woff) format("woff"), url(../fonts/pragmatica-extralight-v2.ttf) format("truetype");
+  font-weight: 100;
+  font-style: normal;
+}
+@font-face {
+  font-family: pragmatica;
+  src: url(../fonts/pragmatica-light-v2.eot);
+  src: url(../fonts/pragmatica-light-v2.eot?#iefix) format("embedded-opentype"), url(../fonts/pragmatica-light-v2.woff) format("woff"), url(../fonts/pragmatica-light-v2.ttf) format("truetype");
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: pragmatica;
+  src: url(../fonts/pragmatica-regular-v2.eot);
+  src: url(../fonts/pragmatica-regular-v2.eot?#iefix) format("embedded-opentype"), url(../fonts/pragmatica-regular-v2.woff) format("woff"), url(../fonts/pragmatica-regular-v2.ttf) format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: pragmatica;
+  src: url(../fonts/pragmatica-medium-v2.eot);
+  src: url(../fonts/pragmatica-medium-v2.eot?#iefix) format("embedded-opentype"), url(../fonts/pragmatica-medium-v2.woff) format("woff"), url(../fonts/pragmatica-medium-v2.ttf) format("truetype");
+  font-weight: 600;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Glyphicons Halflings';
+  src: url("../fonts/glyphicons-halflings-regular.eot");
+  src: url("../fonts/glyphicons-halflings-regular.eot?#iefix") format("embedded-opentype"), url("../fonts/glyphicons-halflings-regular.woff2") format("woff2"), url("../fonts/glyphicons-halflings-regular.woff") format("woff"), url("../fonts/glyphicons-halflings-regular.ttf") format("truetype"), url("../fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular") format("svg");
+}
+/* line 5, ../../../dev/pages/approval_flow/approval_flow.scss */
+.approval_flow_wrap .main_title {
+  font-size: 27px;
+  font-weight: 600;
+}
+/* line 9, ../../../dev/pages/approval_flow/approval_flow.scss */
+.approval_flow_wrap .main_title_approval {
+  margin-top: 2.22222em;
+}
+/* line 12, ../../../dev/pages/approval_flow/approval_flow.scss */
+.approval_flow_wrap .approval_table {
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+}
+/* line 16, ../../../dev/pages/approval_flow/approval_flow.scss */
+.approval_flow_wrap .approval_table td {
+  width: 20%;
+  color: #77808b;
+}
+/* line 21, ../../../dev/pages/approval_flow/approval_flow.scss */
+.approval_flow_wrap .approval_table .wrap_comments_table .user_name {
+  color: #45484C;
+}
+/* line 24, ../../../dev/pages/approval_flow/approval_flow.scss */
+.approval_flow_wrap .approval_table .wrap_comments_table .comment_table {
+  margin-bottom: 10px;
+}
+/* line 29, ../../../dev/pages/approval_flow/approval_flow.scss */
+.approval_flow_wrap .title_table {
+  width: 100%;
+  background-color: #f8faf9;
+}
+/* line 32, ../../../dev/pages/approval_flow/approval_flow.scss */
+.approval_flow_wrap .title_table table {
+  max-width: 960px;
+  margin: 0 auto;
+  width: 100%;
+}
+/* line 37, ../../../dev/pages/approval_flow/approval_flow.scss */
+.approval_flow_wrap .title_table th {
+  font-size: 15px;
+  text-align: left;
+  text-transform: uppercase;
+  color: #45484C;
+  width: 20%;
+}
+
+/* line 47, ../../../dev/pages/approval_flow/approval_flow.scss */
+.wrap_table > div {
+  padding: 1.5em 0;
+}
+/* line 50, ../../../dev/pages/approval_flow/approval_flow.scss */
+.wrap_table > div:nth-child(odd) {
+  background-color: #f8faf9;
+}
