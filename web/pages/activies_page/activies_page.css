@@ -152,3 +152,53 @@
 .activies_page_wrap .content_wrap .btn:nth-last-child(1) {
   margin-bottom: 1px;
 }
+/* line 89, ../../../dev/pages/activies_page/activies_page.scss */
+.activies_page_wrap .attachments_blocks {
+  margin-top: 4em;
+}
+/* line 92, ../../../dev/pages/activies_page/activies_page.scss */
+.activies_page_wrap .attachments_blocks .block {
+  width: 46.875%;
+  float: left;
+}
+/* line 95, ../../../dev/pages/activies_page/activies_page.scss */
+.activies_page_wrap .attachments_blocks .block .icon {
+  width: 21.11111%;
+  float: left;
+  padding: 0.33333em 1.66667%;
+  -moz-border-radius: 100%;
+  -webkit-border-radius: 100%;
+  border-radius: 100%;
+  cursor: pointer;
+  border: 1px solid transparent;
+  position: relative;
+}
+/* line 103, ../../../dev/pages/activies_page/activies_page.scss */
+.activies_page_wrap .attachments_blocks .block .icon:hover {
+  border-color: #42CE7F;
+}
+/* line 106, ../../../dev/pages/activies_page/activies_page.scss */
+.activies_page_wrap .attachments_blocks .block .icon img {
+  max-width: 100%;
+  margin: 0px auto;
+  display: block;
+}
+/* line 111, ../../../dev/pages/activies_page/activies_page.scss */
+.activies_page_wrap .attachments_blocks .block .icon .ico_search {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+/* line 117, ../../../dev/pages/activies_page/activies_page.scss */
+.activies_page_wrap .attachments_blocks .block .name {
+  float: left;
+}
+/* line 120, ../../../dev/pages/activies_page/activies_page.scss */
+.activies_page_wrap .attachments_blocks .block .text {
+  float: left;
+}
+/* line 123, ../../../dev/pages/activies_page/activies_page.scss */
+.activies_page_wrap .attachments_blocks .block .file_size {
+  float: left;
+  width: 66.66667%;
+}
