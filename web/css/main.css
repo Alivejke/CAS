@@ -1804,6 +1804,13 @@ textarea {
   height: 55px;
 }
 
+/* line 140, ../../dev/sass/specifics/_icons.scss */
+.ico_search {
+  background-position: -1040px 0px;
+  width: 21px;
+  height: 25px;
+}
+
 /* line 1, ../../dev/sass/specifics/_buttons.scss */
 .btn {
   font-size: 0.93333em;

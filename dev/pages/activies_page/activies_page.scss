@@ -86,4 +86,44 @@
             margin-bottom: 1px;
         }
     }
+    .attachments_blocks {
+        margin-top: em(60px, $base-font-size);
+
+        .block {
+            width: flex(450px, $base-width);
+            float: left;
+            .icon {
+                width: flex(95px, 450px);
+                float: left;
+                padding: em(5px, $base-font-size) flex(5px, 300px);
+                @include border-radius(100%);
+                cursor: pointer;
+                border: 1px solid transparent;
+                position: relative;
+                &:hover {
+                    border-color: #42CE7F
+                }
+                img {
+                    max-width: 100%;
+                    margin: 0px auto;
+                    display: block;
+                }
+                .ico_search {
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                }
+            }
+            .name {
+                float: left;
+            }
+            .text {
+                float: left;
+            }
+            .file_size {
+                float: left;
+                width: flex(300px, 450px);
+            }
+        }
+    }
 }
