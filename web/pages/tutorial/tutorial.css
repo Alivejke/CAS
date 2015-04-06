@@ -1,0 +1,189 @@
+@font-face {
+  font-family: 'brandon_grotesquebold';
+  src: url("../fonts/brandon_bld.eot");
+  src: url("../fonts/brandon_bld.eot?#iefix") format("embedded-opentype"), url("../fonts/brandon_bld.woff2") format("woff2"), url("../fonts/brandon_bld.woff") format("woff"), url("../fonts/brandon_bld.ttf") format("truetype"), url("../fonts/brandon_bld.svg#brandon_grotesquebold") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'brandon_grotesquemedium';
+  src: url("../fonts/brandon_med.eot");
+  src: url("../fonts/brandon_med.eot?#iefix") format("embedded-opentype"), url("../fonts/brandon_med.woff2") format("woff2"), url("../fonts/brandon_med.woff") format("woff"), url("../fonts/brandon_med.ttf") format("truetype"), url("../fonts/brandon_med.svg#brandon_grotesquemedium") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'brandon_grotesque_regularRg';
+  src: url("../fonts/brandon_reg.eot");
+  src: url("../fonts/brandon_reg.eot?#iefix") format("embedded-opentype"), url("../fonts/brandon_reg.woff2") format("woff2"), url("../fonts/brandon_reg.woff") format("woff"), url("../fonts/brandon_reg.ttf") format("truetype"), url("../fonts/brandon_reg.svg#brandon_grotesque_regularRg") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'proxima_nova_cn_rgregular';
+  src: url("../fonts/proximanovacond-regular.eot");
+  src: url("../fonts/proximanovacond-regular.eot?#iefix") format("embedded-opentype"), url("../fonts/proximanovacond-regular.woff2") format("woff2"), url("../fonts/proximanovacond-regular.woff") format("woff"), url("../fonts/proximanovacond-regular.ttf") format("truetype"), url("../fonts/proximanovacond-regular.svg#proxima_nova_cn_rgregular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'proxima_novalight';
+  src: url("../fonts/proximanova-light.eot");
+  src: url("../fonts/proximanova-light.eot?#iefix") format("embedded-opentype"), url("../fonts/proximanova-light.woff2") format("woff2"), url("../fonts/proximanova-light.woff") format("woff"), url("../fonts/proximanova-light.ttf") format("truetype"), url("../fonts/proximanova-light.svg#proxima_novalight") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: pragmatica-el;
+  src: url(../fonts/pragmatica-extralight-v2.eot);
+  src: url(../fonts/pragmatica-extralight-v2.eot?#iefix) format("embedded-opentype"), url(../fonts/pragmatica-extralight-v2.woff) format("woff"), url(../fonts/pragmatica-extralight-v2.ttf) format("truetype");
+  font-weight: 100;
+  font-style: normal;
+}
+@font-face {
+  font-family: pragmatica;
+  src: url(../fonts/pragmatica-light-v2.eot);
+  src: url(../fonts/pragmatica-light-v2.eot?#iefix) format("embedded-opentype"), url(../fonts/pragmatica-light-v2.woff) format("woff"), url(../fonts/pragmatica-light-v2.ttf) format("truetype");
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: pragmatica;
+  src: url(../fonts/pragmatica-regular-v2.eot);
+  src: url(../fonts/pragmatica-regular-v2.eot?#iefix) format("embedded-opentype"), url(../fonts/pragmatica-regular-v2.woff) format("woff"), url(../fonts/pragmatica-regular-v2.ttf) format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: pragmatica;
+  src: url(../fonts/pragmatica-medium-v2.eot);
+  src: url(../fonts/pragmatica-medium-v2.eot?#iefix) format("embedded-opentype"), url(../fonts/pragmatica-medium-v2.woff) format("woff"), url(../fonts/pragmatica-medium-v2.ttf) format("truetype");
+  font-weight: 600;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Glyphicons Halflings';
+  src: url("../fonts/glyphicons-halflings-regular.eot");
+  src: url("../fonts/glyphicons-halflings-regular.eot?#iefix") format("embedded-opentype"), url("../fonts/glyphicons-halflings-regular.woff2") format("woff2"), url("../fonts/glyphicons-halflings-regular.woff") format("woff"), url("../fonts/glyphicons-halflings-regular.ttf") format("truetype"), url("../fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular") format("svg");
+}
+/* line 4, ../../../dev/pages/tutorial/tutorial.scss */
+.main_title_actives {
+  margin-bottom: 4.44444em;
+}
+
+/* line 8, ../../../dev/pages/tutorial/tutorial.scss */
+.tutorial_heading {
+  border-bottom: 1px solid #CECFD0;
+  position: relative;
+}
+/* line 11, ../../../dev/pages/tutorial/tutorial.scss */
+.tutorial_heading .btn_wrap {
+  width: 849px;
+  max-width: 76.875%;
+  height: 3.33333em;
+  margin: 0 auto;
+  position: absolute;
+  bottom: -1.86667em;
+}
+/* line 19, ../../../dev/pages/tutorial/tutorial.scss */
+.tutorial_heading .btn_big_rounded_wrap {
+  display: inline-block;
+  background-color: #fff;
+  width: 25.67727%;
+  height: 3.57143em;
+  position: absolute;
+  bottom: 0;
+}
+/* line 26, ../../../dev/pages/tutorial/tutorial.scss */
+.tutorial_heading .btn_big_rounded_wrap.pos_left {
+  left: 0;
+}
+
+/* line 31, ../../../dev/pages/tutorial/tutorial.scss */
+.tutorial_documents {
+  margin: 120px auto 0 auto;
+  width: 738px;
+}
+/* line 34, ../../../dev/pages/tutorial/tutorial.scss */
+.tutorial_documents .wrap {
+  *zoom: 1;
+}
+/* line 41, ../../../dev/sass/base/utils/_mixins.scss */
+.tutorial_documents .wrap:before, .tutorial_documents .wrap:after {
+  content: ' ';
+  display: table;
+}
+/* line 46, ../../../dev/sass/base/utils/_mixins.scss */
+.tutorial_documents .wrap:after {
+  clear: both;
+}
+
+/* line 38, ../../../dev/pages/tutorial/tutorial.scss */
+.container {
+  margin-left: -27px;
+  margin-right: -27px;
+  *zoom: 1;
+}
+/* line 41, ../../../dev/sass/base/utils/_mixins.scss */
+.container:before, .container:after {
+  content: ' ';
+  display: table;
+}
+/* line 46, ../../../dev/sass/base/utils/_mixins.scss */
+.container:after {
+  clear: both;
+}
+
+/* line 43, ../../../dev/pages/tutorial/tutorial.scss */
+.document {
+  float: left;
+  width: 50%;
+  padding: 0 27px;
+  margin-bottom: 12em;
+}
+/* line 48, ../../../dev/pages/tutorial/tutorial.scss */
+.document:nth-child(odd) {
+  clear: left;
+}
+/* line 51, ../../../dev/pages/tutorial/tutorial.scss */
+.document .manage, .document .description {
+  float: left;
+}
+/* line 54, ../../../dev/pages/tutorial/tutorial.scss */
+.document .manage {
+  width: 19.84585741811175%;
+  padding-right: 10px;
+}
+/* line 57, ../../../dev/pages/tutorial/tutorial.scss */
+.document .manage .rounded_image {
+  width: 100%;
+  max-width: 80px;
+  height: auto;
+}
+/* line 62, ../../../dev/pages/tutorial/tutorial.scss */
+.document .manage .sprite_ico {
+  display: block;
+  margin: 16px auto 0 auto;
+}
+/* line 67, ../../../dev/pages/tutorial/tutorial.scss */
+.document .description {
+  width: 80.15414258188825%;
+}
+/* line 69, ../../../dev/pages/tutorial/tutorial.scss */
+.document .description h2 {
+  color: #4D4D4D;
+  font-weight: 400;
+  font-size: 1.06667em;
+  margin-bottom: 1.5em;
+}
+/* line 74, ../../../dev/pages/tutorial/tutorial.scss */
+.document .description h2 small {
+  display: block;
+}
+/* line 78, ../../../dev/pages/tutorial/tutorial.scss */
+.document .description p {
+  color: #5A636E;
+  font-size: 0.93333em;
+  line-height: 1.85714em;
+  font-weight: 400;
+}
