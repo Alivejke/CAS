@@ -31,8 +31,8 @@
 		}
 	}
 	.btn_wrap {
-		width: $base-width - $base-margin;
-		max-width: flex($base-width - $base-margin*2);
+		width: flex(525.5px, $base-width);
+		// max-width: flex($base-width - $base-margin*2);
 		height: em(50px, $base-font-size);
 		margin: 0 auto;
 		position: absolute;

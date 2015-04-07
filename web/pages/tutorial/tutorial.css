@@ -66,144 +66,124 @@
   src: url("../fonts/glyphicons-halflings-regular.eot");
   src: url("../fonts/glyphicons-halflings-regular.eot?#iefix") format("embedded-opentype"), url("../fonts/glyphicons-halflings-regular.woff2") format("woff2"), url("../fonts/glyphicons-halflings-regular.woff") format("woff"), url("../fonts/glyphicons-halflings-regular.ttf") format("truetype"), url("../fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular") format("svg");
 }
-/* line 5, ../../../dev/pages/activies_page/activies_page.scss */
-.activies_page_wrap .content_wrap, .activies_page_wrap .wrap_block {
-  margin-top: 4em;
+/* line 4, ../../../dev/pages/tutorial/tutorial.scss */
+.main_title_actives {
+  margin-bottom: 4.44444em;
 }
-/* line 9, ../../../dev/pages/activies_page/activies_page.scss */
-.activies_page_wrap .block_img {
-  border: 1px solid #cecfd0;
-  -moz-border-radius: 4px;
-  -webkit-border-radius: 4px;
-  border-radius: 4px;
-  padding: 0.86667em 4.39189%;
+
+/* line 8, ../../../dev/pages/tutorial/tutorial.scss */
+.tutorial_heading {
+  border-bottom: 1px solid #CECFD0;
+  position: relative;
+}
+/* line 11, ../../../dev/pages/tutorial/tutorial.scss */
+.tutorial_heading .btn_wrap {
+  width: 849px;
+  max-width: 76.875%;
+  height: 3.33333em;
+  margin: 0 auto;
+  position: absolute;
+  bottom: -1.86667em;
+}
+/* line 19, ../../../dev/pages/tutorial/tutorial.scss */
+.tutorial_heading .btn_big_rounded_wrap {
+  display: inline-block;
+  background-color: #fff;
+  width: 25.67727%;
+  height: 3.57143em;
+  position: absolute;
+  bottom: 0;
+}
+/* line 26, ../../../dev/pages/tutorial/tutorial.scss */
+.tutorial_heading .btn_big_rounded_wrap.pos_left {
+  left: 0;
+}
+
+/* line 31, ../../../dev/pages/tutorial/tutorial.scss */
+.tutorial_documents {
+  margin: 120px auto 0 auto;
+  width: 738px;
+}
+/* line 34, ../../../dev/pages/tutorial/tutorial.scss */
+.tutorial_documents .wrap {
+  *zoom: 1;
+}
+/* line 41, ../../../dev/sass/base/utils/_mixins.scss */
+.tutorial_documents .wrap:before, .tutorial_documents .wrap:after {
+  content: ' ';
+  display: table;
+}
+/* line 46, ../../../dev/sass/base/utils/_mixins.scss */
+.tutorial_documents .wrap:after {
+  clear: both;
+}
+
+/* line 38, ../../../dev/pages/tutorial/tutorial.scss */
+.container {
+  margin-left: -27px;
+  margin-right: -27px;
+  *zoom: 1;
+}
+/* line 41, ../../../dev/sass/base/utils/_mixins.scss */
+.container:before, .container:after {
+  content: ' ';
+  display: table;
+}
+/* line 46, ../../../dev/sass/base/utils/_mixins.scss */
+.container:after {
+  clear: both;
+}
+
+/* line 43, ../../../dev/pages/tutorial/tutorial.scss */
+.document {
+  float: left;
+  width: 50%;
+  padding: 0 27px;
+  margin-bottom: 12em;
+}
+/* line 48, ../../../dev/pages/tutorial/tutorial.scss */
+.document:nth-child(odd) {
+  clear: left;
+}
+/* line 51, ../../../dev/pages/tutorial/tutorial.scss */
+.document .manage, .document .description {
+  float: left;
+}
+/* line 54, ../../../dev/pages/tutorial/tutorial.scss */
+.document .manage {
+  width: 19.84585741811175%;
+  padding-right: 10px;
+}
+/* line 57, ../../../dev/pages/tutorial/tutorial.scss */
+.document .manage .rounded_image {
   width: 100%;
+  max-width: 80px;
+  height: auto;
+}
+/* line 62, ../../../dev/pages/tutorial/tutorial.scss */
+.document .manage .sprite_ico {
+  display: block;
+  margin: 16px auto 0 auto;
+}
+/* line 67, ../../../dev/pages/tutorial/tutorial.scss */
+.document .description {
+  width: 80.15414258188825%;
+}
+/* line 69, ../../../dev/pages/tutorial/tutorial.scss */
+.document .description h2 {
+  color: #4D4D4D;
+  font-weight: 400;
+  font-size: 1.06667em;
+  margin-bottom: 1.5em;
+}
+/* line 74, ../../../dev/pages/tutorial/tutorial.scss */
+.document .description h2 small {
   display: block;
 }
-/* line 18, ../../../dev/pages/activies_page/activies_page.scss */
-.activies_page_wrap .block_img img {
-  max-width: 100%;
-}
-/* line 22, ../../../dev/pages/activies_page/activies_page.scss */
-.activies_page_wrap .brand_news_toolbax_list {
-  width: 40.1084%;
-}
-/* line 26, ../../../dev/pages/activies_page/activies_page.scss */
-.activies_page_wrap .channel {
-  width: 33.33333%;
-  float: left;
-}
-/* line 30, ../../../dev/pages/activies_page/activies_page.scss */
-.activies_page_wrap .channel .icon {
-  margin: 0px auto;
-}
-/* line 33, ../../../dev/pages/activies_page/activies_page.scss */
-.activies_page_wrap .channel .name_channels {
-  font-family: pragmatica,Helvetica,Arial,sans-serif;
-  font-weight: 300;
-  font-size: 1.6em;
-  line-height: 1;
-  color: #000;
-  text-align: center;
-  padding: 1em 0;
-}
-/* line 44, ../../../dev/pages/activies_page/activies_page.scss */
-.activies_page_wrap .channel ul li a {
-  color: #45484C;
-  position: relative;
-  margin-left: 36.58537%;
-  display: block;
-  padding: 0.33333em 0;
-  text-decoration: none;
-}
-/* line 51, ../../../dev/pages/activies_page/activies_page.scss */
-.activies_page_wrap .channel ul li a:before {
-  content: '';
-  width: 4px;
-  height: 4px;
-  -moz-border-radius: 100%;
-  -webkit-border-radius: 100%;
-  border-radius: 100%;
-  background-color: #45484C;
-  position: absolute;
-  display: block;
-  left: -12px;
-  top: 12px;
-}
-/* line 67, ../../../dev/pages/activies_page/activies_page.scss */
-.activies_page_wrap .wrap_block .title {
-  font-family: pragmatica,Helvetica,Arial,sans-serif;
-  font-weight: 300;
-  font-size: 1.6em;
-  line-height: 1;
-  color: #000;
-  margin-bottom: 1.03704em;
-}
-/* line 75, ../../../dev/pages/activies_page/activies_page.scss */
-.activies_page_wrap .wrap_block p.text {
-  font-family: pragmatica,Helvetica,Arial,sans-serif;
-  font-weight: 300;
-  font-size: 1em;
-  line-height: 1.4em;
-  color: #45484C;
-  letter-spacing: 1px;
-}
-/* line 85, ../../../dev/pages/activies_page/activies_page.scss */
-.activies_page_wrap .content_wrap .btn:nth-last-child(1) {
-  margin-bottom: 1px;
-}
-/* line 89, ../../../dev/pages/activies_page/activies_page.scss */
-.activies_page_wrap .attachments_blocks {
-  margin-top: 4em;
-}
-/* line 92, ../../../dev/pages/activies_page/activies_page.scss */
-.activies_page_wrap .attachments_blocks .block {
-  width: 46.875%;
-  float: left;
-}
-/* line 95, ../../../dev/pages/activies_page/activies_page.scss */
-.activies_page_wrap .attachments_blocks .block .icon {
-  width: 21.11111%;
-  float: left;
-  padding: 0.33333em 1.66667%;
-  -moz-border-radius: 100%;
-  -webkit-border-radius: 100%;
-  border-radius: 100%;
-  cursor: pointer;
-  border: 1px solid transparent;
-  position: relative;
-}
-/* line 103, ../../../dev/pages/activies_page/activies_page.scss */
-.activies_page_wrap .attachments_blocks .block .icon:hover {
-  border-color: #42CE7F;
-}
-/* line 106, ../../../dev/pages/activies_page/activies_page.scss */
-.activies_page_wrap .attachments_blocks .block .icon img {
-  max-width: 100%;
-  margin: 0px auto;
-  display: block;
-}
-/* line 111, ../../../dev/pages/activies_page/activies_page.scss */
-.activies_page_wrap .attachments_blocks .block .icon .ico_search {
-  position: absolute;
-  top: 1.66667em;
-  left: 34.24658%;
-  display: none;
-}
-/* line 119, ../../../dev/pages/activies_page/activies_page.scss */
-.activies_page_wrap .attachments_blocks .block .icon:hover .ico_search {
-  display: block;
-}
-/* line 123, ../../../dev/pages/activies_page/activies_page.scss */
-.activies_page_wrap .attachments_blocks .block .name {
-  float: left;
-}
-/* line 126, ../../../dev/pages/activies_page/activies_page.scss */
-.activies_page_wrap .attachments_blocks .block .text {
-  float: left;
-}
-/* line 129, ../../../dev/pages/activies_page/activies_page.scss */
-.activies_page_wrap .attachments_blocks .block .file_size {
-  float: left;
-  width: 66.66667%;
+/* line 78, ../../../dev/pages/tutorial/tutorial.scss */
+.document .description p {
+  color: #5A636E;
+  font-size: 0.93333em;
+  line-height: 1.85714em;
+  font-weight: 400;
 }
