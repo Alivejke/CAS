@@ -20,7 +20,8 @@
 $footer-font-size: 15px;
 .footer_navigate_wrap {
 	width: flex(630px, $base-width-content-one);
-	line-height: em(39px, $base-font-size);
+	line-height: em($base-font-size);
+	margin-top: em($base-font-size);
 }
 .footer_navigate {
 	// line-height: 1;
@@ -63,7 +64,7 @@ $footer-font-size: 15px;
 
 .footer_copyright {
 	line-height: 1;
-	margin: em(-9px, $footer-font-size) 0 0 em(21px, $footer-font-size);
+	margin: em(0px, $footer-font-size) 0 0 em(21px, $footer-font-size);
 	font-family: 'Open Sans', sans-serif;
 	font-family: pragmatica,Helvetica,Arial,sans-serif;
 	font-weight: 300;

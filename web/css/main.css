@@ -1088,14 +1088,15 @@ textarea {
 /* line 21, ../../dev/sass/specifics/_footer.scss */
 .footer_navigate_wrap {
   width: 74.20495%;
-  line-height: 2.6em;
+  line-height: 1em;
+  margin-top: 1em;
 }
 
-/* line 25, ../../dev/sass/specifics/_footer.scss */
+/* line 26, ../../dev/sass/specifics/_footer.scss */
 .footer_navigate {
   margin-left: 1.26667em;
 }
-/* line 28, ../../dev/sass/specifics/_footer.scss */
+/* line 29, ../../dev/sass/specifics/_footer.scss */
 .footer_navigate a {
   position: relative;
   font-family: pragmatica,Helvetica,Arial,sans-serif;
@@ -1107,15 +1108,15 @@ textarea {
   margin-left: 0.13333em;
   padding-left: 0.46667em;
 }
-/* line 39, ../../dev/sass/specifics/_footer.scss */
+/* line 40, ../../dev/sass/specifics/_footer.scss */
 .footer_navigate a:first-child {
   padding: 0;
 }
-/* line 41, ../../dev/sass/specifics/_footer.scss */
+/* line 42, ../../dev/sass/specifics/_footer.scss */
 .footer_navigate a:first-child:before {
   display: none;
 }
-/* line 45, ../../dev/sass/specifics/_footer.scss */
+/* line 46, ../../dev/sass/specifics/_footer.scss */
 .footer_navigate a:before {
   content: '';
   display: inline-block;
@@ -1126,19 +1127,19 @@ textarea {
   top: 2px;
   left: 0px;
 }
-/* line 55, ../../dev/sass/specifics/_footer.scss */
+/* line 56, ../../dev/sass/specifics/_footer.scss */
 .footer_navigate a:hover {
   color: #c8c8c8;
 }
-/* line 57, ../../dev/sass/specifics/_footer.scss */
+/* line 58, ../../dev/sass/specifics/_footer.scss */
 .footer_navigate a:hover:before {
   background-color: #c8c8c8;
 }
 
-/* line 64, ../../dev/sass/specifics/_footer.scss */
+/* line 65, ../../dev/sass/specifics/_footer.scss */
 .footer_copyright {
   line-height: 1;
-  margin: -0.6em 0 0 1.4em;
+  margin: 0 0 0 1.4em;
   font-family: 'Open Sans', sans-serif;
   font-family: pragmatica,Helvetica,Arial,sans-serif;
   font-weight: 300;
@@ -1456,7 +1457,7 @@ textarea {
 }
 /* line 18, ../../dev/sass/specifics/_selects.scss */
 .select_wrap.select_long .select2-container.select2-container--default .select2-selection--single .select2-selection__arrow {
-  height: 3.86667em;
+  height: 3.93333em;
   width: 6.91057%;
   border-left: 2px solid #929191;
 }
@@ -2195,8 +2196,7 @@ textarea {
 }
 /* line 33, ../../dev/sass/specifics/_brand_news.scss */
 .brand_news .btn_wrap {
-  width: 849px;
-  max-width: 76.875%;
+  width: 54.73958%;
   height: 3.33333em;
   margin: 0 auto;
   position: absolute;
