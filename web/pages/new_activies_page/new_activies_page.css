@@ -66,11 +66,19 @@
   src: url("../fonts/glyphicons-halflings-regular.eot");
   src: url("../fonts/glyphicons-halflings-regular.eot?#iefix") format("embedded-opentype"), url("../fonts/glyphicons-halflings-regular.woff2") format("woff2"), url("../fonts/glyphicons-halflings-regular.woff") format("woff"), url("../fonts/glyphicons-halflings-regular.ttf") format("truetype"), url("../fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular") format("svg");
 }
-/* line 5, ../../../dev/pages/activies_page/activies_page.scss */
+/* line 5, ../../../dev/pages/new_activies_page/new_activies_page.scss */
 .activies_page_wrap .content_wrap, .activies_page_wrap .wrap_block {
   margin-top: 4em;
 }
-/* line 9, ../../../dev/pages/activies_page/activies_page.scss */
+/* line 8, ../../../dev/pages/new_activies_page/new_activies_page.scss */
+.activies_page_wrap .status_wrap {
+  width: 50.1355%;
+}
+/* line 10, ../../../dev/pages/new_activies_page/new_activies_page.scss */
+.activies_page_wrap .status_wrap .valid {
+  font-weight: 500;
+}
+/* line 14, ../../../dev/pages/new_activies_page/new_activies_page.scss */
 .activies_page_wrap .block_img {
   border: 1px solid #cecfd0;
   -moz-border-radius: 4px;
@@ -80,34 +88,58 @@
   width: 100%;
   display: block;
 }
-/* line 18, ../../../dev/pages/activies_page/activies_page.scss */
+/* line 23, ../../../dev/pages/new_activies_page/new_activies_page.scss */
 .activies_page_wrap .block_img img {
   max-width: 100%;
 }
-/* line 22, ../../../dev/pages/activies_page/activies_page.scss */
+/* line 27, ../../../dev/pages/new_activies_page/new_activies_page.scss */
+.activies_page_wrap .description textarea {
+  width: 100%;
+  height: 9.73333em;
+}
+/* line 33, ../../../dev/pages/new_activies_page/new_activies_page.scss */
 .activies_page_wrap .brand_news_toolbax_list {
   width: 40.1084%;
+  height: 18.86667em;
 }
-/* line 26, ../../../dev/pages/activies_page/activies_page.scss */
+/* line 36, ../../../dev/pages/new_activies_page/new_activies_page.scss */
+.activies_page_wrap .brand_news_toolbax_list li {
+  height: 100%;
+}
+/* line 38, ../../../dev/pages/new_activies_page/new_activies_page.scss */
+.activies_page_wrap .brand_news_toolbax_list li a {
+  height: 100%;
+  position: relative;
+  border-color: #cecfd0;
+  background-color: #f8faf9;
+}
+/* line 43, ../../../dev/pages/new_activies_page/new_activies_page.scss */
+.activies_page_wrap .brand_news_toolbax_list li a .btn {
+  width: 46.07046%;
+  left: 27.5%;
+  top: 8em;
+  position: absolute;
+}
+/* line 52, ../../../dev/pages/new_activies_page/new_activies_page.scss */
 .activies_page_wrap .channel {
   width: 33.33333%;
   float: left;
 }
-/* line 30, ../../../dev/pages/activies_page/activies_page.scss */
+/* line 56, ../../../dev/pages/new_activies_page/new_activies_page.scss */
 .activies_page_wrap .channel .icon {
   margin: 0px auto;
 }
-/* line 33, ../../../dev/pages/activies_page/activies_page.scss */
+/* line 59, ../../../dev/pages/new_activies_page/new_activies_page.scss */
 .activies_page_wrap .channel .name_channels {
   font-family: pragmatica,Helvetica,Arial,sans-serif;
   font-weight: 300;
-  font-size: 1.6em;
+  font-size: 15px;
   line-height: 1;
   color: #000;
   text-align: center;
   padding: 1em 0;
 }
-/* line 44, ../../../dev/pages/activies_page/activies_page.scss */
+/* line 70, ../../../dev/pages/new_activies_page/new_activies_page.scss */
 .activies_page_wrap .channel ul li a {
   color: #45484C;
   position: relative;
@@ -116,7 +148,7 @@
   padding: 0.33333em 0;
   text-decoration: none;
 }
-/* line 51, ../../../dev/pages/activies_page/activies_page.scss */
+/* line 77, ../../../dev/pages/new_activies_page/new_activies_page.scss */
 .activies_page_wrap .channel ul li a:before {
   content: '';
   width: 4px;
@@ -130,7 +162,12 @@
   left: -12px;
   top: 12px;
 }
-/* line 67, ../../../dev/pages/activies_page/activies_page.scss */
+/* line 89, ../../../dev/pages/new_activies_page/new_activies_page.scss */
+.activies_page_wrap .channel ul li label {
+  margin-left: 36.58537%;
+  color: #45484C;
+}
+/* line 97, ../../../dev/pages/new_activies_page/new_activies_page.scss */
 .activies_page_wrap .wrap_block .title {
   font-family: pragmatica,Helvetica,Arial,sans-serif;
   font-weight: 300;
@@ -139,7 +176,7 @@
   color: #000;
   margin-bottom: 1.03704em;
 }
-/* line 75, ../../../dev/pages/activies_page/activies_page.scss */
+/* line 105, ../../../dev/pages/new_activies_page/new_activies_page.scss */
 .activies_page_wrap .wrap_block p.text {
   font-family: pragmatica,Helvetica,Arial,sans-serif;
   font-weight: 300;
@@ -148,21 +185,21 @@
   color: #45484C;
   letter-spacing: 1px;
 }
-/* line 85, ../../../dev/pages/activies_page/activies_page.scss */
+/* line 115, ../../../dev/pages/new_activies_page/new_activies_page.scss */
 .activies_page_wrap .content_wrap .btn:nth-last-child(1) {
   margin-bottom: 1px;
 }
-/* line 92, ../../../dev/pages/activies_page/activies_page.scss */
+/* line 122, ../../../dev/pages/new_activies_page/new_activies_page.scss */
 .activies_page_wrap .attachments_blocks .block {
   width: 46.875%;
   float: left;
   margin-top: 4em;
 }
-/* line 96, ../../../dev/pages/activies_page/activies_page.scss */
+/* line 126, ../../../dev/pages/new_activies_page/new_activies_page.scss */
 .activies_page_wrap .attachments_blocks .block:nth-child(2n) {
   margin-left: 6.06936%;
 }
-/* line 99, ../../../dev/pages/activies_page/activies_page.scss */
+/* line 129, ../../../dev/pages/new_activies_page/new_activies_page.scss */
 .activies_page_wrap .attachments_blocks .block .icon {
   width: 21.11111%;
   float: left;
@@ -175,44 +212,44 @@
   position: relative;
   margin-right: 1.5625%;
 }
-/* line 108, ../../../dev/pages/activies_page/activies_page.scss */
+/* line 138, ../../../dev/pages/new_activies_page/new_activies_page.scss */
 .activies_page_wrap .attachments_blocks .block .icon:hover {
   border-color: #42CE7F;
 }
-/* line 111, ../../../dev/pages/activies_page/activies_page.scss */
+/* line 141, ../../../dev/pages/new_activies_page/new_activies_page.scss */
 .activies_page_wrap .attachments_blocks .block .icon img {
   max-width: 100%;
   margin: 0px auto;
   display: block;
 }
-/* line 116, ../../../dev/pages/activies_page/activies_page.scss */
+/* line 146, ../../../dev/pages/new_activies_page/new_activies_page.scss */
 .activies_page_wrap .attachments_blocks .block .icon .ico_search {
   position: absolute;
   top: 1.66667em;
   left: 34.24658%;
   display: none;
 }
-/* line 124, ../../../dev/pages/activies_page/activies_page.scss */
+/* line 154, ../../../dev/pages/new_activies_page/new_activies_page.scss */
 .activies_page_wrap .attachments_blocks .block .icon:hover .ico_search {
   display: block;
 }
-/* line 128, ../../../dev/pages/activies_page/activies_page.scss */
+/* line 158, ../../../dev/pages/new_activies_page/new_activies_page.scss */
 .activies_page_wrap .attachments_blocks .block .name {
   float: left;
 }
-/* line 131, ../../../dev/pages/activies_page/activies_page.scss */
+/* line 161, ../../../dev/pages/new_activies_page/new_activies_page.scss */
 .activies_page_wrap .attachments_blocks .block .text {
   float: left;
   width: 66.66667%;
   margin-top: 0.66667em;
   color: #45484C;
 }
-/* line 137, ../../../dev/pages/activies_page/activies_page.scss */
+/* line 167, ../../../dev/pages/new_activies_page/new_activies_page.scss */
 .activies_page_wrap .attachments_blocks .block .file_size {
   float: left;
   width: 66.66667%;
 }
-/* line 141, ../../../dev/pages/activies_page/activies_page.scss */
+/* line 171, ../../../dev/pages/new_activies_page/new_activies_page.scss */
 .activies_page_wrap .attachments_blocks .block .ico_download {
   cursor: pointer;
 }

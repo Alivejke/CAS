@@ -3715,3 +3715,45 @@ textarea {
 .calendar_status_wrap .calendar_status.calendar_status-error {
   display: none;
 }
+
+/* line 1, ../../dev/sass/specifics/_checkbox.scss */
+input[type="checkbox"] {
+  display: none;
+}
+
+/* line 4, ../../dev/sass/specifics/_checkbox.scss */
+input[type="checkbox"] + label {
+  cursor: pointer;
+}
+
+/* line 7, ../../dev/sass/specifics/_checkbox.scss */
+input[type="checkbox"] + label::before,
+input[type="radio"] + label::before {
+  content: "";
+  display: inline-block;
+  height: 18px;
+  width: 18px;
+  margin: 0 5px 0 0;
+  background: url(/i/sprite.png) 0px 0px no-repeat;
+  background-repeat: no-repeat;
+}
+
+/* line 17, ../../dev/sass/specifics/_checkbox.scss */
+input[type="checkbox"] + label::before {
+  background-position: 0px -160px;
+}
+
+/* line 20, ../../dev/sass/specifics/_checkbox.scss */
+input[type="checkbox"]:checked + label::before {
+  background-position: -40px -160px;
+}
+
+/* line 23, ../../dev/sass/specifics/_checkbox.scss */
+input[type="checkbox"]:disabled + label::before {
+  background-position: 0px -160px;
+}
+
+/* line 26, ../../dev/sass/specifics/_checkbox.scss */
+input[type="checkbox"]:checked:disabled + label::before {
+  background-position: -40px -160px;
+}

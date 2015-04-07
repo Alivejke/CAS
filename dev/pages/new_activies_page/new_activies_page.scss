@@ -5,7 +5,12 @@
     .content_wrap, .wrap_block {
         margin-top: em(60px, $base-font-size);
     }
-
+    .status_wrap {
+        width: flex(370px, $base-width-content);
+        .valid {
+            font-weight: 500;
+        }
+    }
     .block_img {
         border: 1px solid #cecfd0;
         @include border-radius(4px);
@@ -19,9 +24,30 @@
             max-width: 100%;
         }
     }
+    .description textarea{
+        // width: 388px;
+        // height: 126px;
+        width: 100%;
+        height: em( 146px, $base-font-size);
+    }
     .brand_news_toolbax_list  {
         width: flex(296px, $base-width-content);
-        // height: em(283px, $base-font-size);
+        height: em(283px, $base-font-size);
+        li {
+            height: 100%;
+            a {
+                height: 100%;
+                position: relative;
+                border-color: #cecfd0;
+                background-color: #f8faf9;
+                .btn {
+                    width: flex(340px, $base-width-content);
+                    left: 27.5%;
+                    top: 8em;
+                    position: absolute;
+                }
+            }
+        }
     }
     .channel {
         width: flex(320px, $base-width);
@@ -33,7 +59,7 @@
         .name_channels {
             font-family: pragmatica,Helvetica,Arial,sans-serif;
             font-weight: 300;
-            font-size: em($brand_news_title-font-size, $base-font-size);
+            font-size: $base-font-size;
             line-height: 1;
             color: $base-color;
             text-align: center;
@@ -59,6 +85,10 @@
                         left: -12px;
                         top: 12px;
                     }
+                }
+                label {
+                    margin-left: flex(90px, 246px);
+                    color: $gray-color;
                 }
             }
         }

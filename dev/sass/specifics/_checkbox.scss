@@ -1,0 +1,28 @@
+input[type="checkbox"]{
+    display:none;            
+}
+input[type="checkbox"] + label{
+  cursor: pointer;
+}
+input[type="checkbox"] + label::before,
+input[type="radio"] + label::before {
+    content: "";
+    display: inline-block;
+    height: 18px;
+    width: 18px;
+    margin: 0 5px 0 0;
+    background: url(/i/sprite.png) 0px 0px no-repeat;
+    background-repeat: no-repeat;
+}
+input[type="checkbox"] + label::before {
+    background-position: 0px -160px;    
+}
+input[type="checkbox"]:checked + label::before {
+    background-position: -40px -160px;
+}
+input[type="checkbox"]:disabled + label::before {
+    background-position: 0px -160px;
+}
+input[type="checkbox"]:checked:disabled + label::before {
+    background-position: -40px -160px;
+}
