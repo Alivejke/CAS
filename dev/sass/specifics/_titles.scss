@@ -52,3 +52,15 @@
 	line-height: 1;
 	text-transform: uppercase;
 }
+
+.no_reult_title {
+	font-family: pragmatica,Helvetica,Arial,sans-serif;
+	font-weight: 300;
+	color: #c4c4c4;
+	font-size: em(45px, $base-font-size);
+	line-height: em(52px, 45px);
+	text-transform: uppercase;
+	width: flex(280px, $base-width-content);
+	text-align: center;
+	margin: em(80px, 45px) auto em(120px, 45px);
+}

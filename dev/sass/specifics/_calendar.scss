@@ -1,0 +1,39 @@
+$calendar-font-size: 12px;
+.calendar_wrap {
+	margin-top: em(38px);
+	width: flex(289px);
+}
+
+.calendar_input {
+	font-size: em($calendar-font-size);
+	text-align: center;
+	line-height: em(40px, $calendar-font-size);
+	width: flex(100px);
+	height: em(40px, $calendar-font-size);
+	&.calendar_from {
+		margin-left: flex(10px);
+	}
+	&.calendar_to {
+
+	}
+}
+
+.calendar_date-separator {
+	display: inline-block;
+	margin: 0 flex(5px);
+}
+
+.calendar_status_wrap {
+	.calendar_status {
+		font-size: em($calendar-font-size);
+		text-transform: uppercase;
+		color: $gray-color;
+		// vertical-align: -1px;
+		&.calendar_status-valid {
+			display: inline-block;
+		}
+		&.calendar_status-error {
+			display: none;
+		}
+	}
+}

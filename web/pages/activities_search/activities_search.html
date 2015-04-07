@@ -48,23 +48,136 @@
             </section>
             <section class="content_wrap bg_gray">
                 <div class="wrap">
-                    <ul>
-                        <li>
-                            <h2 class="small_title">brands</h2>
-                            <div class="select_wrap select_default select_multiple_default">
-                                <select class="js-example-basic-multiple" multiple="multiple">
-                                    <option value="1">Marlboro</option>
-                                    <option value="2">Parliament</option>
-                                    <option value="3">L&M</option>
-                                    <option value="4">Chesterfield</option>
-                                    <option value="5">Bond</option>
-                                </select>
-                            </div>
-                        </li>
-                        <li>
-                            <h2 class="small_title">toolboxes</h2>
-                        </li>
-                    </ul>
+                    <form action="#">
+                        <ul class="activies_search_list">
+                            <li class="clearfix">
+                                <ul class="select_wrap_list float-left">
+                                    <li>
+                                        <h2 class="small_title">brands</h2>
+                                        <div class="select_wrap select_default select_multiple_default select_multiple_search">
+                                            <select class="js-example-basic-multiple" multiple="multiple">
+                                                <option value="1">Marlboro</option>
+                                                <option value="2">Parliament</option>
+                                                <option value="3">L&M</option>
+                                                <option value="4">Chesterfield</option>
+                                                <option value="5">Bond</option>
+                                            </select>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <h2 class="small_title">keywords</h2>
+                                        <div class="select_wrap select_default select_multiple_default select_multiple_search">
+                                            <select class="js-example-basic-multiple" multiple="multiple">
+                                                <option value="1">Marlboro</option>
+                                                <option value="2">Parliament</option>
+                                                <option value="3">L&M</option>
+                                                <option value="4">Chesterfield</option>
+                                                <option value="5">Bond</option>
+                                            </select>
+                                        </div>
+                                    </li>
+                                </ul>
+                                <ul class="select_wrap_list float-left">
+                                    <li>
+                                        <h2 class="small_title">toolboxes</h2>
+                                        <div class="select_wrap select_default select_multiple_default select_multiple_search">
+                                            <select class="js-example-basic-multiple" multiple="multiple">
+                                                <option value="1">Marlboro</option>
+                                                <option value="2">Parliament</option>
+                                                <option value="3">L&M</option>
+                                                <option value="4">Chesterfield</option>
+                                                <option value="5">Bond</option>
+                                            </select>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="clearfix">
+                                <ul class="select_wrap_list float-left">
+                                    <li>
+                                        <h2 class="small_title">channels</h2>
+                                        <div class="select_wrap select_default select_multiple_default">
+                                            <select class="js-example-basic-single">
+                                                <option value="1">Marlboro</option>
+                                                <option value="2">Parliament</option>
+                                                <option value="3">L&M</option>
+                                                <option value="4">Chesterfield</option>
+                                                <option value="5">Bond</option>
+                                            </select>
+                                        </div>
+                                    </li>
+                                </ul>
+                                <ul class="select_wrap_list float-left">
+                                    <li class="select_wrap_list_indent">
+                                        <div class="select_wrap select_default select_multiple_default">
+                                            <select class="js-example-basic-single">
+                                                <option value="0"></option>
+                                                <option value="1">Marlboro</option>
+                                                <option value="2">Parliament</option>
+                                                <option value="3">L&M</option>
+                                                <option value="4">Chesterfield</option>
+                                                <option value="5">Bond</option>
+                                            </select>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="select_wrap select_default select_multiple_default">
+                                            <select class="js-example-basic-single">
+                                                <option value="1">Marlboro</option>
+                                                <option value="2">Parliament</option>
+                                                <option value="3">L&M</option>
+                                                <option value="4">Chesterfield</option>
+                                                <option value="5">Bond</option>
+                                            </select>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="clearfix">
+                                <ul class="select_wrap_list float-left">
+                                    <li>
+                                        <h2 class="small_title">other parameters</h2>
+                                        <div class="select_wrap select_default select_multiple_default">
+                                            <select class="js-example-basic-single">
+                                                <option value="1">Status</option>
+                                                <option value="2">Status</option>
+                                            </select>
+                                        </div>
+                                        <div class="calendar_wrap">
+                                            <span class="calendar_status_wrap">
+                                                <span class="calendar_status calendar_status-valid">valid</span>
+                                                <span class="calendar_status calendar_status-error">error</span>
+                                            </span>
+                                            <input type="text" placeholder="dd.mm.yyyy" class="calendar_input calendar_from">
+                                            <span class="calendar_date-separator">&mdash;</span>
+                                            <input type="text" placeholder="dd.mm.yyyy" class="calendar_input calendar_to">
+                                        </div>
+                                    </li>
+                                </ul>
+                                <ul class="select_wrap_list float-left">
+                                    <li class="select_wrap_list_indent">
+                                        <div class="select_wrap_list-el float-left">1-2-1</div>
+                                        <div class="select_wrap_list-el float-right">Private party</div>
+                                        <div class="clear"></div>
+                                        <div class="select_wrap_list-el float-left">Name generation needed</div>
+                                        <div class="select_wrap_list-el float-right">Others</div>
+                                        <div class="clear"></div>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                        <div class="btn_activies_search_wrap center">
+                            <button class="btn btn-default">Search</button>
+                            <br>
+                            <button class="btn btn-default btn-link">Reset</button>
+                        </div>
+                    </form>
+                </div>
+            </section>
+            <section class="content_wrap">
+                <div class="wrap">
+                    <h1 class="main_title main_title_actives">Activities</h1>
+                    <h2 class="no_reult_title">NO RESULTS FOUND</h2>
                 </div>
             </section>
 

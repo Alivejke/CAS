@@ -53,6 +53,7 @@ $select_multiple_default-width: 289px;
 		.select2-container {
 			&.select2-container--default {
 				.select2-selection--single {
+					background-color: transparent;
 					.select2-selection__rendered {
 						line-height: em(42px, $base-font-size);
 					}
@@ -67,27 +68,8 @@ $select_multiple_default-width: 289px;
 			}
 		}
 		&.select_multiple_default {
-			width: flex($select_multiple_default-width, $base-width-content);
+			width: flex($select_multiple_default-width, $base-width-content/2);
 			.select2-container {
-				&:before {
-					content: '';
-					border-style: solid;
-					border-width: 4px 4px 0 4px;
-					border-color: #4d4d4d transparent transparent transparent;
-					position: absolute;
-					right: flex(10px, $select_multiple_default-width);
-					top: 50%;
-					margin-top: -2px;
-					&:hover {
-						border-top-color: #a6a6a6;
-					}
-				}
-				&.select2-container--open {
-					&:before {
-						border-width: 0px 4px 4px 4px;
-						border-color: transparent transparent #a6a6a6 transparent;
-					}
-				}
 				.select2-selection--multiple {
 					min-height: em(40px, $base-font-size);
 					@include border-radius(0px);
@@ -119,12 +101,36 @@ $select_multiple_default-width: 289px;
 					}
 				}
 			}
+			&.select_multiple_search {
+				.select2-container {
+					&:before {
+						content: '';
+						border-style: solid;
+						border-width: 4px 4px 0 4px;
+						border-color: #4d4d4d transparent transparent transparent;
+						position: absolute;
+						right: flex(10px, $select_multiple_default-width);
+						top: 50%;
+						margin-top: -2px;
+						&:hover {
+							border-top-color: #a6a6a6;
+						}
+					}
+					&.select2-container--open {
+						&:before {
+							border-width: 0px 4px 4px 4px;
+							border-color: transparent transparent #a6a6a6 transparent;
+						}
+					}
+				}
+			}
 		}
 	}
 
 	.select2-container {
 		overflow: hidden;
 		width: $select-base-width !important;
+		font-family: pragmatica,Helvetica,Arial,sans-serif;
 		&.select2-container--default {
 			.select2-selection--single {
 				border-color: #929191;
@@ -184,7 +190,18 @@ $select_multiple_default-width: 289px;
 	}
 }
 
+.select2-container--default {
+	.select2-selection--multiple {
+		background-color: transparent;
+	}
+	&.select2-container--below {
+		&.select2-container--open {
+			background-color: $white-color;
+		}
+	}
+}
+
 .select2-container--default .select2-results__option[aria-selected=true], .select2-container--default .select2-results__option--highlighted[aria-selected] {
 	background: #7e8890;
-	color: #fff;
+	color: $white-color;
 }

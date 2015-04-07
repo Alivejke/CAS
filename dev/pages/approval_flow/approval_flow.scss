@@ -1,19 +1,20 @@
 @import '../../sass/base/__base';
 @import "compass/css3";
 
-.approval_flow_wrap{
-	.main_title{
+$th_base-width: flex($base-width-content/5, $base-width-content);
+.approval_flow_wrap {
+	.main_title {
 		font-size: $main_title-font-size;
 		font-weight: 600;
 	}
-	.main_title_approval{
+	.main_title_approval {
 		margin-top: em(60px, $main_title-font-size);
 	}
-	.approval_table{
+	.approval_table {
 		width: 100%;
 		max-width: 960px;
 		margin: 0 auto;
-		td{
+		td {
 			width: 20%;
 			color: $gray-color-old;
 		}
@@ -21,33 +22,46 @@
 			.user_name{
 				color: $gray-color;
 			}
-			.comment_table{
+			.comment_table {
 				margin-bottom: 10px;
 			}
 		}
 	}
-	.title_table{
+	.title_table {
 		width: 100%;
 		background-color: #f8faf9;
-		table{
+		padding: em(25px) 0 0;
+		table {
 			max-width: 960px;
 			margin: 0 auto;
 			width: 100%;
 		}
-		th{
+		th {
+			font-family: pragmatica,Helvetica,Arial,sans-serif;
 			font-size: $base-font-size;
 			text-align: left;
 			text-transform: uppercase;
 			color: $gray-color;
-			width: 20%;
+			width: $th_base-width;
 		}
 	}
 }
-.wrap_table{
-	& > div{
+
+.wrap_table {
+	& > div {
 		padding: 1.5em 0;
+		&:nth-child(odd){
+			background-color: #f8faf9;
+		}
 	}
-	& > div:nth-child(odd){
-		background-color: #f8faf9;
+}
+
+.button_table {
+	.btn {
+		&.btn_rounded {
+			width: flex(72px, $base-width-content/5);
+			height: em(28px, 11px);
+			font-size: em(11px);
+		}
 	}
 }

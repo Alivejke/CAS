@@ -8,3 +8,90 @@
 		}
 	}
 }
+
+.select_wrap_list {
+	display: inline-block;
+	width: 50%;
+	li {
+		margin-top: em(40px);
+		&:first-child {
+			margin-top: 0;
+		}
+		&.select_wrap_list_indent {
+			padding-top: em(29px);
+		}
+		.select_wrap_list-el {
+			width: 50%;
+			color: $gray-color;
+		}
+	}
+	.small_title {
+		margin-bottom: em(15px, $small_title-font-size);
+	}
+}
+
+.activies_search_list {
+	> li {
+		border-top: 1px solid #ededee;
+		padding: em(35px, $base-font-size) 0 0;
+		margin: em(44px, $base-font-size) 0;
+		&:first-child {
+			border-top-color: transparent;
+		}
+	}
+}
+
+.select_wrap {
+	.select2-container {
+		&.select2-container--default {
+			.select2-selection--single {
+				.select2-selection__arrow {
+					width: flex(70px, 289px);
+					b {
+						border-width: 4px 4px 0 4px;
+						border-color: #4d4d4d transparent transparent transparent;
+						margin: -2px 0 0 flex(20px, 70px);
+					}
+				}
+			}
+			&.select2-container--open {
+				.select2-selection--single {
+					.select2-selection__arrow {
+						b {
+							border-width: 0px 4px 4px 4px;
+							border-color: transparent transparent #4d4d4d transparent;
+						}
+					}
+				}
+			}
+		}
+		.select2-selection--single {
+			.select2-selection__rendered {
+				text-transform: none;
+			}
+		} 
+	}
+}
+
+.calendar_wrap {
+	width: flex(289px, $base-width-content/2);
+	text-align: right;
+}
+
+.calendar_input {
+	width: flex(102px, 289px);
+	&.calendar_from {
+		margin-left: flex(10px, 289px);
+	}
+}
+
+.calendar_date-separator {
+	margin: 0 flex(5px, 289px);
+}
+
+.btn_activies_search_wrap {
+	margin-top: em(55px);
+	.btn-link {
+		margin: em(20px, $btn-font-size) 0 em(30px, $btn-font-size);
+	}
+}

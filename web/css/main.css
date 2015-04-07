@@ -853,7 +853,7 @@ body {
 /* line 12, ../../dev/sass/specifics/_common.scss */
 #mainarea {
   position: relative;
-  padding-bottom: 6.66667em;
+  padding-bottom: 3.8em;
   min-height: 100%;
   height: auto !important;
   margin: 0 auto -3.8em;
@@ -1203,6 +1203,19 @@ textarea {
   text-transform: uppercase;
 }
 
+/* line 56, ../../dev/sass/specifics/_titles.scss */
+.no_reult_title {
+  font-family: pragmatica,Helvetica,Arial,sans-serif;
+  font-weight: 300;
+  color: #c4c4c4;
+  font-size: 3em;
+  line-height: 1.15556em;
+  text-transform: uppercase;
+  width: 37.94038%;
+  text-align: center;
+  margin: 1.77778em auto 2.66667em;
+}
+
 /* line 4, ../../dev/sass/specifics/_main_menu.scss */
 .main_menu_wrap {
   text-align: center;
@@ -1483,56 +1496,40 @@ textarea {
 .select_wrap.select_long .select2-container .select2-selection--single .select2-selection__rendered {
   padding: 0 6.77507% 0 5.42005%;
 }
-/* line 56, ../../dev/sass/specifics/_selects.scss */
+/* line 55, ../../dev/sass/specifics/_selects.scss */
+.select_wrap.select_default .select2-container.select2-container--default .select2-selection--single {
+  background-color: transparent;
+}
+/* line 57, ../../dev/sass/specifics/_selects.scss */
 .select_wrap.select_default .select2-container.select2-container--default .select2-selection--single .select2-selection__rendered {
   line-height: 2.8em;
 }
-/* line 59, ../../dev/sass/specifics/_selects.scss */
+/* line 60, ../../dev/sass/specifics/_selects.scss */
 .select_wrap.select_default .select2-container.select2-container--default .select2-selection--single .select2-selection__arrow {
   border-left: none;
   height: 2.73333em;
 }
-/* line 65, ../../dev/sass/specifics/_selects.scss */
+/* line 66, ../../dev/sass/specifics/_selects.scss */
 .select_wrap.select_default .select2-container .select2-selection--single {
   height: 2.73333em;
 }
-/* line 69, ../../dev/sass/specifics/_selects.scss */
+/* line 70, ../../dev/sass/specifics/_selects.scss */
 .select_wrap.select_default.select_multiple_default {
-  width: 39.15989%;
+  width: 78.31978%;
 }
-/* line 72, ../../dev/sass/specifics/_selects.scss */
-.select_wrap.select_default.select_multiple_default .select2-container:before {
-  content: '';
-  border-style: solid;
-  border-width: 4px 4px 0 4px;
-  border-color: #4d4d4d transparent transparent transparent;
-  position: absolute;
-  right: 3.46021%;
-  top: 50%;
-  margin-top: -2px;
-}
-/* line 81, ../../dev/sass/specifics/_selects.scss */
-.select_wrap.select_default.select_multiple_default .select2-container:before:hover {
-  border-top-color: #a6a6a6;
-}
-/* line 86, ../../dev/sass/specifics/_selects.scss */
-.select_wrap.select_default.select_multiple_default .select2-container.select2-container--open:before {
-  border-width: 0px 4px 4px 4px;
-  border-color: transparent transparent #a6a6a6 transparent;
-}
-/* line 91, ../../dev/sass/specifics/_selects.scss */
+/* line 73, ../../dev/sass/specifics/_selects.scss */
 .select_wrap.select_default.select_multiple_default .select2-container .select2-selection--multiple {
   min-height: 2.66667em;
   -moz-border-radius: 0px;
   -webkit-border-radius: 0px;
   border-radius: 0px;
 }
-/* line 95, ../../dev/sass/specifics/_selects.scss */
+/* line 77, ../../dev/sass/specifics/_selects.scss */
 .select_wrap.select_default.select_multiple_default .select2-container .select2-search--inline {
   min-height: 2.66667em;
   line-height: 2.66667em;
 }
-/* line 102, ../../dev/sass/specifics/_selects.scss */
+/* line 84, ../../dev/sass/specifics/_selects.scss */
 .select_wrap.select_default.select_multiple_default .select2-container--default .select2-selection--multiple .select2-selection__choice {
   background: none;
   border: none;
@@ -1542,59 +1539,80 @@ textarea {
   min-height: 2.66667em;
   line-height: 2.66667em;
 }
-/* line 111, ../../dev/sass/specifics/_selects.scss */
+/* line 93, ../../dev/sass/specifics/_selects.scss */
 .select_wrap.select_default.select_multiple_default .select2-container--default .select2-selection--multiple .select2-selection__choice__remove {
   float: right;
   margin: 0 0 0 0.33333em;
   color: #45484C;
 }
-/* line 116, ../../dev/sass/specifics/_selects.scss */
+/* line 98, ../../dev/sass/specifics/_selects.scss */
 .select_wrap.select_default.select_multiple_default .select2-container--default .select2-selection--multiple .select2-selection__rendered {
   padding: 0 5.19031% 0 6.92042%;
   margin-bottom: -0.1em;
 }
-/* line 125, ../../dev/sass/specifics/_selects.scss */
+/* line 106, ../../dev/sass/specifics/_selects.scss */
+.select_wrap.select_default.select_multiple_default.select_multiple_search .select2-container:before {
+  content: '';
+  border-style: solid;
+  border-width: 4px 4px 0 4px;
+  border-color: #4d4d4d transparent transparent transparent;
+  position: absolute;
+  right: 3.46021%;
+  top: 50%;
+  margin-top: -2px;
+}
+/* line 115, ../../dev/sass/specifics/_selects.scss */
+.select_wrap.select_default.select_multiple_default.select_multiple_search .select2-container:before:hover {
+  border-top-color: #a6a6a6;
+}
+/* line 120, ../../dev/sass/specifics/_selects.scss */
+.select_wrap.select_default.select_multiple_default.select_multiple_search .select2-container.select2-container--open:before {
+  border-width: 0px 4px 4px 4px;
+  border-color: transparent transparent #a6a6a6 transparent;
+}
+/* line 130, ../../dev/sass/specifics/_selects.scss */
 .select_wrap .select2-container {
   overflow: hidden;
   width: 100% !important;
+  font-family: pragmatica,Helvetica,Arial,sans-serif;
 }
-/* line 129, ../../dev/sass/specifics/_selects.scss */
+/* line 135, ../../dev/sass/specifics/_selects.scss */
 .select_wrap .select2-container.select2-container--default .select2-selection--single {
   border-color: #929191;
   -moz-border-radius: 0px;
   -webkit-border-radius: 0px;
   border-radius: 0px;
 }
-/* line 132, ../../dev/sass/specifics/_selects.scss */
+/* line 138, ../../dev/sass/specifics/_selects.scss */
 .select_wrap .select2-container.select2-container--default .select2-selection--single .select2-selection__rendered {
   line-height: 5.2em;
 }
-/* line 135, ../../dev/sass/specifics/_selects.scss */
+/* line 141, ../../dev/sass/specifics/_selects.scss */
 .select_wrap .select2-container.select2-container--default .select2-selection--single .select2-selection__arrow {
   height: 5.2em;
   width: 70px;
   border-left: 1px solid #929191;
 }
-/* line 140, ../../dev/sass/specifics/_selects.scss */
+/* line 146, ../../dev/sass/specifics/_selects.scss */
 .select_wrap .select2-container.select2-container--default .select2-selection--single .select2-selection__arrow:hover b {
   border-top-color: #a6a6a6;
 }
-/* line 144, ../../dev/sass/specifics/_selects.scss */
+/* line 150, ../../dev/sass/specifics/_selects.scss */
 .select_wrap .select2-container.select2-container--default .select2-selection--single .select2-selection__arrow b {
   border-width: 7px 7px 0 7px;
   border-color: #4d4d4d transparent transparent transparent;
   margin: -3px 0 0 -7px;
 }
-/* line 150, ../../dev/sass/specifics/_selects.scss */
+/* line 156, ../../dev/sass/specifics/_selects.scss */
 .select_wrap .select2-container.select2-container--default .select2-selection--single .select2-selection__placeholder {
   color: #45484C;
 }
-/* line 157, ../../dev/sass/specifics/_selects.scss */
+/* line 163, ../../dev/sass/specifics/_selects.scss */
 .select_wrap .select2-container.select2-container--default.select2-container--open .select2-selection--single .select2-selection__arrow b {
   border-width: 0px 7px 7px 7px;
   border-color: transparent transparent #4d4d4d transparent;
 }
-/* line 165, ../../dev/sass/specifics/_selects.scss */
+/* line 171, ../../dev/sass/specifics/_selects.scss */
 .select_wrap .select2-container .select2-selection--single {
   height: 5.2em;
   color: #323a45;
@@ -1602,22 +1620,31 @@ textarea {
   font-weight: 300;
   font-size: 1em;
 }
-/* line 172, ../../dev/sass/specifics/_selects.scss */
+/* line 178, ../../dev/sass/specifics/_selects.scss */
 .select_wrap .select2-container .select2-selection--single .select2-selection__rendered {
   padding: 0 70px 0 20px;
   text-transform: uppercase;
 }
 
-/* line 179, ../../dev/sass/specifics/_selects.scss */
+/* line 185, ../../dev/sass/specifics/_selects.scss */
 .select2-results__option {
   padding: 0.86667em 2.66667em;
 }
-/* line 181, ../../dev/sass/specifics/_selects.scss */
+/* line 187, ../../dev/sass/specifics/_selects.scss */
 .select2-results__option .select2-results__option--highlighted {
   background: #7e8890;
 }
 
-/* line 187, ../../dev/sass/specifics/_selects.scss */
+/* line 194, ../../dev/sass/specifics/_selects.scss */
+.select2-container--default .select2-selection--multiple {
+  background-color: transparent;
+}
+/* line 198, ../../dev/sass/specifics/_selects.scss */
+.select2-container--default.select2-container--below.select2-container--open {
+  background-color: #fff;
+}
+
+/* line 204, ../../dev/sass/specifics/_selects.scss */
 .select2-container--default .select2-results__option[aria-selected=true], .select2-container--default .select2-results__option--highlighted[aria-selected] {
   background: #7e8890;
   color: #fff;
@@ -3647,4 +3674,44 @@ textarea {
 /* line 20, ../../dev/sass/specifics/_status.scss */
 .status_wrap .btn_big_rounded .ico_status {
   vertical-align: -2px;
+}
+
+/* line 2, ../../dev/sass/specifics/_calendar.scss */
+.calendar_wrap {
+  margin-top: 2.53333em;
+  width: 30.10417%;
+}
+
+/* line 7, ../../dev/sass/specifics/_calendar.scss */
+.calendar_input {
+  font-size: 0.8em;
+  text-align: center;
+  line-height: 3.33333em;
+  width: 10.41667%;
+  height: 3.33333em;
+}
+/* line 13, ../../dev/sass/specifics/_calendar.scss */
+.calendar_input.calendar_from {
+  margin-left: 1.04167%;
+}
+
+/* line 21, ../../dev/sass/specifics/_calendar.scss */
+.calendar_date-separator {
+  display: inline-block;
+  margin: 0 0.52083%;
+}
+
+/* line 27, ../../dev/sass/specifics/_calendar.scss */
+.calendar_status_wrap .calendar_status {
+  font-size: 0.8em;
+  text-transform: uppercase;
+  color: #45484C;
+}
+/* line 32, ../../dev/sass/specifics/_calendar.scss */
+.calendar_status_wrap .calendar_status.calendar_status-valid {
+  display: inline-block;
+}
+/* line 35, ../../dev/sass/specifics/_calendar.scss */
+.calendar_status_wrap .calendar_status.calendar_status-error {
+  display: none;
 }
