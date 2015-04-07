@@ -1374,8 +1374,8 @@ textarea {
 .main_menu.main_menu_big > li .main_menu_item .ico_status_big {
   width: 9.55414%;
   position: absolute;
-  top: -15px;
-  left: -15px;
+  top: -1em;
+  left: -4.77707%;
   z-index: 10;
 }
 /* line 163, ../../dev/sass/specifics/_main_menu.scss */
@@ -1642,7 +1642,7 @@ textarea {
   background-position: -80px -40px;
 }
 /* line 15, ../../dev/sass/specifics/_icons.scss */
-.ico_star.active {
+.ico_star:active {
   background-position: -80px -80px;
 }
 
@@ -1657,7 +1657,7 @@ textarea {
   background-position: -200px -80px;
 }
 /* line 27, ../../dev/sass/specifics/_icons.scss */
-.ico_basket.active {
+.ico_basket:active {
   background-position: -200px -160px;
 }
 
@@ -1672,7 +1672,7 @@ textarea {
   background-position: -440px -80px;
 }
 /* line 39, ../../dev/sass/specifics/_icons.scss */
-.ico_upload.active {
+.ico_upload:active {
   background-position: -440px -160px;
 }
 
@@ -1687,7 +1687,7 @@ textarea {
   background-position: -520px -80px;
 }
 /* line 51, ../../dev/sass/specifics/_icons.scss */
-.ico_edit.active {
+.ico_edit:active {
   background-position: -520px -160px;
 }
 
@@ -1702,7 +1702,7 @@ textarea {
   background-position: -600px -80px;
 }
 /* line 63, ../../dev/sass/specifics/_icons.scss */
-.ico_download.active {
+.ico_download:active {
   background-position: -600px -160px;
 }
 
@@ -1717,7 +1717,7 @@ textarea {
   background-position: -760px -80px;
 }
 /* line 75, ../../dev/sass/specifics/_icons.scss */
-.ico_add.active {
+.ico_add:active {
   background-position: -760px -160px;
 }
 
@@ -1732,7 +1732,7 @@ textarea {
   background-position: -120px -40px;
 }
 /* line 87, ../../dev/sass/specifics/_icons.scss */
-.ico_status.active {
+.ico_status:active {
   background-position: -120px -80px;
 }
 
@@ -1833,7 +1833,7 @@ textarea {
   background-position: -67px -27px;
 }
 /* line 21, ../../dev/sass/specifics/_buttons.scss */
-.btn.btn_circle.ico_star.active {
+.btn.btn_circle.ico_star:active {
   background-position: -66px -66px;
 }
 /* line 25, ../../dev/sass/specifics/_buttons.scss */
@@ -1845,7 +1845,7 @@ textarea {
   background-position: -270px -65px;
 }
 /* line 30, ../../dev/sass/specifics/_buttons.scss */
-.btn.btn_circle.ico_eye.active {
+.btn.btn_circle.ico_eye:active {
   background-position: -270px -145px;
 }
 /* line 34, ../../dev/sass/specifics/_buttons.scss */
@@ -1857,7 +1857,7 @@ textarea {
   background-position: -346px -69px;
 }
 /* line 39, ../../dev/sass/specifics/_buttons.scss */
-.btn.btn_circle.ico_edit.active {
+.btn.btn_circle.ico_edit:active {
   background-position: -346px -149px;
 }
 /* line 44, ../../dev/sass/specifics/_buttons.scss */
@@ -1876,7 +1876,7 @@ textarea {
   opacity: 0.5;
 }
 /* line 54, ../../dev/sass/specifics/_buttons.scss */
-.btn.btn_rounded.active {
+.btn.btn_rounded:active {
   filter: progid:DXImageTransform.Microsoft.Alpha(enabled=false);
   opacity: 1;
 }
@@ -1909,20 +1909,20 @@ textarea {
   background-position: -760px 0px;
 }
 /* line 79, ../../dev/sass/specifics/_buttons.scss */
-.btn.btn_big_rounded.active {
+.btn.btn_big_rounded:active {
   filter: progid:DXImageTransform.Microsoft.Alpha(enabled=false);
   opacity: 1;
 }
 /* line 81, ../../dev/sass/specifics/_buttons.scss */
-.btn.btn_big_rounded.active .ico_upload {
+.btn.btn_big_rounded:active .ico_upload {
   background-position: -440px 0px;
 }
 /* line 84, ../../dev/sass/specifics/_buttons.scss */
-.btn.btn_big_rounded.active .ico_edit {
+.btn.btn_big_rounded:active .ico_edit {
   background-position: -520px 0px;
 }
 /* line 87, ../../dev/sass/specifics/_buttons.scss */
-.btn.btn_big_rounded.active .ico_add {
+.btn.btn_big_rounded:active .ico_add {
   background-position: -760px 0px;
 }
 /* line 91, ../../dev/sass/specifics/_buttons.scss */
@@ -1956,7 +1956,7 @@ textarea {
   color: #fff;
 }
 /* line 116, ../../dev/sass/specifics/_buttons.scss */
-.btn.btn-default.active {
+.btn.btn-default:active {
   background-color: #fff;
   color: #738189;
 }
@@ -1966,7 +1966,7 @@ textarea {
   color: #fff;
 }
 /* line 126, ../../dev/sass/specifics/_buttons.scss */
-.btn.btn-save.active {
+.btn.btn-save:active {
   background-color: #fff;
   color: #738189;
 }
@@ -1976,7 +1976,7 @@ textarea {
   color: #fff;
 }
 /* line 136, ../../dev/sass/specifics/_buttons.scss */
-.btn.btn-delete.active {
+.btn.btn-delete:active {
   background-color: #fff;
   color: #738189;
 }
@@ -1986,7 +1986,7 @@ textarea {
   color: #fff;
 }
 /* line 146, ../../dev/sass/specifics/_buttons.scss */
-.btn.btn-decline.active {
+.btn.btn-decline:active {
   background-color: #fff;
   color: #738189;
 }
@@ -1996,7 +1996,7 @@ textarea {
   color: #323a45;
 }
 /* line 154, ../../dev/sass/specifics/_buttons.scss */
-.btn.btn-upload:hover, .btn.btn-upload.active {
+.btn.btn-upload:hover, .btn.btn-upload:active {
   background-color: #f8faf9;
   color: rgba(50, 58, 69, 0.5);
 }
@@ -2019,7 +2019,7 @@ textarea {
   color: #747476;
 }
 /* line 174, ../../dev/sass/specifics/_buttons.scss */
-.btn.btn-link.active {
+.btn.btn-link:active {
   border-bottom: 1px solid transparent;
 }
 /* line 178, ../../dev/sass/specifics/_buttons.scss */
@@ -3631,8 +3631,8 @@ textarea {
 /* line 15, ../../dev/sass/specifics/_status.scss */
 .status_wrap .btn_big_rounded .ico_calendar {
   margin: 0 0 0 6.66667%;
-  height: 16px;
-  vertical-align: -3px;
+  height: 13px;
+  vertical-align: -1px;
 }
 /* line 20, ../../dev/sass/specifics/_status.scss */
 .status_wrap .btn_big_rounded .ico_status {

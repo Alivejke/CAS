@@ -154,8 +154,8 @@ $main_menu_item-width-hover: 367px;
 				.ico_status_big {
 					width: flex(30px, $main_menu_item-width);
 					position: absolute;
-					top: -15px;
-					left: -15px;
+					top: em(-15px, $base-font-size);
+					left: flex(-15px, $main_menu_item-width);
 					z-index: 10;
 				}
 			}
