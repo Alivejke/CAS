@@ -1,0 +1,95 @@
+@import '../../sass/base/__base';
+
+.approval_flow_wrap {
+	.approval_table {
+		td {
+			padding: em(10px) em(5px);
+		}
+	}
+}
+
+.button_table {
+	.btn {
+		margin-top: em(10px, $small_btn-font-size);
+		&:first-child {
+			margin-top: 0;
+		}
+	}
+}
+
+.acces_content_wrap {
+	border-top: 1px solid $gray-color;
+	padding: em(30px) 0;
+	margin-bottom: em(100px);
+	.btn {
+		&.btn-default {
+			width: flex(120px, $base-width-content);
+		}
+	}
+}
+
+.input_default {
+	margin-top: em(20px, $input-font-size);
+}
+
+.select_wrap {
+	&.select_default {
+		&.select_multiple_default {
+			&.select_long {
+				margin-top: em(20px);
+				width: 100%;
+			}
+			.select2-container--default {
+				.select2-selection--multiple {
+					.select2-selection__rendered {
+						padding-left: 15px;
+						font-size: em(13px);
+						margin-top: em(2px);
+					}
+				}
+			}
+		}
+	}
+}
+
+.btn_wrap {
+	margin-top: em(34px);
+	.btn {
+		margin-left: flex(35px);
+		&:first-child {
+			margin-left: 0;
+		}
+	}
+}
+
+.popup_acces_managment_list {
+	> li {
+		margin-top: em(30px);
+		&:first-child {
+			margin-top: 0;
+		}
+	}
+}
+
+.popup_acces_managment_table {
+	color: #909294;
+	width: 500px;
+	td {
+		color: $gray-color;
+		width: 32%;
+		padding: em(9px) 0;
+		input[type="checkbox"] + label::before {
+			vertical-align: -3px;
+		}
+		&+td {
+			color: #909294;
+			width: 20%;
+			&+td {
+				width: 19%;
+				&+td {
+					width: 28%;
+				}
+			}
+		}
+	}
+}

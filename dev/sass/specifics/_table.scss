@@ -1,6 +1,3 @@
-@import '../../sass/base/__base';
-@import "compass/css3";
-
 $th_base-width: flex($base-width-content/5, $base-width-content);
 .approval_flow_wrap {
 	.main_title {
@@ -40,6 +37,29 @@ $th_base-width: flex($base-width-content/5, $base-width-content);
 				// padding: 0 em(5px);
 			}
 		}
+		&.table_log {
+			width: flex(750px, $base-width-content-one);
+			margin: 0;
+			td {
+				width: 16%;
+				text-align: left;
+				&+td {
+					width: 18%;
+					&+td {
+						width: 13%;
+						&+td {
+							width: 20%;
+							&+td {
+								width: 19%;
+								&+td {
+									width: 14%;
+								}
+							}
+						}
+					}
+				}
+			}
+		}
 	}
 	.title_table {
 		width: 100%;
@@ -50,6 +70,29 @@ $th_base-width: flex($base-width-content/5, $base-width-content);
 			max-width: 960px;
 			margin: 0 auto 0;
 			width: 100%;
+			&.table_log {
+				width: flex(750px, $base-width-content-one);
+				margin: 0;
+				th {
+					width: 16%;
+					text-align: left;
+					&+th {
+						width: 18%;
+						&+th {
+							width: 13%;
+							&+th {
+								width: 20%;
+								&+th {
+									width: 19%;
+									&+th {
+										width: 14%;
+									}
+								}
+							}
+						}
+					}
+				}
+			}
 		}
 		th {
 			font-family: pragmatica,Helvetica,Arial,sans-serif;
@@ -91,8 +134,13 @@ $th_base-width: flex($base-width-content/5, $base-width-content);
 	.btn {
 		&.btn_rounded {
 			width: flex(72px, $base-width-content-one*0.22);
-			height: em(28px, 11px);
-			font-size: em(11px);
+			height: em(28px, $small_btn-font-size);
+			font-size: em($small_btn-font-size);
 		}
 	}
+}
+
+.table_text_bold {
+	font-weight: 600;
+	color: #7c7c7c;
 }

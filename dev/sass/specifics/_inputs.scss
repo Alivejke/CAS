@@ -1,0 +1,9 @@
+.input_default {
+	display: block;
+	width: 100%;
+	height: em(41px, $input-font-size);
+	line-height: em(41px, $input-font-size);
+	border: 1px solid #cbcbcb;
+	padding: 0 em(15px, $input-font-size);
+	font-size: em($input-font-size);
+}

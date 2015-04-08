@@ -1,0 +1,35 @@
+#popup_block {
+	z-index: -1;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 100%;
+	#popup_fone {
+		position: fixed;
+		top: 0px;
+		left: 0px;
+		width: 100%;
+		height: 100%;
+		// background: $white-color;
+		@include transparent;
+	}
+	.popup_window {
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		background-color: #f8faf9;
+		width: em(740px);
+		padding: em(34px) em(33px) em(26px) em(38px);
+		overflow-y: auto;
+		&.popup_acces_managment {
+			margin: $popup_acces_managment-height/-2 0 0 $popup_acces_managment-width/-2;
+		}
+	}
+	&.popup_active {
+		z-index: 100;
+		#popup_fone {
+			@include opaque;
+		}
+	}
+}
