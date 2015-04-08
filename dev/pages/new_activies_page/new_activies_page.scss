@@ -117,19 +117,18 @@
         }
     }
     .attachments_blocks {
-        // margin-top: em(30px, $base-font-size);
+        margin-bottom: em(60px, $base-font-size);
 
         .block {
-            width: flex(450px, $base-width);
+            // width: flex(450px, $base-width);
             float: left;
+            width: 100%;
             margin-top: em(60px, $base-font-size);
-            &:nth-child(2n) {
-                margin-left: flex(21px, 346px);
-            }
+            
             .icon {
-                width: flex(95px, 450px);
+                width: flex(75px, $base-width-content);
                 float: left;
-                padding: em(5px, $base-font-size) flex(5px, 300px);
+                padding: em(5px, $base-font-size) flex(5px, $base-width-content);
                 @include border-radius(100%);
                 cursor: pointer;
                 border: 1px solid transparent;
@@ -145,8 +144,6 @@
                 }
                 .ico_search {
                     position: absolute;
-                    // top: 1.6em;
-                    // left: 33%;
                     top: em(25px, $base-font-size);
                     left: flex(25px, 73px);
                     display: none;
@@ -157,20 +154,138 @@
             }
             .name {
                 float: left;
+                width: 80%;
+                margin-top: em(15px, $base-font-size);
+                a.sprite.sprite_ico.ico_basket {
+                    margin: em(-2px, $base-font-size) flex(5px, $base-width-content);
+                    position: absolute;
+                }
             }
-            .text {
-                float: left;
-                width: flex(300px, 450px);
-                margin-top: em(10px, $base-font-size);
+            .checkbox {
+                display: inline-block;
+                position: relative;
+                padding-left: 3%;
+                margin-top: em(12px, $base-font-size);
+                color: $gray-color;
+                label:before {
+                    position: absolute;
+                    left: 0px;
+                }
+            }
+            textarea {
+                width: 100%;
+                height: em(142.5px, $base-font-size);
+                padding: em(12px, $base-font-size) flex(10px, $base-width-content);
+                margin-top: em(20px, $base-font-size);
+            }
+        }
+        .block_upload_file {
+            margin: em(30px, $base-font-size) 0 em(50px, $base-font-size);
+            // border-bottom: 1px solid #cecfd0;
+            span {
+                margin-left: flex(20px, $base-width-content);
                 color: $gray-color;
             }
-            .file_size {
-                float: left;
-                width: flex(300px, 450px);
+        }
+        .block_options_draft {
+            padding: em(50px, $base-font-size) 0;
+            border-top: 1px solid #cecfd0;
+            border-bottom: 1px solid #cecfd0;
+            button.btn.btn-default.center {
+                // margin-left: 18.5%;
+                margin-left: flex(145px, $base-width-content);
             }
-            .ico_download {
-                cursor: pointer;
+        }
+        .block_request_comment {
+            margin-top: em(60px, $base-font-size);
+            textarea {
+                width: 100%;
+                height: em(142.5px, $base-font-size);
+                padding: em(12px, $base-font-size) flex(10px, $base-width-content);
+                margin: em(30px, $base-font-size) 0;
             }
+            .select_wrap  {
+                width: flex(355px, $base-width-content);
+            }
+        }
+    }
+    #datepicker {
+        z-index: 100;
+        position: relative;
+        float: left;
+        width: 100%;
+        .ui-datepicker-month, .ui-datepicker-year, .ui-datepicker-calendar {
+            font-family: pragmatica,Helvetica,Arial,sans-serif;
+            font-size: 12px;
+        }
+        .ui-datepicker-calendar tr td a {
+            color: $gray-color;
+            @include border-radius(100%);
+            width: 23px;
+            height: 23px;
+            padding: 6px 5px 0px 0px;
+            border: none;
+            background: none;
+        }
+        .ui-datepicker-calendar tr td a.ui-state-active {
+            background: #22c866;
+            color: $white-color;
+        }
+        .ui-datepicker .ui-datepicker-header {
+            background: none;
+            border: none;
+            color: $gray-color;
+            height: 75px;
+            border-bottom: 1px solid #cecfd0;
+            border-radius: 0px;
+            padding-top: 22px;
+        }
+        a.ui-corner-all{
+            background: none;
+            border: none;
+            &:hover {
+                background: none;
+                border: none;
+            }
+        }
+        .ui-datepicker .ui-datepicker-prev span {
+            background: url(/i/sprite.png) -80px -160px no-repeat;
+            width: 5px;
+            height: 11px;
+            top: 36px;
+        }
+        .ui-datepicker .ui-datepicker-next span {
+            background: url(/i/sprite.png) -120px -160px no-repeat;
+            width: 5px;
+            height: 11px;
+            top: 36px;
+        }
+        .ui-datepicker-inline {
+            width: 90%;
+            margin-left: 5%;
+            border-radius: 0px;
+            border: 0px;
+        }
+    }
+    .datepicker_bottom_block {
+        float: left;
+        width: 100%;
+        z-index: 100;
+        .info_block {
+            height: 75px;
+            width: 90%;
+            margin-left: 5%;
+            background: #eeeeee;
+            z-index: 100;
+            position: relative;
+        }
+        .reset_block {
+            height: 75px;
+            width: 90%;
+            margin-left: 5%;
+            background: #eeeeee;
+            z-index: 100;
+            position: relative;
         }
     }
 }

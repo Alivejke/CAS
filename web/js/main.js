@@ -1,4 +1,13 @@
 $(document).ready(function() {
+	$( "#datepicker" ).datepicker({
+		inline: true,
+		firstDay: 1
+	});
+	var firstDay = $( ".selector" ).datepicker( "option", "firstDay" );
+	// Setter
+	$( ".selector" ).datepicker( "option", "firstDay", 1 );
+	
+});;$(document).ready(function() {
 	var $self = $(this),
 		$selects = $('.js-example-basic-single'),
 		$approverSelects = $('.js-approver_for_request'),
