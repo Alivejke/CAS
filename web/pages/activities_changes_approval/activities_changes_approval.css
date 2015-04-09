@@ -66,7 +66,25 @@
   src: url("../fonts/glyphicons-halflings-regular.eot");
   src: url("../fonts/glyphicons-halflings-regular.eot?#iefix") format("embedded-opentype"), url("../fonts/glyphicons-halflings-regular.woff2") format("woff2"), url("../fonts/glyphicons-halflings-regular.woff") format("woff"), url("../fonts/glyphicons-halflings-regular.ttf") format("truetype"), url("../fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular") format("svg");
 }
-/* line 4, ../../../dev/pages/logs/logs.scss */
-.wrap_table > div {
-  padding: 1.53333em 0 1em;
+/* line 4, ../../../dev/pages/activities_changes_approval/activities_changes_approval.scss */
+.activities_changes_approval_list_info > li {
+  overflow: hidden;
+}
+/* line 7, ../../../dev/pages/activities_changes_approval/activities_changes_approval.scss */
+.activities_changes_approval_list_info > li .profile_title .profile_text {
+  margin-top: 0.53846em;
+  margin-left: 0;
+}
+/* line 12, ../../../dev/pages/activities_changes_approval/activities_changes_approval.scss */
+.activities_changes_approval_list_info > li .profile_text {
+  margin: -0.26667em 0 0 9.48509%;
+  width: 79.9458%;
+}
+
+/* line 19, ../../../dev/pages/activities_changes_approval/activities_changes_approval.scss */
+.profile_text {
+  margin-top: 0.53846em;
+  font-size: 0.86667em;
+  line-height: 1.38462em;
+  color: #77808b;
 }

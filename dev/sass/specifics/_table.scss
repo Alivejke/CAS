@@ -40,17 +40,20 @@ $th_base-width: flex($base-width-content/5, $base-width-content);
 		&.table_log {
 			width: flex(750px, $base-width-content-one);
 			margin: 0;
+			padding: 0;
 			td {
-				width: 16%;
+				font-size: em(11px);
+				width: 15%;
 				text-align: left;
+				// color: $gray-color;
 				&+td {
-					width: 18%;
+					width: 19%;
 					&+td {
 						width: 13%;
 						&+td {
 							width: 20%;
 							&+td {
-								width: 19%;
+								width: 18%;
 								&+td {
 									width: 14%;
 								}
@@ -74,16 +77,17 @@ $th_base-width: flex($base-width-content/5, $base-width-content);
 				width: flex(750px, $base-width-content-one);
 				margin: 0;
 				th {
-					width: 16%;
+					font-size: em(12px);
+					width: 15%;
 					text-align: left;
 					&+th {
-						width: 18%;
+						width: 19%;
 						&+th {
 							width: 13%;
 							&+th {
 								width: 20%;
 								&+th {
-									width: 19%;
+									width: 18%;
 									&+th {
 										width: 14%;
 									}

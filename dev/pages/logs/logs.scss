@@ -1,0 +1,7 @@
+@import '../../sass/base/__base';
+
+.wrap_table {
+	& > div {
+		padding: em(23px) 0 em(15px);
+	}
+}

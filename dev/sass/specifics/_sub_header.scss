@@ -56,10 +56,11 @@
 		&:after {
 			content: '';
 			display: inline-block;
-			width: 15px;
+			width: 11px;
 			height: 12px;
 			background: url(/i/sprite.png) 6px -40px no-repeat;
 			vertical-align: -1px;
+			margin: 0 em(5px) 0 em(-6px);
 		}
 		&:last-child {
 			&:after {

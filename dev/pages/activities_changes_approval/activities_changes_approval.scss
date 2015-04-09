@@ -1,0 +1,24 @@
+@import '../../sass/base/__base';
+
+.activities_changes_approval_list_info {
+	> li {
+		overflow: hidden;
+		.profile_title {
+			.profile_text {
+				margin-top: em(7px, 13px);
+				margin-left: 0;
+			}
+		}
+		.profile_text {
+			margin: em(-4px) 0 0 flex(70px, $base-width-content);
+			width: flex(590px, $base-width-content);
+		}
+	}
+}
+
+.profile_text {
+	margin-top: em(7px, 13px);
+	font-size: em(13px);
+	line-height: em(18px, 13px);
+	color: $gray-color-old;
+}
