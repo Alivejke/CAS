@@ -1,0 +1,32 @@
+@import '../../sass/base/__base';
+$feeds_name_font-size: 20px;
+.wrap.wrap_news_feed {
+	.feed {
+	  	position: relative;
+	  	a.sprite.btn.btn_circle.ico_eye {
+		  	position: absolute;
+		  	left: -15%;
+  			top: 1.9em;
+  			 background-color: #fff;
+  			 z-index: 2;
+		}
+		.line {
+			position: absolute;
+ 	 		left: -10000%;
+ 	 		top: 3.2em;
+ 	 		width: 10000%;
+ 	 		height: 1px;
+ 	 		background: #cecfd0;
+ 	 		z-index: 1;
+		}
+		img {
+			display: block;
+  			float: left;
+		}
+		.name {
+			margin-left: flex(130px, $base-width-content);
+			font-size: $feeds_name_font-size;
+  			text-transform: uppercase;
+		}
+	}
+}

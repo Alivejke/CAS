@@ -325,22 +325,22 @@ button.ui-button::-moz-focus-inner {
 	width: 1.8em;
 	height: 1.8em;
 }
-.ui-datepicker .ui-datepicker-prev-hover,
-.ui-datepicker .ui-datepicker-next-hover {
-	top: 1px;
-}
+// .ui-datepicker .ui-datepicker-prev-hover,
+// .ui-datepicker .ui-datepicker-next-hover {
+// 	top: 1px;
+// }
 .ui-datepicker .ui-datepicker-prev {
 	left: 2px;
 }
 .ui-datepicker .ui-datepicker-next {
 	right: 2px;
 }
-.ui-datepicker .ui-datepicker-prev-hover {
-	left: 1px;
-}
-.ui-datepicker .ui-datepicker-next-hover {
-	right: 1px;
-}
+// .ui-datepicker .ui-datepicker-prev-hover {
+// 	left: 1px;
+// }
+// .ui-datepicker .ui-datepicker-next-hover {
+// 	right: 1px;
+// }
 .ui-datepicker .ui-datepicker-prev span,
 .ui-datepicker .ui-datepicker-next span {
 	display: block;
@@ -883,9 +883,9 @@ body .ui-tooltip {
 .ui-state-focus,
 .ui-widget-content .ui-state-focus,
 .ui-widget-header .ui-state-focus {
-	border: 1px solid #fbcb09;
+	// border: 1px solid #fbcb09;
 	background: #fdf5ce /* url("images/ui-bg_glass_100_fdf5ce_1x400.png") 50% 50% repeat-x */;
-	font-weight: bold;
+	// font-weight: bold;
 	color: #c77405;
 }
 .ui-state-hover a,
