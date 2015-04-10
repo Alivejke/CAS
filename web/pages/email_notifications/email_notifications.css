@@ -1,0 +1,161 @@
+/* line 1, ../../../dev/pages/email_notifications/email_notifications.scss */
+.email-notification-content {
+  margin-top: 3.267em;
+}
+/* line 4, ../../../dev/pages/email_notifications/email_notifications.scss */
+.email-notification-content h1 {
+  font-weight: bold;
+  margin: 0;
+}
+
+/* line 10, ../../../dev/pages/email_notifications/email_notifications.scss */
+.email-notification-table {
+  margin-top: 4.600em;
+}
+
+/* line 15, ../../../dev/pages/email_notifications/email_notifications.scss */
+.table-row:nth-child(odd) {
+  background: #f8faf9;
+}
+
+/* line 20, ../../../dev/pages/email_notifications/email_notifications.scss */
+.table-unit {
+  display: inline-block;
+  font-size: 11px;
+  vertical-align: top;
+  color: #77808b;
+}
+/* line 26, ../../../dev/pages/email_notifications/email_notifications.scss */
+.table-unit:nth-child(1) {
+  width: 16.3%;
+}
+/* line 30, ../../../dev/pages/email_notifications/email_notifications.scss */
+.table-unit:nth-child(2) {
+  width: 14%;
+}
+/* line 34, ../../../dev/pages/email_notifications/email_notifications.scss */
+.table-unit:nth-child(3) {
+  width: 58.5%;
+}
+/* line 38, ../../../dev/pages/email_notifications/email_notifications.scss */
+.table-unit:nth-child(4) {
+  width: 9.5%;
+}
+
+/* line 43, ../../../dev/pages/email_notifications/email_notifications.scss */
+.table-header {
+  margin-bottom: 0.33em;
+}
+/* line 46, ../../../dev/pages/email_notifications/email_notifications.scss */
+.table-header .table-unit {
+  font-weight: bold;
+}
+
+/* line 52, ../../../dev/pages/email_notifications/email_notifications.scss */
+.table-body .table-unit-group {
+  padding-top: 1.0699em;
+  padding-bottom: 1.0699em;
+}
+/* line 57, ../../../dev/pages/email_notifications/email_notifications.scss */
+.table-body .table-unit {
+  line-height: 1.091em;
+}
+/* line 61, ../../../dev/pages/email_notifications/email_notifications.scss */
+.table-body .btn {
+  width: 100%;
+  height: 27px;
+}
+
+/* line 67, ../../../dev/pages/email_notifications/email_notifications.scss */
+.add-notification {
+  position: relative;
+  margin-top: 5.333em;
+  margin-bottom: 5.333em;
+}
+/* line 72, ../../../dev/pages/email_notifications/email_notifications.scss */
+.add-notification:before {
+  content: "";
+  position: absolute;
+  left: 7.4em;
+  right: 7.4em;
+  height: 2px;
+  background: #ededee;
+  top: -2.200em;
+}
+
+/* line 83, ../../../dev/pages/email_notifications/email_notifications.scss */
+.edit-notification {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  width: 37.200em;
+  height: 34.667em;
+  padding: 2.000em 2.200em;
+  margin-left: -18.600em;
+  margin-top: -17.333em;
+  background: #ffffff;
+  border: 1px solid #ededee;
+}
+/* line 96, ../../../dev/pages/email_notifications/email_notifications.scss */
+.edit-notification > span {
+  font-size: 28px;
+}
+/* line 100, ../../../dev/pages/email_notifications/email_notifications.scss */
+.edit-notification input {
+  display: block;
+  width: 100%;
+  height: 3.15385em;
+  line-height: 3.15385em;
+  border: 1px solid #cbcbcb;
+  padding: 0 1.15385em;
+  font-size: 0.86667em;
+}
+/* line 110, ../../../dev/pages/email_notifications/email_notifications.scss */
+.edit-notification textarea {
+  padding: 1em 2.03252%;
+  width: 100%;
+  height: 9.76667em;
+  border: 1px solid #cbcbcb;
+}
+/* line 117, ../../../dev/pages/email_notifications/email_notifications.scss */
+.edit-notification .subject,
+.edit-notification .text {
+  margin-top: 2.200em;
+  padding: 0 0.267em 0 0.200em;
+}
+/* line 122, ../../../dev/pages/email_notifications/email_notifications.scss */
+.edit-notification .subject label,
+.edit-notification .text label {
+  font-size: 12px;
+  margin-bottom: 1.084em;
+  display: inline-block;
+  color: #77808b;
+}
+/* line 131, ../../../dev/pages/email_notifications/email_notifications.scss */
+.edit-notification .text label {
+  margin-bottom: 1.334em;
+}
+/* line 136, ../../../dev/pages/email_notifications/email_notifications.scss */
+.edit-notification .notes {
+  margin-top: 1.067em;
+}
+/* line 139, ../../../dev/pages/email_notifications/email_notifications.scss */
+.edit-notification .notes .notes-unit {
+  float: left;
+  color: #77808b;
+  font-size: 11px;
+  line-height: 1.546em;
+}
+/* line 145, ../../../dev/pages/email_notifications/email_notifications.scss */
+.edit-notification .notes .notes-unit:first-child {
+  margin-right: 2.091em;
+}
+/* line 151, ../../../dev/pages/email_notifications/email_notifications.scss */
+.edit-notification .control {
+  margin-top: 2.467em;
+  padding: 0 0.200em;
+}
+/* line 155, ../../../dev/pages/email_notifications/email_notifications.scss */
+.edit-notification .control button {
+  width: 24.5%;
+}
