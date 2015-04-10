@@ -37,3 +37,9 @@ $calendar-font-size: 12px;
 		}
 	}
 }
+
+.calendar_date {
+	&.distinction {
+		color: $distinction-color;
+	}
+}

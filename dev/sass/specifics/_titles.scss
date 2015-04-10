@@ -13,6 +13,9 @@
 		width: flex(400px, $base-width-content);
 		margin-top: em(60px, $main_title-font-size);
 	}
+	&.main_title-indent {
+		margin-top: em(65px);
+	}
 }
 
 .brand_news_title {

@@ -9,3 +9,12 @@
 	border-bottom: 2px solid #c4c5c6;
 	border-right: 2px solid #9d9fa1;
 }
+
+textarea {
+	width: 100%;
+	height: em(142.5px, $base-font-size);
+	padding: em(12px, $base-font-size) flex(10px, $base-width-content);
+	margin-top: em(20px, $base-font-size);
+	font-size: em($base-font-size);
+	font-family: pragmatica,Helvetica,Arial,sans-serif;
+}
