@@ -3,6 +3,7 @@
 	width: 46px;
 	height: em(46px);
 	overflow: hidden;
+	cursor: pointer;
 	@include border-radius(100%);
 	img {
 		position: absolute;
@@ -15,6 +16,27 @@
 		&.img_circle_side_pack {
 			top: -294px;
 			left: -1225px;
+		}
+		&.img_activaities_changes {
+			top: -255px;
+			left: -1291px;
+		}
+	}
+	.img_circle-default_text {
+		display: none;
+		font-size: em($base-font-size);
+		color: $white-color;
+		text-transform: uppercase;
+	}
+	&.img_circle-default {
+		background: #cecfd0;
+		line-height: em(46px);
+		text-align: center;
+		img {
+			display: none;
+		}
+		.img_circle-default_text {
+			display: inline-block;
 		}
 	}
 }
