@@ -10,6 +10,7 @@
 
         <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800&subset=latin,cyrillic-ext' rel='stylesheet' type='text/css'>
         <link rel="stylesheet" href="/css/main.css">
+        <link rel="stylesheet" href="/css/vendor/jquery-ui.css">
         <link rel="stylesheet" href="new_activies_page.css">
 
         <!--[if lt IE 9]>
@@ -65,6 +66,18 @@
                                     <span class="sprite sprite_ico ico_calendar"></span>
                                     <span class="valid">VALID: </span>dd.mm.yyyy — dd.mm.yyyy 
                                 </button>
+                                <div class="calendar_block">
+                                    <div id="datepicker"></div>
+                                    <div class="datepicker_bottom_block">
+                                        <div class="info_block">
+                                            <span class="starting">Starting</span>
+                                            <span class="ending">Ending</span>
+                                        </div>
+                                        <div class="reset_block">
+                                            <span class="reset">Reset</span>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                         <div class="brand_news_toolbax description">
@@ -155,34 +168,56 @@
                 <div class="wrap wrap_blocks">
                     <h1 class="main_title main_title_actives">attachments</h1>
                     <div class="attachments_blocks clearfix">
-                        <div class="block">
-                            <div class="icon"><div class="sprite sprite_ico ico_search"></div><img src="/img/element_description_psd_object.png" alt=""></div>
-                            <div class="name">Marlboro_mechanics_2014.pdf</div>
-                            <div class="sprite sprite_ico ico_download float-right"></div>
-                            <div class="file_size">(48)mb</div>
-                            <div class="text">Sed ut perspiciatis, unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa, quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt, explicabo</div>
-                        </div>
-                        <div class="block">
-                            <div class="icon"><div class="sprite sprite_ico ico_search"></div><img src="/img/element_description_jpeg_object.png" alt=""></div>
-                            <div class="name">Marlboro_mechanics_2014.jpeg</div>
-                            <div class="sprite sprite_ico ico_download float-right"></div>
-                            <div class="file_size">(5)mb</div>
-                            <div class="text">Sed ut perspiciatis, unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa, quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt, explicabo</div>
-                        </div>
-                        <div class="block">
-                            <div class="icon"><div class="sprite sprite_ico ico_search"></div><img src="/img/icon_pdf.png" alt=""></div>
-                            <div class="name">Marlboro_mechanics_2014.pdf</div>
-                            <div class="sprite sprite_ico ico_download float-right"></div>
-                            <div class="file_size">(48)mb</div>
-                            <div class="text">Sed ut perspiciatis, unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa, quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt, explicabo</div>
-                        </div>
-                        <div class="block">
-                            <div class="icon"><div class="sprite sprite_ico ico_search"></div><img src="/img/icon_pdf.png" alt=""></div>
-                            <div class="name">Marlboro_mechanics_2014.pdf</div>
-                            <div class="sprite sprite_ico ico_download float-right"></div>
-                            <div class="file_size">(48)mb</div>
-                            <div class="text">Sed ut perspiciatis, unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa, quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt, explicabo</div>
-                        </div>
+                        <form action="">
+                            <div class="block">
+                                <div class="icon"><div class="sprite sprite_ico ico_search"></div><img src="/img/element_description_psd_object.png" alt=""></div>
+                                <div class="name">Marlboro_mechanics_2014.pdf
+                                    <span class="file_size"> (48)mb</span>
+                                    <a href="#" class="sprite sprite_ico ico_basket"></a>
+                                </div>
+                                <div class="checkbox">
+                                    <input type="checkbox" id="cb_10" checked hidden>
+                                    <label for="cb_10">Download available</label>
+                                </div>
+                                <textarea name="" id="" placeholder="Add description"></textarea>
+                            </div>
+                            <div class="block">
+                                <div class="icon"><div class="sprite sprite_ico ico_search"></div><img src="/img/element_description_jpeg_object.png" alt=""></div>
+                                <div class="name">Marlboro_mechanics_2014.jpeg
+                                    <span class="file_size"> (48)mb</span>
+                                    <a href="#" class="sprite sprite_ico ico_basket"></a>
+                                </div>
+                                <div class="checkbox">
+                                    <input type="checkbox" id="cb_11" checked hidden>
+                                    <label for="cb_11">Download available</label>
+                                </div>
+                                <textarea name="" id="" placeholder="Add description"></textarea>
+                            </div>
+                            <div class="clearfix"></div>
+                            <div class="block_upload_file">
+                                <button class="btn btn-default">upload file</button>
+                                <span>Total size of attachments must not exceed 100 mb. Current size: 96 mb.</span>
+                            </div>
+                            <div class="block_options_draft">
+                                <button class="btn btn-default float-left">save as draft</button>
+                                <button class="btn btn-default center">exit without saving</button>
+                                <button class="btn btn-default btn-decline float-right">decline draft</button>
+                            </div>
+                            <div class="block_request_comment">
+                                <div class="select_wrap select_default">
+                                    <select name="" id="" class="js-example-basic-single">
+                                        <option value="1">choose approver for request</option>
+                                        <option value="2">choose approver for request</option>
+                                        <option value="3">choose approver for request</option>
+                                    </select>
+                                </div>
+                                <textarea name="" id="" placeholder="Add comment"></textarea>
+                                <span>
+                                    <button class="btn btn-default btn-save">save</button>
+                                    <button class="btn btn-default btn-delete">delete</button>
+                                </span>
+                            </div>
+                        </form>
                     </div>
                 </div>
             </section>
@@ -205,12 +240,13 @@
                 </div>
             </div>
         </footer>
-
+        
 
 
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
 
+        <script src="/js/vendor/jquery-ui.min.js"></script>
         <script src="/js/vendor/select2.min.js"></script>
         <script src="/js/main.js"></script>
     </body>

@@ -1,0 +1,20 @@
+.img_circle {
+	position: relative;
+	width: 46px;
+	height: em(46px);
+	overflow: hidden;
+	@include border-radius(100%);
+	img {
+		position: absolute;
+		top: -255px;
+		left: -351px;
+		&.img_circle_v {
+			top: -255px;
+			left: -351px;
+		}
+		&.img_circle_side_pack {
+			top: -294px;
+			left: -1225px;
+		}
+	}
+}

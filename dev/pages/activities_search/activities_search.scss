@@ -9,6 +9,18 @@
 	}
 }
 
+.select_wrap_list-el_wrap {
+	margin-top: em(60px);
+	&:first-child {
+		margin-top: 0;
+	}
+}
+
+input[type="checkbox"]:checked {
+	vertical-align: -3px;
+	margin-right: em(10px);
+}
+
 .select_wrap_list {
 	display: inline-block;
 	width: 50%;
@@ -23,6 +35,10 @@
 		.select_wrap_list-el {
 			width: 50%;
 			color: $gray-color;
+			input[type="checkbox"] + label::before {
+				vertical-align: -3px;
+				margin-right: em(5px);
+			}
 		}
 	}
 	.small_title {

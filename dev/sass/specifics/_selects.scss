@@ -126,6 +126,37 @@ $select_multiple_default-width: 289px;
 			}
 		}
 	}
+	&.select_mini {
+		.select2-container {
+			&.select2-container--default {
+				.select2-selection--single {
+					.select2-selection__arrow {
+						width: flex(70px, 289px);
+						b {
+							border-width: 4px 4px 0 4px;
+							border-color: #4d4d4d transparent transparent transparent;
+							margin: -2px 0 0 flex(20px, 70px);
+						}
+					}
+				}
+				&.select2-container--open {
+					.select2-selection--single {
+						.select2-selection__arrow {
+							b {
+								border-width: 0px 4px 4px 4px;
+								border-color: transparent transparent #4d4d4d transparent;
+							}
+						}
+					}
+				}
+			}
+			.select2-selection--single {
+				.select2-selection__rendered {
+					text-transform: none;
+				}
+			} 
+		}
+	}
 
 	.select2-container {
 		overflow: hidden;

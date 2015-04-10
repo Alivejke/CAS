@@ -152,17 +152,21 @@
 .activies_page_wrap .content_wrap .btn:nth-last-child(1) {
   margin-bottom: 1px;
 }
-/* line 92, ../../../dev/pages/activies_page/activies_page.scss */
+/* line 89, ../../../dev/pages/activies_page/activies_page.scss */
+.activies_page_wrap .attachments_blocks {
+  margin-bottom: 4em;
+}
+/* line 93, ../../../dev/pages/activies_page/activies_page.scss */
 .activies_page_wrap .attachments_blocks .block {
   width: 46.875%;
   float: left;
   margin-top: 4em;
 }
-/* line 96, ../../../dev/pages/activies_page/activies_page.scss */
+/* line 97, ../../../dev/pages/activies_page/activies_page.scss */
 .activies_page_wrap .attachments_blocks .block:nth-child(2n) {
   margin-left: 6.06936%;
 }
-/* line 99, ../../../dev/pages/activies_page/activies_page.scss */
+/* line 100, ../../../dev/pages/activies_page/activies_page.scss */
 .activies_page_wrap .attachments_blocks .block .icon {
   width: 21.11111%;
   float: left;
@@ -175,44 +179,44 @@
   position: relative;
   margin-right: 1.5625%;
 }
-/* line 108, ../../../dev/pages/activies_page/activies_page.scss */
+/* line 109, ../../../dev/pages/activies_page/activies_page.scss */
 .activies_page_wrap .attachments_blocks .block .icon:hover {
   border-color: #42CE7F;
 }
-/* line 111, ../../../dev/pages/activies_page/activies_page.scss */
+/* line 112, ../../../dev/pages/activies_page/activies_page.scss */
 .activies_page_wrap .attachments_blocks .block .icon img {
   max-width: 100%;
   margin: 0px auto;
   display: block;
 }
-/* line 116, ../../../dev/pages/activies_page/activies_page.scss */
+/* line 117, ../../../dev/pages/activies_page/activies_page.scss */
 .activies_page_wrap .attachments_blocks .block .icon .ico_search {
   position: absolute;
   top: 1.66667em;
   left: 34.24658%;
   display: none;
 }
-/* line 124, ../../../dev/pages/activies_page/activies_page.scss */
+/* line 125, ../../../dev/pages/activies_page/activies_page.scss */
 .activies_page_wrap .attachments_blocks .block .icon:hover .ico_search {
   display: block;
 }
-/* line 128, ../../../dev/pages/activies_page/activies_page.scss */
+/* line 129, ../../../dev/pages/activies_page/activies_page.scss */
 .activies_page_wrap .attachments_blocks .block .name {
   float: left;
 }
-/* line 131, ../../../dev/pages/activies_page/activies_page.scss */
+/* line 132, ../../../dev/pages/activies_page/activies_page.scss */
 .activies_page_wrap .attachments_blocks .block .text {
   float: left;
   width: 66.66667%;
   margin-top: 0.66667em;
   color: #45484C;
 }
-/* line 137, ../../../dev/pages/activies_page/activies_page.scss */
+/* line 138, ../../../dev/pages/activies_page/activies_page.scss */
 .activies_page_wrap .attachments_blocks .block .file_size {
   float: left;
   width: 66.66667%;
 }
-/* line 141, ../../../dev/pages/activies_page/activies_page.scss */
+/* line 142, ../../../dev/pages/activies_page/activies_page.scss */
 .activies_page_wrap .attachments_blocks .block .ico_download {
   cursor: pointer;
 }

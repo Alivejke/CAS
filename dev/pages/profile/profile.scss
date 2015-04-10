@@ -1,0 +1,60 @@
+@import '../../sass/base/__base';
+$profile_description-width: 300px;
+
+.profile_btn_wrap {
+	margin-top: em(50px);
+	padding-top: em(30px);
+	border-top: 1px solid #cecfd0;
+	.btn {
+		&.btn-default {
+			width: flex(160px, $base-width-content);
+		}
+	}
+}
+
+.profile_wrap {
+	margin-top: em(50px);
+	.profile_settings {
+		width: flex(311px, $base-width-content);
+		.select_wrap {
+			margin-top: em(17px);
+		}
+		.profile_roles {
+			margin-left: flex(70px);
+		}
+	}
+}
+
+.profile_text {
+	margin-top: em(7px, 12px);
+	font-size: em(12px);
+	color: $gray-color-old;
+}
+
+.profile_title {
+	&.profile_title-indent {
+		margin-top: em(35px, 12px);
+	}
+}
+
+.profile_description {
+	margin-left: flex(65px, $base-width-content);
+	width: flex($profile_description-width, $base-width-content);
+}
+
+.profile_description_list {
+	position: relative;
+	left: flex(-40px, $profile_description-width);
+	overflow: hidden;
+	font-size: em(13px);
+	margin-top: em(20px, 13px);
+	li {
+		float: left;
+		width: flex(106px, $profile_description-width);
+		margin-left: flex(40px, $profile_description-width);
+		margin-top: em(22px, 13px);
+		input[type="checkbox"] + label::before {
+			vertical-align: -4px;
+		}
+	}
+}

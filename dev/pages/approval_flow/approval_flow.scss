@@ -8,22 +8,36 @@ $th_base-width: flex($base-width-content/5, $base-width-content);
 		font-weight: 600;
 	}
 	.main_title_approval {
-		margin-top: em(60px, $main_title-font-size);
+		margin-top: em(65px, $main_title-font-size);
 	}
 	.approval_table {
 		width: 100%;
 		max-width: 960px;
 		margin: 0 auto;
 		td {
-			width: 20%;
 			color: $gray-color-old;
+			width: 16%;
+			padding: 0 em(5px);
+			&+td {
+				width: 18%;
+				&+td {
+					width: 19%;
+					&+td {
+						width: 25%;
+						&+td {
+							width: 22%;
+						}
+					}
+				}
+			}
 		}
 		.wrap_comments_table {
 			.user_name{
 				color: $gray-color;
 			}
 			.comment_table {
-				margin-bottom: 10px;
+				margin-bottom: em(10px);
+				// padding: 0 em(5px);
 			}
 		}
 	}
@@ -31,9 +45,10 @@ $th_base-width: flex($base-width-content/5, $base-width-content);
 		width: 100%;
 		background-color: #f8faf9;
 		padding: em(25px) 0 0;
+		margin-top: em(25px);
 		table {
 			max-width: 960px;
-			margin: 0 auto;
+			margin: 0 auto 0;
 			width: 100%;
 		}
 		th {
@@ -42,16 +57,32 @@ $th_base-width: flex($base-width-content/5, $base-width-content);
 			text-align: left;
 			text-transform: uppercase;
 			color: $gray-color;
-			width: $th_base-width;
+			width: 16%;
+			padding: 0 em(5px);
+			&+th {
+				width: 18%;
+				&+th {
+					width: 19%;
+					&+th {
+						width: 25%;
+						&+th {
+							width: 22%;
+						}
+					}
+				}
+			}
 		}
 	}
 }
 
 .wrap_table {
 	& > div {
-		padding: 1.5em 0;
+		padding: em(15px) 0;
 		&:nth-child(odd){
 			background-color: #f8faf9;
+		}
+		&.indent-bottom {
+			margin-bottom: em(100px);
 		}
 	}
 }
@@ -59,7 +90,7 @@ $th_base-width: flex($base-width-content/5, $base-width-content);
 .button_table {
 	.btn {
 		&.btn_rounded {
-			width: flex(72px, $base-width-content/5);
+			width: flex(72px, $base-width-content-one*0.22);
 			height: em(28px, 11px);
 			font-size: em(11px);
 		}

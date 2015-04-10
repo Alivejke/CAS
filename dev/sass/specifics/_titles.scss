@@ -64,3 +64,18 @@
 	text-align: center;
 	margin: em(80px, 45px) auto em(120px, 45px);
 }
+
+.popup_title {
+	font-size: em(27px);
+	font-family: pragmatica,Helvetica,Arial,sans-serif;
+	font-weight: 300;
+	color: $base-color;
+}
+
+.profile_title {
+	font-size: em(12px);
+	font-family: pragmatica,Helvetica,Arial,sans-serif;
+	font-weight: 300;
+	color: $base-color;
+	text-transform: uppercase;
+}
