@@ -3552,6 +3552,7 @@ textarea {
   width: 54.20054%;
   margin-top: 2.22222em;
 }
+<<<<<<< HEAD
 @media (max-width: 768px) {
   /* line 11, ../../dev/sass/specifics/_titles.scss */
   .main_title.main_title_actives {
@@ -3560,6 +3561,14 @@ textarea {
 }
 
 /* line 22, ../../dev/sass/specifics/_titles.scss */
+=======
+/* line 16, ../../dev/sass/specifics/_titles.scss */
+.main_title.main_title-indent {
+  margin-top: 4.33333em;
+}
+
+/* line 21, ../../dev/sass/specifics/_titles.scss */
+>>>>>>> 194cd5d8162b1b91ddef210c25ff2b522c81f292
 .brand_news_title {
   font-family: pragmatica,Helvetica,Arial,sans-serif;
   font-weight: 300;
@@ -3568,7 +3577,11 @@ textarea {
   color: #000;
 }
 
+<<<<<<< HEAD
 /* line 32, ../../dev/sass/specifics/_titles.scss */
+=======
+/* line 31, ../../dev/sass/specifics/_titles.scss */
+>>>>>>> 194cd5d8162b1b91ddef210c25ff2b522c81f292
 .main_menu_title {
   font-family: pragmatica,Helvetica,Arial,sans-serif;
   font-weight: 300;
@@ -3578,7 +3591,11 @@ textarea {
   color: #fff;
 }
 
+<<<<<<< HEAD
 /* line 42, ../../dev/sass/specifics/_titles.scss */
+=======
+/* line 41, ../../dev/sass/specifics/_titles.scss */
+>>>>>>> 194cd5d8162b1b91ddef210c25ff2b522c81f292
 .toolbox_edit_title {
   font-family: pragmatica,Helvetica,Arial,sans-serif;
   font-weight: 300;
@@ -3588,7 +3605,11 @@ textarea {
   text-transform: uppercase;
 }
 
+<<<<<<< HEAD
 /* line 51, ../../dev/sass/specifics/_titles.scss */
+=======
+/* line 50, ../../dev/sass/specifics/_titles.scss */
+>>>>>>> 194cd5d8162b1b91ddef210c25ff2b522c81f292
 .small_title {
   font-family: pragmatica,Helvetica,Arial,sans-serif;
   font-weight: 300;
@@ -3598,7 +3619,11 @@ textarea {
   text-transform: uppercase;
 }
 
+<<<<<<< HEAD
 /* line 60, ../../dev/sass/specifics/_titles.scss */
+=======
+/* line 59, ../../dev/sass/specifics/_titles.scss */
+>>>>>>> 194cd5d8162b1b91ddef210c25ff2b522c81f292
 .no_reult_title {
   font-family: pragmatica,Helvetica,Arial,sans-serif;
   font-weight: 300;
@@ -3611,7 +3636,11 @@ textarea {
   margin: 1.77778em auto 2.66667em;
 }
 
+<<<<<<< HEAD
 /* line 72, ../../dev/sass/specifics/_titles.scss */
+=======
+/* line 71, ../../dev/sass/specifics/_titles.scss */
+>>>>>>> 194cd5d8162b1b91ddef210c25ff2b522c81f292
 .popup_title {
   font-size: 1.8em;
   font-family: pragmatica,Helvetica,Arial,sans-serif;
@@ -3619,7 +3648,11 @@ textarea {
   color: #000;
 }
 
+<<<<<<< HEAD
 /* line 79, ../../dev/sass/specifics/_titles.scss */
+=======
+/* line 78, ../../dev/sass/specifics/_titles.scss */
+>>>>>>> 194cd5d8162b1b91ddef210c25ff2b522c81f292
 .profile_title {
   font-size: 0.8em;
   font-family: pragmatica,Helvetica,Arial,sans-serif;
@@ -6090,6 +6123,16 @@ textarea {
   border-right: 2px solid #9d9fa1;
 }
 
+/* line 13, ../../dev/sass/specifics/_forms.scss */
+textarea {
+  width: 100%;
+  height: 9.5em;
+  padding: 0.8em 1.35501%;
+  margin-top: 1.33333em;
+  font-size: 1em;
+  font-family: pragmatica,Helvetica,Arial,sans-serif;
+}
+
 /* line 2, ../../dev/sass/specifics/_status.scss */
 .status_wrap_center {
   position: relative;
@@ -6160,6 +6203,11 @@ textarea {
   display: none;
 }
 
+/* line 42, ../../dev/sass/specifics/_calendar.scss */
+.calendar_date.distinction {
+  color: #b70e12;
+}
+
 /* line 1, ../../dev/sass/specifics/_checkbox.scss */
 input[type="checkbox"] {
   display: none;
@@ -6178,28 +6226,32 @@ input[type="radio"] + label::before {
   height: 18px;
   width: 18px;
   margin: 0 5px 0 0;
-  background: url(/i/sprite.png) 0px 0px no-repeat;
-  background-repeat: no-repeat;
+  background: none;
+  border: 1px solid #c2c2c2;
 }
 
-/* line 17, ../../dev/sass/specifics/_checkbox.scss */
-input[type="checkbox"] + label::before {
-  background-position: 0px -160px;
+/* line 24, ../../dev/sass/specifics/_checkbox.scss */
+input[type="checkbox"].distinction + label {
+  color: #b70e12;
 }
-
-/* line 20, ../../dev/sass/specifics/_checkbox.scss */
-input[type="checkbox"]:checked + label::before {
-  background-position: -40px -160px;
-}
-
-/* line 23, ../../dev/sass/specifics/_checkbox.scss */
-input[type="checkbox"]:disabled + label::before {
-  background-position: 0px -160px;
-}
-
 /* line 26, ../../dev/sass/specifics/_checkbox.scss */
+input[type="checkbox"].distinction + label::before {
+  border-color: #b70e12;
+}
+
+/* line 32, ../../dev/sass/specifics/_checkbox.scss */
+input[type="checkbox"]:checked + label::before {
+  background: url(/i/sprite.png) -40px -240px;
+}
+
+/* line 35, ../../dev/sass/specifics/_checkbox.scss */
+input[type="checkbox"]:disabled + label::before {
+  background: url(/i/sprite.png) 0px -160px;
+}
+
+/* line 38, ../../dev/sass/specifics/_checkbox.scss */
 input[type="checkbox"]:checked:disabled + label::before {
-  background-position: -40px -160px;
+  background: url(/i/sprite.png) -40px -240px;
 }
 
 /* line 3, ../../dev/sass/specifics/_table.scss */
@@ -6436,23 +6488,65 @@ input[type="checkbox"]:checked:disabled + label::before {
   width: 46px;
   height: 3.06667em;
   overflow: hidden;
+  cursor: pointer;
   -moz-border-radius: 100%;
   -webkit-border-radius: 100%;
   border-radius: 100%;
 }
-/* line 7, ../../dev/sass/specifics/_img_circle.scss */
+/* line 8, ../../dev/sass/specifics/_img_circle.scss */
 .img_circle img {
   position: absolute;
   top: -255px;
   left: -351px;
 }
-/* line 11, ../../dev/sass/specifics/_img_circle.scss */
+/* line 12, ../../dev/sass/specifics/_img_circle.scss */
 .img_circle img.img_circle_v {
   top: -255px;
   left: -351px;
 }
-/* line 15, ../../dev/sass/specifics/_img_circle.scss */
+/* line 16, ../../dev/sass/specifics/_img_circle.scss */
 .img_circle img.img_circle_side_pack {
   top: -294px;
   left: -1225px;
+}
+/* line 20, ../../dev/sass/specifics/_img_circle.scss */
+.img_circle img.img_activaities_changes {
+  top: -255px;
+  left: -1291px;
+}
+/* line 25, ../../dev/sass/specifics/_img_circle.scss */
+.img_circle .img_circle-default_text {
+  display: none;
+  font-size: 1em;
+  color: #fff;
+  text-transform: uppercase;
+}
+/* line 31, ../../dev/sass/specifics/_img_circle.scss */
+.img_circle.img_circle-default {
+  background: #cecfd0;
+  line-height: 3.06667em;
+  text-align: center;
+}
+/* line 35, ../../dev/sass/specifics/_img_circle.scss */
+.img_circle.img_circle-default img {
+  display: none;
+}
+/* line 38, ../../dev/sass/specifics/_img_circle.scss */
+.img_circle.img_circle-default .img_circle-default_text {
+  display: inline-block;
+}
+
+/* line 1, ../../dev/sass/specifics/_img_in_square_frame.scss */
+.block_img {
+  border: 1px solid #cecfd0;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  border-radius: 4px;
+  padding: 0.86667em 4.39189%;
+  width: 100%;
+  display: block;
+}
+/* line 7, ../../dev/sass/specifics/_img_in_square_frame.scss */
+.block_img img {
+  max-width: 100%;
 }

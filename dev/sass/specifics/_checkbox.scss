@@ -11,18 +11,30 @@ input[type="radio"] + label::before {
     height: 18px;
     width: 18px;
     margin: 0 5px 0 0;
-    background: url(/i/sprite.png) 0px 0px no-repeat;
-    background-repeat: no-repeat;
+    // background: url(/i/sprite.png) 0px 0px no-repeat;
+    // background-repeat: no-repeat;
+    background: none;
+    border: 1px solid #c2c2c2;
 }
 input[type="checkbox"] + label::before {
-    background-position: 0px -160px;    
+    // background: url(/i/sprite.png) 0px -160px;    
+}
+input[type="checkbox"] {
+    &.distinction {
+        &+ label {
+            color: $distinction-color;
+            &::before {
+                border-color: $distinction-color;
+            }
+        }
+    }
 }
 input[type="checkbox"]:checked + label::before {
-    background-position: -40px -160px;
+    background: url(/i/sprite.png) -40px -240px;
 }
 input[type="checkbox"]:disabled + label::before {
-    background-position: 0px -160px;
+    background: url(/i/sprite.png) 0px -160px;
 }
 input[type="checkbox"]:checked:disabled + label::before {
-    background-position: -40px -160px;
+    background: url(/i/sprite.png) -40px -240px;
 }
