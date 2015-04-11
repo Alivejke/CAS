@@ -36,7 +36,7 @@ $navigation_dropdown_list_news-font-size: 11px;
 
 .navigation_dropdown {
 	position: relative;
-	width: flex($dropdown_btn-width, $base-width-content-one);
+	min-width: flex($dropdown_btn-width, $base-width-content-one);
 	height: em(65px, $base-font-size);
 	color: $white-color;
 	background-color: #7e8890;
@@ -66,6 +66,10 @@ $navigation_dropdown_list_news-font-size: 11px;
 	&:hover {
 		background-color: #bec3c7;
 	}
+
+	// @media (max-width: 768px) {
+	// 	width: 28%;
+	// }
 }
 
 .navigation_dropdown_text {

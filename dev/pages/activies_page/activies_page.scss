@@ -121,6 +121,11 @@
                     top: em(25px, $base-font-size);
                     left: flex(25px, 73px);
                     display: none;
+
+                    @media (max-width: 768px) {
+                        top: 1.3em;
+                        left: 32.24658%;
+                    }
                 }
                 &:hover .ico_search{
                     display: block;
@@ -141,6 +146,10 @@
             }
             .ico_download {
                 cursor: pointer;
+
+                @media (max-width: 768px) {
+                    margin-top: 5px;
+                }
             }
         }
     }

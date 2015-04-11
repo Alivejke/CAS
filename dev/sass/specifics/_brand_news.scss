@@ -75,6 +75,14 @@
 		.btn_big_rounded {
 			background-color: #fff;
 		}
+
+		@media (max-width: 960px) {
+			width: 33.5%;
+		}
+
+		@media (max-width: 768px) {
+			width: 50.5%;
+		}
 	}
 }
 
