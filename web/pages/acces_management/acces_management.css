@@ -75,86 +75,90 @@
 .button_table .btn {
   margin-top: 0.90909em;
 }
-/* line 14, ../../../dev/pages/acces_management/acces_management.scss */
+/* line 15, ../../../dev/pages/acces_management/acces_management.scss */
+.button_table .btn.btn_gray, .button_table .btn.btn_red {
+  width: 6.3em;
+}
+/* line 20, ../../../dev/pages/acces_management/acces_management.scss */
 .button_table .btn:first-child {
   margin-top: 0;
 }
 
-/* line 20, ../../../dev/pages/acces_management/acces_management.scss */
+/* line 26, ../../../dev/pages/acces_management/acces_management.scss */
 .acces_content_wrap {
   border-top: 1px solid #45484C;
   padding: 2em 0;
   margin-bottom: 6.66667em;
 }
-/* line 25, ../../../dev/pages/acces_management/acces_management.scss */
+/* line 31, ../../../dev/pages/acces_management/acces_management.scss */
 .acces_content_wrap .btn.btn-default {
   width: 16.26016%;
 }
 
-/* line 31, ../../../dev/pages/acces_management/acces_management.scss */
+/* line 37, ../../../dev/pages/acces_management/acces_management.scss */
 .input_default {
   margin-top: 1.53846em;
 }
 
-/* line 38, ../../../dev/pages/acces_management/acces_management.scss */
+/* line 44, ../../../dev/pages/acces_management/acces_management.scss */
 .select_wrap.select_default.select_multiple_default.select_long {
   margin-top: 1.33333em;
   width: 100%;
 }
-/* line 44, ../../../dev/pages/acces_management/acces_management.scss */
+/* line 50, ../../../dev/pages/acces_management/acces_management.scss */
 .select_wrap.select_default.select_multiple_default .select2-container--default .select2-selection--multiple .select2-selection__rendered {
   padding-left: 15px;
   font-size: 0.86667em;
   margin-top: 0.13333em;
 }
 
-/* line 55, ../../../dev/pages/acces_management/acces_management.scss */
+/* line 61, ../../../dev/pages/acces_management/acces_management.scss */
 .btn_wrap {
   margin-top: 2.26667em;
 }
-/* line 57, ../../../dev/pages/acces_management/acces_management.scss */
+/* line 63, ../../../dev/pages/acces_management/acces_management.scss */
 .btn_wrap .btn {
   margin-left: 3.64583%;
 }
-/* line 59, ../../../dev/pages/acces_management/acces_management.scss */
+/* line 65, ../../../dev/pages/acces_management/acces_management.scss */
 .btn_wrap .btn:first-child {
   margin-left: 0;
 }
 
-/* line 66, ../../../dev/pages/acces_management/acces_management.scss */
+/* line 72, ../../../dev/pages/acces_management/acces_management.scss */
 .popup_acces_managment_list > li {
   margin-top: 2em;
 }
-/* line 68, ../../../dev/pages/acces_management/acces_management.scss */
+/* line 74, ../../../dev/pages/acces_management/acces_management.scss */
 .popup_acces_managment_list > li:first-child {
   margin-top: 0;
 }
 
-/* line 74, ../../../dev/pages/acces_management/acces_management.scss */
+/* line 80, ../../../dev/pages/acces_management/acces_management.scss */
 .popup_acces_managment_table {
   color: #909294;
   width: 500px;
 }
-/* line 77, ../../../dev/pages/acces_management/acces_management.scss */
+/* line 83, ../../../dev/pages/acces_management/acces_management.scss */
 .popup_acces_managment_table td {
   color: #45484C;
   width: 32%;
   padding: 0.6em 0;
 }
-/* line 81, ../../../dev/pages/acces_management/acces_management.scss */
+/* line 87, ../../../dev/pages/acces_management/acces_management.scss */
 .popup_acces_managment_table td input[type="checkbox"] + label::before {
   vertical-align: -3px;
 }
-/* line 84, ../../../dev/pages/acces_management/acces_management.scss */
+/* line 90, ../../../dev/pages/acces_management/acces_management.scss */
 .popup_acces_managment_table td + td {
   color: #909294;
   width: 20%;
 }
-/* line 87, ../../../dev/pages/acces_management/acces_management.scss */
+/* line 93, ../../../dev/pages/acces_management/acces_management.scss */
 .popup_acces_managment_table td + td + td {
   width: 19%;
 }
-/* line 89, ../../../dev/pages/acces_management/acces_management.scss */
+/* line 95, ../../../dev/pages/acces_management/acces_management.scss */
 .popup_acces_managment_table td + td + td + td {
   width: 28%;
 }

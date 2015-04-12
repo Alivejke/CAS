@@ -6449,15 +6449,27 @@ input[type="checkbox"]:checked:disabled + label::before {
   padding: 2.26667em 2.2em 1.73333em 2.53333em;
   overflow-y: auto;
 }
-/* line 25, ../../dev/sass/specifics/_popups.scss */
+@media (max-width: 768px) {
+  /* line 17, ../../dev/sass/specifics/_popups.scss */
+  #popup_block .popup_window {
+    width: 40em;
+  }
+}
+/* line 30, ../../dev/sass/specifics/_popups.scss */
 #popup_block .popup_window.popup_acces_managment {
   margin: -270px 0 0 -370px;
 }
-/* line 29, ../../dev/sass/specifics/_popups.scss */
+@media (max-width: 768px) {
+  /* line 30, ../../dev/sass/specifics/_popups.scss */
+  #popup_block .popup_window.popup_acces_managment {
+    margin: -270px 0 0 -300px;
+  }
+}
+/* line 38, ../../dev/sass/specifics/_popups.scss */
 #popup_block.popup_active {
   z-index: 100;
 }
-/* line 31, ../../dev/sass/specifics/_popups.scss */
+/* line 40, ../../dev/sass/specifics/_popups.scss */
 #popup_block.popup_active #popup_fone {
   filter: progid:DXImageTransform.Microsoft.Alpha(enabled=false);
   opacity: 1;

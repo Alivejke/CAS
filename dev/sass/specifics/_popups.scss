@@ -22,8 +22,17 @@
 		width: em(740px);
 		padding: em(34px) em(33px) em(26px) em(38px);
 		overflow-y: auto;
+
+		@media (max-width: 768px) {
+            width: em(600px);
+        }
+
 		&.popup_acces_managment {
 			margin: $popup_acces_managment-height/-2 0 0 $popup_acces_managment-width/-2;
+
+			@media (max-width: 768px) {
+	            margin: -270px 0 0 -300px;
+	        }
 		}
 	}
 	&.popup_active {
