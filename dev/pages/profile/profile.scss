@@ -40,6 +40,10 @@ $profile_description-width: 300px;
 .profile_description {
 	margin-left: flex(65px, $base-width-content);
 	width: flex($profile_description-width, $base-width-content);
+
+	@media (max-width: 768px) {
+        width: 43.65041%;
+    }
 }
 
 .profile_description_list {
