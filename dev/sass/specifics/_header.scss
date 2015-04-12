@@ -25,6 +25,11 @@ $navigation_dropdown_list_news-font-size: 11px;
 		text-decoration: none;
 		text-transform: uppercase;
 		margin-left: flex(40px, $base-width-content);
+
+		@media (max-width: 768px) {
+            font-size: 0.69em
+        }
+
 		&:hover {
 			color: rgba(255,255,255, .3);
 		}

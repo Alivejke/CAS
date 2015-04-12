@@ -13,7 +13,8 @@ $main_menu_item-width-hover: 367px;
 	top: -11px;
 	> li {
 		display: inline-block;
-		width: flex(161px, $base-width-content);
+		// width: flex(161px, $base-width-content);
+		width: em(168px, $base-font-size);
 		height: em(168px, $base-font-size);
 		vertical-align: top;
 		text-align: center;
