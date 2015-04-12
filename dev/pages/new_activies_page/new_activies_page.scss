@@ -111,11 +111,11 @@
             letter-spacing: 1px;
         }
     }
-    .content_wrap {
-        .btn:nth-last-child(1) {
-            margin-bottom: 1px;
-        }
-    }
+    // .content_wrap {
+    //     .btn:nth-last-child(1) {
+    //         margin-bottom: 1px;
+    //     }
+    // }
     .attachments_blocks {
         margin-bottom: em(60px, $base-font-size);
 
@@ -147,6 +147,11 @@
                     top: em(25px, $base-font-size);
                     left: flex(25px, 73px);
                     display: none;
+
+                    @media (max-width: 768px) {
+                        top: 1.4em;
+                        left: 32.24658%;
+                    }
                 }
                 &:hover .ico_search{
                     display: block;
@@ -156,6 +161,7 @@
                 float: left;
                 width: 80%;
                 margin-top: em(15px, $base-font-size);
+                position: relative;
                 a.sprite.sprite_ico.ico_basket {
                     margin: em(-2px, $base-font-size) flex(5px, $base-width-content);
                     position: absolute;
@@ -164,12 +170,13 @@
             .checkbox {
                 display: inline-block;
                 position: relative;
-                padding-left: 3%;
+                padding-left: 1.5em;
                 margin-top: em(12px, $base-font-size);
                 color: $gray-color;
                 label:before {
                     position: absolute;
                     left: 0px;
+                    top: -1px;
                 }
             }
             textarea {
@@ -185,6 +192,12 @@
             span {
                 margin-left: flex(20px, $base-width-content);
                 color: $gray-color;
+
+                @media (max-width: 768px) {
+                    display: block;
+                    margin-left: 0;
+                    margin-top: 1em;
+                }
             }
         }
         .block_options_draft {

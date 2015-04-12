@@ -3552,23 +3552,18 @@ textarea {
   width: 54.20054%;
   margin-top: 2.22222em;
 }
-<<<<<<< HEAD
 @media (max-width: 768px) {
   /* line 11, ../../dev/sass/specifics/_titles.scss */
   .main_title.main_title_actives {
     width: 100%;
   }
 }
-
-/* line 22, ../../dev/sass/specifics/_titles.scss */
-=======
-/* line 16, ../../dev/sass/specifics/_titles.scss */
+/* line 20, ../../dev/sass/specifics/_titles.scss */
 .main_title.main_title-indent {
   margin-top: 4.33333em;
 }
 
-/* line 21, ../../dev/sass/specifics/_titles.scss */
->>>>>>> 194cd5d8162b1b91ddef210c25ff2b522c81f292
+/* line 25, ../../dev/sass/specifics/_titles.scss */
 .brand_news_title {
   font-family: pragmatica,Helvetica,Arial,sans-serif;
   font-weight: 300;
@@ -3577,11 +3572,7 @@ textarea {
   color: #000;
 }
 
-<<<<<<< HEAD
-/* line 32, ../../dev/sass/specifics/_titles.scss */
-=======
-/* line 31, ../../dev/sass/specifics/_titles.scss */
->>>>>>> 194cd5d8162b1b91ddef210c25ff2b522c81f292
+/* line 35, ../../dev/sass/specifics/_titles.scss */
 .main_menu_title {
   font-family: pragmatica,Helvetica,Arial,sans-serif;
   font-weight: 300;
@@ -3591,11 +3582,7 @@ textarea {
   color: #fff;
 }
 
-<<<<<<< HEAD
-/* line 42, ../../dev/sass/specifics/_titles.scss */
-=======
-/* line 41, ../../dev/sass/specifics/_titles.scss */
->>>>>>> 194cd5d8162b1b91ddef210c25ff2b522c81f292
+/* line 45, ../../dev/sass/specifics/_titles.scss */
 .toolbox_edit_title {
   font-family: pragmatica,Helvetica,Arial,sans-serif;
   font-weight: 300;
@@ -3605,11 +3592,7 @@ textarea {
   text-transform: uppercase;
 }
 
-<<<<<<< HEAD
-/* line 51, ../../dev/sass/specifics/_titles.scss */
-=======
-/* line 50, ../../dev/sass/specifics/_titles.scss */
->>>>>>> 194cd5d8162b1b91ddef210c25ff2b522c81f292
+/* line 54, ../../dev/sass/specifics/_titles.scss */
 .small_title {
   font-family: pragmatica,Helvetica,Arial,sans-serif;
   font-weight: 300;
@@ -3619,11 +3602,7 @@ textarea {
   text-transform: uppercase;
 }
 
-<<<<<<< HEAD
-/* line 60, ../../dev/sass/specifics/_titles.scss */
-=======
-/* line 59, ../../dev/sass/specifics/_titles.scss */
->>>>>>> 194cd5d8162b1b91ddef210c25ff2b522c81f292
+/* line 63, ../../dev/sass/specifics/_titles.scss */
 .no_reult_title {
   font-family: pragmatica,Helvetica,Arial,sans-serif;
   font-weight: 300;
@@ -3636,11 +3615,7 @@ textarea {
   margin: 1.77778em auto 2.66667em;
 }
 
-<<<<<<< HEAD
-/* line 72, ../../dev/sass/specifics/_titles.scss */
-=======
-/* line 71, ../../dev/sass/specifics/_titles.scss */
->>>>>>> 194cd5d8162b1b91ddef210c25ff2b522c81f292
+/* line 75, ../../dev/sass/specifics/_titles.scss */
 .popup_title {
   font-size: 1.8em;
   font-family: pragmatica,Helvetica,Arial,sans-serif;
@@ -3648,11 +3623,7 @@ textarea {
   color: #000;
 }
 
-<<<<<<< HEAD
-/* line 79, ../../dev/sass/specifics/_titles.scss */
-=======
-/* line 78, ../../dev/sass/specifics/_titles.scss */
->>>>>>> 194cd5d8162b1b91ddef210c25ff2b522c81f292
+/* line 82, ../../dev/sass/specifics/_titles.scss */
 .profile_title {
   font-size: 0.8em;
   font-family: pragmatica,Helvetica,Arial,sans-serif;
@@ -4141,94 +4112,97 @@ textarea {
 /* line 20, ../../dev/sass/specifics/_icons.scss */
 .ico_basket {
   background-position: -200px 0px;
-  width: 20px;
-  height: 25px;
+  width: 15px;
+  height: 20px;
 }
 /* line 24, ../../dev/sass/specifics/_icons.scss */
 .ico_basket:hover {
   background-position: -200px -80px;
+  top: -3px;
+  width: 20px;
+  height: 25px;
 }
-/* line 27, ../../dev/sass/specifics/_icons.scss */
+/* line 30, ../../dev/sass/specifics/_icons.scss */
 .ico_basket:active {
   background-position: -200px -160px;
 }
 
-/* line 32, ../../dev/sass/specifics/_icons.scss */
+/* line 35, ../../dev/sass/specifics/_icons.scss */
 .ico_upload {
   background-position: -440px 0px;
   width: 18px;
   height: 17px;
 }
-/* line 36, ../../dev/sass/specifics/_icons.scss */
+/* line 39, ../../dev/sass/specifics/_icons.scss */
 .ico_upload:hover {
   background-position: -440px -80px;
 }
-/* line 39, ../../dev/sass/specifics/_icons.scss */
+/* line 42, ../../dev/sass/specifics/_icons.scss */
 .ico_upload:active {
   background-position: -440px -160px;
 }
 
-/* line 44, ../../dev/sass/specifics/_icons.scss */
+/* line 47, ../../dev/sass/specifics/_icons.scss */
 .ico_edit {
   background-position: -520px 0px;
   width: 19px;
   height: 19px;
 }
-/* line 48, ../../dev/sass/specifics/_icons.scss */
+/* line 51, ../../dev/sass/specifics/_icons.scss */
 .ico_edit:hover {
   background-position: -520px -80px;
 }
-/* line 51, ../../dev/sass/specifics/_icons.scss */
+/* line 54, ../../dev/sass/specifics/_icons.scss */
 .ico_edit:active {
   background-position: -520px -160px;
 }
 
-/* line 56, ../../dev/sass/specifics/_icons.scss */
+/* line 59, ../../dev/sass/specifics/_icons.scss */
 .ico_download {
   background-position: -600px 0px;
   width: 17px;
   height: 16px;
 }
-/* line 60, ../../dev/sass/specifics/_icons.scss */
+/* line 63, ../../dev/sass/specifics/_icons.scss */
 .ico_download:hover {
   background-position: -600px -80px;
 }
-/* line 63, ../../dev/sass/specifics/_icons.scss */
+/* line 66, ../../dev/sass/specifics/_icons.scss */
 .ico_download:active {
   background-position: -600px -160px;
 }
 
-/* line 68, ../../dev/sass/specifics/_icons.scss */
+/* line 71, ../../dev/sass/specifics/_icons.scss */
 .ico_add {
   background-position: -760px 0px;
   width: 18px;
   height: 18px;
 }
-/* line 72, ../../dev/sass/specifics/_icons.scss */
+/* line 75, ../../dev/sass/specifics/_icons.scss */
 .ico_add:hover {
   background-position: -760px -80px;
 }
-/* line 75, ../../dev/sass/specifics/_icons.scss */
+/* line 78, ../../dev/sass/specifics/_icons.scss */
 .ico_add:active {
   background-position: -760px -160px;
 }
 
-/* line 80, ../../dev/sass/specifics/_icons.scss */
+/* line 83, ../../dev/sass/specifics/_icons.scss */
 .ico_status {
   background-position: -120px 0px;
   width: 12px;
   height: 12px;
 }
-/* line 84, ../../dev/sass/specifics/_icons.scss */
+/* line 87, ../../dev/sass/specifics/_icons.scss */
 .ico_status:hover {
   background-position: -120px -40px;
 }
-/* line 87, ../../dev/sass/specifics/_icons.scss */
+/* line 90, ../../dev/sass/specifics/_icons.scss */
 .ico_status:active {
   background-position: -120px -80px;
 }
 
-/* line 92, ../../dev/sass/specifics/_icons.scss */
+/* line 95, ../../dev/sass/specifics/_icons.scss */
 .ico_status_big {
   width: 2em;
   height: 2em;
@@ -4238,65 +4212,65 @@ textarea {
   -webkit-border-radius: 25px;
   border-radius: 25px;
 }
-/* line 98, ../../dev/sass/specifics/_icons.scss */
+/* line 101, ../../dev/sass/specifics/_icons.scss */
 .ico_status_big.error {
   background-color: #b70e12;
 }
 
-/* line 102, ../../dev/sass/specifics/_icons.scss */
+/* line 105, ../../dev/sass/specifics/_icons.scss */
 .ico_calendar {
   background-position: -840px 0px;
   width: 12px;
   height: 14px;
 }
-/* line 106, ../../dev/sass/specifics/_icons.scss */
+/* line 109, ../../dev/sass/specifics/_icons.scss */
 .ico_calendar.ico_calendar_big {
   background-position: -840px -40px;
 }
 
-/* line 110, ../../dev/sass/specifics/_icons.scss */
+/* line 113, ../../dev/sass/specifics/_icons.scss */
 .ico_status_basket {
   background-position: -1200px 0px;
   width: 30px;
   height: 30px;
 }
 
-/* line 115, ../../dev/sass/specifics/_icons.scss */
+/* line 118, ../../dev/sass/specifics/_icons.scss */
 .ico_fragile {
   background-position: -1240px 0px;
   width: 30px;
   height: 30px;
 }
 
-/* line 120, ../../dev/sass/specifics/_icons.scss */
+/* line 123, ../../dev/sass/specifics/_icons.scss */
 .ico_ecol {
   background-position: -1280px 0px;
   width: 30px;
   height: 30px;
 }
 
-/* line 125, ../../dev/sass/specifics/_icons.scss */
+/* line 128, ../../dev/sass/specifics/_icons.scss */
 .ico_tree {
   background-position: -880px 0px;
   width: 57px;
   height: 55px;
 }
 
-/* line 130, ../../dev/sass/specifics/_icons.scss */
+/* line 133, ../../dev/sass/specifics/_icons.scss */
 .ico_glass {
   background-position: -960px 0px;
   width: 57px;
   height: 55px;
 }
 
-/* line 135, ../../dev/sass/specifics/_icons.scss */
+/* line 138, ../../dev/sass/specifics/_icons.scss */
 .ico_cart {
   background-position: -1040px 0px;
   width: 57px;
   height: 55px;
 }
 
-/* line 140, ../../dev/sass/specifics/_icons.scss */
+/* line 143, ../../dev/sass/specifics/_icons.scss */
 .ico_search {
   background-position: 0px -120px;
   width: 21px;
