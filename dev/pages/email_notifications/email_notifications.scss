@@ -1,3 +1,5 @@
+@import '../../sass/base/__base';
+
 .email-notification-content {
 	margin-top: 3.267em;
 
@@ -11,35 +13,6 @@
 	margin-top: 4.600em;
 }
 
-.table-row {
-	&:nth-child(odd) {
-		background: #f8faf9;
-	}
-}
-
-.table-unit {
-	display: inline-block;
-	font-size: 11px;
-	vertical-align: top;
-	color: #77808b;
-
-	&:nth-child(1) {
-		width: 16.3%;	
-	}
-
-	&:nth-child(2) {
-		width: 14%;	
-	} 
-
-	&:nth-child(3) {
-		width: 58.5%;	
-	}
-
-	&:nth-child(4) {
-		width: 9.5%;
-	}
-}
-
 .table-header {
 	margin-bottom: 0.33em;
 
@@ -48,16 +21,7 @@
 	}
 }
 
-.table-body {
-	.table-unit-group {
-		padding-top: 1.0699em;
-  		padding-bottom: 1.0699em;
-	}
-
-	.table-unit {
-		line-height: 1.091em;
-	}
-
+.approval_table {
 	.btn {
 		width: 100%;
 		height: 27px;
@@ -80,6 +44,10 @@
 	}
 }
 
+
+
+
+
 .edit-notification {
 	position: fixed;
 	top: 50%;
@@ -91,7 +59,7 @@
 	margin-top: -17.333em;
 	background: #ffffff;
 	border: 1px solid #ededee;
-	// display: none;
+	display: none;
 
 	& > span {
 		font-size: 28px;

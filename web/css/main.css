@@ -6255,119 +6255,167 @@ input[type="checkbox"]:checked:disabled + label::before {
 .approval_flow_wrap .main_title_approval {
   margin-top: 2.40741em;
 }
-/* line 10, ../../dev/sass/specifics/_table.scss */
+/* line 15, ../../dev/sass/specifics/_table.scss */
+.approval_flow_wrap.email-notification .wrap_table.table-header > div:nth-child(odd) {
+  background: none;
+}
+/* line 21, ../../dev/sass/specifics/_table.scss */
+.approval_flow_wrap.email-notification .wrap_table.table-header .approval_table.table_log {
+  width: 88.33922%;
+  margin: 0;
+  padding: 0;
+}
+/* line 25, ../../dev/sass/specifics/_table.scss */
+.approval_flow_wrap.email-notification .wrap_table.table-header .approval_table.table_log td {
+  font-size: 0.73333em;
+  width: 12%;
+  text-align: left;
+}
+/* line 30, ../../dev/sass/specifics/_table.scss */
+.approval_flow_wrap.email-notification .wrap_table.table-header .approval_table.table_log td + td {
+  width: 10%;
+}
+/* line 32, ../../dev/sass/specifics/_table.scss */
+.approval_flow_wrap.email-notification .wrap_table.table-header .approval_table.table_log td + td + td {
+  width: 51%;
+}
+/* line 43, ../../dev/sass/specifics/_table.scss */
+.approval_flow_wrap.email-notification .approval_table.table_log {
+  width: 88.33922%;
+  margin: 0;
+  padding: 0;
+}
+/* line 47, ../../dev/sass/specifics/_table.scss */
+.approval_flow_wrap.email-notification .approval_table.table_log td {
+  font-size: 0.73333em;
+  width: 14%;
+  text-align: left;
+}
+/* line 52, ../../dev/sass/specifics/_table.scss */
+.approval_flow_wrap.email-notification .approval_table.table_log td + td {
+  width: 12%;
+}
+/* line 54, ../../dev/sass/specifics/_table.scss */
+.approval_flow_wrap.email-notification .approval_table.table_log td + td + td {
+  width: 51%;
+}
+/* line 56, ../../dev/sass/specifics/_table.scss */
+.approval_flow_wrap.email-notification .approval_table.table_log td + td + td + td {
+  width: 9%;
+}
+/* line 71, ../../dev/sass/specifics/_table.scss */
 .approval_flow_wrap .approval_table {
   width: 100%;
   max-width: 960px;
   margin: 0 auto;
 }
-/* line 14, ../../dev/sass/specifics/_table.scss */
+/* line 75, ../../dev/sass/specifics/_table.scss */
 .approval_flow_wrap .approval_table td {
   color: #77808b;
   width: 16%;
   padding: 0 0.33333em;
 }
-/* line 18, ../../dev/sass/specifics/_table.scss */
+/* line 79, ../../dev/sass/specifics/_table.scss */
 .approval_flow_wrap .approval_table td + td {
   width: 18%;
 }
-/* line 20, ../../dev/sass/specifics/_table.scss */
+/* line 81, ../../dev/sass/specifics/_table.scss */
 .approval_flow_wrap .approval_table td + td + td {
   width: 19%;
 }
-/* line 22, ../../dev/sass/specifics/_table.scss */
+/* line 83, ../../dev/sass/specifics/_table.scss */
 .approval_flow_wrap .approval_table td + td + td + td {
   width: 25%;
 }
-/* line 24, ../../dev/sass/specifics/_table.scss */
+/* line 85, ../../dev/sass/specifics/_table.scss */
 .approval_flow_wrap .approval_table td + td + td + td + td {
   width: 22%;
 }
-/* line 32, ../../dev/sass/specifics/_table.scss */
+/* line 93, ../../dev/sass/specifics/_table.scss */
 .approval_flow_wrap .approval_table .wrap_comments_table .user_name {
   color: #45484C;
 }
-/* line 35, ../../dev/sass/specifics/_table.scss */
+/* line 96, ../../dev/sass/specifics/_table.scss */
 .approval_flow_wrap .approval_table .wrap_comments_table .comment_table {
   margin-bottom: 0.66667em;
 }
-/* line 40, ../../dev/sass/specifics/_table.scss */
+/* line 101, ../../dev/sass/specifics/_table.scss */
 .approval_flow_wrap .approval_table.table_log {
   width: 88.33922%;
   margin: 0;
   padding: 0;
 }
-/* line 44, ../../dev/sass/specifics/_table.scss */
+/* line 105, ../../dev/sass/specifics/_table.scss */
 .approval_flow_wrap .approval_table.table_log td {
   font-size: 0.73333em;
   width: 15%;
   text-align: left;
 }
-/* line 49, ../../dev/sass/specifics/_table.scss */
+/* line 110, ../../dev/sass/specifics/_table.scss */
 .approval_flow_wrap .approval_table.table_log td + td {
   width: 19%;
 }
-/* line 51, ../../dev/sass/specifics/_table.scss */
+/* line 112, ../../dev/sass/specifics/_table.scss */
 .approval_flow_wrap .approval_table.table_log td + td + td {
   width: 13%;
 }
-/* line 53, ../../dev/sass/specifics/_table.scss */
+/* line 114, ../../dev/sass/specifics/_table.scss */
 .approval_flow_wrap .approval_table.table_log td + td + td + td {
   width: 20%;
 }
-/* line 55, ../../dev/sass/specifics/_table.scss */
+/* line 116, ../../dev/sass/specifics/_table.scss */
 .approval_flow_wrap .approval_table.table_log td + td + td + td + td {
   width: 18%;
 }
-/* line 57, ../../dev/sass/specifics/_table.scss */
+/* line 118, ../../dev/sass/specifics/_table.scss */
 .approval_flow_wrap .approval_table.table_log td + td + td + td + td + td {
   width: 14%;
 }
-/* line 67, ../../dev/sass/specifics/_table.scss */
+/* line 128, ../../dev/sass/specifics/_table.scss */
 .approval_flow_wrap .title_table {
   width: 100%;
   background-color: #f8faf9;
   padding: 1.66667em 0 0;
   margin-top: 1.66667em;
 }
-/* line 72, ../../dev/sass/specifics/_table.scss */
+/* line 133, ../../dev/sass/specifics/_table.scss */
 .approval_flow_wrap .title_table table {
   max-width: 960px;
   margin: 0 auto 0;
   width: 100%;
 }
-/* line 76, ../../dev/sass/specifics/_table.scss */
+/* line 137, ../../dev/sass/specifics/_table.scss */
 .approval_flow_wrap .title_table table.table_log {
   width: 88.33922%;
   margin: 0;
 }
-/* line 79, ../../dev/sass/specifics/_table.scss */
+/* line 140, ../../dev/sass/specifics/_table.scss */
 .approval_flow_wrap .title_table table.table_log th {
   font-size: 0.8em;
   width: 15%;
   text-align: left;
 }
-/* line 83, ../../dev/sass/specifics/_table.scss */
+/* line 144, ../../dev/sass/specifics/_table.scss */
 .approval_flow_wrap .title_table table.table_log th + th {
   width: 19%;
 }
-/* line 85, ../../dev/sass/specifics/_table.scss */
+/* line 146, ../../dev/sass/specifics/_table.scss */
 .approval_flow_wrap .title_table table.table_log th + th + th {
   width: 13%;
 }
-/* line 87, ../../dev/sass/specifics/_table.scss */
+/* line 148, ../../dev/sass/specifics/_table.scss */
 .approval_flow_wrap .title_table table.table_log th + th + th + th {
   width: 20%;
 }
-/* line 89, ../../dev/sass/specifics/_table.scss */
+/* line 150, ../../dev/sass/specifics/_table.scss */
 .approval_flow_wrap .title_table table.table_log th + th + th + th + th {
   width: 18%;
 }
-/* line 91, ../../dev/sass/specifics/_table.scss */
+/* line 152, ../../dev/sass/specifics/_table.scss */
 .approval_flow_wrap .title_table table.table_log th + th + th + th + th + th {
   width: 14%;
 }
-/* line 101, ../../dev/sass/specifics/_table.scss */
+/* line 162, ../../dev/sass/specifics/_table.scss */
 .approval_flow_wrap .title_table th {
   font-family: pragmatica,Helvetica,Arial,sans-serif;
   font-size: 15px;
@@ -6377,44 +6425,44 @@ input[type="checkbox"]:checked:disabled + label::before {
   width: 16%;
   padding: 0 0.33333em;
 }
-/* line 109, ../../dev/sass/specifics/_table.scss */
+/* line 170, ../../dev/sass/specifics/_table.scss */
 .approval_flow_wrap .title_table th + th {
   width: 18%;
 }
-/* line 111, ../../dev/sass/specifics/_table.scss */
+/* line 172, ../../dev/sass/specifics/_table.scss */
 .approval_flow_wrap .title_table th + th + th {
   width: 19%;
 }
-/* line 113, ../../dev/sass/specifics/_table.scss */
+/* line 174, ../../dev/sass/specifics/_table.scss */
 .approval_flow_wrap .title_table th + th + th + th {
   width: 25%;
 }
-/* line 115, ../../dev/sass/specifics/_table.scss */
+/* line 176, ../../dev/sass/specifics/_table.scss */
 .approval_flow_wrap .title_table th + th + th + th + th {
   width: 22%;
 }
 
-/* line 126, ../../dev/sass/specifics/_table.scss */
+/* line 187, ../../dev/sass/specifics/_table.scss */
 .wrap_table > div {
   padding: 1em 0;
 }
-/* line 128, ../../dev/sass/specifics/_table.scss */
+/* line 189, ../../dev/sass/specifics/_table.scss */
 .wrap_table > div:nth-child(odd) {
   background-color: #f8faf9;
 }
-/* line 131, ../../dev/sass/specifics/_table.scss */
+/* line 192, ../../dev/sass/specifics/_table.scss */
 .wrap_table > div.indent-bottom {
   margin-bottom: 6.66667em;
 }
 
-/* line 139, ../../dev/sass/specifics/_table.scss */
+/* line 200, ../../dev/sass/specifics/_table.scss */
 .button_table .btn.btn_rounded {
   width: 38.54802%;
   height: 2.54545em;
   font-size: 0.73333em;
 }
 
-/* line 147, ../../dev/sass/specifics/_table.scss */
+/* line 208, ../../dev/sass/specifics/_table.scss */
 .table_text_bold {
   font-weight: 600;
   color: #7c7c7c;
