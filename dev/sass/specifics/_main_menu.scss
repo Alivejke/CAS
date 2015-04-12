@@ -71,12 +71,22 @@ $main_menu_item-width-hover: 367px;
 		text-align: left;
 		left: em(45px, $base-font-size);
 		margin-top: em(80px, $base-font-size);
+
+		@media (max-width: 768px) {
+			left: 1em;
+		}
+
 		> li {
 			width: flex(304px, $base-width-content);
 			height: em(314px, $base-font-size);
 			// line-height: em(314px, $main_menu-font-size);
 			line-height: 1;
 			margin: em(22px, $base-font-size) 0 0 flex(22px, $base-width-content);
+
+			@media (max-width: 768px) {
+				width: 17.93333em;
+				height: 17.93333em;
+			}
 			.main_menu_item {
 				position: relative;
 				background: none;
@@ -153,7 +163,7 @@ $main_menu_item-width-hover: 367px;
 					z-index: 20;
 				}
 				.ico_status_big {
-					width: flex(30px, $main_menu_item-width);
+					// width: flex(30px, $main_menu_item-width);
 					position: absolute;
 					top: em(-15px, $base-font-size);
 					left: flex(-15px, $main_menu_item-width);
@@ -175,7 +185,8 @@ $main_menu_item-width-hover: 367px;
 						display: block;
 					}
 					.ico_status_big {
-						width: flex(37px, $main_menu_item-width-hover);
+						// width: flex(37px, $main_menu_item-width-hover);
+						width: em(37px, $base-font-size);
 						height: em(37px, $base-font-size);
 						border-width: 7px;
 						top: em(-19px, $base-font-size);

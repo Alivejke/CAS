@@ -41,7 +41,8 @@
 	.btn_big_rounded_wrap {
 		display: inline-block;
 		background-color: #fff;
-		width: flex(218px, $base-width - $base-margin);
+		// width: flex(218px, $base-width - $base-margin);
+		width: 11.8em;
 		height: em(50px, $btn-font-size);
 		position: absolute;
 		bottom: 0;
@@ -76,12 +77,8 @@
 			background-color: #fff;
 		}
 
-		@media (max-width: 960px) {
-			width: 33.5%;
-		}
-
 		@media (max-width: 768px) {
-			width: 50.5%;
+			width: 10.8em;
 		}
 	}
 }
