@@ -20,7 +20,8 @@
 		position: absolute;
 		bottom: em(39px, $base-font-size);
 		left: 50%;
-		width: flex(147px, $base-width);
+		// width: flex(147px, $base-width);
+		width: 9.8em;
 		margin-left: flex(-147px / 2, $base-width);
 	}
 }
