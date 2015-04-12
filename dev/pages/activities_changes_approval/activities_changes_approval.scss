@@ -57,6 +57,11 @@ $brand_news_list-width: 295px;
 		left: 50%;
 		width: flex($brand_news_list-width, $base-width/2);
 		margin-left: flex(-129px, $base-width/2);
+
+		@media (max-width: 768px) {
+    		left: 43%;
+    		width: 75.45833%;
+   		}
 	}
 	&.description {
 		.brand_news_list {
@@ -128,6 +133,13 @@ $brand_news_list-width: 295px;
 		margin-left: flex(63px, $base-width-content);
 		overflow: hidden;
 		margin-top: em(95px);
+
+		@media (max-width: 768px) {
+     		float: none;
+     		width: 100%;
+     		margin-left: 0;
+     	}
+
 		&:nth-child(2n+1) {
 			margin-left: 0;
 		}
@@ -138,6 +150,10 @@ $brand_news_list-width: 295px;
 		.manage {
 			width: flex(62px, 330px);
 			height: em(62px);
+
+			@media (max-width: 768px) {
+		 		width: em(62px);
+		 	}
 			&.img_circle-default {
 				line-height: em(62px);
 			}
