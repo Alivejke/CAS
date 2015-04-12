@@ -125,7 +125,6 @@
   margin-top: -17.333em;
   background: #ffffff;
   border: 1px solid #ededee;
-  display: none;
 }
 /* line 64, ../../../dev/pages/email_notifications/email_notifications.scss */
 .edit-notification > span {
@@ -145,16 +144,17 @@
 .edit-notification textarea {
   padding: 1em 2.03252%;
   width: 100%;
-  height: 9.76667em;
+  height: 8.76667em;
   border: 1px solid #cbcbcb;
+  margin-top: 0;
 }
-/* line 85, ../../../dev/pages/email_notifications/email_notifications.scss */
+/* line 86, ../../../dev/pages/email_notifications/email_notifications.scss */
 .edit-notification .subject,
 .edit-notification .text {
   margin-top: 2.200em;
   padding: 0 0.267em 0 0.200em;
 }
-/* line 90, ../../../dev/pages/email_notifications/email_notifications.scss */
+/* line 91, ../../../dev/pages/email_notifications/email_notifications.scss */
 .edit-notification .subject label,
 .edit-notification .text label {
   font-size: 12px;
@@ -162,31 +162,31 @@
   display: inline-block;
   color: #77808b;
 }
-/* line 99, ../../../dev/pages/email_notifications/email_notifications.scss */
+/* line 100, ../../../dev/pages/email_notifications/email_notifications.scss */
 .edit-notification .text label {
   margin-bottom: 1.334em;
 }
-/* line 104, ../../../dev/pages/email_notifications/email_notifications.scss */
+/* line 105, ../../../dev/pages/email_notifications/email_notifications.scss */
 .edit-notification .notes {
   margin-top: 1.067em;
 }
-/* line 107, ../../../dev/pages/email_notifications/email_notifications.scss */
+/* line 108, ../../../dev/pages/email_notifications/email_notifications.scss */
 .edit-notification .notes .notes-unit {
   float: left;
   color: #77808b;
   font-size: 11px;
   line-height: 1.546em;
 }
-/* line 113, ../../../dev/pages/email_notifications/email_notifications.scss */
+/* line 114, ../../../dev/pages/email_notifications/email_notifications.scss */
 .edit-notification .notes .notes-unit:first-child {
   margin-right: 2.091em;
 }
-/* line 119, ../../../dev/pages/email_notifications/email_notifications.scss */
+/* line 120, ../../../dev/pages/email_notifications/email_notifications.scss */
 .edit-notification .control {
   margin-top: 2.467em;
   padding: 0 0.200em;
 }
-/* line 123, ../../../dev/pages/email_notifications/email_notifications.scss */
+/* line 124, ../../../dev/pages/email_notifications/email_notifications.scss */
 .edit-notification .control button {
   width: 24.5%;
 }

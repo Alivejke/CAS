@@ -59,7 +59,7 @@
 	margin-top: -17.333em;
 	background: #ffffff;
 	border: 1px solid #ededee;
-	display: none;
+	// display: none;
 
 	& > span {
 		font-size: 28px;
@@ -78,8 +78,9 @@
 	textarea {
 		padding: 1em 2.03252%;
 		width: 100%;
-		height: 9.76667em;
+		height: 8.76667em;
 		border: 1px solid #cbcbcb;
+		margin-top: 0;
 	}
 
 	.subject,
