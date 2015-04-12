@@ -73,7 +73,7 @@ $main_menu_item-width-hover: 367px;
 		margin-top: em(80px, $base-font-size);
 
 		@media (max-width: 768px) {
-			left: 1em;
+			left: 1.4em;
 		}
 
 		> li {
@@ -86,6 +86,7 @@ $main_menu_item-width-hover: 367px;
 			@media (max-width: 768px) {
 				width: 17.93333em;
 				height: 17.93333em;
+				margin: 1.46667em 0 0 1.98103%;
 			}
 			.main_menu_item {
 				position: relative;
@@ -139,6 +140,10 @@ $main_menu_item-width-hover: 367px;
 						width: 65%;
 						font-size: em($main_menu-font-size, $base-font-size);
 						line-height: em(27px, $main_menu-font-size);
+
+						@media (max-width: 768px) {
+	                        width: 100%;
+	                    }
 					}
 					.main_menu_text {
 						margin-top: em(20px, $base-font-size);
