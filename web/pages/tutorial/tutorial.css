@@ -89,22 +89,29 @@
 .tutorial_heading .btn_big_rounded_wrap {
   display: inline-block;
   background-color: #fff;
-  width: 25.67727%;
+  width: 14.55em;
   height: 3.57143em;
   position: absolute;
   bottom: 0;
 }
-/* line 26, ../../../dev/pages/tutorial/tutorial.scss */
+/* line 27, ../../../dev/pages/tutorial/tutorial.scss */
 .tutorial_heading .btn_big_rounded_wrap.pos_left {
   left: 0;
 }
 
-/* line 31, ../../../dev/pages/tutorial/tutorial.scss */
+/* line 32, ../../../dev/pages/tutorial/tutorial.scss */
 .tutorial_documents {
   margin: 120px auto 0 auto;
   width: 738px;
 }
-/* line 34, ../../../dev/pages/tutorial/tutorial.scss */
+@media (max-width: 768px) {
+  /* line 32, ../../../dev/pages/tutorial/tutorial.scss */
+  .tutorial_documents {
+    width: 100%;
+    margin: 60px auto 0 auto;
+  }
+}
+/* line 41, ../../../dev/pages/tutorial/tutorial.scss */
 .tutorial_documents .wrap {
   *zoom: 1;
 }
@@ -118,7 +125,7 @@
   clear: both;
 }
 
-/* line 38, ../../../dev/pages/tutorial/tutorial.scss */
+/* line 45, ../../../dev/pages/tutorial/tutorial.scss */
 .container {
   margin-left: -27px;
   margin-right: -27px;
@@ -133,54 +140,77 @@
 .container:after {
   clear: both;
 }
+@media (max-width: 768px) {
+  /* line 45, ../../../dev/pages/tutorial/tutorial.scss */
+  .container {
+    margin-right: 0;
+  }
+}
 
-/* line 43, ../../../dev/pages/tutorial/tutorial.scss */
+/* line 54, ../../../dev/pages/tutorial/tutorial.scss */
 .document {
   float: left;
   width: 50%;
   padding: 0 27px;
   margin-bottom: 12em;
 }
-/* line 48, ../../../dev/pages/tutorial/tutorial.scss */
+@media (max-width: 768px) {
+  /* line 54, ../../../dev/pages/tutorial/tutorial.scss */
+  .document {
+    width: 100%;
+    margin-bottom: 5em;
+  }
+  /* line 64, ../../../dev/pages/tutorial/tutorial.scss */
+  .document:last-child {
+    margin-bottom: 0;
+  }
+}
+/* line 69, ../../../dev/pages/tutorial/tutorial.scss */
 .document:nth-child(odd) {
   clear: left;
 }
-/* line 51, ../../../dev/pages/tutorial/tutorial.scss */
+/* line 72, ../../../dev/pages/tutorial/tutorial.scss */
 .document .manage, .document .description {
   float: left;
 }
-/* line 54, ../../../dev/pages/tutorial/tutorial.scss */
+/* line 75, ../../../dev/pages/tutorial/tutorial.scss */
 .document .manage {
   width: 19.84585741811175%;
   padding-right: 10px;
 }
-/* line 57, ../../../dev/pages/tutorial/tutorial.scss */
+@media (max-width: 768px) {
+  /* line 75, ../../../dev/pages/tutorial/tutorial.scss */
+  .document .manage {
+    text-align: center;
+  }
+}
+/* line 83, ../../../dev/pages/tutorial/tutorial.scss */
 .document .manage .rounded_image {
   width: 100%;
   max-width: 80px;
   height: auto;
 }
-/* line 62, ../../../dev/pages/tutorial/tutorial.scss */
+/* line 88, ../../../dev/pages/tutorial/tutorial.scss */
 .document .manage .sprite_ico {
   display: block;
   margin: 16px auto 0 auto;
 }
-/* line 67, ../../../dev/pages/tutorial/tutorial.scss */
+/* line 93, ../../../dev/pages/tutorial/tutorial.scss */
 .document .description {
   width: 80.15414258188825%;
 }
-/* line 69, ../../../dev/pages/tutorial/tutorial.scss */
+/* line 95, ../../../dev/pages/tutorial/tutorial.scss */
 .document .description h2 {
   color: #4D4D4D;
   font-weight: 400;
   font-size: 1.06667em;
   margin-bottom: 1.5em;
 }
-/* line 74, ../../../dev/pages/tutorial/tutorial.scss */
+/* line 100, ../../../dev/pages/tutorial/tutorial.scss */
 .document .description h2 small {
   display: block;
 }
-/* line 78, ../../../dev/pages/tutorial/tutorial.scss */
+/* line 104, ../../../dev/pages/tutorial/tutorial.scss */
 .document .description p {
   color: #5A636E;
   font-size: 0.93333em;

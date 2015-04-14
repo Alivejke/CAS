@@ -19,10 +19,13 @@
 
 .ico_basket {
 	background-position: -200px 0px;
-	width: 20px;
-	height: 25px;
+	width: 15px;
+	height: 20px;
 	&:hover {
 		background-position: -200px -80px;
+		top: -3px;
+		width: 20px;
+		height: 25px;
 	}
 	&:active {
 		background-position: -200px -160px;

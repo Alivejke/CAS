@@ -154,26 +154,38 @@ input[type="checkbox"]:checked {
   width: 78.31978%;
   text-align: right;
 }
+@media (max-width: 640px) {
+  /* line 92, ../../../dev/pages/activities_search/activities_search.scss */
+  .calendar_wrap {
+    text-align: left;
+  }
+}
 
-/* line 97, ../../../dev/pages/activities_search/activities_search.scss */
+/* line 101, ../../../dev/pages/activities_search/activities_search.scss */
 .calendar_input {
   width: 35.29412%;
 }
-/* line 99, ../../../dev/pages/activities_search/activities_search.scss */
+@media (max-width: 768px) {
+  /* line 101, ../../../dev/pages/activities_search/activities_search.scss */
+  .calendar_input {
+    width: 32.93%;
+  }
+}
+/* line 108, ../../../dev/pages/activities_search/activities_search.scss */
 .calendar_input.calendar_from {
   margin-left: 3.46021%;
 }
 
-/* line 104, ../../../dev/pages/activities_search/activities_search.scss */
+/* line 113, ../../../dev/pages/activities_search/activities_search.scss */
 .calendar_date-separator {
   margin: 0 1.7301%;
 }
 
-/* line 108, ../../../dev/pages/activities_search/activities_search.scss */
+/* line 117, ../../../dev/pages/activities_search/activities_search.scss */
 .btn_activies_search_wrap {
   margin-top: 3.66667em;
 }
-/* line 110, ../../../dev/pages/activities_search/activities_search.scss */
+/* line 119, ../../../dev/pages/activities_search/activities_search.scss */
 .btn_activies_search_wrap .btn-link {
   margin: 1.42857em 0 2.14286em;
 }

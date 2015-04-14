@@ -182,48 +182,57 @@
   left: 34.24658%;
   display: none;
 }
-/* line 107, ../../../dev/pages/tutorial_19/tutorial_19.scss */
+@media (max-width: 768px) {
+  /* line 101, ../../../dev/pages/tutorial_19/tutorial_19.scss */
+  .activies_page_wrap .attachments_blocks .block .icon .ico_search {
+    top: 1.4em;
+    left: 32.24658%;
+  }
+}
+/* line 112, ../../../dev/pages/tutorial_19/tutorial_19.scss */
 .activies_page_wrap .attachments_blocks .block .icon:hover .ico_search {
   display: block;
 }
-/* line 111, ../../../dev/pages/tutorial_19/tutorial_19.scss */
+/* line 116, ../../../dev/pages/tutorial_19/tutorial_19.scss */
 .activies_page_wrap .attachments_blocks .block .name {
   float: left;
   width: 80%;
   margin-top: 1em;
+  position: relative;
 }
-/* line 115, ../../../dev/pages/tutorial_19/tutorial_19.scss */
+/* line 121, ../../../dev/pages/tutorial_19/tutorial_19.scss */
 .activies_page_wrap .attachments_blocks .block .name a.sprite.sprite_ico.ico_basket {
   margin: -0.13333em 0.67751%;
   position: absolute;
 }
-/* line 120, ../../../dev/pages/tutorial_19/tutorial_19.scss */
+/* line 126, ../../../dev/pages/tutorial_19/tutorial_19.scss */
 .activies_page_wrap .attachments_blocks .block .checkbox {
   display: inline-block;
   position: relative;
-  padding-left: 3%;
+  padding-left: 1.5em;
   margin-top: 0.8em;
   color: #45484C;
 }
-/* line 126, ../../../dev/pages/tutorial_19/tutorial_19.scss */
+/* line 132, ../../../dev/pages/tutorial_19/tutorial_19.scss */
 .activies_page_wrap .attachments_blocks .block .checkbox label:before {
   position: absolute;
   left: 0px;
+  top: -1px;
 }
-/* line 131, ../../../dev/pages/tutorial_19/tutorial_19.scss */
+/* line 138, ../../../dev/pages/tutorial_19/tutorial_19.scss */
 .activies_page_wrap .attachments_blocks .block textarea {
   width: 100%;
   height: 9.5em;
   padding: 0.8em 1.35501%;
   margin-top: 1.33333em;
 }
-/* line 138, ../../../dev/pages/tutorial_19/tutorial_19.scss */
+/* line 145, ../../../dev/pages/tutorial_19/tutorial_19.scss */
 .activies_page_wrap .attachments_blocks .block_options_draft {
   padding: 4em 0;
   border-top: 1px solid #cecfd0;
   margin-top: 4em;
 }
-/* line 143, ../../../dev/pages/tutorial_19/tutorial_19.scss */
+/* line 150, ../../../dev/pages/tutorial_19/tutorial_19.scss */
 .activies_page_wrap .attachments_blocks .block_options_draft button.btn.btn-default.center {
   margin-left: 19.6477%;
 }

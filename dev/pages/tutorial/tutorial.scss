@@ -19,7 +19,8 @@
   .btn_big_rounded_wrap {
     display: inline-block;
     background-color: #fff;
-    width: flex(218px, $base-width - $base-margin);
+    // width: flex(218px, $base-width - $base-margin);
+    width: 14.55em;
     height: em(50px, $btn-font-size);
     position: absolute;
     bottom: 0;
@@ -31,6 +32,12 @@
 .tutorial_documents {
   margin: 120px auto 0 auto;
   width: $base-width-content;
+
+    @media (max-width: 768px) {
+      width: 100%;
+      margin: 60px auto 0 auto;
+    }
+
   .wrap {
     @include clearfix();
   }
@@ -39,12 +46,26 @@
   margin-left: -27px;
   margin-right: -27px;
   @include clearfix();
+
+  @media (max-width: 768px) {
+    margin-right: 0;
+  }
 }
 .document {
   float: left;
   width: 50%;
   padding: 0 27px;
   margin-bottom: em(180px);
+
+  @media (max-width: 768px) {
+    width: 100%;
+    margin-bottom: 5em;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+
   &:nth-child(odd) {
     clear: left;
   }
@@ -54,6 +75,11 @@
   .manage {
     width: 19.84585741811175%;
     padding-right: 10px;
+
+    @media (max-width: 768px) {
+      text-align: center;
+    }
+
     .rounded_image {
       width: 100%;
       max-width: 80px;
