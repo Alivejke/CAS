@@ -5,7 +5,8 @@
 .brand_edit {
 	li {
 		float: left;
-		width: flex(147px, $base-width-content-one);
+		// width: flex(147px, $base-width-content-one);
+		width: 8em;
 		margin-left: flex(35px, $base-width-content-one);
 		&:first-child {
 			margin-left: 0;

@@ -7,6 +7,61 @@ $th_base-width: flex($base-width-content/5, $base-width-content);
 	.main_title_approval {
 		margin-top: em(65px, $main_title-font-size);
 	}
+
+	&.email-notification {
+		.wrap_table {
+			&.table-header {
+				& > div {
+					&:nth-child(odd) {
+						background: none;
+					}
+				}
+
+				.approval_table {
+					&.table_log {
+						width: flex(750px, $base-width-content-one);
+						margin: 0;
+						padding: 0;
+						td {
+							font-size: em(11px);
+							width: 12%;
+							text-align: left;
+							// color: $gray-color;
+							&+td {
+								width: 10%;
+								&+td {
+									width: 51%;
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+
+		.approval_table {
+			&.table_log {
+				width: flex(750px, $base-width-content-one);
+				margin: 0;
+				padding: 0;
+				td {
+					font-size: em(11px);
+					width: 14%;
+					text-align: left;
+					// color: $gray-color;
+					&+td {
+						width: 12%;
+						&+td {
+							width: 51%;
+							&+td {
+								width: 9%;
+							}
+						}
+					}
+				}
+			}
+		}
+	}
 	.approval_table {
 		width: 100%;
 		max-width: 960px;

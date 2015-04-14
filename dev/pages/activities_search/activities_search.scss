@@ -92,10 +92,19 @@ input[type="checkbox"]:checked {
 .calendar_wrap {
 	width: flex(289px, $base-width-content/2);
 	text-align: right;
+
+	@media (max-width: 640px) {
+        text-align: left;
+    }
 }
 
 .calendar_input {
 	width: flex(102px, 289px);
+
+	@media (max-width: 768px) {
+        width: 32.93%;
+    }
+
 	&.calendar_from {
 		margin-left: flex(10px, 289px);
 	}

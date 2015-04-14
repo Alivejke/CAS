@@ -1,78 +1,108 @@
-/* line 1, ../../../dev/pages/email_notifications/email_notifications.scss */
+@font-face {
+  font-family: 'brandon_grotesquebold';
+  src: url("../fonts/brandon_bld.eot");
+  src: url("../fonts/brandon_bld.eot?#iefix") format("embedded-opentype"), url("../fonts/brandon_bld.woff2") format("woff2"), url("../fonts/brandon_bld.woff") format("woff"), url("../fonts/brandon_bld.ttf") format("truetype"), url("../fonts/brandon_bld.svg#brandon_grotesquebold") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'brandon_grotesquemedium';
+  src: url("../fonts/brandon_med.eot");
+  src: url("../fonts/brandon_med.eot?#iefix") format("embedded-opentype"), url("../fonts/brandon_med.woff2") format("woff2"), url("../fonts/brandon_med.woff") format("woff"), url("../fonts/brandon_med.ttf") format("truetype"), url("../fonts/brandon_med.svg#brandon_grotesquemedium") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'brandon_grotesque_regularRg';
+  src: url("../fonts/brandon_reg.eot");
+  src: url("../fonts/brandon_reg.eot?#iefix") format("embedded-opentype"), url("../fonts/brandon_reg.woff2") format("woff2"), url("../fonts/brandon_reg.woff") format("woff"), url("../fonts/brandon_reg.ttf") format("truetype"), url("../fonts/brandon_reg.svg#brandon_grotesque_regularRg") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'proxima_nova_cn_rgregular';
+  src: url("../fonts/proximanovacond-regular.eot");
+  src: url("../fonts/proximanovacond-regular.eot?#iefix") format("embedded-opentype"), url("../fonts/proximanovacond-regular.woff2") format("woff2"), url("../fonts/proximanovacond-regular.woff") format("woff"), url("../fonts/proximanovacond-regular.ttf") format("truetype"), url("../fonts/proximanovacond-regular.svg#proxima_nova_cn_rgregular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'proxima_novalight';
+  src: url("../fonts/proximanova-light.eot");
+  src: url("../fonts/proximanova-light.eot?#iefix") format("embedded-opentype"), url("../fonts/proximanova-light.woff2") format("woff2"), url("../fonts/proximanova-light.woff") format("woff"), url("../fonts/proximanova-light.ttf") format("truetype"), url("../fonts/proximanova-light.svg#proxima_novalight") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: pragmatica-el;
+  src: url(../fonts/pragmatica-extralight-v2.eot);
+  src: url(../fonts/pragmatica-extralight-v2.eot?#iefix) format("embedded-opentype"), url(../fonts/pragmatica-extralight-v2.woff) format("woff"), url(../fonts/pragmatica-extralight-v2.ttf) format("truetype");
+  font-weight: 100;
+  font-style: normal;
+}
+@font-face {
+  font-family: pragmatica;
+  src: url(../fonts/pragmatica-light-v2.eot);
+  src: url(../fonts/pragmatica-light-v2.eot?#iefix) format("embedded-opentype"), url(../fonts/pragmatica-light-v2.woff) format("woff"), url(../fonts/pragmatica-light-v2.ttf) format("truetype");
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: pragmatica;
+  src: url(../fonts/pragmatica-regular-v2.eot);
+  src: url(../fonts/pragmatica-regular-v2.eot?#iefix) format("embedded-opentype"), url(../fonts/pragmatica-regular-v2.woff) format("woff"), url(../fonts/pragmatica-regular-v2.ttf) format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: pragmatica;
+  src: url(../fonts/pragmatica-medium-v2.eot);
+  src: url(../fonts/pragmatica-medium-v2.eot?#iefix) format("embedded-opentype"), url(../fonts/pragmatica-medium-v2.woff) format("woff"), url(../fonts/pragmatica-medium-v2.ttf) format("truetype");
+  font-weight: 600;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Glyphicons Halflings';
+  src: url("../fonts/glyphicons-halflings-regular.eot");
+  src: url("../fonts/glyphicons-halflings-regular.eot?#iefix") format("embedded-opentype"), url("../fonts/glyphicons-halflings-regular.woff2") format("woff2"), url("../fonts/glyphicons-halflings-regular.woff") format("woff"), url("../fonts/glyphicons-halflings-regular.ttf") format("truetype"), url("../fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular") format("svg");
+}
+/* line 3, ../../../dev/pages/email_notifications/email_notifications.scss */
 .email-notification-content {
   margin-top: 3.267em;
 }
-/* line 4, ../../../dev/pages/email_notifications/email_notifications.scss */
+/* line 6, ../../../dev/pages/email_notifications/email_notifications.scss */
 .email-notification-content h1 {
   font-weight: bold;
   margin: 0;
 }
 
-/* line 10, ../../../dev/pages/email_notifications/email_notifications.scss */
+/* line 12, ../../../dev/pages/email_notifications/email_notifications.scss */
 .email-notification-table {
   margin-top: 4.600em;
 }
 
-/* line 15, ../../../dev/pages/email_notifications/email_notifications.scss */
-.table-row:nth-child(odd) {
-  background: #f8faf9;
-}
-
-/* line 20, ../../../dev/pages/email_notifications/email_notifications.scss */
-.table-unit {
-  display: inline-block;
-  font-size: 11px;
-  vertical-align: top;
-  color: #77808b;
-}
-/* line 26, ../../../dev/pages/email_notifications/email_notifications.scss */
-.table-unit:nth-child(1) {
-  width: 16.3%;
-}
-/* line 30, ../../../dev/pages/email_notifications/email_notifications.scss */
-.table-unit:nth-child(2) {
-  width: 14%;
-}
-/* line 34, ../../../dev/pages/email_notifications/email_notifications.scss */
-.table-unit:nth-child(3) {
-  width: 58.5%;
-}
-/* line 38, ../../../dev/pages/email_notifications/email_notifications.scss */
-.table-unit:nth-child(4) {
-  width: 9.5%;
-}
-
-/* line 43, ../../../dev/pages/email_notifications/email_notifications.scss */
+/* line 16, ../../../dev/pages/email_notifications/email_notifications.scss */
 .table-header {
   margin-bottom: 0.33em;
 }
-/* line 46, ../../../dev/pages/email_notifications/email_notifications.scss */
+/* line 19, ../../../dev/pages/email_notifications/email_notifications.scss */
 .table-header .table-unit {
   font-weight: bold;
 }
 
-/* line 52, ../../../dev/pages/email_notifications/email_notifications.scss */
-.table-body .table-unit-group {
-  padding-top: 1.0699em;
-  padding-bottom: 1.0699em;
-}
-/* line 57, ../../../dev/pages/email_notifications/email_notifications.scss */
-.table-body .table-unit {
-  line-height: 1.091em;
-}
-/* line 61, ../../../dev/pages/email_notifications/email_notifications.scss */
-.table-body .btn {
+/* line 25, ../../../dev/pages/email_notifications/email_notifications.scss */
+.approval_table .btn {
   width: 100%;
   height: 27px;
 }
 
-/* line 67, ../../../dev/pages/email_notifications/email_notifications.scss */
+/* line 31, ../../../dev/pages/email_notifications/email_notifications.scss */
 .add-notification {
   position: relative;
   margin-top: 5.333em;
   margin-bottom: 5.333em;
 }
-/* line 72, ../../../dev/pages/email_notifications/email_notifications.scss */
+/* line 36, ../../../dev/pages/email_notifications/email_notifications.scss */
 .add-notification:before {
   content: "";
   position: absolute;
@@ -83,7 +113,7 @@
   top: -2.200em;
 }
 
-/* line 83, ../../../dev/pages/email_notifications/email_notifications.scss */
+/* line 51, ../../../dev/pages/email_notifications/email_notifications.scss */
 .edit-notification {
   position: fixed;
   top: 50%;
@@ -96,11 +126,11 @@
   background: #ffffff;
   border: 1px solid #ededee;
 }
-/* line 96, ../../../dev/pages/email_notifications/email_notifications.scss */
+/* line 64, ../../../dev/pages/email_notifications/email_notifications.scss */
 .edit-notification > span {
   font-size: 28px;
 }
-/* line 100, ../../../dev/pages/email_notifications/email_notifications.scss */
+/* line 68, ../../../dev/pages/email_notifications/email_notifications.scss */
 .edit-notification input {
   display: block;
   width: 100%;
@@ -110,20 +140,21 @@
   padding: 0 1.15385em;
   font-size: 0.86667em;
 }
-/* line 110, ../../../dev/pages/email_notifications/email_notifications.scss */
+/* line 78, ../../../dev/pages/email_notifications/email_notifications.scss */
 .edit-notification textarea {
   padding: 1em 2.03252%;
   width: 100%;
-  height: 9.76667em;
+  height: 8.76667em;
   border: 1px solid #cbcbcb;
+  margin-top: 0;
 }
-/* line 117, ../../../dev/pages/email_notifications/email_notifications.scss */
+/* line 86, ../../../dev/pages/email_notifications/email_notifications.scss */
 .edit-notification .subject,
 .edit-notification .text {
   margin-top: 2.200em;
   padding: 0 0.267em 0 0.200em;
 }
-/* line 122, ../../../dev/pages/email_notifications/email_notifications.scss */
+/* line 91, ../../../dev/pages/email_notifications/email_notifications.scss */
 .edit-notification .subject label,
 .edit-notification .text label {
   font-size: 12px;
@@ -131,31 +162,31 @@
   display: inline-block;
   color: #77808b;
 }
-/* line 131, ../../../dev/pages/email_notifications/email_notifications.scss */
+/* line 100, ../../../dev/pages/email_notifications/email_notifications.scss */
 .edit-notification .text label {
   margin-bottom: 1.334em;
 }
-/* line 136, ../../../dev/pages/email_notifications/email_notifications.scss */
+/* line 105, ../../../dev/pages/email_notifications/email_notifications.scss */
 .edit-notification .notes {
   margin-top: 1.067em;
 }
-/* line 139, ../../../dev/pages/email_notifications/email_notifications.scss */
+/* line 108, ../../../dev/pages/email_notifications/email_notifications.scss */
 .edit-notification .notes .notes-unit {
   float: left;
   color: #77808b;
   font-size: 11px;
   line-height: 1.546em;
 }
-/* line 145, ../../../dev/pages/email_notifications/email_notifications.scss */
+/* line 114, ../../../dev/pages/email_notifications/email_notifications.scss */
 .edit-notification .notes .notes-unit:first-child {
   margin-right: 2.091em;
 }
-/* line 151, ../../../dev/pages/email_notifications/email_notifications.scss */
+/* line 120, ../../../dev/pages/email_notifications/email_notifications.scss */
 .edit-notification .control {
   margin-top: 2.467em;
   padding: 0 0.200em;
 }
-/* line 155, ../../../dev/pages/email_notifications/email_notifications.scss */
+/* line 124, ../../../dev/pages/email_notifications/email_notifications.scss */
 .edit-notification .control button {
   width: 24.5%;
 }

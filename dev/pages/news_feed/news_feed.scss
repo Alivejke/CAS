@@ -2,6 +2,19 @@
 $feeds_name_font-size: 18px;
 .wrap.wrap_news_feed {
 	margin-bottom: em(60px, $base-font-size);
+
+	@media (max-width: 768px) {
+        margin-bottom: 0;
+        padding: 0 9.4em;
+        padding-right: 0;
+    }
+
+	@media (max-width: 640px) {
+        margin-bottom: 0;
+        padding: 0 7.4em;
+        padding-right: 0;
+    }
+
 	.feed {
 	  	position: relative;
 	  	color: $gray-color;
@@ -27,13 +40,15 @@ $feeds_name_font-size: 18px;
   			float: left;
 		}
 		.name {
-			margin-left: flex(130px, $base-width-content);
+			// margin-left: flex(130px, $base-width-content);
+			margin-left: 7.22em;
 			font-size: $feeds_name_font-size;
   			text-transform: uppercase;
 		}
 		.info {
 			margin-top: em(10px, $base-font-size);
-			margin-left: flex(130px, $base-width-content);
+			// margin-left: flex(130px, $base-width-content);
+			margin-left: 8.65em;
 			span {
 				font-weight: 300;
 			}

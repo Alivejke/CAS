@@ -15,6 +15,16 @@
 		box-sizing: content-box;
 		border-right: 1px solid #707070;
 	}
+
+	@media (max-width: 768px) {
+		margin-left: 0;
+		width: 16.7232%;
+	}
+
+	@media (max-width: 640px) {
+		margin-left: 0;
+		width: 20.7232%;
+	}
 }
 
 $footer-font-size: 15px;
@@ -22,6 +32,11 @@ $footer-font-size: 15px;
 	width: flex(630px, $base-width-content-one);
 	line-height: em($base-font-size);
 	margin-top: em($base-font-size);
+
+	@media (max-width: 960px) {
+		font-size: 10px;
+		margin-top: 2em;
+	}
 }
 .footer_navigate {
 	// line-height: 1;

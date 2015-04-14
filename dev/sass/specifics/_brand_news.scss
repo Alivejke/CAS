@@ -41,7 +41,8 @@
 	.btn_big_rounded_wrap {
 		display: inline-block;
 		background-color: #fff;
-		width: flex(218px, $base-width - $base-margin);
+		// width: flex(218px, $base-width - $base-margin);
+		width: 11.8em;
 		height: em(50px, $btn-font-size);
 		position: absolute;
 		bottom: 0;
@@ -56,7 +57,7 @@
 			}
 		}
 		&.btn_toolbox {
-			width: flex(170px, $base-width - $base-margin);
+			// width: flex(170px, $base-width - $base-margin);
 			height: em(55px, $base-font-size);
 			.btn_big_rounded {
 				height: 100%;
@@ -74,6 +75,10 @@
 		}
 		.btn_big_rounded {
 			background-color: #fff;
+		}
+
+		@media (max-width: 768px) {
+			width: 10.8em;
 		}
 	}
 }

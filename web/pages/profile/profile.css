@@ -111,8 +111,14 @@
   margin-left: 8.80759%;
   width: 40.65041%;
 }
+@media (max-width: 768px) {
+  /* line 40, ../../../dev/pages/profile/profile.scss */
+  .profile_description {
+    width: 43.65041%;
+  }
+}
 
-/* line 45, ../../../dev/pages/profile/profile.scss */
+/* line 49, ../../../dev/pages/profile/profile.scss */
 .profile_description_list {
   position: relative;
   left: -13.33333%;
@@ -120,14 +126,14 @@
   font-size: 0.86667em;
   margin-top: 1.53846em;
 }
-/* line 51, ../../../dev/pages/profile/profile.scss */
+/* line 55, ../../../dev/pages/profile/profile.scss */
 .profile_description_list li {
   float: left;
   width: 35.33333%;
   margin-left: 13.33333%;
   margin-top: 1.69231em;
 }
-/* line 56, ../../../dev/pages/profile/profile.scss */
+/* line 60, ../../../dev/pages/profile/profile.scss */
 .profile_description_list li input[type="checkbox"] + label::before {
   vertical-align: -4px;
 }

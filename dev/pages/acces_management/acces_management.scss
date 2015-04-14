@@ -11,6 +11,12 @@
 .button_table {
 	.btn {
 		margin-top: em(10px, $small_btn-font-size);
+
+		&.btn_gray,
+		&.btn_red {
+			width: 6.3em;
+		}
+		
 		&:first-child {
 			margin-top: 0;
 		}

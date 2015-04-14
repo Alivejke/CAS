@@ -66,38 +66,94 @@
   src: url("../fonts/glyphicons-halflings-regular.eot");
   src: url("../fonts/glyphicons-halflings-regular.eot?#iefix") format("embedded-opentype"), url("../fonts/glyphicons-halflings-regular.woff2") format("woff2"), url("../fonts/glyphicons-halflings-regular.woff") format("woff"), url("../fonts/glyphicons-halflings-regular.ttf") format("truetype"), url("../fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular") format("svg");
 }
-/* line 2, ../../../dev/pages/edit_brand/edit_brand.scss */
-.content_wrap {
-  padding-bottom: 10.13333em;
+/* line 4, ../../../dev/pages/toolbox_changes_approval/toolbox_changes_approval.scss */
+.left {
+  float: left;
 }
 
-/* line 6, ../../../dev/pages/edit_brand/edit_brand.scss */
-.brand_edit li {
-  float: left;
-  width: 8em;
-  margin-left: 4.1225%;
+/* line 7, ../../../dev/pages/toolbox_changes_approval/toolbox_changes_approval.scss */
+.right {
+  float: right;
+  background-color: #F7F7F9;
 }
-/* line 11, ../../../dev/pages/edit_brand/edit_brand.scss */
-.brand_edit li:first-child {
-  margin-left: 0;
-}
-/* line 15, ../../../dev/pages/edit_brand/edit_brand.scss */
-.brand_edit li .btn.btn_small {
-  width: 100%;
-}
-/* line 21, ../../../dev/pages/edit_brand/edit_brand.scss */
-.brand_edit.btn_wrap {
-  position: absolute;
-  bottom: -6.33333em;
+
+/* line 11, ../../../dev/pages/toolbox_changes_approval/toolbox_changes_approval.scss */
+.container {
+  position: relative;
+  border-bottom: 1px solid #cecfd0;
   overflow: hidden;
 }
 
-/* line 28, ../../../dev/pages/edit_brand/edit_brand.scss */
-.brand_news.edit_brand {
-  padding: 2.2em 0 3.66667em 0;
+/* line 16, ../../../dev/pages/toolbox_changes_approval/toolbox_changes_approval.scss */
+.block_change {
+  padding: 4em 0;
+}
+/* line 18, ../../../dev/pages/toolbox_changes_approval/toolbox_changes_approval.scss */
+.block_change textarea {
+  width: 100%;
+  height: 9.5em;
+  padding: 0.8em 1.35501%;
+  margin: 4em 0 2em;
+}
+/* line 25, ../../../dev/pages/toolbox_changes_approval/toolbox_changes_approval.scss */
+.block_change .btn.btn-default.second {
+  margin-left: 5.42005%;
 }
 
-/* line 32, ../../../dev/pages/edit_brand/edit_brand.scss */
-.brand_news_title {
-  font-size: 1.8em;
+/* line 30, ../../../dev/pages/toolbox_changes_approval/toolbox_changes_approval.scss */
+.left, .right {
+  width: 50%;
+  height: 100%;
+  padding: 2em 2.71003%;
+}
+/* line 34, ../../../dev/pages/toolbox_changes_approval/toolbox_changes_approval.scss */
+.left .main_title.main_title_actives, .right .main_title.main_title_actives {
+  width: 100%;
+  text-align: left;
+}
+/* line 38, ../../../dev/pages/toolbox_changes_approval/toolbox_changes_approval.scss */
+.left .brand_news_title, .right .brand_news_title {
+  margin: 4em 0;
+}
+/* line 40, ../../../dev/pages/toolbox_changes_approval/toolbox_changes_approval.scss */
+.left .brand_news_title.second, .right .brand_news_title.second {
+  margin: 1.66667em 0;
+}
+/* line 44, ../../../dev/pages/toolbox_changes_approval/toolbox_changes_approval.scss */
+.left .toolbox, .right .toolbox {
+  border: 1px solid #cecfd0;
+  -moz-border-radius: 6px;
+  -webkit-border-radius: 6px;
+  border-radius: 6px;
+  height: 18.8em;
+  width: 90.2439%;
+  padding: 0.86667em 4.06504%;
+  background: #fff;
+}
+/* line 51, ../../../dev/pages/toolbox_changes_approval/toolbox_changes_approval.scss */
+.left .toolbox div, .right .toolbox div {
+  background: #dcdcdc;
+  text-align: center;
+  vertical-align: middle;
+  width: 100%;
+  height: 100%;
+  padding: 8em 0;
+}
+/* line 58, ../../../dev/pages/toolbox_changes_approval/toolbox_changes_approval.scss */
+.left .toolbox div img, .right .toolbox div img {
+  margin: auto;
+}
+/* line 63, ../../../dev/pages/toolbox_changes_approval/toolbox_changes_approval.scss */
+.left .text, .right .text {
+  color: #45484C;
+  line-height: 1.53333em;
+}
+/* line 66, ../../../dev/pages/toolbox_changes_approval/toolbox_changes_approval.scss */
+.left .text.for_approval, .right .text.for_approval {
+  color: #b70e12;
+}
+/* line 70, ../../../dev/pages/toolbox_changes_approval/toolbox_changes_approval.scss */
+.left .btn.btn-default, .right .btn.btn-default {
+  width: 54.20054%;
+  margin: 3em 0;
 }
