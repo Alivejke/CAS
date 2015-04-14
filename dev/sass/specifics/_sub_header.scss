@@ -30,6 +30,26 @@
 }
 .menu {
 	overflow: hidden;
+	position: relative;
+	&.scroll {
+		position: fixed;
+		top: em(15px, $base-font-size);
+		z-index: 1000;
+		overflow: initial;
+		&:before {
+			content: '';
+			display: block;
+			width: 10000px;
+			height: 3em;
+			position: absolute;
+			top: -1em;
+			margin-left: -5000px;
+			border: solid #cecfd0;
+			border-width: 0px 0px 1px 0px;
+			background: rgba(255, 255, 255, 0.9);
+			z-index: -1;
+		}
+	}
 	.toolbox_wrap & {
 		max-width: flex(560px, $base-width-content);
 	}

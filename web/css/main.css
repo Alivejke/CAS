@@ -3332,7 +3332,7 @@ textarea {
   margin: 2px 0 0 0;
 }
 
-/* line 123, ../../dev/sass/specifics/_header.scss */
+/* line 122, ../../dev/sass/specifics/_header.scss */
 .navigation_dropdown_block {
   opacity: 0;
   overflow: hidden;
@@ -3349,52 +3349,52 @@ textarea {
   z-index: 10;
 }
 
-/* line 141, ../../dev/sass/specifics/_header.scss */
+/* line 140, ../../dev/sass/specifics/_header.scss */
 .navigation_dropdown_list {
   position: relative;
   left: -7.67263%;
   overflow: hidden;
   padding: 0 2.33333em;
 }
-/* line 146, ../../dev/sass/specifics/_header.scss */
+/* line 145, ../../dev/sass/specifics/_header.scss */
 .navigation_dropdown_list > li {
   float: left;
   margin-left: 7.67263%;
 }
-/* line 149, ../../dev/sass/specifics/_header.scss */
+/* line 148, ../../dev/sass/specifics/_header.scss */
 .navigation_dropdown_list > li a {
   font-size: 0.8em;
   color: #cdd1d3;
   text-decoration: none;
   text-transform: uppercase;
 }
-/* line 156, ../../dev/sass/specifics/_header.scss */
+/* line 155, ../../dev/sass/specifics/_header.scss */
 .navigation_dropdown_list > li.active a {
   color: #45484C;
 }
 
-/* line 163, ../../dev/sass/specifics/_header.scss */
+/* line 162, ../../dev/sass/specifics/_header.scss */
 .navigation_dropdown_img_wrap {
   display: inline-block;
   vertical-align: middle;
 }
 
-/* line 168, ../../dev/sass/specifics/_header.scss */
+/* line 167, ../../dev/sass/specifics/_header.scss */
 .navigation_dropdown_list_news {
   padding: 1.33333em 2em 0;
   border-top: 1px solid #eeefee;
 }
-/* line 171, ../../dev/sass/specifics/_header.scss */
+/* line 170, ../../dev/sass/specifics/_header.scss */
 .navigation_dropdown_list_news > li {
   line-height: 1;
   margin-top: 2em;
 }
-/* line 175, ../../dev/sass/specifics/_header.scss */
+/* line 174, ../../dev/sass/specifics/_header.scss */
 .navigation_dropdown_list_news > li a {
   display: block;
   text-decoration: none;
 }
-/* line 179, ../../dev/sass/specifics/_header.scss */
+/* line 178, ../../dev/sass/specifics/_header.scss */
 .navigation_dropdown_list_news > li .navigation_dropdown_text_wrap {
   display: inline-block;
   width: 80.06042%;
@@ -3404,37 +3404,37 @@ textarea {
   font-size: 0.73333em;
   vertical-align: middle;
 }
-/* line 188, ../../dev/sass/specifics/_header.scss */
+/* line 187, ../../dev/sass/specifics/_header.scss */
 .navigation_dropdown_list_news > li .img_circle {
   height: 3.06667em;
   width: 13.89728%;
 }
-/* line 192, ../../dev/sass/specifics/_header.scss */
+/* line 191, ../../dev/sass/specifics/_header.scss */
 .navigation_dropdown_list_news > li:first-child {
   margin-top: 0;
 }
 
-/* line 198, ../../dev/sass/specifics/_header.scss */
+/* line 197, ../../dev/sass/specifics/_header.scss */
 .navigation_dropdown_list_news_title {
   font-size: 1.09091em;
   font-weight: 600;
 }
-/* line 201, ../../dev/sass/specifics/_header.scss */
+/* line 200, ../../dev/sass/specifics/_header.scss */
 .navigation_dropdown_list_news_title.navigation_dropdown_approved {
   color: #22c866;
 }
-/* line 204, ../../dev/sass/specifics/_header.scss */
+/* line 203, ../../dev/sass/specifics/_header.scss */
 .navigation_dropdown_list_news_title.navigation_dropdown_declined {
   color: #d76969;
 }
-/* line 207, ../../dev/sass/specifics/_header.scss */
+/* line 206, ../../dev/sass/specifics/_header.scss */
 .navigation_dropdown_list_news_title .navigation_dropdown_list_news_date {
   font-size: 0.75em;
   color: #45484C;
   font-weight: normal;
 }
 
-/* line 214, ../../dev/sass/specifics/_header.scss */
+/* line 213, ../../dev/sass/specifics/_header.scss */
 .navigation_dropdown_list_news_text {
   line-height: 1.18182em;
   margin-top: 0.45455em;
@@ -4609,16 +4609,38 @@ textarea {
 /* line 31, ../../dev/sass/specifics/_sub_header.scss */
 .menu {
   overflow: hidden;
+  position: relative;
 }
-/* line 33, ../../dev/sass/specifics/_sub_header.scss */
+/* line 34, ../../dev/sass/specifics/_sub_header.scss */
+.menu.scroll {
+  position: fixed;
+  top: 1em;
+  z-index: 1000;
+  overflow: initial;
+}
+/* line 39, ../../dev/sass/specifics/_sub_header.scss */
+.menu.scroll:before {
+  content: '';
+  display: block;
+  width: 10000px;
+  height: 3em;
+  position: absolute;
+  top: -1em;
+  margin-left: -5000px;
+  border: solid #cecfd0;
+  border-width: 0px 0px 1px 0px;
+  background: rgba(255, 255, 255, 0.9);
+  z-index: -1;
+}
+/* line 53, ../../dev/sass/specifics/_sub_header.scss */
 .toolbox_wrap .menu {
   max-width: 75.88076%;
 }
-/* line 36, ../../dev/sass/specifics/_sub_header.scss */
+/* line 56, ../../dev/sass/specifics/_sub_header.scss */
 .menu li {
   float: left;
 }
-/* line 40, ../../dev/sass/specifics/_sub_header.scss */
+/* line 60, ../../dev/sass/specifics/_sub_header.scss */
 .menu li a {
   text-transform: uppercase;
   font-family: pragmatica,Helvetica,Arial,sans-serif;
@@ -4626,13 +4648,13 @@ textarea {
   color: #c3c3c3;
   text-decoration: none;
 }
-/* line 49, ../../dev/sass/specifics/_sub_header.scss */
+/* line 69, ../../dev/sass/specifics/_sub_header.scss */
 .menu li.active a {
   font-family: pragmatica,Helvetica,Arial,sans-serif;
   font-weight: 300;
   color: #45484C;
 }
-/* line 57, ../../dev/sass/specifics/_sub_header.scss */
+/* line 77, ../../dev/sass/specifics/_sub_header.scss */
 .menu li:after {
   content: '';
   display: inline-block;
@@ -4642,13 +4664,13 @@ textarea {
   vertical-align: -1px;
   margin: 0 0.33333em 0 -0.4em;
 }
-/* line 67, ../../dev/sass/specifics/_sub_header.scss */
+/* line 87, ../../dev/sass/specifics/_sub_header.scss */
 .menu li:last-child:after {
   display: none;
   background: none;
 }
 
-/* line 74, ../../dev/sass/specifics/_sub_header.scss */
+/* line 94, ../../dev/sass/specifics/_sub_header.scss */
 .go_to_search {
   font-size: 1em;
   font-family: pragmatica,Helvetica,Arial,sans-serif;
@@ -4656,12 +4678,12 @@ textarea {
   color: #45484C;
   cursor: pointer;
 }
-/* line 82, ../../dev/sass/specifics/_sub_header.scss */
+/* line 102, ../../dev/sass/specifics/_sub_header.scss */
 .go_to_search span {
   display: inline-block;
   border-bottom: 1px solid #45484C;
 }
-/* line 87, ../../dev/sass/specifics/_sub_header.scss */
+/* line 107, ../../dev/sass/specifics/_sub_header.scss */
 .go_to_search:after {
   content: '';
   display: inline-block;

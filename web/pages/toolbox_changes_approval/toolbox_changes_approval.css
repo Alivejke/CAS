@@ -74,52 +74,76 @@
 /* line 7, ../../../dev/pages/toolbox_changes_approval/toolbox_changes_approval.scss */
 .right {
   float: right;
-  background-color: #F7F7F9;
+  overflow: hidden;
 }
 
-/* line 11, ../../../dev/pages/toolbox_changes_approval/toolbox_changes_approval.scss */
+/* line 12, ../../../dev/pages/toolbox_changes_approval/toolbox_changes_approval.scss */
 .container {
   position: relative;
   border-bottom: 1px solid #cecfd0;
   overflow: hidden;
+  height: 100%;
+}
+/* line 17, ../../../dev/pages/toolbox_changes_approval/toolbox_changes_approval.scss */
+.container:after, .container:before {
+  content: '';
+  position: absolute;
+  width: 50%;
+  height: 100%;
+  top: 0;
+  bottom: 0;
+  z-index: 1;
+}
+/* line 26, ../../../dev/pages/toolbox_changes_approval/toolbox_changes_approval.scss */
+.container:before {
+  background: #fff;
+  left: 0;
+}
+/* line 30, ../../../dev/pages/toolbox_changes_approval/toolbox_changes_approval.scss */
+.container:after {
+  background: #F7F7F9;
+  right: 0;
 }
 
-/* line 16, ../../../dev/pages/toolbox_changes_approval/toolbox_changes_approval.scss */
+/* line 35, ../../../dev/pages/toolbox_changes_approval/toolbox_changes_approval.scss */
 .block_change {
   padding: 4em 0;
 }
-/* line 18, ../../../dev/pages/toolbox_changes_approval/toolbox_changes_approval.scss */
+/* line 37, ../../../dev/pages/toolbox_changes_approval/toolbox_changes_approval.scss */
 .block_change textarea {
   width: 100%;
   height: 9.5em;
   padding: 0.8em 1.35501%;
   margin: 4em 0 2em;
 }
-/* line 25, ../../../dev/pages/toolbox_changes_approval/toolbox_changes_approval.scss */
+/* line 44, ../../../dev/pages/toolbox_changes_approval/toolbox_changes_approval.scss */
 .block_change .btn.btn-default.second {
   margin-left: 5.42005%;
 }
 
-/* line 30, ../../../dev/pages/toolbox_changes_approval/toolbox_changes_approval.scss */
+/* line 49, ../../../dev/pages/toolbox_changes_approval/toolbox_changes_approval.scss */
 .left, .right {
   width: 50%;
   height: 100%;
   padding: 2em 2.71003%;
+  z-index: 2;
+  position: relative;
 }
-/* line 34, ../../../dev/pages/toolbox_changes_approval/toolbox_changes_approval.scss */
+/* line 55, ../../../dev/pages/toolbox_changes_approval/toolbox_changes_approval.scss */
 .left .main_title.main_title_actives, .right .main_title.main_title_actives {
   width: 100%;
   text-align: left;
+  margin-top: 0;
 }
-/* line 38, ../../../dev/pages/toolbox_changes_approval/toolbox_changes_approval.scss */
+/* line 60, ../../../dev/pages/toolbox_changes_approval/toolbox_changes_approval.scss */
 .left .brand_news_title, .right .brand_news_title {
-  margin: 4em 0;
+  margin: 2em 0;
 }
-/* line 40, ../../../dev/pages/toolbox_changes_approval/toolbox_changes_approval.scss */
+/* line 62, ../../../dev/pages/toolbox_changes_approval/toolbox_changes_approval.scss */
 .left .brand_news_title.second, .right .brand_news_title.second {
   margin: 1.66667em 0;
 }
-/* line 44, ../../../dev/pages/toolbox_changes_approval/toolbox_changes_approval.scss */
+/* line 66, ../../../dev/pages/toolbox_changes_approval/toolbox_changes_approval.scss */
 .left .toolbox, .right .toolbox {
   border: 1px solid #cecfd0;
   -moz-border-radius: 6px;
@@ -130,7 +154,7 @@
   padding: 0.86667em 4.06504%;
   background: #fff;
 }
-/* line 51, ../../../dev/pages/toolbox_changes_approval/toolbox_changes_approval.scss */
+/* line 73, ../../../dev/pages/toolbox_changes_approval/toolbox_changes_approval.scss */
 .left .toolbox div, .right .toolbox div {
   background: #dcdcdc;
   text-align: center;
@@ -139,20 +163,20 @@
   height: 100%;
   padding: 8em 0;
 }
-/* line 58, ../../../dev/pages/toolbox_changes_approval/toolbox_changes_approval.scss */
+/* line 80, ../../../dev/pages/toolbox_changes_approval/toolbox_changes_approval.scss */
 .left .toolbox div img, .right .toolbox div img {
   margin: auto;
 }
-/* line 63, ../../../dev/pages/toolbox_changes_approval/toolbox_changes_approval.scss */
+/* line 85, ../../../dev/pages/toolbox_changes_approval/toolbox_changes_approval.scss */
 .left .text, .right .text {
   color: #45484C;
   line-height: 1.53333em;
 }
-/* line 66, ../../../dev/pages/toolbox_changes_approval/toolbox_changes_approval.scss */
+/* line 88, ../../../dev/pages/toolbox_changes_approval/toolbox_changes_approval.scss */
 .left .text.for_approval, .right .text.for_approval {
   color: #b70e12;
 }
-/* line 70, ../../../dev/pages/toolbox_changes_approval/toolbox_changes_approval.scss */
+/* line 92, ../../../dev/pages/toolbox_changes_approval/toolbox_changes_approval.scss */
 .left .btn.btn-default, .right .btn.btn-default {
   width: 54.20054%;
   margin: 3em 0;

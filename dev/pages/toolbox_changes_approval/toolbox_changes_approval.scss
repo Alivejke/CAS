@@ -6,12 +6,31 @@
 }
 .right {
 	float: right;
-	background-color: #F7F7F9;
+	// background-color: #F7F7F9;
+	overflow: hidden;
 }
 .container {
 	position: relative;
 	border-bottom: 1px solid #cecfd0;
 	overflow: hidden;
+	height: 100%;
+	&:after, &:before {
+		content: '';
+		position: absolute;
+		width: 50%;
+		height: 100%;
+		top: 0;
+		bottom: 0;
+		z-index: 1;
+	}
+	&:before {
+		background: #fff;
+		left: 0;
+	}
+	&:after {
+		background: #F7F7F9;
+		right: 0;
+	}
 }
 .block_change {
 	padding: em(60px, $base-font-size) 0;
@@ -31,12 +50,15 @@
 	width: 50%;
 	height: 100%;
 	padding: em(30px, $base-font-size) flex(20px, $base-width-content);
+	z-index: 2;
+	position: relative;
 	.main_title.main_title_actives {
 		width: 100%;
 		text-align: left;
+		margin-top: 0;
 	}
 	.brand_news_title {
-		margin: em(60px, $base-font-size) 0;
+		margin: em(30px, $base-font-size) 0;
 		&.second {
 			margin: em(25px, $base-font-size) 0;
 		}

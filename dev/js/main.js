@@ -32,4 +32,13 @@ $(document).ready(function() {
     $navigationDropdownBlock.on('click', function(event){
     	event.stopPropagation();
     });
+
+    $(document).scroll(function(){
+    var body = $(document).scrollTop();
+    if ( body > 78 ) {
+      $('ul.menu').addClass('scroll');
+    } else {
+      $('ul.menu').removeClass('scroll');
+    }
+  })
 });
