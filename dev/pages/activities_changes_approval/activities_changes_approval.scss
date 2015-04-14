@@ -11,7 +11,7 @@ $brand_news_list-width: 295px;
 			}
 		}
 		.profile_text {
-			margin: em(-4px) 0 0 flex(70px, $base-width-content);
+			margin: em(-3px) 0 0 flex(70px, $base-width-content);
 			width: flex(590px, $base-width-content);
 
 			@media (max-width: 768px) {
@@ -21,9 +21,13 @@ $brand_news_list-width: 295px;
 	}
 }
 
-.activities_changes_approval_list {
-	overflow: hidden;
+.activities_changes_approval_wrap {
 	margin-top: em(60px);
+}
+
+.activities_changes_approval_list {
+	// overflow: hidden;
+	// margin-top: em(60px);
 	border-top: 1px solid #cecfd0;
 	margin-bottom: -1px;
 	> li {
@@ -33,6 +37,8 @@ $brand_news_list-width: 295px;
 		border-left: 1px solid #cecfd0;
 		&:first-child {
 			border: none;
+			border-right: 1px solid #cecfd0;
+			margin-right: -1px;
 		}
 	}
 }
@@ -143,6 +149,11 @@ $brand_news_list-width: 295px;
 		&:nth-child(2n+1) {
 			margin-left: 0;
 		}
+
+		&.odd {
+			margin-left: 0;
+		}
+
 		.brand_news_title {
 			font-size: em($base-font-size, $base-font-size);
 			width: flex(230px, 253px);
@@ -181,12 +192,25 @@ $brand_news_list-width: 295px;
 	&:nth-child(2n+1) {
 		margin-left: 0;
 	}
+
+	&.odd {
+		margin-left: 0;
+	}
+
 	.name_channels {
 		margin-bottom: em(23px);
 	}
-	input[type="checkbox"] + label::before {
-		vertical-align: -3px;
-		margin-right: 8px;
+	input[type="checkbox"] {
+		&+ label {
+			&::before {
+				vertical-align: -3px;
+				margin-right: em(8px);
+			}
+			.label_ico {
+				vertical-align: -3px;
+				margin-right: em(8px);
+			}
+		}
 	}
 }
 

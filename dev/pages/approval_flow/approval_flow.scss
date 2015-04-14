@@ -81,6 +81,9 @@ $th_base-width: flex($base-width-content/5, $base-width-content);
 		&:nth-child(odd){
 			background-color: #f8faf9;
 		}
+		&.odd {
+			background-color: #f8faf9;
+		}
 		&.indent-bottom {
 			margin-bottom: em(100px);
 		}
