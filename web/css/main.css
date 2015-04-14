@@ -3280,29 +3280,17 @@ textarea {
   display: block;
   padding: 0 0 2.33333em 0;
 }
-<<<<<<< HEAD
-/* line 61, ../../dev/sass/specifics/_header.scss */
-=======
-/* line 64, ../../dev/sass/specifics/_header.scss */
->>>>>>> 3615ec16c2b149fa414bd1fed0cfb80662747c47
+/* line 66, ../../dev/sass/specifics/_header.scss */
 .navigation_dropdown.active .navigation_dropdown_text.navigation_ico-big:before {
   background-position: 0 -200px;
   top: -0.2em;
 }
-<<<<<<< HEAD
-/* line 68, ../../dev/sass/specifics/_header.scss */
-=======
-/* line 71, ../../dev/sass/specifics/_header.scss */
->>>>>>> 3615ec16c2b149fa414bd1fed0cfb80662747c47
+/* line 73, ../../dev/sass/specifics/_header.scss */
 .navigation_dropdown:hover {
   background-color: #bec3c7;
 }
 
-<<<<<<< HEAD
-/* line 73, ../../dev/sass/specifics/_header.scss */
-=======
-/* line 80, ../../dev/sass/specifics/_header.scss */
->>>>>>> 3615ec16c2b149fa414bd1fed0cfb80662747c47
+/* line 82, ../../dev/sass/specifics/_header.scss */
 .navigation_dropdown_text {
   font-family: pragmatica,Helvetica,Arial,sans-serif;
   font-weight: 300;
@@ -3310,20 +3298,12 @@ textarea {
   text-transform: uppercase;
   position: relative;
 }
-<<<<<<< HEAD
-/* line 81, ../../dev/sass/specifics/_header.scss */
-=======
-/* line 88, ../../dev/sass/specifics/_header.scss */
->>>>>>> 3615ec16c2b149fa414bd1fed0cfb80662747c47
+/* line 90, ../../dev/sass/specifics/_header.scss */
 .navigation_dropdown_text.navigation_ico-big:before {
   background-position: 0 -80px;
   top: -0.13333em;
 }
-<<<<<<< HEAD
-/* line 86, ../../dev/sass/specifics/_header.scss */
-=======
-/* line 93, ../../dev/sass/specifics/_header.scss */
->>>>>>> 3615ec16c2b149fa414bd1fed0cfb80662747c47
+/* line 95, ../../dev/sass/specifics/_header.scss */
 .navigation_dropdown_text:before {
   content: '';
   display: inline-block;
@@ -3334,11 +3314,7 @@ textarea {
   top: -6px;
   left: -25px;
 }
-<<<<<<< HEAD
-/* line 96, ../../dev/sass/specifics/_header.scss */
-=======
-/* line 103, ../../dev/sass/specifics/_header.scss */
->>>>>>> 3615ec16c2b149fa414bd1fed0cfb80662747c47
+/* line 105, ../../dev/sass/specifics/_header.scss */
 .navigation_dropdown_text .caret {
   border: none;
   background-position: -40px 0px;
@@ -3349,22 +3325,14 @@ textarea {
   right: -23px;
 }
 
-<<<<<<< HEAD
-/* line 108, ../../dev/sass/specifics/_header.scss */
-=======
-/* line 115, ../../dev/sass/specifics/_header.scss */
->>>>>>> 3615ec16c2b149fa414bd1fed0cfb80662747c47
+/* line 117, ../../dev/sass/specifics/_header.scss */
 .nav img {
   display: inline-block;
   vertical-align: middle;
   margin: 2px 0 0 0;
 }
 
-<<<<<<< HEAD
-/* line 115, ../../dev/sass/specifics/_header.scss */
-=======
-/* line 122, ../../dev/sass/specifics/_header.scss */
->>>>>>> 3615ec16c2b149fa414bd1fed0cfb80662747c47
+/* line 124, ../../dev/sass/specifics/_header.scss */
 .navigation_dropdown_block {
   opacity: 0;
   overflow: hidden;
@@ -3373,100 +3341,60 @@ textarea {
   position: absolute;
   top: 4.33333em;
   right: 0;
-<<<<<<< HEAD
-  width: 201.54639%;
-=======
   width: 26.09em;
   padding: 0 0 2.33333em 0;
->>>>>>> 3615ec16c2b149fa414bd1fed0cfb80662747c47
   border: 1px solid #eeefee;
   border-top: none;
   cursor: default;
   z-index: 10;
 }
 
-<<<<<<< HEAD
-/* line 131, ../../dev/sass/specifics/_header.scss */
-=======
-/* line 137, ../../dev/sass/specifics/_header.scss */
->>>>>>> 3615ec16c2b149fa414bd1fed0cfb80662747c47
+/* line 142, ../../dev/sass/specifics/_header.scss */
 .navigation_dropdown_list {
   position: relative;
   left: -7.67263%;
   overflow: hidden;
   padding: 0 2.33333em;
 }
-<<<<<<< HEAD
-/* line 136, ../../dev/sass/specifics/_header.scss */
-=======
-/* line 142, ../../dev/sass/specifics/_header.scss */
->>>>>>> 3615ec16c2b149fa414bd1fed0cfb80662747c47
+/* line 147, ../../dev/sass/specifics/_header.scss */
 .navigation_dropdown_list > li {
   float: left;
   margin-left: 7.67263%;
 }
-<<<<<<< HEAD
-/* line 139, ../../dev/sass/specifics/_header.scss */
-=======
-/* line 145, ../../dev/sass/specifics/_header.scss */
->>>>>>> 3615ec16c2b149fa414bd1fed0cfb80662747c47
+/* line 150, ../../dev/sass/specifics/_header.scss */
 .navigation_dropdown_list > li a {
   font-size: 0.8em;
   color: #cdd1d3;
   text-decoration: none;
   text-transform: uppercase;
 }
-<<<<<<< HEAD
-/* line 146, ../../dev/sass/specifics/_header.scss */
-=======
-/* line 152, ../../dev/sass/specifics/_header.scss */
->>>>>>> 3615ec16c2b149fa414bd1fed0cfb80662747c47
+/* line 157, ../../dev/sass/specifics/_header.scss */
 .navigation_dropdown_list > li.active a {
   color: #45484C;
 }
 
-<<<<<<< HEAD
-/* line 153, ../../dev/sass/specifics/_header.scss */
-=======
-/* line 159, ../../dev/sass/specifics/_header.scss */
->>>>>>> 3615ec16c2b149fa414bd1fed0cfb80662747c47
+/* line 164, ../../dev/sass/specifics/_header.scss */
 .navigation_dropdown_img_wrap {
   display: inline-block;
   vertical-align: middle;
 }
 
-<<<<<<< HEAD
-/* line 158, ../../dev/sass/specifics/_header.scss */
-=======
-/* line 164, ../../dev/sass/specifics/_header.scss */
->>>>>>> 3615ec16c2b149fa414bd1fed0cfb80662747c47
+/* line 169, ../../dev/sass/specifics/_header.scss */
 .navigation_dropdown_list_news {
   padding: 1.33333em 2em 0;
   border-top: 1px solid #eeefee;
 }
-<<<<<<< HEAD
-/* line 161, ../../dev/sass/specifics/_header.scss */
-=======
-/* line 167, ../../dev/sass/specifics/_header.scss */
->>>>>>> 3615ec16c2b149fa414bd1fed0cfb80662747c47
+/* line 172, ../../dev/sass/specifics/_header.scss */
 .navigation_dropdown_list_news > li {
   line-height: 1;
   margin-top: 2em;
 }
-<<<<<<< HEAD
-/* line 165, ../../dev/sass/specifics/_header.scss */
-=======
-/* line 171, ../../dev/sass/specifics/_header.scss */
->>>>>>> 3615ec16c2b149fa414bd1fed0cfb80662747c47
+/* line 176, ../../dev/sass/specifics/_header.scss */
 .navigation_dropdown_list_news > li a {
   display: block;
   text-decoration: none;
 }
-<<<<<<< HEAD
-/* line 169, ../../dev/sass/specifics/_header.scss */
-=======
-/* line 175, ../../dev/sass/specifics/_header.scss */
->>>>>>> 3615ec16c2b149fa414bd1fed0cfb80662747c47
+/* line 180, ../../dev/sass/specifics/_header.scss */
 .navigation_dropdown_list_news > li .navigation_dropdown_text_wrap {
   display: inline-block;
   width: 80.06042%;
@@ -3476,65 +3404,37 @@ textarea {
   font-size: 0.73333em;
   vertical-align: middle;
 }
-<<<<<<< HEAD
-/* line 178, ../../dev/sass/specifics/_header.scss */
-=======
-/* line 184, ../../dev/sass/specifics/_header.scss */
->>>>>>> 3615ec16c2b149fa414bd1fed0cfb80662747c47
+/* line 189, ../../dev/sass/specifics/_header.scss */
 .navigation_dropdown_list_news > li .img_circle {
   height: 3.06667em;
   width: 13.89728%;
 }
-<<<<<<< HEAD
-/* line 182, ../../dev/sass/specifics/_header.scss */
-=======
-/* line 188, ../../dev/sass/specifics/_header.scss */
->>>>>>> 3615ec16c2b149fa414bd1fed0cfb80662747c47
+/* line 193, ../../dev/sass/specifics/_header.scss */
 .navigation_dropdown_list_news > li:first-child {
   margin-top: 0;
 }
 
-<<<<<<< HEAD
-/* line 188, ../../dev/sass/specifics/_header.scss */
-=======
-/* line 194, ../../dev/sass/specifics/_header.scss */
->>>>>>> 3615ec16c2b149fa414bd1fed0cfb80662747c47
+/* line 199, ../../dev/sass/specifics/_header.scss */
 .navigation_dropdown_list_news_title {
   font-size: 1.09091em;
   font-weight: 600;
 }
-<<<<<<< HEAD
-/* line 191, ../../dev/sass/specifics/_header.scss */
+/* line 202, ../../dev/sass/specifics/_header.scss */
 .navigation_dropdown_list_news_title.navigation_dropdown_approved {
   color: #22c866;
 }
-/* line 194, ../../dev/sass/specifics/_header.scss */
+/* line 205, ../../dev/sass/specifics/_header.scss */
 .navigation_dropdown_list_news_title.navigation_dropdown_declined {
   color: #d76969;
 }
-/* line 197, ../../dev/sass/specifics/_header.scss */
-=======
-/* line 197, ../../dev/sass/specifics/_header.scss */
-.navigation_dropdown_list_news_title.navigation_dropdown_approved {
-  color: #22c866;
-}
-/* line 200, ../../dev/sass/specifics/_header.scss */
-.navigation_dropdown_list_news_title.navigation_dropdown_declined {
-  color: #d76969;
-}
-/* line 203, ../../dev/sass/specifics/_header.scss */
->>>>>>> 3615ec16c2b149fa414bd1fed0cfb80662747c47
+/* line 208, ../../dev/sass/specifics/_header.scss */
 .navigation_dropdown_list_news_title .navigation_dropdown_list_news_date {
   font-size: 0.75em;
   color: #45484C;
   font-weight: normal;
 }
 
-<<<<<<< HEAD
-/* line 204, ../../dev/sass/specifics/_header.scss */
-=======
-/* line 210, ../../dev/sass/specifics/_header.scss */
->>>>>>> 3615ec16c2b149fa414bd1fed0cfb80662747c47
+/* line 215, ../../dev/sass/specifics/_header.scss */
 .navigation_dropdown_list_news_text {
   line-height: 1.18182em;
   margin-top: 0.45455em;
@@ -4686,16 +4586,38 @@ textarea {
 /* line 31, ../../dev/sass/specifics/_sub_header.scss */
 .menu {
   overflow: hidden;
+  position: relative;
 }
-/* line 33, ../../dev/sass/specifics/_sub_header.scss */
+/* line 34, ../../dev/sass/specifics/_sub_header.scss */
+.menu.scroll {
+  position: fixed;
+  top: 1em;
+  z-index: 1000;
+  overflow: initial;
+}
+/* line 39, ../../dev/sass/specifics/_sub_header.scss */
+.menu.scroll:before {
+  content: '';
+  display: block;
+  width: 10000px;
+  height: 3em;
+  position: absolute;
+  top: -1em;
+  margin-left: -5000px;
+  border: solid #cecfd0;
+  border-width: 0px 0px 1px 0px;
+  background: rgba(255, 255, 255, 0.9);
+  z-index: -1;
+}
+/* line 53, ../../dev/sass/specifics/_sub_header.scss */
 .toolbox_wrap .menu {
   max-width: 75.88076%;
 }
-/* line 36, ../../dev/sass/specifics/_sub_header.scss */
+/* line 56, ../../dev/sass/specifics/_sub_header.scss */
 .menu li {
   float: left;
 }
-/* line 40, ../../dev/sass/specifics/_sub_header.scss */
+/* line 60, ../../dev/sass/specifics/_sub_header.scss */
 .menu li a {
   text-transform: uppercase;
   font-family: pragmatica,Helvetica,Arial,sans-serif;
@@ -4703,13 +4625,13 @@ textarea {
   color: #c3c3c3;
   text-decoration: none;
 }
-/* line 49, ../../dev/sass/specifics/_sub_header.scss */
+/* line 69, ../../dev/sass/specifics/_sub_header.scss */
 .menu li.active a {
   font-family: pragmatica,Helvetica,Arial,sans-serif;
   font-weight: 300;
   color: #45484C;
 }
-/* line 57, ../../dev/sass/specifics/_sub_header.scss */
+/* line 77, ../../dev/sass/specifics/_sub_header.scss */
 .menu li:after {
   content: '';
   display: inline-block;
@@ -4719,13 +4641,13 @@ textarea {
   vertical-align: -1px;
   margin: 0 0.33333em 0 -0.4em;
 }
-/* line 67, ../../dev/sass/specifics/_sub_header.scss */
+/* line 87, ../../dev/sass/specifics/_sub_header.scss */
 .menu li:last-child:after {
   display: none;
   background: none;
 }
 
-/* line 74, ../../dev/sass/specifics/_sub_header.scss */
+/* line 94, ../../dev/sass/specifics/_sub_header.scss */
 .go_to_search {
   font-size: 1em;
   font-family: pragmatica,Helvetica,Arial,sans-serif;
@@ -4733,12 +4655,12 @@ textarea {
   color: #45484C;
   cursor: pointer;
 }
-/* line 82, ../../dev/sass/specifics/_sub_header.scss */
+/* line 102, ../../dev/sass/specifics/_sub_header.scss */
 .go_to_search span {
   display: inline-block;
   border-bottom: 1px solid #45484C;
 }
-/* line 87, ../../dev/sass/specifics/_sub_header.scss */
+/* line 107, ../../dev/sass/specifics/_sub_header.scss */
 .go_to_search:after {
   content: '';
   display: inline-block;
@@ -6406,119 +6328,119 @@ input[type="checkbox"]:checked:disabled + label::before {
 .approval_flow_wrap.email-notification .approval_table.table_log td + td + td + td {
   width: 9%;
 }
-/* line 71, ../../dev/sass/specifics/_table.scss */
+/* line 65, ../../dev/sass/specifics/_table.scss */
 .approval_flow_wrap .approval_table {
   width: 100%;
   max-width: 960px;
   margin: 0 auto;
 }
-/* line 75, ../../dev/sass/specifics/_table.scss */
+/* line 69, ../../dev/sass/specifics/_table.scss */
 .approval_flow_wrap .approval_table td {
   color: #77808b;
   width: 16%;
   padding: 0 0.33333em;
 }
-/* line 79, ../../dev/sass/specifics/_table.scss */
+/* line 73, ../../dev/sass/specifics/_table.scss */
 .approval_flow_wrap .approval_table td + td {
   width: 18%;
 }
-/* line 81, ../../dev/sass/specifics/_table.scss */
+/* line 75, ../../dev/sass/specifics/_table.scss */
 .approval_flow_wrap .approval_table td + td + td {
   width: 19%;
 }
-/* line 83, ../../dev/sass/specifics/_table.scss */
+/* line 77, ../../dev/sass/specifics/_table.scss */
 .approval_flow_wrap .approval_table td + td + td + td {
   width: 25%;
 }
-/* line 85, ../../dev/sass/specifics/_table.scss */
+/* line 79, ../../dev/sass/specifics/_table.scss */
 .approval_flow_wrap .approval_table td + td + td + td + td {
   width: 22%;
 }
-/* line 93, ../../dev/sass/specifics/_table.scss */
+/* line 87, ../../dev/sass/specifics/_table.scss */
 .approval_flow_wrap .approval_table .wrap_comments_table .user_name {
   color: #45484C;
 }
-/* line 96, ../../dev/sass/specifics/_table.scss */
+/* line 90, ../../dev/sass/specifics/_table.scss */
 .approval_flow_wrap .approval_table .wrap_comments_table .comment_table {
   margin-bottom: 0.66667em;
 }
-/* line 101, ../../dev/sass/specifics/_table.scss */
+/* line 95, ../../dev/sass/specifics/_table.scss */
 .approval_flow_wrap .approval_table.table_log {
   width: 88.33922%;
   margin: 0;
   padding: 0;
 }
-/* line 105, ../../dev/sass/specifics/_table.scss */
+/* line 99, ../../dev/sass/specifics/_table.scss */
 .approval_flow_wrap .approval_table.table_log td {
   font-size: 0.73333em;
   width: 15%;
   text-align: left;
 }
-/* line 110, ../../dev/sass/specifics/_table.scss */
+/* line 104, ../../dev/sass/specifics/_table.scss */
 .approval_flow_wrap .approval_table.table_log td + td {
   width: 19%;
 }
-/* line 112, ../../dev/sass/specifics/_table.scss */
+/* line 106, ../../dev/sass/specifics/_table.scss */
 .approval_flow_wrap .approval_table.table_log td + td + td {
   width: 13%;
 }
-/* line 114, ../../dev/sass/specifics/_table.scss */
+/* line 108, ../../dev/sass/specifics/_table.scss */
 .approval_flow_wrap .approval_table.table_log td + td + td + td {
   width: 20%;
 }
-/* line 116, ../../dev/sass/specifics/_table.scss */
+/* line 110, ../../dev/sass/specifics/_table.scss */
 .approval_flow_wrap .approval_table.table_log td + td + td + td + td {
   width: 18%;
 }
-/* line 118, ../../dev/sass/specifics/_table.scss */
+/* line 112, ../../dev/sass/specifics/_table.scss */
 .approval_flow_wrap .approval_table.table_log td + td + td + td + td + td {
   width: 14%;
 }
-/* line 128, ../../dev/sass/specifics/_table.scss */
+/* line 122, ../../dev/sass/specifics/_table.scss */
 .approval_flow_wrap .title_table {
   width: 100%;
   background-color: #f8faf9;
   padding: 1.66667em 0 0;
   margin-top: 1.66667em;
 }
-/* line 133, ../../dev/sass/specifics/_table.scss */
+/* line 127, ../../dev/sass/specifics/_table.scss */
 .approval_flow_wrap .title_table table {
   max-width: 960px;
   margin: 0 auto 0;
   width: 100%;
 }
-/* line 137, ../../dev/sass/specifics/_table.scss */
+/* line 131, ../../dev/sass/specifics/_table.scss */
 .approval_flow_wrap .title_table table.table_log {
   width: 88.33922%;
   margin: 0;
 }
-/* line 140, ../../dev/sass/specifics/_table.scss */
+/* line 134, ../../dev/sass/specifics/_table.scss */
 .approval_flow_wrap .title_table table.table_log th {
   font-size: 0.8em;
   width: 15%;
   text-align: left;
 }
-/* line 144, ../../dev/sass/specifics/_table.scss */
+/* line 138, ../../dev/sass/specifics/_table.scss */
 .approval_flow_wrap .title_table table.table_log th + th {
   width: 19%;
 }
-/* line 146, ../../dev/sass/specifics/_table.scss */
+/* line 140, ../../dev/sass/specifics/_table.scss */
 .approval_flow_wrap .title_table table.table_log th + th + th {
   width: 13%;
 }
-/* line 148, ../../dev/sass/specifics/_table.scss */
+/* line 142, ../../dev/sass/specifics/_table.scss */
 .approval_flow_wrap .title_table table.table_log th + th + th + th {
   width: 20%;
 }
-/* line 150, ../../dev/sass/specifics/_table.scss */
+/* line 144, ../../dev/sass/specifics/_table.scss */
 .approval_flow_wrap .title_table table.table_log th + th + th + th + th {
   width: 18%;
 }
-/* line 152, ../../dev/sass/specifics/_table.scss */
+/* line 146, ../../dev/sass/specifics/_table.scss */
 .approval_flow_wrap .title_table table.table_log th + th + th + th + th + th {
   width: 14%;
 }
-/* line 162, ../../dev/sass/specifics/_table.scss */
+/* line 156, ../../dev/sass/specifics/_table.scss */
 .approval_flow_wrap .title_table th {
   font-family: pragmatica,Helvetica,Arial,sans-serif;
   font-size: 15px;
@@ -6528,44 +6450,44 @@ input[type="checkbox"]:checked:disabled + label::before {
   width: 16%;
   padding: 0 0.33333em;
 }
-/* line 170, ../../dev/sass/specifics/_table.scss */
+/* line 164, ../../dev/sass/specifics/_table.scss */
 .approval_flow_wrap .title_table th + th {
   width: 18%;
 }
-/* line 172, ../../dev/sass/specifics/_table.scss */
+/* line 166, ../../dev/sass/specifics/_table.scss */
 .approval_flow_wrap .title_table th + th + th {
   width: 19%;
 }
-/* line 174, ../../dev/sass/specifics/_table.scss */
+/* line 168, ../../dev/sass/specifics/_table.scss */
 .approval_flow_wrap .title_table th + th + th + th {
   width: 25%;
 }
-/* line 176, ../../dev/sass/specifics/_table.scss */
+/* line 170, ../../dev/sass/specifics/_table.scss */
 .approval_flow_wrap .title_table th + th + th + th + th {
   width: 22%;
 }
 
-/* line 187, ../../dev/sass/specifics/_table.scss */
+/* line 181, ../../dev/sass/specifics/_table.scss */
 .wrap_table > div {
   padding: 1em 0;
 }
-/* line 189, ../../dev/sass/specifics/_table.scss */
+/* line 183, ../../dev/sass/specifics/_table.scss */
 .wrap_table > div:nth-child(odd) {
   background-color: #f8faf9;
 }
-/* line 192, ../../dev/sass/specifics/_table.scss */
+/* line 186, ../../dev/sass/specifics/_table.scss */
 .wrap_table > div.indent-bottom {
   margin-bottom: 6.66667em;
 }
 
-/* line 200, ../../dev/sass/specifics/_table.scss */
+/* line 194, ../../dev/sass/specifics/_table.scss */
 .button_table .btn.btn_rounded {
   width: 38.54802%;
   height: 2.54545em;
   font-size: 0.73333em;
 }
 
-/* line 208, ../../dev/sass/specifics/_table.scss */
+/* line 202, ../../dev/sass/specifics/_table.scss */
 .table_text_bold {
   font-weight: 600;
   color: #7c7c7c;
