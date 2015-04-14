@@ -53,6 +53,8 @@ $navigation_dropdown_list_news-font-size: 11px;
 		}
 		.navigation_dropdown_block {
 			display: block;
+			// height: em(396px);
+			padding: 0 0 em(35px) 0;
 		}
 		.navigation_dropdown_text {
 			&.navigation_ico-big {
@@ -111,13 +113,15 @@ $navigation_dropdown_list_news-font-size: 11px;
 
 
 .navigation_dropdown_block {
-	display: none;
+	opacity: 0;
+	overflow: hidden;
+	height: 0;
 	background-color: #f8faf9;
 	position: absolute;
 	top: em(65px);
 	right: 0;
 	width: flex($dropdown-width, $dropdown_btn-width);
-	padding: 0 0 em(35px) 0;
+	
 	border: 1px solid #eeefee;
 	border-top: none;
 	cursor: default;
