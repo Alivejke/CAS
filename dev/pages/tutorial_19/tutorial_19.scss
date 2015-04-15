@@ -126,8 +126,8 @@
             .checkbox {
                 display: inline-block;
                 position: relative;
-                padding-left: 1.5em;
-                margin-top: em(12px, $base-font-size);
+                // padding-left: 1.5em;
+                margin-top: em(10px, $base-font-size);
                 color: $gray-color;
                 label:before {
                     position: absolute;
@@ -147,9 +147,17 @@
             border-top: 1px solid #cecfd0;
             // border-bottom: 1px solid #cecfd0;
             margin-top: em(60px, $base-font-size);
+            button.btn.btn-default {
+                width: flex(200px, $base-width-content);
+                overflow: hidden;
+            }
             button.btn.btn-default.center {
-                // margin-left: 18.5%;
-                margin-left: flex(145px, $base-width-content);
+                margin-left: flex(70px, $base-width-content);
+            }
+            @media (max-width: 840px) {
+                button.btn.btn-default {
+                    font-size: 12px;
+                }
             }
         }
     }

@@ -42,75 +42,95 @@ input[type="checkbox"] + label {
 // }
 
 input[type="checkbox"] {
-    &+ label {
-        .label_ico {
-            display: inline-block;
-            height: 18px;
-            width: 18px;
-            margin: 0 5px 0 0;
-            background: none;
-            border: 1px solid #c2c2c2;
-        }
-    }
-    &.distinction {
-        &+ label {
-            color: $distinction-color;
-            .label_ico {
-                border-color: $distinction-color;
-            }
-        }
-    }
-    &:checked {
-        &+ label {
-            .label_ico {
-                background: url(/i/sprite.png) -40px -240px;
-            }
-        }
-    }
-    &.checked {
-        &+ label {
-            .label_ico {
-                background: url(/i/sprite.png) -40px -240px;
-            }
-        }
-    }
-    &:disabled {
-        &+ label {
-            .label_ico {
-                background: url(/i/sprite.png) 0px -160px;
-            }
-        }
-    }
-    &:checked {
-        &:disabled {
-            &+ label {
-                .label_ico {
-                    background: url(/i/sprite.png) -40px -240px;
-                }
-            }
-        }
-    }
-    &.checked {
-        &:disabled {
-            &+ label {
-                .label_ico {
-                    background: url(/i/sprite.png) -40px -240px;
-                }
-            }
-        }
-    }
+    // &+ label {
+    //     .label_ico {
+    //         display: inline-block;
+    //         height: 18px;
+    //         width: 18px;
+    //         margin: 0 5px 0 0;
+    //         background: none;
+    //         border: 1px solid #c2c2c2;
+    //     }
+    // }
+    // &.distinction {
+    //     &+ label {
+    //         color: $distinction-color;
+    //         .label_ico {
+    //             border-color: $distinction-color;
+    //         }
+    //     }
+    // }
+    // &:checked {
+    //     &+ label {
+    //         .label_ico {
+    //             background: url(/i/sprite.png) -40px -240px;
+    //         }
+    //     }
+    // }
+    // &.checked {
+    //     &+ label {
+    //         .label_ico {
+    //             background: url(/i/sprite.png) -40px -240px;
+    //         }
+    //     }
+    // }
+    // &:disabled {
+    //     &+ label {
+    //         .label_ico {
+    //             background: url(/i/sprite.png) 0px -160px;
+    //         }
+    //     }
+    // }
+    // &:checked {
+    //     &:disabled {
+    //         &+ label {
+    //             .label_ico {
+    //                 background: url(/i/sprite.png) -40px -240px;
+    //             }
+    //         }
+    //     }
+    // }
+    // &.checked {
+    //     &:disabled {
+    //         &+ label {
+    //             .label_ico {
+    //                 background: url(/i/sprite.png) -40px -240px;
+    //             }
+    //         }
+    //     }
+    // }
 }
 
 input[type="checkbox"] {
-    &+ label {
-        &::before {
-            vertical-align: -3px;
-            margin-right: em(8px);
-        }
+    // &+ label {
+    //     &::before {
+    //         vertical-align: -3px;
+    //         margin-right: em(8px);
+    //     }
+    //     .label_ico {
+    //         vertical-align: -3px;
+    //         margin-right: em(8px);
+    //     }
+    // }
+}
+
+label.checkbox {
+    .label_ico {
+        display: inline-block;
+        height: 18px;
+        width: 18px;
+        margin: 0 5px 0 0;
+        background: none;
+        border: 1px solid #c2c2c2;
+        background: url(/i/sprite.png) 0px -240px;
+    }
+    &.chacked .label_ico{
+        background: url(/i/sprite.png) -40px -240px;
+    }
+    &.distinction {
+        color: $distinction-color;
         .label_ico {
-            vertical-align: -3px;
-            margin-right: em(8px);
+            border-color: $distinction-color;
         }
     }
 }
-

@@ -41,6 +41,7 @@
         margin: em(60px, $base-font-size) 0 em(30px, $base-font-size);
     }
     .btn.btn-default {
+    	width: flex(170px, $base-width-content);
 		&.second {
 			margin-left: flex(40px, $base-width-content);
 		}
