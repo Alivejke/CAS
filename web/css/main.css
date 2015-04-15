@@ -3482,7 +3482,7 @@ textarea {
   line-height: 1em;
   margin-top: 1em;
 }
-@media (max-width: 960px) {
+@media (max-width: 980px) {
   /* line 31, ../../dev/sass/specifics/_footer.scss */
   .footer_navigate_wrap {
     font-size: 10px;
@@ -3493,8 +3493,9 @@ textarea {
 /* line 41, ../../dev/sass/specifics/_footer.scss */
 .footer_navigate {
   margin-left: 1.26667em;
+  white-space: nowrap;
 }
-/* line 44, ../../dev/sass/specifics/_footer.scss */
+/* line 45, ../../dev/sass/specifics/_footer.scss */
 .footer_navigate a {
   position: relative;
   font-family: pragmatica,Helvetica,Arial,sans-serif;
@@ -3506,15 +3507,15 @@ textarea {
   margin-left: 0.13333em;
   padding-left: 0.46667em;
 }
-/* line 55, ../../dev/sass/specifics/_footer.scss */
+/* line 56, ../../dev/sass/specifics/_footer.scss */
 .footer_navigate a:first-child {
   padding: 0;
 }
-/* line 57, ../../dev/sass/specifics/_footer.scss */
+/* line 58, ../../dev/sass/specifics/_footer.scss */
 .footer_navigate a:first-child:before {
   display: none;
 }
-/* line 61, ../../dev/sass/specifics/_footer.scss */
+/* line 62, ../../dev/sass/specifics/_footer.scss */
 .footer_navigate a:before {
   content: '';
   display: inline-block;
@@ -3525,16 +3526,16 @@ textarea {
   top: 2px;
   left: 0px;
 }
-/* line 71, ../../dev/sass/specifics/_footer.scss */
+/* line 72, ../../dev/sass/specifics/_footer.scss */
 .footer_navigate a:hover {
   color: #c8c8c8;
 }
-/* line 73, ../../dev/sass/specifics/_footer.scss */
+/* line 74, ../../dev/sass/specifics/_footer.scss */
 .footer_navigate a:hover:before {
   background-color: #c8c8c8;
 }
 
-/* line 80, ../../dev/sass/specifics/_footer.scss */
+/* line 81, ../../dev/sass/specifics/_footer.scss */
 .footer_copyright {
   line-height: 1;
   margin: 0 0 0 1.4em;
@@ -4315,8 +4316,9 @@ textarea {
   font-weight: 300;
   text-transform: uppercase;
   vertical-align: middle;
+  overflow: hidden;
 }
-/* line 11, ../../dev/sass/specifics/_buttons.scss */
+/* line 12, ../../dev/sass/specifics/_buttons.scss */
 .btn.btn_circle {
   width: 45px;
   height: 45px;
@@ -4325,43 +4327,43 @@ textarea {
   -webkit-border-radius: 30px;
   border-radius: 30px;
 }
-/* line 16, ../../dev/sass/specifics/_buttons.scss */
+/* line 17, ../../dev/sass/specifics/_buttons.scss */
 .btn.btn_circle.ico_star {
   background-position: -66px 14px;
 }
-/* line 18, ../../dev/sass/specifics/_buttons.scss */
+/* line 19, ../../dev/sass/specifics/_buttons.scss */
 .btn.btn_circle.ico_star:hover {
   background-position: -67px -27px;
 }
-/* line 21, ../../dev/sass/specifics/_buttons.scss */
+/* line 22, ../../dev/sass/specifics/_buttons.scss */
 .btn.btn_circle.ico_star:active {
   background-position: -66px -66px;
 }
-/* line 25, ../../dev/sass/specifics/_buttons.scss */
+/* line 26, ../../dev/sass/specifics/_buttons.scss */
 .btn.btn_circle.ico_eye {
   background-position: -270px 15px;
 }
-/* line 27, ../../dev/sass/specifics/_buttons.scss */
+/* line 28, ../../dev/sass/specifics/_buttons.scss */
 .btn.btn_circle.ico_eye:hover {
   background-position: -270px -65px;
 }
-/* line 30, ../../dev/sass/specifics/_buttons.scss */
+/* line 31, ../../dev/sass/specifics/_buttons.scss */
 .btn.btn_circle.ico_eye:active {
   background-position: -270px -145px;
 }
-/* line 34, ../../dev/sass/specifics/_buttons.scss */
+/* line 35, ../../dev/sass/specifics/_buttons.scss */
 .btn.btn_circle.ico_edit {
   background-position: -346px 11px;
 }
-/* line 36, ../../dev/sass/specifics/_buttons.scss */
+/* line 37, ../../dev/sass/specifics/_buttons.scss */
 .btn.btn_circle.ico_edit:hover {
   background-position: -346px -69px;
 }
-/* line 39, ../../dev/sass/specifics/_buttons.scss */
+/* line 40, ../../dev/sass/specifics/_buttons.scss */
 .btn.btn_circle.ico_edit:active {
   background-position: -346px -149px;
 }
-/* line 44, ../../dev/sass/specifics/_buttons.scss */
+/* line 45, ../../dev/sass/specifics/_buttons.scss */
 .btn.btn_rounded {
   border: none;
   -moz-border-radius: 5px;
@@ -4371,17 +4373,17 @@ textarea {
   height: 36px;
   color: #fff;
 }
-/* line 51, ../../dev/sass/specifics/_buttons.scss */
+/* line 52, ../../dev/sass/specifics/_buttons.scss */
 .btn.btn_rounded:hover {
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=50);
   opacity: 0.5;
 }
-/* line 54, ../../dev/sass/specifics/_buttons.scss */
+/* line 55, ../../dev/sass/specifics/_buttons.scss */
 .btn.btn_rounded:active {
   filter: progid:DXImageTransform.Microsoft.Alpha(enabled=false);
   opacity: 1;
 }
-/* line 58, ../../dev/sass/specifics/_buttons.scss */
+/* line 59, ../../dev/sass/specifics/_buttons.scss */
 .btn.btn_big_rounded {
   border: 1px solid #cecfd0;
   -moz-border-radius: 30px;
@@ -4392,116 +4394,116 @@ textarea {
   line-height: 3em;
   color: #45484C;
 }
-/* line 67, ../../dev/sass/specifics/_buttons.scss */
+/* line 68, ../../dev/sass/specifics/_buttons.scss */
 .btn.btn_big_rounded:hover {
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=50);
   opacity: 0.5;
 }
-/* line 69, ../../dev/sass/specifics/_buttons.scss */
+/* line 70, ../../dev/sass/specifics/_buttons.scss */
 .btn.btn_big_rounded:hover .ico_upload {
   background-position: -440px 0px;
 }
-/* line 72, ../../dev/sass/specifics/_buttons.scss */
+/* line 73, ../../dev/sass/specifics/_buttons.scss */
 .btn.btn_big_rounded:hover .ico_edit {
   background-position: -520px 0px;
 }
-/* line 75, ../../dev/sass/specifics/_buttons.scss */
+/* line 76, ../../dev/sass/specifics/_buttons.scss */
 .btn.btn_big_rounded:hover .ico_add {
   background-position: -760px 0px;
 }
-/* line 79, ../../dev/sass/specifics/_buttons.scss */
+/* line 80, ../../dev/sass/specifics/_buttons.scss */
 .btn.btn_big_rounded:active {
   filter: progid:DXImageTransform.Microsoft.Alpha(enabled=false);
   opacity: 1;
 }
-/* line 81, ../../dev/sass/specifics/_buttons.scss */
+/* line 82, ../../dev/sass/specifics/_buttons.scss */
 .btn.btn_big_rounded:active .ico_upload {
   background-position: -440px 0px;
 }
-/* line 84, ../../dev/sass/specifics/_buttons.scss */
+/* line 85, ../../dev/sass/specifics/_buttons.scss */
 .btn.btn_big_rounded:active .ico_edit {
   background-position: -520px 0px;
 }
-/* line 87, ../../dev/sass/specifics/_buttons.scss */
+/* line 88, ../../dev/sass/specifics/_buttons.scss */
 .btn.btn_big_rounded:active .ico_add {
   background-position: -760px 0px;
 }
-/* line 91, ../../dev/sass/specifics/_buttons.scss */
+/* line 92, ../../dev/sass/specifics/_buttons.scss */
 .btn.btn_big_rounded .ico_upload {
   position: relative;
   top: 0.35714em;
   left: -17px;
 }
-/* line 96, ../../dev/sass/specifics/_buttons.scss */
+/* line 97, ../../dev/sass/specifics/_buttons.scss */
 .btn.btn_big_rounded .ico_edit {
   position: relative;
   top: 0.28571em;
   left: -17px;
 }
-/* line 101, ../../dev/sass/specifics/_buttons.scss */
+/* line 102, ../../dev/sass/specifics/_buttons.scss */
 .btn.btn_big_rounded .ico_add {
   position: relative;
   top: 0.35714em;
   left: -17px;
 }
-/* line 107, ../../dev/sass/specifics/_buttons.scss */
+/* line 108, ../../dev/sass/specifics/_buttons.scss */
 .btn.btn-default {
   width: 19.7832%;
   height: 2.92857em;
   line-height: 2.92857em;
   border: 1px solid #dedfdf;
 }
-/* line 112, ../../dev/sass/specifics/_buttons.scss */
+/* line 113, ../../dev/sass/specifics/_buttons.scss */
 .btn.btn-default:hover {
   background-color: #0f3e6e;
   color: #fff;
 }
-/* line 116, ../../dev/sass/specifics/_buttons.scss */
+/* line 117, ../../dev/sass/specifics/_buttons.scss */
 .btn.btn-default:active {
   background-color: #fff;
   color: #738189;
 }
-/* line 122, ../../dev/sass/specifics/_buttons.scss */
+/* line 123, ../../dev/sass/specifics/_buttons.scss */
 .btn.btn-save:hover {
   background-color: #2ecc71;
   color: #fff;
 }
-/* line 126, ../../dev/sass/specifics/_buttons.scss */
+/* line 127, ../../dev/sass/specifics/_buttons.scss */
 .btn.btn-save:active {
   background-color: #fff;
   color: #738189;
 }
-/* line 132, ../../dev/sass/specifics/_buttons.scss */
+/* line 133, ../../dev/sass/specifics/_buttons.scss */
 .btn.btn-delete:hover {
   background-color: #b70e12;
   color: #fff;
 }
-/* line 136, ../../dev/sass/specifics/_buttons.scss */
+/* line 137, ../../dev/sass/specifics/_buttons.scss */
 .btn.btn-delete:active {
   background-color: #fff;
   color: #738189;
 }
-/* line 142, ../../dev/sass/specifics/_buttons.scss */
+/* line 143, ../../dev/sass/specifics/_buttons.scss */
 .btn.btn-decline:hover {
   background-color: #b70e12;
   color: #fff;
 }
-/* line 146, ../../dev/sass/specifics/_buttons.scss */
+/* line 147, ../../dev/sass/specifics/_buttons.scss */
 .btn.btn-decline:active {
   background-color: #fff;
   color: #738189;
 }
-/* line 151, ../../dev/sass/specifics/_buttons.scss */
+/* line 152, ../../dev/sass/specifics/_buttons.scss */
 .btn.btn-upload {
   background-color: #f8faf9;
   color: #323a45;
 }
-/* line 154, ../../dev/sass/specifics/_buttons.scss */
+/* line 155, ../../dev/sass/specifics/_buttons.scss */
 .btn.btn-upload:hover, .btn.btn-upload:active {
   background-color: #f8faf9;
   color: rgba(50, 58, 69, 0.5);
 }
-/* line 159, ../../dev/sass/specifics/_buttons.scss */
+/* line 160, ../../dev/sass/specifics/_buttons.scss */
 .btn.btn-link {
   text-transform: none;
   display: inline;
@@ -4513,38 +4515,38 @@ textarea {
   border-bottom: 1px solid transparent;
   color: #747476;
 }
-/* line 169, ../../dev/sass/specifics/_buttons.scss */
+/* line 170, ../../dev/sass/specifics/_buttons.scss */
 .btn.btn-link:hover {
   border-bottom: 1px solid #9d9d9e;
   background: none;
   color: #747476;
 }
-/* line 174, ../../dev/sass/specifics/_buttons.scss */
+/* line 175, ../../dev/sass/specifics/_buttons.scss */
 .btn.btn-link:active {
   border-bottom: 1px solid transparent;
 }
-/* line 178, ../../dev/sass/specifics/_buttons.scss */
+/* line 179, ../../dev/sass/specifics/_buttons.scss */
 .btn.btn_small {
   font-size: 1em;
   height: 2.8em;
   line-height: 2.8em;
   width: 19.9187%;
 }
-/* line 184, ../../dev/sass/specifics/_buttons.scss */
+/* line 185, ../../dev/sass/specifics/_buttons.scss */
 .btn.btn_long {
   height: 3em;
   line-height: 3em;
   width: 24.66125%;
 }
-/* line 189, ../../dev/sass/specifics/_buttons.scss */
+/* line 190, ../../dev/sass/specifics/_buttons.scss */
 .btn.btn_gray {
   background-color: #7e8890;
 }
-/* line 192, ../../dev/sass/specifics/_buttons.scss */
+/* line 193, ../../dev/sass/specifics/_buttons.scss */
 .btn.btn_red {
   background-color: #b70e12;
 }
-/* line 195, ../../dev/sass/specifics/_buttons.scss */
+/* line 196, ../../dev/sass/specifics/_buttons.scss */
 .btn.btn_green {
   background-color: #2ecc71;
 }
@@ -6227,48 +6229,37 @@ textarea {
 
 /* line 1, ../../dev/sass/specifics/_checkbox.scss */
 input[type="checkbox"] {
-  display: none;
+  display: inline-block;
+  position: absolute;
+  left: -9999px;
 }
 
-/* line 4, ../../dev/sass/specifics/_checkbox.scss */
+/* line 6, ../../dev/sass/specifics/_checkbox.scss */
 input[type="checkbox"] + label {
   cursor: pointer;
 }
 
-/* line 7, ../../dev/sass/specifics/_checkbox.scss */
-input[type="checkbox"] + label::before,
-input[type="radio"] + label::before {
-  content: "";
+/* line 118, ../../dev/sass/specifics/_checkbox.scss */
+label.checkbox .label_ico {
   display: inline-block;
   height: 18px;
   width: 18px;
   margin: 0 5px 0 0;
   background: none;
   border: 1px solid #c2c2c2;
+  background: url(/i/sprite.png) 0px -240px;
 }
-
-/* line 24, ../../dev/sass/specifics/_checkbox.scss */
-input[type="checkbox"].distinction + label {
+/* line 127, ../../dev/sass/specifics/_checkbox.scss */
+label.checkbox.chacked .label_ico {
+  background: url(/i/sprite.png) -40px -240px;
+}
+/* line 130, ../../dev/sass/specifics/_checkbox.scss */
+label.checkbox.distinction {
   color: #b70e12;
 }
-/* line 26, ../../dev/sass/specifics/_checkbox.scss */
-input[type="checkbox"].distinction + label::before {
+/* line 132, ../../dev/sass/specifics/_checkbox.scss */
+label.checkbox.distinction .label_ico {
   border-color: #b70e12;
-}
-
-/* line 32, ../../dev/sass/specifics/_checkbox.scss */
-input[type="checkbox"]:checked + label::before {
-  background: url(/i/sprite.png) -40px -240px;
-}
-
-/* line 35, ../../dev/sass/specifics/_checkbox.scss */
-input[type="checkbox"]:disabled + label::before {
-  background: url(/i/sprite.png) 0px -160px;
-}
-
-/* line 38, ../../dev/sass/specifics/_checkbox.scss */
-input[type="checkbox"]:checked:disabled + label::before {
-  background: url(/i/sprite.png) -40px -240px;
 }
 
 /* line 3, ../../dev/sass/specifics/_table.scss */

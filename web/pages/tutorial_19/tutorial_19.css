@@ -209,8 +209,7 @@
 .activies_page_wrap .attachments_blocks .block .checkbox {
   display: inline-block;
   position: relative;
-  padding-left: 1.5em;
-  margin-top: 0.8em;
+  margin-top: 0.66667em;
   color: #45484C;
 }
 /* line 132, ../../../dev/pages/tutorial_19/tutorial_19.scss */
@@ -233,6 +232,17 @@
   margin-top: 4em;
 }
 /* line 150, ../../../dev/pages/tutorial_19/tutorial_19.scss */
+.activies_page_wrap .attachments_blocks .block_options_draft button.btn.btn-default {
+  width: 27.10027%;
+  overflow: hidden;
+}
+/* line 154, ../../../dev/pages/tutorial_19/tutorial_19.scss */
 .activies_page_wrap .attachments_blocks .block_options_draft button.btn.btn-default.center {
-  margin-left: 19.6477%;
+  margin-left: 9.48509%;
+}
+@media (max-width: 840px) {
+  /* line 158, ../../../dev/pages/tutorial_19/tutorial_19.scss */
+  .activies_page_wrap .attachments_blocks .block_options_draft button.btn.btn-default {
+    font-size: 12px;
+  }
 }

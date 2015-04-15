@@ -204,9 +204,17 @@
             padding: em(50px, $base-font-size) 0;
             border-top: 1px solid #cecfd0;
             border-bottom: 1px solid #cecfd0;
+            button.btn.btn-default {
+                width: flex(200px, $base-width-content);
+                overflow: hidden;
+            }
             button.btn.btn-default.center {
-                // margin-left: 18.5%;
-                margin-left: flex(145px, $base-width-content);
+                margin-left: flex(70px, $base-width-content);
+            }
+            @media (max-width: 840px) {
+                button.btn.btn-default {
+                    font-size: 12px;
+                }
             }
         }
         .block_request_comment {

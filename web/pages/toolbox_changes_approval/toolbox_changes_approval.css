@@ -116,12 +116,16 @@
   padding: 0.8em 1.35501%;
   margin: 4em 0 2em;
 }
-/* line 44, ../../../dev/pages/toolbox_changes_approval/toolbox_changes_approval.scss */
+/* line 43, ../../../dev/pages/toolbox_changes_approval/toolbox_changes_approval.scss */
+.block_change .btn.btn-default {
+  width: 23.03523%;
+}
+/* line 45, ../../../dev/pages/toolbox_changes_approval/toolbox_changes_approval.scss */
 .block_change .btn.btn-default.second {
   margin-left: 5.42005%;
 }
 
-/* line 49, ../../../dev/pages/toolbox_changes_approval/toolbox_changes_approval.scss */
+/* line 50, ../../../dev/pages/toolbox_changes_approval/toolbox_changes_approval.scss */
 .left, .right {
   width: 50%;
   height: 100%;
@@ -129,21 +133,21 @@
   z-index: 2;
   position: relative;
 }
-/* line 55, ../../../dev/pages/toolbox_changes_approval/toolbox_changes_approval.scss */
+/* line 56, ../../../dev/pages/toolbox_changes_approval/toolbox_changes_approval.scss */
 .left .main_title.main_title_actives, .right .main_title.main_title_actives {
   width: 100%;
   text-align: left;
   margin-top: 0;
 }
-/* line 60, ../../../dev/pages/toolbox_changes_approval/toolbox_changes_approval.scss */
+/* line 61, ../../../dev/pages/toolbox_changes_approval/toolbox_changes_approval.scss */
 .left .brand_news_title, .right .brand_news_title {
   margin: 2em 0;
 }
-/* line 62, ../../../dev/pages/toolbox_changes_approval/toolbox_changes_approval.scss */
+/* line 63, ../../../dev/pages/toolbox_changes_approval/toolbox_changes_approval.scss */
 .left .brand_news_title.second, .right .brand_news_title.second {
   margin: 1.66667em 0;
 }
-/* line 66, ../../../dev/pages/toolbox_changes_approval/toolbox_changes_approval.scss */
+/* line 67, ../../../dev/pages/toolbox_changes_approval/toolbox_changes_approval.scss */
 .left .toolbox, .right .toolbox {
   border: 1px solid #cecfd0;
   -moz-border-radius: 6px;
@@ -154,7 +158,7 @@
   padding: 0.86667em 4.06504%;
   background: #fff;
 }
-/* line 73, ../../../dev/pages/toolbox_changes_approval/toolbox_changes_approval.scss */
+/* line 74, ../../../dev/pages/toolbox_changes_approval/toolbox_changes_approval.scss */
 .left .toolbox div, .right .toolbox div {
   background: #dcdcdc;
   text-align: center;
@@ -163,20 +167,20 @@
   height: 100%;
   padding: 8em 0;
 }
-/* line 80, ../../../dev/pages/toolbox_changes_approval/toolbox_changes_approval.scss */
+/* line 81, ../../../dev/pages/toolbox_changes_approval/toolbox_changes_approval.scss */
 .left .toolbox div img, .right .toolbox div img {
   margin: auto;
 }
-/* line 85, ../../../dev/pages/toolbox_changes_approval/toolbox_changes_approval.scss */
+/* line 86, ../../../dev/pages/toolbox_changes_approval/toolbox_changes_approval.scss */
 .left .text, .right .text {
   color: #45484C;
   line-height: 1.53333em;
 }
-/* line 88, ../../../dev/pages/toolbox_changes_approval/toolbox_changes_approval.scss */
+/* line 89, ../../../dev/pages/toolbox_changes_approval/toolbox_changes_approval.scss */
 .left .text.for_approval, .right .text.for_approval {
   color: #b70e12;
 }
-/* line 92, ../../../dev/pages/toolbox_changes_approval/toolbox_changes_approval.scss */
+/* line 93, ../../../dev/pages/toolbox_changes_approval/toolbox_changes_approval.scss */
 .left .btn.btn-default, .right .btn.btn-default {
   width: 54.20054%;
   margin: 3em 0;
