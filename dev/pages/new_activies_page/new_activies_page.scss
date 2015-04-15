@@ -265,7 +265,7 @@
                 color: $gray-color;
                 height: 75px;
                 border-bottom: 1px solid #cecfd0;
-                border-radius: 0px;
+                @include border-radius(0px);
                 padding-top: 22px;
             }
             a.ui-corner-all{
@@ -291,7 +291,7 @@
             .ui-datepicker-inline {
                 width: 90%;
                 margin-left: 5%;
-                border-radius: 0px;
+                @include border-radius(0px);
                 border: 0px;
             }
         }
@@ -318,7 +318,7 @@
                         height: 10px;
                         margin: 0px 10px 0px 0px;
                         display: inline-block;
-                        border-radius: 100%;
+                        @include border-radius(100%);
                     }
                     &.starting {
                         margin: 20px 0px 0px 145px;

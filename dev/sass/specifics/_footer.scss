@@ -5,6 +5,30 @@
 	width: 100%;
 	background-color: #ededed;
 	padding-bottom: em(3px);
+	&.footer_big {
+		padding: em(43px) 0 em(46px);
+		.footer_logo {
+			width: flex(182px, $base-width-content-one);
+			margin-left: flex(29px, $base-width);
+			img {
+				padding: em(5px, $base-font-size) em(16px) em(5px, $base-font-size) 0;
+			}
+		}
+		.footer_navigate_wrap {
+			width: flex(560px, $base-width-content-one);
+			margin-top: em(8px);
+			.footer_navigate {
+				margin-left: em(3px);
+				a {
+					font-size: em(13px);
+				}
+			}
+			.footer_copyright {
+				font-size: em(13px);
+				margin: em(9px) 0 0 em(3px);
+			}
+		}
+	}
 }
 
 .footer_logo {
@@ -12,7 +36,7 @@
 	margin-left: flex(103px, $base-width);
 	img {
 		vertical-align: middle;
-		padding: em(5px, $base-font-size) 24px em(5px, $base-font-size) 0;
+		padding: em(5px, $base-font-size) em(24px) em(5px, $base-font-size) 0;
 		box-sizing: content-box;
 		border-right: 1px solid #707070;
 	}

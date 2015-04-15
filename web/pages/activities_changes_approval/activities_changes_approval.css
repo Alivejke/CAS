@@ -321,6 +321,6 @@
 /* line 240, ../../../dev/pages/activities_changes_approval/activities_changes_approval.scss */
 .activities_textarea {
   margin: 2.46154em 0;
-  border-color: #dedfdf;
+  border: 1px solid #dedfdf;
   font-size: 0.86667em;
 }

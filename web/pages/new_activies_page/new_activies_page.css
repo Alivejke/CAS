@@ -368,6 +368,8 @@
   color: #45484C;
   height: 75px;
   border-bottom: 1px solid #cecfd0;
+  -moz-border-radius: 0px;
+  -webkit-border-radius: 0px;
   border-radius: 0px;
   padding-top: 22px;
 }
@@ -399,6 +401,8 @@
 .activies_page_wrap .calendar_block #datepicker .ui-datepicker-inline {
   width: 90%;
   margin-left: 5%;
+  -moz-border-radius: 0px;
+  -webkit-border-radius: 0px;
   border-radius: 0px;
   border: 0px;
 }
@@ -432,6 +436,8 @@
   height: 10px;
   margin: 0px 10px 0px 0px;
   display: inline-block;
+  -moz-border-radius: 100%;
+  -webkit-border-radius: 100%;
   border-radius: 100%;
 }
 /* line 323, ../../../dev/pages/new_activies_page/new_activies_page.scss */
