@@ -3278,7 +3278,6 @@ textarea {
 /* line 59, ../../dev/sass/specifics/_header.scss */
 .navigation_dropdown.active .navigation_dropdown_block {
   display: block;
-  padding: 0 0 2.33333em 0;
 }
 /* line 66, ../../dev/sass/specifics/_header.scss */
 .navigation_dropdown.active .navigation_dropdown_text.navigation_ico-big:before {
@@ -3342,7 +3341,6 @@ textarea {
   top: 4.33333em;
   right: 0;
   width: 26.09em;
-  padding: 0 0 2.33333em 0;
   border: 1px solid #eeefee;
   border-top: none;
   cursor: default;
@@ -3381,7 +3379,7 @@ textarea {
 
 /* line 167, ../../dev/sass/specifics/_header.scss */
 .navigation_dropdown_list_news {
-  padding: 1.33333em 2em 0;
+  padding: 1.33333em 2em 2.33333em;
   border-top: 1px solid #eeefee;
 }
 /* line 170, ../../dev/sass/specifics/_header.scss */

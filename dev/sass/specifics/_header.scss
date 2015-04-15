@@ -59,7 +59,7 @@ $navigation_dropdown_list_news-font-size: 11px;
 		.navigation_dropdown_block {
 			display: block;
 			// height: em(396px);
-			padding: 0 0 em(35px) 0;
+			// padding: 0 0 em(35px) 0;
 		}
 		.navigation_dropdown_text {
 			&.navigation_ico-big {
@@ -129,7 +129,7 @@ $navigation_dropdown_list_news-font-size: 11px;
 	right: 0;
 	// width: flex($dropdown-width, $dropdown_btn-width);
 	width: 26.09em;
-	padding: 0 0 em(35px) 0;
+	// padding: 0 0 em(35px) 0;
 
 	border: 1px solid #eeefee;
 	border-top: none;
@@ -165,7 +165,7 @@ $navigation_dropdown_list_news-font-size: 11px;
 }
 
 .navigation_dropdown_list_news {
-	padding: em(20px) em(30px) 0;
+	padding: em(20px) em(30px) em(35px);
 	border-top: 1px solid #eeefee;
 	> li {
 		// overflow: hidden;
