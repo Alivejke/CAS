@@ -111,54 +111,58 @@
   font-size: 0.86667em;
   margin-top: 0.13333em;
 }
+/* line 63, ../../../dev/pages/acces_management/acces_management.scss */
+.select_wrap.select_long .select2-container.select2-container--default .select2-selection--single .select2-selection__rendered {
+  text-align: center;
+}
 
-/* line 61, ../../../dev/pages/acces_management/acces_management.scss */
+/* line 75, ../../../dev/pages/acces_management/acces_management.scss */
 .btn_wrap {
   margin-top: 2.26667em;
 }
-/* line 63, ../../../dev/pages/acces_management/acces_management.scss */
+/* line 77, ../../../dev/pages/acces_management/acces_management.scss */
 .btn_wrap .btn {
   margin-left: 3.64583%;
 }
-/* line 65, ../../../dev/pages/acces_management/acces_management.scss */
+/* line 79, ../../../dev/pages/acces_management/acces_management.scss */
 .btn_wrap .btn:first-child {
   margin-left: 0;
 }
 
-/* line 72, ../../../dev/pages/acces_management/acces_management.scss */
+/* line 86, ../../../dev/pages/acces_management/acces_management.scss */
 .popup_acces_managment_list > li {
   margin-top: 2em;
 }
-/* line 74, ../../../dev/pages/acces_management/acces_management.scss */
+/* line 88, ../../../dev/pages/acces_management/acces_management.scss */
 .popup_acces_managment_list > li:first-child {
   margin-top: 0;
 }
 
-/* line 80, ../../../dev/pages/acces_management/acces_management.scss */
+/* line 94, ../../../dev/pages/acces_management/acces_management.scss */
 .popup_acces_managment_table {
   color: #909294;
   width: 500px;
 }
-/* line 83, ../../../dev/pages/acces_management/acces_management.scss */
+/* line 97, ../../../dev/pages/acces_management/acces_management.scss */
 .popup_acces_managment_table td {
   color: #45484C;
   width: 32%;
   padding: 0.6em 0;
 }
-/* line 87, ../../../dev/pages/acces_management/acces_management.scss */
+/* line 101, ../../../dev/pages/acces_management/acces_management.scss */
 .popup_acces_managment_table td input[type="checkbox"] + label::before {
   vertical-align: -3px;
 }
-/* line 90, ../../../dev/pages/acces_management/acces_management.scss */
+/* line 104, ../../../dev/pages/acces_management/acces_management.scss */
 .popup_acces_managment_table td + td {
   color: #909294;
   width: 20%;
 }
-/* line 93, ../../../dev/pages/acces_management/acces_management.scss */
+/* line 107, ../../../dev/pages/acces_management/acces_management.scss */
 .popup_acces_managment_table td + td + td {
   width: 19%;
 }
-/* line 95, ../../../dev/pages/acces_management/acces_management.scss */
+/* line 109, ../../../dev/pages/acces_management/acces_management.scss */
 .popup_acces_managment_table td + td + td + td {
   width: 28%;
 }

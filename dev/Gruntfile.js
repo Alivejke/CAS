@@ -74,6 +74,12 @@ module.exports = function(grunt) {
                 src: '*',
                 dest: '../web/js/vendor'
             },
+            json: {
+                expand: true,
+                cwd: 'json/',
+                src: '*',
+                dest: '../web/'
+            },
             jspages: {
                 expand: true,
                 cwd: '',
@@ -85,6 +91,14 @@ module.exports = function(grunt) {
         watch: {
             options: {
                 livereload: true
+            },
+
+            json: {
+                files: ['json/*.json'],
+                tasks: ['copy:json'],
+                options: {
+                    interrupt: true
+                }
             },
 
             scripts: {

@@ -227,6 +227,14 @@
             }
             .select_wrap  {
                 width: flex(355px, $base-width-content);
+                .select2-container {
+                    .select2-selection--single {
+                        .select2-selection__rendered {
+                            padding-left: em(20px, $base-font-size);
+                            padding-right: em(20px, $base-font-size);
+                        }
+                    }
+                }
             }
         }
     }
@@ -350,4 +358,9 @@
             }
         }
     }
+}
+
+.select2-results__option {
+    padding-left: em(20px, $base-font-size);
+    padding-right: em(20px, $base-font-size);
 }

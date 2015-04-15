@@ -56,7 +56,21 @@
 			}
 		}
 	}
+	&.select_long {
+		.select2-container {
+			&.select2-container--default {
+				.select2-selection--single {
+					.select2-selection__rendered {
+						text-align: center;
+						// font-weight: 600;
+					}
+				}
+			}
+		}
+	}
 }
+
+
 
 .btn_wrap {
 	margin-top: em(34px);
