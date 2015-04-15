@@ -1,11 +1,13 @@
 $(document).ready(function() {
-	$( "#datepicker" ).datepicker({
-		inline: true,
-		firstDay: 1
-	});
-	var firstDay = $( ".selector" ).datepicker( "option", "firstDay" );
-	// Setter
-	$( ".selector" ).datepicker( "option", "firstDay", 1 );
+	if($("#datepicker").length) {
+		$( "#datepicker" ).datepicker({
+			inline: true,
+			firstDay: 1
+		});
+		var firstDay = $( ".selector" ).datepicker( "option", "firstDay" );
+		// Setter
+		$( ".selector" ).datepicker( "option", "firstDay", 1 );
+	}
 	
 
 	$('.btn_big_rounded').click(function() {
@@ -45,6 +47,8 @@ $(document).ready(function() {
     	$navigationDropdown = $('.navigation_dropdown', $self),
     	$navigationDropdownBlock = $('.navigation_dropdown_block', $self),
     	speed = 300;
+
+    $('input:radio, input:checkbox').checkedPolyfill();
 
     $navigationDropdown.on('click', function(){
     	var $this = $(this);

@@ -1,9 +1,10 @@
 .footer {
 	position: relative;
-	height: em(57px, $base-font-size);
+	min-height: em(57px, $base-font-size);
 	line-height: em(56px, $base-font-size);
 	width: 100%;
 	background-color: #ededed;
+	padding-bottom: em(3px);
 }
 
 .footer_logo {

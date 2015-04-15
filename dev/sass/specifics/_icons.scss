@@ -93,15 +93,23 @@
 }
 
 .ico_status_big {
-	width: em(30px, $base-font-size);
-	height: em(30px, $base-font-size);
+	width: em(25px, $base-font-size);
+	height: em(25px, $base-font-size);
 	background-color: #22c866;
-	border: 4px solid #fff;
-	@include border-radius(25px);
+	// border: 4px solid $white-color;
+	@include border-radius(100%);
 	&.error {
 		background-color: #b70e12;
 	}
 }
+
+.ico_status_big_wrap {
+	width: em(30px);
+	height: em(30px);
+	@include border-radius(100%);
+	background-color: $white-color;
+}
+
 .ico_calendar {
 	background-position: -840px 0px;
 	width: 12px;

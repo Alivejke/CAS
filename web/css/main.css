@@ -3325,14 +3325,14 @@ textarea {
   right: -23px;
 }
 
-/* line 117, ../../dev/sass/specifics/_header.scss */
+/* line 116, ../../dev/sass/specifics/_header.scss */
 .nav img {
   display: inline-block;
   vertical-align: middle;
   margin: 2px 0 0 0;
 }
 
-/* line 124, ../../dev/sass/specifics/_header.scss */
+/* line 122, ../../dev/sass/specifics/_header.scss */
 .navigation_dropdown_block {
   opacity: 0;
   overflow: hidden;
@@ -3349,52 +3349,52 @@ textarea {
   z-index: 10;
 }
 
-/* line 142, ../../dev/sass/specifics/_header.scss */
+/* line 140, ../../dev/sass/specifics/_header.scss */
 .navigation_dropdown_list {
   position: relative;
   left: -7.67263%;
   overflow: hidden;
   padding: 0 2.33333em;
 }
-/* line 147, ../../dev/sass/specifics/_header.scss */
+/* line 145, ../../dev/sass/specifics/_header.scss */
 .navigation_dropdown_list > li {
   float: left;
   margin-left: 7.67263%;
 }
-/* line 150, ../../dev/sass/specifics/_header.scss */
+/* line 148, ../../dev/sass/specifics/_header.scss */
 .navigation_dropdown_list > li a {
   font-size: 0.8em;
   color: #cdd1d3;
   text-decoration: none;
   text-transform: uppercase;
 }
-/* line 157, ../../dev/sass/specifics/_header.scss */
+/* line 155, ../../dev/sass/specifics/_header.scss */
 .navigation_dropdown_list > li.active a {
   color: #45484C;
 }
 
-/* line 164, ../../dev/sass/specifics/_header.scss */
+/* line 162, ../../dev/sass/specifics/_header.scss */
 .navigation_dropdown_img_wrap {
   display: inline-block;
   vertical-align: middle;
 }
 
-/* line 169, ../../dev/sass/specifics/_header.scss */
+/* line 167, ../../dev/sass/specifics/_header.scss */
 .navigation_dropdown_list_news {
   padding: 1.33333em 2em 0;
   border-top: 1px solid #eeefee;
 }
-/* line 172, ../../dev/sass/specifics/_header.scss */
+/* line 170, ../../dev/sass/specifics/_header.scss */
 .navigation_dropdown_list_news > li {
   line-height: 1;
   margin-top: 2em;
 }
-/* line 176, ../../dev/sass/specifics/_header.scss */
+/* line 174, ../../dev/sass/specifics/_header.scss */
 .navigation_dropdown_list_news > li a {
   display: block;
   text-decoration: none;
 }
-/* line 180, ../../dev/sass/specifics/_header.scss */
+/* line 178, ../../dev/sass/specifics/_header.scss */
 .navigation_dropdown_list_news > li .navigation_dropdown_text_wrap {
   display: inline-block;
   width: 80.06042%;
@@ -3404,37 +3404,37 @@ textarea {
   font-size: 0.73333em;
   vertical-align: middle;
 }
-/* line 189, ../../dev/sass/specifics/_header.scss */
+/* line 187, ../../dev/sass/specifics/_header.scss */
 .navigation_dropdown_list_news > li .img_circle {
   height: 3.06667em;
   width: 13.89728%;
 }
-/* line 193, ../../dev/sass/specifics/_header.scss */
+/* line 191, ../../dev/sass/specifics/_header.scss */
 .navigation_dropdown_list_news > li:first-child {
   margin-top: 0;
 }
 
-/* line 199, ../../dev/sass/specifics/_header.scss */
+/* line 197, ../../dev/sass/specifics/_header.scss */
 .navigation_dropdown_list_news_title {
   font-size: 1.09091em;
   font-weight: 600;
 }
-/* line 202, ../../dev/sass/specifics/_header.scss */
+/* line 200, ../../dev/sass/specifics/_header.scss */
 .navigation_dropdown_list_news_title.navigation_dropdown_approved {
   color: #22c866;
 }
-/* line 205, ../../dev/sass/specifics/_header.scss */
+/* line 203, ../../dev/sass/specifics/_header.scss */
 .navigation_dropdown_list_news_title.navigation_dropdown_declined {
   color: #d76969;
 }
-/* line 208, ../../dev/sass/specifics/_header.scss */
+/* line 206, ../../dev/sass/specifics/_header.scss */
 .navigation_dropdown_list_news_title .navigation_dropdown_list_news_date {
   font-size: 0.75em;
   color: #45484C;
   font-weight: normal;
 }
 
-/* line 215, ../../dev/sass/specifics/_header.scss */
+/* line 213, ../../dev/sass/specifics/_header.scss */
 .navigation_dropdown_list_news_text {
   line-height: 1.18182em;
   margin-top: 0.45455em;
@@ -3443,18 +3443,19 @@ textarea {
 /* line 1, ../../dev/sass/specifics/_footer.scss */
 .footer {
   position: relative;
-  height: 3.8em;
+  min-height: 3.8em;
   line-height: 3.73333em;
   width: 100%;
   background-color: #ededed;
+  padding-bottom: 0.2em;
 }
 
-/* line 9, ../../dev/sass/specifics/_footer.scss */
+/* line 10, ../../dev/sass/specifics/_footer.scss */
 .footer_logo {
   width: 14.7232%;
   margin-left: 10.72917%;
 }
-/* line 12, ../../dev/sass/specifics/_footer.scss */
+/* line 13, ../../dev/sass/specifics/_footer.scss */
 .footer_logo img {
   vertical-align: middle;
   padding: 0.33333em 24px 0.33333em 0;
@@ -3462,35 +3463,40 @@ textarea {
   border-right: 1px solid #707070;
 }
 @media (max-width: 768px) {
-  /* line 9, ../../dev/sass/specifics/_footer.scss */
+  /* line 10, ../../dev/sass/specifics/_footer.scss */
   .footer_logo {
     margin-left: 0;
     width: 16.7232%;
   }
 }
 @media (max-width: 640px) {
-  /* line 9, ../../dev/sass/specifics/_footer.scss */
+  /* line 10, ../../dev/sass/specifics/_footer.scss */
   .footer_logo {
     margin-left: 0;
     width: 20.7232%;
   }
 }
 
-/* line 31, ../../dev/sass/specifics/_footer.scss */
+/* line 32, ../../dev/sass/specifics/_footer.scss */
 .footer_navigate_wrap {
   width: 74.20495%;
   line-height: 1em;
   margin-top: 1em;
 }
+<<<<<<< HEAD
 @media (max-width: 980px) {
   /* line 31, ../../dev/sass/specifics/_footer.scss */
+=======
+@media (max-width: 960px) {
+  /* line 32, ../../dev/sass/specifics/_footer.scss */
+>>>>>>> 19631edb7e3b45ae360101405fb6bef144f3714f
   .footer_navigate_wrap {
     font-size: 10px;
     margin-top: 2em;
   }
 }
 
-/* line 41, ../../dev/sass/specifics/_footer.scss */
+/* line 42, ../../dev/sass/specifics/_footer.scss */
 .footer_navigate {
   margin-left: 1.26667em;
   white-space: nowrap;
@@ -3831,13 +3837,20 @@ textarea {
   z-index: 20;
 }
 /* line 170, ../../dev/sass/specifics/_main_menu.scss */
-.main_menu.main_menu_big > li .main_menu_item .ico_status_big {
+.main_menu.main_menu_big > li .main_menu_item .ico_status_big_wrap {
   position: absolute;
   top: -1em;
   left: -4.77707%;
   z-index: 10;
 }
-/* line 179, ../../dev/sass/specifics/_main_menu.scss */
+/* line 176, ../../dev/sass/specifics/_main_menu.scss */
+.main_menu.main_menu_big > li .main_menu_item .ico_status_big_wrap .ico_status_big {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: -0.86667em 0 0 -0.86667em;
+}
+/* line 185, ../../dev/sass/specifics/_main_menu.scss */
 .main_menu.main_menu_big > li:hover .main_menu_item {
   margin-top: -2.06667em;
   width: 116.6%;
@@ -3845,50 +3858,56 @@ textarea {
   line-height: 1;
   z-index: 15;
 }
-/* line 186, ../../dev/sass/specifics/_main_menu.scss */
+/* line 192, ../../dev/sass/specifics/_main_menu.scss */
 .main_menu.main_menu_big > li:hover .main_menu_item img {
   display: block;
 }
-/* line 189, ../../dev/sass/specifics/_main_menu.scss */
+/* line 195, ../../dev/sass/specifics/_main_menu.scss */
 .main_menu.main_menu_big > li:hover .main_menu_item .main_menu_item-bg {
   display: block;
 }
-/* line 192, ../../dev/sass/specifics/_main_menu.scss */
-.main_menu.main_menu_big > li:hover .main_menu_item .ico_status_big {
+/* line 198, ../../dev/sass/specifics/_main_menu.scss */
+.main_menu.main_menu_big > li:hover .main_menu_item .ico_status_big_wrap {
   width: 2.46667em;
   height: 2.46667em;
   border-width: 7px;
   top: -1.26667em;
   left: -5.17711%;
 }
-/* line 200, ../../dev/sass/specifics/_main_menu.scss */
+/* line 205, ../../dev/sass/specifics/_main_menu.scss */
+.main_menu.main_menu_big > li:hover .main_menu_item .ico_status_big_wrap .ico_status_big {
+  width: 2em;
+  height: 2em;
+  margin: -0.93333em 0 0 -0.93333em;
+}
+/* line 211, ../../dev/sass/specifics/_main_menu.scss */
 .main_menu.main_menu_big > li:hover .main_menu_item .main_menu_text_wrap {
   padding: 1.33333em 17.71117% 1.33333em 9.80926%;
 }
-/* line 202, ../../dev/sass/specifics/_main_menu.scss */
+/* line 213, ../../dev/sass/specifics/_main_menu.scss */
 .main_menu.main_menu_big > li:hover .main_menu_item .main_menu_text_wrap .main_menu_status_product {
   margin-top: 2.53333em;
 }
-/* line 206, ../../dev/sass/specifics/_main_menu.scss */
+/* line 217, ../../dev/sass/specifics/_main_menu.scss */
 .main_menu.main_menu_big > li:hover .main_menu_item .main_menu_view {
   display: block;
 }
-/* line 211, ../../dev/sass/specifics/_main_menu.scss */
+/* line 222, ../../dev/sass/specifics/_main_menu.scss */
 .main_menu.main_menu_big > li:nth-child(2n+1) {
   margin-right: -1px;
 }
 
-/* line 217, ../../dev/sass/specifics/_main_menu.scss */
+/* line 228, ../../dev/sass/specifics/_main_menu.scss */
 .main_menu_status_product {
   overflow: hidden;
   margin-top: 3.53333em;
 }
-/* line 220, ../../dev/sass/specifics/_main_menu.scss */
+/* line 231, ../../dev/sass/specifics/_main_menu.scss */
 .main_menu_status_product li {
   float: left;
   margin-left: 4.16667%;
 }
-/* line 223, ../../dev/sass/specifics/_main_menu.scss */
+/* line 234, ../../dev/sass/specifics/_main_menu.scss */
 .main_menu_status_product li:first-child {
   margin-left: 0;
 }
@@ -4233,73 +4252,82 @@ textarea {
 
 /* line 95, ../../dev/sass/specifics/_icons.scss */
 .ico_status_big {
-  width: 2em;
-  height: 2em;
+  width: 1.66667em;
+  height: 1.66667em;
   background-color: #22c866;
-  border: 4px solid #fff;
-  -moz-border-radius: 25px;
-  -webkit-border-radius: 25px;
-  border-radius: 25px;
+  -moz-border-radius: 100%;
+  -webkit-border-radius: 100%;
+  border-radius: 100%;
 }
 /* line 101, ../../dev/sass/specifics/_icons.scss */
 .ico_status_big.error {
   background-color: #b70e12;
 }
 
-/* line 105, ../../dev/sass/specifics/_icons.scss */
+/* line 106, ../../dev/sass/specifics/_icons.scss */
+.ico_status_big_wrap {
+  width: 2em;
+  height: 2em;
+  -moz-border-radius: 100%;
+  -webkit-border-radius: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+}
+
+/* line 113, ../../dev/sass/specifics/_icons.scss */
 .ico_calendar {
   background-position: -840px 0px;
   width: 12px;
   height: 14px;
 }
-/* line 109, ../../dev/sass/specifics/_icons.scss */
+/* line 117, ../../dev/sass/specifics/_icons.scss */
 .ico_calendar.ico_calendar_big {
   background-position: -840px -40px;
 }
 
-/* line 113, ../../dev/sass/specifics/_icons.scss */
+/* line 121, ../../dev/sass/specifics/_icons.scss */
 .ico_status_basket {
   background-position: -1200px 0px;
   width: 30px;
   height: 30px;
 }
 
-/* line 118, ../../dev/sass/specifics/_icons.scss */
+/* line 126, ../../dev/sass/specifics/_icons.scss */
 .ico_fragile {
   background-position: -1240px 0px;
   width: 30px;
   height: 30px;
 }
 
-/* line 123, ../../dev/sass/specifics/_icons.scss */
+/* line 131, ../../dev/sass/specifics/_icons.scss */
 .ico_ecol {
   background-position: -1280px 0px;
   width: 30px;
   height: 30px;
 }
 
-/* line 128, ../../dev/sass/specifics/_icons.scss */
+/* line 136, ../../dev/sass/specifics/_icons.scss */
 .ico_tree {
   background-position: -880px 0px;
   width: 57px;
   height: 55px;
 }
 
-/* line 133, ../../dev/sass/specifics/_icons.scss */
+/* line 141, ../../dev/sass/specifics/_icons.scss */
 .ico_glass {
   background-position: -960px 0px;
   width: 57px;
   height: 55px;
 }
 
-/* line 138, ../../dev/sass/specifics/_icons.scss */
+/* line 146, ../../dev/sass/specifics/_icons.scss */
 .ico_cart {
   background-position: -1040px 0px;
   width: 57px;
   height: 55px;
 }
 
-/* line 143, ../../dev/sass/specifics/_icons.scss */
+/* line 151, ../../dev/sass/specifics/_icons.scss */
 .ico_search {
   background-position: 0px -120px;
   width: 21px;
@@ -6239,8 +6267,13 @@ input[type="checkbox"] + label {
   cursor: pointer;
 }
 
+<<<<<<< HEAD
 /* line 118, ../../dev/sass/specifics/_checkbox.scss */
 label.checkbox .label_ico {
+=======
+/* line 46, ../../dev/sass/specifics/_checkbox.scss */
+input[type="checkbox"] + label .label_ico {
+>>>>>>> 19631edb7e3b45ae360101405fb6bef144f3714f
   display: inline-block;
   height: 18px;
   width: 18px;
@@ -6249,6 +6282,7 @@ label.checkbox .label_ico {
   border: 1px solid #c2c2c2;
   background: url(/i/sprite.png) 0px -240px;
 }
+<<<<<<< HEAD
 /* line 127, ../../dev/sass/specifics/_checkbox.scss */
 label.checkbox.chacked .label_ico {
   background: url(/i/sprite.png) -40px -240px;
@@ -6260,6 +6294,46 @@ label.checkbox.distinction {
 /* line 132, ../../dev/sass/specifics/_checkbox.scss */
 label.checkbox.distinction .label_ico {
   border-color: #b70e12;
+=======
+/* line 56, ../../dev/sass/specifics/_checkbox.scss */
+input[type="checkbox"].distinction + label {
+  color: #b70e12;
+}
+/* line 58, ../../dev/sass/specifics/_checkbox.scss */
+input[type="checkbox"].distinction + label .label_ico {
+  border-color: #b70e12;
+}
+/* line 65, ../../dev/sass/specifics/_checkbox.scss */
+input[type="checkbox"]:checked + label .label_ico {
+  background: url(/i/sprite.png) -40px -240px;
+}
+/* line 72, ../../dev/sass/specifics/_checkbox.scss */
+input[type="checkbox"].checked + label .label_ico {
+  background: url(/i/sprite.png) -40px -240px;
+}
+/* line 79, ../../dev/sass/specifics/_checkbox.scss */
+input[type="checkbox"]:disabled + label .label_ico {
+  background: url(/i/sprite.png) 0px -160px;
+}
+/* line 87, ../../dev/sass/specifics/_checkbox.scss */
+input[type="checkbox"]:checked:disabled + label .label_ico {
+  background: url(/i/sprite.png) -40px -240px;
+}
+/* line 96, ../../dev/sass/specifics/_checkbox.scss */
+input[type="checkbox"].checked:disabled + label .label_ico {
+  background: url(/i/sprite.png) -40px -240px;
+>>>>>>> 19631edb7e3b45ae360101405fb6bef144f3714f
+}
+
+/* line 106, ../../dev/sass/specifics/_checkbox.scss */
+input[type="checkbox"] + label::before {
+  vertical-align: -3px;
+  margin-right: 0.53333em;
+}
+/* line 110, ../../dev/sass/specifics/_checkbox.scss */
+input[type="checkbox"] + label .label_ico {
+  vertical-align: -3px;
+  margin-right: 0.53333em;
 }
 
 /* line 3, ../../dev/sass/specifics/_table.scss */
@@ -6275,163 +6349,166 @@ label.checkbox.distinction .label_ico {
 .approval_flow_wrap.email-notification .wrap_table.table-header > div:nth-child(odd) {
   background: none;
 }
-/* line 21, ../../dev/sass/specifics/_table.scss */
+/* line 18, ../../dev/sass/specifics/_table.scss */
+.approval_flow_wrap.email-notification .wrap_table.table-header > div.odd {
+  background: none;
+}
+/* line 24, ../../dev/sass/specifics/_table.scss */
 .approval_flow_wrap.email-notification .wrap_table.table-header .approval_table.table_log {
   width: 88.33922%;
   margin: 0;
   padding: 0;
 }
-/* line 25, ../../dev/sass/specifics/_table.scss */
+/* line 28, ../../dev/sass/specifics/_table.scss */
 .approval_flow_wrap.email-notification .wrap_table.table-header .approval_table.table_log td {
   font-size: 0.73333em;
   width: 12%;
   text-align: left;
 }
-/* line 30, ../../dev/sass/specifics/_table.scss */
+/* line 33, ../../dev/sass/specifics/_table.scss */
 .approval_flow_wrap.email-notification .wrap_table.table-header .approval_table.table_log td + td {
   width: 10%;
 }
-/* line 32, ../../dev/sass/specifics/_table.scss */
+/* line 35, ../../dev/sass/specifics/_table.scss */
 .approval_flow_wrap.email-notification .wrap_table.table-header .approval_table.table_log td + td + td {
   width: 51%;
 }
-/* line 43, ../../dev/sass/specifics/_table.scss */
+/* line 46, ../../dev/sass/specifics/_table.scss */
 .approval_flow_wrap.email-notification .approval_table.table_log {
   width: 88.33922%;
   margin: 0;
   padding: 0;
 }
-/* line 47, ../../dev/sass/specifics/_table.scss */
+/* line 50, ../../dev/sass/specifics/_table.scss */
 .approval_flow_wrap.email-notification .approval_table.table_log td {
   font-size: 0.73333em;
   width: 14%;
   text-align: left;
 }
-/* line 52, ../../dev/sass/specifics/_table.scss */
+/* line 55, ../../dev/sass/specifics/_table.scss */
 .approval_flow_wrap.email-notification .approval_table.table_log td + td {
   width: 12%;
 }
-/* line 54, ../../dev/sass/specifics/_table.scss */
+/* line 57, ../../dev/sass/specifics/_table.scss */
 .approval_flow_wrap.email-notification .approval_table.table_log td + td + td {
   width: 51%;
 }
-/* line 56, ../../dev/sass/specifics/_table.scss */
+/* line 59, ../../dev/sass/specifics/_table.scss */
 .approval_flow_wrap.email-notification .approval_table.table_log td + td + td + td {
   width: 9%;
 }
-/* line 65, ../../dev/sass/specifics/_table.scss */
+/* line 68, ../../dev/sass/specifics/_table.scss */
 .approval_flow_wrap .approval_table {
   width: 100%;
   max-width: 960px;
   margin: 0 auto;
 }
-/* line 69, ../../dev/sass/specifics/_table.scss */
+/* line 72, ../../dev/sass/specifics/_table.scss */
 .approval_flow_wrap .approval_table td {
   color: #77808b;
   width: 16%;
   padding: 0 0.33333em;
 }
-/* line 73, ../../dev/sass/specifics/_table.scss */
+/* line 76, ../../dev/sass/specifics/_table.scss */
 .approval_flow_wrap .approval_table td + td {
   width: 18%;
 }
-/* line 75, ../../dev/sass/specifics/_table.scss */
+/* line 78, ../../dev/sass/specifics/_table.scss */
 .approval_flow_wrap .approval_table td + td + td {
   width: 19%;
 }
-/* line 77, ../../dev/sass/specifics/_table.scss */
+/* line 80, ../../dev/sass/specifics/_table.scss */
 .approval_flow_wrap .approval_table td + td + td + td {
   width: 25%;
 }
-/* line 79, ../../dev/sass/specifics/_table.scss */
+/* line 82, ../../dev/sass/specifics/_table.scss */
 .approval_flow_wrap .approval_table td + td + td + td + td {
   width: 22%;
 }
-/* line 87, ../../dev/sass/specifics/_table.scss */
+/* line 90, ../../dev/sass/specifics/_table.scss */
 .approval_flow_wrap .approval_table .wrap_comments_table .user_name {
   color: #45484C;
 }
-/* line 90, ../../dev/sass/specifics/_table.scss */
+/* line 93, ../../dev/sass/specifics/_table.scss */
 .approval_flow_wrap .approval_table .wrap_comments_table .comment_table {
   margin-bottom: 0.66667em;
 }
-/* line 95, ../../dev/sass/specifics/_table.scss */
+/* line 98, ../../dev/sass/specifics/_table.scss */
 .approval_flow_wrap .approval_table.table_log {
   width: 88.33922%;
   margin: 0;
   padding: 0;
 }
-/* line 99, ../../dev/sass/specifics/_table.scss */
+/* line 102, ../../dev/sass/specifics/_table.scss */
 .approval_flow_wrap .approval_table.table_log td {
   font-size: 0.73333em;
   width: 15%;
   text-align: left;
 }
-/* line 104, ../../dev/sass/specifics/_table.scss */
+/* line 107, ../../dev/sass/specifics/_table.scss */
 .approval_flow_wrap .approval_table.table_log td + td {
   width: 19%;
 }
-/* line 106, ../../dev/sass/specifics/_table.scss */
+/* line 109, ../../dev/sass/specifics/_table.scss */
 .approval_flow_wrap .approval_table.table_log td + td + td {
   width: 13%;
 }
-/* line 108, ../../dev/sass/specifics/_table.scss */
+/* line 111, ../../dev/sass/specifics/_table.scss */
 .approval_flow_wrap .approval_table.table_log td + td + td + td {
   width: 20%;
 }
-/* line 110, ../../dev/sass/specifics/_table.scss */
+/* line 113, ../../dev/sass/specifics/_table.scss */
 .approval_flow_wrap .approval_table.table_log td + td + td + td + td {
   width: 18%;
 }
-/* line 112, ../../dev/sass/specifics/_table.scss */
+/* line 115, ../../dev/sass/specifics/_table.scss */
 .approval_flow_wrap .approval_table.table_log td + td + td + td + td + td {
   width: 14%;
 }
-/* line 122, ../../dev/sass/specifics/_table.scss */
+/* line 125, ../../dev/sass/specifics/_table.scss */
 .approval_flow_wrap .title_table {
   width: 100%;
-  background-color: #f8faf9;
-  padding: 1.66667em 0 0;
+  padding: 1.66667em 0 0.8em;
   margin-top: 1.66667em;
 }
-/* line 127, ../../dev/sass/specifics/_table.scss */
+/* line 130, ../../dev/sass/specifics/_table.scss */
 .approval_flow_wrap .title_table table {
   max-width: 960px;
   margin: 0 auto 0;
   width: 100%;
 }
-/* line 131, ../../dev/sass/specifics/_table.scss */
+/* line 134, ../../dev/sass/specifics/_table.scss */
 .approval_flow_wrap .title_table table.table_log {
   width: 88.33922%;
   margin: 0;
 }
-/* line 134, ../../dev/sass/specifics/_table.scss */
+/* line 137, ../../dev/sass/specifics/_table.scss */
 .approval_flow_wrap .title_table table.table_log th {
   font-size: 0.8em;
   width: 15%;
   text-align: left;
 }
-/* line 138, ../../dev/sass/specifics/_table.scss */
+/* line 141, ../../dev/sass/specifics/_table.scss */
 .approval_flow_wrap .title_table table.table_log th + th {
   width: 19%;
 }
-/* line 140, ../../dev/sass/specifics/_table.scss */
+/* line 143, ../../dev/sass/specifics/_table.scss */
 .approval_flow_wrap .title_table table.table_log th + th + th {
   width: 13%;
 }
-/* line 142, ../../dev/sass/specifics/_table.scss */
+/* line 145, ../../dev/sass/specifics/_table.scss */
 .approval_flow_wrap .title_table table.table_log th + th + th + th {
   width: 20%;
 }
-/* line 144, ../../dev/sass/specifics/_table.scss */
+/* line 147, ../../dev/sass/specifics/_table.scss */
 .approval_flow_wrap .title_table table.table_log th + th + th + th + th {
   width: 18%;
 }
-/* line 146, ../../dev/sass/specifics/_table.scss */
+/* line 149, ../../dev/sass/specifics/_table.scss */
 .approval_flow_wrap .title_table table.table_log th + th + th + th + th + th {
   width: 14%;
 }
-/* line 156, ../../dev/sass/specifics/_table.scss */
+/* line 159, ../../dev/sass/specifics/_table.scss */
 .approval_flow_wrap .title_table th {
   font-family: pragmatica,Helvetica,Arial,sans-serif;
   font-size: 15px;
@@ -6441,44 +6518,48 @@ label.checkbox.distinction .label_ico {
   width: 16%;
   padding: 0 0.33333em;
 }
-/* line 164, ../../dev/sass/specifics/_table.scss */
+/* line 167, ../../dev/sass/specifics/_table.scss */
 .approval_flow_wrap .title_table th + th {
   width: 18%;
 }
-/* line 166, ../../dev/sass/specifics/_table.scss */
+/* line 169, ../../dev/sass/specifics/_table.scss */
 .approval_flow_wrap .title_table th + th + th {
   width: 19%;
 }
-/* line 168, ../../dev/sass/specifics/_table.scss */
+/* line 171, ../../dev/sass/specifics/_table.scss */
 .approval_flow_wrap .title_table th + th + th + th {
   width: 25%;
 }
-/* line 170, ../../dev/sass/specifics/_table.scss */
+/* line 173, ../../dev/sass/specifics/_table.scss */
 .approval_flow_wrap .title_table th + th + th + th + th {
   width: 22%;
 }
 
-/* line 181, ../../dev/sass/specifics/_table.scss */
+/* line 184, ../../dev/sass/specifics/_table.scss */
 .wrap_table > div {
   padding: 1em 0;
 }
-/* line 183, ../../dev/sass/specifics/_table.scss */
+/* line 186, ../../dev/sass/specifics/_table.scss */
 .wrap_table > div:nth-child(odd) {
   background-color: #f8faf9;
 }
-/* line 186, ../../dev/sass/specifics/_table.scss */
+/* line 189, ../../dev/sass/specifics/_table.scss */
+.wrap_table > div.odd {
+  background-color: #f8faf9;
+}
+/* line 192, ../../dev/sass/specifics/_table.scss */
 .wrap_table > div.indent-bottom {
   margin-bottom: 6.66667em;
 }
 
-/* line 194, ../../dev/sass/specifics/_table.scss */
+/* line 200, ../../dev/sass/specifics/_table.scss */
 .button_table .btn.btn_rounded {
   width: 38.54802%;
   height: 2.54545em;
   font-size: 0.73333em;
 }
 
-/* line 202, ../../dev/sass/specifics/_table.scss */
+/* line 208, ../../dev/sass/specifics/_table.scss */
 .table_text_bold {
   font-weight: 600;
   color: #7c7c7c;

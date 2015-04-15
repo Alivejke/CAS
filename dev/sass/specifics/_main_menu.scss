@@ -167,12 +167,18 @@ $main_menu_item-width-hover: 367px;
 					color: $white-color;
 					z-index: 20;
 				}
-				.ico_status_big {
+				.ico_status_big_wrap {
 					// width: flex(30px, $main_menu_item-width);
 					position: absolute;
 					top: em(-15px, $base-font-size);
 					left: flex(-15px, $main_menu_item-width);
 					z-index: 10;
+					.ico_status_big {
+						position: absolute;
+						top: 50%;
+						left: 50%;
+						margin: em(-13px) 0 0 em(-13px);
+					}
 				}
 			}
 			&:hover {
@@ -189,13 +195,18 @@ $main_menu_item-width-hover: 367px;
 					.main_menu_item-bg {
 						display: block;
 					}
-					.ico_status_big {
+					.ico_status_big_wrap {
 						// width: flex(37px, $main_menu_item-width-hover);
 						width: em(37px, $base-font-size);
 						height: em(37px, $base-font-size);
 						border-width: 7px;
 						top: em(-19px, $base-font-size);
 						left: flex(-19px, $main_menu_item-width-hover);
+						.ico_status_big {
+							width: em(30px, $base-font-size);
+							height: em(30px, $base-font-size);
+							margin: em(-14px) 0 0 em(-14px);
+						}
 					}
 					.main_menu_text_wrap {
 						padding: em(20px, $base-font-size) flex(65px, $main_menu_item-width-hover) em(20px, $base-font-size) flex(36px, $main_menu_item-width-hover);

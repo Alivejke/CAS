@@ -4,6 +4,8 @@ $(document).ready(function() {
     	$navigationDropdownBlock = $('.navigation_dropdown_block', $self),
     	speed = 300;
 
+    $('input:radio, input:checkbox').checkedPolyfill();
+
     $navigationDropdown.on('click', function(){
     	var $this = $(this);
 

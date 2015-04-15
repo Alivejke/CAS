@@ -160,11 +160,15 @@
   background-color: #f8faf9;
 }
 /* line 84, ../../../dev/pages/approval_flow/approval_flow.scss */
+.wrap_table > div.odd {
+  background-color: #f8faf9;
+}
+/* line 87, ../../../dev/pages/approval_flow/approval_flow.scss */
 .wrap_table > div.indent-bottom {
   margin-bottom: 6.66667em;
 }
 
-/* line 92, ../../../dev/pages/approval_flow/approval_flow.scss */
+/* line 95, ../../../dev/pages/approval_flow/approval_flow.scss */
 .button_table .btn.btn_rounded {
   width: 38.54802%;
   height: 2.54545em;
