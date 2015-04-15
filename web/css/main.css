@@ -3483,13 +3483,8 @@ textarea {
   line-height: 1em;
   margin-top: 1em;
 }
-<<<<<<< HEAD
 @media (max-width: 980px) {
-  /* line 31, ../../dev/sass/specifics/_footer.scss */
-=======
-@media (max-width: 960px) {
   /* line 32, ../../dev/sass/specifics/_footer.scss */
->>>>>>> 19631edb7e3b45ae360101405fb6bef144f3714f
   .footer_navigate_wrap {
     font-size: 10px;
     margin-top: 2em;
@@ -3501,7 +3496,7 @@ textarea {
   margin-left: 1.26667em;
   white-space: nowrap;
 }
-/* line 45, ../../dev/sass/specifics/_footer.scss */
+/* line 46, ../../dev/sass/specifics/_footer.scss */
 .footer_navigate a {
   position: relative;
   font-family: pragmatica,Helvetica,Arial,sans-serif;
@@ -3513,15 +3508,15 @@ textarea {
   margin-left: 0.13333em;
   padding-left: 0.46667em;
 }
-/* line 56, ../../dev/sass/specifics/_footer.scss */
+/* line 57, ../../dev/sass/specifics/_footer.scss */
 .footer_navigate a:first-child {
   padding: 0;
 }
-/* line 58, ../../dev/sass/specifics/_footer.scss */
+/* line 59, ../../dev/sass/specifics/_footer.scss */
 .footer_navigate a:first-child:before {
   display: none;
 }
-/* line 62, ../../dev/sass/specifics/_footer.scss */
+/* line 63, ../../dev/sass/specifics/_footer.scss */
 .footer_navigate a:before {
   content: '';
   display: inline-block;
@@ -3532,16 +3527,16 @@ textarea {
   top: 2px;
   left: 0px;
 }
-/* line 72, ../../dev/sass/specifics/_footer.scss */
+/* line 73, ../../dev/sass/specifics/_footer.scss */
 .footer_navigate a:hover {
   color: #c8c8c8;
 }
-/* line 74, ../../dev/sass/specifics/_footer.scss */
+/* line 75, ../../dev/sass/specifics/_footer.scss */
 .footer_navigate a:hover:before {
   background-color: #c8c8c8;
 }
 
-/* line 81, ../../dev/sass/specifics/_footer.scss */
+/* line 82, ../../dev/sass/specifics/_footer.scss */
 .footer_copyright {
   line-height: 1;
   margin: 0 0 0 1.4em;
@@ -6267,13 +6262,8 @@ input[type="checkbox"] + label {
   cursor: pointer;
 }
 
-<<<<<<< HEAD
 /* line 118, ../../dev/sass/specifics/_checkbox.scss */
 label.checkbox .label_ico {
-=======
-/* line 46, ../../dev/sass/specifics/_checkbox.scss */
-input[type="checkbox"] + label .label_ico {
->>>>>>> 19631edb7e3b45ae360101405fb6bef144f3714f
   display: inline-block;
   height: 18px;
   width: 18px;
@@ -6282,7 +6272,6 @@ input[type="checkbox"] + label .label_ico {
   border: 1px solid #c2c2c2;
   background: url(/i/sprite.png) 0px -240px;
 }
-<<<<<<< HEAD
 /* line 127, ../../dev/sass/specifics/_checkbox.scss */
 label.checkbox.chacked .label_ico {
   background: url(/i/sprite.png) -40px -240px;
@@ -6294,46 +6283,6 @@ label.checkbox.distinction {
 /* line 132, ../../dev/sass/specifics/_checkbox.scss */
 label.checkbox.distinction .label_ico {
   border-color: #b70e12;
-=======
-/* line 56, ../../dev/sass/specifics/_checkbox.scss */
-input[type="checkbox"].distinction + label {
-  color: #b70e12;
-}
-/* line 58, ../../dev/sass/specifics/_checkbox.scss */
-input[type="checkbox"].distinction + label .label_ico {
-  border-color: #b70e12;
-}
-/* line 65, ../../dev/sass/specifics/_checkbox.scss */
-input[type="checkbox"]:checked + label .label_ico {
-  background: url(/i/sprite.png) -40px -240px;
-}
-/* line 72, ../../dev/sass/specifics/_checkbox.scss */
-input[type="checkbox"].checked + label .label_ico {
-  background: url(/i/sprite.png) -40px -240px;
-}
-/* line 79, ../../dev/sass/specifics/_checkbox.scss */
-input[type="checkbox"]:disabled + label .label_ico {
-  background: url(/i/sprite.png) 0px -160px;
-}
-/* line 87, ../../dev/sass/specifics/_checkbox.scss */
-input[type="checkbox"]:checked:disabled + label .label_ico {
-  background: url(/i/sprite.png) -40px -240px;
-}
-/* line 96, ../../dev/sass/specifics/_checkbox.scss */
-input[type="checkbox"].checked:disabled + label .label_ico {
-  background: url(/i/sprite.png) -40px -240px;
->>>>>>> 19631edb7e3b45ae360101405fb6bef144f3714f
-}
-
-/* line 106, ../../dev/sass/specifics/_checkbox.scss */
-input[type="checkbox"] + label::before {
-  vertical-align: -3px;
-  margin-right: 0.53333em;
-}
-/* line 110, ../../dev/sass/specifics/_checkbox.scss */
-input[type="checkbox"] + label .label_ico {
-  vertical-align: -3px;
-  margin-right: 0.53333em;
 }
 
 /* line 3, ../../dev/sass/specifics/_table.scss */
