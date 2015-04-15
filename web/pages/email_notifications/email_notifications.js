@@ -1,8 +1,10 @@
 ;$(function() {
 	var $popupWrap = $('#popup_block'),
 		emailNotifHtml = $('#edit-notification-tpl').html(),
+		emailNotifItemHtml = $('#email-notification-item-tpl').html(),
 		$emailNotifPopup,
-		$emailNotificationItems = $('.email-notification-item');
+		$emailNotificationItemsWrap = $('.email-notification-block'),
+		$emailNotificationItems = $emailNotificationItemsWrap.find('.email-notification-item');
 
 	function closeEmailNotifPopup () {
 		$emailNotifPopup.off('click');
@@ -31,10 +33,10 @@
 				type: 'GET',
 				dataType: 'json',
 				data: sendData,
-				success: function () {
+				success: function (responce) {
 					closeEmailNotifPopup();
 
-					if(data.id) {
+					if(data && data.id) {
 						var idx = _.findIndex(emailNotificationsData, function(item) {
 								return item.id == data.id;
 							}),
@@ -44,6 +46,17 @@
 						$changedItem.find('.email-notification-label').text(data.label);
 						$changedItem.find('.email-notification-subject').text(data.subject);
 						$changedItem.find('.email-notification-text').text(data.text);
+					} else {
+
+						if(!sendData.id) sendData.id = Math.random() + "";
+
+						var itemTpl = _.template(emailNotifItemHtml),
+							$item = itemTpl({ data: responce.data ? responce.data : sendData, isOdd: $emailNotificationItems.length % 2 == 0 });
+
+						$emailNotificationItemsWrap.append( $item );
+						$emailNotificationItems = $emailNotificationItemsWrap.find('.email-notification-item');
+
+						emailNotificationsData.push(responce.data ? responce.data : sendData);
 					}
 				},
 				error: function (argument) {
@@ -63,10 +76,10 @@
 		openEmailNotifPopup();
 	});
 
-	$emailNotificationItems.on('click', function (event) {
+	$emailNotificationItemsWrap.on('click', '.btn-edit', function (event) {
 		event.preventDefault();
 		
-		var id = $(event.currentTarget).data('id') + "",
+		var id = $(event.currentTarget).closest('.email-notification-item').data('id') + "",
 			data = _.where(emailNotificationsData, {id: id})[0];
 
 		openEmailNotifPopup(data);

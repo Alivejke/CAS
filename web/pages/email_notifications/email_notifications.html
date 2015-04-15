@@ -114,7 +114,7 @@
                         </div>
                     </div>
 
-                    <div class="wrap_table">
+                    <div class="wrap_table email-notification-block">
                         <div>
                             <div class="wrap padding-left">
                                 <table class="approval_table table_log wrap">
@@ -122,7 +122,7 @@
                                         <td class="email-notification-label">My awesome email sendout</td>
                                         <td class="email-notification-subject">Notification</td>
                                         <td class="email-notification-text">Dear @username!<div>New Activity has been</div></td>
-                                        <td><button class="btn btn_gray btn_rounded">Edit</button></td>
+                                        <td><button class="btn btn_gray btn_rounded btn-edit">Edit</button></td>
                                     </tr>
                                 </table>
                             </div>
@@ -135,7 +135,7 @@
                                         <td class="email-notification-label">My awesome email sendout</td>
                                         <td class="email-notification-subject">Notification</td>
                                         <td class="email-notification-text">Dear @username!<div>New Activity has been</div></td>
-                                        <td><button class="btn btn_gray btn_rounded">Edit</button></td>
+                                        <td><button class="btn btn_gray btn_rounded btn-edit">Edit</button></td>
                                     </tr>
                                 </table>
                             </div>
@@ -148,7 +148,7 @@
                                         <td class="email-notification-label">My awesome email sendout</td>
                                         <td class="email-notification-subject">Notification</td>
                                         <td class="email-notification-text">Dear @username!<div>New Activity has been</div></td>
-                                        <td><button class="btn btn_gray btn_rounded">Edit</button></td>
+                                        <td><button class="btn btn_gray btn_rounded btn-edit">Edit</button></td>
                                     </tr>
                                 </table>
                             </div>
@@ -161,7 +161,7 @@
                                         <td class="email-notification-label">My awesome email sendout</td>
                                         <td class="email-notification-subject">Notification</td>
                                         <td class="email-notification-text">Dear @username!<div>New Activity has been</div></td>
-                                        <td><button class="btn btn_gray btn_rounded">Edit</button></td>
+                                        <td><button class="btn btn_gray btn_rounded btn-edit">Edit</button></td>
                                     </tr>
                                 </table>
                             </div>
@@ -174,7 +174,7 @@
                                         <td class="email-notification-label">My awesome email sendout</td>
                                         <td class="email-notification-subject">Notification</td>
                                         <td class="email-notification-text">Dear @username!<div>New Activity has been</div></td>
-                                        <td><button class="btn btn_gray btn_rounded">Edit</button></td>
+                                        <td><button class="btn btn_gray btn_rounded btn-edit">Edit</button></td>
                                     </tr>
                                 </table>
                             </div>
@@ -187,7 +187,7 @@
                                         <td class="email-notification-label">My awesome email sendout</td>
                                         <td class="email-notification-subject">Notification</td>
                                         <td class="email-notification-text">Dear @username!<div>New Activity has been</div></td>
-                                        <td><button class="btn btn_gray btn_rounded">Edit</button></td>
+                                        <td><button class="btn btn_gray btn_rounded btn-edit">Edit</button></td>
                                     </tr>
                                 </table>
                             </div>
@@ -330,7 +330,7 @@
         <script type="text/html" id="edit-notification-tpl">
             <section class="edit-notification">
                 <form action="/request.json">
-                    <span>Label</span>
+                    <span><%= data.label %></span>
 
                     <div class="subject">
                         <label for="">SUBJECT</label>
@@ -365,6 +365,21 @@
                     </div>
                 </form>
             </section>
+        </script>
+
+        <script type="text/html" id="email-notification-item-tpl">
+            <div>
+                <div class="wrap padding-left">
+                    <table class="approval_table table_log wrap">
+                        <tr class="email-notification-item" data-id="<%= data.id %>">
+                            <td class="email-notification-label"><%= data.label %></td>
+                            <td class="email-notification-subject"><%= data.subject %></td>
+                            <td class="email-notification-text"><%= data.text %></td>
+                            <td><button class="btn btn_gray btn_rounded btn-edit">Edit</button></td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
         </script>
 
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
