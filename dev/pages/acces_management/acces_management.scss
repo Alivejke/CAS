@@ -30,6 +30,7 @@
 	.btn {
 		&.btn-default {
 			width: flex(120px, $base-width-content);
+			color: $gray-color;
 		}
 	}
 }
@@ -81,7 +82,9 @@
 		}
 	}
 }
-
+.popup_window {
+	border: 1px solid #cecfd0;
+}
 .popup_acces_managment_list {
 	> li {
 		margin-top: em(30px);

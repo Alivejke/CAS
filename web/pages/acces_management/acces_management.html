@@ -16,6 +16,75 @@
             <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
             <script>window.html5 || document.write('<script src="js/vendor/html5shiv.js"><\/script>')</script>
         <![endif]-->
+        <script>
+        	var accessManagementData = [{
+        		id: '1',
+        		name: 'CAS Initiator',
+        		entitys: [{
+	        			name: 'Activity',
+	        			rights: {
+	        				view: true,
+	        				change: true,
+	        				approve: false
+	        			}
+        			}, {
+	        			name: 'Toolbox',
+	        			rights: {
+	        				view: true,
+	        				change: true,
+	        				approve: false
+	        			}
+        			}, {
+	        			name: 'Brand',
+	        			rights: {
+	        				view: true,
+	        				change: true,
+	        				approve: false
+	        			}
+        			}, {
+	        			name: 'Access management',
+	        			rights: {
+	        				view: true,
+	        				change: true,
+	        				approve: false
+	        			}
+	        		}],
+        		adGroups: ['AD Business Admin', 'AD CAS Initiator', 'AD Trade Approver']
+        	}, {
+        		id: '2',
+        		name: 'CAS Initiator 2',
+        		entitys: [{
+	        			name: 'Activity',
+	        			rights: {
+	        				view: true,
+	        				change: true,
+	        				approve: false
+	        			}
+        			}, {
+	        			name: 'Toolbox',
+	        			rights: {
+	        				view: true,
+	        				change: true,
+	        				approve: false
+	        			}
+        			}, {
+	        			name: 'Brand',
+	        			rights: {
+	        				view: true,
+	        				change: true,
+	        				approve: false
+	        			}
+        			}, {
+	        			name: 'Access management',
+	        			rights: {
+	        				view: true,
+	        				change: true,
+	        				approve: false
+	        			}
+	        		}],
+        		adGroups: ['AD Business Admin', 'AD CAS Initiator', 'AD Trade Approver']
+        	}]; 
+        </script>
     </head>
     <body>
         <div id="mainarea" class="approval_flow_wrap">
@@ -60,7 +129,7 @@
                     <table>
                         <tr>
                             <th>name</th>
-                            <th>entiry</th>
+                            <th>entity</th>
                             <th>Rights</th>
                             <th>AD groups</th>
                             <th>Action</th>
@@ -68,8 +137,8 @@
                     </table>
                 </div>
             </div>
-            <div class="wrap_table">
-                <div>
+            <div class="wrap_table access-management-block">
+                <div class="access-management-item" data-id="1">
                     <div class="wrap padding-left">
                         <table class="approval_table wrap">
                             <tr>
@@ -86,8 +155,8 @@
                                     AD Trade Approver <br>
                                 </td>   
                                 <td class="button_table">   
-                                    <button class="btn btn_rounded btn_gray">edit</button><br>
-                                    <button class="btn btn_rounded btn_red">delete</button>
+                                    <button class="btn btn_rounded btn_gray btn_edit">edit</button><br>
+                                    <button class="btn btn_rounded btn_red btn_delete">delete</button>
                                 </td>
                             </tr>
                             <tr>
@@ -123,11 +192,11 @@
                         </table>
                     </div>
                 </div>
-                <div>
+                <div class="access-management-item" data-id="2">
                     <div class="wrap padding-left">
                         <table class="approval_table">
                             <tr>
-                                <td rowspan="4">CAS Initiator</td>
+                                <td rowspan="4">CAS Initiator 2</td>
                                 <td>Activity</td>
                                 <td>
                                     <span class="table_text_bold">View:</span> Yes <br>
@@ -140,8 +209,8 @@
                                     AD Trade Approver <br>
                                 </td>   
                                 <td class="button_table">   
-                                    <button class="btn btn_rounded btn_gray">edit</button><br>
-                                    <button class="btn btn_rounded btn_red">delete</button>
+                                    <button class="btn btn_rounded btn_gray btn_edit">edit</button><br>
+                                    <button class="btn btn_rounded btn_red btn_delete">delete</button>
                                 </td>
                             </tr>
                             <tr>
@@ -204,114 +273,118 @@
             </div>
         </footer>
 
-        <div id="popup_block" class="popup_active">
+        <div id="popup_block" class="">
             <div id="popup_fone"></div>
-            <div class="popup_window popup_acces_managment">
-                <form action="#">
-                    <ul class="popup_acces_managment_list">
-                        <li>
-                            <h2 class="popup_title">Name</h2>
-                            <input type="text" placeholder="Business admin" class="input_default">
-                        </li>
-                        <li>
-                            <h2 class="popup_title">Rights</h2> 
-                            <table class="popup_acces_managment_table">
-                                <tbody>
-                                    <tr>
-                                        <td>Activity</td>
-                                        <td>
-                                            <label class="checkbox">
-                                                <span class="label_ico"></span>
-                                                <input type="checkbox" checked="">View
-                                            </label>
-                                        </td>
-                                        <td>
-                                            <label class="checkbox">
-                                                <span class="label_ico"></span>
-                                                <input type="checkbox" checked="">Edit
-                                            </label>
-                                        </td>
-                                        <td>
-                                            <label class="checkbox">
-                                                <span class="label_ico"></span>
-                                                <input type="checkbox" checked="">Approve
-                                            </label>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>Toolbox</td>
-                                        <td>
-                                            <label class="checkbox">
-                                                <span class="label_ico"></span>
-                                                <input type="checkbox" checked="">View
-                                            </label>
-                                        </td>
-                                        <td>
-                                            <label class="checkbox">
-                                                <span class="label_ico"></span>
-                                                <input type="checkbox" checked="">Edit
-                                            </label>
-                                        </td>
-                                        <td>
-                                            <label class="checkbox">
-                                                <span class="label_ico"></span>
-                                                <input type="checkbox" checked="">Approve
-                                            </label>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>Brand content</td>
-                                        <td>
-                                            <label class="checkbox">
-                                                <span class="label_ico"></span>
-                                                <input type="checkbox" checked="">View
-                                            </label>
-                                        </td>
-                                        <td>
-                                            <label class="checkbox">
-                                                <span class="label_ico"></span>
-                                                <input type="checkbox" checked="">Edit
-                                            </label>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>Access Management</td>
-                                        <td>
-                                            <label class="checkbox">
-                                                <span class="label_ico"></span>
-                                                <input type="checkbox" checked="">Edit
-                                            </label>
-                                        </td>
-                                    </tr>
-                                </tbody>
-                            </table>
-                        </li>
-                        <li>
-                            <h2 class="popup_title">Name</h2>
-                            <div class="select_wrap select_default select_multiple_default select_multiple_search select_long">
-                                <select class="js-example-basic-multiple" multiple="multiple">
-                                    <option value="1">PMI RU MOS UR Toolbox sharing tool Viewer 1</option>
-                                    <option value="2">PMI RU MOS UR Toolbox sharing tool Viewer 2</option>
-                                    <option value="3">PMI RU MOS UR Toolbox sharing tool Viewer 3</option>
-                                </select>
-                            </div>
-                        </li>
-                    </ul>
-                    <div class="btn_wrap">
-                        <button class="btn btn-default btn-save">save</button>
-                        <button class="btn btn-default">cancel</button>
-                    </div>
-                </form>
-
-            </div>
         </div>
+
+        <script type="text/html" id="popup-acces-managment-tpl">
+        	<div class="popup_window popup_acces_managment">
+        	    <form action="/request.json">
+        	        <ul class="popup_acces_managment_list">
+        	            <li>
+        	                <h2 class="popup_title">Name</h2>
+        	                <input type="text" placeholder="Business admin" class="input_default">
+        	            </li>
+        	            <li>
+        	                <h2 class="popup_title">Rights</h2> 
+        	                <table class="popup_acces_managment_table">
+        	                    <tbody>
+        	                        <tr>
+        	                            <td>Activity</td>
+        	                            <td>
+        	                                <label class="checkbox">
+        	                                    <span class="label_ico"></span>
+        	                                    <input type="checkbox" checked="">View
+        	                                </label>
+        	                            </td>
+        	                            <td>
+        	                                <label class="checkbox">
+        	                                    <span class="label_ico"></span>
+        	                                    <input type="checkbox" checked="">Edit
+        	                                </label>
+        	                            </td>
+        	                            <td>
+        	                                <label class="checkbox">
+        	                                    <span class="label_ico"></span>
+        	                                    <input type="checkbox" checked="">Approve
+        	                                </label>
+        	                            </td>
+        	                        </tr>
+        	                        <tr>
+        	                            <td>Toolbox</td>
+        	                            <td>
+        	                                <label class="checkbox">
+        	                                    <span class="label_ico"></span>
+        	                                    <input type="checkbox" checked="">View
+        	                                </label>
+        	                            </td>
+        	                            <td>
+        	                                <label class="checkbox">
+        	                                    <span class="label_ico"></span>
+        	                                    <input type="checkbox" checked="">Edit
+        	                                </label>
+        	                            </td>
+        	                            <td>
+        	                                <label class="checkbox">
+        	                                    <span class="label_ico"></span>
+        	                                    <input type="checkbox" checked="">Approve
+        	                                </label>
+        	                            </td>
+        	                        </tr>
+        	                        <tr>
+        	                            <td>Brand content</td>
+        	                            <td>
+        	                                <label class="checkbox">
+        	                                    <span class="label_ico"></span>
+        	                                    <input type="checkbox" checked="">View
+        	                                </label>
+        	                            </td>
+        	                            <td>
+        	                                <label class="checkbox">
+        	                                    <span class="label_ico"></span>
+        	                                    <input type="checkbox" checked="">Edit
+        	                                </label>
+        	                            </td>
+        	                        </tr>
+        	                        <tr>
+        	                            <td>Access Management</td>
+        	                            <td>
+        	                                <label class="checkbox">
+        	                                    <span class="label_ico"></span>
+        	                                    <input type="checkbox" checked="">Edit
+        	                                </label>
+        	                            </td>
+        	                        </tr>
+        	                    </tbody>
+        	                </table>
+        	            </li>
+        	            <li>
+        	                <h2 class="popup_title">Name</h2>
+        	                <div class="select_wrap select_default select_multiple_default select_multiple_search select_long">
+        	                    <select class="js-example-basic-multiple" multiple="multiple">
+        	                        <option value="1">PMI RU MOS UR Toolbox sharing tool Viewer 1</option>
+        	                        <option value="2">PMI RU MOS UR Toolbox sharing tool Viewer 2</option>
+        	                        <option value="3">PMI RU MOS UR Toolbox sharing tool Viewer 3</option>
+        	                    </select>
+        	                </div>
+        	            </li>
+        	        </ul>
+        	        <div class="btn_wrap">
+        	            <button class="btn btn-default btn-save">save</button>
+        	            <button class="btn btn-default">cancel</button>
+        	        </div>
+        	    </form>
+        	</div>
+        </script>
 
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
 
         <script src="/js/vendor/jquery-ui.min.js"></script>
         <script src="/js/vendor/checked_polyfill.min.js"></script>
+        <script src="/js/vendor/lodash.min.js"></script>
         <script src="/js/vendor/select2.min.js"></script>
         <script src="/js/main.js"></script>
+        <script src="acces_management.js"></script>
     </body>
 </html>

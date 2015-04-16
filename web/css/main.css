@@ -3015,6 +3015,120 @@ body .ui-tooltip {
   border-radius: 5px;
 }
 
+/*!
+ * Copyright (c) 2014 Tamble, Inc.
+ * Licensed under MIT (https://github.com/tamble/jquery-ui-daterangepicker/raw/master/LICENSE.txt)
+ */
+/* line 6, ../../dev/sass/vendor/jquery.comiseo.daterangepicker.scss */
+.comiseo-daterangepicker-triggerbutton.ui-button {
+  text-align: left;
+  min-width: 18em;
+}
+
+/* line 11, ../../dev/sass/vendor/jquery.comiseo.daterangepicker.scss */
+.comiseo-daterangepicker {
+  position: absolute;
+  padding: 5px;
+}
+
+/* line 16, ../../dev/sass/vendor/jquery.comiseo.daterangepicker.scss */
+.comiseo-daterangepicker-mask {
+  margin: 0;
+  padding: 0;
+  position: fixed;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  /* required for IE */
+  background-color: #fff;
+  opacity: 0;
+  filter: alpha(opacity=0);
+}
+
+/* line 30, ../../dev/sass/vendor/jquery.comiseo.daterangepicker.scss */
+.comiseo-daterangepicker-presets,
+.comiseo-daterangepicker-calendar {
+  display: table-cell;
+  vertical-align: top;
+  height: 230px;
+}
+
+/* line 37, ../../dev/sass/vendor/jquery.comiseo.daterangepicker.scss */
+.comiseo-daterangepicker-right .comiseo-daterangepicker-presets {
+  padding: 2px 7px 7px 2px;
+}
+
+/* line 41, ../../dev/sass/vendor/jquery.comiseo.daterangepicker.scss */
+.comiseo-daterangepicker-left .comiseo-daterangepicker-presets {
+  padding: 2px 2px 7px 7px;
+}
+
+/* line 45, ../../dev/sass/vendor/jquery.comiseo.daterangepicker.scss */
+.ui-menu {
+  white-space: nowrap;
+}
+
+/* line 49, ../../dev/sass/vendor/jquery.comiseo.daterangepicker.scss */
+.comiseo-daterangepicker .ui-widget-content,
+.comiseo-daterangepicker .ui-datepicker .ui-state-highlight {
+  border-width: 0;
+}
+
+/* line 54, ../../dev/sass/vendor/jquery.comiseo.daterangepicker.scss */
+.comiseo-daterangepicker > .comiseo-daterangepicker-main.ui-widget-content {
+  border-bottom-width: 1px;
+}
+
+/* line 58, ../../dev/sass/vendor/jquery.comiseo.daterangepicker.scss */
+.comiseo-daterangepicker .ui-datepicker .ui-datepicker-today .ui-state-highlight {
+  border-width: 1px;
+}
+
+/* line 62, ../../dev/sass/vendor/jquery.comiseo.daterangepicker.scss */
+.comiseo-daterangepicker-right .comiseo-daterangepicker-calendar {
+  border-left-width: 1px;
+  padding-left: 5px;
+}
+
+/* line 67, ../../dev/sass/vendor/jquery.comiseo.daterangepicker.scss */
+.comiseo-daterangepicker-left .comiseo-daterangepicker-calendar {
+  border-right-width: 1px;
+  padding-right: 5px;
+}
+
+/* line 72, ../../dev/sass/vendor/jquery.comiseo.daterangepicker.scss */
+.comiseo-daterangepicker-right .comiseo-daterangepicker-buttonpanel {
+  float: left;
+}
+
+/* line 76, ../../dev/sass/vendor/jquery.comiseo.daterangepicker.scss */
+.comiseo-daterangepicker-left .comiseo-daterangepicker-buttonpanel {
+  float: right;
+}
+
+/* line 80, ../../dev/sass/vendor/jquery.comiseo.daterangepicker.scss */
+.comiseo-daterangepicker-buttonpanel > button {
+  margin-top: 6px;
+}
+
+/* line 84, ../../dev/sass/vendor/jquery.comiseo.daterangepicker.scss */
+.comiseo-daterangepicker-right .comiseo-daterangepicker-buttonpanel > button {
+  margin-right: 6px;
+}
+
+/* line 88, ../../dev/sass/vendor/jquery.comiseo.daterangepicker.scss */
+.comiseo-daterangepicker-left .comiseo-daterangepicker-buttonpanel > button {
+  margin-left: 6px;
+}
+
+/* themeable styles */
+/* line 93, ../../dev/sass/vendor/jquery.comiseo.daterangepicker.scss */
+.comiseo-daterangepicker-calendar .ui-state-highlight a.ui-state-default {
+  background: #b0c4de;
+  color: #fff;
+}
+
 @font-face {
   font-family: 'brandon_grotesquebold';
   src: url("../fonts/brandon_bld.eot");
@@ -4414,31 +4528,35 @@ textarea {
 .btn.btn_circle.ico_star:active {
   background-position: -66px -66px;
 }
-/* line 26, ../../dev/sass/specifics/_buttons.scss */
+/* line 25, ../../dev/sass/specifics/_buttons.scss */
+.btn.btn_circle.ico_star.active {
+  background-position: -66px -66px;
+}
+/* line 29, ../../dev/sass/specifics/_buttons.scss */
 .btn.btn_circle.ico_eye {
   background-position: -270px 15px;
 }
-/* line 28, ../../dev/sass/specifics/_buttons.scss */
+/* line 31, ../../dev/sass/specifics/_buttons.scss */
 .btn.btn_circle.ico_eye:hover {
   background-position: -270px -65px;
 }
-/* line 31, ../../dev/sass/specifics/_buttons.scss */
+/* line 34, ../../dev/sass/specifics/_buttons.scss */
 .btn.btn_circle.ico_eye:active {
   background-position: -270px -145px;
 }
-/* line 35, ../../dev/sass/specifics/_buttons.scss */
+/* line 38, ../../dev/sass/specifics/_buttons.scss */
 .btn.btn_circle.ico_edit {
   background-position: -346px 11px;
 }
-/* line 37, ../../dev/sass/specifics/_buttons.scss */
+/* line 40, ../../dev/sass/specifics/_buttons.scss */
 .btn.btn_circle.ico_edit:hover {
   background-position: -346px -69px;
 }
-/* line 40, ../../dev/sass/specifics/_buttons.scss */
+/* line 43, ../../dev/sass/specifics/_buttons.scss */
 .btn.btn_circle.ico_edit:active {
   background-position: -346px -149px;
 }
-/* line 45, ../../dev/sass/specifics/_buttons.scss */
+/* line 48, ../../dev/sass/specifics/_buttons.scss */
 .btn.btn_rounded {
   border: none;
   -moz-border-radius: 5px;
@@ -4448,17 +4566,17 @@ textarea {
   height: 36px;
   color: #fff;
 }
-/* line 52, ../../dev/sass/specifics/_buttons.scss */
+/* line 55, ../../dev/sass/specifics/_buttons.scss */
 .btn.btn_rounded:hover {
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=50);
   opacity: 0.5;
 }
-/* line 55, ../../dev/sass/specifics/_buttons.scss */
+/* line 58, ../../dev/sass/specifics/_buttons.scss */
 .btn.btn_rounded:active {
   filter: progid:DXImageTransform.Microsoft.Alpha(enabled=false);
   opacity: 1;
 }
-/* line 59, ../../dev/sass/specifics/_buttons.scss */
+/* line 62, ../../dev/sass/specifics/_buttons.scss */
 .btn.btn_big_rounded {
   border: 1px solid #cecfd0;
   -moz-border-radius: 30px;
@@ -4469,116 +4587,116 @@ textarea {
   line-height: 3em;
   color: #45484C;
 }
-/* line 68, ../../dev/sass/specifics/_buttons.scss */
+/* line 71, ../../dev/sass/specifics/_buttons.scss */
 .btn.btn_big_rounded:hover {
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=50);
   opacity: 0.5;
 }
-/* line 70, ../../dev/sass/specifics/_buttons.scss */
+/* line 73, ../../dev/sass/specifics/_buttons.scss */
 .btn.btn_big_rounded:hover .ico_upload {
   background-position: -440px 0px;
 }
-/* line 73, ../../dev/sass/specifics/_buttons.scss */
+/* line 76, ../../dev/sass/specifics/_buttons.scss */
 .btn.btn_big_rounded:hover .ico_edit {
   background-position: -520px 0px;
 }
-/* line 76, ../../dev/sass/specifics/_buttons.scss */
+/* line 79, ../../dev/sass/specifics/_buttons.scss */
 .btn.btn_big_rounded:hover .ico_add {
   background-position: -760px 0px;
 }
-/* line 80, ../../dev/sass/specifics/_buttons.scss */
+/* line 83, ../../dev/sass/specifics/_buttons.scss */
 .btn.btn_big_rounded:active {
   filter: progid:DXImageTransform.Microsoft.Alpha(enabled=false);
   opacity: 1;
 }
-/* line 82, ../../dev/sass/specifics/_buttons.scss */
+/* line 85, ../../dev/sass/specifics/_buttons.scss */
 .btn.btn_big_rounded:active .ico_upload {
   background-position: -440px 0px;
 }
-/* line 85, ../../dev/sass/specifics/_buttons.scss */
+/* line 88, ../../dev/sass/specifics/_buttons.scss */
 .btn.btn_big_rounded:active .ico_edit {
   background-position: -520px 0px;
 }
-/* line 88, ../../dev/sass/specifics/_buttons.scss */
+/* line 91, ../../dev/sass/specifics/_buttons.scss */
 .btn.btn_big_rounded:active .ico_add {
   background-position: -760px 0px;
 }
-/* line 92, ../../dev/sass/specifics/_buttons.scss */
+/* line 95, ../../dev/sass/specifics/_buttons.scss */
 .btn.btn_big_rounded .ico_upload {
   position: relative;
   top: 0.35714em;
   left: -17px;
 }
-/* line 97, ../../dev/sass/specifics/_buttons.scss */
+/* line 100, ../../dev/sass/specifics/_buttons.scss */
 .btn.btn_big_rounded .ico_edit {
   position: relative;
   top: 0.28571em;
   left: -17px;
 }
-/* line 102, ../../dev/sass/specifics/_buttons.scss */
+/* line 105, ../../dev/sass/specifics/_buttons.scss */
 .btn.btn_big_rounded .ico_add {
   position: relative;
   top: 0.35714em;
   left: -17px;
 }
-/* line 108, ../../dev/sass/specifics/_buttons.scss */
+/* line 111, ../../dev/sass/specifics/_buttons.scss */
 .btn.btn-default {
   width: 19.7832%;
   height: 2.92857em;
   line-height: 2.92857em;
   border: 1px solid #dedfdf;
 }
-/* line 113, ../../dev/sass/specifics/_buttons.scss */
+/* line 116, ../../dev/sass/specifics/_buttons.scss */
 .btn.btn-default:hover {
   background-color: #0f3e6e;
   color: #fff;
 }
-/* line 117, ../../dev/sass/specifics/_buttons.scss */
+/* line 120, ../../dev/sass/specifics/_buttons.scss */
 .btn.btn-default:active {
   background-color: #fff;
   color: #738189;
 }
-/* line 123, ../../dev/sass/specifics/_buttons.scss */
+/* line 126, ../../dev/sass/specifics/_buttons.scss */
 .btn.btn-save:hover {
   background-color: #2ecc71;
   color: #fff;
 }
-/* line 127, ../../dev/sass/specifics/_buttons.scss */
+/* line 130, ../../dev/sass/specifics/_buttons.scss */
 .btn.btn-save:active {
   background-color: #fff;
   color: #738189;
 }
-/* line 133, ../../dev/sass/specifics/_buttons.scss */
+/* line 136, ../../dev/sass/specifics/_buttons.scss */
 .btn.btn-delete:hover {
   background-color: #b70e12;
   color: #fff;
 }
-/* line 137, ../../dev/sass/specifics/_buttons.scss */
+/* line 140, ../../dev/sass/specifics/_buttons.scss */
 .btn.btn-delete:active {
   background-color: #fff;
   color: #738189;
 }
-/* line 143, ../../dev/sass/specifics/_buttons.scss */
+/* line 146, ../../dev/sass/specifics/_buttons.scss */
 .btn.btn-decline:hover {
   background-color: #b70e12;
   color: #fff;
 }
-/* line 147, ../../dev/sass/specifics/_buttons.scss */
+/* line 150, ../../dev/sass/specifics/_buttons.scss */
 .btn.btn-decline:active {
   background-color: #fff;
   color: #738189;
 }
-/* line 152, ../../dev/sass/specifics/_buttons.scss */
+/* line 155, ../../dev/sass/specifics/_buttons.scss */
 .btn.btn-upload {
   background-color: #f8faf9;
   color: #323a45;
 }
-/* line 155, ../../dev/sass/specifics/_buttons.scss */
+/* line 158, ../../dev/sass/specifics/_buttons.scss */
 .btn.btn-upload:hover, .btn.btn-upload:active {
   background-color: #f8faf9;
   color: rgba(50, 58, 69, 0.5);
 }
-/* line 160, ../../dev/sass/specifics/_buttons.scss */
+/* line 163, ../../dev/sass/specifics/_buttons.scss */
 .btn.btn-link {
   text-transform: none;
   display: inline;
@@ -4590,38 +4708,38 @@ textarea {
   border-bottom: 1px solid transparent;
   color: #747476;
 }
-/* line 170, ../../dev/sass/specifics/_buttons.scss */
+/* line 173, ../../dev/sass/specifics/_buttons.scss */
 .btn.btn-link:hover {
   border-bottom: 1px solid #9d9d9e;
   background: none;
   color: #747476;
 }
-/* line 175, ../../dev/sass/specifics/_buttons.scss */
+/* line 178, ../../dev/sass/specifics/_buttons.scss */
 .btn.btn-link:active {
   border-bottom: 1px solid transparent;
 }
-/* line 179, ../../dev/sass/specifics/_buttons.scss */
+/* line 182, ../../dev/sass/specifics/_buttons.scss */
 .btn.btn_small {
   font-size: 1em;
   height: 2.8em;
   line-height: 2.8em;
   width: 19.9187%;
 }
-/* line 185, ../../dev/sass/specifics/_buttons.scss */
+/* line 188, ../../dev/sass/specifics/_buttons.scss */
 .btn.btn_long {
   height: 3em;
   line-height: 3em;
   width: 24.66125%;
 }
-/* line 190, ../../dev/sass/specifics/_buttons.scss */
+/* line 193, ../../dev/sass/specifics/_buttons.scss */
 .btn.btn_gray {
   background-color: #7e8890;
 }
-/* line 193, ../../dev/sass/specifics/_buttons.scss */
+/* line 196, ../../dev/sass/specifics/_buttons.scss */
 .btn.btn_red {
   background-color: #b70e12;
 }
-/* line 196, ../../dev/sass/specifics/_buttons.scss */
+/* line 199, ../../dev/sass/specifics/_buttons.scss */
 .btn.btn_green {
   background-color: #2ecc71;
 }
