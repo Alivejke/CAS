@@ -61,7 +61,7 @@
 					}
 				},
 				error: function (argument) {
-					alert('Somethink went wrong');
+					alert('Something went wrong');
 				}
 			});
 		});
