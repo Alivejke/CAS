@@ -152,3 +152,25 @@
         }
     }
 }
+
+.brand_news {
+    .btn_wrap {
+        bottom: em(-25px);
+    }
+}
+
+.btn_big_rounded_wrap {
+    .btn {
+        &.btn_big_rounded {
+            line-height: em(50px, $btn-font-size);
+        }
+    }
+}
+
+.wrap_blocks {
+    .main_title {
+        &.main_title_actives {
+            margin-top: em(122px, $main_title-font-size);
+        }
+    }
+}

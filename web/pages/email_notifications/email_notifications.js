@@ -1,4 +1,5 @@
 ;$(function() {
+
 	var $popupWrap = $('#popup_block'),
 		emailNotifHtml = $('#edit-notification-tpl').html(),
 		emailNotifItemHtml = $('#email-notification-item-tpl').html(),
@@ -68,7 +69,9 @@
 		$popupWrap.addClass('popup_active').append($emailNotifPopup);
 	}
 
-	$('.wrap_table > div:nth-child(odd)').addClass('odd');
+	if ( navigator.userAgent.toLowerCase().indexOf('msie') != -1) {
+		$('.wrap_table > div:nth-child(odd)').addClass('odd');
+	}
 
 	$('.btn-add-notification').on('click', function (event) {
 		event.preventDefault();
@@ -88,4 +91,5 @@
 	$popupWrap.on('click', '#popup_fone', function () {
 		closeEmailNotifPopup();
 	});
+
 });

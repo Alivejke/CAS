@@ -233,3 +233,18 @@
     margin-top: 5px;
   }
 }
+
+/* line 157, ../../../dev/pages/activies_page/activies_page.scss */
+.brand_news .btn_wrap {
+  bottom: -1.66667em;
+}
+
+/* line 164, ../../../dev/pages/activies_page/activies_page.scss */
+.btn_big_rounded_wrap .btn.btn_big_rounded {
+  line-height: 3.57143em;
+}
+
+/* line 172, ../../../dev/pages/activies_page/activies_page.scss */
+.wrap_blocks .main_title.main_title_actives {
+  margin-top: 4.51852em;
+}

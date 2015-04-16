@@ -37,7 +37,7 @@
 		}
 	}
 	&.popup_active {
-		z-index: 100;
+		z-index: 1100;
 		display: block;
 		#popup_fone {
 			@include opaque;
