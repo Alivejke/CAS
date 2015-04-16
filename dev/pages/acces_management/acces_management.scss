@@ -24,7 +24,7 @@
 }
 
 .acces_content_wrap {
-	border-top: 1px solid $gray-color;
+	border-top: 1px solid #EEEEEE;
 	padding: em(30px) 0;
 	margin-bottom: em(100px);
 	.btn {
@@ -115,6 +115,11 @@
 			}
 		}
 	}
+}
+
+.select2-results__option {
+	padding-left: em(21px);
+	padding-right: em(21px);
 }
 
 

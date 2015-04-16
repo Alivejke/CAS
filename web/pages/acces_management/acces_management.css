@@ -86,7 +86,7 @@
 
 /* line 26, ../../../dev/pages/acces_management/acces_management.scss */
 .acces_content_wrap {
-  border-top: 1px solid #45484C;
+  border-top: 1px solid #EEEEEE;
   padding: 2em 0;
   margin-bottom: 6.66667em;
 }
@@ -171,4 +171,10 @@
 /* line 112, ../../../dev/pages/acces_management/acces_management.scss */
 .popup_acces_managment_table td + td + td + td {
   width: 28%;
+}
+
+/* line 117, ../../../dev/pages/acces_management/acces_management.scss */
+.select2-results__option {
+  padding-left: 1.4em;
+  padding-right: 1.4em;
 }

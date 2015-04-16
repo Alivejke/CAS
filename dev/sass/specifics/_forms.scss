@@ -4,10 +4,10 @@
 	padding: em(15px, $base-font-size) flex(15px, $base-width-content);
 	width: 100%;
 	height: em(115px, $base-font-size);
-	border-top: 2px solid #cbcccd;
-	border-left: 2px solid #b7b8ba;
-	border-bottom: 2px solid #c4c5c6;
-	border-right: 2px solid #9d9fa1;
+	border-top: 1px solid #cbcccd;
+	border-left: 1px solid #b7b8ba;
+	border-bottom: 1px solid #c4c5c6;
+	border-right: 1px solid #9d9fa1;
 }
 
 textarea {

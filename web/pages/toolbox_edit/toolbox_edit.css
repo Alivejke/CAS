@@ -81,15 +81,15 @@
 
 /* line 13, ../../../dev/pages/toolbox_edit/toolbox_edit.scss */
 .toolbox_edit .select_wrap {
-  width: 39.29539%;
+  width: 39.43089%;
 }
 /* line 17, ../../../dev/pages/toolbox_edit/toolbox_edit.scss */
 .toolbox_edit .select_wrap .select2-container .select2-selection--single .select2-selection__rendered {
-  padding: 0 6.89655% 0 3.44828%;
+  padding: 0 6.87285% 0 4.811%;
 }
 /* line 23, ../../../dev/pages/toolbox_edit/toolbox_edit.scss */
 .toolbox_edit .select_wrap .select2-container.select2-container--default .select2-selection--single .select2-selection__arrow {
-  width: 6.89655%;
+  width: 6.87285%;
 }
 /* line 25, ../../../dev/pages/toolbox_edit/toolbox_edit.scss */
 .toolbox_edit .select_wrap .select2-container.select2-container--default .select2-selection--single .select2-selection__arrow b {
@@ -118,4 +118,10 @@
 /* line 56, ../../../dev/pages/toolbox_edit/toolbox_edit.scss */
 .toolbox_edit_list li .brand_news_textarea.indent-top {
   margin-top: 3.33333em;
+}
+
+/* line 62, ../../../dev/pages/toolbox_edit/toolbox_edit.scss */
+.select2-results__option {
+  padding-left: 0.93333em;
+  padding-right: 1.33333em;
 }

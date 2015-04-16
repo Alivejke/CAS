@@ -43,7 +43,7 @@ $navigation_dropdown_list_news-font-size: 11px;
 $navigation_dropdown-min-width: flex($dropdown_btn-width, $base-width-content-one);
 	position: relative;
 	min-width: $navigation_dropdown-min-width;
-	height: em(65px, $base-font-size);
+	// height: em(65px, $base-font-size);
 	color: $white-color;
 	background-color: #7e8890;
 	border: none;
