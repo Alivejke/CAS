@@ -7,3 +7,31 @@
 		margin-top: em(77px, $main_title-font-size);
 	}
 }
+
+.brand_news {
+	.btn_wrap {
+		bottom: em(-22px);
+		height: em(44px);
+	}
+	.btn_big_rounded_wrap {
+		height: 100%;
+		.btn {
+			&.btn_big_rounded {
+				line-height: em(44px, $btn-font-size);
+				height: 100%;
+				.ico_edit {
+					left: em(-8px, $btn-font-size);
+				}
+				.ico_add {
+					left: em(-6px, $btn-font-size);
+				}
+			}
+		}
+		&:first-child {
+			width: flex(153px, 1041px);
+		}
+		&.pos_right {
+			right: flex(300px, 1041px);
+		}
+	}
+}

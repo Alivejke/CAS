@@ -85,19 +85,24 @@
 .brand_edit li .btn.btn_small {
   width: 100%;
 }
-/* line 21, ../../../dev/pages/edit_brand/edit_brand.scss */
+/* line 20, ../../../dev/pages/edit_brand/edit_brand.scss */
 .brand_edit.btn_wrap {
   position: absolute;
   bottom: -6.33333em;
   overflow: hidden;
 }
 
-/* line 28, ../../../dev/pages/edit_brand/edit_brand.scss */
+/* line 27, ../../../dev/pages/edit_brand/edit_brand.scss */
 .brand_news.edit_brand {
   padding: 2.2em 0 3.66667em 0;
 }
 
-/* line 32, ../../../dev/pages/edit_brand/edit_brand.scss */
+/* line 31, ../../../dev/pages/edit_brand/edit_brand.scss */
 .brand_news_title {
   font-size: 1.8em;
+}
+
+/* line 35, ../../../dev/pages/edit_brand/edit_brand.scss */
+.brand_news_textarea {
+  margin-top: 0;
 }

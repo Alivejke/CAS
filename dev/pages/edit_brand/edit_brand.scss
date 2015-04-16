@@ -16,7 +16,6 @@
 				width: 100%;
 			}
 		}
-
 	}
 	&.btn_wrap {
 		position: absolute;
@@ -31,4 +30,8 @@
 }
 .brand_news_title {
 	font-size: em(27px, $base-font-size);
+}
+
+.brand_news_textarea {
+	margin-top: 0;
 }

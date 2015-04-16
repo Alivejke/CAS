@@ -94,6 +94,14 @@ textarea {
 	}
 }
 
+.js-img_wrap {
+	overflow: hidden;
+	img {
+		display: block;
+		width: 100%;
+	}
+}
+
 // UI-elements
 .ui_list {
 	margin: 50px 25px;

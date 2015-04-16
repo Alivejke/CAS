@@ -74,3 +74,34 @@
 .single_brand .main_title {
   margin-top: 2.85185em;
 }
+
+/* line 12, ../../../dev/pages/single_brand_page/single_brand_page.scss */
+.brand_news .btn_wrap {
+  bottom: -1.46667em;
+  height: 2.93333em;
+}
+/* line 16, ../../../dev/pages/single_brand_page/single_brand_page.scss */
+.brand_news .btn_big_rounded_wrap {
+  height: 100%;
+}
+/* line 19, ../../../dev/pages/single_brand_page/single_brand_page.scss */
+.brand_news .btn_big_rounded_wrap .btn.btn_big_rounded {
+  line-height: 3.14286em;
+  height: 100%;
+}
+/* line 22, ../../../dev/pages/single_brand_page/single_brand_page.scss */
+.brand_news .btn_big_rounded_wrap .btn.btn_big_rounded .ico_edit {
+  left: -0.57143em;
+}
+/* line 25, ../../../dev/pages/single_brand_page/single_brand_page.scss */
+.brand_news .btn_big_rounded_wrap .btn.btn_big_rounded .ico_add {
+  left: -0.42857em;
+}
+/* line 30, ../../../dev/pages/single_brand_page/single_brand_page.scss */
+.brand_news .btn_big_rounded_wrap:first-child {
+  width: 14.69741%;
+}
+/* line 33, ../../../dev/pages/single_brand_page/single_brand_page.scss */
+.brand_news .btn_big_rounded_wrap.pos_right {
+  right: 28.81844%;
+}

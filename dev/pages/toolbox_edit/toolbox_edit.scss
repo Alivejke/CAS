@@ -8,14 +8,14 @@
 		}
 	}
 }
-$toolbox_select-width: 290px;
+$toolbox_select-width: 291px;
 .toolbox_edit {
 	.select_wrap {
 		width: flex($toolbox_select-width, $base-width-content);
 		.select2-container {
 			.select2-selection--single {
 				.select2-selection__rendered {
-					padding: 0 flex(20px, $toolbox_select-width) 0 flex(10px, $toolbox_select-width);
+					padding: 0 flex(20px, $toolbox_select-width) 0 flex(14px, $toolbox_select-width);
 				}
 			}
 			&.select2-container--default {
@@ -58,4 +58,8 @@ $toolbox_select-width: 290px;
 			}
 		}
 	}
+}
+.select2-results__option {
+	padding-left: em(14px);
+	padding-right: em(20px);
 }

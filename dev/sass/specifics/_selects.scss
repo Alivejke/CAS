@@ -236,3 +236,7 @@ $select_multiple_default-width: 289px;
 	background: #7e8890;
 	color: $white-color;
 }
+
+.select2-dropdown {
+	z-index: 1101;
+}
