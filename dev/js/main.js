@@ -59,4 +59,11 @@ $(document).ready(function() {
         else {$(this).parent().removeClass('chacked');}
     });
 
+    $('.ico_star').click(function () {
+        $(this).toggleClass('active');
+    })
+
+    // $('.ico_basket').click(function() {
+    //     $(this).parent().parent('.block').remove();
+    // })
 });

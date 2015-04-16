@@ -93,76 +93,82 @@
 /* line 31, ../../../dev/pages/acces_management/acces_management.scss */
 .acces_content_wrap .btn.btn-default {
   width: 16.26016%;
+  color: #45484C;
 }
 
-/* line 37, ../../../dev/pages/acces_management/acces_management.scss */
+/* line 38, ../../../dev/pages/acces_management/acces_management.scss */
 .input_default {
   margin-top: 1.53846em;
 }
 
-/* line 44, ../../../dev/pages/acces_management/acces_management.scss */
+/* line 45, ../../../dev/pages/acces_management/acces_management.scss */
 .select_wrap.select_default.select_multiple_default.select_long {
   margin-top: 1.33333em;
   width: 100%;
 }
-/* line 50, ../../../dev/pages/acces_management/acces_management.scss */
+/* line 51, ../../../dev/pages/acces_management/acces_management.scss */
 .select_wrap.select_default.select_multiple_default .select2-container--default .select2-selection--multiple .select2-selection__rendered {
   padding-left: 15px;
   font-size: 0.86667em;
   margin-top: 0.13333em;
 }
-/* line 63, ../../../dev/pages/acces_management/acces_management.scss */
+/* line 64, ../../../dev/pages/acces_management/acces_management.scss */
 .select_wrap.select_long .select2-container.select2-container--default .select2-selection--single .select2-selection__rendered {
   text-align: center;
 }
 
-/* line 75, ../../../dev/pages/acces_management/acces_management.scss */
+/* line 76, ../../../dev/pages/acces_management/acces_management.scss */
 .btn_wrap {
   margin-top: 2.26667em;
 }
-/* line 77, ../../../dev/pages/acces_management/acces_management.scss */
+/* line 78, ../../../dev/pages/acces_management/acces_management.scss */
 .btn_wrap .btn {
   margin-left: 3.64583%;
 }
-/* line 79, ../../../dev/pages/acces_management/acces_management.scss */
+/* line 80, ../../../dev/pages/acces_management/acces_management.scss */
 .btn_wrap .btn:first-child {
   margin-left: 0;
 }
 
-/* line 86, ../../../dev/pages/acces_management/acces_management.scss */
+/* line 85, ../../../dev/pages/acces_management/acces_management.scss */
+.popup_window {
+  border: 1px solid #cecfd0;
+}
+
+/* line 89, ../../../dev/pages/acces_management/acces_management.scss */
 .popup_acces_managment_list > li {
   margin-top: 2em;
 }
-/* line 88, ../../../dev/pages/acces_management/acces_management.scss */
+/* line 91, ../../../dev/pages/acces_management/acces_management.scss */
 .popup_acces_managment_list > li:first-child {
   margin-top: 0;
 }
 
-/* line 94, ../../../dev/pages/acces_management/acces_management.scss */
+/* line 97, ../../../dev/pages/acces_management/acces_management.scss */
 .popup_acces_managment_table {
   color: #909294;
   width: 500px;
 }
-/* line 97, ../../../dev/pages/acces_management/acces_management.scss */
+/* line 100, ../../../dev/pages/acces_management/acces_management.scss */
 .popup_acces_managment_table td {
   color: #45484C;
   width: 32%;
   padding: 0.6em 0;
 }
-/* line 101, ../../../dev/pages/acces_management/acces_management.scss */
+/* line 104, ../../../dev/pages/acces_management/acces_management.scss */
 .popup_acces_managment_table td input[type="checkbox"] + label::before {
   vertical-align: -3px;
 }
-/* line 104, ../../../dev/pages/acces_management/acces_management.scss */
+/* line 107, ../../../dev/pages/acces_management/acces_management.scss */
 .popup_acces_managment_table td + td {
   color: #909294;
   width: 20%;
 }
-/* line 107, ../../../dev/pages/acces_management/acces_management.scss */
+/* line 110, ../../../dev/pages/acces_management/acces_management.scss */
 .popup_acces_managment_table td + td + td {
   width: 19%;
 }
-/* line 109, ../../../dev/pages/acces_management/acces_management.scss */
+/* line 112, ../../../dev/pages/acces_management/acces_management.scss */
 .popup_acces_managment_table td + td + td + td {
   width: 28%;
 }
