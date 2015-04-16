@@ -15,7 +15,7 @@ $(document).ready(function() {
 	})
 
 	
-	// $("#datepicker").daterangepicker();
+	$("#datepicker").daterangepicker();
 
 });;$(document).ready(function() {
 	var $self = $(this),
