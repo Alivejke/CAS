@@ -28,27 +28,48 @@
 .menu_wrap {
 	margin-top: em(28px, $base-font-size);
 }
+.menu_scroll_wrap {
+	&.scrollWrap {
+		position: fixed;
+		top: 0;
+		z-index: 1000;
+		overflow: initial;
+		width: 10000px;
+		height: em(45px);
+		margin-left: -5000px;
+		border: solid #cecfd0;
+		border-width: 0px 0px 1px 0px;
+		background: rgba(255, 255, 255, 0.9);
+	}
+}
 .menu {
 	overflow: hidden;
 	position: relative;
+	// &.scroll {
+	// 	position: fixed;
+	// 	top: em(15px, $base-font-size);
+	// 	z-index: 1000;
+	// 	overflow: initial;
+	// 	&:before {
+	// 		content: '';
+	// 		display: block;
+	// 		width: 10000px;
+	// 		height: 3em;
+	// 		position: absolute;
+	// 		top: -1em;
+	// 		left: -5000px;
+	// 		border: solid #cecfd0;
+	// 		border-width: 0px 0px 1px 0px;
+	// 		background: rgba(255, 255, 255, 0.9);
+	// 		z-index: -1;
+	// 	}
+	// }
 	&.scroll {
-		position: fixed;
-		top: em(15px, $base-font-size);
-		z-index: 1000;
-		overflow: initial;
-		&:before {
-			content: '';
-			display: block;
-			width: 10000px;
-			height: 3em;
-			position: absolute;
-			top: -1em;
-			margin-left: -5000px;
-			border: solid #cecfd0;
-			border-width: 0px 0px 1px 0px;
-			background: rgba(255, 255, 255, 0.9);
-			z-index: -1;
-		}
+		display: inline-block;
+		margin: 0 auto;
+		top: 1em;
+		left: 50%;
+		
 	}
 	.toolbox_wrap & {
 		max-width: flex(560px, $base-width-content);

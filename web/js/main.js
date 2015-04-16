@@ -84,8 +84,10 @@ $(document).ready(function() {
         var body = $(document).scrollTop();
         if ( body > 78 ) {
             $('ul.menu').addClass('scroll');
+            $('.menu_scroll_wrap').addClass('scrollWrap');
         } else {
             $('ul.menu').removeClass('scroll');
+            $('.menu_scroll_wrap').removeClass('scrollWrap');
         }
     });
 

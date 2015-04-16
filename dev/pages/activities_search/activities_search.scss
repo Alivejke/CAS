@@ -4,6 +4,16 @@
 		.select_wrap {
 			&.select_long {
 				margin-top: em(23px, $base-font-size);
+				.select2-container {
+					&.select2-container--default {
+						.select2-selection--single {
+							.select2-selection__rendered {
+								text-align: center;
+								// font-weight: 600;
+							}
+						}
+					}
+				}
 			}
 		}
 	}
@@ -120,3 +130,4 @@ input[type="checkbox"]:checked {
 		margin: em(20px, $btn-font-size) 0 em(30px, $btn-font-size);
 	}
 }
+

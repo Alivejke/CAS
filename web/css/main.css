@@ -4646,41 +4646,41 @@ textarea {
   margin-top: 1.86667em;
 }
 
-/* line 31, ../../dev/sass/specifics/_sub_header.scss */
-.menu {
-  overflow: hidden;
-  position: relative;
-}
-/* line 34, ../../dev/sass/specifics/_sub_header.scss */
-.menu.scroll {
+/* line 32, ../../dev/sass/specifics/_sub_header.scss */
+.menu_scroll_wrap.scrollWrap {
   position: fixed;
-  top: 1em;
+  top: 0;
   z-index: 1000;
   overflow: initial;
-}
-/* line 39, ../../dev/sass/specifics/_sub_header.scss */
-.menu.scroll:before {
-  content: '';
-  display: block;
   width: 10000px;
   height: 3em;
-  position: absolute;
-  top: -1em;
   margin-left: -5000px;
   border: solid #cecfd0;
   border-width: 0px 0px 1px 0px;
   background: rgba(255, 255, 255, 0.9);
-  z-index: -1;
 }
-/* line 53, ../../dev/sass/specifics/_sub_header.scss */
+
+/* line 45, ../../dev/sass/specifics/_sub_header.scss */
+.menu {
+  overflow: hidden;
+  position: relative;
+}
+/* line 67, ../../dev/sass/specifics/_sub_header.scss */
+.menu.scroll {
+  display: inline-block;
+  margin: 0 auto;
+  top: 1em;
+  left: 50%;
+}
+/* line 74, ../../dev/sass/specifics/_sub_header.scss */
 .toolbox_wrap .menu {
   max-width: 75.88076%;
 }
-/* line 56, ../../dev/sass/specifics/_sub_header.scss */
+/* line 77, ../../dev/sass/specifics/_sub_header.scss */
 .menu li {
   float: left;
 }
-/* line 60, ../../dev/sass/specifics/_sub_header.scss */
+/* line 81, ../../dev/sass/specifics/_sub_header.scss */
 .menu li a {
   text-transform: uppercase;
   font-family: pragmatica,Helvetica,Arial,sans-serif;
@@ -4688,13 +4688,13 @@ textarea {
   color: #c3c3c3;
   text-decoration: none;
 }
-/* line 69, ../../dev/sass/specifics/_sub_header.scss */
+/* line 90, ../../dev/sass/specifics/_sub_header.scss */
 .menu li.active a {
   font-family: pragmatica,Helvetica,Arial,sans-serif;
   font-weight: 300;
   color: #45484C;
 }
-/* line 77, ../../dev/sass/specifics/_sub_header.scss */
+/* line 98, ../../dev/sass/specifics/_sub_header.scss */
 .menu li:after {
   content: '';
   display: inline-block;
@@ -4704,13 +4704,13 @@ textarea {
   vertical-align: -1px;
   margin: 0 0.33333em 0 -0.4em;
 }
-/* line 87, ../../dev/sass/specifics/_sub_header.scss */
+/* line 108, ../../dev/sass/specifics/_sub_header.scss */
 .menu li:last-child:after {
   display: none;
   background: none;
 }
 
-/* line 94, ../../dev/sass/specifics/_sub_header.scss */
+/* line 115, ../../dev/sass/specifics/_sub_header.scss */
 .go_to_search {
   font-size: 1em;
   font-family: pragmatica,Helvetica,Arial,sans-serif;
@@ -4718,12 +4718,12 @@ textarea {
   color: #45484C;
   cursor: pointer;
 }
-/* line 102, ../../dev/sass/specifics/_sub_header.scss */
+/* line 123, ../../dev/sass/specifics/_sub_header.scss */
 .go_to_search span {
   display: inline-block;
   border-bottom: 1px solid #45484C;
 }
-/* line 107, ../../dev/sass/specifics/_sub_header.scss */
+/* line 128, ../../dev/sass/specifics/_sub_header.scss */
 .go_to_search:after {
   content: '';
   display: inline-block;
@@ -6600,7 +6600,7 @@ label.checkbox.distinction .label_ico {
 }
 /* line 39, ../../dev/sass/specifics/_popups.scss */
 #popup_block.popup_active {
-  z-index: 100;
+  z-index: 1100;
   display: block;
 }
 /* line 42, ../../dev/sass/specifics/_popups.scss */
