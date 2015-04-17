@@ -26,24 +26,24 @@
                 id: data ? data.id : null,
                 name: $form.find('[name="name"]').val(),
                 activity: {
-                    view: $form.find('[name="activityView"]').val(),
-                    change: $form.find('[name="activityChange"]').val(),
-                    approve: $form.find('[name="activityApprove"]').val()
+                    view: $form.find('[name="activityView"]').is(':checked'),
+                    change: $form.find('[name="activityChange"]').is(':checked'),
+                    approve: $form.find('[name="activityApprove"]').is(':checked')
                 },
                 toolbox: {
-                    view: $form.find('[name="toolboxView"]').val(),
-                    change: $form.find('[name="toolboxView"]').val(),
-                    approve: $form.find('[name="toolboxView"]').val()
+                    view: $form.find('[name="toolboxView"]').is(':checked'),
+                    change: $form.find('[name="toolboxChange"]').is(':checked'),
+                    approve: $form.find('[name="toolboxApprove"]').is(':checked')
                 },
                 brand: {
-                    view: $form.find('[name="brandView"]').val(),
-                    change: $form.find('[name="brandView"]').val(),
-                    approve: $form.find('[name="brandView"]').val()
+                    view: $form.find('[name="brandView"]').is(':checked'),
+                    change: $form.find('[name="brandChange"]').is(':checked'),
+                    approve: $form.find('[name="brandApprove"]').is(':checked')
                 },
                 accessManagement: {
-                    view: $form.find('[name="accessManagementView"]').val(),
-                    change: $form.find('[name="accessManagementView"]').val(),
-                    approve: $form.find('[name="accessManagementView"]').val()
+                    view: $form.find('[name="accessManagementView"]').is(':checked'),
+                    change: $form.find('[name="accessManagementChange"]').is(':checked'),
+                    approve: $form.find('[name="accessManagementApprove"]').is(':checked')
                 },
                 adGroups: $form.find('[name="adGroups"]').val()
 

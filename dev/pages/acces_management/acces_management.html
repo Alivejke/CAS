@@ -40,7 +40,7 @@
     				change: true,
     				approve: false
     			},
-        		adGroups: ['AD Business Admin', 'AD CAS Initiator', 'AD Trade Approver']
+        		adGroups: ['AD Business Admin', 'AD CAS Initiator']
         	}, {
         		id: '1',
         		name: 'CAS Initiator',
@@ -64,7 +64,7 @@
     				change: true,
     				approve: false
     			},
-        		adGroups: ['AD Business Admin', 'AD CAS Initiator', 'AD Trade Approver']
+        		adGroups: []
         	}]; 
         </script>
     </head>
@@ -327,13 +327,31 @@
         	                                    <input type="checkbox" name="brandChange">Edit
         	                                </label>
         	                            </td>
+        	                            <td>
+        	                                <label class="checkbox">
+        	                                    <span class="label_ico"></span>
+        	                                    <input type="checkbox" name="brandApprove">Approve
+        	                                </label>
+        	                            </td>
         	                        </tr>
         	                        <tr>
         	                            <td>Access Management</td>
         	                            <td>
         	                                <label class="checkbox">
         	                                    <span class="label_ico"></span>
+        	                                    <input type="checkbox" name="accessManagementView">Edit
+        	                                </label>
+        	                            </td>
+        	                            <td>
+        	                                <label class="checkbox">
+        	                                    <span class="label_ico"></span>
         	                                    <input type="checkbox" name="accessManagementChange">Edit
+        	                                </label>
+        	                            </td>
+        	                            <td>
+        	                                <label class="checkbox">
+        	                                    <span class="label_ico"></span>
+        	                                    <input type="checkbox" name="accessManagementApprove">Approve
         	                                </label>
         	                            </td>
         	                        </tr>
@@ -382,9 +400,9 @@
                         <tr>
                             <td>Toolbox</td>
                             <td>
-                                <span class="table_text_bold">View:</span> <span class="access-management-toolbox-view"><%= data.activity.view ? 'Yes' : 'No' %></span> <br>
-                                <span class="table_text_bold">Change:</span> <span class="access-management-toolbox-change"><%= data.activity.change ? 'Yes' : 'No' %></span> <br>
-                                <span class="table_text_bold">Approve:</span> <span class="access-management-toolbox-approve"><%= data.activity.approve ? 'Yes' : 'No' %></span> <br>
+                                <span class="table_text_bold">View:</span> <span class="access-management-toolbox-view"><%= data.toolbox.view ? 'Yes' : 'No' %></span> <br>
+                                <span class="table_text_bold">Change:</span> <span class="access-management-toolbox-change"><%= data.toolbox.change ? 'Yes' : 'No' %></span> <br>
+                                <span class="table_text_bold">Approve:</span> <span class="access-management-toolbox-approve"><%= data.toolbox.approve ? 'Yes' : 'No' %></span> <br>
                             </td>
                             <td></td>
                             <td></td>
@@ -392,9 +410,9 @@
                         <tr>
                             <td>Brand</td>
                             <td>
-                                <span class="table_text_bold">View:</span> <span class="access-management-brand-view"><%= data.activity.view ? 'Yes' : 'No' %></span> <br>
-                                <span class="table_text_bold">Change:</span> <span class="access-management-brand-change"><%= data.activity.change ? 'Yes' : 'No' %></span> <br>
-                                <span class="table_text_bold">Approve:</span> <span class="access-management-brand-approve"><%= data.activity.approve ? 'Yes' : 'No' %></span> <br>
+                                <span class="table_text_bold">View:</span> <span class="access-management-brand-view"><%= data.brand.view ? 'Yes' : 'No' %></span> <br>
+                                <span class="table_text_bold">Change:</span> <span class="access-management-brand-change"><%= data.brand.change ? 'Yes' : 'No' %></span> <br>
+                                <span class="table_text_bold">Approve:</span> <span class="access-management-brand-approve"><%= data.brand.approve ? 'Yes' : 'No' %></span> <br>
                             </td>
                             <td></td>
                             <td></td>
@@ -402,9 +420,9 @@
                         <tr>
                             <td>Access <br> management</td>
                             <td>
-                                <span class="table_text_bold">View:</span> <span class="access-management-access-management-view"><%= data.activity.view ? 'Yes' : 'No' %></span> <br>
-                                <span class="table_text_bold">Change:</span> <span class="access-management-access-management-change"><%= data.activity.change ? 'Yes' : 'No' %></span> <br>
-                                <span class="table_text_bold">Approve:</span> <span class="access-management-access-management-approve"><%= data.activity.approve ? 'Yes' : 'No' %></span> <br>
+                                <span class="table_text_bold">View:</span> <span class="access-management-access-management-view"><%= data.accessManagement.view ? 'Yes' : 'No' %></span> <br>
+                                <span class="table_text_bold">Change:</span> <span class="access-management-access-management-change"><%= data.accessManagement.change ? 'Yes' : 'No' %></span> <br>
+                                <span class="table_text_bold">Approve:</span> <span class="access-management-access-management-approve"><%= data.accessManagement.approve ? 'Yes' : 'No' %></span> <br>
                             </td>
                             <td></td>
                             <td></td>
