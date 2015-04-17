@@ -14,7 +14,8 @@ $(document).ready(function() {
 		$('.calendar_block').toggle();
 	})
 
-	
-	$("#datepicker").daterangepicker();
+	if($("#datepicker").length) {
+		$("#datepicker").daterangepicker();
+	}
 
 });

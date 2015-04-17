@@ -14,8 +14,9 @@ $(document).ready(function() {
 		$('.calendar_block').toggle();
 	})
 
-	
-	$("#datepicker").daterangepicker();
+	if($("#datepicker").length) {
+		$("#datepicker").daterangepicker();
+	}
 
 });;$(document).ready(function() {
 	var $self = $(this),
