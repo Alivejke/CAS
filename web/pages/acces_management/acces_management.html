@@ -42,8 +42,8 @@
     			},
         		adGroups: ['AD Business Admin', 'AD CAS Initiator']
         	}, {
-        		id: '1',
-        		name: 'CAS Initiator',
+        		id: '2',
+        		name: 'CAS Initiator 2',
     			activity: {
     				view: true,
     				change: true,
@@ -64,7 +64,7 @@
     				change: true,
     				approve: false
     			},
-        		adGroups: []
+        		adGroups: ['AD Business Admin', 'AD CAS Initiator', 'AD Trade Approver']
         	}]; 
         </script>
     </head>
@@ -133,8 +133,7 @@
                                 </td>
                                 <td class="access-management-ad-groups">
                                     AD Business Admin, <br>
-                                    AD CAS Initiator, <br>
-                                    AD Trade Approver <br>
+                                    AD CAS Initiator <br>
                                 </td>   
                                 <td class="button_table">   
                                     <button class="btn btn_rounded btn_gray btn_edit">edit</button><br>
@@ -265,7 +264,7 @@
         	        <ul class="popup_acces_managment_list">
         	            <li>
         	                <h2 class="popup_title">Name</h2>
-        	                <input type="text" placeholder="Business admin" class="input_default" name="name">
+        	                <input type="text" placeholder="Business admin" class="input_default" name="name" value="<%= data.name %>">
         	            </li>
         	            <li>
         	                <h2 class="popup_title">Rights</h2> 
@@ -276,19 +275,19 @@
         	                            <td>
         	                                <label class="checkbox">
         	                                    <span class="label_ico"></span>
-        	                                    <input type="checkbox" name="activityView">View
+        	                                    <input type="checkbox" name="activityView" <%= data.activity.view ? 'checked="checked"' : '' %>>View
         	                                </label>
         	                            </td>
         	                            <td>
         	                                <label class="checkbox">
         	                                    <span class="label_ico"></span>
-        	                                    <input type="checkbox" name="activityChange">Edit
+        	                                    <input type="checkbox" name="activityChange" <%= data.activity.change ? 'checked="checked"' : '' %>>Edit
         	                                </label>
         	                            </td>
         	                            <td>
         	                                <label class="checkbox">
         	                                    <span class="label_ico"></span>
-        	                                    <input type="checkbox" name="activityApprove">Approve
+        	                                    <input type="checkbox" name="activityApprove" <%= data.activity.approve ? 'checked="checked"' : '' %>>Approve
         	                                </label>
         	                            </td>
         	                        </tr>
@@ -297,19 +296,19 @@
         	                            <td>
         	                                <label class="checkbox">
         	                                    <span class="label_ico"></span>
-        	                                    <input type="checkbox" name="toolboxView">View
+        	                                    <input type="checkbox" name="toolboxView" <%= data.toolbox.view ? 'checked="checked"' : '' %>>View
         	                                </label>
         	                            </td>
         	                            <td>
         	                                <label class="checkbox">
         	                                    <span class="label_ico"></span>
-        	                                    <input type="checkbox" name="toolboxChange">Edit
+        	                                    <input type="checkbox" name="toolboxChange" <%= data.toolbox.change ? 'checked="checked"' : '' %>>Edit
         	                                </label>
         	                            </td>
         	                            <td>
         	                                <label class="checkbox">
         	                                    <span class="label_ico"></span>
-        	                                    <input type="checkbox" name="toolboxApprove">Approve
+        	                                    <input type="checkbox" name="toolboxApprove" <%= data.toolbox.approve ? 'checked="checked"' : '' %>>Approve
         	                                </label>
         	                            </td>
         	                        </tr>
@@ -318,19 +317,19 @@
         	                            <td>
         	                                <label class="checkbox">
         	                                    <span class="label_ico"></span>
-        	                                    <input type="checkbox" name="brandView">View
+        	                                    <input type="checkbox" name="brandView" <%= data.brand.view ? 'checked="checked"' : '' %>>View
         	                                </label>
         	                            </td>
         	                            <td>
         	                                <label class="checkbox">
         	                                    <span class="label_ico"></span>
-        	                                    <input type="checkbox" name="brandChange">Edit
+        	                                    <input type="checkbox" name="brandChange" <%= data.brand.change ? 'checked="checked"' : '' %>>Edit
         	                                </label>
         	                            </td>
         	                            <td>
         	                                <label class="checkbox">
         	                                    <span class="label_ico"></span>
-        	                                    <input type="checkbox" name="brandApprove">Approve
+        	                                    <input type="checkbox" name="brandApprove" <%= data.brand.approve ? 'checked="checked"' : '' %>>Approve
         	                                </label>
         	                            </td>
         	                        </tr>
@@ -339,19 +338,19 @@
         	                            <td>
         	                                <label class="checkbox">
         	                                    <span class="label_ico"></span>
-        	                                    <input type="checkbox" name="accessManagementView">Edit
+        	                                    <input type="checkbox" name="accessManagementView" <%= data.accessManagement.view ? 'checked="checked"' : '' %>>Edit
         	                                </label>
         	                            </td>
         	                            <td>
         	                                <label class="checkbox">
         	                                    <span class="label_ico"></span>
-        	                                    <input type="checkbox" name="accessManagementChange">Edit
+        	                                    <input type="checkbox" name="accessManagementChange" <%= data.accessManagement.change ? 'checked="checked"' : '' %>>Edit
         	                                </label>
         	                            </td>
         	                            <td>
         	                                <label class="checkbox">
         	                                    <span class="label_ico"></span>
-        	                                    <input type="checkbox" name="accessManagementApprove">Approve
+        	                                    <input type="checkbox" name="accessManagementApprove" <%= data.accessManagement.approve ? 'checked="checked"' : '' %>>Approve
         	                                </label>
         	                            </td>
         	                        </tr>
@@ -362,9 +361,9 @@
         	                <h2 class="popup_title">AD Groups</h2>
         	                <div class="select_wrap select_default select_multiple_default select_multiple_search select_long">
         	                    <select class="js-example-basic-multiple" name="adGroups" multiple="multiple">
-        	                        <option value="1">PMI RU MOS UR Toolbox sharing tool Viewer 1</option>
-        	                        <option value="2">PMI RU MOS UR Toolbox sharing tool Viewer 2</option>
-        	                        <option value="3">PMI RU MOS UR Toolbox sharing tool Viewer 3</option>
+        	                        <option value="AD Business Admin">AD Business Admin</option>
+        	                        <option value="AD CAS Initiator">AD CAS Initiator</option>
+        	                        <option value="AD Trade Approver ">AD Trade Approver </option>
         	                    </select>
         	                </div>
         	            </li>
@@ -378,7 +377,7 @@
         </script>
 
         <script type="text/html" id="popup-acces-item-tpl">
-        	<div class="access-management-item" data-id="1">
+        	<div class="access-management-item" data-id="<%= data.id %>">
                 <div class="wrap padding-left">
                     <table class="approval_table wrap">
                         <tr>
