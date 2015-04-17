@@ -76,7 +76,7 @@
                         $.extend(accessManagementData[idx], sendData);
                         accessManagementData[idx].adGroups = sendData.adGroups;
 
-                        $changedItem.find('.access-management-item-name').text(data.name);
+                        $changedItem.find('.access-management-name').text(data.name);
                         $changedItem.find('.access-management-activity-view').text(data.activity.view ? 'Yes' : 'No');
                         $changedItem.find('.access-management-activity-change').text(data.activity.change ? 'Yes' : 'No');
                         $changedItem.find('.access-management-activity-approve').text(data.activity.approve ? 'Yes' : 'No');
