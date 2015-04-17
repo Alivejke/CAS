@@ -1,133 +1,164 @@
 ;$(function () {
-	var $accessManagementBlock = $('.access-management-block'),
-		$accessManagementItems = $accessManagementBlock.find('.access-management-item'),
-		accessManagementPopupHtml = $('#popup-acces-managment-tpl').html(),
-		$popupWrap = $('#popup_block'),
-		$accessPopup;
+    var $accessManagementBlock = $('.access-management-block'),
+        $accessManagementItems = $accessManagementBlock.find('.access-management-item'),
+        accessManagementPopupHtml = $('#popup-acces-managment-tpl').html(),
+        accessManagementItemHtml = $('#popup-acces-item-tpl').html(),
+        $popupWrap = $('#popup_block'),
+        $accessPopup;
 
-	function closePopup () {
-		$accessPopup.off('click');
-		$accessPopup.remove();
-		$popupWrap.removeClass('popup_active');
-	}
+    function closePopup () {
+        $accessPopup.off('click');
+        $accessPopup.remove();
+        $popupWrap.removeClass('popup_active');
+    }
 
-	function openPopup (data) {
-		var tpl = _.template(accessManagementPopupHtml);
+    function openPopup (data) {
+        var tpl = _.template(accessManagementPopupHtml);
 
-		$accessPopup = $( tpl({ data: data ? data : {} }) );
+        $accessPopup = $( tpl({ data: data ? data : {} }) );
 
-		var $form = $accessPopup.find('form');
+        var $form = $accessPopup.find('form');
 
-		$accessPopup.on('click', '.btn-save', function (event) {
-			event.preventDefault();
+        $accessPopup.on('click', '.btn-save', function (event) {
+            event.preventDefault();
 
-			var sendData = {
-				id: data ? data.id : null,
-				subject: $form.find('[name="subject"]').val(),
-				text: $form.find('[name="text"]').val()
-			};
+            var sendData = {
+                id: data ? data.id : null,
+                name: $form.find('[name="name"]').val(),
+                activity: {
+                    view: $form.find('[name="activityView"]').val(),
+                    change: $form.find('[name="activityChange"]').val(),
+                    approve: $form.find('[name="activityApprove"]').val()
+                },
+                toolbox: {
+                    view: $form.find('[name="toolboxView"]').val(),
+                    change: $form.find('[name="toolboxView"]').val(),
+                    approve: $form.find('[name="toolboxView"]').val()
+                },
+                brand: {
+                    view: $form.find('[name="brandView"]').val(),
+                    change: $form.find('[name="brandView"]').val(),
+                    approve: $form.find('[name="brandView"]').val()
+                },
+                accessManagement: {
+                    view: $form.find('[name="accessManagementView"]').val(),
+                    change: $form.find('[name="accessManagementView"]').val(),
+                    approve: $form.find('[name="accessManagementView"]').val()
+                },
+                adGroups: $form.find('[name="adGroups"]').val()
 
-			$.ajax({
-				url: $form.attr('action'),
-				type: 'GET',
-				dataType: 'json',
-				data: sendData,
-				success: function (responce) {
-					closePopup();
+            };
 
-					if(data && data.id) {
-						var idx = _.findIndex(emailNotificationsData, function(item) {
-								return item.id == data.id;
-							}),
-							$changedItem = $emailNotificationItems.filter('[data-id="' + data.id + '"]');
+            $.ajax({
+                url: $form.attr('action'),
+                type: 'GET',
+                dataType: 'json',
+                data: sendData,
+                success: function (responce) {
+                    closePopup();
 
-						$.extend(emailNotificationsData[idx], sendData);
-						$changedItem.find('.email-notification-label').text(data.label);
-						$changedItem.find('.email-notification-subject').text(data.subject);
-						$changedItem.find('.email-notification-text').text(data.text);
-					} else {
+                    if(data && data.id) {
+                        var idx = _.findIndex(accessManagementData, function(item) {
+                                return item.id == data.id;
+                            }),
+                            $changedItem = $accessManagementItems.filter('[data-id="' + data.id + '"]');
 
-						if(!sendData.id) sendData.id = Math.random() + "";
+                        $.extend(accessManagementData[idx], sendData);
+                        $changedItem.find('.access-management-item-name').text(data.name);
+                        $changedItem.find('.access-management-activity-view').text(data.activity.view ? 'Yes' : 'No');
+                        $changedItem.find('.access-management-activity-change').text(data.activity.change ? 'Yes' : 'No');
+                        $changedItem.find('.access-management-activity-approve').text(data.activity.approve ? 'Yes' : 'No');
+                        $changedItem.find('.access-management-ad-groups').text(data.adGroups ? data.adGroups.join(', <br>') : '');
+                        $changedItem.find('.access-management-toolbox-view').text(data.toolbox.view ? 'Yes' : 'No');
+                        $changedItem.find('.access-management-toolbox-change').text(data.toolbox.change ? 'Yes' : 'No');
+                        $changedItem.find('.access-management-toolbox-approve').text(data.toolbox.approve ? 'Yes' : 'No');
+                        $changedItem.find('.access-management-brand-view').text(data.brand.view ? 'Yes' : 'No');
+                        $changedItem.find('.access-management-brand-change').text(data.brand.change ? 'Yes' : 'No');
+                        $changedItem.find('.access-management-brand-approve').text(data.brand.approve ? 'Yes' : 'No');
+                        $changedItem.find('.access-management-access-management-view').text(data.accessManagement.view ? 'Yes' : 'No');
+                        $changedItem.find('.access-management-access-management-change').text(data.accessManagement.change ? 'Yes' : 'No');
+                        $changedItem.find('.access-management-access-management-approve').text(data.accessManagement.approve ? 'Yes' : 'No');
+                    } else {
 
-						var itemTpl = _.template(emailNotifItemHtml),
-							$item = itemTpl({ data: responce.data ? responce.data : sendData, isOdd: $emailNotificationItems.length % 2 == 0 });
+                        if(!sendData.id) sendData.id = Math.random() + "";
 
-						$emailNotificationItemsWrap.append( $item );
-						$emailNotificationItems = $emailNotificationItemsWrap.find('.email-notification-item');
+                        var itemTpl = _.template(accessManagementItemHtml),
+                            $item = itemTpl({ data: responce.data ? responce.data : sendData, isOdd: $accessManagementItems.length % 2 == 0 });
 
-						emailNotificationsData.push(responce.data ? responce.data : sendData);
-					}
-				},
-				error: function (argument) {
-					alert('Something went wrong');
-				}
-			});
-		});
+                        $accessManagementBlock.append( $item );
+                        $accessManagementItems = $accessManagementBlock.find('.access-management-item');
 
-		$accessPopup.on('click', '.btn-cansel', function (event) {
-			event.preventDefault();
+                        accessManagementData.push(responce.data ? responce.data : sendData);
+                    }
+                },
+                error: function (argument) {
+                    alert('Something went wrong');
+                }
+            });
+        });
 
-			closePopup();
-		});
+        $accessPopup.on('click', '.btn-cansel', function (event) {
+            event.preventDefault();
 
-		$popupWrap.addClass('popup_active').append($accessPopup);
+            closePopup();
+        });
 
-		$('.js-example-basic-multiple').select2({
-	        minimumResultsForSearch: -1,
-	        escapeMarkup: function  (markup) {
-	            return markup;
-	        }
-	    });
+        $popupWrap.addClass('popup_active').append($accessPopup);
 
-	    $('input:radio, input:checkbox').checkedPolyfill();
-	    $( ".checkbox input:checkbox" ).on( "click", function() {
-	           if($(this).is(":checked")) {$(this).parent().addClass('chacked'); }
-	           else {$(this).parent().removeClass('chacked');}
-	        });
-	        
-	        $( ".checkbox input:checkbox" ).each(function () {
-	            if($(this).is(":checked")) {$(this).parent().addClass('chacked'); }
-	            else {$(this).parent().removeClass('chacked');}
-	        });
-	}
+        $('.js-example-basic-multiple').select2({
+            minimumResultsForSearch: -1,
+            escapeMarkup: function  (markup) {
+                return markup;
+            }
+        });
 
-	$accessManagementBlock.on('click', '.btn_delete', function (event) {
-		event.preventDefault();
+        initializeCheckboxes();
+    }
 
-		var $item = $(event.currentTarget).closest('.access-management-item'),
-			id = $item.data('id');
+    $accessManagementBlock.on('click', '.btn_delete', function (event) {
+        event.preventDefault();
 
-		$.ajax({
-			url: '/request.json',
-			type: 'GET',
-			dataType: 'json',
-			data: {
-				id: id
-			},
-			success: function () {
-				var idx = _.findIndex(accessManagementData, function(item) {
-					return item.id == id;
-				});
+        var $item = $(event.currentTarget).closest('.access-management-item'),
+            id = $item.data('id');
 
-				accessManagementData.splice(idx, 1);
+        $.ajax({
+            url: '/request.json',
+            type: 'GET',
+            dataType: 'json',
+            data: {
+                id: id
+            },
+            success: function () {
+                var idx = _.findIndex(accessManagementData, function(item) {
+                    return item.id == id;
+                });
 
-				$item.remove();
-				$accessManagementItems = $accessManagementBlock.find('.access-management-item');
-			},
-			error: function () {
-				alert('Something went wrong');
-			}
-		});
-	});
+                accessManagementData.splice(idx, 1);
+
+                $item.remove();
+                $accessManagementItems = $accessManagementBlock.find('.access-management-item');
+            },
+            error: function () {
+                alert('Something went wrong');
+            }
+        });
+    });
 
 
-	$accessManagementBlock.on('click', '.btn_edit', function (event) {
-		event.preventDefault();
+    $accessManagementBlock.on('click', '.btn_edit', function (event) {
+        event.preventDefault();
 
-		openPopup();
-	});
+        openPopup();
+    });
 
-	$popupWrap.on('click', '#popup_fone', function () {
-		closePopup();
-	});
+
+    $('.btn-add-role').on('click', function (event) {
+        event.preventDefault();
+
+        openPopup();
+    });
+
+    $popupWrap.on('click', '#popup_fone', function () {
+        closePopup();
+    });
 });
