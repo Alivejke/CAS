@@ -43,3 +43,129 @@ $calendar-font-size: 12px;
 		color: $distinction-color;
 	}
 }
+
+
+
+.comiseo-daterangepicker-presets {
+	display: none;
+}
+
+.comiseo-daterangepicker {
+	&.ui-corner-all {
+		border-color: #dfe1e0;
+		@include border-radius(0);
+		border-bottom: none;
+	}
+	.ui-datepicker-title {
+		font-family: pragmatica,Helvetica,Arial,sans-serif;
+		font-weight: 600;
+		font-size: em($calendar_title-font-size);
+		line-height: 1;
+		color: #7e8890;
+		text-transform: uppercase;
+	}
+	.ui-datepicker {
+		font-family: pragmatica,Helvetica,Arial,sans-serif;
+		.ui-state-highlight {
+			border-width: 0;
+			border: none;
+			padding: 0;
+			background: none;
+		}
+		th {
+			color: #7e8890;
+		}
+		td {
+			a {
+				font-weight: 300;
+				font-size: em(13px);
+				color: #7e8890;
+				background: none;
+				border: 1px solid transparent;
+				width: em(23px, 13px);
+				height: em(23px, 13px);
+				line-height: em(17px, 13px);
+				border-radius: 100%;
+				text-align: center;
+			}
+		}
+	}
+	> .comiseo-daterangepicker-main {
+		&.ui-widget-content {
+			border: none;
+		}
+	}
+	.ui-state-hover,
+	.ui-widget-content .ui-state-hover,
+	.ui-widget-header .ui-state-hover,
+	.ui-state-focus,
+	.ui-widget-content .ui-state-focus,
+	.ui-widget-header .ui-state-focus {
+		background: transparent;
+	}
+	.ui-widget-content {
+		border-width: 0;
+		border: none;
+		padding: 0;
+		background: none;
+	}
+}
+
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default {
+	font-family: pragmatica,Helvetica,Arial,sans-serif;
+}
+
+.comiseo-daterangepicker-right {
+	.comiseo-daterangepicker-calendar {
+		border: none;
+	}
+	.comiseo-daterangepicker-buttonpanel {
+		display: none;
+	}
+}
+
+.ui-datepicker {
+	.ui-widget-header {
+		border: none;
+		background: none;
+		color: $gray-color;
+	}
+	.ui-datepicker-prev {
+		span {
+			background: url(/i/sprite.png) -80px -160px no-repeat;
+		}
+	}
+	.ui-datepicker-next {
+		span {
+			background: url(/i/sprite.png) -120px -160px no-repeat;
+		}
+	}
+	.ui-widget-content {
+		background: #f8faf9;
+	}
+}
+
+.comiseo-daterangepicker-triggerbutton {
+	&.ui-button {
+		display: none;
+	}
+}
+
+.datepicker_bottom_block {
+	position: absolute;
+}
+
+.activies_page_wrap {
+	.calendar_block {
+		.datepicker_bottom_block {
+			.info_block {
+				border-left: 1px solid #cecfd0;
+				border-right: 1px solid #cecfd0;
+			}
+			.reset_block  {
+				border: 1px solid #cecfd0;
+			}
+		}
+	}
+}
+

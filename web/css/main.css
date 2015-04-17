@@ -4301,117 +4301,118 @@ textarea {
 /* line 3, ../../dev/sass/specifics/_icons.scss */
 .sprite.sprite_ico {
   display: inline-block;
+  cursor: pointer;
 }
 
-/* line 8, ../../dev/sass/specifics/_icons.scss */
+/* line 9, ../../dev/sass/specifics/_icons.scss */
 .ico_star {
   background-position: -79px 1px;
   width: 18px;
   height: 19px;
 }
-/* line 12, ../../dev/sass/specifics/_icons.scss */
+/* line 13, ../../dev/sass/specifics/_icons.scss */
 .ico_star:hover {
   background-position: -80px -40px;
 }
-/* line 15, ../../dev/sass/specifics/_icons.scss */
+/* line 16, ../../dev/sass/specifics/_icons.scss */
 .ico_star:active {
   background-position: -80px -80px;
 }
 
-/* line 20, ../../dev/sass/specifics/_icons.scss */
+/* line 21, ../../dev/sass/specifics/_icons.scss */
 .ico_basket {
   background-position: -200px 0px;
   width: 15px;
   height: 20px;
 }
-/* line 24, ../../dev/sass/specifics/_icons.scss */
+/* line 25, ../../dev/sass/specifics/_icons.scss */
 .ico_basket:hover {
   background-position: -200px -80px;
   top: -3px;
   width: 20px;
   height: 25px;
 }
-/* line 30, ../../dev/sass/specifics/_icons.scss */
+/* line 31, ../../dev/sass/specifics/_icons.scss */
 .ico_basket:active {
   background-position: -200px -160px;
 }
 
-/* line 35, ../../dev/sass/specifics/_icons.scss */
+/* line 36, ../../dev/sass/specifics/_icons.scss */
 .ico_upload {
   background-position: -440px 0px;
   width: 18px;
   height: 17px;
 }
-/* line 39, ../../dev/sass/specifics/_icons.scss */
+/* line 40, ../../dev/sass/specifics/_icons.scss */
 .ico_upload:hover {
   background-position: -440px -80px;
 }
-/* line 42, ../../dev/sass/specifics/_icons.scss */
+/* line 43, ../../dev/sass/specifics/_icons.scss */
 .ico_upload:active {
   background-position: -440px -160px;
 }
 
-/* line 47, ../../dev/sass/specifics/_icons.scss */
+/* line 48, ../../dev/sass/specifics/_icons.scss */
 .ico_edit {
   background-position: -520px 0px;
   width: 19px;
   height: 19px;
 }
-/* line 51, ../../dev/sass/specifics/_icons.scss */
+/* line 52, ../../dev/sass/specifics/_icons.scss */
 .ico_edit:hover {
   background-position: -520px -80px;
 }
-/* line 54, ../../dev/sass/specifics/_icons.scss */
+/* line 55, ../../dev/sass/specifics/_icons.scss */
 .ico_edit:active {
   background-position: -520px -160px;
 }
 
-/* line 59, ../../dev/sass/specifics/_icons.scss */
+/* line 60, ../../dev/sass/specifics/_icons.scss */
 .ico_download {
   background-position: -600px 0px;
   width: 17px;
   height: 16px;
 }
-/* line 63, ../../dev/sass/specifics/_icons.scss */
+/* line 64, ../../dev/sass/specifics/_icons.scss */
 .ico_download:hover {
   background-position: -600px -80px;
 }
-/* line 66, ../../dev/sass/specifics/_icons.scss */
+/* line 67, ../../dev/sass/specifics/_icons.scss */
 .ico_download:active {
   background-position: -600px -160px;
 }
 
-/* line 71, ../../dev/sass/specifics/_icons.scss */
+/* line 72, ../../dev/sass/specifics/_icons.scss */
 .ico_add {
   background-position: -760px 0px;
   width: 18px;
   height: 18px;
 }
-/* line 75, ../../dev/sass/specifics/_icons.scss */
+/* line 76, ../../dev/sass/specifics/_icons.scss */
 .ico_add:hover {
   background-position: -760px -80px;
 }
-/* line 78, ../../dev/sass/specifics/_icons.scss */
+/* line 79, ../../dev/sass/specifics/_icons.scss */
 .ico_add:active {
   background-position: -760px -160px;
 }
 
-/* line 83, ../../dev/sass/specifics/_icons.scss */
+/* line 84, ../../dev/sass/specifics/_icons.scss */
 .ico_status {
   background-position: -120px 0px;
   width: 12px;
   height: 12px;
 }
-/* line 87, ../../dev/sass/specifics/_icons.scss */
+/* line 88, ../../dev/sass/specifics/_icons.scss */
 .ico_status:hover {
   background-position: -120px -40px;
 }
-/* line 90, ../../dev/sass/specifics/_icons.scss */
+/* line 91, ../../dev/sass/specifics/_icons.scss */
 .ico_status:active {
   background-position: -120px -80px;
 }
 
-/* line 95, ../../dev/sass/specifics/_icons.scss */
+/* line 96, ../../dev/sass/specifics/_icons.scss */
 .ico_status_big {
   width: 1.66667em;
   height: 1.66667em;
@@ -4420,12 +4421,12 @@ textarea {
   -webkit-border-radius: 100%;
   border-radius: 100%;
 }
-/* line 101, ../../dev/sass/specifics/_icons.scss */
+/* line 102, ../../dev/sass/specifics/_icons.scss */
 .ico_status_big.error {
   background-color: #b70e12;
 }
 
-/* line 106, ../../dev/sass/specifics/_icons.scss */
+/* line 107, ../../dev/sass/specifics/_icons.scss */
 .ico_status_big_wrap {
   width: 2em;
   height: 2em;
@@ -4435,64 +4436,64 @@ textarea {
   background-color: #fff;
 }
 
-/* line 113, ../../dev/sass/specifics/_icons.scss */
+/* line 114, ../../dev/sass/specifics/_icons.scss */
 .ico_calendar {
   background-position: -840px 0px;
   width: 12px;
   height: 14px;
 }
-/* line 117, ../../dev/sass/specifics/_icons.scss */
+/* line 118, ../../dev/sass/specifics/_icons.scss */
 .ico_calendar.ico_calendar_big {
   background-position: -840px -40px;
 }
 
-/* line 121, ../../dev/sass/specifics/_icons.scss */
+/* line 122, ../../dev/sass/specifics/_icons.scss */
 .ico_status_basket {
   background-position: -1200px 0px;
   width: 30px;
   height: 30px;
 }
 
-/* line 126, ../../dev/sass/specifics/_icons.scss */
+/* line 127, ../../dev/sass/specifics/_icons.scss */
 .ico_fragile {
   background-position: -1240px 0px;
   width: 30px;
   height: 30px;
 }
 
-/* line 131, ../../dev/sass/specifics/_icons.scss */
+/* line 132, ../../dev/sass/specifics/_icons.scss */
 .ico_ecol {
   background-position: -1280px 0px;
   width: 30px;
   height: 30px;
 }
 
-/* line 136, ../../dev/sass/specifics/_icons.scss */
+/* line 137, ../../dev/sass/specifics/_icons.scss */
 .ico_tree {
   background-position: -880px 0px;
   width: 57px;
   height: 55px;
 }
 
-/* line 141, ../../dev/sass/specifics/_icons.scss */
+/* line 142, ../../dev/sass/specifics/_icons.scss */
 .ico_glass {
   background-position: -960px 0px;
   width: 57px;
   height: 55px;
 }
 
-/* line 146, ../../dev/sass/specifics/_icons.scss */
+/* line 147, ../../dev/sass/specifics/_icons.scss */
 .ico_cart {
   background-position: -1040px 0px;
   width: 57px;
   height: 55px;
 }
 
-/* line 151, ../../dev/sass/specifics/_icons.scss */
+/* line 152, ../../dev/sass/specifics/_icons.scss */
 .ico_search {
   background-position: 0px -120px;
   width: 21px;
-  height: 25px;
+  height: 21px;
 }
 
 /* line 1, ../../dev/sass/specifics/_buttons.scss */
@@ -6420,6 +6421,130 @@ textarea {
   color: #b70e12;
 }
 
+/* line 49, ../../dev/sass/specifics/_calendar.scss */
+.comiseo-daterangepicker-presets {
+  display: none;
+}
+
+/* line 54, ../../dev/sass/specifics/_calendar.scss */
+.comiseo-daterangepicker.ui-corner-all {
+  border-color: #dfe1e0;
+  -moz-border-radius: 0;
+  -webkit-border-radius: 0;
+  border-radius: 0;
+  border-bottom: none;
+}
+/* line 59, ../../dev/sass/specifics/_calendar.scss */
+.comiseo-daterangepicker .ui-datepicker-title {
+  font-family: pragmatica,Helvetica,Arial,sans-serif;
+  font-weight: 600;
+  font-size: 0.8em;
+  line-height: 1;
+  color: #7e8890;
+  text-transform: uppercase;
+}
+/* line 67, ../../dev/sass/specifics/_calendar.scss */
+.comiseo-daterangepicker .ui-datepicker {
+  font-family: pragmatica,Helvetica,Arial,sans-serif;
+}
+/* line 69, ../../dev/sass/specifics/_calendar.scss */
+.comiseo-daterangepicker .ui-datepicker .ui-state-highlight {
+  border-width: 0;
+  border: none;
+  padding: 0;
+  background: none;
+}
+/* line 75, ../../dev/sass/specifics/_calendar.scss */
+.comiseo-daterangepicker .ui-datepicker th {
+  color: #7e8890;
+}
+/* line 79, ../../dev/sass/specifics/_calendar.scss */
+.comiseo-daterangepicker .ui-datepicker td a {
+  font-weight: 300;
+  font-size: 0.86667em;
+  color: #7e8890;
+  background: none;
+  border: 1px solid transparent;
+  width: 1.76923em;
+  height: 1.76923em;
+  line-height: 1.30769em;
+  border-radius: 100%;
+  text-align: center;
+}
+/* line 94, ../../dev/sass/specifics/_calendar.scss */
+.comiseo-daterangepicker > .comiseo-daterangepicker-main.ui-widget-content {
+  border: none;
+}
+/* line 98, ../../dev/sass/specifics/_calendar.scss */
+.comiseo-daterangepicker .ui-state-hover,
+.comiseo-daterangepicker .ui-widget-content .ui-state-hover,
+.comiseo-daterangepicker .ui-widget-header .ui-state-hover,
+.comiseo-daterangepicker .ui-state-focus,
+.comiseo-daterangepicker .ui-widget-content .ui-state-focus,
+.comiseo-daterangepicker .ui-widget-header .ui-state-focus {
+  background: transparent;
+}
+/* line 106, ../../dev/sass/specifics/_calendar.scss */
+.comiseo-daterangepicker .ui-widget-content {
+  border-width: 0;
+  border: none;
+  padding: 0;
+  background: none;
+}
+
+/* line 114, ../../dev/sass/specifics/_calendar.scss */
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default {
+  font-family: pragmatica,Helvetica,Arial,sans-serif;
+}
+
+/* line 119, ../../dev/sass/specifics/_calendar.scss */
+.comiseo-daterangepicker-right .comiseo-daterangepicker-calendar {
+  border: none;
+}
+/* line 122, ../../dev/sass/specifics/_calendar.scss */
+.comiseo-daterangepicker-right .comiseo-daterangepicker-buttonpanel {
+  display: none;
+}
+
+/* line 128, ../../dev/sass/specifics/_calendar.scss */
+.ui-datepicker .ui-widget-header {
+  border: none;
+  background: none;
+  color: #45484C;
+}
+/* line 134, ../../dev/sass/specifics/_calendar.scss */
+.ui-datepicker .ui-datepicker-prev span {
+  background: url(/i/sprite.png) -80px -160px no-repeat;
+}
+/* line 139, ../../dev/sass/specifics/_calendar.scss */
+.ui-datepicker .ui-datepicker-next span {
+  background: url(/i/sprite.png) -120px -160px no-repeat;
+}
+/* line 143, ../../dev/sass/specifics/_calendar.scss */
+.ui-datepicker .ui-widget-content {
+  background: #f8faf9;
+}
+
+/* line 149, ../../dev/sass/specifics/_calendar.scss */
+.comiseo-daterangepicker-triggerbutton.ui-button {
+  display: none;
+}
+
+/* line 154, ../../dev/sass/specifics/_calendar.scss */
+.datepicker_bottom_block {
+  position: absolute;
+}
+
+/* line 161, ../../dev/sass/specifics/_calendar.scss */
+.activies_page_wrap .calendar_block .datepicker_bottom_block .info_block {
+  border-left: 1px solid #cecfd0;
+  border-right: 1px solid #cecfd0;
+}
+/* line 165, ../../dev/sass/specifics/_calendar.scss */
+.activies_page_wrap .calendar_block .datepicker_bottom_block .reset_block {
+  border: 1px solid #cecfd0;
+}
+
 /* line 1, ../../dev/sass/specifics/_checkbox.scss */
 input[type="checkbox"] {
   display: inline-block;
@@ -6441,16 +6566,17 @@ label.checkbox .label_ico {
   background: none;
   border: 1px solid #c2c2c2;
   background: url(/i/sprite.png) 0px -240px;
+  vertical-align: -4px;
 }
-/* line 127, ../../dev/sass/specifics/_checkbox.scss */
+/* line 128, ../../dev/sass/specifics/_checkbox.scss */
 label.checkbox.chacked .label_ico {
   background: url(/i/sprite.png) -41px -240px;
 }
-/* line 130, ../../dev/sass/specifics/_checkbox.scss */
+/* line 131, ../../dev/sass/specifics/_checkbox.scss */
 label.checkbox.distinction {
   color: #b70e12;
 }
-/* line 132, ../../dev/sass/specifics/_checkbox.scss */
+/* line 133, ../../dev/sass/specifics/_checkbox.scss */
 label.checkbox.distinction .label_ico {
   border-color: #b70e12;
 }
@@ -6784,24 +6910,31 @@ label.checkbox.distinction .label_ico {
   top: -255px;
   left: -1291px;
 }
-/* line 25, ../../dev/sass/specifics/_img_circle.scss */
+/* line 24, ../../dev/sass/specifics/_img_circle.scss */
+.img_circle img.img_activaities_default {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+/* line 31, ../../dev/sass/specifics/_img_circle.scss */
 .img_circle .img_circle-default_text {
   display: none;
   font-size: 1em;
   color: #fff;
   text-transform: uppercase;
 }
-/* line 31, ../../dev/sass/specifics/_img_circle.scss */
+/* line 37, ../../dev/sass/specifics/_img_circle.scss */
 .img_circle.img_circle-default {
   background: #cecfd0;
   line-height: 3.06667em;
   text-align: center;
 }
-/* line 35, ../../dev/sass/specifics/_img_circle.scss */
+/* line 41, ../../dev/sass/specifics/_img_circle.scss */
 .img_circle.img_circle-default img {
   display: none;
 }
-/* line 38, ../../dev/sass/specifics/_img_circle.scss */
+/* line 44, ../../dev/sass/specifics/_img_circle.scss */
 .img_circle.img_circle-default .img_circle-default_text {
   display: inline-block;
 }

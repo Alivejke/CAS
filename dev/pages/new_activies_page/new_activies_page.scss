@@ -22,6 +22,7 @@
         display: block;
         img {
             max-width: 100%;
+            display: inline-block;
         }
     }
     .description textarea{
@@ -41,6 +42,7 @@
                 position: relative;
                 border-color: #cecfd0;
                 background-color: #f8faf9;
+                text-align: center;
                 .btn {
                     width: flex(340px, $base-width-content);
                     left: 27.5%;
@@ -136,7 +138,7 @@
                 position: relative;
                 margin-right: flex(15px);
                 &:hover {
-                    border-color: #42CE7F
+                    border-color: #42CE7F;
                 }
                 img {
                     max-width: 100%;
@@ -365,3 +367,39 @@
     padding-left: em(20px, $base-font-size);
     padding-right: em(20px, $base-font-size);
 }
+
+.attachments_block_wrap {
+    overflow: hidden;
+}
+
+.img_circle_wrap {
+    margin-right: flex(15px, $base-width-content);
+    padding: em(4px);
+    border: 1px solid transparent;
+    @include border-radius(100%);
+    width: flex(71px, $base-width-content);
+    height: em(71px);
+    .img_circle {
+        width: 100%;
+        height: 100%;
+        .ico_search {
+            position: absolute;
+            top: em(20px, $base-font-size);
+            left: flex(20px, 61px);
+            display: none;
+            z-index: 2;
+            @media (max-width: 768px) {
+                top: 1.4em;
+                left: 32.24658%;
+            }
+        }
+    }
+    &:hover {
+        border-color: #42CE7F;
+        .ico_search{
+            display: block;
+        }
+    }
+}
+
+

@@ -23,11 +23,9 @@ $(document).ready(function() {
         }
     });
 
-    $(function() {
-        $( ".checkbox input:checkbox" ).on( "click", function() {
-           if($(this).is(":checked")) {$(this).parent().addClass('chacked'); }
-           else {$(this).parent().removeClass('chacked');}
-        })
+    $( "body" ).on( 'click', '.checkbox input:checkbox', function() {
+       if($(this).is(':checked')) {$(this).parent().addClass('chacked'); }
+       else {$(this).parent().removeClass('chacked');}
     });
     
     $( ".checkbox input:checkbox" ).each(function () {
