@@ -42,9 +42,11 @@
 		background: rgba(255, 255, 255, 0.9);
 	}
 }
+
 .menu {
 	overflow: hidden;
 	position: relative;
+	font-family: 'Brandon Grotesque';
 	// &.scroll {
 	// 	position: fixed;
 	// 	top: em(15px, $base-font-size);
@@ -64,6 +66,7 @@
 	// 		z-index: -1;
 	// 	}
 	// }
+
 	&.scroll {
 		display: inline-block;
 		margin: 0 auto;
@@ -71,30 +74,37 @@
 		left: 50%;
 		
 	}
+
 	.toolbox_wrap & {
 		max-width: flex(560px, $base-width-content);
 	}
+
 	li {
 		float: left;
 		// padding-left: 15px;
 		// background: url(/i/sprite.png) -40px 0 no-repeat;
+	
 		a {
 			text-transform: uppercase;
 			// font-family: 'brandon_grotesquemedium';
-			font-family: pragmatica,Helvetica,Arial,sans-serif;
-			font-weight: 300;
+			// font-family: pragmatica,Helvetica,Arial,sans-serif;
+			// font-weight: 300;
 			color: #c3c3c3;
 			text-decoration: none;
 		}
+
 		&.active {
+			font-weight: 600;
+
 			a {
 				// font-family: 'brandon_grotesquebold';
-				font-family: pragmatica,Helvetica,Arial,sans-serif;
-				font-weight: 300;
+				// font-family: pragmatica,Helvetica,Arial,sans-serif;
+				// font-weight: 300;
 				// color: #909294;
 				color: $gray-color;
 			}
 		}
+
 		&:after {
 			content: '';
 			display: inline-block;
@@ -104,6 +114,7 @@
 			vertical-align: -1px;
 			margin: 0 em(5px) 0 em(-6px);
 		}
+
 		&:last-child {
 			&:after {
 				display: none;
@@ -112,6 +123,7 @@
 		}
 	}
 }
+
 .go_to_search {
 	font-size: em($base-font-size, $base-font-size);
 	// font-family: 'Open Sans', sans-serif;
