@@ -158,7 +158,8 @@ $select_multiple_default-width: 289px;
 	.select2-container {
 		overflow: hidden;
 		width: $select-base-width !important;
-		font-family: pragmatica,Helvetica,Arial,sans-serif;
+		font-family: 'Brandon Grotesque';
+		
 		&.select2-container--default {
 			.select2-selection--single {
 				border-color: #929191;
