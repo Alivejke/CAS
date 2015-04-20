@@ -1,4 +1,4 @@
-$dropdown_btn-width: 194px;
+$dropdown_btn-width: 165px;
 $dropdown-width: 391px;
 $navigation_dropdown_list_news-font-size: 11px;
 
@@ -40,7 +40,7 @@ $navigation_dropdown_list_news-font-size: 11px;
 }
 
 .navigation_dropdown {
-$navigation_dropdown-min-width: flex($dropdown_btn-width, $base-width-content-one);
+	$navigation_dropdown-min-width: flex($dropdown_btn-width, $base-width-content-one);
 	position: relative;
 	min-width: $navigation_dropdown-min-width;
 	// height: em(65px, $base-font-size);
@@ -49,6 +49,7 @@ $navigation_dropdown-min-width: flex($dropdown_btn-width, $base-width-content-on
 	border: none;
 	padding: 0px flex(39px, $base-width-content);
 	cursor: pointer;
+
 	.lt-ie9 & {
 		min-width: $navigation_dropdown-min-width / 2;	
 	}
@@ -69,7 +70,7 @@ $navigation_dropdown-min-width: flex($dropdown_btn-width, $base-width-content-on
 			&.navigation_ico-big {
 				&:before {
 					background-position: 0 -200px;
-					top: em(-3px, $base-font-size);
+					// top: em(-3px, $base-font-size);
 				}
 			}
 		}
@@ -84,16 +85,19 @@ $navigation_dropdown-min-width: flex($dropdown_btn-width, $base-width-content-on
 }
 
 .navigation_dropdown_text {
-	// font-family: 'brandon_grotesquebold';
-	font-family: pragmatica,Helvetica,Arial,sans-serif;
-	font-weight: 300;
-	font-size: em($base-font-size, $base-font-size);
+	font-family: 'Brandon Grotesque';
+	font-weight: 800;
+	font-size: em(10px, $base-font-size);
+	letter-spacing: 1px;
 	text-transform: uppercase;
 	position: relative;
+
 	&.navigation_ico-big {
 		&:before {
 			background-position: 0 -80px;
-			top: em(-2px, $base-font-size);
+			// top: em(-2px, $base-font-size);
+			top: 50%;
+			margin-top: -13px;
 		}
 	}
 	&:before {
