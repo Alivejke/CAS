@@ -306,59 +306,61 @@
                 border: 0px;
             }
         }
-        .datepicker_bottom_block {
-            float: left;
-            width: 100%;
-            z-index: 100;
-            font-size: 12px;
-            .info_block {
-                height: 55px;
-                width: 90%;
-                margin-left: 5%;
-                background: #eeeeee;
-                z-index: 100;
-                position: relative;
-                border-bottom: 1px solid #cecfd0;
-                span {
-                    margin: 30px 0px 0px 145px;
-                    display: inline-block;
-                    color: $gray-color;
-                    &:before {
-                        content: '';
-                        width: 11px;
-                        height: 10px;
-                        margin: 0px 10px 0px 0px;
-                        display: inline-block;
-                        @include border-radius(100%);
-                    }
-                    &.starting {
-                        margin: 20px 0px 0px 145px;
-                        &:before {
-                            background-color: #22c866;                 
-                        }
-                    }
-                    &.ending {
-                        margin: 20px 0px 0px 5px;
-                        &:before {
-                            background-color: #d76969;
-                        }
-                    }
+    }
+}
+
+.datepicker_bottom_block {
+    // float: left;
+    width: 100%;
+    z-index: 100;
+    font-size: 12px;
+    .info_block {
+        height: 55px;
+        width: 90%;
+        margin-left: 5%;
+        background: #eeeeee;
+        z-index: 100;
+        position: relative;
+        // border-bottom: 1px solid #cecfd0;
+        span {
+            margin: 30px 0px 0px 145px;
+            display: inline-block;
+            color: $gray-color;
+            &:before {
+                content: '';
+                width: 11px;
+                height: 10px;
+                margin: 0px 10px 0px 0px;
+                display: inline-block;
+                @include border-radius(100%);
+            }
+            &.starting {
+                margin: 20px 0px 0px 145px;
+                &:before {
+                    background-color: #22c866;                 
                 }
             }
-            .reset_block {
-                height: 55px;
-                width: 90%;
-                margin-left: 5%;
-                background: #eeeeee;
-                z-index: 100;
-                position: relative;
-                border-bottom: 1px solid #cecfd0;
-                .reset {
-                    margin: 20px 0px 0px 252px;
-                    display: inline-block;
-                    color:  #d76969;
+            &.ending {
+                margin: 20px 0px 0px 5px;
+                &:before {
+                    background-color: #d76969;
                 }
             }
+        }
+    }
+    .reset_block {
+        height: 55px;
+        width: 90%;
+        margin-left: 5%;
+        background: #eeeeee;
+        z-index: 100;
+        position: relative;
+        border-bottom: 1px solid #cecfd0;
+        .reset {
+            margin: 20px 0px 0px 252px;
+            display: inline-block;
+            color:  #d76969;
+            cursor: pointer;
         }
     }
 }
@@ -402,4 +404,14 @@
     }
 }
 
+.calendar_from, .calendar_to {
+    background: none;
+    border: none;
+    display: inline-block;
+    width: flex(80px, 370px - 6px * 2);
+    margin-left: flex(3px, 370px - 6px * 2);
+}
 
+.calendar_to {
+    margin-left: flex(5px, 370px - 6px * 2);
+}

@@ -86,24 +86,18 @@
                 <div class="brand_news">
                     <div class="wrap">
                         <div class="status_wrap_center">
-                            <div class="status_wrap">
+                            <div class="status_wrap calendarWrap">
                                 <button class="btn btn_big_rounded">
                                     <span class="sprite sprite_ico ico_status"></span>
-                                    active
+                                    <span class="ico_status_text">active</span> 
                                     <span class="sprite sprite_ico ico_calendar ico_calendar_big"></span>
-                                    <span class="valid">VALID: </span>dd.mm.yyyy — dd.mm.yyyy 
+                                    <span class="valid">VALID: </span>
+                                    <input type="text" class="calendar_from" placeholder="dd.mm.yyyy">
+                                     — 
+                                    <input type="text" class="calendar_to" placeholder="dd.mm.yyyy">
                                 </button>
                                 <div class="calendar_block">
                                     <div id="datepicker"></div>
-                                    <div class="datepicker_bottom_block">
-                                        <div class="info_block">
-                                            <span class="starting">Starting</span>
-                                            <span class="ending">Ending</span>
-                                        </div>
-                                        <div class="reset_block">
-                                            <span class="reset">Reset</span>
-                                        </div>
-                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -325,7 +319,7 @@
         <script src="/js/vendor/checked_polyfill.min.js"></script>
         <script src="/js/vendor/select2.min.js"></script>
         <script src="/js/vendor/moment.js"></script>
-        <script src="/js/vendor/jquery.comiseo.daterangepicker.min.js"></script>
+        <script src="/js/vendor/jquery.comiseo.daterangepicker.custom.js"></script>
         <script src="/js/main.js"></script>
         <script src="new_activies_page.js"></script>
     </body>

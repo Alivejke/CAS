@@ -143,15 +143,37 @@
                                                 <option value="2">Status</option>
                                             </select>
                                         </div>
-                                        <div class="calendar_wrap">
-                                            <span class="calendar_status_wrap">
-                                                <span class="calendar_status calendar_status-valid">valid</span>
-                                                <span class="calendar_status calendar_status-error">error</span>
-                                            </span>
-                                            <input type="text" placeholder="dd.mm.yyyy" class="calendar_input calendar_from">
-                                            <span class="calendar_date-separator">&mdash;</span>
-                                            <input type="text" placeholder="dd.mm.yyyy" class="calendar_input calendar_to">
+                                        <div class="calendarWrap">
+                                            <div class="calendar_wrap">
+                                                <span class="calendar_status_wrap">
+                                                    <span class="calendar_status calendar_status-valid">valid</span>
+                                                    <span class="calendar_status calendar_status-error">error</span>
+                                                </span>
+                                                <input type="text" placeholder="dd.mm.yyyy" class="calendar_input calendar_from">
+                                                <span class="calendar_date-separator">&mdash;</span>
+                                                <input type="text" placeholder="dd.mm.yyyy" class="calendar_input calendar_to">
+                                            </div>
+                                            <div class="calendar_block">
+                                                <div id="datepicker"></div>
+                                            </div>
+                                            
                                         </div>
+
+                            <!-- <div class="status_wrap">
+                                <button class="btn btn_big_rounded">
+                                    <span class="sprite sprite_ico ico_status"></span>
+                                    <span class="ico_status_text">active</span> 
+                                    <span class="sprite sprite_ico ico_calendar ico_calendar_big"></span>
+                                    <span class="valid">VALID: </span>
+                                    <input type="text" class="calendar_from" placeholder="dd.mm.yyyy">
+                                     — 
+                                    <input type="text" class="calendar_to" placeholder="dd.mm.yyyy">
+                                </button>
+                                <div class="calendar_block">
+                                    <div id="datepicker"></div>
+                                </div>
+                            </div> -->
+
                                     </li>
                                 </ul>
                                 <ul class="select_wrap_list float-left">
@@ -235,6 +257,8 @@
         <script src="/js/vendor/jquery-ui.min.js"></script>
         <script src="/js/vendor/checked_polyfill.min.js"></script>
         <script src="/js/vendor/select2.min.js"></script>
+        <script src="/js/vendor/moment.js"></script>
+        <script src="/js/vendor/jquery.comiseo.daterangepicker.custom.js"></script>
         <script src="/js/main.js"></script>
     </body>
 </html>

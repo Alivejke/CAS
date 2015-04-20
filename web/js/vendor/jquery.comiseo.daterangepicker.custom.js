@@ -206,13 +206,25 @@
 			if (options.datepickerOptions.hasOwnProperty('onSelect')) {
 				options.datepickerOptions.onSelect(dateText, instance);
 			}
+			
+			if (options.onChange) {
+				options.onChange(instance);
+			}
 		}
 
 		// called for each day in the datepicker before it is displayed
 		function beforeShowDay(date) {
+			var className = range.start && ((+date === +range.start) || (range.end && range.start <= date && date <= range.end)) ? 'ui-state-highlight' : '' // class to be added
+
+			if(range.start && ((+date === +range.start) || range.start == date)) {
+				className = 'ui-state-highlight-start';
+			} else if((+date=== +range.end) || range.end == date) {
+				className = 'ui-state-highlight-end';
+			}
+			
 			var result = [
 					true, // selectable
-					range.start && ((+date === +range.start) || (range.end && range.start <= date && date <= range.end)) ? 'ui-state-highlight' : '' // class to be added
+					className
 				],
 				userResult = [true, ''];
 
@@ -363,6 +375,7 @@
 				.append($('<div></div>', {'class': classname + '-main ui-widget-content'})
 					.append(presetsMenu.getElement())
 					.append(calendar.getElement()))
+				.append('<div class="datepicker_bottom_block"><div class="info_block"><span class="starting">Starting</span><span class="ending">Ending</span></div><div class="reset_block"><span class="reset js-reset">Reset</span></div></div>')
 				.append($('<div class="ui-helper-clearfix"></div>')
 					.append(buttonPanel.getElement()))
 				.hide();
