@@ -5,6 +5,8 @@ module.exports = function(grunt) {
     grunt.loadNpmTasks('grunt-contrib-compass');
     grunt.loadNpmTasks('grunt-contrib-copy');
     grunt.loadNpmTasks('grunt-contrib-concat');
+    grunt.loadNpmTasks('grunt-contrib-uglify');
+    grunt.loadNpmTasks('grunt-imgo');
 
     grunt.initConfig({
         connect: {
@@ -28,6 +30,27 @@ module.exports = function(grunt) {
             }
         },
 
+        uglify: {
+            jsPagesBuild: {
+                files: [{
+                    expand: true,
+                    cwd: '',
+                    src: 'pages/**/*.js',
+                    dest: '../build/'
+                }]
+            },
+            jsVendorBuild: {
+                expand: true,
+                cwd: 'js/vendor',
+                src: '*',
+                dest: '../build/js/vendor'
+            },
+            jsBuild: {
+                src: ['js/**/*.js', '!js/main.js', 'js/main.js', '!js/vendor/**/*'],
+                dest: '../build/js/main.js'
+            }
+        },
+
         compass: {
             global: {
                 options: {
@@ -40,6 +63,21 @@ module.exports = function(grunt) {
                     sassDir: 'pages',
                     cssDir: '../web/pages'
                 }
+            },
+
+            globalBuild: {
+                options: {
+                    sassDir: 'sass',
+                    cssDir: '../build/css',
+                    environment: 'production'
+                }
+            },
+            pagesBuild: {
+                options: {
+                    sassDir: 'pages',
+                    cssDir: '../build/pages',
+                    environment: 'production'
+                }
             }
         },
 
@@ -49,6 +87,12 @@ module.exports = function(grunt) {
                 cwd: '',
                 src: 'pages/**/*.html',
                 dest: '../web/'
+            },
+            htmlBuild: {
+                expand: true,
+                cwd: '',
+                src: 'pages/**/*.html',
+                dest: '../build/'
             },
             img: {
                 expand: true,
@@ -68,6 +112,12 @@ module.exports = function(grunt) {
                 src: '*',
                 dest: '../web/fonts/'
             },
+            fontsBuild: {
+                expand: true,
+                cwd: 'fonts/',
+                src: '*',
+                dest: '../build/fonts/'
+            },
             jsvendor: {
                 expand: true,
                 cwd: 'js/vendor',
@@ -80,11 +130,32 @@ module.exports = function(grunt) {
                 src: '*',
                 dest: '../web/'
             },
+            jsonBuild: {
+                expand: true,
+                cwd: 'json/',
+                src: '*',
+                dest: '../build/'
+            },
             jspages: {
                 expand: true,
                 cwd: '',
                 src: 'pages/**/*.js',
                 dest: '../web/'
+            }
+        },
+
+        imgo: {
+            iBuild: {
+                src: 'i/*',
+                dest: '../build/i/',
+                options: '-m -b',
+                skip: require('os').platform() === 'win32'
+            },
+            imgBuild: {
+                src: 'img/*',
+                dest: '../build/img/',
+                options: '-m -b',
+                skip: require('os').platform() === 'win32'
             }
         },
 
@@ -94,7 +165,7 @@ module.exports = function(grunt) {
             },
 
             json: {
-                files: ['json/*.json'],
+                files: ['*.json'],
                 tasks: ['copy:json'],
                 options: {
                     interrupt: true
@@ -152,5 +223,16 @@ module.exports = function(grunt) {
     });
 
     grunt.registerTask('default', ['connect', 'watch']);
+    grunt.registerTask('build', [
+        'compass:globalBuild', 
+        'compass:pagesBuild', 
+        'uglify:jsBuild', 
+        'uglify:jsVendorBuild', 
+        'uglify:jsPagesBuild', 
+        'copy:htmlBuild', 
+        'copy:fontsBuild', 
+        'copy:jsonBuild',
+        'imgo'
+    ]);
 
 };
