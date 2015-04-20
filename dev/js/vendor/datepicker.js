@@ -15,6 +15,13 @@ $(document).ready(function() {
 	})
 
 	
-	$("#datepicker").daterangepicker();
+	$("#datepicker").daterangepicker({
+	     datepickerOptions : {
+	        numberOfMonths : 1,
+	        applyOnMenuSelect: false,
+	        minDate: null,
+         	maxDate: null
+	     }
+	 });
 
 });
