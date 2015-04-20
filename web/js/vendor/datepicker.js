@@ -1,4 +1,5 @@
 $(document).ready(function() {
+	var calendarPaddingWidth = 19;
 	// if($("#datepicker").length) {
 	// 	$( "#datepicker" ).datepicker({
 	// 		inline: true,
@@ -11,17 +12,42 @@ $(document).ready(function() {
 	
 
 	$('.btn_big_rounded').click(function() {
-		$('.calendar_block').toggle();
-	})
+		$('.calendar_block').show();
+	});
 
-	
-	$("#datepicker").daterangepicker({
-	     datepickerOptions : {
-	        numberOfMonths : 1,
-	        applyOnMenuSelect: false,
-	        minDate: null,
-         	maxDate: null
-	     }
-	 });
+	function calendarPositions () {
+		$('.comiseo-daterangepicker').css({
+			top: $('.status_wrap').offset().top + $('.status_wrap').height(),
+			left: $('.status_wrap').offset().left + calendarPaddingWidth,
+			width: $('.status_wrap').width() - calendarPaddingWidth*2
+		});
+
+		$('.datepicker_bottom_block').css({
+			top: $('.status_wrap').height() + $('.comiseo-daterangepicker').height(),
+			left: 1
+		});
+	}
+
+	if($("#datepicker").length) {
+		
+		$("#datepicker").daterangepicker({
+			datepickerOptions : {
+		        numberOfMonths : 1,
+		        firstDay: 1,
+				maxDate: null
+		    }
+		});
+
+		$(".ico_calendar_big").on('click', function () {
+			$("#datepicker").daterangepicker("open");
+
+			calendarPositions ();
+		});
+	}
+
+	$(window).resize(function(){
+		calendarPositions ();
+	});
+
 
 });

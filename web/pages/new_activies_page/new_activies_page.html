@@ -17,6 +17,31 @@
             <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
             <script>window.html5 || document.write('<script src="js/vendor/html5shiv.js"><\/script>')</script>
         <![endif]-->
+
+        <script type="text/x-template-lodash" id="template">
+             
+            <div class="block">
+                <div class="img_circle_wrap float-left">
+                    <div class="manage img_circle">
+                        <div class="sprite sprite_ico ico_search"></div>
+                        <img src="<%= url %>" class="img_activaities_default" alt="">
+                    </div>
+                </div>
+                <div class="name"><%= name %>
+                    <span class="file_size"> <%= size %> </span>
+                    <a class="sprite sprite_ico ico_basket js-basket"></a>
+                </div>
+                <div class="checkbox">
+                    <label class="checkbox">
+                        <span class="label_ico"></span>
+                        <input type="checkbox">
+                        Download available
+                    </label>
+                </div>
+                <textarea name="" id="" placeholder="Add description"></textarea>
+            </div>
+        </script>
+
     </head>
     <body>
         <div id="mainarea" class="activies_page_wrap">
@@ -197,40 +222,52 @@
                 <div class="wrap wrap_blocks">
                     <h1 class="main_title main_title_actives">attachments</h1>
                     <div class="attachments_blocks clearfix">
-                        <form action="">
-                            <div class="block">
-                                <div class="icon"><div class="sprite sprite_ico ico_search"></div><img src="/img/element_description_psd_object.png" alt=""></div>
-                                <div class="name">Marlboro_mechanics_2014.pdf
-                                    <span class="file_size"> (48)mb</span>
-                                    <a class="sprite sprite_ico ico_basket js-basket"></a>
+                        <form action="#">
+                            <div class="attachments_block_wrap">
+                                <div class="block">
+                                    <!-- <div class="icon"><div class="sprite sprite_ico ico_search"></div><img src="/img/element_description_psd_object.png" alt=""></div> -->
+                                    <div class="img_circle_wrap float-left">
+                                        <div class="manage img_circle">
+                                            <div class="sprite sprite_ico ico_search"></div>
+                                            <img src="/img/8050011819_ba3e2bc4a3_h.jpg" class="img_activaities_changes" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="name">Marlboro_mechanics_2014.pdf
+                                        <span class="file_size"> (48)mb</span>
+                                        <a class="sprite sprite_ico ico_basket js-basket"></a>
+                                    </div>
+                                    <div class="checkbox">
+                                        <label class="checkbox">
+                                            <span class="label_ico"></span>
+                                            <input type="checkbox" checked>
+                                            Download available
+                                        </label>
+                                    </div>
+                                    <textarea name="" id="" placeholder="Add description"></textarea>
                                 </div>
-                                <div class="checkbox">
-                                    <label class="checkbox">
-                                        <span class="label_ico"></span>
-                                        <input type="checkbox" checked>
-                                        Download available
-                                    </label>
+                                <div class="block">
+                                    <div class="img_circle_wrap float-left">
+                                        <div class="manage img_circle">
+                                            <div class="sprite sprite_ico ico_search"></div>
+                                            <img src="/img/element_description_jpeg_object.png" class="img_activaities_default" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="name">Marlboro_mechanics_2014.pdf
+                                        <span class="file_size"> (48)mb</span>
+                                        <a class="sprite sprite_ico ico_basket js-basket"></a>
+                                    </div>
+                                    <div class="checkbox">
+                                        <label class="checkbox">
+                                            <span class="label_ico"></span>
+                                            <input type="checkbox" checked>
+                                            Download available
+                                        </label>
+                                    </div>
+                                    <textarea name="" id="" placeholder="Add description"></textarea>
                                 </div>
-                                <textarea name="" id="" placeholder="Add description"></textarea>
                             </div>
-                            <div class="block">
-                                <div class="icon"><div class="sprite sprite_ico ico_search"></div><img src="/img/element_description_jpeg_object.png" alt=""></div>
-                                <div class="name">Marlboro_mechanics_2014.jpeg
-                                    <span class="file_size"> (48)mb</span>
-                                    <a class="sprite sprite_ico ico_basket"></a>
-                                </div>
-                                <div class="checkbox">
-                                    <label class="checkbox">
-                                        <span class="label_ico"></span>
-                                        <input type="checkbox" checked>
-                                        Download available
-                                    </label>
-                                </div>
-                                <textarea name="" id="" placeholder="Add description"></textarea>
-                            </div>
-                            <div class="clearfix"></div>
                             <div class="block_upload_file">
-                                <button class="btn btn-default">upload file</button>
+                                <button class="btn btn-default js-uploader">upload file</button>
                                 <span>Total size of attachments must not exceed 100 mb. Current size: 96 mb.</span>
                             </div>
                             <div class="block_options_draft">
@@ -283,6 +320,7 @@
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
 
         <script src="/js/vendor/jquery-ui.min.js"></script>
+        <script src="/js/vendor/lodash.min.js"></script>
         <script src="/js/vendor/fileuploader.js"></script>
         <script src="/js/vendor/checked_polyfill.min.js"></script>
         <script src="/js/vendor/select2.min.js"></script>

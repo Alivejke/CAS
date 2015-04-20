@@ -123,6 +123,7 @@ label.checkbox {
         background: none;
         border: 1px solid #c2c2c2;
         background: url(/i/sprite.png) 0px -240px;
+        vertical-align: -4px;
     }
     &.chacked .label_ico{
         background: url(/i/sprite.png) -41px -240px;

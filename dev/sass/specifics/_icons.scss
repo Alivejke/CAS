@@ -2,6 +2,7 @@
 	background: url(/i/sprite.png) 0px 0px no-repeat;
 	&.sprite_ico {
 		display: inline-block;
+		cursor: pointer;
 	}
 }
 
@@ -151,5 +152,5 @@
 .ico_search {
   	background-position: 0px -120px;
 	width: 21px;
-	height: 25px;
+	height: 21px;
 }
