@@ -417,31 +417,30 @@
   border-radius: 0px;
   border: 0px;
 }
-/* line 309, ../../../dev/pages/new_activies_page/new_activies_page.scss */
-.activies_page_wrap .calendar_block .datepicker_bottom_block {
-  float: left;
+
+/* line 312, ../../../dev/pages/new_activies_page/new_activies_page.scss */
+.datepicker_bottom_block {
   width: 100%;
   z-index: 100;
   font-size: 12px;
 }
-/* line 314, ../../../dev/pages/new_activies_page/new_activies_page.scss */
-.activies_page_wrap .calendar_block .datepicker_bottom_block .info_block {
+/* line 317, ../../../dev/pages/new_activies_page/new_activies_page.scss */
+.datepicker_bottom_block .info_block {
   height: 55px;
   width: 90%;
   margin-left: 5%;
   background: #eeeeee;
   z-index: 100;
   position: relative;
-  border-bottom: 1px solid #cecfd0;
 }
-/* line 322, ../../../dev/pages/new_activies_page/new_activies_page.scss */
-.activies_page_wrap .calendar_block .datepicker_bottom_block .info_block span {
+/* line 325, ../../../dev/pages/new_activies_page/new_activies_page.scss */
+.datepicker_bottom_block .info_block span {
   margin: 30px 0px 0px 145px;
   display: inline-block;
   color: #45484C;
 }
-/* line 326, ../../../dev/pages/new_activies_page/new_activies_page.scss */
-.activies_page_wrap .calendar_block .datepicker_bottom_block .info_block span:before {
+/* line 329, ../../../dev/pages/new_activies_page/new_activies_page.scss */
+.datepicker_bottom_block .info_block span:before {
   content: '';
   width: 11px;
   height: 10px;
@@ -451,24 +450,24 @@
   -webkit-border-radius: 100%;
   border-radius: 100%;
 }
-/* line 334, ../../../dev/pages/new_activies_page/new_activies_page.scss */
-.activies_page_wrap .calendar_block .datepicker_bottom_block .info_block span.starting {
+/* line 337, ../../../dev/pages/new_activies_page/new_activies_page.scss */
+.datepicker_bottom_block .info_block span.starting {
   margin: 20px 0px 0px 145px;
 }
-/* line 336, ../../../dev/pages/new_activies_page/new_activies_page.scss */
-.activies_page_wrap .calendar_block .datepicker_bottom_block .info_block span.starting:before {
+/* line 339, ../../../dev/pages/new_activies_page/new_activies_page.scss */
+.datepicker_bottom_block .info_block span.starting:before {
   background-color: #22c866;
 }
-/* line 340, ../../../dev/pages/new_activies_page/new_activies_page.scss */
-.activies_page_wrap .calendar_block .datepicker_bottom_block .info_block span.ending {
+/* line 343, ../../../dev/pages/new_activies_page/new_activies_page.scss */
+.datepicker_bottom_block .info_block span.ending {
   margin: 20px 0px 0px 5px;
 }
-/* line 342, ../../../dev/pages/new_activies_page/new_activies_page.scss */
-.activies_page_wrap .calendar_block .datepicker_bottom_block .info_block span.ending:before {
+/* line 345, ../../../dev/pages/new_activies_page/new_activies_page.scss */
+.datepicker_bottom_block .info_block span.ending:before {
   background-color: #d76969;
 }
-/* line 348, ../../../dev/pages/new_activies_page/new_activies_page.scss */
-.activies_page_wrap .calendar_block .datepicker_bottom_block .reset_block {
+/* line 351, ../../../dev/pages/new_activies_page/new_activies_page.scss */
+.datepicker_bottom_block .reset_block {
   height: 55px;
   width: 90%;
   margin-left: 5%;
@@ -477,25 +476,26 @@
   position: relative;
   border-bottom: 1px solid #cecfd0;
 }
-/* line 356, ../../../dev/pages/new_activies_page/new_activies_page.scss */
-.activies_page_wrap .calendar_block .datepicker_bottom_block .reset_block .reset {
+/* line 359, ../../../dev/pages/new_activies_page/new_activies_page.scss */
+.datepicker_bottom_block .reset_block .reset {
   margin: 20px 0px 0px 252px;
   display: inline-block;
   color: #d76969;
+  cursor: pointer;
 }
 
-/* line 366, ../../../dev/pages/new_activies_page/new_activies_page.scss */
+/* line 368, ../../../dev/pages/new_activies_page/new_activies_page.scss */
 .select2-results__option {
   padding-left: 1.33333em;
   padding-right: 1.33333em;
 }
 
-/* line 371, ../../../dev/pages/new_activies_page/new_activies_page.scss */
+/* line 373, ../../../dev/pages/new_activies_page/new_activies_page.scss */
 .attachments_block_wrap {
   overflow: hidden;
 }
 
-/* line 375, ../../../dev/pages/new_activies_page/new_activies_page.scss */
+/* line 377, ../../../dev/pages/new_activies_page/new_activies_page.scss */
 .img_circle_wrap {
   margin-right: 2.03252%;
   padding: 0.26667em;
@@ -506,12 +506,12 @@
   width: 9.6206%;
   height: 4.73333em;
 }
-/* line 382, ../../../dev/pages/new_activies_page/new_activies_page.scss */
+/* line 384, ../../../dev/pages/new_activies_page/new_activies_page.scss */
 .img_circle_wrap .img_circle {
   width: 100%;
   height: 100%;
 }
-/* line 385, ../../../dev/pages/new_activies_page/new_activies_page.scss */
+/* line 387, ../../../dev/pages/new_activies_page/new_activies_page.scss */
 .img_circle_wrap .img_circle .ico_search {
   position: absolute;
   top: 1.33333em;
@@ -520,22 +520,36 @@
   z-index: 2;
 }
 @media (max-width: 768px) {
-  /* line 385, ../../../dev/pages/new_activies_page/new_activies_page.scss */
+  /* line 387, ../../../dev/pages/new_activies_page/new_activies_page.scss */
   .img_circle_wrap .img_circle .ico_search {
     top: 1.4em;
     left: 32.24658%;
   }
 }
-/* line 397, ../../../dev/pages/new_activies_page/new_activies_page.scss */
+/* line 399, ../../../dev/pages/new_activies_page/new_activies_page.scss */
 .img_circle_wrap:hover {
   border-color: #42CE7F;
 }
-/* line 399, ../../../dev/pages/new_activies_page/new_activies_page.scss */
+/* line 401, ../../../dev/pages/new_activies_page/new_activies_page.scss */
 .img_circle_wrap:hover .ico_search {
   display: block;
 }
 
-/* line 407, ../../../dev/pages/new_activies_page/new_activies_page.scss */
+/* line 410, ../../../dev/pages/new_activies_page/new_activies_page.scss */
 .wrap_blocks .main_title.main_title_actives {
   margin-top: 4.51852em;
+}
+
+/* line 415, ../../../dev/pages/new_activies_page/new_activies_page.scss */
+.calendar_from, .calendar_to {
+  background: none;
+  border: none;
+  display: inline-block;
+  width: 22.34637%;
+  margin-left: 0.83799%;
+}
+
+/* line 423, ../../../dev/pages/new_activies_page/new_activies_page.scss */
+.calendar_to {
+  margin-left: 1.39665%;
 }
