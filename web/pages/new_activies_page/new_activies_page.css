@@ -142,7 +142,11 @@
   text-align: center;
   padding: 1em 0;
 }
-/* line 73, ../../../dev/pages/new_activies_page/new_activies_page.scss */
+/* line 72, ../../../dev/pages/new_activies_page/new_activies_page.scss */
+.activies_page_wrap .channel ul li {
+  margin: 0.46667em 0;
+}
+/* line 74, ../../../dev/pages/new_activies_page/new_activies_page.scss */
 .activies_page_wrap .channel ul li a {
   color: #45484C;
   position: relative;
@@ -151,7 +155,7 @@
   padding: 0.33333em 0;
   text-decoration: none;
 }
-/* line 80, ../../../dev/pages/new_activies_page/new_activies_page.scss */
+/* line 81, ../../../dev/pages/new_activies_page/new_activies_page.scss */
 .activies_page_wrap .channel ul li a:before {
   content: '';
   width: 4px;
@@ -165,12 +169,12 @@
   left: -12px;
   top: 12px;
 }
-/* line 92, ../../../dev/pages/new_activies_page/new_activies_page.scss */
+/* line 93, ../../../dev/pages/new_activies_page/new_activies_page.scss */
 .activies_page_wrap .channel ul li label {
   margin-left: 36.58537%;
   color: #45484C;
 }
-/* line 100, ../../../dev/pages/new_activies_page/new_activies_page.scss */
+/* line 101, ../../../dev/pages/new_activies_page/new_activies_page.scss */
 .activies_page_wrap .wrap_block .title {
   font-family: pragmatica,Helvetica,Arial,sans-serif;
   font-weight: 300;
@@ -179,7 +183,7 @@
   color: #000;
   margin-bottom: 1.03704em;
 }
-/* line 108, ../../../dev/pages/new_activies_page/new_activies_page.scss */
+/* line 109, ../../../dev/pages/new_activies_page/new_activies_page.scss */
 .activies_page_wrap .wrap_block p.text {
   font-family: pragmatica,Helvetica,Arial,sans-serif;
   font-weight: 300;
@@ -188,17 +192,17 @@
   color: #45484C;
   letter-spacing: 1px;
 }
-/* line 122, ../../../dev/pages/new_activies_page/new_activies_page.scss */
+/* line 123, ../../../dev/pages/new_activies_page/new_activies_page.scss */
 .activies_page_wrap .attachments_blocks {
   margin-bottom: 4em;
 }
-/* line 125, ../../../dev/pages/new_activies_page/new_activies_page.scss */
+/* line 126, ../../../dev/pages/new_activies_page/new_activies_page.scss */
 .activies_page_wrap .attachments_blocks .block {
   float: left;
   width: 100%;
   margin-top: 4em;
 }
-/* line 131, ../../../dev/pages/new_activies_page/new_activies_page.scss */
+/* line 132, ../../../dev/pages/new_activies_page/new_activies_page.scss */
 .activies_page_wrap .attachments_blocks .block .icon {
   width: 10.1626%;
   float: left;
@@ -211,17 +215,17 @@
   position: relative;
   margin-right: 1.5625%;
 }
-/* line 140, ../../../dev/pages/new_activies_page/new_activies_page.scss */
+/* line 141, ../../../dev/pages/new_activies_page/new_activies_page.scss */
 .activies_page_wrap .attachments_blocks .block .icon:hover {
   border-color: #42CE7F;
 }
-/* line 143, ../../../dev/pages/new_activies_page/new_activies_page.scss */
+/* line 144, ../../../dev/pages/new_activies_page/new_activies_page.scss */
 .activies_page_wrap .attachments_blocks .block .icon img {
   max-width: 100%;
   margin: 0px auto;
   display: block;
 }
-/* line 148, ../../../dev/pages/new_activies_page/new_activies_page.scss */
+/* line 149, ../../../dev/pages/new_activies_page/new_activies_page.scss */
 .activies_page_wrap .attachments_blocks .block .icon .ico_search {
   position: absolute;
   top: 1.66667em;
@@ -229,33 +233,32 @@
   display: none;
 }
 @media (max-width: 768px) {
-  /* line 148, ../../../dev/pages/new_activies_page/new_activies_page.scss */
+  /* line 149, ../../../dev/pages/new_activies_page/new_activies_page.scss */
   .activies_page_wrap .attachments_blocks .block .icon .ico_search {
     top: 1.4em;
     left: 32.24658%;
   }
 }
-/* line 159, ../../../dev/pages/new_activies_page/new_activies_page.scss */
+/* line 160, ../../../dev/pages/new_activies_page/new_activies_page.scss */
 .activies_page_wrap .attachments_blocks .block .icon:hover .ico_search {
   display: block;
 }
-/* line 163, ../../../dev/pages/new_activies_page/new_activies_page.scss */
+/* line 164, ../../../dev/pages/new_activies_page/new_activies_page.scss */
 .activies_page_wrap .attachments_blocks .block .name {
   float: left;
   width: 80%;
   margin-top: 1em;
   position: relative;
 }
-/* line 168, ../../../dev/pages/new_activies_page/new_activies_page.scss */
+/* line 169, ../../../dev/pages/new_activies_page/new_activies_page.scss */
 .activies_page_wrap .attachments_blocks .block .name a.sprite.sprite_ico.ico_basket {
   margin: -0.13333em 0.67751%;
   position: absolute;
 }
-/* line 173, ../../../dev/pages/new_activies_page/new_activies_page.scss */
+/* line 174, ../../../dev/pages/new_activies_page/new_activies_page.scss */
 .activies_page_wrap .attachments_blocks .block .checkbox {
   display: inline-block;
   position: relative;
-  padding-left: 1.5em;
   margin-top: 0.8em;
   color: #45484C;
 }
@@ -530,4 +533,9 @@
 /* line 399, ../../../dev/pages/new_activies_page/new_activies_page.scss */
 .img_circle_wrap:hover .ico_search {
   display: block;
+}
+
+/* line 407, ../../../dev/pages/new_activies_page/new_activies_page.scss */
+.wrap_blocks .main_title.main_title_actives {
+  margin-top: 4.51852em;
 }

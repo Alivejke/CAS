@@ -70,6 +70,7 @@
         }
         ul {
             li {
+                margin: em(7px, $base-font-size) 0;
                 a {
                     color: $gray-color;
                     position: relative;
@@ -173,7 +174,6 @@
             .checkbox {
                 display: inline-block;
                 position: relative;
-                padding-left: 1.5em;
                 margin-top: em(12px, $base-font-size);
                 color: $gray-color;
                 label:before {
@@ -402,4 +402,10 @@
     }
 }
 
-
+.wrap_blocks {
+    .main_title {
+        &.main_title_actives {
+            margin-top: em(122px, $main_title-font-size);
+        }
+    }
+}
