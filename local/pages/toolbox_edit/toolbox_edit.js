@@ -7,7 +7,7 @@
 	$uploadButtons.each(function () {
 	    var $this = $(this),
 	        buttonDefaultText = $this.text(),
-	        urlCheck = '../../../img/parlament_bg.jpg';
+	        urlCheck = '../../../local/img/parlament_bg.jpg';
 
 	    var uploader = new qq.FileUploader({
 	        element: this,
