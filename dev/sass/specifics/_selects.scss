@@ -236,3 +236,9 @@ $select_multiple_default-width: 289px;
 .select2-dropdown {
 	z-index: 1101;
 }
+
+.select2-container--open {
+	.select2-dropdown--above {
+		@include border-radius(0);
+	}
+}

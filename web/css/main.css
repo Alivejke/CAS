@@ -4282,6 +4282,13 @@ textarea {
   z-index: 1101;
 }
 
+/* line 241, ../../dev/sass/specifics/_selects.scss */
+.select2-container--open .select2-dropdown--above {
+  -moz-border-radius: 0;
+  -webkit-border-radius: 0;
+  border-radius: 0;
+}
+
 /* line 1, ../../dev/sass/specifics/_icons.scss */
 .sprite {
   background: url(/i/sprite.png) 0px 0px no-repeat;
