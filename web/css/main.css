@@ -3710,65 +3710,61 @@ textarea {
 }
 
 /* line 1, ../../dev/sass/specifics/_titles.scss */
-.main_title {
+.base_title, .main_title, .brand_news_title, .main_menu_title, .toolbox_edit_title, .small_title, .no_reult_title, .popup_title, .profile_title {
   font-family: pragmatica,Helvetica,Arial,sans-serif;
   font-weight: 300;
+}
+
+/* line 6, ../../dev/sass/specifics/_titles.scss */
+.main_title {
   font-size: 1.8em;
   line-height: 1;
   color: #323a45;
   text-transform: uppercase;
   margin: 0 0 0 2px;
 }
-/* line 11, ../../dev/sass/specifics/_titles.scss */
+/* line 15, ../../dev/sass/specifics/_titles.scss */
 .main_title.main_title_actives {
   font-size: 1.8em;
   width: 54.20054%;
   margin-top: 2.22222em;
 }
 @media (max-width: 768px) {
-  /* line 11, ../../dev/sass/specifics/_titles.scss */
+  /* line 15, ../../dev/sass/specifics/_titles.scss */
   .main_title.main_title_actives {
     width: 100%;
   }
 }
-/* line 20, ../../dev/sass/specifics/_titles.scss */
+/* line 24, ../../dev/sass/specifics/_titles.scss */
 .main_title.main_title-indent {
   margin-top: 4.33333em;
 }
 
-/* line 25, ../../dev/sass/specifics/_titles.scss */
+/* line 29, ../../dev/sass/specifics/_titles.scss */
 .brand_news_title {
-  font-family: pragmatica,Helvetica,Arial,sans-serif;
-  font-weight: 300;
   font-size: 1.6em;
   line-height: 1;
   color: #000;
 }
 
-/* line 35, ../../dev/sass/specifics/_titles.scss */
+/* line 38, ../../dev/sass/specifics/_titles.scss */
 .main_menu_title {
-  font-family: pragmatica,Helvetica,Arial,sans-serif;
-  font-weight: 300;
   font-size: 1.11111em;
   line-height: 1.2em;
   text-transform: uppercase;
   color: #fff;
 }
 
-/* line 45, ../../dev/sass/specifics/_titles.scss */
+/* line 47, ../../dev/sass/specifics/_titles.scss */
 .toolbox_edit_title {
-  font-family: pragmatica,Helvetica,Arial,sans-serif;
-  font-weight: 300;
   color: #000;
   font-size: 1.8em;
   line-height: 1.11111em;
   text-transform: uppercase;
 }
 
-/* line 54, ../../dev/sass/specifics/_titles.scss */
+/* line 55, ../../dev/sass/specifics/_titles.scss */
 .small_title {
-  font-family: pragmatica,Helvetica,Arial,sans-serif;
-  font-weight: 300;
   color: #000;
   font-size: 0.93333em;
   line-height: 1;
@@ -3777,8 +3773,6 @@ textarea {
 
 /* line 63, ../../dev/sass/specifics/_titles.scss */
 .no_reult_title {
-  font-family: pragmatica,Helvetica,Arial,sans-serif;
-  font-weight: 300;
   color: #c4c4c4;
   font-size: 3em;
   line-height: 1.15556em;
@@ -3788,19 +3782,15 @@ textarea {
   margin: 1.77778em auto 2.66667em;
 }
 
-/* line 75, ../../dev/sass/specifics/_titles.scss */
+/* line 74, ../../dev/sass/specifics/_titles.scss */
 .popup_title {
   font-size: 1.8em;
-  font-family: pragmatica,Helvetica,Arial,sans-serif;
-  font-weight: 300;
   color: #000;
 }
 
-/* line 82, ../../dev/sass/specifics/_titles.scss */
+/* line 80, ../../dev/sass/specifics/_titles.scss */
 .profile_title {
   font-size: 0.8em;
-  font-family: pragmatica,Helvetica,Arial,sans-serif;
-  font-weight: 300;
   color: #000;
   text-transform: uppercase;
 }

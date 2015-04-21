@@ -1,7 +1,11 @@
-.main_title {
-	// font-family: 'brandon_grotesquebold';
+.base_title {
 	font-family: pragmatica,Helvetica,Arial,sans-serif;
 	font-weight: 300;
+}
+
+.main_title {
+	// font-family: 'brandon_grotesquebold';
+	@extend .base_title;
 	font-size: em($main_title-font-size, $base-font-size);
 	line-height: 1;
 	color: #323a45;
@@ -24,8 +28,7 @@
 
 .brand_news_title {
 	// font-family: 'proxima_novalight';
-	font-family: pragmatica,Helvetica,Arial,sans-serif;
-	font-weight: 300;
+	@extend .base_title;
 	font-size: em($brand_news_title-font-size, $base-font-size);
 	line-height: 1;
 	// color: #323a45;
@@ -34,8 +37,7 @@
 
 .main_menu_title {
 	// font-family: 'brandon_grotesquebold';
-	font-family: pragmatica,Helvetica,Arial,sans-serif;
-	font-weight: 300;
+	@extend .base_title;
 	font-size: em($main_menu_title-font-size, $main_menu-font-size);
 	line-height: em(24px, $main_menu_title-font-size);
 	text-transform: uppercase;
@@ -43,8 +45,7 @@
 }
 
 .toolbox_edit_title {
-	font-family: pragmatica,Helvetica,Arial,sans-serif;
-	font-weight: 300;
+	@extend .base_title;
 	color: $base-color;
 	font-size: em($main_title-font-size, $base-font-size);
 	line-height: em(30px, $main_title-font-size);
@@ -52,8 +53,7 @@
 }
 
 .small_title {
-	font-family: pragmatica,Helvetica,Arial,sans-serif;
-	font-weight: 300;
+	@extend .base_title;
 	color: $base-color;
 	font-size: em($small_title-font-size, $base-font-size);
 	line-height: 1;
@@ -61,8 +61,7 @@
 }
 
 .no_reult_title {
-	font-family: pragmatica,Helvetica,Arial,sans-serif;
-	font-weight: 300;
+	@extend .base_title;
 	color: #c4c4c4;
 	font-size: em(45px, $base-font-size);
 	line-height: em(52px, 45px);
@@ -74,15 +73,13 @@
 
 .popup_title {
 	font-size: em(27px);
-	font-family: pragmatica,Helvetica,Arial,sans-serif;
-	font-weight: 300;
+	@extend .base_title;
 	color: $base-color;
 }
 
 .profile_title {
 	font-size: em(12px);
-	font-family: pragmatica,Helvetica,Arial,sans-serif;
-	font-weight: 300;
+	@extend .base_title;
 	color: $base-color;
 	text-transform: uppercase;
 }
