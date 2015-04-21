@@ -73,6 +73,7 @@
 /* line 10, ../../../dev/pages/activities_search/activities_search.scss */
 .content_wrap.activiities_search .select_wrap.select_long .select2-container.select2-container--default .select2-selection--single .select2-selection__rendered {
   text-align: center;
+  font-weight: 600;
 }
 
 /* line 22, ../../../dev/pages/activities_search/activities_search.scss */

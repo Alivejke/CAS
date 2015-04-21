@@ -3723,6 +3723,7 @@ textarea {
   color: #323a45;
   text-transform: uppercase;
   margin: 0 0 0 2px;
+  font-weight: 600;
 }
 /* line 15, ../../dev/sass/specifics/_titles.scss */
 .main_title.main_title_actives {
@@ -4820,7 +4821,7 @@ textarea {
 }
 /* line 96, ../../dev/sass/specifics/_sub_header.scss */
 .menu li.active {
-  font-weight: 600;
+  font-weight: 800;
 }
 /* line 99, ../../dev/sass/specifics/_sub_header.scss */
 .menu li.active a {

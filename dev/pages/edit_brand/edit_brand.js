@@ -10,6 +10,7 @@
 	    var uploader = new qq.FileUploader({
 	        element: this,
 	        action: '/server/upload',
+	        uploadButtonText: buttonDefaultText,
 	        allowedExtensions: ['jpg', 'jpeg', 'png', 'gif'],
 	        onSubmit: function () {
 	            $this.text('Uploading...');
@@ -17,6 +18,8 @@
 	        onComplete: function () {
 	            $this.text(buttonDefaultText);                
 	        }
-	    }); 
+	    });
+
+	    // $this.text(buttonDefaultText);
 	});
 });

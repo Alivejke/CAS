@@ -12,6 +12,7 @@
 	    var uploader = new qq.FileUploader({
 	        element: this,
 	        action: '/server/upload',
+	        uploadButtonText: buttonDefaultText,
 	        allowedExtensions: ['jpg', 'jpeg', 'png', 'gif'],
 	        onSubmit: function () {
 	            $this.text('Uploading...');
@@ -21,12 +22,15 @@
 	            $this.hide();
 	            $this.closest('.js-img_wrap').append('<img src="' + urlCheck + '" alt="">');           
 	        }
-	    }); 
+	    });
+
+	    // $this.find('.qq-upload-button')[0].innerText = buttonDefaultText;
+	    // console.log($this.find('.qq-upload-button')[0])
 	});
 
 	$imgWrap.on('click', 'img', function (event){
 		event.preventDefault();
-		// debugger
+		
 		$(this).closest('.js-img_wrap').find('.js-uploader').trigger('click');
 	});
 });
