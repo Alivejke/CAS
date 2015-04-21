@@ -42,7 +42,7 @@
         ul {
             li {
                 a {
-                    color: $gray-color;
+                    color: #A9ADB0;
                     position: relative;
                     margin-left: flex(90px, 246px);
                     display: block;
@@ -174,3 +174,16 @@
         }
     }
 }
+
+.status_wrap {
+    .btn_big_rounded {
+        text-transform: uppercase;
+        .ico_status {
+            margin-left: flex(20px, 300px);
+        }
+        .ico_calendar {
+            margin: 0 flex(5px, 300px) 0 flex(40px, 300px);
+        }
+    }
+}
+

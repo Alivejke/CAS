@@ -11,7 +11,7 @@
 	color: #323a45;
 	text-transform: uppercase;
 	margin: 0 0 0 2px;
-
+	font-weight: 600;
 	&.main_title_actives {
 		font-size: em($main_title-font-size, $base-font-size);
 		width: flex(400px, $base-width-content);
