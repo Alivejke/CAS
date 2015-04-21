@@ -3280,16 +3280,16 @@ textarea {
 
 /* line 67, ../../dev/sass/specifics/_common.scss */
 *, :after, :before {
-  -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
-/* line 71, ../../dev/sass/specifics/_common.scss */
+/* line 72, ../../dev/sass/specifics/_common.scss */
 *:focus, :after:focus, :before:focus {
   outline: none;
 }
 
-/* line 76, ../../dev/sass/specifics/_common.scss */
+/* line 77, ../../dev/sass/specifics/_common.scss */
 .caret {
   display: inline-block;
   width: 0;
@@ -3301,35 +3301,35 @@ textarea {
   border-left: 4px solid transparent;
 }
 
-/* line 87, ../../dev/sass/specifics/_common.scss */
+/* line 88, ../../dev/sass/specifics/_common.scss */
 .content_wrap {
   margin-top: 1.33333em;
 }
-/* line 89, ../../dev/sass/specifics/_common.scss */
+/* line 90, ../../dev/sass/specifics/_common.scss */
 .content_wrap.content_wrap_indent {
   margin-top: 5.86667em;
 }
-/* line 92, ../../dev/sass/specifics/_common.scss */
+/* line 93, ../../dev/sass/specifics/_common.scss */
 .content_wrap.bg_gray {
   background-color: #f8faf9;
 }
 
-/* line 97, ../../dev/sass/specifics/_common.scss */
+/* line 98, ../../dev/sass/specifics/_common.scss */
 .js-img_wrap {
   overflow: hidden;
 }
-/* line 99, ../../dev/sass/specifics/_common.scss */
+/* line 100, ../../dev/sass/specifics/_common.scss */
 .js-img_wrap img {
   display: block;
   width: 100%;
 }
 
-/* line 106, ../../dev/sass/specifics/_common.scss */
+/* line 107, ../../dev/sass/specifics/_common.scss */
 .ui_list {
   margin: 50px 25px;
   overflow: hidden;
 }
-/* line 109, ../../dev/sass/specifics/_common.scss */
+/* line 110, ../../dev/sass/specifics/_common.scss */
 .ui_list li {
   float: left;
   width: 33%;
@@ -3622,6 +3622,8 @@ textarea {
 .footer_logo img {
   vertical-align: middle;
   padding: 0.33333em 1.6em 0.33333em 0;
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
   box-sizing: content-box;
   border-right: 1px solid #707070;
 }
@@ -3640,26 +3642,26 @@ textarea {
   }
 }
 
-/* line 56, ../../dev/sass/specifics/_footer.scss */
+/* line 57, ../../dev/sass/specifics/_footer.scss */
 .footer_navigate_wrap {
   width: 74.20495%;
   line-height: 1em;
   margin-top: 1em;
 }
 @media (max-width: 980px) {
-  /* line 56, ../../dev/sass/specifics/_footer.scss */
+  /* line 57, ../../dev/sass/specifics/_footer.scss */
   .footer_navigate_wrap {
     font-size: 10px;
     margin-top: 2em;
   }
 }
 
-/* line 66, ../../dev/sass/specifics/_footer.scss */
+/* line 67, ../../dev/sass/specifics/_footer.scss */
 .footer_navigate {
   margin-left: 1.26667em;
   white-space: nowrap;
 }
-/* line 70, ../../dev/sass/specifics/_footer.scss */
+/* line 71, ../../dev/sass/specifics/_footer.scss */
 .footer_navigate a {
   position: relative;
   font-family: pragmatica,Helvetica,Arial,sans-serif;
@@ -3671,15 +3673,15 @@ textarea {
   margin-left: 0.13333em;
   padding-left: 0.46667em;
 }
-/* line 81, ../../dev/sass/specifics/_footer.scss */
+/* line 82, ../../dev/sass/specifics/_footer.scss */
 .footer_navigate a:first-child {
   padding: 0;
 }
-/* line 83, ../../dev/sass/specifics/_footer.scss */
+/* line 84, ../../dev/sass/specifics/_footer.scss */
 .footer_navigate a:first-child:before {
   display: none;
 }
-/* line 87, ../../dev/sass/specifics/_footer.scss */
+/* line 88, ../../dev/sass/specifics/_footer.scss */
 .footer_navigate a:before {
   content: '';
   display: inline-block;
@@ -3690,16 +3692,16 @@ textarea {
   top: 2px;
   left: 0px;
 }
-/* line 97, ../../dev/sass/specifics/_footer.scss */
+/* line 98, ../../dev/sass/specifics/_footer.scss */
 .footer_navigate a:hover {
   color: #c8c8c8;
 }
-/* line 99, ../../dev/sass/specifics/_footer.scss */
+/* line 100, ../../dev/sass/specifics/_footer.scss */
 .footer_navigate a:hover:before {
   background-color: #c8c8c8;
 }
 
-/* line 106, ../../dev/sass/specifics/_footer.scss */
+/* line 107, ../../dev/sass/specifics/_footer.scss */
 .footer_copyright {
   line-height: 1;
   margin: 0 0 0 1.4em;

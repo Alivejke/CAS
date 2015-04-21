@@ -37,7 +37,8 @@
 	img {
 		vertical-align: middle;
 		padding: em(5px, $base-font-size) em(24px) em(5px, $base-font-size) 0;
-		box-sizing: content-box;
+		// box-sizing: content-box;
+		@include box-sizing(content-box);
 		border-right: 1px solid #707070;
 	}
 

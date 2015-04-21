@@ -19,7 +19,6 @@
 	            $this.text(buttonDefaultText);                
 	        }
 	    });
-
-	    // $this.text(buttonDefaultText);
+	    
 	});
 });
