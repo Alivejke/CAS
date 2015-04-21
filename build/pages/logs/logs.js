@@ -1,0 +1,1 @@
+$(function(){-1!=navigator.userAgent.toLowerCase().indexOf("msie")&&$(".wrap_table > div:nth-child(odd)").addClass("odd")});
