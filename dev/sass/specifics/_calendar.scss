@@ -51,8 +51,9 @@ $calendar-font-size: 12px;
 }
 
 .comiseo-daterangepicker {
+	// padding: em(25px) em(20px) 0;
 	&.ui-corner-all {
-		border-color: #dfe1e0;
+		border-color: #cecfd0;
 		@include border-radius(0);
 		border-bottom: none;
 	}
@@ -71,12 +72,30 @@ $calendar-font-size: 12px;
 			border: none;
 			padding: 0;
 			background: none;
+			a {
+				&.ui-state-default {
+					background: none;
+					color: #7e8890;
+				}
+			}
+		}
+		.ui-datepicker-next {
+			top: 25px;
+			right: 27px;
+		}
+		.ui-datepicker-prev {
+			top: 25px;
+			left: 27px;
 		}
 		th {
 			color: #7e8890;
+			font-size: em($calendar_title-font-size);
 		}
 		td {
+			text-align: center;
+			padding: em(11px) em(2px);
 			a {
+				display: inline-block;
 				font-weight: 300;
 				font-size: em(13px);
 				color: #7e8890;
@@ -87,6 +106,18 @@ $calendar-font-size: 12px;
 				line-height: em(17px, 13px);
 				border-radius: 100%;
 				text-align: center;
+			}
+			&.ui-state-highlight-end {
+				a {
+					background: #d76969;
+					color: $white-color;
+				}
+			}
+			&.ui-state-highlight-start {
+				a {
+					background: #22c866;
+					color: $white-color;
+				}
 			}
 		}
 	}
@@ -124,24 +155,46 @@ $calendar-font-size: 12px;
 	}
 }
 
-.ui-datepicker {
-	.ui-widget-header {
-		border: none;
-		background: none;
-		color: $gray-color;
+.comiseo-daterangepicker {
+	padding: 0;
+	.comiseo-daterangepicker-calendar {
+		display: block;
+		height: auto;
 	}
-	.ui-datepicker-prev {
-		span {
-			background: url(/i/sprite.png) -80px -160px no-repeat;
+	.ui-datepicker {
+		width: 100%;
+		.ui-widget-header {
+			border: none;
+			background: none;
+			color: $gray-color;
 		}
-	}
-	.ui-datepicker-next {
-		span {
-			background: url(/i/sprite.png) -120px -160px no-repeat;
+		.ui-datepicker-prev {
+			span {
+				background: url(/i/sprite.png) -80px -160px no-repeat;
+			}
 		}
-	}
-	.ui-widget-content {
-		background: #f8faf9;
+		.ui-datepicker-next {
+			span {
+				background: url(/i/sprite.png) -120px -160px no-repeat;
+			}
+		}
+		.ui-widget-content {
+			background: #f8faf9;
+		}
+		.ui-datepicker-header {
+			font-size: em($calendar_title-font-size, 16.5px);
+			padding: em(26px, $calendar_title-font-size) 0 em(26px, $calendar_title-font-size);
+			border-bottom: 1px solid #cecfd0;
+			@include border-radius(0);
+			.ui-datepicker-title {
+				font-size: em($calendar_title-font-size, 13px);
+				// margin-top: em(-6px, $calendar_title-font-size);
+			}
+		}
+		table {
+			width: 86%;
+			margin: em(20px) auto 0;
+		}
 	}
 }
 
@@ -151,21 +204,62 @@ $calendar-font-size: 12px;
 	}
 }
 
-.datepicker_bottom_block {
-	position: absolute;
-}
+// .datepicker_bottom_block {
+// 	position: absolute;
+// }
 
-.activies_page_wrap {
-	.calendar_block {
-		.datepicker_bottom_block {
-			.info_block {
-				border-left: 1px solid #cecfd0;
-				border-right: 1px solid #cecfd0;
-			}
-			.reset_block  {
-				border: 1px solid #cecfd0;
-			}
+.comiseo-daterangepicker {
+	.datepicker_bottom_block {
+		width: 100%;
+        z-index: 100;
+        font-size: em(12px, 16.5px);
+		.info_block {
+			height: em(35px, 12px);
+			width: 100%;
+			margin-left: 0;
+			background: #eeeeee;
+            z-index: 100;
+            position: relative;
+            span {
+                margin: 30px 0px 0px 145px;
+                display: inline-block;
+                color: $gray-color;
+                &:before {
+                    content: '';
+                    width: 11px;
+                    height: 10px;
+                    margin: 0px 10px 0px 0px;
+                    display: inline-block;
+                    @include border-radius(100%);
+                }
+                &.starting {
+                    margin: 20px 0px 0px 145px;
+                    &:before {
+                        background-color: #22c866;                 
+                    }
+                }
+                &.ending {
+                    margin: 20px 0px 0px 5px;
+                    &:before {
+                        background-color: #d76969;
+                    }
+                }
+            }
+		}
+		.reset_block  {
+			height: 55px;
+			width: 100%;
+			margin-left: 0;
+			background: #eeeeee;
+            z-index: 100;
+            position: relative;
+            border-bottom: 1px solid #cecfd0;
+            .reset {
+                margin: 20px 0px 0px 252px;
+                display: inline-block;
+                color:  #d76969;
+                cursor: pointer;
+            }
 		}
 	}
 }
-

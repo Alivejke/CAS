@@ -39,9 +39,6 @@ $select_multiple_default-width: 289px;
 			.select2-selection--single {
 				height: em(59px, $base-font-size);
 				color: #323a45;
-				// font-family: 'brandon_grotesquebold';
-				font-family: pragmatica,Helvetica,Arial,sans-serif;
-				font-weight: 300;
 				font-size: em($base-font-size, $base-font-size);
 				.select2-selection__rendered {
 					padding: 0 flex(50px, $base-width-content) 0 flex(40px, $base-width-content);
@@ -161,7 +158,8 @@ $select_multiple_default-width: 289px;
 	.select2-container {
 		overflow: hidden;
 		width: $select-base-width !important;
-		font-family: pragmatica,Helvetica,Arial,sans-serif;
+		font-family: 'Brandon Grotesque';
+		
 		&.select2-container--default {
 			.select2-selection--single {
 				border-color: #929191;
@@ -202,9 +200,7 @@ $select_multiple_default-width: 289px;
 		.select2-selection--single {
 			height: em(78px, $base-font-size);
 			color: #323a45;
-			// font-family: 'brandon_grotesquebold';
-			font-family: pragmatica,Helvetica,Arial,sans-serif;
-			font-weight: 300;
+			font-family: 'Brandon Grotesque';
 			font-size: em($base-font-size, $base-font-size);
 			.select2-selection__rendered {
 				padding: 0 flex(70px, $select-base-width) 0 flex(20px, $select-base-width);
@@ -239,4 +235,10 @@ $select_multiple_default-width: 289px;
 
 .select2-dropdown {
 	z-index: 1101;
+}
+
+.select2-container--open {
+	.select2-dropdown--above {
+		@include border-radius(0);
+	}
 }
