@@ -49,6 +49,7 @@ $navigation_dropdown_list_news-font-size: 11px;
 	border: none;
 	padding: 0px flex(39px, $base-width-content);
 	cursor: pointer;
+	max-height: em(65px);
 
 	.lt-ie9 & {
 		min-width: $navigation_dropdown-min-width / 2;	

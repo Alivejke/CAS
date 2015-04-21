@@ -3388,34 +3388,35 @@ textarea {
   border: none;
   padding: 0px 5.28455%;
   cursor: pointer;
+  max-height: 4.33333em;
 }
-/* line 53, ../../dev/sass/specifics/_header.scss */
+/* line 54, ../../dev/sass/specifics/_header.scss */
 .lt-ie9 .navigation_dropdown {
   min-width: 9.71731%;
 }
-/* line 56, ../../dev/sass/specifics/_header.scss */
+/* line 57, ../../dev/sass/specifics/_header.scss */
 .navigation_dropdown.active {
   background-color: #fff;
   color: #778890;
 }
-/* line 59, ../../dev/sass/specifics/_header.scss */
+/* line 60, ../../dev/sass/specifics/_header.scss */
 .navigation_dropdown.active .caret {
   background-position: -40px -200px;
 }
-/* line 64, ../../dev/sass/specifics/_header.scss */
+/* line 65, ../../dev/sass/specifics/_header.scss */
 .navigation_dropdown.active .navigation_dropdown_block {
   display: block;
 }
-/* line 71, ../../dev/sass/specifics/_header.scss */
+/* line 72, ../../dev/sass/specifics/_header.scss */
 .navigation_dropdown.active .navigation_dropdown_text.navigation_ico-big:before {
   background-position: 0 -200px;
 }
-/* line 78, ../../dev/sass/specifics/_header.scss */
+/* line 79, ../../dev/sass/specifics/_header.scss */
 .navigation_dropdown:hover {
   background-color: #bec3c7;
 }
 
-/* line 87, ../../dev/sass/specifics/_header.scss */
+/* line 88, ../../dev/sass/specifics/_header.scss */
 .navigation_dropdown_text {
   font-family: 'Brandon Grotesque';
   font-weight: 800;
@@ -3424,13 +3425,13 @@ textarea {
   text-transform: uppercase;
   position: relative;
 }
-/* line 96, ../../dev/sass/specifics/_header.scss */
+/* line 97, ../../dev/sass/specifics/_header.scss */
 .navigation_dropdown_text.navigation_ico-big:before {
   background-position: 0 -80px;
   top: 50%;
   margin-top: -13px;
 }
-/* line 103, ../../dev/sass/specifics/_header.scss */
+/* line 104, ../../dev/sass/specifics/_header.scss */
 .navigation_dropdown_text:before {
   content: '';
   display: inline-block;
@@ -3441,7 +3442,7 @@ textarea {
   top: -6px;
   left: -25px;
 }
-/* line 113, ../../dev/sass/specifics/_header.scss */
+/* line 114, ../../dev/sass/specifics/_header.scss */
 .navigation_dropdown_text .caret {
   border: none;
   background-position: -40px 0px;
@@ -3452,14 +3453,14 @@ textarea {
   right: -23px;
 }
 
-/* line 124, ../../dev/sass/specifics/_header.scss */
+/* line 125, ../../dev/sass/specifics/_header.scss */
 .nav img {
   display: inline-block;
   vertical-align: middle;
   margin: 2px 0 0 0;
 }
 
-/* line 130, ../../dev/sass/specifics/_header.scss */
+/* line 131, ../../dev/sass/specifics/_header.scss */
 .navigation_dropdown_block {
   overflow: hidden;
   height: 0;
@@ -3474,58 +3475,58 @@ textarea {
   z-index: 10;
 }
 
-/* line 147, ../../dev/sass/specifics/_header.scss */
+/* line 148, ../../dev/sass/specifics/_header.scss */
 .navigation_dropdown_block_wrap {
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
   opacity: 0;
 }
 
-/* line 151, ../../dev/sass/specifics/_header.scss */
+/* line 152, ../../dev/sass/specifics/_header.scss */
 .navigation_dropdown_list {
   position: relative;
   left: -7.67263%;
   overflow: hidden;
   padding: 0 2.33333em;
 }
-/* line 156, ../../dev/sass/specifics/_header.scss */
+/* line 157, ../../dev/sass/specifics/_header.scss */
 .navigation_dropdown_list > li {
   float: left;
   margin-left: 7.67263%;
 }
-/* line 159, ../../dev/sass/specifics/_header.scss */
+/* line 160, ../../dev/sass/specifics/_header.scss */
 .navigation_dropdown_list > li a {
   font-size: 0.8em;
   color: #cdd1d3;
   text-decoration: none;
   text-transform: uppercase;
 }
-/* line 166, ../../dev/sass/specifics/_header.scss */
+/* line 167, ../../dev/sass/specifics/_header.scss */
 .navigation_dropdown_list > li.active a {
   color: #45484C;
 }
 
-/* line 173, ../../dev/sass/specifics/_header.scss */
+/* line 174, ../../dev/sass/specifics/_header.scss */
 .navigation_dropdown_img_wrap {
   display: inline-block;
   vertical-align: middle;
 }
 
-/* line 178, ../../dev/sass/specifics/_header.scss */
+/* line 179, ../../dev/sass/specifics/_header.scss */
 .navigation_dropdown_list_news {
   padding: 1.33333em 2em 2.33333em;
   border-top: 1px solid #eeefee;
 }
-/* line 181, ../../dev/sass/specifics/_header.scss */
+/* line 182, ../../dev/sass/specifics/_header.scss */
 .navigation_dropdown_list_news > li {
   line-height: 1;
   margin-top: 2em;
 }
-/* line 185, ../../dev/sass/specifics/_header.scss */
+/* line 186, ../../dev/sass/specifics/_header.scss */
 .navigation_dropdown_list_news > li a {
   display: block;
   text-decoration: none;
 }
-/* line 189, ../../dev/sass/specifics/_header.scss */
+/* line 190, ../../dev/sass/specifics/_header.scss */
 .navigation_dropdown_list_news > li .navigation_dropdown_text_wrap {
   display: inline-block;
   width: 80.06042%;
@@ -3535,37 +3536,37 @@ textarea {
   font-size: 0.73333em;
   vertical-align: middle;
 }
-/* line 198, ../../dev/sass/specifics/_header.scss */
+/* line 199, ../../dev/sass/specifics/_header.scss */
 .navigation_dropdown_list_news > li .img_circle {
   height: 3.06667em;
   width: 13.89728%;
 }
-/* line 202, ../../dev/sass/specifics/_header.scss */
+/* line 203, ../../dev/sass/specifics/_header.scss */
 .navigation_dropdown_list_news > li:first-child {
   margin-top: 0;
 }
 
-/* line 208, ../../dev/sass/specifics/_header.scss */
+/* line 209, ../../dev/sass/specifics/_header.scss */
 .navigation_dropdown_list_news_title {
   font-size: 1.09091em;
   font-weight: 600;
 }
-/* line 211, ../../dev/sass/specifics/_header.scss */
+/* line 212, ../../dev/sass/specifics/_header.scss */
 .navigation_dropdown_list_news_title.navigation_dropdown_approved {
   color: #22c866;
 }
-/* line 214, ../../dev/sass/specifics/_header.scss */
+/* line 215, ../../dev/sass/specifics/_header.scss */
 .navigation_dropdown_list_news_title.navigation_dropdown_declined {
   color: #d76969;
 }
-/* line 217, ../../dev/sass/specifics/_header.scss */
+/* line 218, ../../dev/sass/specifics/_header.scss */
 .navigation_dropdown_list_news_title .navigation_dropdown_list_news_date {
   font-size: 0.75em;
   color: #45484C;
   font-weight: normal;
 }
 
-/* line 224, ../../dev/sass/specifics/_header.scss */
+/* line 225, ../../dev/sass/specifics/_header.scss */
 .navigation_dropdown_list_news_text {
   line-height: 1.18182em;
   margin-top: 0.45455em;

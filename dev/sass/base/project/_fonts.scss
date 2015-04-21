@@ -1,6 +1,20 @@
 // Brandon Grotesque
 // ----------------------------------------
 
+// $list: Brandon Grotesque, proxima_nova_cn_rgregular, pragmatica;
+
+// @each $font-face in $list  {
+//     @font-face {
+//           font-family: $font-face; font-style: normal; font-weight: normal;
+//           src: url('../fonts/#{$font-face}.eot');
+//           src: url('../fonts/#{$font-face}.eot?#iefix') format('embedded-opentype'),
+//                url('../fonts/#{$font-face}.woff') format('woff'),
+//                url('../fonts/#{$font-face}.woff2') format('woff2'),
+//                url('../fonts/#{$font-face}.ttf')  format('truetype');
+//     }
+// }
+
+
 // Bold
 @font-face {
     font-family: 'Brandon Grotesque';
