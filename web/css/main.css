@@ -3713,7 +3713,7 @@ textarea {
 /* line 1, ../../dev/sass/specifics/_titles.scss */
 .base_title, .main_title, .brand_news_title, .main_menu_title, .toolbox_edit_title, .small_title, .no_reult_title, .popup_title, .profile_title {
   font-family: pragmatica,Helvetica,Arial,sans-serif;
-  font-weight: 300;
+  font-weight: 700;
 }
 
 /* line 6, ../../dev/sass/specifics/_titles.scss */
@@ -3743,12 +3743,13 @@ textarea {
 
 /* line 29, ../../dev/sass/specifics/_titles.scss */
 .brand_news_title {
+  font-weight: 300;
   font-size: 1.6em;
   line-height: 1;
   color: #000;
 }
 
-/* line 38, ../../dev/sass/specifics/_titles.scss */
+/* line 39, ../../dev/sass/specifics/_titles.scss */
 .main_menu_title {
   font-size: 1.11111em;
   line-height: 1.2em;
@@ -3756,7 +3757,7 @@ textarea {
   color: #fff;
 }
 
-/* line 47, ../../dev/sass/specifics/_titles.scss */
+/* line 48, ../../dev/sass/specifics/_titles.scss */
 .toolbox_edit_title {
   color: #000;
   font-size: 1.8em;
@@ -3764,7 +3765,7 @@ textarea {
   text-transform: uppercase;
 }
 
-/* line 55, ../../dev/sass/specifics/_titles.scss */
+/* line 56, ../../dev/sass/specifics/_titles.scss */
 .small_title {
   color: #000;
   font-size: 0.93333em;
@@ -3772,7 +3773,7 @@ textarea {
   text-transform: uppercase;
 }
 
-/* line 63, ../../dev/sass/specifics/_titles.scss */
+/* line 64, ../../dev/sass/specifics/_titles.scss */
 .no_reult_title {
   color: #c4c4c4;
   font-size: 3em;
@@ -3783,13 +3784,13 @@ textarea {
   margin: 1.77778em auto 2.66667em;
 }
 
-/* line 74, ../../dev/sass/specifics/_titles.scss */
+/* line 75, ../../dev/sass/specifics/_titles.scss */
 .popup_title {
   font-size: 1.8em;
   color: #000;
 }
 
-/* line 80, ../../dev/sass/specifics/_titles.scss */
+/* line 81, ../../dev/sass/specifics/_titles.scss */
 .profile_title {
   font-size: 0.8em;
   color: #000;
@@ -4068,78 +4069,79 @@ textarea {
 .select_wrap.select_long .select2-container {
   width: 100% !important;
   text-align: left;
+  font-weight: 700;
 }
-/* line 12, ../../dev/sass/specifics/_selects.scss */
+/* line 13, ../../dev/sass/specifics/_selects.scss */
 .select_wrap.select_long .select2-container.select2-container--default .select2-selection--single {
   border-color: #929191;
   -moz-border-radius: 0px;
   -webkit-border-radius: 0px;
   border-radius: 0px;
 }
-/* line 15, ../../dev/sass/specifics/_selects.scss */
+/* line 16, ../../dev/sass/specifics/_selects.scss */
 .select_wrap.select_long .select2-container.select2-container--default .select2-selection--single .select2-selection__rendered {
   line-height: 3.93333em;
 }
-/* line 18, ../../dev/sass/specifics/_selects.scss */
+/* line 19, ../../dev/sass/specifics/_selects.scss */
 .select_wrap.select_long .select2-container.select2-container--default .select2-selection--single .select2-selection__arrow {
   height: 3.93333em;
   width: 6.91057%;
   border-left: 2px solid #929191;
 }
-/* line 22, ../../dev/sass/specifics/_selects.scss */
+/* line 23, ../../dev/sass/specifics/_selects.scss */
 .select_wrap.select_long .select2-container.select2-container--default .select2-selection--single .select2-selection__arrow b {
   border-width: 7px 7px 0 7px;
   margin: -3px 0 0 -7px;
 }
-/* line 31, ../../dev/sass/specifics/_selects.scss */
+/* line 32, ../../dev/sass/specifics/_selects.scss */
 .select_wrap.select_long .select2-container.select2-container--default.select2-container--open .select2-selection--single .select2-selection__arrow b {
   border-width: 0px 7px 7px 7px;
   border-color: transparent transparent #888 transparent;
 }
-/* line 39, ../../dev/sass/specifics/_selects.scss */
+/* line 40, ../../dev/sass/specifics/_selects.scss */
 .select_wrap.select_long .select2-container .select2-selection--single {
   height: 3.93333em;
   color: #323a45;
   font-size: 1em;
 }
-/* line 43, ../../dev/sass/specifics/_selects.scss */
+/* line 44, ../../dev/sass/specifics/_selects.scss */
 .select_wrap.select_long .select2-container .select2-selection--single .select2-selection__rendered {
   padding: 0 6.77507% 0 5.42005%;
 }
-/* line 52, ../../dev/sass/specifics/_selects.scss */
+/* line 53, ../../dev/sass/specifics/_selects.scss */
 .select_wrap.select_default .select2-container.select2-container--default .select2-selection--single {
   background-color: transparent;
 }
-/* line 54, ../../dev/sass/specifics/_selects.scss */
+/* line 55, ../../dev/sass/specifics/_selects.scss */
 .select_wrap.select_default .select2-container.select2-container--default .select2-selection--single .select2-selection__rendered {
   line-height: 2.8em;
 }
-/* line 57, ../../dev/sass/specifics/_selects.scss */
+/* line 58, ../../dev/sass/specifics/_selects.scss */
 .select_wrap.select_default .select2-container.select2-container--default .select2-selection--single .select2-selection__arrow {
   border-left: none;
   height: 2.73333em;
 }
-/* line 63, ../../dev/sass/specifics/_selects.scss */
+/* line 64, ../../dev/sass/specifics/_selects.scss */
 .select_wrap.select_default .select2-container .select2-selection--single {
   height: 2.73333em;
 }
-/* line 67, ../../dev/sass/specifics/_selects.scss */
+/* line 68, ../../dev/sass/specifics/_selects.scss */
 .select_wrap.select_default.select_multiple_default {
   width: 78.31978%;
 }
-/* line 70, ../../dev/sass/specifics/_selects.scss */
+/* line 71, ../../dev/sass/specifics/_selects.scss */
 .select_wrap.select_default.select_multiple_default .select2-container .select2-selection--multiple {
   min-height: 2.66667em;
   -moz-border-radius: 0px;
   -webkit-border-radius: 0px;
   border-radius: 0px;
 }
-/* line 74, ../../dev/sass/specifics/_selects.scss */
+/* line 75, ../../dev/sass/specifics/_selects.scss */
 .select_wrap.select_default.select_multiple_default .select2-container .select2-search--inline {
   min-height: 2.66667em;
   line-height: 2.66667em;
 }
-/* line 81, ../../dev/sass/specifics/_selects.scss */
+/* line 82, ../../dev/sass/specifics/_selects.scss */
 .select_wrap.select_default.select_multiple_default .select2-container--default .select2-selection--multiple .select2-selection__choice {
   background: none;
   border: none;
@@ -4149,18 +4151,18 @@ textarea {
   min-height: 2.66667em;
   line-height: 2.66667em;
 }
-/* line 90, ../../dev/sass/specifics/_selects.scss */
+/* line 91, ../../dev/sass/specifics/_selects.scss */
 .select_wrap.select_default.select_multiple_default .select2-container--default .select2-selection--multiple .select2-selection__choice__remove {
   float: right;
   margin: 0 0 0 0.33333em;
   color: #45484C;
 }
-/* line 95, ../../dev/sass/specifics/_selects.scss */
+/* line 96, ../../dev/sass/specifics/_selects.scss */
 .select_wrap.select_default.select_multiple_default .select2-container--default .select2-selection--multiple .select2-selection__rendered {
   padding: 0 5.19031% 0 6.92042%;
   margin-bottom: -0.1em;
 }
-/* line 103, ../../dev/sass/specifics/_selects.scss */
+/* line 104, ../../dev/sass/specifics/_selects.scss */
 .select_wrap.select_default.select_multiple_default.select_multiple_search .select2-container:before {
   content: '';
   border-style: solid;
@@ -4171,119 +4173,119 @@ textarea {
   top: 50%;
   margin-top: -2px;
 }
-/* line 112, ../../dev/sass/specifics/_selects.scss */
+/* line 113, ../../dev/sass/specifics/_selects.scss */
 .select_wrap.select_default.select_multiple_default.select_multiple_search .select2-container:before:hover {
   border-top-color: #a6a6a6;
 }
-/* line 117, ../../dev/sass/specifics/_selects.scss */
+/* line 118, ../../dev/sass/specifics/_selects.scss */
 .select_wrap.select_default.select_multiple_default.select_multiple_search .select2-container.select2-container--open:before {
   border-width: 0px 4px 4px 4px;
   border-color: transparent transparent #a6a6a6 transparent;
 }
-/* line 130, ../../dev/sass/specifics/_selects.scss */
+/* line 131, ../../dev/sass/specifics/_selects.scss */
 .select_wrap.select_mini .select2-container.select2-container--default .select2-selection--single .select2-selection__arrow {
   width: 24.22145%;
 }
-/* line 132, ../../dev/sass/specifics/_selects.scss */
+/* line 133, ../../dev/sass/specifics/_selects.scss */
 .select_wrap.select_mini .select2-container.select2-container--default .select2-selection--single .select2-selection__arrow b {
   border-width: 4px 4px 0 4px;
   border-color: #4d4d4d transparent transparent transparent;
   margin: -2px 0 0 28.57143%;
 }
-/* line 142, ../../dev/sass/specifics/_selects.scss */
+/* line 143, ../../dev/sass/specifics/_selects.scss */
 .select_wrap.select_mini .select2-container.select2-container--default.select2-container--open .select2-selection--single .select2-selection__arrow b {
   border-width: 0px 4px 4px 4px;
   border-color: transparent transparent #4d4d4d transparent;
 }
-/* line 151, ../../dev/sass/specifics/_selects.scss */
+/* line 152, ../../dev/sass/specifics/_selects.scss */
 .select_wrap.select_mini .select2-container .select2-selection--single .select2-selection__rendered {
   text-transform: none;
 }
-/* line 158, ../../dev/sass/specifics/_selects.scss */
+/* line 159, ../../dev/sass/specifics/_selects.scss */
 .select_wrap .select2-container {
   overflow: hidden;
   width: 100% !important;
   font-family: 'Brandon Grotesque';
 }
-/* line 164, ../../dev/sass/specifics/_selects.scss */
+/* line 165, ../../dev/sass/specifics/_selects.scss */
 .select_wrap .select2-container.select2-container--default .select2-selection--single {
   border-color: #929191;
   -moz-border-radius: 0px;
   -webkit-border-radius: 0px;
   border-radius: 0px;
 }
-/* line 167, ../../dev/sass/specifics/_selects.scss */
+/* line 168, ../../dev/sass/specifics/_selects.scss */
 .select_wrap .select2-container.select2-container--default .select2-selection--single .select2-selection__rendered {
   line-height: 5.2em;
 }
-/* line 170, ../../dev/sass/specifics/_selects.scss */
+/* line 171, ../../dev/sass/specifics/_selects.scss */
 .select_wrap .select2-container.select2-container--default .select2-selection--single .select2-selection__arrow {
   height: 5.2em;
   width: 70px;
   border-left: 1px solid #929191;
 }
-/* line 175, ../../dev/sass/specifics/_selects.scss */
+/* line 176, ../../dev/sass/specifics/_selects.scss */
 .select_wrap .select2-container.select2-container--default .select2-selection--single .select2-selection__arrow:hover b {
   border-top-color: #a6a6a6;
 }
-/* line 179, ../../dev/sass/specifics/_selects.scss */
+/* line 180, ../../dev/sass/specifics/_selects.scss */
 .select_wrap .select2-container.select2-container--default .select2-selection--single .select2-selection__arrow b {
   border-width: 7px 7px 0 7px;
   border-color: #4d4d4d transparent transparent transparent;
   margin: -3px 0 0 -7px;
 }
-/* line 185, ../../dev/sass/specifics/_selects.scss */
+/* line 186, ../../dev/sass/specifics/_selects.scss */
 .select_wrap .select2-container.select2-container--default .select2-selection--single .select2-selection__placeholder {
   color: #45484C;
 }
-/* line 192, ../../dev/sass/specifics/_selects.scss */
+/* line 193, ../../dev/sass/specifics/_selects.scss */
 .select_wrap .select2-container.select2-container--default.select2-container--open .select2-selection--single .select2-selection__arrow b {
   border-width: 0px 7px 7px 7px;
   border-color: transparent transparent #4d4d4d transparent;
 }
-/* line 200, ../../dev/sass/specifics/_selects.scss */
+/* line 201, ../../dev/sass/specifics/_selects.scss */
 .select_wrap .select2-container .select2-selection--single {
   height: 5.2em;
   color: #323a45;
   font-family: 'Brandon Grotesque';
   font-size: 1em;
 }
-/* line 205, ../../dev/sass/specifics/_selects.scss */
+/* line 206, ../../dev/sass/specifics/_selects.scss */
 .select_wrap .select2-container .select2-selection--single .select2-selection__rendered {
   padding: 0 70px 0 20px;
   text-transform: uppercase;
 }
 
-/* line 212, ../../dev/sass/specifics/_selects.scss */
+/* line 213, ../../dev/sass/specifics/_selects.scss */
 .select2-results__option {
   padding: 0.86667em 2.66667em;
 }
-/* line 214, ../../dev/sass/specifics/_selects.scss */
+/* line 215, ../../dev/sass/specifics/_selects.scss */
 .select2-results__option .select2-results__option--highlighted {
   background: #7e8890;
 }
 
-/* line 221, ../../dev/sass/specifics/_selects.scss */
+/* line 222, ../../dev/sass/specifics/_selects.scss */
 .select2-container--default .select2-selection--multiple {
   background-color: transparent;
 }
-/* line 225, ../../dev/sass/specifics/_selects.scss */
+/* line 226, ../../dev/sass/specifics/_selects.scss */
 .select2-container--default.select2-container--below.select2-container--open {
   background-color: #fff;
 }
 
-/* line 231, ../../dev/sass/specifics/_selects.scss */
+/* line 232, ../../dev/sass/specifics/_selects.scss */
 .select2-container--default .select2-results__option[aria-selected=true], .select2-container--default .select2-results__option--highlighted[aria-selected] {
   background: #7e8890;
   color: #fff;
 }
 
-/* line 236, ../../dev/sass/specifics/_selects.scss */
+/* line 237, ../../dev/sass/specifics/_selects.scss */
 .select2-dropdown {
   z-index: 1101;
 }
 
-/* line 241, ../../dev/sass/specifics/_selects.scss */
+/* line 242, ../../dev/sass/specifics/_selects.scss */
 .select2-container--open .select2-dropdown--above {
   -moz-border-radius: 0;
   -webkit-border-radius: 0;
@@ -6361,7 +6363,6 @@ textarea {
   width: 100%;
   height: 3em;
   line-height: 3em;
-  text-transform: none;
 }
 /* line 16, ../../dev/sass/specifics/_status.scss */
 .status_wrap .btn_big_rounded .ico_calendar {
@@ -6406,29 +6407,30 @@ textarea {
 /* line 27, ../../dev/sass/specifics/_calendar.scss */
 .calendar_status_wrap .calendar_status {
   font-size: 0.8em;
+  font-weight: 700;
   text-transform: uppercase;
   color: #45484C;
 }
-/* line 32, ../../dev/sass/specifics/_calendar.scss */
+/* line 33, ../../dev/sass/specifics/_calendar.scss */
 .calendar_status_wrap .calendar_status.calendar_status-valid {
   display: inline-block;
 }
-/* line 35, ../../dev/sass/specifics/_calendar.scss */
+/* line 36, ../../dev/sass/specifics/_calendar.scss */
 .calendar_status_wrap .calendar_status.calendar_status-error {
   display: none;
 }
 
-/* line 42, ../../dev/sass/specifics/_calendar.scss */
+/* line 43, ../../dev/sass/specifics/_calendar.scss */
 .calendar_date.distinction {
   color: #b70e12;
 }
 
-/* line 49, ../../dev/sass/specifics/_calendar.scss */
+/* line 50, ../../dev/sass/specifics/_calendar.scss */
 .comiseo-daterangepicker-presets {
   display: none;
 }
 
-/* line 55, ../../dev/sass/specifics/_calendar.scss */
+/* line 56, ../../dev/sass/specifics/_calendar.scss */
 .comiseo-daterangepicker.ui-corner-all {
   border-color: #cecfd0;
   -moz-border-radius: 0;
@@ -6436,7 +6438,7 @@ textarea {
   border-radius: 0;
   border-bottom: none;
 }
-/* line 60, ../../dev/sass/specifics/_calendar.scss */
+/* line 61, ../../dev/sass/specifics/_calendar.scss */
 .comiseo-daterangepicker .ui-datepicker-title {
   font-family: pragmatica,Helvetica,Arial,sans-serif;
   font-weight: 600;
@@ -6445,43 +6447,43 @@ textarea {
   color: #7e8890;
   text-transform: uppercase;
 }
-/* line 68, ../../dev/sass/specifics/_calendar.scss */
+/* line 69, ../../dev/sass/specifics/_calendar.scss */
 .comiseo-daterangepicker .ui-datepicker {
   font-family: pragmatica,Helvetica,Arial,sans-serif;
 }
-/* line 70, ../../dev/sass/specifics/_calendar.scss */
+/* line 71, ../../dev/sass/specifics/_calendar.scss */
 .comiseo-daterangepicker .ui-datepicker .ui-state-highlight {
   border-width: 0;
   border: none;
   padding: 0;
   background: none;
 }
-/* line 76, ../../dev/sass/specifics/_calendar.scss */
+/* line 77, ../../dev/sass/specifics/_calendar.scss */
 .comiseo-daterangepicker .ui-datepicker .ui-state-highlight a.ui-state-default {
   background: none;
   color: #7e8890;
 }
-/* line 82, ../../dev/sass/specifics/_calendar.scss */
+/* line 83, ../../dev/sass/specifics/_calendar.scss */
 .comiseo-daterangepicker .ui-datepicker .ui-datepicker-next {
   top: 25px;
   right: 27px;
 }
-/* line 86, ../../dev/sass/specifics/_calendar.scss */
+/* line 87, ../../dev/sass/specifics/_calendar.scss */
 .comiseo-daterangepicker .ui-datepicker .ui-datepicker-prev {
   top: 25px;
   left: 27px;
 }
-/* line 90, ../../dev/sass/specifics/_calendar.scss */
+/* line 91, ../../dev/sass/specifics/_calendar.scss */
 .comiseo-daterangepicker .ui-datepicker th {
   color: #7e8890;
   font-size: 0.8em;
 }
-/* line 94, ../../dev/sass/specifics/_calendar.scss */
+/* line 95, ../../dev/sass/specifics/_calendar.scss */
 .comiseo-daterangepicker .ui-datepicker td {
   text-align: center;
   padding: 0.73333em 0.13333em;
 }
-/* line 97, ../../dev/sass/specifics/_calendar.scss */
+/* line 98, ../../dev/sass/specifics/_calendar.scss */
 .comiseo-daterangepicker .ui-datepicker td a {
   display: inline-block;
   font-weight: 300;
@@ -6495,21 +6497,21 @@ textarea {
   border-radius: 100%;
   text-align: center;
 }
-/* line 111, ../../dev/sass/specifics/_calendar.scss */
+/* line 112, ../../dev/sass/specifics/_calendar.scss */
 .comiseo-daterangepicker .ui-datepicker td.ui-state-highlight-end a {
   background: #d76969;
   color: #fff;
 }
-/* line 117, ../../dev/sass/specifics/_calendar.scss */
+/* line 118, ../../dev/sass/specifics/_calendar.scss */
 .comiseo-daterangepicker .ui-datepicker td.ui-state-highlight-start a {
   background: #22c866;
   color: #fff;
 }
-/* line 125, ../../dev/sass/specifics/_calendar.scss */
+/* line 126, ../../dev/sass/specifics/_calendar.scss */
 .comiseo-daterangepicker > .comiseo-daterangepicker-main.ui-widget-content {
   border: none;
 }
-/* line 129, ../../dev/sass/specifics/_calendar.scss */
+/* line 130, ../../dev/sass/specifics/_calendar.scss */
 .comiseo-daterangepicker .ui-state-hover,
 .comiseo-daterangepicker .ui-widget-content .ui-state-hover,
 .comiseo-daterangepicker .ui-widget-header .ui-state-hover,
@@ -6518,7 +6520,7 @@ textarea {
 .comiseo-daterangepicker .ui-widget-header .ui-state-focus {
   background: transparent;
 }
-/* line 137, ../../dev/sass/specifics/_calendar.scss */
+/* line 138, ../../dev/sass/specifics/_calendar.scss */
 .comiseo-daterangepicker .ui-widget-content {
   border-width: 0;
   border: none;
@@ -6526,52 +6528,52 @@ textarea {
   background: none;
 }
 
-/* line 145, ../../dev/sass/specifics/_calendar.scss */
+/* line 146, ../../dev/sass/specifics/_calendar.scss */
 .ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default {
   font-family: pragmatica,Helvetica,Arial,sans-serif;
 }
 
-/* line 150, ../../dev/sass/specifics/_calendar.scss */
+/* line 151, ../../dev/sass/specifics/_calendar.scss */
 .comiseo-daterangepicker-right .comiseo-daterangepicker-calendar {
   border: none;
 }
-/* line 153, ../../dev/sass/specifics/_calendar.scss */
+/* line 154, ../../dev/sass/specifics/_calendar.scss */
 .comiseo-daterangepicker-right .comiseo-daterangepicker-buttonpanel {
   display: none;
 }
 
-/* line 158, ../../dev/sass/specifics/_calendar.scss */
+/* line 159, ../../dev/sass/specifics/_calendar.scss */
 .comiseo-daterangepicker {
   padding: 0;
 }
-/* line 160, ../../dev/sass/specifics/_calendar.scss */
+/* line 161, ../../dev/sass/specifics/_calendar.scss */
 .comiseo-daterangepicker .comiseo-daterangepicker-calendar {
   display: block;
   height: auto;
 }
-/* line 164, ../../dev/sass/specifics/_calendar.scss */
+/* line 165, ../../dev/sass/specifics/_calendar.scss */
 .comiseo-daterangepicker .ui-datepicker {
   width: 100%;
 }
-/* line 166, ../../dev/sass/specifics/_calendar.scss */
+/* line 167, ../../dev/sass/specifics/_calendar.scss */
 .comiseo-daterangepicker .ui-datepicker .ui-widget-header {
   border: none;
   background: none;
   color: #45484C;
 }
-/* line 172, ../../dev/sass/specifics/_calendar.scss */
+/* line 173, ../../dev/sass/specifics/_calendar.scss */
 .comiseo-daterangepicker .ui-datepicker .ui-datepicker-prev span {
   background: url(/i/sprite.png) -80px -160px no-repeat;
 }
-/* line 177, ../../dev/sass/specifics/_calendar.scss */
+/* line 178, ../../dev/sass/specifics/_calendar.scss */
 .comiseo-daterangepicker .ui-datepicker .ui-datepicker-next span {
   background: url(/i/sprite.png) -120px -160px no-repeat;
 }
-/* line 181, ../../dev/sass/specifics/_calendar.scss */
+/* line 182, ../../dev/sass/specifics/_calendar.scss */
 .comiseo-daterangepicker .ui-datepicker .ui-widget-content {
   background: #f8faf9;
 }
-/* line 184, ../../dev/sass/specifics/_calendar.scss */
+/* line 185, ../../dev/sass/specifics/_calendar.scss */
 .comiseo-daterangepicker .ui-datepicker .ui-datepicker-header {
   font-size: 0.72727em;
   padding: 2.16667em 0 2.16667em;
@@ -6580,28 +6582,28 @@ textarea {
   -webkit-border-radius: 0;
   border-radius: 0;
 }
-/* line 189, ../../dev/sass/specifics/_calendar.scss */
+/* line 190, ../../dev/sass/specifics/_calendar.scss */
 .comiseo-daterangepicker .ui-datepicker .ui-datepicker-header .ui-datepicker-title {
   font-size: 0.92308em;
 }
-/* line 194, ../../dev/sass/specifics/_calendar.scss */
+/* line 195, ../../dev/sass/specifics/_calendar.scss */
 .comiseo-daterangepicker .ui-datepicker table {
   width: 86%;
   margin: 1.33333em auto 0;
 }
 
-/* line 202, ../../dev/sass/specifics/_calendar.scss */
+/* line 203, ../../dev/sass/specifics/_calendar.scss */
 .comiseo-daterangepicker-triggerbutton.ui-button {
   display: none;
 }
 
-/* line 212, ../../dev/sass/specifics/_calendar.scss */
+/* line 213, ../../dev/sass/specifics/_calendar.scss */
 .comiseo-daterangepicker .datepicker_bottom_block {
   width: 100%;
   z-index: 100;
   font-size: 0.72727em;
 }
-/* line 216, ../../dev/sass/specifics/_calendar.scss */
+/* line 217, ../../dev/sass/specifics/_calendar.scss */
 .comiseo-daterangepicker .datepicker_bottom_block .info_block {
   height: 2.91667em;
   width: 100%;
@@ -6610,13 +6612,13 @@ textarea {
   z-index: 100;
   position: relative;
 }
-/* line 223, ../../dev/sass/specifics/_calendar.scss */
+/* line 224, ../../dev/sass/specifics/_calendar.scss */
 .comiseo-daterangepicker .datepicker_bottom_block .info_block span {
   margin: 30px 0px 0px 145px;
   display: inline-block;
   color: #45484C;
 }
-/* line 227, ../../dev/sass/specifics/_calendar.scss */
+/* line 228, ../../dev/sass/specifics/_calendar.scss */
 .comiseo-daterangepicker .datepicker_bottom_block .info_block span:before {
   content: '';
   width: 11px;
@@ -6627,23 +6629,23 @@ textarea {
   -webkit-border-radius: 100%;
   border-radius: 100%;
 }
-/* line 235, ../../dev/sass/specifics/_calendar.scss */
+/* line 236, ../../dev/sass/specifics/_calendar.scss */
 .comiseo-daterangepicker .datepicker_bottom_block .info_block span.starting {
   margin: 20px 0px 0px 145px;
 }
-/* line 237, ../../dev/sass/specifics/_calendar.scss */
+/* line 238, ../../dev/sass/specifics/_calendar.scss */
 .comiseo-daterangepicker .datepicker_bottom_block .info_block span.starting:before {
   background-color: #22c866;
 }
-/* line 241, ../../dev/sass/specifics/_calendar.scss */
+/* line 242, ../../dev/sass/specifics/_calendar.scss */
 .comiseo-daterangepicker .datepicker_bottom_block .info_block span.ending {
   margin: 20px 0px 0px 5px;
 }
-/* line 243, ../../dev/sass/specifics/_calendar.scss */
+/* line 244, ../../dev/sass/specifics/_calendar.scss */
 .comiseo-daterangepicker .datepicker_bottom_block .info_block span.ending:before {
   background-color: #d76969;
 }
-/* line 249, ../../dev/sass/specifics/_calendar.scss */
+/* line 250, ../../dev/sass/specifics/_calendar.scss */
 .comiseo-daterangepicker .datepicker_bottom_block .reset_block {
   height: 55px;
   width: 100%;
@@ -6653,7 +6655,7 @@ textarea {
   position: relative;
   border-bottom: 1px solid #cecfd0;
 }
-/* line 257, ../../dev/sass/specifics/_calendar.scss */
+/* line 258, ../../dev/sass/specifics/_calendar.scss */
 .comiseo-daterangepicker .datepicker_bottom_block .reset_block .reset {
   margin: 20px 0px 0px 252px;
   display: inline-block;

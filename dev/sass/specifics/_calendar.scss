@@ -26,6 +26,7 @@ $calendar-font-size: 12px;
 .calendar_status_wrap {
 	.calendar_status {
 		font-size: em($calendar-font-size);
+		font-weight: 700;
 		text-transform: uppercase;
 		color: $gray-color;
 		// vertical-align: -1px;

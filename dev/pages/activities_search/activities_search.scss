@@ -34,7 +34,7 @@ input[type="checkbox"]:checked {
 .select_wrap_list {
 	display: inline-block;
 	width: 50%;
-	li {
+	>li {
 		margin-top: em(40px);
 		&:first-child {
 			margin-top: 0;

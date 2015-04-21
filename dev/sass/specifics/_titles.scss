@@ -1,6 +1,6 @@
 .base_title {
 	font-family: pragmatica,Helvetica,Arial,sans-serif;
-	font-weight: 300;
+	font-weight: 700;
 }
 
 .main_title {
@@ -29,6 +29,7 @@
 .brand_news_title {
 	// font-family: 'proxima_novalight';
 	@extend .base_title;
+	font-weight: 300;
 	font-size: em($brand_news_title-font-size, $base-font-size);
 	line-height: 1;
 	// color: #323a45;

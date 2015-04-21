@@ -12,7 +12,7 @@ $status_wrap-width: 300px;
 		width: 100%;
 		height: em(42px, $btn-font-size);
 		line-height: em(42px, $btn-font-size);
-		text-transform: none;
+		// text-transform: none;
 		.ico_calendar {
 			margin: 0 0 0 flex(20px, $status_wrap-width);
 			height: 13px;

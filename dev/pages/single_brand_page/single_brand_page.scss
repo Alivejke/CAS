@@ -31,7 +31,8 @@
 			width: flex(153px, 1041px);
 		}
 		&.pos_right {
-			right: flex(300px, 1041px);
+			// right: flex(300px, 1041px);
+			width: flex(300px, 1041px);
 		}
 	}
 }
