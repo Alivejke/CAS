@@ -3666,12 +3666,12 @@ textarea {
   position: relative;
   font-family: pragmatica,Helvetica,Arial,sans-serif;
   font-weight: 300;
-  font-size: 1em;
+  font-size: 0.73333em;
   color: #707070;
   text-decoration: none;
   text-transform: uppercase;
-  margin-left: 0.13333em;
-  padding-left: 0.46667em;
+  margin-left: 0.18182em;
+  padding-left: 0.63636em;
 }
 /* line 82, ../../dev/sass/specifics/_footer.scss */
 .footer_navigate a:first-child {
@@ -3704,11 +3704,11 @@ textarea {
 /* line 107, ../../dev/sass/specifics/_footer.scss */
 .footer_copyright {
   line-height: 1;
-  margin: 0 0 0 1.4em;
+  margin: 0 0 0 1.90909em;
   font-family: 'Open Sans', sans-serif;
   font-family: pragmatica,Helvetica,Arial,sans-serif;
   font-weight: 300;
-  font-size: 1em;
+  font-size: 0.73333em;
   color: #707070;
 }
 
