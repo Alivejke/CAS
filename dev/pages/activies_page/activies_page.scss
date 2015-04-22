@@ -29,11 +29,12 @@
 
         .icon {
             margin: 0px auto;
+            display: block;
         }
         .name_channels {
             font-family: pragmatica,Helvetica,Arial,sans-serif;
             font-weight: 300;
-            font-size: em($brand_news_title-font-size, $base-font-size);
+            font-size: em(21px , $base-font-size);
             line-height: 1;
             color: $base-color;
             text-align: center;
@@ -131,16 +132,21 @@
             }
             .name {
                 float: left;
+                font-weight: 500;
             }
             .text {
                 float: left;
                 width: flex(300px, 450px);
                 margin-top: em(10px, $base-font-size);
-                color: $gray-color;
+                color: #5a636e;
+                line-height: em(21px, $base-font-size);
+                font-size: em(13.4px, $base-font-size);
             }
             .file_size {
                 float: left;
                 width: flex(300px, 450px);
+                margin-top: em(3px, $base-font-size);
+                font-weight: 500;
             }
             .ico_download {
                 cursor: pointer;
@@ -186,4 +192,13 @@
         }
     }
 }
-
+.wrap_blocks {
+    background: #F9F9FB;
+    overflow: hidden;
+    margin-bottom: -1.4em;
+    width: 100%;
+}
+#mainarea.activies_page_wrap {
+    padding-bottom: 0px;
+    margin: 0px auto;
+}
