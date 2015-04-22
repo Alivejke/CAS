@@ -132,8 +132,14 @@
   width: 35.33333%;
   margin-left: 13.33333%;
   margin-top: 1.69231em;
+  color: #A8AAAC;
 }
-/* line 60, ../../../dev/pages/profile/profile.scss */
+/* line 61, ../../../dev/pages/profile/profile.scss */
 .profile_description_list li input[type="checkbox"] + label::before {
   vertical-align: -4px;
+}
+
+/* line 69, ../../../dev/pages/profile/profile.scss */
+.select2-container--default .select2-selection--single .select2-selection__rendered {
+  color: #909090;
 }

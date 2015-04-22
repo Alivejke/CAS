@@ -131,11 +131,13 @@
 	font-weight: 300;
 	// color: #909294;
 	color: $gray-color;
+	color: #CACACC;
 	cursor: pointer;
 	span {
 		display: inline-block;
 		// border-bottom: 1px solid #909294;
-		border-bottom: 1px solid $gray-color;
+		// border-bottom: 1px solid $gray-color;
+		border-bottom: 1px solid #CACACC;
 	}
 	&:after {
 		content: '';

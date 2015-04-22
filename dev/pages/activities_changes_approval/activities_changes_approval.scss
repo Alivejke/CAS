@@ -159,9 +159,6 @@ $brand_news_list-width: 295px;
 			width: flex(230px, 253px);
 		}
 		.manage {
-			width: flex(62px, 330px);
-			height: em(62px);
-
 			@media (max-width: 768px) {
 		 		width: em(62px);
 		 	}
@@ -170,10 +167,11 @@ $brand_news_list-width: 295px;
 			}
 		}
 		.description {
-			width: flex(253px, 330px);
+			width: flex(240px, 330px);
 			margin-left: flex(15px, 330px);
 			p {
 				margin-top: em(20px);
+				color: #8F979F;
 			}
 			&.distinction {
 				.brand_news_title {

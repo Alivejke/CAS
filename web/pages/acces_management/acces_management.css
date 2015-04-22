@@ -68,7 +68,7 @@
 }
 /* line 5, ../../../dev/pages/acces_management/acces_management.scss */
 .approval_flow_wrap .approval_table td {
-  padding: 0.66667em 0.33333em;
+  padding: 0 0.33333em 1.33333em;
 }
 
 /* line 12, ../../../dev/pages/acces_management/acces_management.scss */
@@ -93,7 +93,6 @@
 /* line 31, ../../../dev/pages/acces_management/acces_management.scss */
 .acces_content_wrap .btn.btn-default {
   width: 16.26016%;
-  color: #45484C;
 }
 
 /* line 38, ../../../dev/pages/acces_management/acces_management.scss */

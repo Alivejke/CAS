@@ -9,6 +9,7 @@
 		position: absolute;
 		top: -255px;
 		left: -351px;
+		z-index: 1;
 		&.img_circle_v {
 			top: -255px;
 			left: -351px;
@@ -43,6 +44,47 @@
 		}
 		.img_circle-default_text {
 			display: inline-block;
+		}
+	}
+	&:hover {
+		border-color: #42CE7F;
+		.ico_search{
+	        display: block;
+	    }
+	}
+	.ico_search {
+        position: absolute;
+        top: em(25px, $base-font-size);
+        left: flex(25px, 73px);
+        display: none;
+        z-index: 2;
+
+        @media (max-width: 768px) {
+            top: 1.3em;
+            left: 32.24658%;
+        }
+    }
+}
+
+.manage_img_wrapper {
+	padding: em(4px) flex(4px, 330px);
+	border: 1px solid transparent;
+	border-radius: 100%;
+	width: flex(72px, 330px);
+	height: em(72px);
+	&:hover {
+		border-color: #42CE7F;
+	}
+}
+
+.document {
+	li {
+		.manage {
+			width: 100%;
+			height: 100%;
+		}
+		.description {
+			width: flex(240px, 330px);
 		}
 	}
 }

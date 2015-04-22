@@ -216,48 +216,48 @@
   float: left;
   width: 66.66667%;
   margin-top: 0.66667em;
-  color: #45484C;
+  color: #8F979F;
 }
-/* line 141, ../../../dev/pages/activies_page/activies_page.scss */
+/* line 142, ../../../dev/pages/activies_page/activies_page.scss */
 .activies_page_wrap .attachments_blocks .block .file_size {
   float: left;
   width: 66.66667%;
 }
-/* line 145, ../../../dev/pages/activies_page/activies_page.scss */
+/* line 146, ../../../dev/pages/activies_page/activies_page.scss */
 .activies_page_wrap .attachments_blocks .block .ico_download {
   cursor: pointer;
 }
 @media (max-width: 768px) {
-  /* line 145, ../../../dev/pages/activies_page/activies_page.scss */
+  /* line 146, ../../../dev/pages/activies_page/activies_page.scss */
   .activies_page_wrap .attachments_blocks .block .ico_download {
     margin-top: 5px;
   }
 }
 
-/* line 157, ../../../dev/pages/activies_page/activies_page.scss */
+/* line 158, ../../../dev/pages/activies_page/activies_page.scss */
 .brand_news .btn_wrap {
   bottom: -1.66667em;
 }
 
-/* line 164, ../../../dev/pages/activies_page/activies_page.scss */
+/* line 165, ../../../dev/pages/activies_page/activies_page.scss */
 .btn_big_rounded_wrap .btn.btn_big_rounded {
   line-height: 3.57143em;
 }
 
-/* line 172, ../../../dev/pages/activies_page/activies_page.scss */
+/* line 173, ../../../dev/pages/activies_page/activies_page.scss */
 .wrap_blocks .main_title.main_title_actives {
   margin-top: 4.51852em;
 }
 
-/* line 179, ../../../dev/pages/activies_page/activies_page.scss */
+/* line 180, ../../../dev/pages/activies_page/activies_page.scss */
 .status_wrap .btn_big_rounded {
   text-transform: uppercase;
 }
-/* line 181, ../../../dev/pages/activies_page/activies_page.scss */
+/* line 182, ../../../dev/pages/activies_page/activies_page.scss */
 .status_wrap .btn_big_rounded .ico_status {
   margin-left: 6.66667%;
 }
-/* line 184, ../../../dev/pages/activies_page/activies_page.scss */
+/* line 185, ../../../dev/pages/activies_page/activies_page.scss */
 .status_wrap .btn_big_rounded .ico_calendar {
   margin: 0 1.66667% 0 13.33333%;
 }

@@ -70,7 +70,8 @@ $th_base-width: flex($base-width-content/5, $base-width-content);
 		max-width: 960px;
 		margin: 0 auto;
 		td {
-			color: $gray-color-old;
+			// color: $gray-color-old;
+			color: #A0A0A0;
 			width: 16%;
 			padding: 0 em(5px);
 			&+td {
@@ -125,8 +126,8 @@ $th_base-width: flex($base-width-content/5, $base-width-content);
 	.title_table {
 		width: 100%;
 		// background-color: #f8faf9;
-		padding: em(25px) 0 em(12px);
-		margin-top: em(25px);
+		padding: em(25px) 0 em(6px);
+		margin-top: em(45px);
 		table {
 			max-width: 960px;
 			margin: 0 auto 0;
@@ -158,10 +159,11 @@ $th_base-width: flex($base-width-content/5, $base-width-content);
 		}
 		th {
 			font-family: pragmatica,Helvetica,Arial,sans-serif;
-			font-size: $base-font-size;
+			font-size: em($base-font-size);
 			text-align: left;
 			text-transform: uppercase;
-			color: $gray-color;
+			// color: $gray-color;
+			color: #849199;
 			width: 16%;
 			padding: 0 em(5px);
 			&+th {
@@ -182,12 +184,18 @@ $th_base-width: flex($base-width-content/5, $base-width-content);
 
 .wrap_table {
 	& > div {
-		padding: em(15px) 0;
+		// padding: em(15px) 0;
 		&:nth-child(odd){
 			background-color: #f8faf9;
+			.title_table {
+				background-color: #f8faf9;
+			}
 		}
 		&.odd {
 			background-color: #f8faf9;
+			.title_table {
+				background-color: #f8faf9;
+			}
 		}
 		&.indent-bottom {
 			margin-bottom: em(100px);
@@ -207,5 +215,14 @@ $th_base-width: flex($base-width-content/5, $base-width-content);
 
 .table_text_bold {
 	font-weight: 600;
-	color: #7c7c7c;
+	color: #849199;
+}
+
+.access-management-block {
+	.access-management-item {
+		margin-top: em(58px);
+		&:first-child {
+			margin-top: 0;
+		}
+	}
 }

@@ -110,21 +110,22 @@
 /* line 38, ../../../dev/pages/approval_flow/approval_flow.scss */
 .approval_flow_wrap .approval_table .wrap_comments_table .comment_table {
   margin-bottom: 0.66667em;
+  color: #c2c4c3;
 }
-/* line 44, ../../../dev/pages/approval_flow/approval_flow.scss */
+/* line 45, ../../../dev/pages/approval_flow/approval_flow.scss */
 .approval_flow_wrap .title_table {
   width: 100%;
   background-color: #f8faf9;
   padding: 1.66667em 0 0;
   margin-top: 1.66667em;
 }
-/* line 49, ../../../dev/pages/approval_flow/approval_flow.scss */
+/* line 50, ../../../dev/pages/approval_flow/approval_flow.scss */
 .approval_flow_wrap .title_table table {
   max-width: 960px;
   margin: 0 auto 0;
   width: 100%;
 }
-/* line 54, ../../../dev/pages/approval_flow/approval_flow.scss */
+/* line 55, ../../../dev/pages/approval_flow/approval_flow.scss */
 .approval_flow_wrap .title_table th {
   font-family: pragmatica,Helvetica,Arial,sans-serif;
   font-size: 15px;
@@ -134,41 +135,41 @@
   width: 16%;
   padding: 0 0.33333em;
 }
-/* line 62, ../../../dev/pages/approval_flow/approval_flow.scss */
+/* line 63, ../../../dev/pages/approval_flow/approval_flow.scss */
 .approval_flow_wrap .title_table th + th {
   width: 18%;
 }
-/* line 64, ../../../dev/pages/approval_flow/approval_flow.scss */
+/* line 65, ../../../dev/pages/approval_flow/approval_flow.scss */
 .approval_flow_wrap .title_table th + th + th {
   width: 19%;
 }
-/* line 66, ../../../dev/pages/approval_flow/approval_flow.scss */
+/* line 67, ../../../dev/pages/approval_flow/approval_flow.scss */
 .approval_flow_wrap .title_table th + th + th + th {
   width: 25%;
 }
-/* line 68, ../../../dev/pages/approval_flow/approval_flow.scss */
+/* line 69, ../../../dev/pages/approval_flow/approval_flow.scss */
 .approval_flow_wrap .title_table th + th + th + th + th {
   width: 22%;
 }
 
-/* line 79, ../../../dev/pages/approval_flow/approval_flow.scss */
+/* line 80, ../../../dev/pages/approval_flow/approval_flow.scss */
 .wrap_table > div {
   padding: 1em 0;
 }
-/* line 81, ../../../dev/pages/approval_flow/approval_flow.scss */
+/* line 82, ../../../dev/pages/approval_flow/approval_flow.scss */
 .wrap_table > div:nth-child(odd) {
   background-color: #f8faf9;
 }
-/* line 84, ../../../dev/pages/approval_flow/approval_flow.scss */
+/* line 85, ../../../dev/pages/approval_flow/approval_flow.scss */
 .wrap_table > div.odd {
   background-color: #f8faf9;
 }
-/* line 87, ../../../dev/pages/approval_flow/approval_flow.scss */
+/* line 88, ../../../dev/pages/approval_flow/approval_flow.scss */
 .wrap_table > div.indent-bottom {
   margin-bottom: 6.66667em;
 }
 
-/* line 95, ../../../dev/pages/approval_flow/approval_flow.scss */
+/* line 96, ../../../dev/pages/approval_flow/approval_flow.scss */
 .button_table .btn.btn_rounded {
   width: 38.54802%;
   height: 2.54545em;

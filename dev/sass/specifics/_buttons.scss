@@ -8,6 +8,7 @@
 	text-transform: uppercase;
 	vertical-align: middle;
 	overflow: hidden;
+	color: #8F9BA3;
 	&.btn_circle {
 		width: 45px;
 		height: 45px;
@@ -66,7 +67,8 @@
 		height: em(50px, $btn-font-size);
 		line-height: em(42px, $btn-font-size);
 		// color: #909294;
-		color: $gray-color;
+		// color: $gray-color;
+		color: #7E8D95;
 		&:hover {
 			@include opacity(0.5);
 			.ico_upload {

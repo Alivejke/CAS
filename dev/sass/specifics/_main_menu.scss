@@ -137,9 +137,11 @@ $main_menu_item-width-hover: 367px;
 					}
 					.main_menu_title {
 						margin-top: em($main_menu_title-font-size, $main_menu_title-font-size);
-						width: 65%;
+						width: 68%;
 						font-size: em($main_menu-font-size, $base-font-size);
 						line-height: em(27px, $main_menu-font-size);
+						max-height: em(60px, $main_menu-font-size);
+						overflow: hidden;
 
 						@media (max-width: 768px) {
 	                        width: 100%;

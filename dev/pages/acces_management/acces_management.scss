@@ -3,7 +3,7 @@
 .approval_flow_wrap {
 	.approval_table {
 		td {
-			padding: em(10px) em(5px);
+			padding: 0 em(5px) em(20px);
 		}
 	}
 }
@@ -30,7 +30,7 @@
 	.btn {
 		&.btn-default {
 			width: flex(120px, $base-width-content);
-			color: $gray-color;
+			// color: $gray-color;
 		}
 	}
 }

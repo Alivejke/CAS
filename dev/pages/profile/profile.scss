@@ -57,8 +57,17 @@ $profile_description-width: 300px;
 		width: flex(106px, $profile_description-width);
 		margin-left: flex(40px, $profile_description-width);
 		margin-top: em(22px, 13px);
+		color: #A8AAAC;
 		input[type="checkbox"] + label::before {
 			vertical-align: -4px;
+		}
+	}
+}
+
+.select2-container--default {
+	.select2-selection--single {
+		.select2-selection__rendered {
+			color: #909090;
 		}
 	}
 }

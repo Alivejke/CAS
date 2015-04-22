@@ -2,6 +2,7 @@
 $feeds_name_font-size: 18px;
 .wrap.wrap_news_feed {
 	margin-bottom: em(60px, $base-font-size);
+	padding: 0 0 0 em($base-margin)*2;
 
 	@media (max-width: 768px) {
         margin-bottom: 0;
@@ -42,8 +43,9 @@ $feeds_name_font-size: 18px;
 		.name {
 			// margin-left: flex(130px, $base-width-content);
 			margin-left: 7.22em;
-			font-size: $feeds_name_font-size;
+			font-size: em($feeds_name_font-size);
   			text-transform: uppercase;
+  			color: #60717B;
 		}
 		.info {
 			margin-top: em(10px, $base-font-size);
@@ -51,14 +53,17 @@ $feeds_name_font-size: 18px;
 			margin-left: 8.65em;
 			span {
 				font-weight: 300;
+				color: #919191;
 			}
 			.brand, .updated {
 				font-weight: 600;
+				color: #787878;
 			}
 			.status {
 				margin-top: em(10px, $base-font-size);
 				font-weight: 600;
 				text-transform: uppercase;
+				color: #7E7F81;
 				.new {
 					color: #2ecc71;
 					font-weight: 600;
