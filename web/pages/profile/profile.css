@@ -171,47 +171,13 @@
     width: 43.65041%;
   }
 }
-/* line 95, ../../../dev/pages/profile/profile.scss */
-.password_wrap input {
-  margin-top: 1.30769em;
-  width: 100%;
-  height: 3.23077em;
-  padding: 0 6.43087%;
-  font-size: 0.86667em;
-  border: 1px solid #dedfdf;
-  color: #8F9BA3;
-}
-/* line 61, c:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-core-1.0.3/stylesheets/compass/css3/_user-interface.scss */
-.password_wrap input:-moz-placeholder {
-  color: #8F9BA3;
-}
-/* line 64, c:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-core-1.0.3/stylesheets/compass/css3/_user-interface.scss */
-.password_wrap input::-moz-placeholder {
-  color: #8F9BA3;
-}
-/* line 67, c:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-core-1.0.3/stylesheets/compass/css3/_user-interface.scss */
-.password_wrap input:-ms-input-placeholder {
-  color: #8F9BA3;
-}
-/* line 56, c:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-core-1.0.3/stylesheets/compass/css3/_user-interface.scss */
-.password_wrap input::-webkit-input-placeholder {
-  color: #8F9BA3;
-}
-/* line 106, ../../../dev/pages/profile/profile.scss */
-.password_wrap input.error {
-  border-color: #b70e12;
-}
-/* line 109, ../../../dev/pages/profile/profile.scss */
-.password_wrap input.complete {
-  border-color: #00CD6B;
-}
 
-/* line 118, ../../../dev/pages/profile/profile.scss */
+/* line 100, ../../../dev/pages/profile/profile.scss */
 .select_wrap .select2-container.select2-container--default .select2-selection--single {
   border-color: #dedfdf;
 }
 
-/* line 125, ../../../dev/pages/profile/profile.scss */
+/* line 107, ../../../dev/pages/profile/profile.scss */
 .select2-dropdown {
   border-color: #dedfdf;
   -moz-border-radius: 0;

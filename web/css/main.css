@@ -4506,7 +4506,7 @@ textarea {
 
 /* line 157, ../../dev/sass/specifics/_icons.scss */
 .ico_spam {
-  background-position: 0px -240px;
+  background-position: 0px -280px;
   width: 13px;
   height: 13px;
 }
@@ -7148,4 +7148,39 @@ label.checkbox.distinction .label_ico {
 /* line 7, ../../dev/sass/specifics/_img_in_square_frame.scss */
 .block_img img {
   max-width: 100%;
+}
+
+/* line 3, ../../dev/sass/specifics/_input.scss */
+input.input {
+  margin-top: 1.30769em;
+  width: 100%;
+  height: 3.23077em;
+  padding: 0 6.43087%;
+  font-size: 0.86667em;
+  border: 1px solid #dedfdf;
+  color: #8F9BA3;
+}
+/* line 61, c:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/css3/_user-interface.scss */
+input.input:-moz-placeholder {
+  color: #8F9BA3;
+}
+/* line 64, c:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/css3/_user-interface.scss */
+input.input::-moz-placeholder {
+  color: #8F9BA3;
+}
+/* line 67, c:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/css3/_user-interface.scss */
+input.input:-ms-input-placeholder {
+  color: #8F9BA3;
+}
+/* line 56, c:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/css3/_user-interface.scss */
+input.input::-webkit-input-placeholder {
+  color: #8F9BA3;
+}
+/* line 14, ../../dev/sass/specifics/_input.scss */
+input.input.error {
+  border-color: #b70e12;
+}
+/* line 17, ../../dev/sass/specifics/_input.scss */
+input.input.complete {
+  border-color: #00CD6B;
 }
