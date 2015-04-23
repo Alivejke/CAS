@@ -107,21 +107,29 @@
 .brand_news.edit_brand {
   padding: 2.2em 0 3.66667em 0;
 }
-
 /* line 42, ../../../dev/pages/toolbox/toolbox.scss */
+.brand_news .btn_big_rounded_wrap:first-child {
+  width: 20.61995%;
+}
+/* line 45, ../../../dev/pages/toolbox/toolbox.scss */
+.brand_news .btn_big_rounded_wrap.pos_right {
+  width: 22.91105%;
+}
+
+/* line 50, ../../../dev/pages/toolbox/toolbox.scss */
 .brand_news_title {
   font-size: 1.8em;
 }
 
-/* line 47, ../../../dev/pages/toolbox/toolbox.scss */
+/* line 55, ../../../dev/pages/toolbox/toolbox.scss */
 .status_wrap .btn_big_rounded {
   text-transform: uppercase;
 }
-/* line 49, ../../../dev/pages/toolbox/toolbox.scss */
+/* line 57, ../../../dev/pages/toolbox/toolbox.scss */
 .status_wrap .btn_big_rounded .ico_status {
-  margin-left: 6.66667%;
+  margin-left: 12.66667%;
 }
-/* line 52, ../../../dev/pages/toolbox/toolbox.scss */
+/* line 60, ../../../dev/pages/toolbox/toolbox.scss */
 .status_wrap .btn_big_rounded .ico_calendar {
   margin: 0 1.66667% 0 13.33333%;
 }

@@ -140,70 +140,74 @@
   }
 }
 /* line 73, ../../../dev/pages/activities_changes_approval/activities_changes_approval.scss */
+.brand_news_toolbax .status_wrap .btn_big_rounded .ico_status {
+  margin-left: 13.55932%;
+}
+/* line 79, ../../../dev/pages/activities_changes_approval/activities_changes_approval.scss */
 .brand_news_toolbax.description .brand_news_list {
   width: 79.9458%;
   color: #77808b;
   margin-top: 3.53333em;
 }
-/* line 77, ../../../dev/pages/activities_changes_approval/activities_changes_approval.scss */
+/* line 83, ../../../dev/pages/activities_changes_approval/activities_changes_approval.scss */
 .brand_news_toolbax.description .brand_news_list p {
   margin-top: 2.46667em;
   line-height: 1.2em;
 }
-/* line 80, ../../../dev/pages/activities_changes_approval/activities_changes_approval.scss */
+/* line 86, ../../../dev/pages/activities_changes_approval/activities_changes_approval.scss */
 .brand_news_toolbax.description .brand_news_list p.distinction {
   color: #b70e12;
 }
-/* line 84, ../../../dev/pages/activities_changes_approval/activities_changes_approval.scss */
+/* line 90, ../../../dev/pages/activities_changes_approval/activities_changes_approval.scss */
 .brand_news_toolbax.description .brand_news_list.distinction {
   color: #b70e12;
 }
 
-/* line 93, ../../../dev/pages/activities_changes_approval/activities_changes_approval.scss */
+/* line 99, ../../../dev/pages/activities_changes_approval/activities_changes_approval.scss */
 .brand_news_list .btn.btn-default {
   width: 49.49153%;
 }
 
-/* line 100, ../../../dev/pages/activities_changes_approval/activities_changes_approval.scss */
+/* line 106, ../../../dev/pages/activities_changes_approval/activities_changes_approval.scss */
 .main_title.main_title-indent {
   margin-top: 2.22222em;
 }
 
-/* line 105, ../../../dev/pages/activities_changes_approval/activities_changes_approval.scss */
+/* line 111, ../../../dev/pages/activities_changes_approval/activities_changes_approval.scss */
 .approval_list {
   margin-top: 1.09524em;
   font-size: 1.4em;
   color: #45484C;
 }
 
-/* line 113, ../../../dev/pages/activities_changes_approval/activities_changes_approval.scss */
+/* line 119, ../../../dev/pages/activities_changes_approval/activities_changes_approval.scss */
 .brand_news_toolbax_list > li .block_img {
   width: 80.2168%;
 }
 
-/* line 119, ../../../dev/pages/activities_changes_approval/activities_changes_approval.scss */
+/* line 125, ../../../dev/pages/activities_changes_approval/activities_changes_approval.scss */
 .activities_changes_approval_list_wrap {
   padding: 0 0 0 23.125%;
 }
 
 @media (max-width: 768px) {
-  /* line 123, ../../../dev/pages/activities_changes_approval/activities_changes_approval.scss */
+  /* line 129, ../../../dev/pages/activities_changes_approval/activities_changes_approval.scss */
   .activities_changes_approval_list_wrap_list {
     padding: 0 0 0 10%;
   }
 }
 
-/* line 129, ../../../dev/pages/activities_changes_approval/activities_changes_approval.scss */
+/* line 135, ../../../dev/pages/activities_changes_approval/activities_changes_approval.scss */
 .document_wrap {
   border-top: 1px solid #cecfd0;
   padding-top: 5.33333em;
 }
 
-/* line 134, ../../../dev/pages/activities_changes_approval/activities_changes_approval.scss */
+/* line 140, ../../../dev/pages/activities_changes_approval/activities_changes_approval.scss */
 .document {
   margin-top: -3em;
 }
-/* line 136, ../../../dev/pages/activities_changes_approval/activities_changes_approval.scss */
+/* line 142, ../../../dev/pages/activities_changes_approval/activities_changes_approval.scss */
 .document li {
   float: left;
   width: 44.71545%;
@@ -212,109 +216,109 @@
   margin-top: 6.33333em;
 }
 @media (max-width: 768px) {
-  /* line 136, ../../../dev/pages/activities_changes_approval/activities_changes_approval.scss */
+  /* line 142, ../../../dev/pages/activities_changes_approval/activities_changes_approval.scss */
   .document li {
     float: none;
     width: 100%;
     margin-left: 0;
   }
 }
-/* line 149, ../../../dev/pages/activities_changes_approval/activities_changes_approval.scss */
+/* line 155, ../../../dev/pages/activities_changes_approval/activities_changes_approval.scss */
 .document li:nth-child(2n+1) {
   margin-left: 0;
 }
-/* line 153, ../../../dev/pages/activities_changes_approval/activities_changes_approval.scss */
+/* line 159, ../../../dev/pages/activities_changes_approval/activities_changes_approval.scss */
 .document li.odd {
   margin-left: 0;
 }
-/* line 157, ../../../dev/pages/activities_changes_approval/activities_changes_approval.scss */
+/* line 163, ../../../dev/pages/activities_changes_approval/activities_changes_approval.scss */
 .document li .brand_news_title {
   font-size: 1em;
   width: 90.90909%;
 }
 @media (max-width: 768px) {
-  /* line 161, ../../../dev/pages/activities_changes_approval/activities_changes_approval.scss */
+  /* line 167, ../../../dev/pages/activities_changes_approval/activities_changes_approval.scss */
   .document li .manage {
     width: 4.13333em;
   }
 }
-/* line 165, ../../../dev/pages/activities_changes_approval/activities_changes_approval.scss */
+/* line 171, ../../../dev/pages/activities_changes_approval/activities_changes_approval.scss */
 .document li .manage.img_circle-default {
   line-height: 4.13333em;
 }
-/* line 169, ../../../dev/pages/activities_changes_approval/activities_changes_approval.scss */
+/* line 175, ../../../dev/pages/activities_changes_approval/activities_changes_approval.scss */
 .document li .description {
   width: 72.72727%;
   margin-left: 4.54545%;
 }
-/* line 172, ../../../dev/pages/activities_changes_approval/activities_changes_approval.scss */
+/* line 178, ../../../dev/pages/activities_changes_approval/activities_changes_approval.scss */
 .document li .description p {
   margin-top: 1.33333em;
   color: #8F979F;
 }
-/* line 177, ../../../dev/pages/activities_changes_approval/activities_changes_approval.scss */
+/* line 183, ../../../dev/pages/activities_changes_approval/activities_changes_approval.scss */
 .document li .description.distinction .brand_news_title {
   color: #b70e12;
 }
 
-/* line 185, ../../../dev/pages/activities_changes_approval/activities_changes_approval.scss */
+/* line 191, ../../../dev/pages/activities_changes_approval/activities_changes_approval.scss */
 .channel {
   display: inline-block;
   width: 42.00542%;
   margin-left: 13.55014%;
   margin-top: 3.73333em;
 }
-/* line 190, ../../../dev/pages/activities_changes_approval/activities_changes_approval.scss */
+/* line 196, ../../../dev/pages/activities_changes_approval/activities_changes_approval.scss */
 .channel:nth-child(2n+1) {
   margin-left: 0;
 }
-/* line 194, ../../../dev/pages/activities_changes_approval/activities_changes_approval.scss */
+/* line 200, ../../../dev/pages/activities_changes_approval/activities_changes_approval.scss */
 .channel.odd {
   margin-left: 0;
 }
-/* line 198, ../../../dev/pages/activities_changes_approval/activities_changes_approval.scss */
+/* line 204, ../../../dev/pages/activities_changes_approval/activities_changes_approval.scss */
 .channel .name_channels {
   margin-bottom: 1.53333em;
 }
-/* line 203, ../../../dev/pages/activities_changes_approval/activities_changes_approval.scss */
+/* line 209, ../../../dev/pages/activities_changes_approval/activities_changes_approval.scss */
 .channel input[type="checkbox"] + label::before {
   vertical-align: -3px;
   margin-right: 0.53333em;
 }
-/* line 207, ../../../dev/pages/activities_changes_approval/activities_changes_approval.scss */
+/* line 213, ../../../dev/pages/activities_changes_approval/activities_changes_approval.scss */
 .channel input[type="checkbox"] + label .label_ico {
   vertical-align: -3px;
   margin-right: 0.53333em;
 }
 
-/* line 215, ../../../dev/pages/activities_changes_approval/activities_changes_approval.scss */
+/* line 221, ../../../dev/pages/activities_changes_approval/activities_changes_approval.scss */
 .channel_item_list {
   color: #45484C;
 }
-/* line 217, ../../../dev/pages/activities_changes_approval/activities_changes_approval.scss */
+/* line 223, ../../../dev/pages/activities_changes_approval/activities_changes_approval.scss */
 .channel_item_list > li {
   margin-top: 1em;
 }
-/* line 219, ../../../dev/pages/activities_changes_approval/activities_changes_approval.scss */
+/* line 225, ../../../dev/pages/activities_changes_approval/activities_changes_approval.scss */
 .channel_item_list > li:first-child {
   margin-top: 0;
 }
 
-/* line 225, ../../../dev/pages/activities_changes_approval/activities_changes_approval.scss */
+/* line 231, ../../../dev/pages/activities_changes_approval/activities_changes_approval.scss */
 .btn_wrap {
   margin-top: 7.33333em;
 }
-/* line 228, ../../../dev/pages/activities_changes_approval/activities_changes_approval.scss */
+/* line 234, ../../../dev/pages/activities_changes_approval/activities_changes_approval.scss */
 .btn_wrap .btn.btn-default {
   width: 22.49322%;
   margin-left: 4.74255%;
 }
-/* line 232, ../../../dev/pages/activities_changes_approval/activities_changes_approval.scss */
+/* line 238, ../../../dev/pages/activities_changes_approval/activities_changes_approval.scss */
 .btn_wrap .btn:first-child {
   margin-left: 0;
 }
 
-/* line 238, ../../../dev/pages/activities_changes_approval/activities_changes_approval.scss */
+/* line 244, ../../../dev/pages/activities_changes_approval/activities_changes_approval.scss */
 .activities_textarea {
   margin: 2.46154em 0;
   border: 1px solid #dedfdf;

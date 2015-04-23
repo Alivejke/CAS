@@ -31,12 +31,18 @@
 		}
 	}
 	.btn_wrap {
-		width: flex(525.5px, $base-width);
-		// max-width: flex($base-width - $base-margin*2);
+		width: flex(900px, $base-width);
+		max-width: 740px;
 		height: em(50px, $base-font-size);
 		margin: 0 auto;
 		position: absolute;
 		bottom: em(-28px);
+		@media (max-width: 960px) {
+            width: flex(700px, $base-width);
+        }
+        @media (max-width: 770px) {
+            width: flex(900px, $base-width);
+        }
 	}
 	.btn_big_rounded_wrap {
 		display: inline-block;
@@ -58,10 +64,10 @@
 		}
 		&.btn_toolbox {
 			// width: flex(170px, $base-width - $base-margin);
-			height: em(55px, $base-font-size);
+			height: em(53px, $base-font-size);
 			.btn_big_rounded {
 				height: 100%;
-				line-height: em(55px, $btn-font-size);
+				line-height: em(53px, $btn-font-size);
 				.ico_edit, .ico_add, .ico_upload {
 					left: flex(-5px, 170px);
 				}

@@ -261,14 +261,14 @@
 }
 /* line 189, ../../../dev/pages/activies_page/activies_page.scss */
 .status_wrap .btn_big_rounded .ico_status {
-  margin-left: 6.66667%;
+  margin-left: 13.33333%;
 }
-/* line 192, ../../../dev/pages/activies_page/activies_page.scss */
+/* line 193, ../../../dev/pages/activies_page/activies_page.scss */
 .status_wrap .btn_big_rounded .ico_calendar {
   margin: 0 1.66667% 0 13.33333%;
 }
 
-/* line 197, ../../../dev/pages/activies_page/activies_page.scss */
+/* line 198, ../../../dev/pages/activies_page/activies_page.scss */
 .wrap_blocks {
   background: #F9F9FB;
   overflow: hidden;
@@ -276,7 +276,7 @@
   width: 100%;
 }
 
-/* line 203, ../../../dev/pages/activies_page/activies_page.scss */
+/* line 204, ../../../dev/pages/activies_page/activies_page.scss */
 #mainarea.activies_page_wrap {
   padding-bottom: 0px;
   margin: 0px auto;

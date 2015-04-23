@@ -10,6 +10,11 @@
         .valid {
             font-weight: 500;
         }
+        .btn_big_rounded {
+            .ico_status {
+                margin-left: flex(21px, 370px);
+            }
+        }
     }
     .block_img {
         border: 1px solid #cecfd0;

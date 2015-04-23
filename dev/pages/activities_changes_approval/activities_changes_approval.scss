@@ -68,6 +68,12 @@ $brand_news_list-width: 295px;
     		left: 43%;
     		width: 75.45833%;
    		}
+
+   		.btn_big_rounded {
+   			.ico_status {
+				margin-left: flex(40px, $brand_news_list-width);
+   			}
+   		}
 	}
 	&.description {
 		.brand_news_list {

@@ -163,7 +163,7 @@ $select_multiple_default-width: 289px;
 		
 		&.select2-container--default {
 			.select2-selection--single {
-				border-color: #929191;
+				border-color: #cbcccd;
 				@include border-radius(0px);
 				.select2-selection__rendered {
 					line-height: em(78px, $base-font-size);
@@ -184,7 +184,7 @@ $select_multiple_default-width: 289px;
 					}
 				}
 				.select2-selection__placeholder {
-					color: $gray-color;
+					color: #8F9BA3;
 				}
 			}
 			&.select2-container--open {
@@ -225,6 +225,11 @@ $select_multiple_default-width: 289px;
 	&.select2-container--below {
 		&.select2-container--open {
 			background-color: $white-color;
+		}
+	}
+	.select2-selection--single {
+		.select2-selection__rendered {
+			color: #8F9BA3;
 		}
 	}
 }
