@@ -1,0 +1,44 @@
+@import '../../sass/base/__base';
+@import "compass/css3";
+
+.authorization_wrap {
+	.left, .right {
+		width: 45%;
+		// width: flex(416px, $base-width-content);
+		color: $gray-color;
+		font-weight: 600;
+
+		.spam_block {
+			margin-top: em(15px);
+			text-transform: uppercase;
+			font-size: em(11px);
+			a {
+				padding-top: em(3px);
+				margin-left: flex(10px);
+				color: #0f3e6e;
+			}
+		}
+
+		input {
+		margin-top: em(17px, 13px);
+		width: 100%;
+		height: em(42px, 13px);
+		padding: 0 flex(20px, 311px);
+		font-size: em(13px);
+		border: 1px solid #dedfdf;
+		color: #8F9BA3;
+			@include input-placeholder {
+				color: #8F9BA3;
+			}
+		}
+	}
+	.authorization {
+		overflow: hidden;
+		padding: em(30px, $base-font-size) 0;
+	}
+	.button_block {
+		border-top: 1px solid #cecfd0;
+		overflow: hidden;
+		padding: em(30px, $base-font-size) 0;
+	}
+}
