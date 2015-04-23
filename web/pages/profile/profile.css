@@ -199,11 +199,11 @@
 }
 /* line 106, ../../../dev/pages/profile/profile.scss */
 .password_wrap input.error {
-  border-color: red;
+  border-color: #b70e12;
 }
 /* line 109, ../../../dev/pages/profile/profile.scss */
 .password_wrap input.complete {
-  border-color: green;
+  border-color: #00CD6B;
 }
 
 /* line 118, ../../../dev/pages/profile/profile.scss */
