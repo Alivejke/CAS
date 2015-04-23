@@ -66,59 +66,67 @@
   src: url("../fonts/glyphicons-halflings-regular.eot");
   src: url("../fonts/glyphicons-halflings-regular.eot?#iefix") format("embedded-opentype"), url("../fonts/glyphicons-halflings-regular.woff2") format("woff2"), url("../fonts/glyphicons-halflings-regular.woff") format("woff"), url("../fonts/glyphicons-halflings-regular.ttf") format("truetype"), url("../fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular") format("svg");
 }
-/* line 4, ../../../dev/pages/profile/profile.scss */
+/* line 5, ../../../dev/pages/profile/profile.scss */
 .profile_btn_wrap {
   margin-top: 3.33333em;
   padding-top: 2em;
   border-top: 1px solid #cecfd0;
 }
-/* line 9, ../../../dev/pages/profile/profile.scss */
+/* line 10, ../../../dev/pages/profile/profile.scss */
 .profile_btn_wrap .btn.btn-default {
   width: 21.68022%;
 }
+/* line 12, ../../../dev/pages/profile/profile.scss */
+.profile_btn_wrap .btn.btn-default.btn-small {
+  width: 13.68564%;
+}
 
-/* line 15, ../../../dev/pages/profile/profile.scss */
+/* line 19, ../../../dev/pages/profile/profile.scss */
 .profile_wrap {
   margin-top: 3.33333em;
 }
-/* line 17, ../../../dev/pages/profile/profile.scss */
+/* line 21, ../../../dev/pages/profile/profile.scss */
 .profile_wrap .profile_settings {
   width: 42.14092%;
 }
-/* line 19, ../../../dev/pages/profile/profile.scss */
+/* line 23, ../../../dev/pages/profile/profile.scss */
 .profile_wrap .profile_settings .select_wrap {
   margin-top: 1.13333em;
 }
-/* line 22, ../../../dev/pages/profile/profile.scss */
+/* line 26, ../../../dev/pages/profile/profile.scss */
 .profile_wrap .profile_settings .profile_roles {
   margin-left: 7.29167%;
 }
 
-/* line 28, ../../../dev/pages/profile/profile.scss */
+/* line 32, ../../../dev/pages/profile/profile.scss */
 .profile_text {
   margin-top: 0.58333em;
   font-size: 0.8em;
   color: #77808b;
 }
 
-/* line 35, ../../../dev/pages/profile/profile.scss */
+/* line 39, ../../../dev/pages/profile/profile.scss */
 .profile_title.profile_title-indent {
   margin-top: 2.91667em;
 }
+/* line 42, ../../../dev/pages/profile/profile.scss */
+.profile_title.profile_new_title-indent {
+  margin-top: 4.33333em;
+}
 
-/* line 40, ../../../dev/pages/profile/profile.scss */
+/* line 47, ../../../dev/pages/profile/profile.scss */
 .profile_description {
   margin-left: 8.80759%;
   width: 40.65041%;
 }
 @media (max-width: 768px) {
-  /* line 40, ../../../dev/pages/profile/profile.scss */
+  /* line 47, ../../../dev/pages/profile/profile.scss */
   .profile_description {
     width: 43.65041%;
   }
 }
 
-/* line 49, ../../../dev/pages/profile/profile.scss */
+/* line 56, ../../../dev/pages/profile/profile.scss */
 .profile_description_list {
   position: relative;
   left: -13.33333%;
@@ -126,7 +134,7 @@
   font-size: 0.86667em;
   margin-top: 1.53846em;
 }
-/* line 55, ../../../dev/pages/profile/profile.scss */
+/* line 62, ../../../dev/pages/profile/profile.scss */
 .profile_description_list li {
   float: left;
   width: 35.33333%;
@@ -134,12 +142,79 @@
   margin-top: 1.69231em;
   color: #A8AAAC;
 }
-/* line 61, ../../../dev/pages/profile/profile.scss */
+/* line 68, ../../../dev/pages/profile/profile.scss */
 .profile_description_list li input[type="checkbox"] + label::before {
   vertical-align: -4px;
 }
 
-/* line 69, ../../../dev/pages/profile/profile.scss */
+/* line 76, ../../../dev/pages/profile/profile.scss */
 .select2-container--default .select2-selection--single .select2-selection__rendered {
   color: #909090;
+}
+
+/* line 82, ../../../dev/pages/profile/profile.scss */
+.password_wrap {
+  margin-top: 3.33333em;
+}
+/* line 84, ../../../dev/pages/profile/profile.scss */
+.password_wrap .password {
+  width: 42.14092%;
+}
+/* line 87, ../../../dev/pages/profile/profile.scss */
+.password_wrap .password_confirm {
+  margin-left: 8.80759%;
+  width: 40.65041%;
+}
+@media (max-width: 768px) {
+  /* line 87, ../../../dev/pages/profile/profile.scss */
+  .password_wrap .password_confirm {
+    width: 43.65041%;
+  }
+}
+/* line 95, ../../../dev/pages/profile/profile.scss */
+.password_wrap input {
+  margin-top: 1.30769em;
+  width: 100%;
+  height: 3.23077em;
+  padding: 0 6.43087%;
+  font-size: 0.86667em;
+  border: 1px solid #dedfdf;
+  color: #8F9BA3;
+}
+/* line 61, c:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-core-1.0.3/stylesheets/compass/css3/_user-interface.scss */
+.password_wrap input:-moz-placeholder {
+  color: #8F9BA3;
+}
+/* line 64, c:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-core-1.0.3/stylesheets/compass/css3/_user-interface.scss */
+.password_wrap input::-moz-placeholder {
+  color: #8F9BA3;
+}
+/* line 67, c:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-core-1.0.3/stylesheets/compass/css3/_user-interface.scss */
+.password_wrap input:-ms-input-placeholder {
+  color: #8F9BA3;
+}
+/* line 56, c:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-core-1.0.3/stylesheets/compass/css3/_user-interface.scss */
+.password_wrap input::-webkit-input-placeholder {
+  color: #8F9BA3;
+}
+/* line 106, ../../../dev/pages/profile/profile.scss */
+.password_wrap input.error {
+  border-color: red;
+}
+/* line 109, ../../../dev/pages/profile/profile.scss */
+.password_wrap input.complete {
+  border-color: green;
+}
+
+/* line 118, ../../../dev/pages/profile/profile.scss */
+.select_wrap .select2-container.select2-container--default .select2-selection--single {
+  border-color: #dedfdf;
+}
+
+/* line 125, ../../../dev/pages/profile/profile.scss */
+.select2-dropdown {
+  border-color: #dedfdf;
+  -moz-border-radius: 0;
+  -webkit-border-radius: 0;
+  border-radius: 0;
 }
