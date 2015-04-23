@@ -4504,6 +4504,13 @@ textarea {
   height: 21px;
 }
 
+/* line 157, ../../dev/sass/specifics/_icons.scss */
+.ico_spam {
+  background-position: 0px -240px;
+  width: 13px;
+  height: 13px;
+}
+
 /* line 1, ../../dev/sass/specifics/_buttons.scss */
 .btn {
   font-size: 0.93333em;
