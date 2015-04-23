@@ -1,5 +1,5 @@
 ;$(function() {
-	var $passwordField = $('.password_wrap input');
+	var $mailField = $('.js-mail');
 
 	function validationMail ($field) {
 
@@ -13,7 +13,7 @@
 		}
 	};
 
-	$passwordField.on('change', function(){
+	$mailField.on('change', function(){
 		var $this = $(this);
 
 		validationMail($this);
