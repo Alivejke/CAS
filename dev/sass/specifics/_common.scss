@@ -90,6 +90,9 @@ textarea {
 	&.content_wrap_indent {
 		margin-top: em(88px, $base-font-size);
 	}
+	&.content_wrap_indent_bottom {
+		margin-bottom: em(75px);
+	}
 	&.bg_gray {
 		background-color: #f8faf9;
 	}

@@ -547,9 +547,11 @@
   display: inline-block;
   width: 20.94972%;
   margin-left: 0.83799%;
+  color: #7E8D95;
+  font-weight: 500;
 }
 
-/* line 423, ../../../dev/pages/new_activies_page/new_activies_page.scss */
+/* line 425, ../../../dev/pages/new_activies_page/new_activies_page.scss */
 .calendar_to {
   margin-left: 1.39665%;
 }

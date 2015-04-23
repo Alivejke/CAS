@@ -10,11 +10,9 @@ $calendar-font-size: 12px;
 	line-height: em(40px, $calendar-font-size);
 	width: flex(100px);
 	height: em(40px, $calendar-font-size);
+	color: #ABACAE;
 	&.calendar_from {
 		margin-left: flex(10px);
-	}
-	&.calendar_to {
-
 	}
 }
 
@@ -69,9 +67,9 @@ $calendar-font-size: 12px;
 	.ui-datepicker {
 		font-family: pragmatica,Helvetica,Arial,sans-serif;
 		.ui-state-highlight {
-			border-width: 0;
-			border: none;
-			padding: 0;
+			// border-width: 0;
+			// border: none;
+			// padding: 0;
 			background: none;
 			a {
 				&.ui-state-default {
