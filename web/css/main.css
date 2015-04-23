@@ -4269,37 +4269,38 @@ textarea {
 /* line 213, ../../dev/sass/specifics/_selects.scss */
 .select2-results__option {
   padding: 0.86667em 2.66667em;
+  color: #8F9BA3;
 }
-/* line 215, ../../dev/sass/specifics/_selects.scss */
+/* line 216, ../../dev/sass/specifics/_selects.scss */
 .select2-results__option .select2-results__option--highlighted {
   background: #7e8890;
 }
 
-/* line 222, ../../dev/sass/specifics/_selects.scss */
+/* line 223, ../../dev/sass/specifics/_selects.scss */
 .select2-container--default .select2-selection--multiple {
   background-color: transparent;
 }
-/* line 226, ../../dev/sass/specifics/_selects.scss */
+/* line 227, ../../dev/sass/specifics/_selects.scss */
 .select2-container--default.select2-container--below.select2-container--open {
   background-color: #fff;
 }
-/* line 231, ../../dev/sass/specifics/_selects.scss */
+/* line 232, ../../dev/sass/specifics/_selects.scss */
 .select2-container--default .select2-selection--single .select2-selection__rendered {
   color: #8F9BA3;
 }
 
-/* line 237, ../../dev/sass/specifics/_selects.scss */
+/* line 238, ../../dev/sass/specifics/_selects.scss */
 .select2-container--default .select2-results__option[aria-selected=true], .select2-container--default .select2-results__option--highlighted[aria-selected] {
   background: #7e8890;
   color: #fff;
 }
 
-/* line 242, ../../dev/sass/specifics/_selects.scss */
+/* line 243, ../../dev/sass/specifics/_selects.scss */
 .select2-dropdown {
   z-index: 1101;
 }
 
-/* line 247, ../../dev/sass/specifics/_selects.scss */
+/* line 248, ../../dev/sass/specifics/_selects.scss */
 .select2-container--open .select2-dropdown--above {
   -moz-border-radius: 0;
   -webkit-border-radius: 0;
