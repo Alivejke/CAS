@@ -37,7 +37,8 @@ $th_base-width: flex($base-width-content/5, $base-width-content);
 			}
 			.comment_table {
 				margin-bottom: em(10px);
-				color: #c2c4c3;
+				// color: #c2c4c3;
+				color: $gray-color-light;
 				// padding: 0 em(5px);
 			}
 		}
@@ -54,12 +55,14 @@ $th_base-width: flex($base-width-content/5, $base-width-content);
 		}
 		th {
 			font-family: pragmatica,Helvetica,Arial,sans-serif;
-			font-size: $base-font-size;
+			font-size: em(12px);
 			text-align: left;
 			text-transform: uppercase;
-			color: $gray-color;
+			// color: $gray-color;
+			color: $table_th-gray-color;
+			// color: $gray-color-light;
 			width: 16%;
-			padding: 0 em(5px);
+			padding: 0 em(5px, 12px);
 			&+th {
 				width: 18%;
 				&+th {
@@ -94,9 +97,9 @@ $th_base-width: flex($base-width-content/5, $base-width-content);
 .button_table {
 	.btn {
 		&.btn_rounded {
-			width: flex(72px, $base-width-content-one*0.22);
+			width: flex(75px, $base-width-content-one*0.22);
 			height: em(28px, 11px);
-			font-size: em(11px);
+			font-size: em(11px, 11px);
 		}
 	}
 }

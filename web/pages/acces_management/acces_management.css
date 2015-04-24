@@ -69,15 +69,18 @@
 /* line 5, ../../../dev/pages/acces_management/acces_management.scss */
 .approval_flow_wrap .approval_table td {
   padding: 0 0.33333em 1.33333em;
+  font-size: 0.86667em;
+  line-height: 1.30769em;
 }
 
-/* line 12, ../../../dev/pages/acces_management/acces_management.scss */
+/* line 14, ../../../dev/pages/acces_management/acces_management.scss */
 .button_table .btn {
   margin-top: 0.90909em;
 }
-/* line 15, ../../../dev/pages/acces_management/acces_management.scss */
-.button_table .btn.btn_gray, .button_table .btn.btn_red {
-  width: 6.3em;
+/* line 16, ../../../dev/pages/acces_management/acces_management.scss */
+.button_table .btn.btn_rounded {
+  font-size: 0.84615em;
+  width: 40.15419%;
 }
 /* line 20, ../../../dev/pages/acces_management/acces_management.scss */
 .button_table .btn:first-child {

@@ -101,7 +101,7 @@
 
 /* line 32, ../../../dev/pages/tutorial/tutorial.scss */
 .tutorial_documents {
-  margin: 120px auto 0 auto;
+  margin: 2.8em auto 0 auto;
   width: 738px;
 }
 @media (max-width: 768px) {
@@ -195,22 +195,22 @@
   display: block;
   margin: 16px auto 0 auto;
 }
-/* line 93, ../../../dev/pages/tutorial/tutorial.scss */
+/* line 94, ../../../dev/pages/tutorial/tutorial.scss */
 .document .description {
   width: 80.15414258188825%;
 }
-/* line 95, ../../../dev/pages/tutorial/tutorial.scss */
+/* line 96, ../../../dev/pages/tutorial/tutorial.scss */
 .document .description h2 {
   color: #4D4D4D;
   font-weight: 400;
   font-size: 1.06667em;
   margin-bottom: 1.5em;
 }
-/* line 100, ../../../dev/pages/tutorial/tutorial.scss */
+/* line 101, ../../../dev/pages/tutorial/tutorial.scss */
 .document .description h2 small {
   display: block;
 }
-/* line 104, ../../../dev/pages/tutorial/tutorial.scss */
+/* line 105, ../../../dev/pages/tutorial/tutorial.scss */
 .document .description p {
   color: #5A636E;
   font-size: 0.93333em;

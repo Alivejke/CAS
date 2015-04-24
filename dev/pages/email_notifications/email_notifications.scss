@@ -1,7 +1,7 @@
 @import '../../sass/base/__base';
 
 .email-notification-content {
-	margin-top: 3.267em;
+	margin-top: em(60px);
 
 	h1 {
 		font-weight: bold;
@@ -10,9 +10,20 @@
 }
 
 .email-notification-table {
-	margin-top: 4.600em;
+	margin-top: em(60px);
 }
 
+.approval_flow_wrap {
+	.table-header {
+		.approval_table {
+			td {
+				font-family: 'Brandon Grotesque';
+				font-weight: 600;
+				color: $table_th-gray-color;
+			}
+		}
+	}
+}
 .table-header {
 	margin-bottom: 0.33em;
 
@@ -24,7 +35,8 @@
 .approval_table {
 	.btn {
 		width: 100%;
-		height: 27px;
+		height: em(27px, 11px);
+		font-size: em(11px, $small_btn-font-size);
 	}
 }
 

@@ -2,110 +2,112 @@
 @import "compass/css3";
 
 .main_title_actives {
-  margin-bottom: em(120px, $main_title-font-size);
+    margin-bottom: em(120px, $main_title-font-size);
 }
 
 .tutorial_heading {
-  border-bottom: 1px solid #CECFD0;
-  position: relative;
-  .btn_wrap {
-    width: $base-width - $base-margin;
-    max-width: flex($base-width - $base-margin*2);
-    height: em(50px, $base-font-size);
-    margin: 0 auto;
-    position: absolute;
-    bottom: em(-28px);
-  }
-  .btn_big_rounded_wrap {
-    display: inline-block;
-    background-color: #fff;
-    // width: flex(218px, $base-width - $base-margin);
-    width: 14.55em;
-    height: em(50px, $btn-font-size);
-    position: absolute;
-    bottom: 0;
-    &.pos_left {
-      left: 0;
+    border-bottom: 1px solid #CECFD0;
+    position: relative;
+    .btn_wrap {
+        width: $base-width - $base-margin;
+        max-width: flex($base-width - $base-margin*2);
+        height: em(50px, $base-font-size);
+        margin: 0 auto;
+        position: absolute;
+        bottom: em(-28px);
     }
-  }
+    .btn_big_rounded_wrap {
+        display: inline-block;
+        background-color: #fff;
+        // width: flex(218px, $base-width - $base-margin);
+        width: 14.55em;
+        height: em(50px, $btn-font-size);
+        position: absolute;
+        bottom: 0;
+        &.pos_left {
+            left: 0;
+        }
+    }
 }
 .tutorial_documents {
-  margin: 120px auto 0 auto;
-  width: $base-width-content;
+    margin: em(42px) auto 0 auto;
+    width: $base-width-content;
 
     @media (max-width: 768px) {
-      width: 100%;
-      margin: 60px auto 0 auto;
+        width: 100%;
+        margin: 60px auto 0 auto;
     }
 
-  .wrap {
-    @include clearfix();
-  }
+    .wrap {
+        @include clearfix();
+    }
 }
 .container {
-  margin-left: -27px;
-  margin-right: -27px;
-  @include clearfix();
-
-  @media (max-width: 768px) {
-    margin-right: 0;
-  }
-}
-.document {
-  float: left;
-  width: 50%;
-  padding: 0 27px;
-  margin-bottom: em(180px);
-
-  @media (max-width: 768px) {
-    width: 100%;
-    margin-bottom: 5em;
-
-    &:last-child {
-      margin-bottom: 0;
-    }
-  }
-
-  &:nth-child(odd) {
-    clear: left;
-  }
-  .manage, .description {
-    float: left;
-  }
-  .manage {
-    width: 19.84585741811175%;
-    padding-right: 10px;
+    margin-left: -27px;
+    margin-right: -27px;
+    @include clearfix();
 
     @media (max-width: 768px) {
-      text-align: center;
+        margin-right: 0;
+    }
+}
+.document {
+    float: left;
+    width: 50%;
+    padding: 0 27px;
+    margin-bottom: em(180px);
+
+    @media (max-width: 768px) {
+        width: 100%;
+        margin-bottom: 5em;
+
+        &:last-child {
+            margin-bottom: 0;
+        }
     }
 
-    .rounded_image {
-      width: 100%;
-      max-width: 80px;
-      height: auto;
+    &:nth-child(odd) {
+        clear: left;
     }
-    .sprite_ico {
-      display: block;
-      margin: 16px auto 0 auto;
+    .manage, .description {
+        float: left;
     }
-  }
-  .description {
-    width: 80.15414258188825%;
-    h2 {
-      color: #4D4D4D;
-      font-weight: 400;
-      font-size: em(16px);
-      margin-bottom: em(24px, 16px);
-      small {
-        display: block;
-      }
+    .manage {
+        width: 19.84585741811175%;
+        padding-right: 10px;
+
+        @media (max-width: 768px) {
+            text-align: center;
+        }
+
+        .rounded_image {
+            width: 100%;
+            max-width: 80px;
+            height: auto;
+        }
+        .sprite_ico {
+            display: block;
+            margin: 16px auto 0 auto;
+        }
+        
     }
-    p {
-      color: #5A636E;
-      font-size: em(14px);
-      line-height: em(26px, 14px);
-      font-weight: 400;
+    .description {
+        width: 80.15414258188825%;
+        h2 {
+            color: #4D4D4D;
+            font-weight: 400;
+            font-size: em(16px);
+            margin-bottom: em(24px, 16px);
+            small {
+                display: block;
+            }
+        }
+        p {
+            color: #5A636E;
+            font-size: em(14px);
+            line-height: em(26px, 14px);
+            font-weight: 400;
+        }
     }
-  }
 }
+

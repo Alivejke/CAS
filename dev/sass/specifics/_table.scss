@@ -1,4 +1,6 @@
 $th_base-width: flex($base-width-content/5, $base-width-content);
+$table_td-font-size: 11px; 
+
 .approval_flow_wrap {
 	.main_title {
 		font-size: $main_title-font-size;
@@ -26,7 +28,7 @@ $th_base-width: flex($base-width-content/5, $base-width-content);
 						margin: 0;
 						padding: 0;
 						td {
-							font-size: em(11px);
+							font-size: em(12px);
 							width: 12%;
 							text-align: left;
 							// color: $gray-color;
@@ -74,6 +76,11 @@ $th_base-width: flex($base-width-content/5, $base-width-content);
 			color: #A0A0A0;
 			width: 16%;
 			padding: 0 em(5px);
+			font-family: pragmatica,Helvetica,Arial,sans-serif;
+			font-weight: 300;
+			// @extend .base_title;
+			font-size: em($table_td-font-size);
+			line-height: em($table_td-font-size + $default_increase-line-height, $table_td-font-size);
 			&+td {
 				width: 18%;
 				&+td {
@@ -94,6 +101,8 @@ $th_base-width: flex($base-width-content/5, $base-width-content);
 			.comment_table {
 				margin-bottom: em(10px);
 				// padding: 0 em(5px);
+				line-height: em($table_td-font-size + $default_increase-line-height, $table_td-font-size);
+
 			}
 		}
 		&.table_log {
@@ -101,7 +110,7 @@ $th_base-width: flex($base-width-content/5, $base-width-content);
 			margin: 0;
 			padding: 0;
 			td {
-				font-size: em(11px);
+				font-size: em($table_td-font-size);
 				width: 15%;
 				text-align: left;
 				// color: $gray-color;
@@ -158,8 +167,9 @@ $th_base-width: flex($base-width-content/5, $base-width-content);
 			}
 		}
 		th {
-			font-family: pragmatica,Helvetica,Arial,sans-serif;
-			font-size: em($base-font-size);
+			// font-family: pragmatica,Helvetica,Arial,sans-serif;
+			@extend .base_title;
+			font-size: em(12px);
 			text-align: left;
 			text-transform: uppercase;
 			// color: $gray-color;

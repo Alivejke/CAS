@@ -1,12 +1,17 @@
 @import '../../sass/base/__base';
 $brand_news_list-width: 295px;
 
+.content_wrap {
+	margin-top: em(50px);
+}
+
 .activities_changes_approval_list_info {
 	> li {
 		overflow: hidden;
 		.profile_title {
+			width: flex(74px, $base-width-content);
 			.profile_text {
-				margin-top: em(7px, 13px);
+				margin-top: em(4px, 10.5px);
 				margin-left: 0;
 			}
 		}

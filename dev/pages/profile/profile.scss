@@ -32,7 +32,8 @@ $profile_description-width: 300px;
 .profile_text {
 	margin-top: em(7px, 12px);
 	font-size: em(12px);
-	color: $gray-color-old;
+	// color: $gray-color-old;
+	color: $gray-color-light;
 }
 
 .profile_title {
@@ -64,7 +65,8 @@ $profile_description-width: 300px;
 		width: flex(106px, $profile_description-width);
 		margin-left: flex(40px, $profile_description-width);
 		margin-top: em(22px, 13px);
-		color: #A8AAAC;
+		// color: #A8AAAC;
+		color: #909294;
 		input[type="checkbox"] + label::before {
 			vertical-align: -4px;
 		}
@@ -107,4 +109,8 @@ $profile_description-width: 300px;
 .select2-dropdown {
 	border-color: #dedfdf;
 	@include border-radius(0);
+}
+
+.btn {
+	color: #7e8890;
 }
