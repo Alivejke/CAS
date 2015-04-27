@@ -74,7 +74,7 @@
 }
 /* line 11, ../../../dev/pages/authorization/authorization.scss */
 .authorization_wrap .left .spam_block, .authorization_wrap .right .spam_block {
-  margin-top: 1em;
+  margin-top: 1.81818em;
   text-transform: uppercase;
   font-size: 0.73333em;
 }
@@ -83,13 +83,16 @@
   padding-top: 0.2em;
   margin-left: 1.04167%;
   color: #0f3e6e;
+  text-decoration: none;
+  border-bottom: 1px solid #a3adbe;
+  line-height: 10px;
 }
-/* line 22, ../../../dev/pages/authorization/authorization.scss */
+/* line 25, ../../../dev/pages/authorization/authorization.scss */
 .authorization_wrap .authorization {
   overflow: hidden;
   padding: 2em 0;
 }
-/* line 26, ../../../dev/pages/authorization/authorization.scss */
+/* line 29, ../../../dev/pages/authorization/authorization.scss */
 .authorization_wrap .button_block {
   border-top: 1px solid #cecfd0;
   overflow: hidden;

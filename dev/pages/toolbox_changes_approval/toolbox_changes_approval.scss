@@ -84,7 +84,8 @@
 		}
 	}
 	.text {
-		color: $gray-color;
+		// color: $gray-color;
+		color: #909294;
 		line-height: em(23px, $base-font-size);
 		&.for_approval {
 			color: #b70e12;

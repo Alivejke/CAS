@@ -102,31 +102,31 @@
 .profile_text {
   margin-top: 0.58333em;
   font-size: 0.8em;
-  color: #77808b;
+  color: #7c7c7c;
 }
 
-/* line 39, ../../../dev/pages/profile/profile.scss */
+/* line 40, ../../../dev/pages/profile/profile.scss */
 .profile_title.profile_title-indent {
   margin-top: 2.91667em;
 }
-/* line 42, ../../../dev/pages/profile/profile.scss */
+/* line 43, ../../../dev/pages/profile/profile.scss */
 .profile_title.profile_new_title-indent {
   margin-top: 4.33333em;
 }
 
-/* line 47, ../../../dev/pages/profile/profile.scss */
+/* line 48, ../../../dev/pages/profile/profile.scss */
 .profile_description {
   margin-left: 8.80759%;
   width: 40.65041%;
 }
 @media (max-width: 768px) {
-  /* line 47, ../../../dev/pages/profile/profile.scss */
+  /* line 48, ../../../dev/pages/profile/profile.scss */
   .profile_description {
     width: 43.65041%;
   }
 }
 
-/* line 56, ../../../dev/pages/profile/profile.scss */
+/* line 57, ../../../dev/pages/profile/profile.scss */
 .profile_description_list {
   position: relative;
   left: -13.33333%;
@@ -134,53 +134,58 @@
   font-size: 0.86667em;
   margin-top: 1.53846em;
 }
-/* line 62, ../../../dev/pages/profile/profile.scss */
+/* line 63, ../../../dev/pages/profile/profile.scss */
 .profile_description_list li {
   float: left;
   width: 35.33333%;
   margin-left: 13.33333%;
   margin-top: 1.69231em;
-  color: #A8AAAC;
+  color: #909294;
 }
-/* line 68, ../../../dev/pages/profile/profile.scss */
+/* line 70, ../../../dev/pages/profile/profile.scss */
 .profile_description_list li input[type="checkbox"] + label::before {
   vertical-align: -4px;
 }
 
-/* line 76, ../../../dev/pages/profile/profile.scss */
+/* line 78, ../../../dev/pages/profile/profile.scss */
 .select2-container--default .select2-selection--single .select2-selection__rendered {
   color: #909090;
 }
 
-/* line 82, ../../../dev/pages/profile/profile.scss */
+/* line 84, ../../../dev/pages/profile/profile.scss */
 .password_wrap {
   margin-top: 3.33333em;
 }
-/* line 84, ../../../dev/pages/profile/profile.scss */
+/* line 86, ../../../dev/pages/profile/profile.scss */
 .password_wrap .password {
   width: 42.14092%;
 }
-/* line 87, ../../../dev/pages/profile/profile.scss */
+/* line 89, ../../../dev/pages/profile/profile.scss */
 .password_wrap .password_confirm {
   margin-left: 8.80759%;
   width: 40.65041%;
 }
 @media (max-width: 768px) {
-  /* line 87, ../../../dev/pages/profile/profile.scss */
+  /* line 89, ../../../dev/pages/profile/profile.scss */
   .password_wrap .password_confirm {
     width: 43.65041%;
   }
 }
 
-/* line 100, ../../../dev/pages/profile/profile.scss */
+/* line 102, ../../../dev/pages/profile/profile.scss */
 .select_wrap .select2-container.select2-container--default .select2-selection--single {
   border-color: #dedfdf;
 }
 
-/* line 107, ../../../dev/pages/profile/profile.scss */
+/* line 109, ../../../dev/pages/profile/profile.scss */
 .select2-dropdown {
   border-color: #dedfdf;
   -moz-border-radius: 0;
   -webkit-border-radius: 0;
   border-radius: 0;
+}
+
+/* line 114, ../../../dev/pages/profile/profile.scss */
+.btn {
+  color: #7e8890;
 }

@@ -150,9 +150,8 @@
 .activies_page_wrap .attachments_blocks .block {
   float: left;
   width: 100%;
-  margin-top: 4em;
 }
-/* line 84, ../../../dev/pages/tutorial_19/tutorial_19.scss */
+/* line 83, ../../../dev/pages/tutorial_19/tutorial_19.scss */
 .activies_page_wrap .attachments_blocks .block .icon {
   width: 10.1626%;
   float: left;
@@ -165,17 +164,17 @@
   position: relative;
   margin-right: 1.5625%;
 }
-/* line 93, ../../../dev/pages/tutorial_19/tutorial_19.scss */
+/* line 92, ../../../dev/pages/tutorial_19/tutorial_19.scss */
 .activies_page_wrap .attachments_blocks .block .icon:hover {
   border-color: #42CE7F;
 }
-/* line 96, ../../../dev/pages/tutorial_19/tutorial_19.scss */
+/* line 95, ../../../dev/pages/tutorial_19/tutorial_19.scss */
 .activies_page_wrap .attachments_blocks .block .icon img {
   max-width: 100%;
   margin: 0px auto;
   display: block;
 }
-/* line 101, ../../../dev/pages/tutorial_19/tutorial_19.scss */
+/* line 100, ../../../dev/pages/tutorial_19/tutorial_19.scss */
 .activies_page_wrap .attachments_blocks .block .icon .ico_search {
   position: absolute;
   top: 1.66667em;
@@ -183,65 +182,65 @@
   display: none;
 }
 @media (max-width: 768px) {
-  /* line 101, ../../../dev/pages/tutorial_19/tutorial_19.scss */
+  /* line 100, ../../../dev/pages/tutorial_19/tutorial_19.scss */
   .activies_page_wrap .attachments_blocks .block .icon .ico_search {
     top: 1.4em;
     left: 32.24658%;
   }
 }
-/* line 112, ../../../dev/pages/tutorial_19/tutorial_19.scss */
+/* line 111, ../../../dev/pages/tutorial_19/tutorial_19.scss */
 .activies_page_wrap .attachments_blocks .block .icon:hover .ico_search {
   display: block;
 }
-/* line 116, ../../../dev/pages/tutorial_19/tutorial_19.scss */
+/* line 115, ../../../dev/pages/tutorial_19/tutorial_19.scss */
 .activies_page_wrap .attachments_blocks .block .name {
   float: left;
   width: 80%;
   margin-top: 1em;
   position: relative;
 }
-/* line 121, ../../../dev/pages/tutorial_19/tutorial_19.scss */
+/* line 120, ../../../dev/pages/tutorial_19/tutorial_19.scss */
 .activies_page_wrap .attachments_blocks .block .name a.sprite.sprite_ico.ico_basket {
   margin: -0.13333em 0.67751%;
   position: absolute;
 }
-/* line 126, ../../../dev/pages/tutorial_19/tutorial_19.scss */
+/* line 125, ../../../dev/pages/tutorial_19/tutorial_19.scss */
 .activies_page_wrap .attachments_blocks .block .checkbox {
   display: inline-block;
   position: relative;
   margin-top: 0.66667em;
   color: #45484C;
 }
-/* line 132, ../../../dev/pages/tutorial_19/tutorial_19.scss */
+/* line 131, ../../../dev/pages/tutorial_19/tutorial_19.scss */
 .activies_page_wrap .attachments_blocks .block .checkbox label:before {
   position: absolute;
   left: 0px;
   top: -1px;
 }
-/* line 138, ../../../dev/pages/tutorial_19/tutorial_19.scss */
+/* line 137, ../../../dev/pages/tutorial_19/tutorial_19.scss */
 .activies_page_wrap .attachments_blocks .block textarea {
   width: 100%;
   height: 9.5em;
   padding: 0.8em 1.35501%;
   margin-top: 1.33333em;
 }
-/* line 145, ../../../dev/pages/tutorial_19/tutorial_19.scss */
+/* line 144, ../../../dev/pages/tutorial_19/tutorial_19.scss */
 .activies_page_wrap .attachments_blocks .block_options_draft {
   padding: 4em 0;
   border-top: 1px solid #cecfd0;
   margin-top: 4em;
 }
-/* line 150, ../../../dev/pages/tutorial_19/tutorial_19.scss */
+/* line 149, ../../../dev/pages/tutorial_19/tutorial_19.scss */
 .activies_page_wrap .attachments_blocks .block_options_draft button.btn.btn-default {
   width: 27.10027%;
   overflow: hidden;
 }
-/* line 154, ../../../dev/pages/tutorial_19/tutorial_19.scss */
+/* line 153, ../../../dev/pages/tutorial_19/tutorial_19.scss */
 .activies_page_wrap .attachments_blocks .block_options_draft button.btn.btn-default.center {
   margin-left: 9.48509%;
 }
 @media (max-width: 840px) {
-  /* line 158, ../../../dev/pages/tutorial_19/tutorial_19.scss */
+  /* line 157, ../../../dev/pages/tutorial_19/tutorial_19.scss */
   .activies_page_wrap .attachments_blocks .block_options_draft button.btn.btn-default {
     font-size: 12px;
   }

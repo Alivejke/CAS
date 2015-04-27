@@ -173,14 +173,14 @@
 }
 /* line 86, ../../../dev/pages/toolbox_changes_approval/toolbox_changes_approval.scss */
 .left .text, .right .text {
-  color: #45484C;
+  color: #909294;
   line-height: 1.53333em;
 }
-/* line 89, ../../../dev/pages/toolbox_changes_approval/toolbox_changes_approval.scss */
+/* line 90, ../../../dev/pages/toolbox_changes_approval/toolbox_changes_approval.scss */
 .left .text.for_approval, .right .text.for_approval {
   color: #b70e12;
 }
-/* line 93, ../../../dev/pages/toolbox_changes_approval/toolbox_changes_approval.scss */
+/* line 94, ../../../dev/pages/toolbox_changes_approval/toolbox_changes_approval.scss */
 .left .btn.btn-default, .right .btn.btn-default {
   width: 54.20054%;
   margin: 3em 0;

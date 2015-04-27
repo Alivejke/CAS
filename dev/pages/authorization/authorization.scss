@@ -9,13 +9,16 @@
 		font-weight: 600;
 
 		.spam_block {
-			margin-top: em(15px);
+			margin-top: em(20px, 11px);
 			text-transform: uppercase;
 			font-size: em(11px);
 			a {
 				padding-top: em(3px);
 				margin-left: flex(10px);
 				color: #0f3e6e;
+				text-decoration: none;
+				border-bottom: 1px solid #a3adbe;
+				line-height: 10px;
 			}
 		}
 	}

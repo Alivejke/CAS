@@ -4,19 +4,19 @@
 	.approval_table {
 		td {
 			padding: 0 em(5px) em(20px);
+			font-size: em(13px);
+			line-height: em(13px + $default_increase-line-height, 13px);
 		}
 	}
 }
 
 .button_table {
 	.btn {
-		margin-top: em(10px, $small_btn-font-size);
-
-		&.btn_gray,
-		&.btn_red {
-			width: 6.3em;
+		margin-top: em(10px, 11px);
+		&.btn_rounded {
+			font-size: em(11px, 13px);
+			width: flex(75px, $base-width-content-one*0.22);
 		}
-		
 		&:first-child {
 			margin-top: 0;
 		}
