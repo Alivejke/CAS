@@ -71,7 +71,7 @@ $brand_news_list-width: 295px;
 
    		.btn_big_rounded {
    			.ico_status {
-				margin-left: flex(40px, $brand_news_list-width);
+				margin-left: flex(10px, $brand_news_list-width);
    			}
    		}
 	}
@@ -154,10 +154,12 @@ $brand_news_list-width: 295px;
 
 		&:nth-child(2n+1) {
 			margin-left: 0;
+			clear: left;
 		}
 
 		&.odd {
 			margin-left: 0;
+			clear: left;
 		}
 
 		.brand_news_title {
@@ -248,3 +250,19 @@ $brand_news_list-width: 295px;
 }
 
 
+.calendar_from, .calendar_to {
+    background: none;
+    border: none;
+    display: inline-block;
+    width: flex(80px, 370px - 6px * 2);
+    margin-left: flex(3px, 370px - 6px * 2);
+    color: #7E8D95;
+    font-weight: 500;
+}
+
+.calendar_to {
+    margin-left: flex(5px, 370px - 6px * 2);
+}
+.comiseo-daterangepicker.ui-corner-all {
+	min-width: 300px;
+}

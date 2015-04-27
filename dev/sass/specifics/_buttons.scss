@@ -55,6 +55,9 @@
 		
 		&:hover {
 			@include opacity(0.5);
+			@include transition-property(opacity);
+			@include transition-duration(0.3s);
+			@include transition-timing-function(ease-out);
 		}
 		&:active {
 			@include opaque;
@@ -70,6 +73,9 @@
 		// color: #909294;
 		// color: $gray-color;
 		color: #7E8D95;
+		@include transition-property(opacity);
+		@include transition-duration(0.3s);
+		@include transition-timing-function(ease-out);
 		&:hover {
 			@include opacity(0.5);
 			.ico_upload {
@@ -115,6 +121,9 @@
 		height: em(41px, $btn-font-size);
 		line-height: em(41px, $btn-font-size);
 		border: 1px solid #dedfdf;
+		@include transition-property(background-color, color);
+		@include transition-duration(0.3s);
+		@include transition-timing-function(ease-out);
 		&:hover {
 			background-color: #0f3e6e;
 			color: $white-color;

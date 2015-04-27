@@ -48,8 +48,14 @@
 	}
 	&:hover {
 		border-color: #42CE7F;
+			@include transition-property(border-color);
+			@include transition-duration(0.3s);
+			@include transition-timing-function(ease-out);
 		.ico_search{
 	        display: block;
+			@include transition-property(display);
+			@include transition-duration(0.3s);
+			@include transition-timing-function(ease-out);
 	    }
 	}
 	.ico_search {

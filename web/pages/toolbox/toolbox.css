@@ -127,9 +127,25 @@
 }
 /* line 57, ../../../dev/pages/toolbox/toolbox.scss */
 .status_wrap .btn_big_rounded .ico_status {
-  margin-left: 12.66667%;
+  margin-left: 3.33333%;
 }
 /* line 60, ../../../dev/pages/toolbox/toolbox.scss */
 .status_wrap .btn_big_rounded .ico_calendar {
-  margin: 0 1.66667% 0 13.33333%;
+  margin: 0 1.66667% 0 3.33333%;
+}
+
+/* line 66, ../../../dev/pages/toolbox/toolbox.scss */
+.calendar_from, .calendar_to {
+  background: none;
+  border: none;
+  display: inline-block;
+  width: 25.13966%;
+  margin-left: 0.83799%;
+  color: #7E8D95;
+  font-weight: 500;
+}
+
+/* line 76, ../../../dev/pages/toolbox/toolbox.scss */
+.calendar_to {
+  margin-left: 1.39665%;
 }

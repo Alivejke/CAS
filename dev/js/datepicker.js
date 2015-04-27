@@ -17,9 +17,9 @@ $(document).ready(function() {
 		$('.calendar_block').show();
 	}
 
-	if($("#datepicker").length) {
+	if($(".datepicker").length) {
 
-		$("#datepicker").daterangepicker({
+		$(".datepicker").daterangepicker({
 			datepickerOptions : {
 		        numberOfMonths : 1,
 		        firstDay: 1,
@@ -45,7 +45,7 @@ $(document).ready(function() {
 		});
 
 		$(".calendarWrap").on('click', function () {
-			$("#datepicker").daterangepicker("open");
+			$(".datepicker").daterangepicker("open");
 
 			calendarPositions ();
 		});
@@ -62,7 +62,7 @@ $(document).ready(function() {
 	    });
 
 	    $('.js-reset').on('click', function(){
-	    	$("#datepicker").daterangepicker("clearRange");
+	    	$(".datepicker").daterangepicker("clearRange");
 	    	$('.calendar_from').val('');
 	    	$('.calendar_to').val('');
 	    });

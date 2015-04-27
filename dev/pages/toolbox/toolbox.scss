@@ -55,10 +55,24 @@
     .btn_big_rounded {
         text-transform: uppercase;
         .ico_status {
-            margin-left: flex(38px, 300px);
+            margin-left: flex(10px, 300px);
         }
         .ico_calendar {
-            margin: 0 flex(5px, 300px) 0 flex(40px, 300px);
+            margin: 0 flex(5px, 300px) 0 flex(10px, 300px);
         }
     }
+}
+
+.calendar_from, .calendar_to {
+    background: none;
+    border: none;
+    display: inline-block;
+    width: flex(90px, 370px - 6px * 2);
+    margin-left: flex(3px, 370px - 6px * 2);
+    color: #7E8D95;
+    font-weight: 500;
+}
+
+.calendar_to {
+    margin-left: flex(5px, 370px - 6px * 2);
 }

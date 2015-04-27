@@ -207,58 +207,66 @@ $calendar-font-size: 12px;
 // 	position: absolute;
 // }
 
-.comiseo-daterangepicker {
-	.datepicker_bottom_block {
+
+ .datepicker_bottom_block {
+    // float: left;
+    width: 100%;
+    z-index: 100;
+    font-size: em(12px, 16.5px);
+    .info_block {
+		height: 2.91667em;
 		width: 100%;
-        z-index: 100;
-        font-size: em(12px, 16.5px);
-		.info_block {
-			height: em(35px, 12px);
-			width: 100%;
-			margin-left: 0;
-			background: #eeeeee;
-            z-index: 100;
-            position: relative;
-            span {
-                margin: 30px 0px 0px 145px;
+		margin: 0;
+		padding-right: 10%;
+		text-align: right;
+		background: #eeeeee;
+		z-index: 100;
+		position: relative;
+        // border-bottom: 1px solid #cecfd0;
+        span {
+            // margin: 30px 0px 0px 145px;
+            display: inline-block;
+            color: $gray-color;
+            &:before {
+                content: '';
+                width: 11px;
+                height: 10px;
+                margin: 0px 10px 0px 0px;
                 display: inline-block;
-                color: $gray-color;
+                @include border-radius(100%);
+            }
+            &.starting {
+                // margin: 20px 0px 0px 145px;
                 &:before {
-                    content: '';
-                    width: 11px;
-                    height: 10px;
-                    margin: 0px 10px 0px 0px;
-                    display: inline-block;
-                    @include border-radius(100%);
-                }
-                &.starting {
-                    margin: 20px 0px 0px 145px;
-                    &:before {
-                        background-color: #22c866;                 
-                    }
-                }
-                &.ending {
-                    margin: 20px 0px 0px 5px;
-                    &:before {
-                        background-color: #d76969;
-                    }
+                    background-color: #22c866;                 
                 }
             }
-		}
-		.reset_block  {
-			height: 55px;
-			width: 100%;
-			margin-left: 0;
-			background: #eeeeee;
-            z-index: 100;
-            position: relative;
-            border-bottom: 1px solid #cecfd0;
-            .reset {
-                margin: 20px 0px 0px 252px;
-                display: inline-block;
-                color:  #d76969;
-                cursor: pointer;
+            &.ending {
+                margin: 20px 0px 0px 5px;
+                &:before {
+                    background-color: #d76969;
+                }
             }
-		}
-	}
+        }
+    }
+    .reset_block {
+        height: 55px;
+        width: 100%;
+        background: #eeeeee;
+        z-index: 100;
+        position: relative;
+        text-align: right;
+        padding-right: 10%;
+        padding-top: em(22px);
+        border-bottom: 1px solid #cecfd0;
+        .reset {
+            // margin: 20px 0px 0px 252px;
+            display: inline-block;
+            color:  #d76969;
+            cursor: pointer;
+        }
+    }
+}
+.ui-helper-clearfix {
+  display: none;
 }

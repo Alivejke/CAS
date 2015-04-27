@@ -184,14 +184,13 @@
 }
 
 .status_wrap {
+    width: flex(340px, $base-width-content);
+    .valid {
+        font-weight: 500;
+    }
     .btn_big_rounded {
-        text-transform: uppercase;
         .ico_status {
-            // margin-left: flex(20px, 300px);
-            margin-left: flex(40px, 300px);
-        }
-        .ico_calendar {
-            margin: 0 flex(5px, 300px) 0 flex(40px, 300px);
+            margin-left: flex(21px, 370px);
         }
     }
 }
@@ -204,4 +203,71 @@
 #mainarea.activies_page_wrap {
     padding-bottom: 0px;
     margin: 0px auto;
+}
+.document {
+    margin: em(-45px) 0 em(60px);
+
+    li {
+        float: left;
+        width: flex(330px, $base-width-content);
+        margin-left: flex(63px, $base-width-content);
+        overflow: hidden;
+        margin-top: em(95px);
+
+        @media (max-width: 768px) {
+            float: none;
+            width: 100%;
+            margin-left: 0;
+        }
+
+        &:nth-child(2n+1) {
+            margin-left: 0;
+            clear: left;
+        }
+
+        &.odd {
+            margin-left: 0;
+            clear: left;
+        }
+
+        .brand_news_title {
+            font-size: em($base-font-size, $base-font-size);
+            width: flex(230px, 253px);
+        }
+        .manage {
+            @media (max-width: 768px) {
+                width: em(62px);
+            }
+            &.img_circle-default {
+                line-height: em(62px);
+            }
+        }
+        .description {
+            width: flex(240px, 330px);
+            margin-left: flex(15px, 330px);
+            p {
+                margin-top: em(20px);
+                color: #8F979F;
+            }
+            &.distinction {
+                .brand_news_title {
+                    color: $distinction-color;
+                }
+            }
+        }
+    }
+}
+
+.calendar_from, .calendar_to {
+    background: none;
+    border: none;
+    display: inline-block;
+    width: flex(80px, 370px - 6px * 2);
+    margin-left: flex(3px, 370px - 6px * 2);
+    color: #7E8D95;
+    font-weight: 500;
+}
+
+.calendar_to {
+    margin-left: flex(5px, 370px - 6px * 2);
 }

@@ -3905,7 +3905,7 @@ textarea {
     margin: 1.46667em 0 0 1.98103%;
   }
 }
-/* line 92, ../../dev/sass/specifics/_main_menu.scss */
+/* line 91, ../../dev/sass/specifics/_main_menu.scss */
 .main_menu.main_menu_big > li .main_menu_item {
   position: relative;
   background: none;
@@ -3913,8 +3913,20 @@ textarea {
   -webkit-box-shadow: -3px 3px 10px 0px rgba(0, 0, 0, 0.68);
   -moz-box-shadow: -3px 3px 10px 0px rgba(0, 0, 0, 0.68);
   box-shadow: -3px 3px 10px 0px rgba(0, 0, 0, 0.68);
+  -moz-transition-property: background, width, height, line-height, margin-top;
+  -o-transition-property: background, width, height, line-height, margin-top;
+  -webkit-transition-property: background, width, height, line-height, margin-top;
+  transition-property: background, width, height, line-height, margin-top;
+  -moz-transition-duration: 0.3s;
+  -o-transition-duration: 0.3s;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -moz-transition-timing-function: ease-out;
+  -o-transition-timing-function: ease-out;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
 }
-/* line 99, ../../dev/sass/specifics/_main_menu.scss */
+/* line 102, ../../dev/sass/specifics/_main_menu.scss */
 .main_menu.main_menu_big > li .main_menu_item img {
   position: absolute;
   top: 0;
@@ -3923,9 +3935,8 @@ textarea {
   width: 100%;
   height: 100%;
 }
-/* line 107, ../../dev/sass/specifics/_main_menu.scss */
+/* line 110, ../../dev/sass/specifics/_main_menu.scss */
 .main_menu.main_menu_big > li .main_menu_item .main_menu_item-bg {
-  display: none;
   width: 100%;
   height: 100%;
   position: absolute;
@@ -3933,10 +3944,22 @@ textarea {
   left: 0;
   z-index: 1;
   background-color: #0f3e6e;
-  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=80);
-  opacity: 0.8;
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
+  opacity: 0;
+  -moz-transition-property: opacity;
+  -o-transition-property: opacity;
+  -webkit-transition-property: opacity;
+  transition-property: opacity;
+  -moz-transition-duration: 0.3s;
+  -o-transition-duration: 0.3s;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -moz-transition-timing-function: ease-out;
+  -o-transition-timing-function: ease-out;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
 }
-/* line 119, ../../dev/sass/specifics/_main_menu.scss */
+/* line 125, ../../dev/sass/specifics/_main_menu.scss */
 .main_menu.main_menu_big > li .main_menu_item .main_menu_text_wrap {
   position: relative;
   z-index: 5;
@@ -3944,19 +3967,19 @@ textarea {
   color: #fff;
   text-align: left;
 }
-/* line 125, ../../dev/sass/specifics/_main_menu.scss */
+/* line 131, ../../dev/sass/specifics/_main_menu.scss */
 .main_menu.main_menu_big > li .main_menu_item .main_menu_text_wrap .star_wrap {
   font-family: pragmatica,Helvetica,Arial,sans-serif;
   font-weight: 300;
   font-size: 13px;
   line-height: 1;
 }
-/* line 133, ../../dev/sass/specifics/_main_menu.scss */
+/* line 139, ../../dev/sass/specifics/_main_menu.scss */
 .main_menu.main_menu_big > li .main_menu_item .main_menu_text_wrap .star_wrap .glyphicon.glyphicon-star {
   color: #f4cd24;
   margin-right: 4px;
 }
-/* line 139, ../../dev/sass/specifics/_main_menu.scss */
+/* line 145, ../../dev/sass/specifics/_main_menu.scss */
 .main_menu.main_menu_big > li .main_menu_item .main_menu_text_wrap .main_menu_title {
   margin-top: 1em;
   width: 68%;
@@ -3966,22 +3989,22 @@ textarea {
   overflow: hidden;
 }
 @media (max-width: 768px) {
-  /* line 139, ../../dev/sass/specifics/_main_menu.scss */
+  /* line 145, ../../dev/sass/specifics/_main_menu.scss */
   .main_menu.main_menu_big > li .main_menu_item .main_menu_text_wrap .main_menu_title {
     width: 100%;
   }
 }
-/* line 151, ../../dev/sass/specifics/_main_menu.scss */
+/* line 157, ../../dev/sass/specifics/_main_menu.scss */
 .main_menu.main_menu_big > li .main_menu_item .main_menu_text_wrap .main_menu_text {
   margin-top: 1.33333em;
   text-transform: none;
   line-height: 1.4em;
 }
-/* line 156, ../../dev/sass/specifics/_main_menu.scss */
+/* line 162, ../../dev/sass/specifics/_main_menu.scss */
 .main_menu.main_menu_big > li .main_menu_item .main_menu_text_wrap .main_menu_status_product {
   margin-top: 3.53333em;
 }
-/* line 160, ../../dev/sass/specifics/_main_menu.scss */
+/* line 166, ../../dev/sass/specifics/_main_menu.scss */
 .main_menu.main_menu_big > li .main_menu_item .main_menu_view {
   display: none;
   width: 100%;
@@ -3995,21 +4018,21 @@ textarea {
   color: #fff;
   z-index: 20;
 }
-/* line 173, ../../dev/sass/specifics/_main_menu.scss */
+/* line 179, ../../dev/sass/specifics/_main_menu.scss */
 .main_menu.main_menu_big > li .main_menu_item .ico_status_big_wrap {
   position: absolute;
   top: -1em;
   left: -4.77707%;
   z-index: 10;
 }
-/* line 179, ../../dev/sass/specifics/_main_menu.scss */
+/* line 185, ../../dev/sass/specifics/_main_menu.scss */
 .main_menu.main_menu_big > li .main_menu_item .ico_status_big_wrap .ico_status_big {
   position: absolute;
   top: 50%;
   left: 50%;
   margin: -0.86667em 0 0 -0.86667em;
 }
-/* line 188, ../../dev/sass/specifics/_main_menu.scss */
+/* line 194, ../../dev/sass/specifics/_main_menu.scss */
 .main_menu.main_menu_big > li:hover .main_menu_item {
   margin-top: -2.06667em;
   width: 116.6%;
@@ -4017,15 +4040,16 @@ textarea {
   line-height: 1;
   z-index: 15;
 }
-/* line 195, ../../dev/sass/specifics/_main_menu.scss */
+/* line 201, ../../dev/sass/specifics/_main_menu.scss */
 .main_menu.main_menu_big > li:hover .main_menu_item img {
   display: block;
 }
-/* line 198, ../../dev/sass/specifics/_main_menu.scss */
+/* line 204, ../../dev/sass/specifics/_main_menu.scss */
 .main_menu.main_menu_big > li:hover .main_menu_item .main_menu_item-bg {
-  display: block;
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=80);
+  opacity: 0.8;
 }
-/* line 201, ../../dev/sass/specifics/_main_menu.scss */
+/* line 207, ../../dev/sass/specifics/_main_menu.scss */
 .main_menu.main_menu_big > li:hover .main_menu_item .ico_status_big_wrap {
   width: 2.46667em;
   height: 2.46667em;
@@ -4033,40 +4057,40 @@ textarea {
   top: -1.26667em;
   left: -5.17711%;
 }
-/* line 208, ../../dev/sass/specifics/_main_menu.scss */
+/* line 214, ../../dev/sass/specifics/_main_menu.scss */
 .main_menu.main_menu_big > li:hover .main_menu_item .ico_status_big_wrap .ico_status_big {
   width: 2em;
   height: 2em;
   margin: -0.93333em 0 0 -0.93333em;
 }
-/* line 214, ../../dev/sass/specifics/_main_menu.scss */
+/* line 220, ../../dev/sass/specifics/_main_menu.scss */
 .main_menu.main_menu_big > li:hover .main_menu_item .main_menu_text_wrap {
   padding: 1.33333em 17.71117% 1.33333em 9.80926%;
 }
-/* line 216, ../../dev/sass/specifics/_main_menu.scss */
+/* line 222, ../../dev/sass/specifics/_main_menu.scss */
 .main_menu.main_menu_big > li:hover .main_menu_item .main_menu_text_wrap .main_menu_status_product {
   margin-top: 2.53333em;
 }
-/* line 220, ../../dev/sass/specifics/_main_menu.scss */
+/* line 226, ../../dev/sass/specifics/_main_menu.scss */
 .main_menu.main_menu_big > li:hover .main_menu_item .main_menu_view {
   display: block;
 }
-/* line 225, ../../dev/sass/specifics/_main_menu.scss */
+/* line 231, ../../dev/sass/specifics/_main_menu.scss */
 .main_menu.main_menu_big > li:nth-child(2n+1) {
   margin-right: -1px;
 }
 
-/* line 231, ../../dev/sass/specifics/_main_menu.scss */
+/* line 237, ../../dev/sass/specifics/_main_menu.scss */
 .main_menu_status_product {
   overflow: hidden;
   margin-top: 3.53333em;
 }
-/* line 234, ../../dev/sass/specifics/_main_menu.scss */
+/* line 240, ../../dev/sass/specifics/_main_menu.scss */
 .main_menu_status_product li {
   float: left;
   margin-left: 4.16667%;
 }
-/* line 237, ../../dev/sass/specifics/_main_menu.scss */
+/* line 243, ../../dev/sass/specifics/_main_menu.scss */
 .main_menu_status_product li:first-child {
   margin-left: 0;
 }
@@ -4593,13 +4617,25 @@ textarea {
 .btn.btn_rounded:hover {
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=50);
   opacity: 0.5;
+  -moz-transition-property: opacity;
+  -o-transition-property: opacity;
+  -webkit-transition-property: opacity;
+  transition-property: opacity;
+  -moz-transition-duration: 0.3s;
+  -o-transition-duration: 0.3s;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -moz-transition-timing-function: ease-out;
+  -o-transition-timing-function: ease-out;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
 }
-/* line 59, ../../dev/sass/specifics/_buttons.scss */
+/* line 62, ../../dev/sass/specifics/_buttons.scss */
 .btn.btn_rounded:active {
   filter: progid:DXImageTransform.Microsoft.Alpha(enabled=false);
   opacity: 1;
 }
-/* line 63, ../../dev/sass/specifics/_buttons.scss */
+/* line 66, ../../dev/sass/specifics/_buttons.scss */
 .btn.btn_big_rounded {
   border: 1px solid #cecfd0;
   -moz-border-radius: 30px;
@@ -4609,117 +4645,141 @@ textarea {
   height: 3.57143em;
   line-height: 3em;
   color: #7E8D95;
+  -moz-transition-property: opacity;
+  -o-transition-property: opacity;
+  -webkit-transition-property: opacity;
+  transition-property: opacity;
+  -moz-transition-duration: 0.3s;
+  -o-transition-duration: 0.3s;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -moz-transition-timing-function: ease-out;
+  -o-transition-timing-function: ease-out;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
 }
-/* line 73, ../../dev/sass/specifics/_buttons.scss */
+/* line 79, ../../dev/sass/specifics/_buttons.scss */
 .btn.btn_big_rounded:hover {
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=50);
   opacity: 0.5;
 }
-/* line 75, ../../dev/sass/specifics/_buttons.scss */
+/* line 81, ../../dev/sass/specifics/_buttons.scss */
 .btn.btn_big_rounded:hover .ico_upload {
   background-position: -440px 0px;
 }
-/* line 78, ../../dev/sass/specifics/_buttons.scss */
+/* line 84, ../../dev/sass/specifics/_buttons.scss */
 .btn.btn_big_rounded:hover .ico_edit {
   background-position: -520px 0px;
 }
-/* line 81, ../../dev/sass/specifics/_buttons.scss */
+/* line 87, ../../dev/sass/specifics/_buttons.scss */
 .btn.btn_big_rounded:hover .ico_add {
   background-position: -760px 0px;
 }
-/* line 85, ../../dev/sass/specifics/_buttons.scss */
+/* line 91, ../../dev/sass/specifics/_buttons.scss */
 .btn.btn_big_rounded:active {
   filter: progid:DXImageTransform.Microsoft.Alpha(enabled=false);
   opacity: 1;
 }
-/* line 87, ../../dev/sass/specifics/_buttons.scss */
+/* line 93, ../../dev/sass/specifics/_buttons.scss */
 .btn.btn_big_rounded:active .ico_upload {
   background-position: -440px 0px;
 }
-/* line 90, ../../dev/sass/specifics/_buttons.scss */
+/* line 96, ../../dev/sass/specifics/_buttons.scss */
 .btn.btn_big_rounded:active .ico_edit {
   background-position: -520px 0px;
 }
-/* line 93, ../../dev/sass/specifics/_buttons.scss */
+/* line 99, ../../dev/sass/specifics/_buttons.scss */
 .btn.btn_big_rounded:active .ico_add {
   background-position: -760px 0px;
 }
-/* line 97, ../../dev/sass/specifics/_buttons.scss */
+/* line 103, ../../dev/sass/specifics/_buttons.scss */
 .btn.btn_big_rounded .ico_upload {
   position: relative;
   top: 0.35714em;
   left: -17px;
 }
-/* line 102, ../../dev/sass/specifics/_buttons.scss */
+/* line 108, ../../dev/sass/specifics/_buttons.scss */
 .btn.btn_big_rounded .ico_edit {
   position: relative;
   top: 0.28571em;
   left: -17px;
 }
-/* line 107, ../../dev/sass/specifics/_buttons.scss */
+/* line 113, ../../dev/sass/specifics/_buttons.scss */
 .btn.btn_big_rounded .ico_add {
   position: relative;
   top: 0.35714em;
   left: -17px;
 }
-/* line 113, ../../dev/sass/specifics/_buttons.scss */
+/* line 119, ../../dev/sass/specifics/_buttons.scss */
 .btn.btn-default {
   width: 19.7832%;
   height: 2.92857em;
   line-height: 2.92857em;
   border: 1px solid #dedfdf;
+  -moz-transition-property: background-color, color;
+  -o-transition-property: background-color, color;
+  -webkit-transition-property: background-color, color;
+  transition-property: background-color, color;
+  -moz-transition-duration: 0.3s;
+  -o-transition-duration: 0.3s;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -moz-transition-timing-function: ease-out;
+  -o-transition-timing-function: ease-out;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
 }
-/* line 118, ../../dev/sass/specifics/_buttons.scss */
+/* line 127, ../../dev/sass/specifics/_buttons.scss */
 .btn.btn-default:hover {
   background-color: #0f3e6e;
   color: #fff;
 }
-/* line 122, ../../dev/sass/specifics/_buttons.scss */
+/* line 131, ../../dev/sass/specifics/_buttons.scss */
 .btn.btn-default:active {
   background-color: #fff;
   color: #738189;
 }
-/* line 128, ../../dev/sass/specifics/_buttons.scss */
+/* line 137, ../../dev/sass/specifics/_buttons.scss */
 .btn.btn-save:hover {
   background-color: #2ecc71;
   color: #fff;
 }
-/* line 132, ../../dev/sass/specifics/_buttons.scss */
+/* line 141, ../../dev/sass/specifics/_buttons.scss */
 .btn.btn-save:active {
   background-color: #fff;
   color: #738189;
 }
-/* line 138, ../../dev/sass/specifics/_buttons.scss */
+/* line 147, ../../dev/sass/specifics/_buttons.scss */
 .btn.btn-delete:hover {
   background-color: #b70e12;
   color: #fff;
 }
-/* line 142, ../../dev/sass/specifics/_buttons.scss */
+/* line 151, ../../dev/sass/specifics/_buttons.scss */
 .btn.btn-delete:active {
   background-color: #fff;
   color: #738189;
 }
-/* line 148, ../../dev/sass/specifics/_buttons.scss */
+/* line 157, ../../dev/sass/specifics/_buttons.scss */
 .btn.btn-decline:hover {
   background-color: #b70e12;
   color: #fff;
 }
-/* line 152, ../../dev/sass/specifics/_buttons.scss */
+/* line 161, ../../dev/sass/specifics/_buttons.scss */
 .btn.btn-decline:active {
   background-color: #fff;
   color: #738189;
 }
-/* line 157, ../../dev/sass/specifics/_buttons.scss */
+/* line 166, ../../dev/sass/specifics/_buttons.scss */
 .btn.btn-upload {
   background-color: #f8faf9;
   color: #323a45;
 }
-/* line 160, ../../dev/sass/specifics/_buttons.scss */
+/* line 169, ../../dev/sass/specifics/_buttons.scss */
 .btn.btn-upload:hover, .btn.btn-upload:active {
   background-color: #f8faf9;
   color: rgba(50, 58, 69, 0.5);
 }
-/* line 165, ../../dev/sass/specifics/_buttons.scss */
+/* line 174, ../../dev/sass/specifics/_buttons.scss */
 .btn.btn-link {
   text-transform: none;
   display: inline;
@@ -4731,38 +4791,38 @@ textarea {
   border-bottom: 1px solid transparent;
   color: #747476;
 }
-/* line 175, ../../dev/sass/specifics/_buttons.scss */
+/* line 184, ../../dev/sass/specifics/_buttons.scss */
 .btn.btn-link:hover {
   border-bottom: 1px solid #9d9d9e;
   background: none;
   color: #747476;
 }
-/* line 180, ../../dev/sass/specifics/_buttons.scss */
+/* line 189, ../../dev/sass/specifics/_buttons.scss */
 .btn.btn-link:active {
   border-bottom: 1px solid transparent;
 }
-/* line 184, ../../dev/sass/specifics/_buttons.scss */
+/* line 193, ../../dev/sass/specifics/_buttons.scss */
 .btn.btn_small {
   font-size: 1em;
   height: 2.8em;
   line-height: 2.8em;
   width: 19.9187%;
 }
-/* line 190, ../../dev/sass/specifics/_buttons.scss */
+/* line 199, ../../dev/sass/specifics/_buttons.scss */
 .btn.btn_long {
   height: 3em;
   line-height: 3em;
   width: 24.66125%;
 }
-/* line 195, ../../dev/sass/specifics/_buttons.scss */
+/* line 204, ../../dev/sass/specifics/_buttons.scss */
 .btn.btn_gray {
   background-color: #7e8890;
 }
-/* line 198, ../../dev/sass/specifics/_buttons.scss */
+/* line 207, ../../dev/sass/specifics/_buttons.scss */
 .btn.btn_red {
   background-color: #b70e12;
 }
-/* line 201, ../../dev/sass/specifics/_buttons.scss */
+/* line 210, ../../dev/sass/specifics/_buttons.scss */
 .btn.btn_green {
   background-color: #2ecc71;
 }
@@ -6635,28 +6695,29 @@ textarea {
 }
 
 /* line 211, ../../dev/sass/specifics/_calendar.scss */
-.comiseo-daterangepicker .datepicker_bottom_block {
+.datepicker_bottom_block {
   width: 100%;
   z-index: 100;
   font-size: 0.72727em;
 }
-/* line 215, ../../dev/sass/specifics/_calendar.scss */
-.comiseo-daterangepicker .datepicker_bottom_block .info_block {
+/* line 216, ../../dev/sass/specifics/_calendar.scss */
+.datepicker_bottom_block .info_block {
   height: 2.91667em;
   width: 100%;
-  margin-left: 0;
+  margin: 0;
+  padding-right: 10%;
+  text-align: right;
   background: #eeeeee;
   z-index: 100;
   position: relative;
 }
-/* line 222, ../../dev/sass/specifics/_calendar.scss */
-.comiseo-daterangepicker .datepicker_bottom_block .info_block span {
-  margin: 30px 0px 0px 145px;
+/* line 226, ../../dev/sass/specifics/_calendar.scss */
+.datepicker_bottom_block .info_block span {
   display: inline-block;
   color: #45484C;
 }
-/* line 226, ../../dev/sass/specifics/_calendar.scss */
-.comiseo-daterangepicker .datepicker_bottom_block .info_block span:before {
+/* line 230, ../../dev/sass/specifics/_calendar.scss */
+.datepicker_bottom_block .info_block span:before {
   content: '';
   width: 11px;
   height: 10px;
@@ -6666,38 +6727,40 @@ textarea {
   -webkit-border-radius: 100%;
   border-radius: 100%;
 }
-/* line 234, ../../dev/sass/specifics/_calendar.scss */
-.comiseo-daterangepicker .datepicker_bottom_block .info_block span.starting {
-  margin: 20px 0px 0px 145px;
-}
-/* line 236, ../../dev/sass/specifics/_calendar.scss */
-.comiseo-daterangepicker .datepicker_bottom_block .info_block span.starting:before {
+/* line 240, ../../dev/sass/specifics/_calendar.scss */
+.datepicker_bottom_block .info_block span.starting:before {
   background-color: #22c866;
 }
-/* line 240, ../../dev/sass/specifics/_calendar.scss */
-.comiseo-daterangepicker .datepicker_bottom_block .info_block span.ending {
+/* line 244, ../../dev/sass/specifics/_calendar.scss */
+.datepicker_bottom_block .info_block span.ending {
   margin: 20px 0px 0px 5px;
 }
-/* line 242, ../../dev/sass/specifics/_calendar.scss */
-.comiseo-daterangepicker .datepicker_bottom_block .info_block span.ending:before {
+/* line 246, ../../dev/sass/specifics/_calendar.scss */
+.datepicker_bottom_block .info_block span.ending:before {
   background-color: #d76969;
 }
-/* line 248, ../../dev/sass/specifics/_calendar.scss */
-.comiseo-daterangepicker .datepicker_bottom_block .reset_block {
+/* line 252, ../../dev/sass/specifics/_calendar.scss */
+.datepicker_bottom_block .reset_block {
   height: 55px;
   width: 100%;
-  margin-left: 0;
   background: #eeeeee;
   z-index: 100;
   position: relative;
+  text-align: right;
+  padding-right: 10%;
+  padding-top: 1.46667em;
   border-bottom: 1px solid #cecfd0;
 }
-/* line 256, ../../dev/sass/specifics/_calendar.scss */
-.comiseo-daterangepicker .datepicker_bottom_block .reset_block .reset {
-  margin: 20px 0px 0px 252px;
+/* line 262, ../../dev/sass/specifics/_calendar.scss */
+.datepicker_bottom_block .reset_block .reset {
   display: inline-block;
   color: #d76969;
   cursor: pointer;
+}
+
+/* line 270, ../../dev/sass/specifics/_calendar.scss */
+.ui-helper-clearfix {
+  display: none;
 }
 
 /* line 1, ../../dev/sass/specifics/_checkbox.scss */
@@ -6719,7 +6782,7 @@ label.checkbox .label_ico {
   width: 18px;
   margin: 0 5px 0 0;
   background: none;
-  border: 1px solid #c2c2c2;
+  border: 1px solid #474D67;
   background: url(/i/sprite.png) 0px -240px;
   vertical-align: -4px;
 }
@@ -7110,12 +7173,36 @@ label.checkbox.distinction .label_ico {
 /* line 49, ../../dev/sass/specifics/_img_circle.scss */
 .img_circle:hover {
   border-color: #42CE7F;
+  -moz-transition-property: border-color;
+  -o-transition-property: border-color;
+  -webkit-transition-property: border-color;
+  transition-property: border-color;
+  -moz-transition-duration: 0.3s;
+  -o-transition-duration: 0.3s;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -moz-transition-timing-function: ease-out;
+  -o-transition-timing-function: ease-out;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
 }
-/* line 51, ../../dev/sass/specifics/_img_circle.scss */
+/* line 54, ../../dev/sass/specifics/_img_circle.scss */
 .img_circle:hover .ico_search {
   display: block;
+  -moz-transition-property: display;
+  -o-transition-property: display;
+  -webkit-transition-property: display;
+  transition-property: display;
+  -moz-transition-duration: 0.3s;
+  -o-transition-duration: 0.3s;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -moz-transition-timing-function: ease-out;
+  -o-transition-timing-function: ease-out;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
 }
-/* line 55, ../../dev/sass/specifics/_img_circle.scss */
+/* line 61, ../../dev/sass/specifics/_img_circle.scss */
 .img_circle .ico_search {
   position: absolute;
   top: 1.66667em;
@@ -7124,14 +7211,14 @@ label.checkbox.distinction .label_ico {
   z-index: 2;
 }
 @media (max-width: 768px) {
-  /* line 55, ../../dev/sass/specifics/_img_circle.scss */
+  /* line 61, ../../dev/sass/specifics/_img_circle.scss */
   .img_circle .ico_search {
     top: 1.3em;
     left: 32.24658%;
   }
 }
 
-/* line 69, ../../dev/sass/specifics/_img_circle.scss */
+/* line 75, ../../dev/sass/specifics/_img_circle.scss */
 .manage_img_wrapper {
   padding: 0.26667em 1.21212%;
   border: 1px solid transparent;
@@ -7139,17 +7226,17 @@ label.checkbox.distinction .label_ico {
   width: 21.81818%;
   height: 4.8em;
 }
-/* line 75, ../../dev/sass/specifics/_img_circle.scss */
+/* line 81, ../../dev/sass/specifics/_img_circle.scss */
 .manage_img_wrapper:hover {
   border-color: #42CE7F;
 }
 
-/* line 82, ../../dev/sass/specifics/_img_circle.scss */
+/* line 88, ../../dev/sass/specifics/_img_circle.scss */
 .document li .manage {
   width: 100%;
   height: 100%;
 }
-/* line 86, ../../dev/sass/specifics/_img_circle.scss */
+/* line 92, ../../dev/sass/specifics/_img_circle.scss */
 .document li .description {
   width: 72.72727%;
 }
@@ -7179,19 +7266,19 @@ input.input {
   border: 1px solid #dedfdf;
   color: #8F9BA3;
 }
-/* line 61, c:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-core-1.0.3/stylesheets/compass/css3/_user-interface.scss */
+/* line 61, c:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/css3/_user-interface.scss */
 input.input:-moz-placeholder {
   color: #8F9BA3;
 }
-/* line 64, c:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-core-1.0.3/stylesheets/compass/css3/_user-interface.scss */
+/* line 64, c:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/css3/_user-interface.scss */
 input.input::-moz-placeholder {
   color: #8F9BA3;
 }
-/* line 67, c:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-core-1.0.3/stylesheets/compass/css3/_user-interface.scss */
+/* line 67, c:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/css3/_user-interface.scss */
 input.input:-ms-input-placeholder {
   color: #8F9BA3;
 }
-/* line 56, c:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-core-1.0.3/stylesheets/compass/css3/_user-interface.scss */
+/* line 56, c:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/css3/_user-interface.scss */
 input.input::-webkit-input-placeholder {
   color: #8F9BA3;
 }

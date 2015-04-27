@@ -337,169 +337,19 @@
   padding-left: 1.33333em;
   padding-right: 1.33333em;
 }
-/* line 249, ../../../dev/pages/new_activies_page/new_activies_page.scss */
-.activies_page_wrap .calendar_block {
-  display: none;
-}
-/* line 251, ../../../dev/pages/new_activies_page/new_activies_page.scss */
-.activies_page_wrap .calendar_block #datepicker {
-  z-index: 100;
-  position: relative;
-  float: left;
-  width: 100%;
-}
-/* line 256, ../../../dev/pages/new_activies_page/new_activies_page.scss */
-.activies_page_wrap .calendar_block #datepicker .ui-datepicker-month, .activies_page_wrap .calendar_block #datepicker .ui-datepicker-year, .activies_page_wrap .calendar_block #datepicker .ui-datepicker-calendar {
-  font-family: pragmatica,Helvetica,Arial,sans-serif;
-  font-size: 12px;
-}
-/* line 260, ../../../dev/pages/new_activies_page/new_activies_page.scss */
-.activies_page_wrap .calendar_block #datepicker .ui-datepicker-calendar tr td a {
-  color: #45484C;
-  -moz-border-radius: 100%;
-  -webkit-border-radius: 100%;
-  border-radius: 100%;
-  width: 23px;
-  height: 23px;
-  padding: 7px 0px;
-  text-align: center;
-  border: none;
-  background: none;
-}
-/* line 270, ../../../dev/pages/new_activies_page/new_activies_page.scss */
-.activies_page_wrap .calendar_block #datepicker .ui-datepicker-calendar tr td a.ui-state-active {
-  background: #22c866;
-  color: #fff;
-}
-/* line 274, ../../../dev/pages/new_activies_page/new_activies_page.scss */
-.activies_page_wrap .calendar_block #datepicker .ui-datepicker-calendar tr td a.ui-state-active2 {
-  background: #d76969;
-  color: #fff;
-}
-/* line 278, ../../../dev/pages/new_activies_page/new_activies_page.scss */
-.activies_page_wrap .calendar_block #datepicker .ui-datepicker .ui-datepicker-header {
-  background: none;
-  border: none;
-  color: #45484C;
-  height: 75px;
-  border-bottom: 1px solid #cecfd0;
-  -moz-border-radius: 0px;
-  -webkit-border-radius: 0px;
-  border-radius: 0px;
-  padding-top: 22px;
-}
-/* line 287, ../../../dev/pages/new_activies_page/new_activies_page.scss */
-.activies_page_wrap .calendar_block #datepicker a.ui-corner-all {
-  background: none;
-  border: none;
-}
-/* line 290, ../../../dev/pages/new_activies_page/new_activies_page.scss */
-.activies_page_wrap .calendar_block #datepicker a.ui-corner-all:hover {
-  background: none;
-  border: none;
-}
-/* line 295, ../../../dev/pages/new_activies_page/new_activies_page.scss */
-.activies_page_wrap .calendar_block #datepicker .ui-datepicker .ui-datepicker-prev span {
-  background: url(/i/sprite.png) -80px -160px no-repeat;
-  width: 5px;
-  height: 11px;
-  top: 36px;
-}
-/* line 301, ../../../dev/pages/new_activies_page/new_activies_page.scss */
-.activies_page_wrap .calendar_block #datepicker .ui-datepicker .ui-datepicker-next span {
-  background: url(/i/sprite.png) -120px -160px no-repeat;
-  width: 5px;
-  height: 11px;
-  top: 36px;
-}
-/* line 307, ../../../dev/pages/new_activies_page/new_activies_page.scss */
-.activies_page_wrap .calendar_block #datepicker .ui-datepicker-inline {
-  width: 90%;
-  margin-left: 5%;
-  -moz-border-radius: 0px;
-  -webkit-border-radius: 0px;
-  border-radius: 0px;
-  border: 0px;
-}
 
-/* line 317, ../../../dev/pages/new_activies_page/new_activies_page.scss */
-.datepicker_bottom_block {
-  width: 100%;
-  z-index: 100;
-  font-size: 12px;
-}
-/* line 322, ../../../dev/pages/new_activies_page/new_activies_page.scss */
-.datepicker_bottom_block .info_block {
-  height: 55px;
-  width: 90%;
-  margin-left: 5%;
-  background: #eeeeee;
-  z-index: 100;
-  position: relative;
-}
-/* line 330, ../../../dev/pages/new_activies_page/new_activies_page.scss */
-.datepicker_bottom_block .info_block span {
-  margin: 30px 0px 0px 145px;
-  display: inline-block;
-  color: #45484C;
-}
-/* line 334, ../../../dev/pages/new_activies_page/new_activies_page.scss */
-.datepicker_bottom_block .info_block span:before {
-  content: '';
-  width: 11px;
-  height: 10px;
-  margin: 0px 10px 0px 0px;
-  display: inline-block;
-  -moz-border-radius: 100%;
-  -webkit-border-radius: 100%;
-  border-radius: 100%;
-}
-/* line 342, ../../../dev/pages/new_activies_page/new_activies_page.scss */
-.datepicker_bottom_block .info_block span.starting {
-  margin: 20px 0px 0px 145px;
-}
-/* line 344, ../../../dev/pages/new_activies_page/new_activies_page.scss */
-.datepicker_bottom_block .info_block span.starting:before {
-  background-color: #22c866;
-}
-/* line 348, ../../../dev/pages/new_activies_page/new_activies_page.scss */
-.datepicker_bottom_block .info_block span.ending {
-  margin: 20px 0px 0px 5px;
-}
-/* line 350, ../../../dev/pages/new_activies_page/new_activies_page.scss */
-.datepicker_bottom_block .info_block span.ending:before {
-  background-color: #d76969;
-}
-/* line 356, ../../../dev/pages/new_activies_page/new_activies_page.scss */
-.datepicker_bottom_block .reset_block {
-  height: 55px;
-  width: 90%;
-  margin-left: 5%;
-  background: #eeeeee;
-  z-index: 100;
-  position: relative;
-  border-bottom: 1px solid #cecfd0;
-}
-/* line 364, ../../../dev/pages/new_activies_page/new_activies_page.scss */
-.datepicker_bottom_block .reset_block .reset {
-  margin: 20px 0px 0px 252px;
-  display: inline-block;
-  color: #d76969;
-  cursor: pointer;
-}
-
-/* line 373, ../../../dev/pages/new_activies_page/new_activies_page.scss */
+/* line 254, ../../../dev/pages/new_activies_page/new_activies_page.scss */
 .select2-results__option {
   padding-left: 1.33333em;
   padding-right: 1.33333em;
 }
 
-/* line 378, ../../../dev/pages/new_activies_page/new_activies_page.scss */
+/* line 259, ../../../dev/pages/new_activies_page/new_activies_page.scss */
 .attachments_block_wrap {
   overflow: hidden;
 }
 
-/* line 382, ../../../dev/pages/new_activies_page/new_activies_page.scss */
+/* line 263, ../../../dev/pages/new_activies_page/new_activies_page.scss */
 .img_circle_wrap {
   margin-right: 2.03252%;
   padding: 0.26667em;
@@ -510,12 +360,12 @@
   width: 9.6206%;
   height: 4.73333em;
 }
-/* line 389, ../../../dev/pages/new_activies_page/new_activies_page.scss */
+/* line 270, ../../../dev/pages/new_activies_page/new_activies_page.scss */
 .img_circle_wrap .img_circle {
   width: 100%;
   height: 100%;
 }
-/* line 392, ../../../dev/pages/new_activies_page/new_activies_page.scss */
+/* line 273, ../../../dev/pages/new_activies_page/new_activies_page.scss */
 .img_circle_wrap .img_circle .ico_search {
   position: absolute;
   top: 1.33333em;
@@ -524,27 +374,27 @@
   z-index: 2;
 }
 @media (max-width: 768px) {
-  /* line 392, ../../../dev/pages/new_activies_page/new_activies_page.scss */
+  /* line 273, ../../../dev/pages/new_activies_page/new_activies_page.scss */
   .img_circle_wrap .img_circle .ico_search {
     top: 1.4em;
     left: 32.24658%;
   }
 }
-/* line 404, ../../../dev/pages/new_activies_page/new_activies_page.scss */
+/* line 285, ../../../dev/pages/new_activies_page/new_activies_page.scss */
 .img_circle_wrap:hover {
   border-color: #42CE7F;
 }
-/* line 406, ../../../dev/pages/new_activies_page/new_activies_page.scss */
+/* line 287, ../../../dev/pages/new_activies_page/new_activies_page.scss */
 .img_circle_wrap:hover .ico_search {
   display: block;
 }
 
-/* line 415, ../../../dev/pages/new_activies_page/new_activies_page.scss */
+/* line 296, ../../../dev/pages/new_activies_page/new_activies_page.scss */
 .wrap_blocks .main_title.main_title_actives {
   margin-top: 4.51852em;
 }
 
-/* line 420, ../../../dev/pages/new_activies_page/new_activies_page.scss */
+/* line 301, ../../../dev/pages/new_activies_page/new_activies_page.scss */
 .calendar_from, .calendar_to {
   background: none;
   border: none;
@@ -555,7 +405,7 @@
   font-weight: 500;
 }
 
-/* line 430, ../../../dev/pages/new_activies_page/new_activies_page.scss */
+/* line 311, ../../../dev/pages/new_activies_page/new_activies_page.scss */
 .calendar_to {
   margin-left: 1.39665%;
 }

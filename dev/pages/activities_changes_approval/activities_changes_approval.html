@@ -10,6 +10,7 @@
 
         <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800&subset=latin,cyrillic-ext' rel='stylesheet' type='text/css'>
         <link rel="stylesheet" href="/css/main.css">
+        <link rel="stylesheet" href="/css/vendor/jquery-ui.css">
         <link rel="stylesheet" href="activities_changes_approval.css">
 
         <!--[if lt IE 9]>
@@ -171,13 +172,18 @@
                                     </div>
                                     <div class="brand_news_toolbax description">
                                         <div class="status_wrap_center">
-                                            <div class="status_wrap">
-                                                <a href="#" class="btn btn_big_rounded">
+                                            <div class="status_wrap calendarWrap">
+                                                <a class="btn btn_big_rounded">
                                                     <span class="sprite sprite_ico ico_status"></span>
                                                     active
                                                     <span class="sprite sprite_ico ico_calendar ico_calendar_big"></span>
-                                                    01.15 — ongoing
+                                                    <input type="text" class="calendar_from" placeholder="dd.mm.yyyy">
+                                                     — 
+                                                    <input type="text" class="calendar_to" placeholder="dd.mm.yyyy">
                                                 </a>
+                                                <div class="calendar_block">
+                                                    <div class="datepicker"></div>
+                                                </div>
                                             </div>
                                         </div>
                                         <div class="activities_changes_approval_list_wrap">
@@ -294,13 +300,18 @@
                                     </div>
                                     <div class="brand_news_toolbax description">
                                         <div class="status_wrap_center">
-                                            <div class="status_wrap">
-                                                <a href="#" class="btn btn_big_rounded">
+                                            <div class="status_wrap calendarWrap">
+                                                <a class="btn btn_big_rounded">
                                                     <span class="sprite sprite_ico ico_status"></span>
                                                     active
                                                     <span class="sprite sprite_ico ico_calendar ico_calendar_big"></span>
-                                                    <span class="calendar_date distinction"> 01.15 </span> — ongoing
+                                                    <input type="text" class="calendar_from" placeholder="dd.mm.yyyy">
+                                                     — 
+                                                    <input type="text" class="calendar_to" placeholder="dd.mm.yyyy">
                                                 </a>
+                                                <div class="calendar_block">
+                                                    <div class="datepicker"></div>
+                                                </div>
                                             </div>
                                         </div>
                                         <div class="activities_changes_approval_list_wrap">
@@ -530,6 +541,9 @@
         <script src="/js/vendor/jquery-ui.min.js"></script>
         <script src="/js/vendor/select2.min.js"></script>
         <script src="/js/vendor/checked_polyfill.min.js"></script>
+        <script src="/js/vendor/moment.js"></script>
+        <script src="/js/vendor/datepicker.js"></script>
+        <script src="/js/vendor/jquery.comiseo.daterangepicker.custom.js"></script>
         <script src="/js/main.js"></script>
         <script src="activities_changes_approval.js"></script>
     </body>
