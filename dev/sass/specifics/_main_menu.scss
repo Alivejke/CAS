@@ -40,6 +40,11 @@ $main_menu_item-width-hover: 367px;
 			background-color: #d5d5d5;
 			padding: 0 em(15px, $base-font-size);
 			// padding: 0 flex(10px, $base-width-content) 0 0;
+
+			
+			@include transition-property(width, height, background-color, padding, margin, color);
+			@include transition-duration(0.3s);
+			@include transition-timing-function(ease-out);
 			img {
 				vertical-align: middle;
 				display: inline-block;
@@ -96,7 +101,7 @@ $main_menu_item-width-hover: 367px;
 				-moz-box-shadow: -3px 3px 10px 0px rgba(0,0,0,0.68);
 				box-shadow: -3px 3px 10px 0px rgba(0,0,0,0.68);
 			
-				@include transition-property(background, width, height, line-height, margin-top);
+				@include transition-property(background, width, height, margin-top, margin, padding);
 				@include transition-duration(0.3s);
 				@include transition-timing-function(ease-out);
 				img {
@@ -128,6 +133,10 @@ $main_menu_item-width-hover: 367px;
 					padding: em(20px, $base-font-size) flex(25px, $main_menu_item-width);
 					color: $white-color;
 					text-align: left;
+			
+					@include transition-property(padding);
+					@include transition-duration(0.3s);
+					@include transition-timing-function(ease-out);
 					.star_wrap {
 						// font-family: 'Open Sans', sans-serif;
 						// font-weight: 400;
@@ -148,7 +157,7 @@ $main_menu_item-width-hover: 367px;
 						font-size: em($main_menu-font-size, $base-font-size);
 						line-height: em(27px, $main_menu-font-size);
 						max-height: em(60px, $main_menu-font-size);
-						overflow: hidden;
+						// overflow: hidden;
 
 						@media (max-width: 768px) {
 	                        width: 100%;

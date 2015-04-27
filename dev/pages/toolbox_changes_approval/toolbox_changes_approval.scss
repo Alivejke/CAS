@@ -96,3 +96,24 @@
 		margin: em(45px, $base-font-size) 0;
 	}
 }
+.activities_changes_approval_list_info {
+	margin-top: 2em;
+	> li {
+		overflow: hidden;
+		.profile_title {
+			width: flex(74px, $base-width-content);
+			.profile_text {
+				margin-top: em(4px, 10.5px);
+				margin-left: 0;
+			}
+		}
+		.profile_text {
+			margin: 0 0 0 flex(70px, $base-width-content);
+			width: flex(590px, $base-width-content);
+
+			@media (max-width: 768px) {
+                margin: -0.26667em 0 0 5.48509%;
+            }
+		}
+	}
+}
