@@ -65,11 +65,8 @@
             margin: 0px auto;
         }
         .name_channels {
-            font-family: pragmatica,Helvetica,Arial,sans-serif;
-            font-weight: 500;
-            font-size: $base-font-size;
+            font-size: em($base-font-size);
             line-height: 1;
-            color: $base-color;
             text-align: center;
             padding: em(15px, $base-font-size) 0;
         }
@@ -97,7 +94,7 @@
                 }
                 label {
                     margin-left: flex(90px, 246px);
-                    color: $gray-color;
+                    // color: $gray-color;
                 }
             }
         }
@@ -192,6 +189,10 @@
                 height: em(142.5px, $base-font-size);
                 padding: em(12px, $base-font-size) flex(10px, $base-width-content);
                 margin-top: em(20px, $base-font-size);
+            }
+            .file_size {
+                float: none;
+                width: auto;
             }
         }
         .block_upload_file {

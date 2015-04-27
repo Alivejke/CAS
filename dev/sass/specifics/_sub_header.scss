@@ -47,6 +47,8 @@
 	overflow: hidden;
 	position: relative;
 	font-family: 'Brandon Grotesque';
+	position: relative;
+	top: em(-$default_increase-line-height);
 	// &.scroll {
 	// 	position: fixed;
 	// 	top: em(15px, $base-font-size);
@@ -83,6 +85,7 @@
 		float: left;
 		// padding-left: 15px;
 		// background: url(/i/sprite.png) -40px 0 no-repeat;
+		margin-top: em($default_increase-line-height);
 	
 		a {
 			text-transform: uppercase;

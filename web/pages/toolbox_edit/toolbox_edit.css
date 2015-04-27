@@ -86,41 +86,42 @@
 /* line 17, ../../../dev/pages/toolbox_edit/toolbox_edit.scss */
 .toolbox_edit .select_wrap .select2-container .select2-selection--single .select2-selection__rendered {
   padding: 0 6.87285% 0 4.811%;
+  font-weight: 600;
 }
-/* line 23, ../../../dev/pages/toolbox_edit/toolbox_edit.scss */
+/* line 24, ../../../dev/pages/toolbox_edit/toolbox_edit.scss */
 .toolbox_edit .select_wrap .select2-container.select2-container--default .select2-selection--single .select2-selection__arrow {
   width: 6.87285%;
 }
-/* line 25, ../../../dev/pages/toolbox_edit/toolbox_edit.scss */
+/* line 26, ../../../dev/pages/toolbox_edit/toolbox_edit.scss */
 .toolbox_edit .select_wrap .select2-container.select2-container--default .select2-selection--single .select2-selection__arrow b {
   border-width: 5px 5px 0 5px;
 }
-/* line 33, ../../../dev/pages/toolbox_edit/toolbox_edit.scss */
+/* line 34, ../../../dev/pages/toolbox_edit/toolbox_edit.scss */
 .toolbox_edit .select_wrap .select2-container.select2-container--default.select2-container--open .select2-selection--single .select2-selection__arrow b {
   border-width: 0 5px 5px 5px;
 }
-/* line 42, ../../../dev/pages/toolbox_edit/toolbox_edit.scss */
+/* line 43, ../../../dev/pages/toolbox_edit/toolbox_edit.scss */
 .toolbox_edit .toolbox_edit_title {
   margin: 1.40741em 0 2.03704em;
 }
 
-/* line 47, ../../../dev/pages/toolbox_edit/toolbox_edit.scss */
+/* line 48, ../../../dev/pages/toolbox_edit/toolbox_edit.scss */
 .toolbox_edit_list li {
   border-top: 1px solid #ededee;
   padding: 2.33333em 0 0;
   margin: 2.93333em 0;
 }
-/* line 51, ../../../dev/pages/toolbox_edit/toolbox_edit.scss */
+/* line 52, ../../../dev/pages/toolbox_edit/toolbox_edit.scss */
 .toolbox_edit_list li .main_title {
   margin: 0.25926em 0 0.96296em;
   text-transform: none;
 }
-/* line 56, ../../../dev/pages/toolbox_edit/toolbox_edit.scss */
+/* line 57, ../../../dev/pages/toolbox_edit/toolbox_edit.scss */
 .toolbox_edit_list li .brand_news_textarea.indent-top {
   margin-top: 3.33333em;
 }
 
-/* line 62, ../../../dev/pages/toolbox_edit/toolbox_edit.scss */
+/* line 63, ../../../dev/pages/toolbox_edit/toolbox_edit.scss */
 .select2-results__option {
   padding-left: 0.93333em;
   padding-right: 1.33333em;

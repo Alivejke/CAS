@@ -121,17 +121,23 @@ label.checkbox {
         width: 18px;
         margin: 0 5px 0 0;
         background: none;
-        border: 1px solid #474D67;
-        background: url(/i/sprite.png) 0px -240px;
+        // border: 1px solid #474D67;
+        border: 1px solid #b5b5b5;
+        // background: url(/i/sprite.png) 0px -240px;
         vertical-align: -4px;
     }
-    &.chacked .label_ico{
+    &.chacked .label_ico {
         background: url(/i/sprite.png) -41px -240px;
     }
     &.distinction {
         color: $distinction-color;
         .label_ico {
             border-color: $distinction-color;
+        }
+        &.chacked {
+            .label_ico {
+                background: url(/i/sprite.png) -76px -236px;
+            }
         }
     }
 }

@@ -117,6 +117,7 @@ $brand_news_list-width: 295px;
 	margin-top: em(23px, 21px);
 	font-size: em(21px);
 	color: $gray-color;
+	color: #2c3138;
 }
 
 .brand_news_toolbax_list {
@@ -259,7 +260,7 @@ $brand_news_list-width: 295px;
     background: none;
     border: none;
     display: inline-block;
-    width: flex(80px, 370px - 6px * 2);
+    width: flex(75px, 294px);
     margin-left: flex(3px, 370px - 6px * 2);
     color: #7E8D95;
     font-weight: 500;
@@ -268,6 +269,20 @@ $brand_news_list-width: 295px;
 .calendar_to {
     margin-left: flex(5px, 370px - 6px * 2);
 }
+
 .comiseo-daterangepicker.ui-corner-all {
 	min-width: 300px;
+}
+
+label {
+	&.checkbox {
+		.label_ico {
+			border-color: #f0f0f0;
+		}
+		&.chacked {
+			.label_ico {
+				background: url(/i/sprite.png) 4px -236px;
+			}
+		}
+	}
 }

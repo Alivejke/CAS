@@ -28,7 +28,6 @@ $(document).ready(function() {
 
     function closeMenu () {
         animationBlock = true;
-        $navigationDropdown.removeClass('active');
         
         $navigationDropdown.find('.navigation_dropdown_block_wrap').animate({
             opacity: 0
@@ -36,6 +35,7 @@ $(document).ready(function() {
             $navigationDropdown.find('.navigation_dropdown_block').animate({
                 height: [0, 'easeInOutQuart']
             }, speedFast, function () {
+                $navigationDropdown.removeClass('active');
                 animationBlock = false;
             });
         });

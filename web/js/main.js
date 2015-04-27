@@ -13,21 +13,22 @@ function initializeCheckboxes () {
 };$(document).ready(function() {
 	var calendarPaddingWidth = 19;
 
-	function calendarPositions () {
+	function calendarPositions ($dateWrap) {
 		// debugger
 		$('.comiseo-daterangepicker').css({
-			top: $('.calendarWrap').offset().top + $('.calendarWrap').height(),
-			left: $('.calendarWrap').offset().left + calendarPaddingWidth,
-			width: $('.calendarWrap').width() - calendarPaddingWidth*2
+			'top': $dateWrap.offset().top + $dateWrap.height(),
+			'left': $dateWrap.offset().left + calendarPaddingWidth,
+			'width': $dateWrap.width() - calendarPaddingWidth*2,
+			'min-width': $dateWrap.width() - calendarPaddingWidth*2
 		});
 
 		$('.datepicker_bottom_block').css({
-			top: $('.status_wrap').outerHeight() + $('.comiseo-daterangepicker').outerHeight(),
-			left: calendarPaddingWidth
+			'top': $dateWrap.outerHeight() + $('.comiseo-daterangepicker').outerHeight(),
+			'left': calendarPaddingWidth
 		});
 
-		$('.calendar_block').show();
-	}
+		$dateWrap.find('.calendar_block').show();
+	};
 
 	if($(".datepicker").length) {
 
@@ -50,33 +51,42 @@ function initializeCheckboxes () {
 			    		startDate = startDay && startMonth && startYear ? startDay + '.' + startMonth + '.' + startYear : '',
 			    		endDate = endDay && endMonth && endYear ? endDay + '.' + endMonth + '.' + endYear : '';
 
-			    	$('.calendar_from').val( startDate );
-			    	$('.calendar_to').val( endDate );
+			    	$('.calendarWrap.active').find('.calendar_from').val( startDate );
+			    	$('.calendarWrap.active').find('.calendar_to').val( endDate );
 		    	}, 0);
 		    }
 		});
 
 		$(".calendarWrap").on('click', function () {
-			$(".datepicker").daterangepicker("open");
+			var $this = $(this),
+				$datepicker = $this.find('.datepicker');
 
-			calendarPositions ();
+			$this.addClass('active');
+
+			$datepicker.daterangepicker("open");
+
+			calendarPositions ($this);
 		});
 
 		$(window).resize(function(){
-			calendarPositions ();
+			var $calendarWrap = $('.calendarWrap');
+
+			calendarPositions ($calendarWrap);
 		});
 
 	    $(document).scroll(function(){
-	        var body = $(document).scrollTop();
+	        var $calendarWrap = $('.calendarWrap'),
+	        	body = $(document).scrollTop();
+
 	        if ( body > 10 ) {
-	            calendarPositions ();
+	            calendarPositions ($calendarWrap);
 	        }
 	    });
 
 	    $('.js-reset').on('click', function(){
-	    	$(".datepicker").daterangepicker("clearRange");
-	    	$('.calendar_from').val('');
-	    	$('.calendar_to').val('');
+	    	$('.calendarWrap.active').find('.datepicker').daterangepicker("clearRange");
+	    	$('.calendarWrap.active').find('.calendar_from').val('');
+	    	$('.calendarWrap.active').find('.calendar_to').val('');
 	    });
 		
 	}
@@ -141,7 +151,6 @@ function initializeCheckboxes () {
 
     function closeMenu () {
         animationBlock = true;
-        $navigationDropdown.removeClass('active');
         
         $navigationDropdown.find('.navigation_dropdown_block_wrap').animate({
             opacity: 0
@@ -149,6 +158,7 @@ function initializeCheckboxes () {
             $navigationDropdown.find('.navigation_dropdown_block').animate({
                 height: [0, 'easeInOutQuart']
             }, speedFast, function () {
+                $navigationDropdown.removeClass('active');
                 animationBlock = false;
             });
         });

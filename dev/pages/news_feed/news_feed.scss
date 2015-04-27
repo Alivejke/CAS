@@ -46,11 +46,13 @@ $feeds_name_font-size: 18px;
 			font-size: em($feeds_name_font-size);
   			text-transform: uppercase;
   			color: #60717B;
+  			font-family: 'Brandon Grotesque';
 		}
 		.info {
 			margin-top: em(10px, $base-font-size);
 			// margin-left: flex(130px, $base-width-content);
 			margin-left: 8.65em;
+			font-family: 'Brandon Grotesque';
 			span {
 				font-weight: 300;
 				color: #919191;

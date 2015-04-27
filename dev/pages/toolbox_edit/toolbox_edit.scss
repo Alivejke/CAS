@@ -16,6 +16,7 @@ $toolbox_select-width: 291px;
 			.select2-selection--single {
 				.select2-selection__rendered {
 					padding: 0 flex(20px, $toolbox_select-width) 0 flex(14px, $toolbox_select-width);
+					font-weight: 600;
 				}
 			}
 			&.select2-container--default {

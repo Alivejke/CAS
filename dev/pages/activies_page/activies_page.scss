@@ -32,7 +32,7 @@
             display: block;
         }
         .name_channels {
-            font-family: pragmatica,Helvetica,Arial,sans-serif;
+            font-family: 'Brandon Grotesque';
             font-weight: 300;
             font-size: em(21px , $base-font-size);
             line-height: 1;
@@ -66,7 +66,7 @@
     }
     .wrap_block {
         .title {
-            font-family: pragmatica,Helvetica,Arial,sans-serif;
+            font-family: 'Brandon Grotesque';
             font-weight: 300;
             font-size: em($brand_news_title-font-size, $base-font-size);
             line-height: 1;
@@ -133,6 +133,7 @@
             .name {
                 float: left;
                 font-weight: 500;
+                font-family: 'Brandon Grotesque';
             }
             .text {
                 float: left;
@@ -248,6 +249,7 @@
             p {
                 margin-top: em(20px);
                 color: #8F979F;
+                line-height: em($base-font-size + $default_increase-line-height);
             }
             &.distinction {
                 .brand_news_title {

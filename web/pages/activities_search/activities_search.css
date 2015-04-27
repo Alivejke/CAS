@@ -194,3 +194,8 @@ input[type="checkbox"]:checked {
 .btn_activies_search_wrap .btn-link {
   margin: 1.42857em 0 2.14286em;
 }
+
+/* line 134, ../../../dev/pages/activities_search/activities_search.scss */
+.select2-results__option {
+  padding: 0.86667em 1.33333em;
+}

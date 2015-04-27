@@ -130,3 +130,7 @@ input[type="checkbox"]:checked {
 		margin: em(20px, $btn-font-size) 0 em(30px, $btn-font-size);
 	}
 }
+
+.select2-results__option {
+	padding: em(13px) em(20px);
+}

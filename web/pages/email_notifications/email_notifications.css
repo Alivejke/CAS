@@ -184,6 +184,7 @@
   color: #77808b;
   font-size: 11px;
   line-height: 1.546em;
+  font-family: 'Brandon Grotesque';
 }
 /* line 125, ../../../dev/pages/email_notifications/email_notifications.scss */
 .edit-notification .notes .notes-unit:first-child {

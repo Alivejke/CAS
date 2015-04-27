@@ -13,7 +13,7 @@
 textarea {
 	width: 100%;
 	height: em(142.5px, $base-font-size);
-	padding: em(12px, $base-font-size) flex(10px, $base-width-content);
+	padding: em(12px) em(10px);
 	margin-top: em(20px, $base-font-size);
 	font-size: em($base-font-size);
 	// font-family: 'Brandon Grotesque';
@@ -22,5 +22,22 @@ textarea {
 	color: #909294;
 	@include input-placeholder {
 	    color: #909294;
+	}
+}
+
+label {
+	&.checkbox {
+		font-size: em(13px);
+		@extend .font-pragmatica-regular;
+		color: #909294;
+	}
+}
+
+.channel {
+	@extend .base_title;
+	.name_channels {
+		font-size: em(12px);
+		color: #7e8890;
+		text-transform: uppercase;
 	}
 }

@@ -214,6 +214,7 @@ $select_multiple_default-width: 289px;
 .select2-results__option {
 	padding: em(13px, $base-font-size) em(40px, $base-font-size);
 	color: #8F9BA3;
+	font-family: 'Brandon Grotesque';
 	.select2-results__option--highlighted {
 		background: #7e8890;
 	}

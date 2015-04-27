@@ -138,19 +138,16 @@
 }
 /* line 67, ../../../dev/pages/new_activies_page/new_activies_page.scss */
 .activies_page_wrap .channel .name_channels {
-  font-family: pragmatica,Helvetica,Arial,sans-serif;
-  font-weight: 500;
-  font-size: 15px;
+  font-size: 1em;
   line-height: 1;
-  color: #000;
   text-align: center;
   padding: 1em 0;
 }
-/* line 77, ../../../dev/pages/new_activies_page/new_activies_page.scss */
+/* line 74, ../../../dev/pages/new_activies_page/new_activies_page.scss */
 .activies_page_wrap .channel ul li {
   margin: 0.46667em 0;
 }
-/* line 79, ../../../dev/pages/new_activies_page/new_activies_page.scss */
+/* line 76, ../../../dev/pages/new_activies_page/new_activies_page.scss */
 .activies_page_wrap .channel ul li a {
   color: #45484C;
   position: relative;
@@ -159,7 +156,7 @@
   padding: 0.33333em 0;
   text-decoration: none;
 }
-/* line 86, ../../../dev/pages/new_activies_page/new_activies_page.scss */
+/* line 83, ../../../dev/pages/new_activies_page/new_activies_page.scss */
 .activies_page_wrap .channel ul li a:before {
   content: '';
   width: 4px;
@@ -173,12 +170,11 @@
   left: -12px;
   top: 12px;
 }
-/* line 98, ../../../dev/pages/new_activies_page/new_activies_page.scss */
+/* line 95, ../../../dev/pages/new_activies_page/new_activies_page.scss */
 .activies_page_wrap .channel ul li label {
   margin-left: 36.58537%;
-  color: #45484C;
 }
-/* line 106, ../../../dev/pages/new_activies_page/new_activies_page.scss */
+/* line 103, ../../../dev/pages/new_activies_page/new_activies_page.scss */
 .activies_page_wrap .wrap_block .title {
   font-family: pragmatica,Helvetica,Arial,sans-serif;
   font-weight: 300;
@@ -187,7 +183,7 @@
   color: #000;
   margin-bottom: 1.03704em;
 }
-/* line 114, ../../../dev/pages/new_activies_page/new_activies_page.scss */
+/* line 111, ../../../dev/pages/new_activies_page/new_activies_page.scss */
 .activies_page_wrap .wrap_block p.text {
   font-family: pragmatica,Helvetica,Arial,sans-serif;
   font-weight: 300;
@@ -196,17 +192,17 @@
   color: #45484C;
   letter-spacing: 1px;
 }
-/* line 128, ../../../dev/pages/new_activies_page/new_activies_page.scss */
+/* line 125, ../../../dev/pages/new_activies_page/new_activies_page.scss */
 .activies_page_wrap .attachments_blocks {
   margin-bottom: 4em;
 }
-/* line 131, ../../../dev/pages/new_activies_page/new_activies_page.scss */
+/* line 128, ../../../dev/pages/new_activies_page/new_activies_page.scss */
 .activies_page_wrap .attachments_blocks .block {
   float: left;
   width: 100%;
   margin-top: 4em;
 }
-/* line 137, ../../../dev/pages/new_activies_page/new_activies_page.scss */
+/* line 134, ../../../dev/pages/new_activies_page/new_activies_page.scss */
 .activies_page_wrap .attachments_blocks .block .icon {
   width: 10.1626%;
   float: left;
@@ -219,17 +215,17 @@
   position: relative;
   margin-right: 1.5625%;
 }
-/* line 146, ../../../dev/pages/new_activies_page/new_activies_page.scss */
+/* line 143, ../../../dev/pages/new_activies_page/new_activies_page.scss */
 .activies_page_wrap .attachments_blocks .block .icon:hover {
   border-color: #42CE7F;
 }
-/* line 149, ../../../dev/pages/new_activies_page/new_activies_page.scss */
+/* line 146, ../../../dev/pages/new_activies_page/new_activies_page.scss */
 .activies_page_wrap .attachments_blocks .block .icon img {
   max-width: 100%;
   margin: 0px auto;
   display: block;
 }
-/* line 154, ../../../dev/pages/new_activies_page/new_activies_page.scss */
+/* line 151, ../../../dev/pages/new_activies_page/new_activies_page.scss */
 .activies_page_wrap .attachments_blocks .block .icon .ico_search {
   position: absolute;
   top: 1.66667em;
@@ -237,119 +233,124 @@
   display: none;
 }
 @media (max-width: 768px) {
-  /* line 154, ../../../dev/pages/new_activies_page/new_activies_page.scss */
+  /* line 151, ../../../dev/pages/new_activies_page/new_activies_page.scss */
   .activies_page_wrap .attachments_blocks .block .icon .ico_search {
     top: 1.4em;
     left: 32.24658%;
   }
 }
-/* line 165, ../../../dev/pages/new_activies_page/new_activies_page.scss */
+/* line 162, ../../../dev/pages/new_activies_page/new_activies_page.scss */
 .activies_page_wrap .attachments_blocks .block .icon:hover .ico_search {
   display: block;
 }
-/* line 169, ../../../dev/pages/new_activies_page/new_activies_page.scss */
+/* line 166, ../../../dev/pages/new_activies_page/new_activies_page.scss */
 .activies_page_wrap .attachments_blocks .block .name {
   float: left;
   width: 80%;
   margin-top: 1em;
   position: relative;
 }
-/* line 174, ../../../dev/pages/new_activies_page/new_activies_page.scss */
+/* line 171, ../../../dev/pages/new_activies_page/new_activies_page.scss */
 .activies_page_wrap .attachments_blocks .block .name a.sprite.sprite_ico.ico_basket {
   margin: -0.13333em 0.67751%;
   position: absolute;
 }
-/* line 179, ../../../dev/pages/new_activies_page/new_activies_page.scss */
+/* line 176, ../../../dev/pages/new_activies_page/new_activies_page.scss */
 .activies_page_wrap .attachments_blocks .block .checkbox {
   display: inline-block;
   position: relative;
   margin-top: 0.8em;
   color: #45484C;
 }
-/* line 184, ../../../dev/pages/new_activies_page/new_activies_page.scss */
+/* line 181, ../../../dev/pages/new_activies_page/new_activies_page.scss */
 .activies_page_wrap .attachments_blocks .block .checkbox label:before {
   position: absolute;
   left: 0px;
   top: -1px;
 }
-/* line 190, ../../../dev/pages/new_activies_page/new_activies_page.scss */
+/* line 187, ../../../dev/pages/new_activies_page/new_activies_page.scss */
 .activies_page_wrap .attachments_blocks .block textarea {
   width: 100%;
   height: 9.5em;
   padding: 0.8em 1.35501%;
   margin-top: 1.33333em;
 }
-/* line 197, ../../../dev/pages/new_activies_page/new_activies_page.scss */
+/* line 193, ../../../dev/pages/new_activies_page/new_activies_page.scss */
+.activies_page_wrap .attachments_blocks .block .file_size {
+  float: none;
+  width: auto;
+}
+/* line 198, ../../../dev/pages/new_activies_page/new_activies_page.scss */
 .activies_page_wrap .attachments_blocks .block_upload_file {
   margin: 2em 0 3.33333em;
 }
-/* line 200, ../../../dev/pages/new_activies_page/new_activies_page.scss */
+/* line 201, ../../../dev/pages/new_activies_page/new_activies_page.scss */
 .activies_page_wrap .attachments_blocks .block_upload_file span {
   margin-left: 2.71003%;
   color: #45484C;
 }
 @media (max-width: 768px) {
-  /* line 200, ../../../dev/pages/new_activies_page/new_activies_page.scss */
+  /* line 201, ../../../dev/pages/new_activies_page/new_activies_page.scss */
   .activies_page_wrap .attachments_blocks .block_upload_file span {
     display: block;
     margin-left: 0;
     margin-top: 1em;
   }
 }
-/* line 211, ../../../dev/pages/new_activies_page/new_activies_page.scss */
+/* line 212, ../../../dev/pages/new_activies_page/new_activies_page.scss */
 .activies_page_wrap .attachments_blocks .block_options_draft {
   padding: 3.33333em 0;
   border-top: 1px solid #cecfd0;
   border-bottom: 1px solid #cecfd0;
 }
-/* line 215, ../../../dev/pages/new_activies_page/new_activies_page.scss */
+/* line 216, ../../../dev/pages/new_activies_page/new_activies_page.scss */
 .activies_page_wrap .attachments_blocks .block_options_draft button.btn.btn-default {
   width: 27.10027%;
   overflow: hidden;
 }
-/* line 219, ../../../dev/pages/new_activies_page/new_activies_page.scss */
+/* line 220, ../../../dev/pages/new_activies_page/new_activies_page.scss */
 .activies_page_wrap .attachments_blocks .block_options_draft button.btn.btn-default.center {
   margin-left: 9.48509%;
 }
 @media (max-width: 840px) {
-  /* line 223, ../../../dev/pages/new_activies_page/new_activies_page.scss */
+  /* line 224, ../../../dev/pages/new_activies_page/new_activies_page.scss */
   .activies_page_wrap .attachments_blocks .block_options_draft button.btn.btn-default {
     font-size: 12px;
   }
 }
-/* line 228, ../../../dev/pages/new_activies_page/new_activies_page.scss */
+/* line 229, ../../../dev/pages/new_activies_page/new_activies_page.scss */
 .activies_page_wrap .attachments_blocks .block_request_comment {
   margin-top: 4em;
 }
-/* line 230, ../../../dev/pages/new_activies_page/new_activies_page.scss */
+/* line 231, ../../../dev/pages/new_activies_page/new_activies_page.scss */
 .activies_page_wrap .attachments_blocks .block_request_comment textarea {
   width: 100%;
   height: 9.5em;
   padding: 0.8em 1.35501%;
   margin: 2em 0;
 }
-/* line 236, ../../../dev/pages/new_activies_page/new_activies_page.scss */
+/* line 237, ../../../dev/pages/new_activies_page/new_activies_page.scss */
 .activies_page_wrap .attachments_blocks .block_request_comment .select_wrap {
   width: 48.10298%;
 }
-/* line 240, ../../../dev/pages/new_activies_page/new_activies_page.scss */
+/* line 241, ../../../dev/pages/new_activies_page/new_activies_page.scss */
 .activies_page_wrap .attachments_blocks .block_request_comment .select_wrap .select2-container .select2-selection--single .select2-selection__rendered {
   padding-left: 1.33333em;
   padding-right: 1.33333em;
 }
 
-/* line 254, ../../../dev/pages/new_activies_page/new_activies_page.scss */
+/* line 255, ../../../dev/pages/new_activies_page/new_activies_page.scss */
 .select2-results__option {
   padding-left: 1.33333em;
   padding-right: 1.33333em;
 }
 
-/* line 259, ../../../dev/pages/new_activies_page/new_activies_page.scss */
+/* line 260, ../../../dev/pages/new_activies_page/new_activies_page.scss */
 .attachments_block_wrap {
   overflow: hidden;
 }
 
-/* line 263, ../../../dev/pages/new_activies_page/new_activies_page.scss */
+/* line 264, ../../../dev/pages/new_activies_page/new_activies_page.scss */
 .img_circle_wrap {
   margin-right: 2.03252%;
   padding: 0.26667em;
@@ -360,12 +361,12 @@
   width: 9.6206%;
   height: 4.73333em;
 }
-/* line 270, ../../../dev/pages/new_activies_page/new_activies_page.scss */
+/* line 271, ../../../dev/pages/new_activies_page/new_activies_page.scss */
 .img_circle_wrap .img_circle {
   width: 100%;
   height: 100%;
 }
-/* line 273, ../../../dev/pages/new_activies_page/new_activies_page.scss */
+/* line 274, ../../../dev/pages/new_activies_page/new_activies_page.scss */
 .img_circle_wrap .img_circle .ico_search {
   position: absolute;
   top: 1.33333em;
@@ -374,27 +375,27 @@
   z-index: 2;
 }
 @media (max-width: 768px) {
-  /* line 273, ../../../dev/pages/new_activies_page/new_activies_page.scss */
+  /* line 274, ../../../dev/pages/new_activies_page/new_activies_page.scss */
   .img_circle_wrap .img_circle .ico_search {
     top: 1.4em;
     left: 32.24658%;
   }
 }
-/* line 285, ../../../dev/pages/new_activies_page/new_activies_page.scss */
+/* line 286, ../../../dev/pages/new_activies_page/new_activies_page.scss */
 .img_circle_wrap:hover {
   border-color: #42CE7F;
 }
-/* line 287, ../../../dev/pages/new_activies_page/new_activies_page.scss */
+/* line 288, ../../../dev/pages/new_activies_page/new_activies_page.scss */
 .img_circle_wrap:hover .ico_search {
   display: block;
 }
 
-/* line 296, ../../../dev/pages/new_activies_page/new_activies_page.scss */
+/* line 297, ../../../dev/pages/new_activies_page/new_activies_page.scss */
 .wrap_blocks .main_title.main_title_actives {
   margin-top: 4.51852em;
 }
 
-/* line 301, ../../../dev/pages/new_activies_page/new_activies_page.scss */
+/* line 302, ../../../dev/pages/new_activies_page/new_activies_page.scss */
 .calendar_from, .calendar_to {
   background: none;
   border: none;
@@ -405,7 +406,7 @@
   font-weight: 500;
 }
 
-/* line 311, ../../../dev/pages/new_activies_page/new_activies_page.scss */
+/* line 312, ../../../dev/pages/new_activies_page/new_activies_page.scss */
 .calendar_to {
   margin-left: 1.39665%;
 }
