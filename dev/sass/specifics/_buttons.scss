@@ -29,8 +29,13 @@
 		}
 		&.ico_eye {
 			background-position: -270px 15px;
+			
+			@include transition-property(opacity);
+			@include transition-duration(0.3s);
+			@include transition-timing-function(ease-out);
 			&:hover {
-				background-position: -270px -65px;
+				// background-position: -270px -65px;
+				@include opacity(0.6);
 			}
 			&:active {
 				background-position: -270px -145px;
@@ -181,6 +186,10 @@
 		border: none;
 		border-bottom: 1px solid transparent;
 		color: #747476;
+
+		@include transition-property(border-bottom, color, background);
+		@include transition-duration(0.3s);
+		@include transition-timing-function(ease-out);
 		&:hover {
 			border-bottom: 1px solid #9d9d9e;
 			background: none;

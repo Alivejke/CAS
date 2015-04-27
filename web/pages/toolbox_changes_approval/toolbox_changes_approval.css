@@ -185,3 +185,32 @@
   width: 54.20054%;
   margin: 3em 0;
 }
+
+/* line 99, ../../../dev/pages/toolbox_changes_approval/toolbox_changes_approval.scss */
+.activities_changes_approval_list_info {
+  margin-top: 2em;
+}
+/* line 101, ../../../dev/pages/toolbox_changes_approval/toolbox_changes_approval.scss */
+.activities_changes_approval_list_info > li {
+  overflow: hidden;
+}
+/* line 103, ../../../dev/pages/toolbox_changes_approval/toolbox_changes_approval.scss */
+.activities_changes_approval_list_info > li .profile_title {
+  width: 10.0271%;
+}
+/* line 105, ../../../dev/pages/toolbox_changes_approval/toolbox_changes_approval.scss */
+.activities_changes_approval_list_info > li .profile_title .profile_text {
+  margin-top: 0.38095em;
+  margin-left: 0;
+}
+/* line 110, ../../../dev/pages/toolbox_changes_approval/toolbox_changes_approval.scss */
+.activities_changes_approval_list_info > li .profile_text {
+  margin: 0 0 0 9.48509%;
+  width: 79.9458%;
+}
+@media (max-width: 768px) {
+  /* line 110, ../../../dev/pages/toolbox_changes_approval/toolbox_changes_approval.scss */
+  .activities_changes_approval_list_info > li .profile_text {
+    margin: -0.26667em 0 0 5.48509%;
+  }
+}

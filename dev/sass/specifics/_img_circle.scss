@@ -48,22 +48,20 @@
 	}
 	&:hover {
 		border-color: #42CE7F;
-			@include transition-property(border-color);
-			@include transition-duration(0.3s);
-			@include transition-timing-function(ease-out);
 		.ico_search{
-	        display: block;
-			@include transition-property(display);
-			@include transition-duration(0.3s);
-			@include transition-timing-function(ease-out);
+	        @include opacity(1);
 	    }
 	}
 	.ico_search {
         position: absolute;
-        top: em(25px, $base-font-size);
-        left: flex(25px, 73px);
-        display: none;
+        top: em(23px, $base-font-size);
+        left: flex(24px, 73px);
+        @include opacity(0);
         z-index: 2;
+
+		@include transition-property(opacity);
+		@include transition-duration(0.3s);
+		@include transition-timing-function(ease-out);
 
         @media (max-width: 768px) {
             top: 1.3em;
@@ -78,6 +76,10 @@
 	border-radius: 100%;
 	width: flex(72px, 330px);
 	height: em(72px);
+
+	@include transition-property(border-color);
+	@include transition-duration(0.3s);
+	@include transition-timing-function(ease-out);
 	&:hover {
 		border-color: #42CE7F;
 	}
