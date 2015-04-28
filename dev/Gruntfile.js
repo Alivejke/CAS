@@ -25,20 +25,20 @@ module.exports = function(grunt) {
                 separator: ';'
             },
             js: {
-                src: ['js/**/*.js', '!js/main.js', 'js/main.js', '!js/vendor/**/*'],
+                src: ['js/**/*.js', '!js/main.js', 'js/main.js', '!js/vendor/**/*', 'pages/**/*.js'],
                 dest: '../web/js/main.js'
             }
         },
 
         uglify: {
-            jsPagesBuild: {
-                files: [{
-                    expand: true,
-                    cwd: '',
-                    src: 'pages/**/*.js',
-                    dest: '../build/'
-                }]
-            },
+            // jsPagesBuild: {
+            //     files: [{
+            //         expand: true,
+            //         cwd: '',
+            //         src: 'pages/**/*.js',
+            //         dest: '../build/'
+            //     }]
+            // },
             jsVendorBuild: {
                 expand: true,
                 cwd: 'js/vendor',
@@ -46,7 +46,7 @@ module.exports = function(grunt) {
                 dest: '../build/js/vendor'
             },
             jsBuild: {
-                src: ['js/**/*.js', '!js/main.js', 'js/main.js', '!js/vendor/**/*'],
+                src: ['js/**/*.js', '!js/main.js', 'js/main.js', '!js/vendor/**/*', 'pages/**/*.js'],
                 dest: '../build/js/main.js'
             }
         },
@@ -58,12 +58,12 @@ module.exports = function(grunt) {
                     cssDir: '../web/css'
                 }
             },
-            pages: {
+            /*pages: {
                 options: {
                     sassDir: 'pages',
                     cssDir: '../web/pages'
                 }
-            },
+            },*/
 
             globalBuild: {
                 options: {
@@ -71,14 +71,14 @@ module.exports = function(grunt) {
                     cssDir: '../build/css',
                     environment: 'production'
                 }
-            },
+            }/*,
             pagesBuild: {
                 options: {
                     sassDir: 'pages',
                     cssDir: '../build/pages',
                     environment: 'production'
                 }
-            }
+            }*/
         },
 
         copy: {
@@ -135,13 +135,13 @@ module.exports = function(grunt) {
                 cwd: 'json/',
                 src: '*',
                 dest: '../build/'
-            },
-            jspages: {
-                expand: true,
-                cwd: '',
-                src: 'pages/**/*.js',
-                dest: '../web/'
             }
+            // jspages: {
+            //     expand: true,
+            //     cwd: '',
+            //     src: 'pages/**/*.js',
+            //     dest: '../web/'
+            // }
         },
 
         imgo: {
@@ -174,7 +174,7 @@ module.exports = function(grunt) {
 
             scripts: {
                 files: ['js/**/*.js', 'pages/**/*.js'],
-                tasks: ['concat:js', 'copy:jsvendor', 'copy:jspages'],
+                tasks: ['concat:js', 'copy:jsvendor'],
                 options: {
                     interrupt: true
                 }

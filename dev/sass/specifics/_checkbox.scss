@@ -141,3 +141,18 @@ label.checkbox {
         }
     }
 }
+
+.popup_window {
+    label {
+        &.checkbox {
+            &.chacked {
+                .label_ico {
+                    background: url(/i/sprite.png) -41px -240px;
+                }
+            }
+            .label_ico {
+                border-color: #b5b5b5;
+            }
+        }
+    }
+}

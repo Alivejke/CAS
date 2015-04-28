@@ -1,5 +1,5 @@
 ;$(function() {
-	var $uploadButtons = $('.js-uploader'),
+	var $uploadButtons = $('.js-uploader-image'),
 		$imgWrap = $('.js-img_wrap');
 
 
@@ -24,8 +24,6 @@
 	        }
 	    });
 
-	    // $this.find('.qq-upload-button')[0].innerText = buttonDefaultText;
-	    // console.log($this.find('.qq-upload-button')[0])
 	});
 
 	$imgWrap.on('click', 'img', function (event){

@@ -1,78 +1,81 @@
 @import '../../sass/base/__base';
-.toolbox_wrap {
-	.main_title {
-		font-size: em($main_title-font-size, $base-font-size);
-		width: flex(400px, $base-width-content);
-		margin-top: em(60px, $main_title-font-size);
-	}
-	.content_wrap {
-		margin-top: em(60px, $base-font-size);
-	}
-}
 
-.content_wrap {
-	padding-bottom: em(95px + 57px, $base-font-size);
-}
-.brand_edit {
-	li {
-		float: left;
-		width: flex(147px, $base-width);
-		margin-left: flex(35px, $base-width);
-		&:first-child {
-			margin-left: 0;
+.toolbox_page {
+	.toolbox_wrap {
+		.main_title {
+			font-size: em($main_title-font-size, $base-font-size);
+			width: flex(400px, $base-width-content);
+			margin-top: em(60px, $main_title-font-size);
 		}
-		.btn {
-			&.btn_small {
-				width: 100%;
+		.content_wrap {
+			margin-top: em(60px, $base-font-size);
+		}
+	}
+
+	.content_wrap {
+		padding-bottom: em(95px + 57px, $base-font-size);
+	}
+	.brand_edit {
+		li {
+			float: left;
+			width: flex(147px, $base-width);
+			margin-left: flex(35px, $base-width);
+			&:first-child {
+				margin-left: 0;
+			}
+			.btn {
+				&.btn_small {
+					width: 100%;
+				}
+			}
+
+		}
+		&.btn_wrap {
+			position: absolute;
+			bottom: em(-95px, $base-font-size);
+			overflow: hidden;
+		}
+	}
+	.brand_news {
+		&.edit_brand {
+			padding: em(33px, $base-font-size) 0 em(55px, $base-font-size) 0;
+		}
+		.btn_big_rounded_wrap {
+			&:first-child {
+				width: flex(153px, 742px);
+			}
+			&.pos_right {
+				width: flex(170px, 742px);
 			}
 		}
-
 	}
-	&.btn_wrap {
-		position: absolute;
-		bottom: em(-95px, $base-font-size);
-		overflow: hidden;
+	.brand_news_title {
+		font-size: em(27px, $base-font-size);
 	}
-}
-.brand_news {
-	&.edit_brand {
-		padding: em(33px, $base-font-size) 0 em(55px, $base-font-size) 0;
+
+	.status_wrap {
+	    .btn_big_rounded {
+	        text-transform: uppercase;
+	        .ico_status {
+	            margin-left: flex(10px, 300px);
+	        }
+	        .ico_calendar {
+	            margin: 0 flex(5px, 300px) 0 flex(10px, 300px);
+	        }
+	    }
 	}
-	.btn_big_rounded_wrap {
-		&:first-child {
-			width: flex(153px, 742px);
-		}
-		&.pos_right {
-			width: flex(170px, 742px);
-		}
+
+	.calendar_from, .calendar_to {
+	    background: none;
+	    border: none;
+	    display: inline-block;
+	    width: flex(90px, 370px - 6px * 2);
+	    margin-left: flex(3px, 370px - 6px * 2);
+	    color: #7E8D95;
+	    font-weight: 500;
 	}
-}
-.brand_news_title {
-	font-size: em(27px, $base-font-size);
-}
 
-.status_wrap {
-    .btn_big_rounded {
-        text-transform: uppercase;
-        .ico_status {
-            margin-left: flex(10px, 300px);
-        }
-        .ico_calendar {
-            margin: 0 flex(5px, 300px) 0 flex(10px, 300px);
-        }
-    }
-}
-
-.calendar_from, .calendar_to {
-    background: none;
-    border: none;
-    display: inline-block;
-    width: flex(90px, 370px - 6px * 2);
-    margin-left: flex(3px, 370px - 6px * 2);
-    color: #7E8D95;
-    font-weight: 500;
-}
-
-.calendar_to {
-    margin-left: flex(5px, 370px - 6px * 2);
+	.calendar_to {
+	    margin-left: flex(5px, 370px - 6px * 2);
+	}
 }

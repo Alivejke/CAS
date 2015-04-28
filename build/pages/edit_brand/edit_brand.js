@@ -1,1 +1,0 @@
-$(function(){var a=$(".js-uploader");a.each(function(){{var a=$(this),b=a.text();new qq.FileUploader({element:this,action:"/server/upload",allowedExtensions:["jpg","jpeg","png","gif"],onSubmit:function(){a.text("Uploading...")},onComplete:function(){a.text(b)}})}})});

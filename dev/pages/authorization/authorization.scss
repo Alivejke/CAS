@@ -1,34 +1,36 @@
 @import '../../sass/base/__base';
 @import "compass/css3";
 
-.authorization_wrap {
-	.left, .right {
-		width: 45%;
-		// width: flex(416px, $base-width-content);
-		color: $gray-color;
-		font-weight: 600;
+.authorization_page {
+	.authorization_wrap {
+		.left, .right {
+			width: 45%;
+			// width: flex(416px, $base-width-content);
+			color: $gray-color;
+			font-weight: 600;
 
-		.spam_block {
-			margin-top: em(20px, 11px);
-			text-transform: uppercase;
-			font-size: em(11px);
-			a {
-				padding-top: em(3px);
-				margin-left: flex(10px);
-				color: #0f3e6e;
-				text-decoration: none;
-				border-bottom: 1px solid #a3adbe;
-				line-height: 10px;
+			.spam_block {
+				margin-top: em(20px, 11px);
+				text-transform: uppercase;
+				font-size: em(11px);
+				a {
+					padding-top: em(3px);
+					margin-left: flex(10px);
+					color: #0f3e6e;
+					text-decoration: none;
+					border-bottom: 1px solid #a3adbe;
+					line-height: 10px;
+				}
 			}
 		}
-	}
-	.authorization {
-		overflow: hidden;
-		padding: em(30px, $base-font-size) 0;
-	}
-	.button_block {
-		border-top: 1px solid #cecfd0;
-		overflow: hidden;
-		padding: em(30px, $base-font-size) 0;
+		.authorization {
+			overflow: hidden;
+			padding: em(30px, $base-font-size) 0;
+		}
+		.button_block {
+			border-top: 1px solid #cecfd0;
+			overflow: hidden;
+			padding: em(30px, $base-font-size) 0;
+		}
 	}
 }

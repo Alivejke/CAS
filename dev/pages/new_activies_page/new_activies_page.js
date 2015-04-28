@@ -15,6 +15,7 @@
 	    var uploader = new qq.FileUploader({
 	        element: this,
 	        action: '/server/upload',
+	        uploadButtonText: buttonDefaultText,
 	        allowedExtensions: ['jpg', 'jpeg', 'png', 'gif'],
 	        onSubmit: function () {
 	            $this.text('Uploading...');
@@ -29,9 +30,8 @@
 		            var template = _.template($("#template").html());
 		            // $this.closest('form').find('.attachments_block_wrap').append(template({url: url, size: size, name: name}));
 		            $this.closest('form').find('.attachments_block_wrap').append(template({url: urlCheck, size: sizeCheck, name: nameCheck}));
-	        		
 	        	}
-
+	        	
 	        }
 	    }); 
 	});

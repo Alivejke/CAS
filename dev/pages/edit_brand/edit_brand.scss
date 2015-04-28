@@ -1,37 +1,39 @@
 @import '../../sass/base/__base';
-.content_wrap {
-	padding-bottom: em(95px + 57px, $base-font-size);
-}
-.brand_edit {
-	li {
-		float: left;
-		// width: flex(147px, $base-width-content-one);
-		width: 8em;
-		margin-left: flex(35px, $base-width-content-one);
-		&:first-child {
-			margin-left: 0;
-		}
-		.btn {
-			&.btn_small {
-				width: 100%;
+.edit_brand_page {
+	.content_wrap {
+		padding-bottom: em(95px + 57px, $base-font-size);
+	}
+	.brand_edit {
+		li {
+			float: left;
+			// width: flex(147px, $base-width-content-one);
+			width: 8em;
+			margin-left: flex(35px, $base-width-content-one);
+			&:first-child {
+				margin-left: 0;
+			}
+			.btn {
+				&.btn_small {
+					width: 100%;
+				}
 			}
 		}
+		&.btn_wrap {
+			position: absolute;
+			bottom: em(-95px, $base-font-size);
+			overflow: hidden;
+		}
 	}
-	&.btn_wrap {
-		position: absolute;
-		bottom: em(-95px, $base-font-size);
-		overflow: hidden;
+	.brand_news {
+		&.edit_brand {
+			padding: em(33px, $base-font-size) 0 em(55px, $base-font-size) 0;
+		}
 	}
-}
-.brand_news {
-	&.edit_brand {
-		padding: em(33px, $base-font-size) 0 em(55px, $base-font-size) 0;
+	.brand_news_title {
+		font-size: em(27px, $base-font-size);
 	}
-}
-.brand_news_title {
-	font-size: em(27px, $base-font-size);
-}
 
-.brand_news_textarea {
-	margin-top: 0;
+	.brand_news_textarea {
+		margin-top: 0;
+	}
 }

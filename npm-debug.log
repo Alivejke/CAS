@@ -1,20 +1,19 @@
 0 info it worked if it ends with ok
-1 verbose cli [ 'c:\\Program Files (x86)\\nodejs\\node.exe',
-1 verbose cli   'c:\\Program Files (x86)\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
-1 verbose cli   'start' ]
-2 info using npm@2.5.1
-3 info using node@v0.12.0
-4 verbose stack Error: ENOENT, open 'd:\projects\CAS\package.json'
-4 verbose stack     at Error (native)
-5 verbose cwd d:\projects\CAS
-6 error Windows_NT 6.1.7601
-7 error argv "c:\\Program Files (x86)\\nodejs\\node.exe" "c:\\Program Files (x86)\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "start"
-8 error node v0.12.0
-9 error npm  v2.5.1
-10 error path d:\projects\CAS\package.json
-11 error code ENOENT
-12 error errno -4058
-13 error enoent ENOENT, open 'd:\projects\CAS\package.json'
-13 error enoent This is most likely not a problem with npm itself
-13 error enoent and is related to npm not being able to find a file.
-14 verbose exit [ -4058, true ]
+1 verbose cli [ 'c:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'c:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.33
+4 error install Couldn't read dependencies
+5 error package.json ENOENT, open 'e:\projects\cas_\cas\package.json'
+5 error package.json This is most likely not a problem with npm itself.
+5 error package.json npm can't find a package.json file in your current directory.
+6 error System Windows_NT 6.1.7601
+7 error command "c:\\Program Files\\nodejs\\node.exe" "c:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install"
+8 error cwd e:\projects\cas_\cas
+9 error node -v v0.10.33
+10 error npm -v 1.4.28
+11 error path e:\projects\cas_\cas\package.json
+12 error code ENOPACKAGEJSON
+13 error errno 34
+14 verbose exit [ 34, true ]
