@@ -225,10 +225,8 @@ module.exports = function(grunt) {
     grunt.registerTask('default', ['connect', 'watch']);
     grunt.registerTask('build', [
         'compass:globalBuild', 
-        'compass:pagesBuild', 
         'uglify:jsBuild', 
         'uglify:jsVendorBuild', 
-        'uglify:jsPagesBuild', 
         'copy:htmlBuild', 
         'copy:fontsBuild', 
         'copy:jsonBuild',
