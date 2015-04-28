@@ -1,6 +1,6 @@
 .brand_news_textarea {
-	font-size: $base-font-size;
-	line-height: 1;
+	font-size: em($base-font-size);
+	line-height: em($base-font-size + $default_increase-line-height);
 	padding: em(15px, $base-font-size) flex(15px, $base-width-content);
 	width: 100%;
 	height: em(115px, $base-font-size);
