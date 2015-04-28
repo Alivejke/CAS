@@ -69,9 +69,9 @@
 		$popupWrap.addClass('popup_active').append($emailNotifPopup);
 	}
 
-	if ( navigator.userAgent.toLowerCase().indexOf('msie') != -1) {
-		$('.wrap_table > div:nth-child(odd)').addClass('odd');
-	}
+	// if ( navigator.userAgent.toLowerCase().indexOf('msie') != -1) {
+	// 	$('.wrap_table > div:nth-child(odd)').addClass('odd');
+	// }
 
 	$('.btn-add-notification').on('click', function (event) {
 		event.preventDefault();

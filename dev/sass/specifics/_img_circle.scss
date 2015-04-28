@@ -73,7 +73,7 @@
 .manage_img_wrapper {
 	padding: em(4px) flex(4px, 330px);
 	border: 1px solid transparent;
-	border-radius: 100%;
+	@include border-radius(100%);
 	width: flex(72px, 330px);
 	height: em(72px);
 

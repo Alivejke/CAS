@@ -174,7 +174,7 @@ module.exports = function(grunt) {
 
             scripts: {
                 files: ['js/**/*.js', 'pages/**/*.js'],
-                tasks: ['concat:js', 'copy:jsvendor'/*, 'copy:jspages'*/],
+                tasks: ['concat:js', 'copy:jsvendor'],
                 options: {
                     interrupt: true
                 }
@@ -225,10 +225,8 @@ module.exports = function(grunt) {
     grunt.registerTask('default', ['connect', 'watch']);
     grunt.registerTask('build', [
         'compass:globalBuild', 
-        'compass:pagesBuild', 
         'uglify:jsBuild', 
         'uglify:jsVendorBuild', 
-        'uglify:jsPagesBuild', 
         'copy:htmlBuild', 
         'copy:fontsBuild', 
         'copy:jsonBuild',

@@ -401,59 +401,59 @@ function initializeCheckboxes () {
 
 	$(document).on('click', function (event) {
 	    var $container = $('.status_wrap');
-	    // debugger
+	    
 	    if ( $container.has(event.target).length === 0 && $('.datepicker_bottom_block').has(event.target).length === 0 && $('.comiseo-daterangepicker').has(event.target).length === 0 ){
 	        $container.removeClass('active').find('.calendar_block').hide();
 	    }
 	});
 	
 });;;$(function() {
-	if ( navigator.userAgent.toLowerCase().indexOf('msie') != -1) {
-		$('.wrap_table > div:nth-child(odd)').addClass('odd');
-	}
+// 	if ( navigator.userAgent.toLowerCase().indexOf('msie') != -1) {
+// 		$('.wrap_table > div:nth-child(odd)').addClass('odd');
+// 	}
 });;;$(function() {
-	var $mailField = $('.js-mail');
+// 	var $mailField = $('.js-mail');
 
-	function validationMail ($field) {
+// 	function validationMail ($field) {
 
-		if(! (/^[a-zA-Z0-9_\-\.]+@[a-zA-Z0-9\-]+\.[a-zA-Z0-9\-\.]+$/.test($field.val()))){
-			alert("Ошибка в E-mail!");
-			$field.focus();
-			$field.addClass('error').removeClass('complete');
-			return false;
-		} else {
-			$field.removeClass('error').addClass('complete');
-		}
-	};
+// 		if(! (/^[a-zA-Z0-9_\-\.]+@[a-zA-Z0-9\-]+\.[a-zA-Z0-9\-\.]+$/.test($field.val()))){
+// 			alert("Ошибка в E-mail!");
+// 			$field.focus();
+// 			$field.addClass('error').removeClass('complete');
+// 			return false;
+// 		} else {
+// 			$field.removeClass('error').addClass('complete');
+// 		}
+// 	};
 
-	$mailField.on('change', function(){
-		var $this = $(this);
+// 	$mailField.on('change', function(){
+// 		var $this = $(this);
 
-		validationMail($this);
-	});
+// 		validationMail($this);
+// 	});
 });;;$(function() {
-	var $uploadButtons = $('.js-uploader');
+// 	var $uploadButtons = $('.js-uploader-image');
 
 
-	/* http://valums-file-uploader.github.io/file-uploader/ */
-	$uploadButtons.each(function () {
-	    var $this = $(this),
-	        buttonDefaultText = $this.text();
+// 	/* http://valums-file-uploader.github.io/file-uploader/ */
+// 	$uploadButtons.each(function () {
+// 	    var $this = $(this),
+// 	        buttonDefaultText = $this.text();
 
-	    var uploader = new qq.FileUploader({
-	        element: this,
-	        action: '/server/upload',
-	        uploadButtonText: buttonDefaultText,
-	        allowedExtensions: ['jpg', 'jpeg', 'png', 'gif'],
-	        onSubmit: function () {
-	            $this.text('Uploading...');
-	        },
-	        onComplete: function () {
-	            $this.text(buttonDefaultText);                
-	        }
-	    });
+// 	    var uploader = new qq.FileUploader({
+// 	        element: this,
+// 	        action: '/server/upload',
+// 	        uploadButtonText: buttonDefaultText,
+// 	        allowedExtensions: ['jpg', 'jpeg', 'png', 'gif'],
+// 	        onSubmit: function () {
+// 	            $this.text('Uploading...');
+// 	        },
+// 	        onComplete: function () {
+// 	            $this.text(buttonDefaultText);                
+// 	        }
+// 	    });
 	    
-	});
+// 	});
 });;;$(function() {
 
 	var $popupWrap = $('#popup_block'),
@@ -525,9 +525,9 @@ function initializeCheckboxes () {
 		$popupWrap.addClass('popup_active').append($emailNotifPopup);
 	}
 
-	if ( navigator.userAgent.toLowerCase().indexOf('msie') != -1) {
-		$('.wrap_table > div:nth-child(odd)').addClass('odd');
-	}
+	// if ( navigator.userAgent.toLowerCase().indexOf('msie') != -1) {
+	// 	$('.wrap_table > div:nth-child(odd)').addClass('odd');
+	// }
 
 	$('.btn-add-notification').on('click', function (event) {
 		event.preventDefault();
@@ -571,6 +571,7 @@ function initializeCheckboxes () {
 	    var uploader = new qq.FileUploader({
 	        element: this,
 	        action: '/server/upload',
+	        uploadButtonText: buttonDefaultText,
 	        allowedExtensions: ['jpg', 'jpeg', 'png', 'gif'],
 	        onSubmit: function () {
 	            $this.text('Uploading...');
@@ -585,9 +586,8 @@ function initializeCheckboxes () {
 		            var template = _.template($("#template").html());
 		            // $this.closest('form').find('.attachments_block_wrap').append(template({url: url, size: size, name: name}));
 		            $this.closest('form').find('.attachments_block_wrap').append(template({url: urlCheck, size: sizeCheck, name: nameCheck}));
-	        		
 	        	}
-
+	        	
 	        }
 	    }); 
 	});
@@ -700,7 +700,7 @@ function initializeCheckboxes () {
 	});
 
 });;;$(function() {
-	var $uploadButtons = $('.js-uploader'),
+	var $uploadButtons = $('.js-uploader-image'),
 		$imgWrap = $('.js-img_wrap');
 
 
@@ -725,8 +725,6 @@ function initializeCheckboxes () {
 	        }
 	    });
 
-	    // $this.find('.qq-upload-button')[0].innerText = buttonDefaultText;
-	    // console.log($this.find('.qq-upload-button')[0])
 	});
 
 	$imgWrap.on('click', 'img', function (event){
@@ -734,8 +732,7 @@ function initializeCheckboxes () {
 		
 		$(this).closest('.js-img_wrap').find('.js-uploader').trigger('click');
 	});
-});;console.log('asd');
-$(document).ready(function() {
+});;$(document).ready(function() {
 	
 	$('body').on('click', '.js-basket', function (event) {
 
@@ -743,7 +740,7 @@ $(document).ready(function() {
 
 		$(this).closest('.block').remove();
 	});
-	// $('.')
+	
 });$(document).ready(function() {
 
 	$('.ico_star').click(function() {

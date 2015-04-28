@@ -145,6 +145,7 @@ $navigation_dropdown_list_news-font-size: 11px;
 	border-top: none;
 	cursor: default;
 	z-index: 10;
+	overflow-y: overlay;
 }
 
 .navigation_dropdown_block_wrap {
