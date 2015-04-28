@@ -6552,19 +6552,19 @@ textarea {
   font-weight: 300;
   color: #909294;
 }
-/* line 61, c:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/css3/_user-interface.scss */
+/* line 61, c:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-core-1.0.1/stylesheets/compass/css3/_user-interface.scss */
 textarea:-moz-placeholder {
   color: #909294;
 }
-/* line 64, c:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/css3/_user-interface.scss */
+/* line 64, c:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-core-1.0.1/stylesheets/compass/css3/_user-interface.scss */
 textarea::-moz-placeholder {
   color: #909294;
 }
-/* line 67, c:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/css3/_user-interface.scss */
+/* line 67, c:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-core-1.0.1/stylesheets/compass/css3/_user-interface.scss */
 textarea:-ms-input-placeholder {
   color: #909294;
 }
-/* line 56, c:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/css3/_user-interface.scss */
+/* line 56, c:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-core-1.0.1/stylesheets/compass/css3/_user-interface.scss */
 textarea::-webkit-input-placeholder {
   color: #909294;
 }
@@ -7260,19 +7260,19 @@ input.input {
   border: 1px solid #dedfdf;
   color: #8F9BA3;
 }
-/* line 61, c:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/css3/_user-interface.scss */
+/* line 61, c:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-core-1.0.1/stylesheets/compass/css3/_user-interface.scss */
 input.input:-moz-placeholder {
   color: #8F9BA3;
 }
-/* line 64, c:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/css3/_user-interface.scss */
+/* line 64, c:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-core-1.0.1/stylesheets/compass/css3/_user-interface.scss */
 input.input::-moz-placeholder {
   color: #8F9BA3;
 }
-/* line 67, c:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/css3/_user-interface.scss */
+/* line 67, c:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-core-1.0.1/stylesheets/compass/css3/_user-interface.scss */
 input.input:-ms-input-placeholder {
   color: #8F9BA3;
 }
-/* line 56, c:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/css3/_user-interface.scss */
+/* line 56, c:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-core-1.0.1/stylesheets/compass/css3/_user-interface.scss */
 input.input::-webkit-input-placeholder {
   color: #8F9BA3;
 }
@@ -7288,19 +7288,19 @@ input.input.complete {
 input.gray {
   color: #7c7c7c;
 }
-/* line 61, c:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/css3/_user-interface.scss */
+/* line 61, c:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-core-1.0.1/stylesheets/compass/css3/_user-interface.scss */
 input.gray:-moz-placeholder {
   color: #7c7c7c;
 }
-/* line 64, c:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/css3/_user-interface.scss */
+/* line 64, c:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-core-1.0.1/stylesheets/compass/css3/_user-interface.scss */
 input.gray::-moz-placeholder {
   color: #7c7c7c;
 }
-/* line 67, c:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/css3/_user-interface.scss */
+/* line 67, c:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-core-1.0.1/stylesheets/compass/css3/_user-interface.scss */
 input.gray:-ms-input-placeholder {
   color: #7c7c7c;
 }
-/* line 56, c:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/css3/_user-interface.scss */
+/* line 56, c:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-core-1.0.1/stylesheets/compass/css3/_user-interface.scss */
 input.gray::-webkit-input-placeholder {
   color: #7c7c7c;
 }
@@ -7534,13 +7534,8 @@ input.gray::-webkit-input-placeholder {
   border: 1px solid transparent;
   position: relative;
 }
-<<<<<<< HEAD
 /* line 58, ../../dev/sass/specifics/_file_list.scss */
 .block .icon_wrap .icon:hover {
-=======
-/* line 55, ../../dev/sass/specifics/_file_list.scss */
-.attachments_blocks .block .icon_wrap .icon:hover {
->>>>>>> a5f1faa88fad70d6cbcc6ed6439eedad5572097e
   border-color: #42CE7F;
 }
 /* line 61, ../../dev/sass/specifics/_file_list.scss */
@@ -7602,4 +7597,3294 @@ input.gray::-webkit-input-placeholder {
   .block .ico_download {
     margin-top: 5px;
   }
+}
+
+@font-face {
+  font-family: 'Brandon Grotesque';
+  src: url("../fonts/brandon_bld.eot");
+  src: url("../fonts/brandon_bld.eot?#iefix") format("embedded-opentype"), url("../fonts/brandon_bld.woff2") format("woff2"), url("../fonts/brandon_bld.woff") format("woff"), url("../fonts/brandon_bld.ttf") format("truetype"), url("../fonts/brandon_bld.svg#brandon_grotesquebold") format("svg");
+  font-weight: 800;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Brandon Grotesque';
+  src: url("../fonts/brandon_med.eot");
+  src: url("../fonts/brandon_med.eot?#iefix") format("embedded-opentype"), url("../fonts/brandon_med.woff2") format("woff2"), url("../fonts/brandon_med.woff") format("woff"), url("../fonts/brandon_med.ttf") format("truetype"), url("../fonts/brandon_med.svg#brandon_grotesquemedium") format("svg");
+  font-weight: 600;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Brandon Grotesque';
+  src: url("../fonts/brandon_reg.eot");
+  src: url("../fonts/brandon_reg.eot?#iefix") format("embedded-opentype"), url("../fonts/brandon_reg.woff2") format("woff2"), url("../fonts/brandon_reg.woff") format("woff"), url("../fonts/brandon_reg.ttf") format("truetype"), url("../fonts/brandon_reg.svg#brandon_grotesque_regularRg") format("svg");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'proxima_nova_cn_rgregular';
+  src: url("../fonts/proximanovacond-regular.eot");
+  src: url("../fonts/proximanovacond-regular.eot?#iefix") format("embedded-opentype"), url("../fonts/proximanovacond-regular.woff2") format("woff2"), url("../fonts/proximanovacond-regular.woff") format("woff"), url("../fonts/proximanovacond-regular.ttf") format("truetype"), url("../fonts/proximanovacond-regular.svg#proxima_nova_cn_rgregular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'proxima_novalight';
+  src: url("../fonts/proximanova-light.eot");
+  src: url("../fonts/proximanova-light.eot?#iefix") format("embedded-opentype"), url("../fonts/proximanova-light.woff2") format("woff2"), url("../fonts/proximanova-light.woff") format("woff"), url("../fonts/proximanova-light.ttf") format("truetype"), url("../fonts/proximanova-light.svg#proxima_novalight") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: pragmatica-el;
+  src: url(../fonts/pragmatica-extralight-v2.eot);
+  src: url(../fonts/pragmatica-extralight-v2.eot?#iefix) format("embedded-opentype"), url(../fonts/pragmatica-extralight-v2.woff) format("woff"), url(../fonts/pragmatica-extralight-v2.ttf) format("truetype");
+  font-weight: 100;
+  font-style: normal;
+}
+@font-face {
+  font-family: pragmatica;
+  src: url(../fonts/pragmatica-light-v2.eot);
+  src: url(../fonts/pragmatica-light-v2.eot?#iefix) format("embedded-opentype"), url(../fonts/pragmatica-light-v2.woff) format("woff"), url(../fonts/pragmatica-light-v2.ttf) format("truetype");
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: pragmatica;
+  src: url(../fonts/pragmatica-regular-v2.eot);
+  src: url(../fonts/pragmatica-regular-v2.eot?#iefix) format("embedded-opentype"), url(../fonts/pragmatica-regular-v2.woff) format("woff"), url(../fonts/pragmatica-regular-v2.ttf) format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: pragmatica;
+  src: url(../fonts/pragmatica-medium-v2.eot);
+  src: url(../fonts/pragmatica-medium-v2.eot?#iefix) format("embedded-opentype"), url(../fonts/pragmatica-medium-v2.woff) format("woff"), url(../fonts/pragmatica-medium-v2.ttf) format("truetype");
+  font-weight: 600;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Glyphicons Halflings';
+  src: url("../fonts/glyphicons-halflings-regular.eot");
+  src: url("../fonts/glyphicons-halflings-regular.eot?#iefix") format("embedded-opentype"), url("../fonts/glyphicons-halflings-regular.woff2") format("woff2"), url("../fonts/glyphicons-halflings-regular.woff") format("woff"), url("../fonts/glyphicons-halflings-regular.ttf") format("truetype"), url("../fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular") format("svg");
+}
+/* line 5, ../../dev/pages/acces_management/acces_management.scss */
+.approval_flow_wrap .approval_table td {
+  padding: 0 0.33333em 1.33333em;
+  font-size: 0.86667em;
+  line-height: 1.30769em;
+}
+
+/* line 14, ../../dev/pages/acces_management/acces_management.scss */
+.button_table .btn {
+  margin-top: 0.90909em;
+}
+/* line 16, ../../dev/pages/acces_management/acces_management.scss */
+.button_table .btn.btn_rounded {
+  font-size: 0.84615em;
+  width: 40.15419%;
+}
+/* line 20, ../../dev/pages/acces_management/acces_management.scss */
+.button_table .btn:first-child {
+  margin-top: 0;
+}
+
+/* line 26, ../../dev/pages/acces_management/acces_management.scss */
+.acces_content_wrap {
+  border-top: 1px solid #EEEEEE;
+  padding: 2em 0;
+  margin-bottom: 6.66667em;
+}
+/* line 31, ../../dev/pages/acces_management/acces_management.scss */
+.acces_content_wrap .btn.btn-default {
+  width: 16.26016%;
+}
+
+/* line 38, ../../dev/pages/acces_management/acces_management.scss */
+.input_default {
+  margin-top: 1.53846em;
+}
+
+/* line 45, ../../dev/pages/acces_management/acces_management.scss */
+.select_wrap.select_default.select_multiple_default.select_long {
+  margin-top: 1.33333em;
+  width: 100%;
+}
+/* line 51, ../../dev/pages/acces_management/acces_management.scss */
+.select_wrap.select_default.select_multiple_default .select2-container--default .select2-selection--multiple .select2-selection__rendered {
+  padding-left: 15px;
+  font-size: 0.86667em;
+  margin-top: 0.13333em;
+}
+/* line 64, ../../dev/pages/acces_management/acces_management.scss */
+.select_wrap.select_long .select2-container.select2-container--default .select2-selection--single .select2-selection__rendered {
+  text-align: center;
+}
+
+/* line 76, ../../dev/pages/acces_management/acces_management.scss */
+.btn_wrap {
+  margin-top: 2.26667em;
+}
+/* line 78, ../../dev/pages/acces_management/acces_management.scss */
+.btn_wrap .btn {
+  margin-left: 3.64583%;
+}
+/* line 80, ../../dev/pages/acces_management/acces_management.scss */
+.btn_wrap .btn:first-child {
+  margin-left: 0;
+}
+
+/* line 85, ../../dev/pages/acces_management/acces_management.scss */
+.popup_window {
+  border: 1px solid #cecfd0;
+}
+
+/* line 89, ../../dev/pages/acces_management/acces_management.scss */
+.popup_acces_managment_list > li {
+  margin-top: 2em;
+}
+/* line 91, ../../dev/pages/acces_management/acces_management.scss */
+.popup_acces_managment_list > li:first-child {
+  margin-top: 0;
+}
+
+/* line 97, ../../dev/pages/acces_management/acces_management.scss */
+.popup_acces_managment_table {
+  color: #909294;
+  width: 500px;
+}
+/* line 100, ../../dev/pages/acces_management/acces_management.scss */
+.popup_acces_managment_table td {
+  color: #45484C;
+  width: 32%;
+  padding: 0.6em 0;
+}
+/* line 104, ../../dev/pages/acces_management/acces_management.scss */
+.popup_acces_managment_table td input[type="checkbox"] + label::before {
+  vertical-align: -3px;
+}
+/* line 107, ../../dev/pages/acces_management/acces_management.scss */
+.popup_acces_managment_table td + td {
+  color: #909294;
+  width: 20%;
+}
+/* line 110, ../../dev/pages/acces_management/acces_management.scss */
+.popup_acces_managment_table td + td + td {
+  width: 19%;
+}
+/* line 112, ../../dev/pages/acces_management/acces_management.scss */
+.popup_acces_managment_table td + td + td + td {
+  width: 28%;
+}
+
+/* line 120, ../../dev/pages/acces_management/acces_management.scss */
+.select2-results__option {
+  padding-left: 1.4em;
+  padding-right: 1.4em;
+}
+
+@font-face {
+  font-family: 'Brandon Grotesque';
+  src: url("../fonts/brandon_bld.eot");
+  src: url("../fonts/brandon_bld.eot?#iefix") format("embedded-opentype"), url("../fonts/brandon_bld.woff2") format("woff2"), url("../fonts/brandon_bld.woff") format("woff"), url("../fonts/brandon_bld.ttf") format("truetype"), url("../fonts/brandon_bld.svg#brandon_grotesquebold") format("svg");
+  font-weight: 800;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Brandon Grotesque';
+  src: url("../fonts/brandon_med.eot");
+  src: url("../fonts/brandon_med.eot?#iefix") format("embedded-opentype"), url("../fonts/brandon_med.woff2") format("woff2"), url("../fonts/brandon_med.woff") format("woff"), url("../fonts/brandon_med.ttf") format("truetype"), url("../fonts/brandon_med.svg#brandon_grotesquemedium") format("svg");
+  font-weight: 600;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Brandon Grotesque';
+  src: url("../fonts/brandon_reg.eot");
+  src: url("../fonts/brandon_reg.eot?#iefix") format("embedded-opentype"), url("../fonts/brandon_reg.woff2") format("woff2"), url("../fonts/brandon_reg.woff") format("woff"), url("../fonts/brandon_reg.ttf") format("truetype"), url("../fonts/brandon_reg.svg#brandon_grotesque_regularRg") format("svg");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'proxima_nova_cn_rgregular';
+  src: url("../fonts/proximanovacond-regular.eot");
+  src: url("../fonts/proximanovacond-regular.eot?#iefix") format("embedded-opentype"), url("../fonts/proximanovacond-regular.woff2") format("woff2"), url("../fonts/proximanovacond-regular.woff") format("woff"), url("../fonts/proximanovacond-regular.ttf") format("truetype"), url("../fonts/proximanovacond-regular.svg#proxima_nova_cn_rgregular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'proxima_novalight';
+  src: url("../fonts/proximanova-light.eot");
+  src: url("../fonts/proximanova-light.eot?#iefix") format("embedded-opentype"), url("../fonts/proximanova-light.woff2") format("woff2"), url("../fonts/proximanova-light.woff") format("woff"), url("../fonts/proximanova-light.ttf") format("truetype"), url("../fonts/proximanova-light.svg#proxima_novalight") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: pragmatica-el;
+  src: url(../fonts/pragmatica-extralight-v2.eot);
+  src: url(../fonts/pragmatica-extralight-v2.eot?#iefix) format("embedded-opentype"), url(../fonts/pragmatica-extralight-v2.woff) format("woff"), url(../fonts/pragmatica-extralight-v2.ttf) format("truetype");
+  font-weight: 100;
+  font-style: normal;
+}
+@font-face {
+  font-family: pragmatica;
+  src: url(../fonts/pragmatica-light-v2.eot);
+  src: url(../fonts/pragmatica-light-v2.eot?#iefix) format("embedded-opentype"), url(../fonts/pragmatica-light-v2.woff) format("woff"), url(../fonts/pragmatica-light-v2.ttf) format("truetype");
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: pragmatica;
+  src: url(../fonts/pragmatica-regular-v2.eot);
+  src: url(../fonts/pragmatica-regular-v2.eot?#iefix) format("embedded-opentype"), url(../fonts/pragmatica-regular-v2.woff) format("woff"), url(../fonts/pragmatica-regular-v2.ttf) format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: pragmatica;
+  src: url(../fonts/pragmatica-medium-v2.eot);
+  src: url(../fonts/pragmatica-medium-v2.eot?#iefix) format("embedded-opentype"), url(../fonts/pragmatica-medium-v2.woff) format("woff"), url(../fonts/pragmatica-medium-v2.ttf) format("truetype");
+  font-weight: 600;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Glyphicons Halflings';
+  src: url("../fonts/glyphicons-halflings-regular.eot");
+  src: url("../fonts/glyphicons-halflings-regular.eot?#iefix") format("embedded-opentype"), url("../fonts/glyphicons-halflings-regular.woff2") format("woff2"), url("../fonts/glyphicons-halflings-regular.woff") format("woff"), url("../fonts/glyphicons-halflings-regular.ttf") format("truetype"), url("../fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular") format("svg");
+}
+/* line 5, ../../dev/pages/activies_page/activies_page.scss */
+.activies_page_wrap .content_wrap, .activies_page_wrap .wrap_block {
+  margin-top: 4em;
+}
+/* line 9, ../../dev/pages/activies_page/activies_page.scss */
+.activies_page_wrap .block_img {
+  border: 1px solid #cecfd0;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  border-radius: 4px;
+  padding: 0.86667em 4.39189%;
+  width: 100%;
+  display: block;
+}
+/* line 18, ../../dev/pages/activies_page/activies_page.scss */
+.activies_page_wrap .block_img img {
+  max-width: 100%;
+}
+/* line 22, ../../dev/pages/activies_page/activies_page.scss */
+.activies_page_wrap .brand_news_toolbax_list {
+  width: 40.1084%;
+}
+/* line 26, ../../dev/pages/activies_page/activies_page.scss */
+.activies_page_wrap .channel {
+  width: 33.33333%;
+  float: left;
+}
+/* line 30, ../../dev/pages/activies_page/activies_page.scss */
+.activies_page_wrap .channel .icon {
+  margin: 0px auto;
+  display: block;
+}
+/* line 34, ../../dev/pages/activies_page/activies_page.scss */
+.activies_page_wrap .channel .name_channels {
+  font-family: 'Brandon Grotesque';
+  font-weight: 300;
+  font-size: 1.4em;
+  line-height: 1;
+  color: #000;
+  text-align: center;
+  padding: 1em 0;
+}
+/* line 45, ../../dev/pages/activies_page/activies_page.scss */
+.activies_page_wrap .channel ul li a {
+  color: #A9ADB0;
+  position: relative;
+  margin-left: 36.58537%;
+  display: block;
+  padding: 0.33333em 0;
+  text-decoration: none;
+}
+/* line 52, ../../dev/pages/activies_page/activies_page.scss */
+.activies_page_wrap .channel ul li a:before {
+  content: '';
+  width: 4px;
+  height: 4px;
+  -moz-border-radius: 100%;
+  -webkit-border-radius: 100%;
+  border-radius: 100%;
+  background-color: #45484C;
+  position: absolute;
+  display: block;
+  left: -12px;
+  top: 12px;
+}
+/* line 68, ../../dev/pages/activies_page/activies_page.scss */
+.activies_page_wrap .wrap_block .title {
+  font-family: 'Brandon Grotesque';
+  font-weight: 300;
+  font-size: 1.6em;
+  line-height: 1;
+  color: #000;
+  margin-bottom: 1.03704em;
+}
+/* line 76, ../../dev/pages/activies_page/activies_page.scss */
+.activies_page_wrap .wrap_block p.text {
+  font-family: pragmatica,Helvetica,Arial,sans-serif;
+  font-weight: 300;
+  font-size: 1em;
+  line-height: 1.4em;
+  color: #45484C;
+  letter-spacing: 1px;
+}
+/* line 86, ../../dev/pages/activies_page/activies_page.scss */
+.activies_page_wrap .content_wrap .btn:nth-last-child(1) {
+  margin-bottom: 1px;
+}
+/* line 90, ../../dev/pages/activies_page/activies_page.scss */
+.activies_page_wrap .attachments_blocks {
+  margin-bottom: 4em;
+}
+/* line 94, ../../dev/pages/activies_page/activies_page.scss */
+.activies_page_wrap .attachments_blocks .block {
+  width: 46.875%;
+  float: left;
+  margin-top: 4em;
+}
+/* line 98, ../../dev/pages/activies_page/activies_page.scss */
+.activies_page_wrap .attachments_blocks .block:nth-child(2n) {
+  margin-left: 6.06936%;
+}
+/* line 101, ../../dev/pages/activies_page/activies_page.scss */
+.activies_page_wrap .attachments_blocks .block .icon {
+  width: 21.11111%;
+  float: left;
+  padding: 0.33333em 1.66667%;
+  -moz-border-radius: 100%;
+  -webkit-border-radius: 100%;
+  border-radius: 100%;
+  cursor: pointer;
+  border: 1px solid transparent;
+  position: relative;
+  margin-right: 1.5625%;
+}
+/* line 110, ../../dev/pages/activies_page/activies_page.scss */
+.activies_page_wrap .attachments_blocks .block .icon:hover {
+  border-color: #42CE7F;
+}
+/* line 113, ../../dev/pages/activies_page/activies_page.scss */
+.activies_page_wrap .attachments_blocks .block .icon img {
+  max-width: 100%;
+  margin: 0px auto;
+  display: block;
+}
+/* line 118, ../../dev/pages/activies_page/activies_page.scss */
+.activies_page_wrap .attachments_blocks .block .icon .ico_search {
+  position: absolute;
+  top: 1.66667em;
+  left: 34.24658%;
+  display: none;
+}
+@media (max-width: 768px) {
+  /* line 118, ../../dev/pages/activies_page/activies_page.scss */
+  .activies_page_wrap .attachments_blocks .block .icon .ico_search {
+    top: 1.3em;
+    left: 32.24658%;
+  }
+}
+/* line 129, ../../dev/pages/activies_page/activies_page.scss */
+.activies_page_wrap .attachments_blocks .block .icon:hover .ico_search {
+  display: block;
+}
+/* line 133, ../../dev/pages/activies_page/activies_page.scss */
+.activies_page_wrap .attachments_blocks .block .name {
+  float: left;
+  font-weight: 500;
+  font-family: 'Brandon Grotesque';
+}
+/* line 138, ../../dev/pages/activies_page/activies_page.scss */
+.activies_page_wrap .attachments_blocks .block .text {
+  float: left;
+  width: 66.66667%;
+  margin-top: 0.66667em;
+  color: #5a636e;
+  line-height: 1.4em;
+  font-size: 0.89333em;
+}
+/* line 148, ../../dev/pages/activies_page/activies_page.scss */
+.activies_page_wrap .attachments_blocks .block .file_size {
+  float: left;
+  width: 66.66667%;
+  margin-top: 0.2em;
+  font-weight: 500;
+}
+/* line 154, ../../dev/pages/activies_page/activies_page.scss */
+.activies_page_wrap .attachments_blocks .block .ico_download {
+  cursor: pointer;
+}
+@media (max-width: 768px) {
+  /* line 154, ../../dev/pages/activies_page/activies_page.scss */
+  .activies_page_wrap .attachments_blocks .block .ico_download {
+    margin-top: 5px;
+  }
+}
+
+/* line 166, ../../dev/pages/activies_page/activies_page.scss */
+.brand_news .btn_wrap {
+  bottom: -1.66667em;
+}
+
+/* line 173, ../../dev/pages/activies_page/activies_page.scss */
+.btn_big_rounded_wrap .btn.btn_big_rounded {
+  line-height: 3.57143em;
+}
+
+/* line 181, ../../dev/pages/activies_page/activies_page.scss */
+.wrap_blocks .main_title.main_title_actives {
+  margin-top: 4.51852em;
+}
+
+/* line 187, ../../dev/pages/activies_page/activies_page.scss */
+.status_wrap {
+  width: 46.07046%;
+}
+/* line 189, ../../dev/pages/activies_page/activies_page.scss */
+.status_wrap .valid {
+  font-weight: 500;
+}
+/* line 193, ../../dev/pages/activies_page/activies_page.scss */
+.status_wrap .btn_big_rounded .ico_status {
+  margin-left: 5.67568%;
+}
+
+/* line 198, ../../dev/pages/activies_page/activies_page.scss */
+.wrap_blocks {
+  background: #F9F9FB;
+  overflow: hidden;
+  margin-bottom: -1.4em;
+  width: 100%;
+}
+
+/* line 204, ../../dev/pages/activies_page/activies_page.scss */
+#mainarea.activies_page_wrap {
+  padding-bottom: 0px;
+  margin: 0px auto;
+}
+
+/* line 208, ../../dev/pages/activies_page/activies_page.scss */
+.document {
+  margin: -3em 0 4em;
+}
+/* line 211, ../../dev/pages/activies_page/activies_page.scss */
+.document li {
+  float: left;
+  width: 44.71545%;
+  margin-left: 8.53659%;
+  overflow: hidden;
+  margin-top: 6.33333em;
+}
+@media (max-width: 768px) {
+  /* line 211, ../../dev/pages/activies_page/activies_page.scss */
+  .document li {
+    float: none;
+    width: 100%;
+    margin-left: 0;
+  }
+}
+/* line 224, ../../dev/pages/activies_page/activies_page.scss */
+.document li:nth-child(2n+1) {
+  margin-left: 0;
+  clear: left;
+}
+/* line 229, ../../dev/pages/activies_page/activies_page.scss */
+.document li.odd {
+  margin-left: 0;
+  clear: left;
+}
+/* line 234, ../../dev/pages/activies_page/activies_page.scss */
+.document li .brand_news_title {
+  font-size: 1em;
+  width: 90.90909%;
+}
+@media (max-width: 768px) {
+  /* line 238, ../../dev/pages/activies_page/activies_page.scss */
+  .document li .manage {
+    width: 4.13333em;
+  }
+}
+/* line 242, ../../dev/pages/activies_page/activies_page.scss */
+.document li .manage.img_circle-default {
+  line-height: 4.13333em;
+}
+/* line 246, ../../dev/pages/activies_page/activies_page.scss */
+.document li .description {
+  width: 72.72727%;
+  margin-left: 4.54545%;
+}
+/* line 249, ../../dev/pages/activies_page/activies_page.scss */
+.document li .description p {
+  margin-top: 1.33333em;
+  color: #8F979F;
+  line-height: 1.26667em;
+}
+/* line 255, ../../dev/pages/activies_page/activies_page.scss */
+.document li .description.distinction .brand_news_title {
+  color: #b70e12;
+}
+
+/* line 263, ../../dev/pages/activies_page/activies_page.scss */
+.calendar_from, .calendar_to {
+  background: none;
+  border: none;
+  display: inline-block;
+  width: 22.34637%;
+  margin-left: 0.83799%;
+  color: #7E8D95;
+  font-weight: 500;
+}
+
+/* line 273, ../../dev/pages/activies_page/activies_page.scss */
+.calendar_to {
+  margin-left: 1.39665%;
+}
+
+@font-face {
+  font-family: 'Brandon Grotesque';
+  src: url("../fonts/brandon_bld.eot");
+  src: url("../fonts/brandon_bld.eot?#iefix") format("embedded-opentype"), url("../fonts/brandon_bld.woff2") format("woff2"), url("../fonts/brandon_bld.woff") format("woff"), url("../fonts/brandon_bld.ttf") format("truetype"), url("../fonts/brandon_bld.svg#brandon_grotesquebold") format("svg");
+  font-weight: 800;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Brandon Grotesque';
+  src: url("../fonts/brandon_med.eot");
+  src: url("../fonts/brandon_med.eot?#iefix") format("embedded-opentype"), url("../fonts/brandon_med.woff2") format("woff2"), url("../fonts/brandon_med.woff") format("woff"), url("../fonts/brandon_med.ttf") format("truetype"), url("../fonts/brandon_med.svg#brandon_grotesquemedium") format("svg");
+  font-weight: 600;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Brandon Grotesque';
+  src: url("../fonts/brandon_reg.eot");
+  src: url("../fonts/brandon_reg.eot?#iefix") format("embedded-opentype"), url("../fonts/brandon_reg.woff2") format("woff2"), url("../fonts/brandon_reg.woff") format("woff"), url("../fonts/brandon_reg.ttf") format("truetype"), url("../fonts/brandon_reg.svg#brandon_grotesque_regularRg") format("svg");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'proxima_nova_cn_rgregular';
+  src: url("../fonts/proximanovacond-regular.eot");
+  src: url("../fonts/proximanovacond-regular.eot?#iefix") format("embedded-opentype"), url("../fonts/proximanovacond-regular.woff2") format("woff2"), url("../fonts/proximanovacond-regular.woff") format("woff"), url("../fonts/proximanovacond-regular.ttf") format("truetype"), url("../fonts/proximanovacond-regular.svg#proxima_nova_cn_rgregular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'proxima_novalight';
+  src: url("../fonts/proximanova-light.eot");
+  src: url("../fonts/proximanova-light.eot?#iefix") format("embedded-opentype"), url("../fonts/proximanova-light.woff2") format("woff2"), url("../fonts/proximanova-light.woff") format("woff"), url("../fonts/proximanova-light.ttf") format("truetype"), url("../fonts/proximanova-light.svg#proxima_novalight") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: pragmatica-el;
+  src: url(../fonts/pragmatica-extralight-v2.eot);
+  src: url(../fonts/pragmatica-extralight-v2.eot?#iefix) format("embedded-opentype"), url(../fonts/pragmatica-extralight-v2.woff) format("woff"), url(../fonts/pragmatica-extralight-v2.ttf) format("truetype");
+  font-weight: 100;
+  font-style: normal;
+}
+@font-face {
+  font-family: pragmatica;
+  src: url(../fonts/pragmatica-light-v2.eot);
+  src: url(../fonts/pragmatica-light-v2.eot?#iefix) format("embedded-opentype"), url(../fonts/pragmatica-light-v2.woff) format("woff"), url(../fonts/pragmatica-light-v2.ttf) format("truetype");
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: pragmatica;
+  src: url(../fonts/pragmatica-regular-v2.eot);
+  src: url(../fonts/pragmatica-regular-v2.eot?#iefix) format("embedded-opentype"), url(../fonts/pragmatica-regular-v2.woff) format("woff"), url(../fonts/pragmatica-regular-v2.ttf) format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: pragmatica;
+  src: url(../fonts/pragmatica-medium-v2.eot);
+  src: url(../fonts/pragmatica-medium-v2.eot?#iefix) format("embedded-opentype"), url(../fonts/pragmatica-medium-v2.woff) format("woff"), url(../fonts/pragmatica-medium-v2.ttf) format("truetype");
+  font-weight: 600;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Glyphicons Halflings';
+  src: url("../fonts/glyphicons-halflings-regular.eot");
+  src: url("../fonts/glyphicons-halflings-regular.eot?#iefix") format("embedded-opentype"), url("../fonts/glyphicons-halflings-regular.woff2") format("woff2"), url("../fonts/glyphicons-halflings-regular.woff") format("woff"), url("../fonts/glyphicons-halflings-regular.ttf") format("truetype"), url("../fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular") format("svg");
+}
+/* line 4, ../../dev/pages/activities_changes_approval/activities_changes_approval.scss */
+.content_wrap {
+  margin-top: 3.33333em;
+}
+
+/* line 9, ../../dev/pages/activities_changes_approval/activities_changes_approval.scss */
+.activities_changes_approval_list_info > li {
+  overflow: hidden;
+}
+/* line 11, ../../dev/pages/activities_changes_approval/activities_changes_approval.scss */
+.activities_changes_approval_list_info > li .profile_title {
+  width: 10.0271%;
+}
+/* line 13, ../../dev/pages/activities_changes_approval/activities_changes_approval.scss */
+.activities_changes_approval_list_info > li .profile_title .profile_text {
+  margin-top: 0.38095em;
+  margin-left: 0;
+}
+/* line 18, ../../dev/pages/activities_changes_approval/activities_changes_approval.scss */
+.activities_changes_approval_list_info > li .profile_text {
+  margin: -0.2em 0 0 9.48509%;
+  width: 79.9458%;
+}
+@media (max-width: 768px) {
+  /* line 18, ../../dev/pages/activities_changes_approval/activities_changes_approval.scss */
+  .activities_changes_approval_list_info > li .profile_text {
+    margin: -0.26667em 0 0 5.48509%;
+  }
+}
+
+/* line 29, ../../dev/pages/activities_changes_approval/activities_changes_approval.scss */
+.activities_changes_approval_wrap {
+  margin-top: 4em;
+}
+
+/* line 33, ../../dev/pages/activities_changes_approval/activities_changes_approval.scss */
+.activities_changes_approval_list {
+  border-top: 1px solid #cecfd0;
+  margin-bottom: -1px;
+}
+/* line 38, ../../dev/pages/activities_changes_approval/activities_changes_approval.scss */
+.activities_changes_approval_list > li {
+  float: left;
+  width: 50%;
+  padding-bottom: 6.53333em;
+  border-left: 1px solid #cecfd0;
+}
+/* line 43, ../../dev/pages/activities_changes_approval/activities_changes_approval.scss */
+.activities_changes_approval_list > li:first-child {
+  border: none;
+  border-right: 1px solid #cecfd0;
+  margin-right: -1px;
+}
+
+/* line 55, ../../dev/pages/activities_changes_approval/activities_changes_approval.scss */
+.profile_text {
+  margin-top: 0.53846em;
+  font-size: 0.86667em;
+  line-height: 1.38462em;
+  color: #77808b;
+}
+
+/* line 62, ../../dev/pages/activities_changes_approval/activities_changes_approval.scss */
+.brand_news_toolbax {
+  overflow: visible;
+  border-top: 1px solid #cecfd0;
+  margin-top: 4.33333em;
+}
+/* line 66, ../../dev/pages/activities_changes_approval/activities_changes_approval.scss */
+.brand_news_toolbax .status_wrap {
+  top: -1.33333em;
+  left: 50%;
+  width: 61.45833%;
+  margin-left: -26.875%;
+}
+@media (max-width: 768px) {
+  /* line 66, ../../dev/pages/activities_changes_approval/activities_changes_approval.scss */
+  .brand_news_toolbax .status_wrap {
+    left: 43%;
+    width: 75.45833%;
+  }
+}
+/* line 78, ../../dev/pages/activities_changes_approval/activities_changes_approval.scss */
+.brand_news_toolbax .status_wrap .btn_big_rounded .ico_status {
+  margin-left: 3.38983%;
+}
+/* line 84, ../../dev/pages/activities_changes_approval/activities_changes_approval.scss */
+.brand_news_toolbax.description .brand_news_list {
+  width: 79.9458%;
+  color: #77808b;
+  margin-top: 3.53333em;
+}
+/* line 88, ../../dev/pages/activities_changes_approval/activities_changes_approval.scss */
+.brand_news_toolbax.description .brand_news_list p {
+  margin-top: 2.46667em;
+  line-height: 1.2em;
+}
+/* line 91, ../../dev/pages/activities_changes_approval/activities_changes_approval.scss */
+.brand_news_toolbax.description .brand_news_list p.distinction {
+  color: #b70e12;
+}
+/* line 95, ../../dev/pages/activities_changes_approval/activities_changes_approval.scss */
+.brand_news_toolbax.description .brand_news_list.distinction {
+  color: #b70e12;
+}
+
+/* line 104, ../../dev/pages/activities_changes_approval/activities_changes_approval.scss */
+.brand_news_list .btn.btn-default {
+  width: 49.49153%;
+}
+
+/* line 111, ../../dev/pages/activities_changes_approval/activities_changes_approval.scss */
+.main_title.main_title-indent {
+  margin-top: 2.22222em;
+}
+
+/* line 116, ../../dev/pages/activities_changes_approval/activities_changes_approval.scss */
+.approval_list {
+  margin-top: 1.09524em;
+  font-size: 1.4em;
+  color: #45484C;
+  color: #2c3138;
+}
+
+/* line 125, ../../dev/pages/activities_changes_approval/activities_changes_approval.scss */
+.brand_news_toolbax_list > li .block_img {
+  width: 80.2168%;
+}
+
+/* line 131, ../../dev/pages/activities_changes_approval/activities_changes_approval.scss */
+.activities_changes_approval_list_wrap {
+  padding: 0 0 0 23.125%;
+}
+
+@media (max-width: 768px) {
+  /* line 135, ../../dev/pages/activities_changes_approval/activities_changes_approval.scss */
+  .activities_changes_approval_list_wrap_list {
+    padding: 0 0 0 10%;
+  }
+}
+
+/* line 141, ../../dev/pages/activities_changes_approval/activities_changes_approval.scss */
+.document_wrap {
+  border-top: 1px solid #cecfd0;
+  padding-top: 5.33333em;
+}
+
+/* line 146, ../../dev/pages/activities_changes_approval/activities_changes_approval.scss */
+.document {
+  margin-top: -3em;
+}
+/* line 148, ../../dev/pages/activities_changes_approval/activities_changes_approval.scss */
+.document li {
+  float: left;
+  width: 44.71545%;
+  margin-left: 8.53659%;
+  overflow: hidden;
+  margin-top: 6.33333em;
+}
+@media (max-width: 768px) {
+  /* line 148, ../../dev/pages/activities_changes_approval/activities_changes_approval.scss */
+  .document li {
+    float: none;
+    width: 100%;
+    margin-left: 0;
+  }
+}
+/* line 161, ../../dev/pages/activities_changes_approval/activities_changes_approval.scss */
+.document li:nth-child(2n+1) {
+  margin-left: 0;
+  clear: left;
+}
+/* line 166, ../../dev/pages/activities_changes_approval/activities_changes_approval.scss */
+.document li.odd {
+  margin-left: 0;
+  clear: left;
+}
+/* line 171, ../../dev/pages/activities_changes_approval/activities_changes_approval.scss */
+.document li .brand_news_title {
+  font-size: 1em;
+  width: 90.90909%;
+}
+@media (max-width: 768px) {
+  /* line 175, ../../dev/pages/activities_changes_approval/activities_changes_approval.scss */
+  .document li .manage {
+    width: 4.13333em;
+  }
+}
+/* line 179, ../../dev/pages/activities_changes_approval/activities_changes_approval.scss */
+.document li .manage.img_circle-default {
+  line-height: 4.13333em;
+}
+/* line 183, ../../dev/pages/activities_changes_approval/activities_changes_approval.scss */
+.document li .description {
+  width: 72.72727%;
+  margin-left: 4.54545%;
+}
+/* line 186, ../../dev/pages/activities_changes_approval/activities_changes_approval.scss */
+.document li .description p {
+  margin-top: 1.33333em;
+  color: #8F979F;
+}
+/* line 191, ../../dev/pages/activities_changes_approval/activities_changes_approval.scss */
+.document li .description.distinction .brand_news_title {
+  color: #b70e12;
+}
+
+/* line 199, ../../dev/pages/activities_changes_approval/activities_changes_approval.scss */
+.channel {
+  display: inline-block;
+  width: 42.00542%;
+  margin-left: 13.55014%;
+  margin-top: 3.73333em;
+}
+/* line 204, ../../dev/pages/activities_changes_approval/activities_changes_approval.scss */
+.channel:nth-child(2n+1) {
+  margin-left: 0;
+}
+/* line 208, ../../dev/pages/activities_changes_approval/activities_changes_approval.scss */
+.channel.odd {
+  margin-left: 0;
+}
+/* line 212, ../../dev/pages/activities_changes_approval/activities_changes_approval.scss */
+.channel .name_channels {
+  margin-bottom: 1.53333em;
+}
+/* line 217, ../../dev/pages/activities_changes_approval/activities_changes_approval.scss */
+.channel input[type="checkbox"] + label::before {
+  vertical-align: -3px;
+  margin-right: 0.53333em;
+}
+/* line 221, ../../dev/pages/activities_changes_approval/activities_changes_approval.scss */
+.channel input[type="checkbox"] + label .label_ico {
+  vertical-align: -3px;
+  margin-right: 0.53333em;
+}
+
+/* line 229, ../../dev/pages/activities_changes_approval/activities_changes_approval.scss */
+.channel_item_list {
+  color: #45484C;
+}
+/* line 231, ../../dev/pages/activities_changes_approval/activities_changes_approval.scss */
+.channel_item_list > li {
+  margin-top: 1em;
+}
+/* line 233, ../../dev/pages/activities_changes_approval/activities_changes_approval.scss */
+.channel_item_list > li:first-child {
+  margin-top: 0;
+}
+
+/* line 239, ../../dev/pages/activities_changes_approval/activities_changes_approval.scss */
+.btn_wrap {
+  margin-top: 7.33333em;
+}
+/* line 242, ../../dev/pages/activities_changes_approval/activities_changes_approval.scss */
+.btn_wrap .btn.btn-default {
+  width: 22.49322%;
+  margin-left: 4.74255%;
+}
+/* line 246, ../../dev/pages/activities_changes_approval/activities_changes_approval.scss */
+.btn_wrap .btn:first-child {
+  margin-left: 0;
+}
+
+/* line 252, ../../dev/pages/activities_changes_approval/activities_changes_approval.scss */
+.activities_textarea {
+  margin: 2.46154em 0;
+  border: 1px solid #dedfdf;
+  font-size: 0.86667em;
+}
+
+/* line 259, ../../dev/pages/activities_changes_approval/activities_changes_approval.scss */
+.calendar_from, .calendar_to {
+  background: none;
+  border: none;
+  display: inline-block;
+  width: 25.5102%;
+  margin-left: 0.83799%;
+  color: #7E8D95;
+  font-weight: 500;
+}
+
+/* line 269, ../../dev/pages/activities_changes_approval/activities_changes_approval.scss */
+.calendar_to {
+  margin-left: 1.39665%;
+}
+
+/* line 273, ../../dev/pages/activities_changes_approval/activities_changes_approval.scss */
+.comiseo-daterangepicker.ui-corner-all {
+  min-width: 300px;
+}
+
+/* line 279, ../../dev/pages/activities_changes_approval/activities_changes_approval.scss */
+label.checkbox .label_ico {
+  border-color: #f0f0f0;
+}
+/* line 283, ../../dev/pages/activities_changes_approval/activities_changes_approval.scss */
+label.checkbox.chacked .label_ico {
+  background: url(/i/sprite.png) 4px -236px;
+}
+
+@font-face {
+  font-family: 'Brandon Grotesque';
+  src: url("../fonts/brandon_bld.eot");
+  src: url("../fonts/brandon_bld.eot?#iefix") format("embedded-opentype"), url("../fonts/brandon_bld.woff2") format("woff2"), url("../fonts/brandon_bld.woff") format("woff"), url("../fonts/brandon_bld.ttf") format("truetype"), url("../fonts/brandon_bld.svg#brandon_grotesquebold") format("svg");
+  font-weight: 800;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Brandon Grotesque';
+  src: url("../fonts/brandon_med.eot");
+  src: url("../fonts/brandon_med.eot?#iefix") format("embedded-opentype"), url("../fonts/brandon_med.woff2") format("woff2"), url("../fonts/brandon_med.woff") format("woff"), url("../fonts/brandon_med.ttf") format("truetype"), url("../fonts/brandon_med.svg#brandon_grotesquemedium") format("svg");
+  font-weight: 600;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Brandon Grotesque';
+  src: url("../fonts/brandon_reg.eot");
+  src: url("../fonts/brandon_reg.eot?#iefix") format("embedded-opentype"), url("../fonts/brandon_reg.woff2") format("woff2"), url("../fonts/brandon_reg.woff") format("woff"), url("../fonts/brandon_reg.ttf") format("truetype"), url("../fonts/brandon_reg.svg#brandon_grotesque_regularRg") format("svg");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'proxima_nova_cn_rgregular';
+  src: url("../fonts/proximanovacond-regular.eot");
+  src: url("../fonts/proximanovacond-regular.eot?#iefix") format("embedded-opentype"), url("../fonts/proximanovacond-regular.woff2") format("woff2"), url("../fonts/proximanovacond-regular.woff") format("woff"), url("../fonts/proximanovacond-regular.ttf") format("truetype"), url("../fonts/proximanovacond-regular.svg#proxima_nova_cn_rgregular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'proxima_novalight';
+  src: url("../fonts/proximanova-light.eot");
+  src: url("../fonts/proximanova-light.eot?#iefix") format("embedded-opentype"), url("../fonts/proximanova-light.woff2") format("woff2"), url("../fonts/proximanova-light.woff") format("woff"), url("../fonts/proximanova-light.ttf") format("truetype"), url("../fonts/proximanova-light.svg#proxima_novalight") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: pragmatica-el;
+  src: url(../fonts/pragmatica-extralight-v2.eot);
+  src: url(../fonts/pragmatica-extralight-v2.eot?#iefix) format("embedded-opentype"), url(../fonts/pragmatica-extralight-v2.woff) format("woff"), url(../fonts/pragmatica-extralight-v2.ttf) format("truetype");
+  font-weight: 100;
+  font-style: normal;
+}
+@font-face {
+  font-family: pragmatica;
+  src: url(../fonts/pragmatica-light-v2.eot);
+  src: url(../fonts/pragmatica-light-v2.eot?#iefix) format("embedded-opentype"), url(../fonts/pragmatica-light-v2.woff) format("woff"), url(../fonts/pragmatica-light-v2.ttf) format("truetype");
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: pragmatica;
+  src: url(../fonts/pragmatica-regular-v2.eot);
+  src: url(../fonts/pragmatica-regular-v2.eot?#iefix) format("embedded-opentype"), url(../fonts/pragmatica-regular-v2.woff) format("woff"), url(../fonts/pragmatica-regular-v2.ttf) format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: pragmatica;
+  src: url(../fonts/pragmatica-medium-v2.eot);
+  src: url(../fonts/pragmatica-medium-v2.eot?#iefix) format("embedded-opentype"), url(../fonts/pragmatica-medium-v2.woff) format("woff"), url(../fonts/pragmatica-medium-v2.ttf) format("truetype");
+  font-weight: 600;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Glyphicons Halflings';
+  src: url("../fonts/glyphicons-halflings-regular.eot");
+  src: url("../fonts/glyphicons-halflings-regular.eot?#iefix") format("embedded-opentype"), url("../fonts/glyphicons-halflings-regular.woff2") format("woff2"), url("../fonts/glyphicons-halflings-regular.woff") format("woff"), url("../fonts/glyphicons-halflings-regular.ttf") format("truetype"), url("../fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular") format("svg");
+}
+/* line 5, ../../dev/pages/activities_search/activities_search.scss */
+.content_wrap.activiities_search .select_wrap.select_long {
+  margin-top: 1.53333em;
+}
+/* line 10, ../../dev/pages/activities_search/activities_search.scss */
+.content_wrap.activiities_search .select_wrap.select_long .select2-container.select2-container--default .select2-selection--single .select2-selection__rendered {
+  text-align: center;
+  font-weight: 600;
+}
+
+/* line 22, ../../dev/pages/activities_search/activities_search.scss */
+.select_wrap_list-el_wrap {
+  margin-top: 4em;
+}
+/* line 24, ../../dev/pages/activities_search/activities_search.scss */
+.select_wrap_list-el_wrap:first-child {
+  margin-top: 0;
+}
+
+/* line 29, ../../dev/pages/activities_search/activities_search.scss */
+input[type="checkbox"]:checked {
+  vertical-align: -3px;
+  margin-right: 0.66667em;
+}
+
+/* line 34, ../../dev/pages/activities_search/activities_search.scss */
+.select_wrap_list {
+  display: inline-block;
+  width: 50%;
+}
+/* line 37, ../../dev/pages/activities_search/activities_search.scss */
+.select_wrap_list > li {
+  margin-top: 2.66667em;
+}
+/* line 39, ../../dev/pages/activities_search/activities_search.scss */
+.select_wrap_list > li:first-child {
+  margin-top: 0;
+}
+/* line 42, ../../dev/pages/activities_search/activities_search.scss */
+.select_wrap_list > li.select_wrap_list_indent {
+  padding-top: 1.93333em;
+}
+/* line 45, ../../dev/pages/activities_search/activities_search.scss */
+.select_wrap_list > li .select_wrap_list-el {
+  width: 50%;
+  color: #45484C;
+}
+/* line 48, ../../dev/pages/activities_search/activities_search.scss */
+.select_wrap_list > li .select_wrap_list-el input[type="checkbox"] + label::before {
+  vertical-align: -3px;
+  margin-right: 0.33333em;
+}
+/* line 54, ../../dev/pages/activities_search/activities_search.scss */
+.select_wrap_list .small_title {
+  margin-bottom: 1.07143em;
+}
+
+/* line 60, ../../dev/pages/activities_search/activities_search.scss */
+.activies_search_list > li {
+  border-top: 1px solid #ededee;
+  padding: 2.33333em 0 0;
+  margin: 2.93333em 0;
+}
+/* line 64, ../../dev/pages/activities_search/activities_search.scss */
+.activies_search_list > li:first-child {
+  border-top-color: transparent;
+}
+
+/* line 74, ../../dev/pages/activities_search/activities_search.scss */
+.select_wrap .select2-container.select2-container--default .select2-selection--single .select2-selection__arrow {
+  width: 24.22145%;
+}
+/* line 76, ../../dev/pages/activities_search/activities_search.scss */
+.select_wrap .select2-container.select2-container--default .select2-selection--single .select2-selection__arrow b {
+  border-width: 4px 4px 0 4px;
+  border-color: #4d4d4d transparent transparent transparent;
+  margin: -2px 0 0 28.57143%;
+}
+/* line 86, ../../dev/pages/activities_search/activities_search.scss */
+.select_wrap .select2-container.select2-container--default.select2-container--open .select2-selection--single .select2-selection__arrow b {
+  border-width: 0px 4px 4px 4px;
+  border-color: transparent transparent #4d4d4d transparent;
+}
+/* line 95, ../../dev/pages/activities_search/activities_search.scss */
+.select_wrap .select2-container .select2-selection--single .select2-selection__rendered {
+  text-transform: none;
+}
+
+/* line 102, ../../dev/pages/activities_search/activities_search.scss */
+.calendar_wrap {
+  width: 78.31978%;
+  text-align: right;
+}
+@media (max-width: 640px) {
+  /* line 102, ../../dev/pages/activities_search/activities_search.scss */
+  .calendar_wrap {
+    text-align: left;
+  }
+}
+
+/* line 111, ../../dev/pages/activities_search/activities_search.scss */
+.calendar_input {
+  width: 35.29412%;
+}
+@media (max-width: 768px) {
+  /* line 111, ../../dev/pages/activities_search/activities_search.scss */
+  .calendar_input {
+    width: 32.93%;
+  }
+}
+/* line 118, ../../dev/pages/activities_search/activities_search.scss */
+.calendar_input.calendar_from {
+  margin-left: 3.46021%;
+}
+
+/* line 123, ../../dev/pages/activities_search/activities_search.scss */
+.calendar_date-separator {
+  margin: 0 1.7301%;
+}
+
+/* line 127, ../../dev/pages/activities_search/activities_search.scss */
+.btn_activies_search_wrap {
+  margin-top: 3.66667em;
+}
+/* line 129, ../../dev/pages/activities_search/activities_search.scss */
+.btn_activies_search_wrap .btn-link {
+  margin: 1.42857em 0 2.14286em;
+}
+
+/* line 134, ../../dev/pages/activities_search/activities_search.scss */
+.select2-results__option {
+  padding: 0.86667em 1.33333em;
+}
+
+@font-face {
+  font-family: 'Brandon Grotesque';
+  src: url("../fonts/brandon_bld.eot");
+  src: url("../fonts/brandon_bld.eot?#iefix") format("embedded-opentype"), url("../fonts/brandon_bld.woff2") format("woff2"), url("../fonts/brandon_bld.woff") format("woff"), url("../fonts/brandon_bld.ttf") format("truetype"), url("../fonts/brandon_bld.svg#brandon_grotesquebold") format("svg");
+  font-weight: 800;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Brandon Grotesque';
+  src: url("../fonts/brandon_med.eot");
+  src: url("../fonts/brandon_med.eot?#iefix") format("embedded-opentype"), url("../fonts/brandon_med.woff2") format("woff2"), url("../fonts/brandon_med.woff") format("woff"), url("../fonts/brandon_med.ttf") format("truetype"), url("../fonts/brandon_med.svg#brandon_grotesquemedium") format("svg");
+  font-weight: 600;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Brandon Grotesque';
+  src: url("../fonts/brandon_reg.eot");
+  src: url("../fonts/brandon_reg.eot?#iefix") format("embedded-opentype"), url("../fonts/brandon_reg.woff2") format("woff2"), url("../fonts/brandon_reg.woff") format("woff"), url("../fonts/brandon_reg.ttf") format("truetype"), url("../fonts/brandon_reg.svg#brandon_grotesque_regularRg") format("svg");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'proxima_nova_cn_rgregular';
+  src: url("../fonts/proximanovacond-regular.eot");
+  src: url("../fonts/proximanovacond-regular.eot?#iefix") format("embedded-opentype"), url("../fonts/proximanovacond-regular.woff2") format("woff2"), url("../fonts/proximanovacond-regular.woff") format("woff"), url("../fonts/proximanovacond-regular.ttf") format("truetype"), url("../fonts/proximanovacond-regular.svg#proxima_nova_cn_rgregular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'proxima_novalight';
+  src: url("../fonts/proximanova-light.eot");
+  src: url("../fonts/proximanova-light.eot?#iefix") format("embedded-opentype"), url("../fonts/proximanova-light.woff2") format("woff2"), url("../fonts/proximanova-light.woff") format("woff"), url("../fonts/proximanova-light.ttf") format("truetype"), url("../fonts/proximanova-light.svg#proxima_novalight") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: pragmatica-el;
+  src: url(../fonts/pragmatica-extralight-v2.eot);
+  src: url(../fonts/pragmatica-extralight-v2.eot?#iefix) format("embedded-opentype"), url(../fonts/pragmatica-extralight-v2.woff) format("woff"), url(../fonts/pragmatica-extralight-v2.ttf) format("truetype");
+  font-weight: 100;
+  font-style: normal;
+}
+@font-face {
+  font-family: pragmatica;
+  src: url(../fonts/pragmatica-light-v2.eot);
+  src: url(../fonts/pragmatica-light-v2.eot?#iefix) format("embedded-opentype"), url(../fonts/pragmatica-light-v2.woff) format("woff"), url(../fonts/pragmatica-light-v2.ttf) format("truetype");
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: pragmatica;
+  src: url(../fonts/pragmatica-regular-v2.eot);
+  src: url(../fonts/pragmatica-regular-v2.eot?#iefix) format("embedded-opentype"), url(../fonts/pragmatica-regular-v2.woff) format("woff"), url(../fonts/pragmatica-regular-v2.ttf) format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: pragmatica;
+  src: url(../fonts/pragmatica-medium-v2.eot);
+  src: url(../fonts/pragmatica-medium-v2.eot?#iefix) format("embedded-opentype"), url(../fonts/pragmatica-medium-v2.woff) format("woff"), url(../fonts/pragmatica-medium-v2.ttf) format("truetype");
+  font-weight: 600;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Glyphicons Halflings';
+  src: url("../fonts/glyphicons-halflings-regular.eot");
+  src: url("../fonts/glyphicons-halflings-regular.eot?#iefix") format("embedded-opentype"), url("../fonts/glyphicons-halflings-regular.woff2") format("woff2"), url("../fonts/glyphicons-halflings-regular.woff") format("woff"), url("../fonts/glyphicons-halflings-regular.ttf") format("truetype"), url("../fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular") format("svg");
+}
+/* line 5, ../../dev/pages/authorization/authorization.scss */
+.authorization_wrap .left, .authorization_wrap .right {
+  width: 45%;
+  color: #45484C;
+  font-weight: 600;
+}
+/* line 11, ../../dev/pages/authorization/authorization.scss */
+.authorization_wrap .left .spam_block, .authorization_wrap .right .spam_block {
+  margin-top: 1.81818em;
+  text-transform: uppercase;
+  font-size: 0.73333em;
+}
+/* line 15, ../../dev/pages/authorization/authorization.scss */
+.authorization_wrap .left .spam_block a, .authorization_wrap .right .spam_block a {
+  padding-top: 0.2em;
+  margin-left: 1.04167%;
+  color: #0f3e6e;
+  text-decoration: none;
+  border-bottom: 1px solid #a3adbe;
+  line-height: 10px;
+}
+/* line 25, ../../dev/pages/authorization/authorization.scss */
+.authorization_wrap .authorization {
+  overflow: hidden;
+  padding: 2em 0;
+}
+/* line 29, ../../dev/pages/authorization/authorization.scss */
+.authorization_wrap .button_block {
+  border-top: 1px solid #cecfd0;
+  overflow: hidden;
+  padding: 2em 0;
+}
+
+@font-face {
+  font-family: 'Brandon Grotesque';
+  src: url("../fonts/brandon_bld.eot");
+  src: url("../fonts/brandon_bld.eot?#iefix") format("embedded-opentype"), url("../fonts/brandon_bld.woff2") format("woff2"), url("../fonts/brandon_bld.woff") format("woff"), url("../fonts/brandon_bld.ttf") format("truetype"), url("../fonts/brandon_bld.svg#brandon_grotesquebold") format("svg");
+  font-weight: 800;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Brandon Grotesque';
+  src: url("../fonts/brandon_med.eot");
+  src: url("../fonts/brandon_med.eot?#iefix") format("embedded-opentype"), url("../fonts/brandon_med.woff2") format("woff2"), url("../fonts/brandon_med.woff") format("woff"), url("../fonts/brandon_med.ttf") format("truetype"), url("../fonts/brandon_med.svg#brandon_grotesquemedium") format("svg");
+  font-weight: 600;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Brandon Grotesque';
+  src: url("../fonts/brandon_reg.eot");
+  src: url("../fonts/brandon_reg.eot?#iefix") format("embedded-opentype"), url("../fonts/brandon_reg.woff2") format("woff2"), url("../fonts/brandon_reg.woff") format("woff"), url("../fonts/brandon_reg.ttf") format("truetype"), url("../fonts/brandon_reg.svg#brandon_grotesque_regularRg") format("svg");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'proxima_nova_cn_rgregular';
+  src: url("../fonts/proximanovacond-regular.eot");
+  src: url("../fonts/proximanovacond-regular.eot?#iefix") format("embedded-opentype"), url("../fonts/proximanovacond-regular.woff2") format("woff2"), url("../fonts/proximanovacond-regular.woff") format("woff"), url("../fonts/proximanovacond-regular.ttf") format("truetype"), url("../fonts/proximanovacond-regular.svg#proxima_nova_cn_rgregular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'proxima_novalight';
+  src: url("../fonts/proximanova-light.eot");
+  src: url("../fonts/proximanova-light.eot?#iefix") format("embedded-opentype"), url("../fonts/proximanova-light.woff2") format("woff2"), url("../fonts/proximanova-light.woff") format("woff"), url("../fonts/proximanova-light.ttf") format("truetype"), url("../fonts/proximanova-light.svg#proxima_novalight") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: pragmatica-el;
+  src: url(../fonts/pragmatica-extralight-v2.eot);
+  src: url(../fonts/pragmatica-extralight-v2.eot?#iefix) format("embedded-opentype"), url(../fonts/pragmatica-extralight-v2.woff) format("woff"), url(../fonts/pragmatica-extralight-v2.ttf) format("truetype");
+  font-weight: 100;
+  font-style: normal;
+}
+@font-face {
+  font-family: pragmatica;
+  src: url(../fonts/pragmatica-light-v2.eot);
+  src: url(../fonts/pragmatica-light-v2.eot?#iefix) format("embedded-opentype"), url(../fonts/pragmatica-light-v2.woff) format("woff"), url(../fonts/pragmatica-light-v2.ttf) format("truetype");
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: pragmatica;
+  src: url(../fonts/pragmatica-regular-v2.eot);
+  src: url(../fonts/pragmatica-regular-v2.eot?#iefix) format("embedded-opentype"), url(../fonts/pragmatica-regular-v2.woff) format("woff"), url(../fonts/pragmatica-regular-v2.ttf) format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: pragmatica;
+  src: url(../fonts/pragmatica-medium-v2.eot);
+  src: url(../fonts/pragmatica-medium-v2.eot?#iefix) format("embedded-opentype"), url(../fonts/pragmatica-medium-v2.woff) format("woff"), url(../fonts/pragmatica-medium-v2.ttf) format("truetype");
+  font-weight: 600;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Glyphicons Halflings';
+  src: url("../fonts/glyphicons-halflings-regular.eot");
+  src: url("../fonts/glyphicons-halflings-regular.eot?#iefix") format("embedded-opentype"), url("../fonts/glyphicons-halflings-regular.woff2") format("woff2"), url("../fonts/glyphicons-halflings-regular.woff") format("woff"), url("../fonts/glyphicons-halflings-regular.ttf") format("truetype"), url("../fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular") format("svg");
+}
+/* line 3, ../../dev/pages/choise_of_brands/choise_of_brands.scss */
+.content_wrap.choise_of_brands {
+  margin-top: 5em;
+}
+/* line 5, ../../dev/pages/choise_of_brands/choise_of_brands.scss */
+.content_wrap.choise_of_brands .main_menu_wrap {
+  margin: 4.73333em -0.06667em 0 1.13333em;
+}
+/* line 9, ../../dev/pages/choise_of_brands/choise_of_brands.scss */
+.content_wrap.choise_of_brands .select_long.select_wrap {
+  margin: 6.93333em 0 0 0.2em;
+}
+
+/* line 16, ../../dev/pages/choise_of_brands/choise_of_brands.scss */
+.main_menu {
+  left: 0;
+  top: 0;
+}
+/* line 19, ../../dev/pages/choise_of_brands/choise_of_brands.scss */
+.main_menu > li {
+  width: 11.7em;
+  height: 11.7em;
+}
+
+@font-face {
+  font-family: 'Brandon Grotesque';
+  src: url("../fonts/brandon_bld.eot");
+  src: url("../fonts/brandon_bld.eot?#iefix") format("embedded-opentype"), url("../fonts/brandon_bld.woff2") format("woff2"), url("../fonts/brandon_bld.woff") format("woff"), url("../fonts/brandon_bld.ttf") format("truetype"), url("../fonts/brandon_bld.svg#brandon_grotesquebold") format("svg");
+  font-weight: 800;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Brandon Grotesque';
+  src: url("../fonts/brandon_med.eot");
+  src: url("../fonts/brandon_med.eot?#iefix") format("embedded-opentype"), url("../fonts/brandon_med.woff2") format("woff2"), url("../fonts/brandon_med.woff") format("woff"), url("../fonts/brandon_med.ttf") format("truetype"), url("../fonts/brandon_med.svg#brandon_grotesquemedium") format("svg");
+  font-weight: 600;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Brandon Grotesque';
+  src: url("../fonts/brandon_reg.eot");
+  src: url("../fonts/brandon_reg.eot?#iefix") format("embedded-opentype"), url("../fonts/brandon_reg.woff2") format("woff2"), url("../fonts/brandon_reg.woff") format("woff"), url("../fonts/brandon_reg.ttf") format("truetype"), url("../fonts/brandon_reg.svg#brandon_grotesque_regularRg") format("svg");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'proxima_nova_cn_rgregular';
+  src: url("../fonts/proximanovacond-regular.eot");
+  src: url("../fonts/proximanovacond-regular.eot?#iefix") format("embedded-opentype"), url("../fonts/proximanovacond-regular.woff2") format("woff2"), url("../fonts/proximanovacond-regular.woff") format("woff"), url("../fonts/proximanovacond-regular.ttf") format("truetype"), url("../fonts/proximanovacond-regular.svg#proxima_nova_cn_rgregular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'proxima_novalight';
+  src: url("../fonts/proximanova-light.eot");
+  src: url("../fonts/proximanova-light.eot?#iefix") format("embedded-opentype"), url("../fonts/proximanova-light.woff2") format("woff2"), url("../fonts/proximanova-light.woff") format("woff"), url("../fonts/proximanova-light.ttf") format("truetype"), url("../fonts/proximanova-light.svg#proxima_novalight") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: pragmatica-el;
+  src: url(../fonts/pragmatica-extralight-v2.eot);
+  src: url(../fonts/pragmatica-extralight-v2.eot?#iefix) format("embedded-opentype"), url(../fonts/pragmatica-extralight-v2.woff) format("woff"), url(../fonts/pragmatica-extralight-v2.ttf) format("truetype");
+  font-weight: 100;
+  font-style: normal;
+}
+@font-face {
+  font-family: pragmatica;
+  src: url(../fonts/pragmatica-light-v2.eot);
+  src: url(../fonts/pragmatica-light-v2.eot?#iefix) format("embedded-opentype"), url(../fonts/pragmatica-light-v2.woff) format("woff"), url(../fonts/pragmatica-light-v2.ttf) format("truetype");
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: pragmatica;
+  src: url(../fonts/pragmatica-regular-v2.eot);
+  src: url(../fonts/pragmatica-regular-v2.eot?#iefix) format("embedded-opentype"), url(../fonts/pragmatica-regular-v2.woff) format("woff"), url(../fonts/pragmatica-regular-v2.ttf) format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: pragmatica;
+  src: url(../fonts/pragmatica-medium-v2.eot);
+  src: url(../fonts/pragmatica-medium-v2.eot?#iefix) format("embedded-opentype"), url(../fonts/pragmatica-medium-v2.woff) format("woff"), url(../fonts/pragmatica-medium-v2.ttf) format("truetype");
+  font-weight: 600;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Glyphicons Halflings';
+  src: url("../fonts/glyphicons-halflings-regular.eot");
+  src: url("../fonts/glyphicons-halflings-regular.eot?#iefix") format("embedded-opentype"), url("../fonts/glyphicons-halflings-regular.woff2") format("woff2"), url("../fonts/glyphicons-halflings-regular.woff") format("woff"), url("../fonts/glyphicons-halflings-regular.ttf") format("truetype"), url("../fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular") format("svg");
+}
+/* line 2, ../../dev/pages/edit_brand/edit_brand.scss */
+.content_wrap {
+  padding-bottom: 10.13333em;
+}
+
+/* line 6, ../../dev/pages/edit_brand/edit_brand.scss */
+.brand_edit li {
+  float: left;
+  width: 8em;
+  margin-left: 4.1225%;
+}
+/* line 11, ../../dev/pages/edit_brand/edit_brand.scss */
+.brand_edit li:first-child {
+  margin-left: 0;
+}
+/* line 15, ../../dev/pages/edit_brand/edit_brand.scss */
+.brand_edit li .btn.btn_small {
+  width: 100%;
+}
+/* line 20, ../../dev/pages/edit_brand/edit_brand.scss */
+.brand_edit.btn_wrap {
+  position: absolute;
+  bottom: -6.33333em;
+  overflow: hidden;
+}
+
+/* line 27, ../../dev/pages/edit_brand/edit_brand.scss */
+.brand_news.edit_brand {
+  padding: 2.2em 0 3.66667em 0;
+}
+
+/* line 31, ../../dev/pages/edit_brand/edit_brand.scss */
+.brand_news_title {
+  font-size: 1.8em;
+}
+
+/* line 35, ../../dev/pages/edit_brand/edit_brand.scss */
+.brand_news_textarea {
+  margin-top: 0;
+}
+
+@font-face {
+  font-family: 'Brandon Grotesque';
+  src: url("../fonts/brandon_bld.eot");
+  src: url("../fonts/brandon_bld.eot?#iefix") format("embedded-opentype"), url("../fonts/brandon_bld.woff2") format("woff2"), url("../fonts/brandon_bld.woff") format("woff"), url("../fonts/brandon_bld.ttf") format("truetype"), url("../fonts/brandon_bld.svg#brandon_grotesquebold") format("svg");
+  font-weight: 800;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Brandon Grotesque';
+  src: url("../fonts/brandon_med.eot");
+  src: url("../fonts/brandon_med.eot?#iefix") format("embedded-opentype"), url("../fonts/brandon_med.woff2") format("woff2"), url("../fonts/brandon_med.woff") format("woff"), url("../fonts/brandon_med.ttf") format("truetype"), url("../fonts/brandon_med.svg#brandon_grotesquemedium") format("svg");
+  font-weight: 600;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Brandon Grotesque';
+  src: url("../fonts/brandon_reg.eot");
+  src: url("../fonts/brandon_reg.eot?#iefix") format("embedded-opentype"), url("../fonts/brandon_reg.woff2") format("woff2"), url("../fonts/brandon_reg.woff") format("woff"), url("../fonts/brandon_reg.ttf") format("truetype"), url("../fonts/brandon_reg.svg#brandon_grotesque_regularRg") format("svg");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'proxima_nova_cn_rgregular';
+  src: url("../fonts/proximanovacond-regular.eot");
+  src: url("../fonts/proximanovacond-regular.eot?#iefix") format("embedded-opentype"), url("../fonts/proximanovacond-regular.woff2") format("woff2"), url("../fonts/proximanovacond-regular.woff") format("woff"), url("../fonts/proximanovacond-regular.ttf") format("truetype"), url("../fonts/proximanovacond-regular.svg#proxima_nova_cn_rgregular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'proxima_novalight';
+  src: url("../fonts/proximanova-light.eot");
+  src: url("../fonts/proximanova-light.eot?#iefix") format("embedded-opentype"), url("../fonts/proximanova-light.woff2") format("woff2"), url("../fonts/proximanova-light.woff") format("woff"), url("../fonts/proximanova-light.ttf") format("truetype"), url("../fonts/proximanova-light.svg#proxima_novalight") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: pragmatica-el;
+  src: url(../fonts/pragmatica-extralight-v2.eot);
+  src: url(../fonts/pragmatica-extralight-v2.eot?#iefix) format("embedded-opentype"), url(../fonts/pragmatica-extralight-v2.woff) format("woff"), url(../fonts/pragmatica-extralight-v2.ttf) format("truetype");
+  font-weight: 100;
+  font-style: normal;
+}
+@font-face {
+  font-family: pragmatica;
+  src: url(../fonts/pragmatica-light-v2.eot);
+  src: url(../fonts/pragmatica-light-v2.eot?#iefix) format("embedded-opentype"), url(../fonts/pragmatica-light-v2.woff) format("woff"), url(../fonts/pragmatica-light-v2.ttf) format("truetype");
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: pragmatica;
+  src: url(../fonts/pragmatica-regular-v2.eot);
+  src: url(../fonts/pragmatica-regular-v2.eot?#iefix) format("embedded-opentype"), url(../fonts/pragmatica-regular-v2.woff) format("woff"), url(../fonts/pragmatica-regular-v2.ttf) format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: pragmatica;
+  src: url(../fonts/pragmatica-medium-v2.eot);
+  src: url(../fonts/pragmatica-medium-v2.eot?#iefix) format("embedded-opentype"), url(../fonts/pragmatica-medium-v2.woff) format("woff"), url(../fonts/pragmatica-medium-v2.ttf) format("truetype");
+  font-weight: 600;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Glyphicons Halflings';
+  src: url("../fonts/glyphicons-halflings-regular.eot");
+  src: url("../fonts/glyphicons-halflings-regular.eot?#iefix") format("embedded-opentype"), url("../fonts/glyphicons-halflings-regular.woff2") format("woff2"), url("../fonts/glyphicons-halflings-regular.woff") format("woff"), url("../fonts/glyphicons-halflings-regular.ttf") format("truetype"), url("../fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular") format("svg");
+}
+/* line 3, ../../dev/pages/email_notifications/email_notifications.scss */
+.email-notification-content {
+  margin-top: 4em;
+}
+/* line 6, ../../dev/pages/email_notifications/email_notifications.scss */
+.email-notification-content h1 {
+  font-weight: bold;
+  margin: 0;
+}
+
+/* line 12, ../../dev/pages/email_notifications/email_notifications.scss */
+.email-notification-table {
+  margin-top: 4em;
+}
+
+/* line 19, ../../dev/pages/email_notifications/email_notifications.scss */
+.approval_flow_wrap .table-header .approval_table td {
+  font-family: 'Brandon Grotesque';
+  font-weight: 600;
+  color: #7e8890;
+}
+
+/* line 27, ../../dev/pages/email_notifications/email_notifications.scss */
+.table-header {
+  margin-bottom: 0.33em;
+}
+/* line 30, ../../dev/pages/email_notifications/email_notifications.scss */
+.table-header .table-unit {
+  font-weight: bold;
+}
+
+/* line 36, ../../dev/pages/email_notifications/email_notifications.scss */
+.approval_table .btn {
+  width: 100%;
+  height: 2.45455em;
+  font-size: 1em;
+}
+
+/* line 43, ../../dev/pages/email_notifications/email_notifications.scss */
+.add-notification {
+  position: relative;
+  margin-top: 5.333em;
+  margin-bottom: 5.333em;
+}
+/* line 48, ../../dev/pages/email_notifications/email_notifications.scss */
+.add-notification:before {
+  content: "";
+  position: absolute;
+  left: 7.4em;
+  right: 7.4em;
+  height: 2px;
+  background: #ededee;
+  top: -2.200em;
+}
+
+/* line 63, ../../dev/pages/email_notifications/email_notifications.scss */
+.edit-notification {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  width: 37.200em;
+  height: 34.667em;
+  padding: 2.000em 2.200em;
+  margin-left: -18.600em;
+  margin-top: -17.333em;
+  background: #ffffff;
+  border: 1px solid #ededee;
+}
+/* line 75, ../../dev/pages/email_notifications/email_notifications.scss */
+.edit-notification > span {
+  font-size: 28px;
+}
+/* line 79, ../../dev/pages/email_notifications/email_notifications.scss */
+.edit-notification input {
+  display: block;
+  width: 100%;
+  height: 3.15385em;
+  line-height: 3.15385em;
+  border: 1px solid #cbcbcb;
+  padding: 0 1.15385em;
+  font-size: 0.86667em;
+}
+/* line 89, ../../dev/pages/email_notifications/email_notifications.scss */
+.edit-notification textarea {
+  padding: 1em 2.03252%;
+  width: 100%;
+  height: 8.76667em;
+  border: 1px solid #cbcbcb;
+  margin-top: 0;
+}
+/* line 97, ../../dev/pages/email_notifications/email_notifications.scss */
+.edit-notification .subject,
+.edit-notification .text {
+  margin-top: 2.200em;
+  padding: 0 0.267em 0 0.200em;
+}
+/* line 102, ../../dev/pages/email_notifications/email_notifications.scss */
+.edit-notification .subject label,
+.edit-notification .text label {
+  font-size: 12px;
+  margin-bottom: 1.084em;
+  display: inline-block;
+  color: #77808b;
+}
+/* line 111, ../../dev/pages/email_notifications/email_notifications.scss */
+.edit-notification .text label {
+  margin-bottom: 1.334em;
+}
+/* line 116, ../../dev/pages/email_notifications/email_notifications.scss */
+.edit-notification .notes {
+  margin-top: 1.067em;
+}
+/* line 119, ../../dev/pages/email_notifications/email_notifications.scss */
+.edit-notification .notes .notes-unit {
+  float: left;
+  color: #77808b;
+  font-size: 11px;
+  line-height: 1.546em;
+  font-family: 'Brandon Grotesque';
+}
+/* line 125, ../../dev/pages/email_notifications/email_notifications.scss */
+.edit-notification .notes .notes-unit:first-child {
+  margin-right: 2.091em;
+}
+/* line 131, ../../dev/pages/email_notifications/email_notifications.scss */
+.edit-notification .control {
+  margin-top: 2.467em;
+  padding: 0 0.200em;
+}
+/* line 135, ../../dev/pages/email_notifications/email_notifications.scss */
+.edit-notification .control button {
+  width: 24.5%;
+}
+
+@font-face {
+  font-family: 'Brandon Grotesque';
+  src: url("../fonts/brandon_bld.eot");
+  src: url("../fonts/brandon_bld.eot?#iefix") format("embedded-opentype"), url("../fonts/brandon_bld.woff2") format("woff2"), url("../fonts/brandon_bld.woff") format("woff"), url("../fonts/brandon_bld.ttf") format("truetype"), url("../fonts/brandon_bld.svg#brandon_grotesquebold") format("svg");
+  font-weight: 800;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Brandon Grotesque';
+  src: url("../fonts/brandon_med.eot");
+  src: url("../fonts/brandon_med.eot?#iefix") format("embedded-opentype"), url("../fonts/brandon_med.woff2") format("woff2"), url("../fonts/brandon_med.woff") format("woff"), url("../fonts/brandon_med.ttf") format("truetype"), url("../fonts/brandon_med.svg#brandon_grotesquemedium") format("svg");
+  font-weight: 600;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Brandon Grotesque';
+  src: url("../fonts/brandon_reg.eot");
+  src: url("../fonts/brandon_reg.eot?#iefix") format("embedded-opentype"), url("../fonts/brandon_reg.woff2") format("woff2"), url("../fonts/brandon_reg.woff") format("woff"), url("../fonts/brandon_reg.ttf") format("truetype"), url("../fonts/brandon_reg.svg#brandon_grotesque_regularRg") format("svg");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'proxima_nova_cn_rgregular';
+  src: url("../fonts/proximanovacond-regular.eot");
+  src: url("../fonts/proximanovacond-regular.eot?#iefix") format("embedded-opentype"), url("../fonts/proximanovacond-regular.woff2") format("woff2"), url("../fonts/proximanovacond-regular.woff") format("woff"), url("../fonts/proximanovacond-regular.ttf") format("truetype"), url("../fonts/proximanovacond-regular.svg#proxima_nova_cn_rgregular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'proxima_novalight';
+  src: url("../fonts/proximanova-light.eot");
+  src: url("../fonts/proximanova-light.eot?#iefix") format("embedded-opentype"), url("../fonts/proximanova-light.woff2") format("woff2"), url("../fonts/proximanova-light.woff") format("woff"), url("../fonts/proximanova-light.ttf") format("truetype"), url("../fonts/proximanova-light.svg#proxima_novalight") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: pragmatica-el;
+  src: url(../fonts/pragmatica-extralight-v2.eot);
+  src: url(../fonts/pragmatica-extralight-v2.eot?#iefix) format("embedded-opentype"), url(../fonts/pragmatica-extralight-v2.woff) format("woff"), url(../fonts/pragmatica-extralight-v2.ttf) format("truetype");
+  font-weight: 100;
+  font-style: normal;
+}
+@font-face {
+  font-family: pragmatica;
+  src: url(../fonts/pragmatica-light-v2.eot);
+  src: url(../fonts/pragmatica-light-v2.eot?#iefix) format("embedded-opentype"), url(../fonts/pragmatica-light-v2.woff) format("woff"), url(../fonts/pragmatica-light-v2.ttf) format("truetype");
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: pragmatica;
+  src: url(../fonts/pragmatica-regular-v2.eot);
+  src: url(../fonts/pragmatica-regular-v2.eot?#iefix) format("embedded-opentype"), url(../fonts/pragmatica-regular-v2.woff) format("woff"), url(../fonts/pragmatica-regular-v2.ttf) format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: pragmatica;
+  src: url(../fonts/pragmatica-medium-v2.eot);
+  src: url(../fonts/pragmatica-medium-v2.eot?#iefix) format("embedded-opentype"), url(../fonts/pragmatica-medium-v2.woff) format("woff"), url(../fonts/pragmatica-medium-v2.ttf) format("truetype");
+  font-weight: 600;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Glyphicons Halflings';
+  src: url("../fonts/glyphicons-halflings-regular.eot");
+  src: url("../fonts/glyphicons-halflings-regular.eot?#iefix") format("embedded-opentype"), url("../fonts/glyphicons-halflings-regular.woff2") format("woff2"), url("../fonts/glyphicons-halflings-regular.woff") format("woff"), url("../fonts/glyphicons-halflings-regular.ttf") format("truetype"), url("../fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular") format("svg");
+}
+/* line 4, ../../dev/pages/logs/logs.scss */
+.wrap_table > div {
+  padding: 1.53333em 0 1em;
+}
+
+@font-face {
+  font-family: 'Brandon Grotesque';
+  src: url("../fonts/brandon_bld.eot");
+  src: url("../fonts/brandon_bld.eot?#iefix") format("embedded-opentype"), url("../fonts/brandon_bld.woff2") format("woff2"), url("../fonts/brandon_bld.woff") format("woff"), url("../fonts/brandon_bld.ttf") format("truetype"), url("../fonts/brandon_bld.svg#brandon_grotesquebold") format("svg");
+  font-weight: 800;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Brandon Grotesque';
+  src: url("../fonts/brandon_med.eot");
+  src: url("../fonts/brandon_med.eot?#iefix") format("embedded-opentype"), url("../fonts/brandon_med.woff2") format("woff2"), url("../fonts/brandon_med.woff") format("woff"), url("../fonts/brandon_med.ttf") format("truetype"), url("../fonts/brandon_med.svg#brandon_grotesquemedium") format("svg");
+  font-weight: 600;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Brandon Grotesque';
+  src: url("../fonts/brandon_reg.eot");
+  src: url("../fonts/brandon_reg.eot?#iefix") format("embedded-opentype"), url("../fonts/brandon_reg.woff2") format("woff2"), url("../fonts/brandon_reg.woff") format("woff"), url("../fonts/brandon_reg.ttf") format("truetype"), url("../fonts/brandon_reg.svg#brandon_grotesque_regularRg") format("svg");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'proxima_nova_cn_rgregular';
+  src: url("../fonts/proximanovacond-regular.eot");
+  src: url("../fonts/proximanovacond-regular.eot?#iefix") format("embedded-opentype"), url("../fonts/proximanovacond-regular.woff2") format("woff2"), url("../fonts/proximanovacond-regular.woff") format("woff"), url("../fonts/proximanovacond-regular.ttf") format("truetype"), url("../fonts/proximanovacond-regular.svg#proxima_nova_cn_rgregular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'proxima_novalight';
+  src: url("../fonts/proximanova-light.eot");
+  src: url("../fonts/proximanova-light.eot?#iefix") format("embedded-opentype"), url("../fonts/proximanova-light.woff2") format("woff2"), url("../fonts/proximanova-light.woff") format("woff"), url("../fonts/proximanova-light.ttf") format("truetype"), url("../fonts/proximanova-light.svg#proxima_novalight") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: pragmatica-el;
+  src: url(../fonts/pragmatica-extralight-v2.eot);
+  src: url(../fonts/pragmatica-extralight-v2.eot?#iefix) format("embedded-opentype"), url(../fonts/pragmatica-extralight-v2.woff) format("woff"), url(../fonts/pragmatica-extralight-v2.ttf) format("truetype");
+  font-weight: 100;
+  font-style: normal;
+}
+@font-face {
+  font-family: pragmatica;
+  src: url(../fonts/pragmatica-light-v2.eot);
+  src: url(../fonts/pragmatica-light-v2.eot?#iefix) format("embedded-opentype"), url(../fonts/pragmatica-light-v2.woff) format("woff"), url(../fonts/pragmatica-light-v2.ttf) format("truetype");
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: pragmatica;
+  src: url(../fonts/pragmatica-regular-v2.eot);
+  src: url(../fonts/pragmatica-regular-v2.eot?#iefix) format("embedded-opentype"), url(../fonts/pragmatica-regular-v2.woff) format("woff"), url(../fonts/pragmatica-regular-v2.ttf) format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: pragmatica;
+  src: url(../fonts/pragmatica-medium-v2.eot);
+  src: url(../fonts/pragmatica-medium-v2.eot?#iefix) format("embedded-opentype"), url(../fonts/pragmatica-medium-v2.woff) format("woff"), url(../fonts/pragmatica-medium-v2.ttf) format("truetype");
+  font-weight: 600;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Glyphicons Halflings';
+  src: url("../fonts/glyphicons-halflings-regular.eot");
+  src: url("../fonts/glyphicons-halflings-regular.eot?#iefix") format("embedded-opentype"), url("../fonts/glyphicons-halflings-regular.woff2") format("woff2"), url("../fonts/glyphicons-halflings-regular.woff") format("woff"), url("../fonts/glyphicons-halflings-regular.ttf") format("truetype"), url("../fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular") format("svg");
+}
+/* line 5, ../../dev/pages/new_activies_page/new_activies_page.scss */
+.activies_page_wrap .content_wrap, .activies_page_wrap .wrap_block {
+  margin-top: 4em;
+}
+/* line 8, ../../dev/pages/new_activies_page/new_activies_page.scss */
+.activies_page_wrap .status_wrap {
+  width: 50.1355%;
+}
+/* line 10, ../../dev/pages/new_activies_page/new_activies_page.scss */
+.activies_page_wrap .status_wrap .valid {
+  font-weight: 500;
+}
+/* line 14, ../../dev/pages/new_activies_page/new_activies_page.scss */
+.activies_page_wrap .status_wrap .btn_big_rounded .ico_status {
+  margin-left: 5.67568%;
+}
+/* line 19, ../../dev/pages/new_activies_page/new_activies_page.scss */
+.activies_page_wrap .block_img {
+  border: 1px solid #cecfd0;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  border-radius: 4px;
+  padding: 0.86667em 4.39189%;
+  width: 100%;
+  display: block;
+}
+/* line 28, ../../dev/pages/new_activies_page/new_activies_page.scss */
+.activies_page_wrap .block_img img {
+  max-width: 100%;
+  display: inline-block;
+}
+/* line 34, ../../dev/pages/new_activies_page/new_activies_page.scss */
+.activies_page_wrap .description textarea {
+  width: 100%;
+  height: 9.73333em;
+  margin-top: 0;
+}
+/* line 41, ../../dev/pages/new_activies_page/new_activies_page.scss */
+.activies_page_wrap .brand_news_toolbax_list {
+  width: 40.1084%;
+  height: 18.86667em;
+}
+/* line 44, ../../dev/pages/new_activies_page/new_activies_page.scss */
+.activies_page_wrap .brand_news_toolbax_list li {
+  height: 100%;
+}
+/* line 46, ../../dev/pages/new_activies_page/new_activies_page.scss */
+.activies_page_wrap .brand_news_toolbax_list li a {
+  height: 100%;
+  position: relative;
+  border-color: #cecfd0;
+  background-color: #f8faf9;
+  text-align: center;
+}
+/* line 52, ../../dev/pages/new_activies_page/new_activies_page.scss */
+.activies_page_wrap .brand_news_toolbax_list li a .btn {
+  width: 46.07046%;
+  left: 27.5%;
+  top: 8em;
+  position: absolute;
+}
+/* line 61, ../../dev/pages/new_activies_page/new_activies_page.scss */
+.activies_page_wrap .channel {
+  width: 33.33333%;
+  float: left;
+}
+/* line 65, ../../dev/pages/new_activies_page/new_activies_page.scss */
+.activies_page_wrap .channel .icon {
+  margin: 0px auto;
+}
+/* line 68, ../../dev/pages/new_activies_page/new_activies_page.scss */
+.activies_page_wrap .channel .name_channels {
+  font-size: 1em;
+  line-height: 1;
+  text-align: center;
+  padding: 1em 0;
+}
+/* line 75, ../../dev/pages/new_activies_page/new_activies_page.scss */
+.activies_page_wrap .channel ul li {
+  margin: 0.46667em 0;
+}
+/* line 77, ../../dev/pages/new_activies_page/new_activies_page.scss */
+.activies_page_wrap .channel ul li a {
+  color: #45484C;
+  position: relative;
+  margin-left: 36.58537%;
+  display: block;
+  padding: 0.33333em 0;
+  text-decoration: none;
+}
+/* line 84, ../../dev/pages/new_activies_page/new_activies_page.scss */
+.activies_page_wrap .channel ul li a:before {
+  content: '';
+  width: 4px;
+  height: 4px;
+  -moz-border-radius: 100%;
+  -webkit-border-radius: 100%;
+  border-radius: 100%;
+  background-color: #45484C;
+  position: absolute;
+  display: block;
+  left: -12px;
+  top: 12px;
+}
+/* line 96, ../../dev/pages/new_activies_page/new_activies_page.scss */
+.activies_page_wrap .channel ul li label {
+  margin-left: 36.58537%;
+}
+/* line 104, ../../dev/pages/new_activies_page/new_activies_page.scss */
+.activies_page_wrap .wrap_block .title {
+  font-family: pragmatica,Helvetica,Arial,sans-serif;
+  font-weight: 300;
+  font-size: 1.6em;
+  line-height: 1;
+  color: #000;
+  margin-bottom: 1.03704em;
+}
+/* line 112, ../../dev/pages/new_activies_page/new_activies_page.scss */
+.activies_page_wrap .wrap_block p.text {
+  font-family: pragmatica,Helvetica,Arial,sans-serif;
+  font-weight: 300;
+  font-size: 1em;
+  line-height: 1.4em;
+  color: #45484C;
+  letter-spacing: 1px;
+}
+/* line 126, ../../dev/pages/new_activies_page/new_activies_page.scss */
+.activies_page_wrap .attachments_blocks {
+  margin-bottom: 4em;
+}
+/* line 129, ../../dev/pages/new_activies_page/new_activies_page.scss */
+.activies_page_wrap .attachments_blocks .block {
+  float: left;
+  width: 100%;
+  margin-top: 4em;
+}
+/* line 135, ../../dev/pages/new_activies_page/new_activies_page.scss */
+.activies_page_wrap .attachments_blocks .block .name {
+  float: left;
+  width: 80%;
+  margin-top: 1em;
+  position: relative;
+}
+/* line 140, ../../dev/pages/new_activies_page/new_activies_page.scss */
+.activies_page_wrap .attachments_blocks .block .name a.sprite.sprite_ico.ico_basket {
+  margin: -0.4em 1.35501%;
+  position: absolute;
+}
+/* line 145, ../../dev/pages/new_activies_page/new_activies_page.scss */
+.activies_page_wrap .attachments_blocks .block .checkbox {
+  display: inline-block;
+  position: relative;
+  margin-top: 0.8em;
+  color: #45484C;
+}
+/* line 150, ../../dev/pages/new_activies_page/new_activies_page.scss */
+.activies_page_wrap .attachments_blocks .block .checkbox label:before {
+  position: absolute;
+  left: 0px;
+  top: -1px;
+}
+/* line 156, ../../dev/pages/new_activies_page/new_activies_page.scss */
+.activies_page_wrap .attachments_blocks .block textarea {
+  width: 100%;
+  height: 9.5em;
+  padding: 0.8em 1.35501%;
+  margin-top: 1.33333em;
+}
+/* line 162, ../../dev/pages/new_activies_page/new_activies_page.scss */
+.activies_page_wrap .attachments_blocks .block .file_size {
+  float: none;
+  width: auto;
+}
+/* line 167, ../../dev/pages/new_activies_page/new_activies_page.scss */
+.activies_page_wrap .attachments_blocks .block_upload_file {
+  margin: 2em 0 3.33333em;
+}
+/* line 170, ../../dev/pages/new_activies_page/new_activies_page.scss */
+.activies_page_wrap .attachments_blocks .block_upload_file span {
+  margin-left: 2.71003%;
+  color: #45484C;
+}
+@media (max-width: 768px) {
+  /* line 170, ../../dev/pages/new_activies_page/new_activies_page.scss */
+  .activies_page_wrap .attachments_blocks .block_upload_file span {
+    display: block;
+    margin-left: 0;
+    margin-top: 1em;
+  }
+}
+/* line 181, ../../dev/pages/new_activies_page/new_activies_page.scss */
+.activies_page_wrap .attachments_blocks .block_options_draft {
+  padding: 3.33333em 0;
+  border-top: 1px solid #cecfd0;
+  border-bottom: 1px solid #cecfd0;
+}
+/* line 185, ../../dev/pages/new_activies_page/new_activies_page.scss */
+.activies_page_wrap .attachments_blocks .block_options_draft button.btn.btn-default {
+  width: 27.10027%;
+  overflow: hidden;
+}
+/* line 189, ../../dev/pages/new_activies_page/new_activies_page.scss */
+.activies_page_wrap .attachments_blocks .block_options_draft button.btn.btn-default.center {
+  margin-left: 9.48509%;
+}
+@media (max-width: 840px) {
+  /* line 193, ../../dev/pages/new_activies_page/new_activies_page.scss */
+  .activies_page_wrap .attachments_blocks .block_options_draft button.btn.btn-default {
+    font-size: 12px;
+  }
+}
+/* line 198, ../../dev/pages/new_activies_page/new_activies_page.scss */
+.activies_page_wrap .attachments_blocks .block_request_comment {
+  margin-top: 4em;
+}
+/* line 200, ../../dev/pages/new_activies_page/new_activies_page.scss */
+.activies_page_wrap .attachments_blocks .block_request_comment textarea {
+  width: 100%;
+  height: 9.5em;
+  padding: 0.8em 1.35501%;
+  margin: 2em 0;
+}
+/* line 206, ../../dev/pages/new_activies_page/new_activies_page.scss */
+.activies_page_wrap .attachments_blocks .block_request_comment .select_wrap {
+  width: 48.10298%;
+}
+/* line 210, ../../dev/pages/new_activies_page/new_activies_page.scss */
+.activies_page_wrap .attachments_blocks .block_request_comment .select_wrap .select2-container .select2-selection--single .select2-selection__rendered {
+  padding-left: 1.33333em;
+  padding-right: 1.33333em;
+}
+
+/* line 222, ../../dev/pages/new_activies_page/new_activies_page.scss */
+.attachments_blocks .block:nth-child(2n) {
+  margin-left: 0;
+}
+
+/* line 226, ../../dev/pages/new_activies_page/new_activies_page.scss */
+.select2-results__option {
+  padding-left: 1.33333em;
+  padding-right: 1.33333em;
+}
+
+/* line 231, ../../dev/pages/new_activies_page/new_activies_page.scss */
+.attachments_block_wrap {
+  overflow: hidden;
+}
+
+/* line 235, ../../dev/pages/new_activies_page/new_activies_page.scss */
+.img_circle_wrap {
+  margin-right: 2.03252%;
+  padding: 0.26667em;
+  border: 1px solid transparent;
+  -moz-border-radius: 100%;
+  -webkit-border-radius: 100%;
+  border-radius: 100%;
+  width: 9.6206%;
+  height: 4.73333em;
+  -moz-transition-property: border-color;
+  -o-transition-property: border-color;
+  -webkit-transition-property: border-color;
+  transition-property: border-color;
+  -moz-transition-duration: 0.3s;
+  -o-transition-duration: 0.3s;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -moz-transition-timing-function: ease-out;
+  -o-transition-timing-function: ease-out;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+/* line 246, ../../dev/pages/new_activies_page/new_activies_page.scss */
+.img_circle_wrap .img_circle {
+  width: 100%;
+  height: 100%;
+  -moz-border-radius: 100%;
+  -webkit-border-radius: 100%;
+  border-radius: 100%;
+}
+/* line 250, ../../dev/pages/new_activies_page/new_activies_page.scss */
+.img_circle_wrap .img_circle .ico_search {
+  position: absolute;
+  top: 1.53333em;
+  left: 32.87671%;
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
+  opacity: 0;
+  z-index: 2;
+  -moz-transition-property: opacity;
+  -o-transition-property: opacity;
+  -webkit-transition-property: opacity;
+  transition-property: opacity;
+  -moz-transition-duration: 0.3s;
+  -o-transition-duration: 0.3s;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -moz-transition-timing-function: ease-out;
+  -o-transition-timing-function: ease-out;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+@media (max-width: 768px) {
+  /* line 250, ../../dev/pages/new_activies_page/new_activies_page.scss */
+  .img_circle_wrap .img_circle .ico_search {
+    top: 1.3em;
+    left: 32.24658%;
+  }
+}
+/* line 266, ../../dev/pages/new_activies_page/new_activies_page.scss */
+.img_circle_wrap .img_circle img {
+  -moz-border-radius: 100%;
+  -webkit-border-radius: 100%;
+  border-radius: 100%;
+}
+/* line 270, ../../dev/pages/new_activies_page/new_activies_page.scss */
+.img_circle_wrap:hover {
+  border-color: #42CE7F;
+}
+/* line 272, ../../dev/pages/new_activies_page/new_activies_page.scss */
+.img_circle_wrap:hover .ico_search {
+  filter: progid:DXImageTransform.Microsoft.Alpha(enabled=false);
+  opacity: 1;
+}
+
+/* line 281, ../../dev/pages/new_activies_page/new_activies_page.scss */
+.wrap_blocks .main_title.main_title_actives {
+  margin-top: 4.51852em;
+}
+
+/* line 286, ../../dev/pages/new_activies_page/new_activies_page.scss */
+.calendar_from, .calendar_to {
+  background: none;
+  border: none;
+  display: inline-block;
+  width: 20.94972%;
+  margin-left: 0.83799%;
+  color: #7E8D95;
+  font-weight: 500;
+}
+
+/* line 296, ../../dev/pages/new_activies_page/new_activies_page.scss */
+.calendar_to {
+  margin-left: 1.39665%;
+}
+
+@font-face {
+  font-family: 'Brandon Grotesque';
+  src: url("../fonts/brandon_bld.eot");
+  src: url("../fonts/brandon_bld.eot?#iefix") format("embedded-opentype"), url("../fonts/brandon_bld.woff2") format("woff2"), url("../fonts/brandon_bld.woff") format("woff"), url("../fonts/brandon_bld.ttf") format("truetype"), url("../fonts/brandon_bld.svg#brandon_grotesquebold") format("svg");
+  font-weight: 800;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Brandon Grotesque';
+  src: url("../fonts/brandon_med.eot");
+  src: url("../fonts/brandon_med.eot?#iefix") format("embedded-opentype"), url("../fonts/brandon_med.woff2") format("woff2"), url("../fonts/brandon_med.woff") format("woff"), url("../fonts/brandon_med.ttf") format("truetype"), url("../fonts/brandon_med.svg#brandon_grotesquemedium") format("svg");
+  font-weight: 600;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Brandon Grotesque';
+  src: url("../fonts/brandon_reg.eot");
+  src: url("../fonts/brandon_reg.eot?#iefix") format("embedded-opentype"), url("../fonts/brandon_reg.woff2") format("woff2"), url("../fonts/brandon_reg.woff") format("woff"), url("../fonts/brandon_reg.ttf") format("truetype"), url("../fonts/brandon_reg.svg#brandon_grotesque_regularRg") format("svg");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'proxima_nova_cn_rgregular';
+  src: url("../fonts/proximanovacond-regular.eot");
+  src: url("../fonts/proximanovacond-regular.eot?#iefix") format("embedded-opentype"), url("../fonts/proximanovacond-regular.woff2") format("woff2"), url("../fonts/proximanovacond-regular.woff") format("woff"), url("../fonts/proximanovacond-regular.ttf") format("truetype"), url("../fonts/proximanovacond-regular.svg#proxima_nova_cn_rgregular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'proxima_novalight';
+  src: url("../fonts/proximanova-light.eot");
+  src: url("../fonts/proximanova-light.eot?#iefix") format("embedded-opentype"), url("../fonts/proximanova-light.woff2") format("woff2"), url("../fonts/proximanova-light.woff") format("woff"), url("../fonts/proximanova-light.ttf") format("truetype"), url("../fonts/proximanova-light.svg#proxima_novalight") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: pragmatica-el;
+  src: url(../fonts/pragmatica-extralight-v2.eot);
+  src: url(../fonts/pragmatica-extralight-v2.eot?#iefix) format("embedded-opentype"), url(../fonts/pragmatica-extralight-v2.woff) format("woff"), url(../fonts/pragmatica-extralight-v2.ttf) format("truetype");
+  font-weight: 100;
+  font-style: normal;
+}
+@font-face {
+  font-family: pragmatica;
+  src: url(../fonts/pragmatica-light-v2.eot);
+  src: url(../fonts/pragmatica-light-v2.eot?#iefix) format("embedded-opentype"), url(../fonts/pragmatica-light-v2.woff) format("woff"), url(../fonts/pragmatica-light-v2.ttf) format("truetype");
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: pragmatica;
+  src: url(../fonts/pragmatica-regular-v2.eot);
+  src: url(../fonts/pragmatica-regular-v2.eot?#iefix) format("embedded-opentype"), url(../fonts/pragmatica-regular-v2.woff) format("woff"), url(../fonts/pragmatica-regular-v2.ttf) format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: pragmatica;
+  src: url(../fonts/pragmatica-medium-v2.eot);
+  src: url(../fonts/pragmatica-medium-v2.eot?#iefix) format("embedded-opentype"), url(../fonts/pragmatica-medium-v2.woff) format("woff"), url(../fonts/pragmatica-medium-v2.ttf) format("truetype");
+  font-weight: 600;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Glyphicons Halflings';
+  src: url("../fonts/glyphicons-halflings-regular.eot");
+  src: url("../fonts/glyphicons-halflings-regular.eot?#iefix") format("embedded-opentype"), url("../fonts/glyphicons-halflings-regular.woff2") format("woff2"), url("../fonts/glyphicons-halflings-regular.woff") format("woff"), url("../fonts/glyphicons-halflings-regular.ttf") format("truetype"), url("../fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular") format("svg");
+}
+/* line 3, ../../dev/pages/news_feed/news_feed.scss */
+.wrap.wrap_news_feed {
+  margin-bottom: 4em;
+  padding: 0 0 0 14.8em;
+}
+@media (max-width: 768px) {
+  /* line 3, ../../dev/pages/news_feed/news_feed.scss */
+  .wrap.wrap_news_feed {
+    margin-bottom: 0;
+    padding: 0 9.4em;
+    padding-right: 0;
+  }
+}
+@media (max-width: 640px) {
+  /* line 3, ../../dev/pages/news_feed/news_feed.scss */
+  .wrap.wrap_news_feed {
+    margin-bottom: 0;
+    padding: 0 7.4em;
+    padding-right: 0;
+  }
+}
+/* line 19, ../../dev/pages/news_feed/news_feed.scss */
+.wrap.wrap_news_feed .feed {
+  position: relative;
+  color: #45484C;
+  margin-top: 2.66667em;
+}
+/* line 23, ../../dev/pages/news_feed/news_feed.scss */
+.wrap.wrap_news_feed .feed a.sprite.btn.btn_circle.ico_eye {
+  position: absolute;
+  left: -15%;
+  top: 1.9em;
+  background-color: #fff;
+  z-index: 2;
+}
+/* line 30, ../../dev/pages/news_feed/news_feed.scss */
+.wrap.wrap_news_feed .feed .line {
+  position: absolute;
+  left: -10000%;
+  top: 3.2em;
+  width: 10000%;
+  height: 1px;
+  background: #cecfd0;
+  z-index: 1;
+}
+/* line 39, ../../dev/pages/news_feed/news_feed.scss */
+.wrap.wrap_news_feed .feed img {
+  display: block;
+  float: left;
+}
+/* line 43, ../../dev/pages/news_feed/news_feed.scss */
+.wrap.wrap_news_feed .feed .name {
+  margin-left: 7.22em;
+  font-size: 1.2em;
+  text-transform: uppercase;
+  color: #60717B;
+  font-family: 'Brandon Grotesque';
+}
+/* line 51, ../../dev/pages/news_feed/news_feed.scss */
+.wrap.wrap_news_feed .feed .info {
+  margin-top: 0.66667em;
+  margin-left: 8.65em;
+  font-family: 'Brandon Grotesque';
+}
+/* line 56, ../../dev/pages/news_feed/news_feed.scss */
+.wrap.wrap_news_feed .feed .info span {
+  font-weight: 300;
+  color: #919191;
+}
+/* line 60, ../../dev/pages/news_feed/news_feed.scss */
+.wrap.wrap_news_feed .feed .info .brand, .wrap.wrap_news_feed .feed .info .updated {
+  font-weight: 600;
+  color: #787878;
+}
+/* line 64, ../../dev/pages/news_feed/news_feed.scss */
+.wrap.wrap_news_feed .feed .info .status {
+  margin-top: 0.66667em;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #7E7F81;
+}
+/* line 69, ../../dev/pages/news_feed/news_feed.scss */
+.wrap.wrap_news_feed .feed .info .status .new {
+  color: #2ecc71;
+  font-weight: 600;
+}
+/* line 73, ../../dev/pages/news_feed/news_feed.scss */
+.wrap.wrap_news_feed .feed .info .status .updated {
+  color: #d7c669;
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: 'Brandon Grotesque';
+  src: url("../fonts/brandon_bld.eot");
+  src: url("../fonts/brandon_bld.eot?#iefix") format("embedded-opentype"), url("../fonts/brandon_bld.woff2") format("woff2"), url("../fonts/brandon_bld.woff") format("woff"), url("../fonts/brandon_bld.ttf") format("truetype"), url("../fonts/brandon_bld.svg#brandon_grotesquebold") format("svg");
+  font-weight: 800;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Brandon Grotesque';
+  src: url("../fonts/brandon_med.eot");
+  src: url("../fonts/brandon_med.eot?#iefix") format("embedded-opentype"), url("../fonts/brandon_med.woff2") format("woff2"), url("../fonts/brandon_med.woff") format("woff"), url("../fonts/brandon_med.ttf") format("truetype"), url("../fonts/brandon_med.svg#brandon_grotesquemedium") format("svg");
+  font-weight: 600;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Brandon Grotesque';
+  src: url("../fonts/brandon_reg.eot");
+  src: url("../fonts/brandon_reg.eot?#iefix") format("embedded-opentype"), url("../fonts/brandon_reg.woff2") format("woff2"), url("../fonts/brandon_reg.woff") format("woff"), url("../fonts/brandon_reg.ttf") format("truetype"), url("../fonts/brandon_reg.svg#brandon_grotesque_regularRg") format("svg");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'proxima_nova_cn_rgregular';
+  src: url("../fonts/proximanovacond-regular.eot");
+  src: url("../fonts/proximanovacond-regular.eot?#iefix") format("embedded-opentype"), url("../fonts/proximanovacond-regular.woff2") format("woff2"), url("../fonts/proximanovacond-regular.woff") format("woff"), url("../fonts/proximanovacond-regular.ttf") format("truetype"), url("../fonts/proximanovacond-regular.svg#proxima_nova_cn_rgregular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'proxima_novalight';
+  src: url("../fonts/proximanova-light.eot");
+  src: url("../fonts/proximanova-light.eot?#iefix") format("embedded-opentype"), url("../fonts/proximanova-light.woff2") format("woff2"), url("../fonts/proximanova-light.woff") format("woff"), url("../fonts/proximanova-light.ttf") format("truetype"), url("../fonts/proximanova-light.svg#proxima_novalight") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: pragmatica-el;
+  src: url(../fonts/pragmatica-extralight-v2.eot);
+  src: url(../fonts/pragmatica-extralight-v2.eot?#iefix) format("embedded-opentype"), url(../fonts/pragmatica-extralight-v2.woff) format("woff"), url(../fonts/pragmatica-extralight-v2.ttf) format("truetype");
+  font-weight: 100;
+  font-style: normal;
+}
+@font-face {
+  font-family: pragmatica;
+  src: url(../fonts/pragmatica-light-v2.eot);
+  src: url(../fonts/pragmatica-light-v2.eot?#iefix) format("embedded-opentype"), url(../fonts/pragmatica-light-v2.woff) format("woff"), url(../fonts/pragmatica-light-v2.ttf) format("truetype");
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: pragmatica;
+  src: url(../fonts/pragmatica-regular-v2.eot);
+  src: url(../fonts/pragmatica-regular-v2.eot?#iefix) format("embedded-opentype"), url(../fonts/pragmatica-regular-v2.woff) format("woff"), url(../fonts/pragmatica-regular-v2.ttf) format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: pragmatica;
+  src: url(../fonts/pragmatica-medium-v2.eot);
+  src: url(../fonts/pragmatica-medium-v2.eot?#iefix) format("embedded-opentype"), url(../fonts/pragmatica-medium-v2.woff) format("woff"), url(../fonts/pragmatica-medium-v2.ttf) format("truetype");
+  font-weight: 600;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Glyphicons Halflings';
+  src: url("../fonts/glyphicons-halflings-regular.eot");
+  src: url("../fonts/glyphicons-halflings-regular.eot?#iefix") format("embedded-opentype"), url("../fonts/glyphicons-halflings-regular.woff2") format("woff2"), url("../fonts/glyphicons-halflings-regular.woff") format("woff"), url("../fonts/glyphicons-halflings-regular.ttf") format("truetype"), url("../fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular") format("svg");
+}
+/* line 5, ../../dev/pages/profile/profile.scss */
+.profile_btn_wrap {
+  margin-top: 3.33333em;
+  padding-top: 2em;
+  border-top: 1px solid #cecfd0;
+}
+/* line 10, ../../dev/pages/profile/profile.scss */
+.profile_btn_wrap .btn.btn-default {
+  width: 21.68022%;
+}
+/* line 12, ../../dev/pages/profile/profile.scss */
+.profile_btn_wrap .btn.btn-default.btn-small {
+  width: 13.68564%;
+}
+
+/* line 19, ../../dev/pages/profile/profile.scss */
+.profile_wrap {
+  margin-top: 3.33333em;
+}
+/* line 21, ../../dev/pages/profile/profile.scss */
+.profile_wrap .profile_settings {
+  width: 42.14092%;
+}
+/* line 23, ../../dev/pages/profile/profile.scss */
+.profile_wrap .profile_settings .select_wrap {
+  margin-top: 1.13333em;
+}
+/* line 26, ../../dev/pages/profile/profile.scss */
+.profile_wrap .profile_settings .profile_roles {
+  margin-left: 7.29167%;
+}
+
+/* line 32, ../../dev/pages/profile/profile.scss */
+.profile_text {
+  font-family: 'Brandon Grotesque';
+  font-weight: 300;
+  margin-top: 0.58333em;
+  font-size: 0.8em;
+  color: #7c7c7c;
+}
+
+/* line 42, ../../dev/pages/profile/profile.scss */
+.profile_title.profile_title-indent {
+  margin-top: 2.91667em;
+}
+/* line 45, ../../dev/pages/profile/profile.scss */
+.profile_title.profile_new_title-indent {
+  margin-top: 4.33333em;
+}
+
+/* line 50, ../../dev/pages/profile/profile.scss */
+.profile_description {
+  margin-left: 8.80759%;
+  width: 40.65041%;
+}
+@media (max-width: 768px) {
+  /* line 50, ../../dev/pages/profile/profile.scss */
+  .profile_description {
+    width: 43.65041%;
+  }
+}
+
+/* line 59, ../../dev/pages/profile/profile.scss */
+.profile_description_list {
+  position: relative;
+  left: -13.33333%;
+  overflow: hidden;
+  font-size: 0.86667em;
+  margin-top: 1.53846em;
+}
+/* line 65, ../../dev/pages/profile/profile.scss */
+.profile_description_list li {
+  float: left;
+  width: 35.33333%;
+  margin-left: 13.33333%;
+  margin-top: 1.69231em;
+  color: #909294;
+}
+/* line 72, ../../dev/pages/profile/profile.scss */
+.profile_description_list li input[type="checkbox"] + label::before {
+  vertical-align: -4px;
+}
+
+/* line 80, ../../dev/pages/profile/profile.scss */
+.select2-container--default .select2-selection--single .select2-selection__rendered {
+  color: #909090;
+}
+
+/* line 86, ../../dev/pages/profile/profile.scss */
+.password_wrap {
+  margin-top: 3.33333em;
+}
+/* line 88, ../../dev/pages/profile/profile.scss */
+.password_wrap .password {
+  width: 42.14092%;
+}
+/* line 91, ../../dev/pages/profile/profile.scss */
+.password_wrap .password_confirm {
+  margin-left: 8.80759%;
+  width: 40.65041%;
+}
+@media (max-width: 768px) {
+  /* line 91, ../../dev/pages/profile/profile.scss */
+  .password_wrap .password_confirm {
+    width: 43.65041%;
+  }
+}
+
+/* line 104, ../../dev/pages/profile/profile.scss */
+.select_wrap .select2-container.select2-container--default .select2-selection--single {
+  border-color: #dedfdf;
+}
+
+/* line 111, ../../dev/pages/profile/profile.scss */
+.select2-dropdown {
+  border-color: #dedfdf;
+  -moz-border-radius: 0;
+  -webkit-border-radius: 0;
+  border-radius: 0;
+}
+
+/* line 116, ../../dev/pages/profile/profile.scss */
+.btn {
+  color: #7e8890;
+}
+
+@font-face {
+  font-family: 'Brandon Grotesque';
+  src: url("../fonts/brandon_bld.eot");
+  src: url("../fonts/brandon_bld.eot?#iefix") format("embedded-opentype"), url("../fonts/brandon_bld.woff2") format("woff2"), url("../fonts/brandon_bld.woff") format("woff"), url("../fonts/brandon_bld.ttf") format("truetype"), url("../fonts/brandon_bld.svg#brandon_grotesquebold") format("svg");
+  font-weight: 800;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Brandon Grotesque';
+  src: url("../fonts/brandon_med.eot");
+  src: url("../fonts/brandon_med.eot?#iefix") format("embedded-opentype"), url("../fonts/brandon_med.woff2") format("woff2"), url("../fonts/brandon_med.woff") format("woff"), url("../fonts/brandon_med.ttf") format("truetype"), url("../fonts/brandon_med.svg#brandon_grotesquemedium") format("svg");
+  font-weight: 600;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Brandon Grotesque';
+  src: url("../fonts/brandon_reg.eot");
+  src: url("../fonts/brandon_reg.eot?#iefix") format("embedded-opentype"), url("../fonts/brandon_reg.woff2") format("woff2"), url("../fonts/brandon_reg.woff") format("woff"), url("../fonts/brandon_reg.ttf") format("truetype"), url("../fonts/brandon_reg.svg#brandon_grotesque_regularRg") format("svg");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'proxima_nova_cn_rgregular';
+  src: url("../fonts/proximanovacond-regular.eot");
+  src: url("../fonts/proximanovacond-regular.eot?#iefix") format("embedded-opentype"), url("../fonts/proximanovacond-regular.woff2") format("woff2"), url("../fonts/proximanovacond-regular.woff") format("woff"), url("../fonts/proximanovacond-regular.ttf") format("truetype"), url("../fonts/proximanovacond-regular.svg#proxima_nova_cn_rgregular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'proxima_novalight';
+  src: url("../fonts/proximanova-light.eot");
+  src: url("../fonts/proximanova-light.eot?#iefix") format("embedded-opentype"), url("../fonts/proximanova-light.woff2") format("woff2"), url("../fonts/proximanova-light.woff") format("woff"), url("../fonts/proximanova-light.ttf") format("truetype"), url("../fonts/proximanova-light.svg#proxima_novalight") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: pragmatica-el;
+  src: url(../fonts/pragmatica-extralight-v2.eot);
+  src: url(../fonts/pragmatica-extralight-v2.eot?#iefix) format("embedded-opentype"), url(../fonts/pragmatica-extralight-v2.woff) format("woff"), url(../fonts/pragmatica-extralight-v2.ttf) format("truetype");
+  font-weight: 100;
+  font-style: normal;
+}
+@font-face {
+  font-family: pragmatica;
+  src: url(../fonts/pragmatica-light-v2.eot);
+  src: url(../fonts/pragmatica-light-v2.eot?#iefix) format("embedded-opentype"), url(../fonts/pragmatica-light-v2.woff) format("woff"), url(../fonts/pragmatica-light-v2.ttf) format("truetype");
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: pragmatica;
+  src: url(../fonts/pragmatica-regular-v2.eot);
+  src: url(../fonts/pragmatica-regular-v2.eot?#iefix) format("embedded-opentype"), url(../fonts/pragmatica-regular-v2.woff) format("woff"), url(../fonts/pragmatica-regular-v2.ttf) format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: pragmatica;
+  src: url(../fonts/pragmatica-medium-v2.eot);
+  src: url(../fonts/pragmatica-medium-v2.eot?#iefix) format("embedded-opentype"), url(../fonts/pragmatica-medium-v2.woff) format("woff"), url(../fonts/pragmatica-medium-v2.ttf) format("truetype");
+  font-weight: 600;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Glyphicons Halflings';
+  src: url("../fonts/glyphicons-halflings-regular.eot");
+  src: url("../fonts/glyphicons-halflings-regular.eot?#iefix") format("embedded-opentype"), url("../fonts/glyphicons-halflings-regular.woff2") format("woff2"), url("../fonts/glyphicons-halflings-regular.woff") format("woff"), url("../fonts/glyphicons-halflings-regular.ttf") format("truetype"), url("../fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular") format("svg");
+}
+/* line 3, ../../dev/pages/single_brand_page/single_brand_page.scss */
+.single_brand .main_menu_wrap {
+  margin-top: 5.33333em;
+}
+/* line 6, ../../dev/pages/single_brand_page/single_brand_page.scss */
+.single_brand .main_title {
+  margin-top: 2.85185em;
+}
+
+/* line 12, ../../dev/pages/single_brand_page/single_brand_page.scss */
+.brand_news .btn_wrap {
+  bottom: -1.46667em;
+  height: 2.93333em;
+}
+/* line 16, ../../dev/pages/single_brand_page/single_brand_page.scss */
+.brand_news .btn_big_rounded_wrap {
+  height: 100%;
+}
+/* line 19, ../../dev/pages/single_brand_page/single_brand_page.scss */
+.brand_news .btn_big_rounded_wrap .btn.btn_big_rounded {
+  line-height: 3.14286em;
+  height: 100%;
+}
+/* line 22, ../../dev/pages/single_brand_page/single_brand_page.scss */
+.brand_news .btn_big_rounded_wrap .btn.btn_big_rounded .ico_edit {
+  left: -0.57143em;
+}
+/* line 25, ../../dev/pages/single_brand_page/single_brand_page.scss */
+.brand_news .btn_big_rounded_wrap .btn.btn_big_rounded .ico_add {
+  left: -0.42857em;
+}
+/* line 30, ../../dev/pages/single_brand_page/single_brand_page.scss */
+.brand_news .btn_big_rounded_wrap:first-child {
+  width: 20.61995%;
+}
+/* line 33, ../../dev/pages/single_brand_page/single_brand_page.scss */
+.brand_news .btn_big_rounded_wrap.pos_right {
+  width: 22.91105%;
+}
+
+@font-face {
+  font-family: 'Brandon Grotesque';
+  src: url("../fonts/brandon_bld.eot");
+  src: url("../fonts/brandon_bld.eot?#iefix") format("embedded-opentype"), url("../fonts/brandon_bld.woff2") format("woff2"), url("../fonts/brandon_bld.woff") format("woff"), url("../fonts/brandon_bld.ttf") format("truetype"), url("../fonts/brandon_bld.svg#brandon_grotesquebold") format("svg");
+  font-weight: 800;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Brandon Grotesque';
+  src: url("../fonts/brandon_med.eot");
+  src: url("../fonts/brandon_med.eot?#iefix") format("embedded-opentype"), url("../fonts/brandon_med.woff2") format("woff2"), url("../fonts/brandon_med.woff") format("woff"), url("../fonts/brandon_med.ttf") format("truetype"), url("../fonts/brandon_med.svg#brandon_grotesquemedium") format("svg");
+  font-weight: 600;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Brandon Grotesque';
+  src: url("../fonts/brandon_reg.eot");
+  src: url("../fonts/brandon_reg.eot?#iefix") format("embedded-opentype"), url("../fonts/brandon_reg.woff2") format("woff2"), url("../fonts/brandon_reg.woff") format("woff"), url("../fonts/brandon_reg.ttf") format("truetype"), url("../fonts/brandon_reg.svg#brandon_grotesque_regularRg") format("svg");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'proxima_nova_cn_rgregular';
+  src: url("../fonts/proximanovacond-regular.eot");
+  src: url("../fonts/proximanovacond-regular.eot?#iefix") format("embedded-opentype"), url("../fonts/proximanovacond-regular.woff2") format("woff2"), url("../fonts/proximanovacond-regular.woff") format("woff"), url("../fonts/proximanovacond-regular.ttf") format("truetype"), url("../fonts/proximanovacond-regular.svg#proxima_nova_cn_rgregular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'proxima_novalight';
+  src: url("../fonts/proximanova-light.eot");
+  src: url("../fonts/proximanova-light.eot?#iefix") format("embedded-opentype"), url("../fonts/proximanova-light.woff2") format("woff2"), url("../fonts/proximanova-light.woff") format("woff"), url("../fonts/proximanova-light.ttf") format("truetype"), url("../fonts/proximanova-light.svg#proxima_novalight") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: pragmatica-el;
+  src: url(../fonts/pragmatica-extralight-v2.eot);
+  src: url(../fonts/pragmatica-extralight-v2.eot?#iefix) format("embedded-opentype"), url(../fonts/pragmatica-extralight-v2.woff) format("woff"), url(../fonts/pragmatica-extralight-v2.ttf) format("truetype");
+  font-weight: 100;
+  font-style: normal;
+}
+@font-face {
+  font-family: pragmatica;
+  src: url(../fonts/pragmatica-light-v2.eot);
+  src: url(../fonts/pragmatica-light-v2.eot?#iefix) format("embedded-opentype"), url(../fonts/pragmatica-light-v2.woff) format("woff"), url(../fonts/pragmatica-light-v2.ttf) format("truetype");
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: pragmatica;
+  src: url(../fonts/pragmatica-regular-v2.eot);
+  src: url(../fonts/pragmatica-regular-v2.eot?#iefix) format("embedded-opentype"), url(../fonts/pragmatica-regular-v2.woff) format("woff"), url(../fonts/pragmatica-regular-v2.ttf) format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: pragmatica;
+  src: url(../fonts/pragmatica-medium-v2.eot);
+  src: url(../fonts/pragmatica-medium-v2.eot?#iefix) format("embedded-opentype"), url(../fonts/pragmatica-medium-v2.woff) format("woff"), url(../fonts/pragmatica-medium-v2.ttf) format("truetype");
+  font-weight: 600;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Glyphicons Halflings';
+  src: url("../fonts/glyphicons-halflings-regular.eot");
+  src: url("../fonts/glyphicons-halflings-regular.eot?#iefix") format("embedded-opentype"), url("../fonts/glyphicons-halflings-regular.woff2") format("woff2"), url("../fonts/glyphicons-halflings-regular.woff") format("woff"), url("../fonts/glyphicons-halflings-regular.ttf") format("truetype"), url("../fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular") format("svg");
+}
+/* line 3, ../../dev/pages/toolbox/toolbox.scss */
+.toolbox_wrap .main_title {
+  font-size: 1.8em;
+  width: 54.20054%;
+  margin-top: 2.22222em;
+}
+/* line 8, ../../dev/pages/toolbox/toolbox.scss */
+.toolbox_wrap .content_wrap {
+  margin-top: 4em;
+}
+
+/* line 13, ../../dev/pages/toolbox/toolbox.scss */
+.content_wrap {
+  padding-bottom: 10.13333em;
+}
+
+/* line 17, ../../dev/pages/toolbox/toolbox.scss */
+.brand_edit li {
+  float: left;
+  width: 15.3125%;
+  margin-left: 3.64583%;
+}
+/* line 21, ../../dev/pages/toolbox/toolbox.scss */
+.brand_edit li:first-child {
+  margin-left: 0;
+}
+/* line 25, ../../dev/pages/toolbox/toolbox.scss */
+.brand_edit li .btn.btn_small {
+  width: 100%;
+}
+/* line 31, ../../dev/pages/toolbox/toolbox.scss */
+.brand_edit.btn_wrap {
+  position: absolute;
+  bottom: -6.33333em;
+  overflow: hidden;
+}
+
+/* line 38, ../../dev/pages/toolbox/toolbox.scss */
+.brand_news.edit_brand {
+  padding: 2.2em 0 3.66667em 0;
+}
+/* line 42, ../../dev/pages/toolbox/toolbox.scss */
+.brand_news .btn_big_rounded_wrap:first-child {
+  width: 20.61995%;
+}
+/* line 45, ../../dev/pages/toolbox/toolbox.scss */
+.brand_news .btn_big_rounded_wrap.pos_right {
+  width: 22.91105%;
+}
+
+/* line 50, ../../dev/pages/toolbox/toolbox.scss */
+.brand_news_title {
+  font-size: 1.8em;
+}
+
+/* line 55, ../../dev/pages/toolbox/toolbox.scss */
+.status_wrap .btn_big_rounded {
+  text-transform: uppercase;
+}
+/* line 57, ../../dev/pages/toolbox/toolbox.scss */
+.status_wrap .btn_big_rounded .ico_status {
+  margin-left: 3.33333%;
+}
+/* line 60, ../../dev/pages/toolbox/toolbox.scss */
+.status_wrap .btn_big_rounded .ico_calendar {
+  margin: 0 1.66667% 0 3.33333%;
+}
+
+/* line 66, ../../dev/pages/toolbox/toolbox.scss */
+.calendar_from, .calendar_to {
+  background: none;
+  border: none;
+  display: inline-block;
+  width: 25.13966%;
+  margin-left: 0.83799%;
+  color: #7E8D95;
+  font-weight: 500;
+}
+
+/* line 76, ../../dev/pages/toolbox/toolbox.scss */
+.calendar_to {
+  margin-left: 1.39665%;
+}
+
+@font-face {
+  font-family: 'Brandon Grotesque';
+  src: url("../fonts/brandon_bld.eot");
+  src: url("../fonts/brandon_bld.eot?#iefix") format("embedded-opentype"), url("../fonts/brandon_bld.woff2") format("woff2"), url("../fonts/brandon_bld.woff") format("woff"), url("../fonts/brandon_bld.ttf") format("truetype"), url("../fonts/brandon_bld.svg#brandon_grotesquebold") format("svg");
+  font-weight: 800;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Brandon Grotesque';
+  src: url("../fonts/brandon_med.eot");
+  src: url("../fonts/brandon_med.eot?#iefix") format("embedded-opentype"), url("../fonts/brandon_med.woff2") format("woff2"), url("../fonts/brandon_med.woff") format("woff"), url("../fonts/brandon_med.ttf") format("truetype"), url("../fonts/brandon_med.svg#brandon_grotesquemedium") format("svg");
+  font-weight: 600;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Brandon Grotesque';
+  src: url("../fonts/brandon_reg.eot");
+  src: url("../fonts/brandon_reg.eot?#iefix") format("embedded-opentype"), url("../fonts/brandon_reg.woff2") format("woff2"), url("../fonts/brandon_reg.woff") format("woff"), url("../fonts/brandon_reg.ttf") format("truetype"), url("../fonts/brandon_reg.svg#brandon_grotesque_regularRg") format("svg");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'proxima_nova_cn_rgregular';
+  src: url("../fonts/proximanovacond-regular.eot");
+  src: url("../fonts/proximanovacond-regular.eot?#iefix") format("embedded-opentype"), url("../fonts/proximanovacond-regular.woff2") format("woff2"), url("../fonts/proximanovacond-regular.woff") format("woff"), url("../fonts/proximanovacond-regular.ttf") format("truetype"), url("../fonts/proximanovacond-regular.svg#proxima_nova_cn_rgregular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'proxima_novalight';
+  src: url("../fonts/proximanova-light.eot");
+  src: url("../fonts/proximanova-light.eot?#iefix") format("embedded-opentype"), url("../fonts/proximanova-light.woff2") format("woff2"), url("../fonts/proximanova-light.woff") format("woff"), url("../fonts/proximanova-light.ttf") format("truetype"), url("../fonts/proximanova-light.svg#proxima_novalight") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: pragmatica-el;
+  src: url(../fonts/pragmatica-extralight-v2.eot);
+  src: url(../fonts/pragmatica-extralight-v2.eot?#iefix) format("embedded-opentype"), url(../fonts/pragmatica-extralight-v2.woff) format("woff"), url(../fonts/pragmatica-extralight-v2.ttf) format("truetype");
+  font-weight: 100;
+  font-style: normal;
+}
+@font-face {
+  font-family: pragmatica;
+  src: url(../fonts/pragmatica-light-v2.eot);
+  src: url(../fonts/pragmatica-light-v2.eot?#iefix) format("embedded-opentype"), url(../fonts/pragmatica-light-v2.woff) format("woff"), url(../fonts/pragmatica-light-v2.ttf) format("truetype");
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: pragmatica;
+  src: url(../fonts/pragmatica-regular-v2.eot);
+  src: url(../fonts/pragmatica-regular-v2.eot?#iefix) format("embedded-opentype"), url(../fonts/pragmatica-regular-v2.woff) format("woff"), url(../fonts/pragmatica-regular-v2.ttf) format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: pragmatica;
+  src: url(../fonts/pragmatica-medium-v2.eot);
+  src: url(../fonts/pragmatica-medium-v2.eot?#iefix) format("embedded-opentype"), url(../fonts/pragmatica-medium-v2.woff) format("woff"), url(../fonts/pragmatica-medium-v2.ttf) format("truetype");
+  font-weight: 600;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Glyphicons Halflings';
+  src: url("../fonts/glyphicons-halflings-regular.eot");
+  src: url("../fonts/glyphicons-halflings-regular.eot?#iefix") format("embedded-opentype"), url("../fonts/glyphicons-halflings-regular.woff2") format("woff2"), url("../fonts/glyphicons-halflings-regular.woff") format("woff"), url("../fonts/glyphicons-halflings-regular.ttf") format("truetype"), url("../fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular") format("svg");
+}
+/* line 4, ../../dev/pages/toolbox_changes_approval/toolbox_changes_approval.scss */
+.left {
+  float: left;
+}
+
+/* line 7, ../../dev/pages/toolbox_changes_approval/toolbox_changes_approval.scss */
+.right {
+  float: right;
+  overflow: hidden;
+}
+
+/* line 12, ../../dev/pages/toolbox_changes_approval/toolbox_changes_approval.scss */
+.container {
+  position: relative;
+  border-bottom: 1px solid #cecfd0;
+  overflow: hidden;
+  height: 100%;
+}
+/* line 17, ../../dev/pages/toolbox_changes_approval/toolbox_changes_approval.scss */
+.container:after, .container:before {
+  content: '';
+  position: absolute;
+  width: 50%;
+  height: 100%;
+  top: 0;
+  bottom: 0;
+  z-index: 1;
+}
+/* line 26, ../../dev/pages/toolbox_changes_approval/toolbox_changes_approval.scss */
+.container:before {
+  background: #fff;
+  left: 0;
+}
+/* line 30, ../../dev/pages/toolbox_changes_approval/toolbox_changes_approval.scss */
+.container:after {
+  background: #F7F7F9;
+  right: 0;
+}
+
+/* line 35, ../../dev/pages/toolbox_changes_approval/toolbox_changes_approval.scss */
+.block_change {
+  padding: 4em 0;
+}
+/* line 37, ../../dev/pages/toolbox_changes_approval/toolbox_changes_approval.scss */
+.block_change textarea {
+  width: 100%;
+  height: 9.5em;
+  padding: 0.8em 1.35501%;
+  margin: 4em 0 2em;
+}
+/* line 43, ../../dev/pages/toolbox_changes_approval/toolbox_changes_approval.scss */
+.block_change .btn.btn-default {
+  width: 23.03523%;
+}
+/* line 45, ../../dev/pages/toolbox_changes_approval/toolbox_changes_approval.scss */
+.block_change .btn.btn-default.second {
+  margin-left: 5.42005%;
+}
+
+/* line 50, ../../dev/pages/toolbox_changes_approval/toolbox_changes_approval.scss */
+.left, .right {
+  width: 50%;
+  height: 100%;
+  padding: 2em 2.71003%;
+  z-index: 2;
+  position: relative;
+}
+/* line 56, ../../dev/pages/toolbox_changes_approval/toolbox_changes_approval.scss */
+.left .main_title.main_title_actives, .right .main_title.main_title_actives {
+  width: 100%;
+  text-align: left;
+  margin-top: 0;
+}
+/* line 61, ../../dev/pages/toolbox_changes_approval/toolbox_changes_approval.scss */
+.left .brand_news_title, .right .brand_news_title {
+  margin: 2em 0;
+}
+/* line 63, ../../dev/pages/toolbox_changes_approval/toolbox_changes_approval.scss */
+.left .brand_news_title.second, .right .brand_news_title.second {
+  margin: 1.66667em 0;
+}
+/* line 67, ../../dev/pages/toolbox_changes_approval/toolbox_changes_approval.scss */
+.left .toolbox, .right .toolbox {
+  border: 1px solid #cecfd0;
+  -moz-border-radius: 6px;
+  -webkit-border-radius: 6px;
+  border-radius: 6px;
+  height: 18.8em;
+  width: 90.2439%;
+  padding: 0.86667em 4.06504%;
+  background: #fff;
+}
+/* line 74, ../../dev/pages/toolbox_changes_approval/toolbox_changes_approval.scss */
+.left .toolbox div, .right .toolbox div {
+  background: #dcdcdc;
+  text-align: center;
+  vertical-align: middle;
+  width: 100%;
+  height: 100%;
+  padding: 8em 0;
+}
+/* line 81, ../../dev/pages/toolbox_changes_approval/toolbox_changes_approval.scss */
+.left .toolbox div img, .right .toolbox div img {
+  margin: auto;
+}
+/* line 86, ../../dev/pages/toolbox_changes_approval/toolbox_changes_approval.scss */
+.left .text, .right .text {
+  color: #909294;
+  line-height: 1.53333em;
+}
+/* line 90, ../../dev/pages/toolbox_changes_approval/toolbox_changes_approval.scss */
+.left .text.for_approval, .right .text.for_approval {
+  color: #b70e12;
+}
+/* line 94, ../../dev/pages/toolbox_changes_approval/toolbox_changes_approval.scss */
+.left .btn.btn-default, .right .btn.btn-default {
+  width: 54.20054%;
+  margin: 3em 0;
+}
+
+/* line 99, ../../dev/pages/toolbox_changes_approval/toolbox_changes_approval.scss */
+.activities_changes_approval_list_info {
+  margin-top: 2em;
+}
+/* line 101, ../../dev/pages/toolbox_changes_approval/toolbox_changes_approval.scss */
+.activities_changes_approval_list_info > li {
+  overflow: hidden;
+}
+/* line 103, ../../dev/pages/toolbox_changes_approval/toolbox_changes_approval.scss */
+.activities_changes_approval_list_info > li .profile_title {
+  width: 10.0271%;
+}
+/* line 105, ../../dev/pages/toolbox_changes_approval/toolbox_changes_approval.scss */
+.activities_changes_approval_list_info > li .profile_title .profile_text {
+  margin-top: 0.38095em;
+  margin-left: 0;
+}
+/* line 110, ../../dev/pages/toolbox_changes_approval/toolbox_changes_approval.scss */
+.activities_changes_approval_list_info > li .profile_text {
+  margin: 0 0 0 9.48509%;
+  width: 79.9458%;
+}
+@media (max-width: 768px) {
+  /* line 110, ../../dev/pages/toolbox_changes_approval/toolbox_changes_approval.scss */
+  .activities_changes_approval_list_info > li .profile_text {
+    margin: -0.26667em 0 0 5.48509%;
+  }
+}
+
+@font-face {
+  font-family: 'Brandon Grotesque';
+  src: url("../fonts/brandon_bld.eot");
+  src: url("../fonts/brandon_bld.eot?#iefix") format("embedded-opentype"), url("../fonts/brandon_bld.woff2") format("woff2"), url("../fonts/brandon_bld.woff") format("woff"), url("../fonts/brandon_bld.ttf") format("truetype"), url("../fonts/brandon_bld.svg#brandon_grotesquebold") format("svg");
+  font-weight: 800;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Brandon Grotesque';
+  src: url("../fonts/brandon_med.eot");
+  src: url("../fonts/brandon_med.eot?#iefix") format("embedded-opentype"), url("../fonts/brandon_med.woff2") format("woff2"), url("../fonts/brandon_med.woff") format("woff"), url("../fonts/brandon_med.ttf") format("truetype"), url("../fonts/brandon_med.svg#brandon_grotesquemedium") format("svg");
+  font-weight: 600;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Brandon Grotesque';
+  src: url("../fonts/brandon_reg.eot");
+  src: url("../fonts/brandon_reg.eot?#iefix") format("embedded-opentype"), url("../fonts/brandon_reg.woff2") format("woff2"), url("../fonts/brandon_reg.woff") format("woff"), url("../fonts/brandon_reg.ttf") format("truetype"), url("../fonts/brandon_reg.svg#brandon_grotesque_regularRg") format("svg");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'proxima_nova_cn_rgregular';
+  src: url("../fonts/proximanovacond-regular.eot");
+  src: url("../fonts/proximanovacond-regular.eot?#iefix") format("embedded-opentype"), url("../fonts/proximanovacond-regular.woff2") format("woff2"), url("../fonts/proximanovacond-regular.woff") format("woff"), url("../fonts/proximanovacond-regular.ttf") format("truetype"), url("../fonts/proximanovacond-regular.svg#proxima_nova_cn_rgregular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'proxima_novalight';
+  src: url("../fonts/proximanova-light.eot");
+  src: url("../fonts/proximanova-light.eot?#iefix") format("embedded-opentype"), url("../fonts/proximanova-light.woff2") format("woff2"), url("../fonts/proximanova-light.woff") format("woff"), url("../fonts/proximanova-light.ttf") format("truetype"), url("../fonts/proximanova-light.svg#proxima_novalight") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: pragmatica-el;
+  src: url(../fonts/pragmatica-extralight-v2.eot);
+  src: url(../fonts/pragmatica-extralight-v2.eot?#iefix) format("embedded-opentype"), url(../fonts/pragmatica-extralight-v2.woff) format("woff"), url(../fonts/pragmatica-extralight-v2.ttf) format("truetype");
+  font-weight: 100;
+  font-style: normal;
+}
+@font-face {
+  font-family: pragmatica;
+  src: url(../fonts/pragmatica-light-v2.eot);
+  src: url(../fonts/pragmatica-light-v2.eot?#iefix) format("embedded-opentype"), url(../fonts/pragmatica-light-v2.woff) format("woff"), url(../fonts/pragmatica-light-v2.ttf) format("truetype");
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: pragmatica;
+  src: url(../fonts/pragmatica-regular-v2.eot);
+  src: url(../fonts/pragmatica-regular-v2.eot?#iefix) format("embedded-opentype"), url(../fonts/pragmatica-regular-v2.woff) format("woff"), url(../fonts/pragmatica-regular-v2.ttf) format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: pragmatica;
+  src: url(../fonts/pragmatica-medium-v2.eot);
+  src: url(../fonts/pragmatica-medium-v2.eot?#iefix) format("embedded-opentype"), url(../fonts/pragmatica-medium-v2.woff) format("woff"), url(../fonts/pragmatica-medium-v2.ttf) format("truetype");
+  font-weight: 600;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Glyphicons Halflings';
+  src: url("../fonts/glyphicons-halflings-regular.eot");
+  src: url("../fonts/glyphicons-halflings-regular.eot?#iefix") format("embedded-opentype"), url("../fonts/glyphicons-halflings-regular.woff2") format("woff2"), url("../fonts/glyphicons-halflings-regular.woff") format("woff"), url("../fonts/glyphicons-halflings-regular.ttf") format("truetype"), url("../fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular") format("svg");
+}
+/* line 2, ../../dev/pages/toolbox_edit/toolbox_edit.scss */
+.toolbox_edit_btn_wrap {
+  margin-top: 2.66667em;
+}
+/* line 4, ../../dev/pages/toolbox_edit/toolbox_edit.scss */
+.toolbox_edit_btn_wrap .btn {
+  margin-left: 4.06504%;
+}
+/* line 6, ../../dev/pages/toolbox_edit/toolbox_edit.scss */
+.toolbox_edit_btn_wrap .btn:first-child {
+  margin-left: 0;
+}
+
+/* line 13, ../../dev/pages/toolbox_edit/toolbox_edit.scss */
+.toolbox_edit .select_wrap {
+  width: 39.43089%;
+}
+/* line 17, ../../dev/pages/toolbox_edit/toolbox_edit.scss */
+.toolbox_edit .select_wrap .select2-container .select2-selection--single .select2-selection__rendered {
+  padding: 0 6.87285% 0 4.811%;
+  font-weight: 600;
+}
+/* line 24, ../../dev/pages/toolbox_edit/toolbox_edit.scss */
+.toolbox_edit .select_wrap .select2-container.select2-container--default .select2-selection--single .select2-selection__arrow {
+  width: 6.87285%;
+}
+/* line 26, ../../dev/pages/toolbox_edit/toolbox_edit.scss */
+.toolbox_edit .select_wrap .select2-container.select2-container--default .select2-selection--single .select2-selection__arrow b {
+  border-width: 5px 5px 0 5px;
+}
+/* line 34, ../../dev/pages/toolbox_edit/toolbox_edit.scss */
+.toolbox_edit .select_wrap .select2-container.select2-container--default.select2-container--open .select2-selection--single .select2-selection__arrow b {
+  border-width: 0 5px 5px 5px;
+}
+/* line 43, ../../dev/pages/toolbox_edit/toolbox_edit.scss */
+.toolbox_edit .toolbox_edit_title {
+  margin: 1.40741em 0 2.03704em;
+}
+
+/* line 48, ../../dev/pages/toolbox_edit/toolbox_edit.scss */
+.toolbox_edit_list li {
+  border-top: 1px solid #ededee;
+  padding: 2.33333em 0 0;
+  margin: 2.93333em 0;
+}
+/* line 52, ../../dev/pages/toolbox_edit/toolbox_edit.scss */
+.toolbox_edit_list li .main_title {
+  margin: 0.25926em 0 0.96296em;
+  text-transform: none;
+}
+/* line 57, ../../dev/pages/toolbox_edit/toolbox_edit.scss */
+.toolbox_edit_list li .brand_news_textarea.indent-top {
+  margin-top: 3.33333em;
+}
+
+/* line 63, ../../dev/pages/toolbox_edit/toolbox_edit.scss */
+.select2-results__option {
+  padding-left: 0.93333em;
+  padding-right: 1.33333em;
+}
+
+@font-face {
+  font-family: 'Brandon Grotesque';
+  src: url("../fonts/brandon_bld.eot");
+  src: url("../fonts/brandon_bld.eot?#iefix") format("embedded-opentype"), url("../fonts/brandon_bld.woff2") format("woff2"), url("../fonts/brandon_bld.woff") format("woff"), url("../fonts/brandon_bld.ttf") format("truetype"), url("../fonts/brandon_bld.svg#brandon_grotesquebold") format("svg");
+  font-weight: 800;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Brandon Grotesque';
+  src: url("../fonts/brandon_med.eot");
+  src: url("../fonts/brandon_med.eot?#iefix") format("embedded-opentype"), url("../fonts/brandon_med.woff2") format("woff2"), url("../fonts/brandon_med.woff") format("woff"), url("../fonts/brandon_med.ttf") format("truetype"), url("../fonts/brandon_med.svg#brandon_grotesquemedium") format("svg");
+  font-weight: 600;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Brandon Grotesque';
+  src: url("../fonts/brandon_reg.eot");
+  src: url("../fonts/brandon_reg.eot?#iefix") format("embedded-opentype"), url("../fonts/brandon_reg.woff2") format("woff2"), url("../fonts/brandon_reg.woff") format("woff"), url("../fonts/brandon_reg.ttf") format("truetype"), url("../fonts/brandon_reg.svg#brandon_grotesque_regularRg") format("svg");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'proxima_nova_cn_rgregular';
+  src: url("../fonts/proximanovacond-regular.eot");
+  src: url("../fonts/proximanovacond-regular.eot?#iefix") format("embedded-opentype"), url("../fonts/proximanovacond-regular.woff2") format("woff2"), url("../fonts/proximanovacond-regular.woff") format("woff"), url("../fonts/proximanovacond-regular.ttf") format("truetype"), url("../fonts/proximanovacond-regular.svg#proxima_nova_cn_rgregular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'proxima_novalight';
+  src: url("../fonts/proximanova-light.eot");
+  src: url("../fonts/proximanova-light.eot?#iefix") format("embedded-opentype"), url("../fonts/proximanova-light.woff2") format("woff2"), url("../fonts/proximanova-light.woff") format("woff"), url("../fonts/proximanova-light.ttf") format("truetype"), url("../fonts/proximanova-light.svg#proxima_novalight") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: pragmatica-el;
+  src: url(../fonts/pragmatica-extralight-v2.eot);
+  src: url(../fonts/pragmatica-extralight-v2.eot?#iefix) format("embedded-opentype"), url(../fonts/pragmatica-extralight-v2.woff) format("woff"), url(../fonts/pragmatica-extralight-v2.ttf) format("truetype");
+  font-weight: 100;
+  font-style: normal;
+}
+@font-face {
+  font-family: pragmatica;
+  src: url(../fonts/pragmatica-light-v2.eot);
+  src: url(../fonts/pragmatica-light-v2.eot?#iefix) format("embedded-opentype"), url(../fonts/pragmatica-light-v2.woff) format("woff"), url(../fonts/pragmatica-light-v2.ttf) format("truetype");
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: pragmatica;
+  src: url(../fonts/pragmatica-regular-v2.eot);
+  src: url(../fonts/pragmatica-regular-v2.eot?#iefix) format("embedded-opentype"), url(../fonts/pragmatica-regular-v2.woff) format("woff"), url(../fonts/pragmatica-regular-v2.ttf) format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: pragmatica;
+  src: url(../fonts/pragmatica-medium-v2.eot);
+  src: url(../fonts/pragmatica-medium-v2.eot?#iefix) format("embedded-opentype"), url(../fonts/pragmatica-medium-v2.woff) format("woff"), url(../fonts/pragmatica-medium-v2.ttf) format("truetype");
+  font-weight: 600;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Glyphicons Halflings';
+  src: url("../fonts/glyphicons-halflings-regular.eot");
+  src: url("../fonts/glyphicons-halflings-regular.eot?#iefix") format("embedded-opentype"), url("../fonts/glyphicons-halflings-regular.woff2") format("woff2"), url("../fonts/glyphicons-halflings-regular.woff") format("woff"), url("../fonts/glyphicons-halflings-regular.ttf") format("truetype"), url("../fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular") format("svg");
+}
+/* line 4, ../../dev/pages/tutorial/tutorial.scss */
+.main_title_actives {
+  margin-bottom: 4.44444em;
+}
+
+/* line 8, ../../dev/pages/tutorial/tutorial.scss */
+.tutorial_heading {
+  border-bottom: 1px solid #CECFD0;
+  position: relative;
+}
+/* line 11, ../../dev/pages/tutorial/tutorial.scss */
+.tutorial_heading .btn_wrap {
+  width: 849px;
+  max-width: 76.875%;
+  height: 3.33333em;
+  margin: 0 auto;
+  position: absolute;
+  bottom: -1.86667em;
+}
+/* line 19, ../../dev/pages/tutorial/tutorial.scss */
+.tutorial_heading .btn_big_rounded_wrap {
+  display: inline-block;
+  background-color: #fff;
+  width: 14.55em;
+  height: 3.57143em;
+  position: absolute;
+  bottom: 0;
+}
+/* line 27, ../../dev/pages/tutorial/tutorial.scss */
+.tutorial_heading .btn_big_rounded_wrap.pos_left {
+  left: 0;
+}
+
+/* line 32, ../../dev/pages/tutorial/tutorial.scss */
+.tutorial_documents {
+  margin: 2.8em auto 0 auto;
+  width: 738px;
+}
+@media (max-width: 768px) {
+  /* line 32, ../../dev/pages/tutorial/tutorial.scss */
+  .tutorial_documents {
+    width: 100%;
+    margin: 60px auto 0 auto;
+  }
+}
+/* line 41, ../../dev/pages/tutorial/tutorial.scss */
+.tutorial_documents .wrap {
+  *zoom: 1;
+}
+/* line 41, ../../dev/sass/base/utils/_mixins.scss */
+.tutorial_documents .wrap:before, .tutorial_documents .wrap:after {
+  content: ' ';
+  display: table;
+}
+/* line 46, ../../dev/sass/base/utils/_mixins.scss */
+.tutorial_documents .wrap:after {
+  clear: both;
+}
+
+/* line 45, ../../dev/pages/tutorial/tutorial.scss */
+.container {
+  margin-left: -27px;
+  margin-right: -27px;
+  *zoom: 1;
+}
+/* line 41, ../../dev/sass/base/utils/_mixins.scss */
+.container:before, .container:after {
+  content: ' ';
+  display: table;
+}
+/* line 46, ../../dev/sass/base/utils/_mixins.scss */
+.container:after {
+  clear: both;
+}
+@media (max-width: 768px) {
+  /* line 45, ../../dev/pages/tutorial/tutorial.scss */
+  .container {
+    margin-right: 0;
+  }
+}
+
+/* line 54, ../../dev/pages/tutorial/tutorial.scss */
+.document {
+  float: left;
+  width: 50%;
+  padding: 0 27px;
+  margin-bottom: 12em;
+}
+@media (max-width: 768px) {
+  /* line 54, ../../dev/pages/tutorial/tutorial.scss */
+  .document {
+    width: 100%;
+    margin-bottom: 5em;
+  }
+  /* line 64, ../../dev/pages/tutorial/tutorial.scss */
+  .document:last-child {
+    margin-bottom: 0;
+  }
+}
+/* line 69, ../../dev/pages/tutorial/tutorial.scss */
+.document:nth-child(odd) {
+  clear: left;
+}
+/* line 72, ../../dev/pages/tutorial/tutorial.scss */
+.document .manage, .document .description {
+  float: left;
+}
+/* line 75, ../../dev/pages/tutorial/tutorial.scss */
+.document .manage {
+  width: 19.84585741811175%;
+  padding-right: 10px;
+}
+@media (max-width: 768px) {
+  /* line 75, ../../dev/pages/tutorial/tutorial.scss */
+  .document .manage {
+    text-align: center;
+  }
+}
+/* line 83, ../../dev/pages/tutorial/tutorial.scss */
+.document .manage .rounded_image {
+  width: 100%;
+  max-width: 80px;
+  height: auto;
+}
+/* line 88, ../../dev/pages/tutorial/tutorial.scss */
+.document .manage .sprite_ico {
+  display: block;
+  margin: 16px auto 0 auto;
+}
+/* line 94, ../../dev/pages/tutorial/tutorial.scss */
+.document .description {
+  width: 80.15414258188825%;
+}
+/* line 96, ../../dev/pages/tutorial/tutorial.scss */
+.document .description h2 {
+  color: #4D4D4D;
+  font-weight: 400;
+  font-size: 1.06667em;
+  margin-bottom: 1.5em;
+}
+/* line 101, ../../dev/pages/tutorial/tutorial.scss */
+.document .description h2 small {
+  display: block;
+}
+/* line 105, ../../dev/pages/tutorial/tutorial.scss */
+.document .description p {
+  color: #5A636E;
+  font-size: 0.93333em;
+  line-height: 1.85714em;
+  font-weight: 400;
+}
+
+/* line 4, ../../dev/pages/ui_elements/CAS_UI_elements.scss */
+.ui_list li .btn.btn-default {
+  width: 100%;
 }

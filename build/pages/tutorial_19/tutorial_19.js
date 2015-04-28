@@ -1,1 +1,0 @@
-console.log("asd"),$(document).ready(function(){$("body").on("click",".js-basket",function(a){a.preventDefault(),$(this).closest(".block").remove()})});
