@@ -67,18 +67,24 @@
   src: url("../fonts/glyphicons-halflings-regular.eot?#iefix") format("embedded-opentype"), url("../fonts/glyphicons-halflings-regular.woff2") format("woff2"), url("../fonts/glyphicons-halflings-regular.woff") format("woff"), url("../fonts/glyphicons-halflings-regular.ttf") format("truetype"), url("../fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular") format("svg");
 }
 /* line 5, ../../../dev/pages/tutorial_19/tutorial_19.scss */
+.block .file_size {
+  float: none;
+  width: auto;
+}
+
+/* line 12, ../../../dev/pages/tutorial_19/tutorial_19.scss */
 .activies_page_wrap .content_wrap, .activies_page_wrap .wrap_block {
   margin-top: 4em;
 }
-/* line 8, ../../../dev/pages/tutorial_19/tutorial_19.scss */
+/* line 15, ../../../dev/pages/tutorial_19/tutorial_19.scss */
 .activies_page_wrap .status_wrap {
   width: 50.1355%;
 }
-/* line 10, ../../../dev/pages/tutorial_19/tutorial_19.scss */
+/* line 17, ../../../dev/pages/tutorial_19/tutorial_19.scss */
 .activies_page_wrap .status_wrap .valid {
   font-weight: 500;
 }
-/* line 14, ../../../dev/pages/tutorial_19/tutorial_19.scss */
+/* line 21, ../../../dev/pages/tutorial_19/tutorial_19.scss */
 .activies_page_wrap .block_img {
   border: 1px solid #cecfd0;
   -moz-border-radius: 4px;
@@ -88,39 +94,39 @@
   width: 100%;
   display: block;
 }
-/* line 23, ../../../dev/pages/tutorial_19/tutorial_19.scss */
+/* line 30, ../../../dev/pages/tutorial_19/tutorial_19.scss */
 .activies_page_wrap .block_img img {
   max-width: 100%;
 }
-/* line 27, ../../../dev/pages/tutorial_19/tutorial_19.scss */
+/* line 34, ../../../dev/pages/tutorial_19/tutorial_19.scss */
 .activies_page_wrap .description textarea {
   width: 100%;
   height: 9.73333em;
 }
-/* line 33, ../../../dev/pages/tutorial_19/tutorial_19.scss */
+/* line 40, ../../../dev/pages/tutorial_19/tutorial_19.scss */
 .activies_page_wrap .brand_news_toolbax_list {
   width: 40.1084%;
   height: 18.86667em;
 }
-/* line 36, ../../../dev/pages/tutorial_19/tutorial_19.scss */
+/* line 43, ../../../dev/pages/tutorial_19/tutorial_19.scss */
 .activies_page_wrap .brand_news_toolbax_list li {
   height: 100%;
 }
-/* line 38, ../../../dev/pages/tutorial_19/tutorial_19.scss */
+/* line 45, ../../../dev/pages/tutorial_19/tutorial_19.scss */
 .activies_page_wrap .brand_news_toolbax_list li a {
   height: 100%;
   position: relative;
   border-color: #cecfd0;
   background-color: #f8faf9;
 }
-/* line 43, ../../../dev/pages/tutorial_19/tutorial_19.scss */
+/* line 50, ../../../dev/pages/tutorial_19/tutorial_19.scss */
 .activies_page_wrap .brand_news_toolbax_list li a .btn {
   width: 46.07046%;
   left: 27.5%;
   top: 8em;
   position: absolute;
 }
-/* line 53, ../../../dev/pages/tutorial_19/tutorial_19.scss */
+/* line 60, ../../../dev/pages/tutorial_19/tutorial_19.scss */
 .activies_page_wrap .wrap_block .title {
   font-family: pragmatica,Helvetica,Arial,sans-serif;
   font-weight: 300;
@@ -129,7 +135,7 @@
   color: #000;
   margin-bottom: 1.03704em;
 }
-/* line 61, ../../../dev/pages/tutorial_19/tutorial_19.scss */
+/* line 68, ../../../dev/pages/tutorial_19/tutorial_19.scss */
 .activies_page_wrap .wrap_block p.text {
   font-family: pragmatica,Helvetica,Arial,sans-serif;
   font-weight: 300;
@@ -138,20 +144,20 @@
   color: #45484C;
   letter-spacing: 1px;
 }
-/* line 71, ../../../dev/pages/tutorial_19/tutorial_19.scss */
+/* line 78, ../../../dev/pages/tutorial_19/tutorial_19.scss */
 .activies_page_wrap .content_wrap .btn:nth-last-child(1) {
   margin-bottom: 1px;
 }
-/* line 75, ../../../dev/pages/tutorial_19/tutorial_19.scss */
+/* line 82, ../../../dev/pages/tutorial_19/tutorial_19.scss */
 .activies_page_wrap .attachments_blocks {
   margin-bottom: 4em;
 }
-/* line 78, ../../../dev/pages/tutorial_19/tutorial_19.scss */
+/* line 85, ../../../dev/pages/tutorial_19/tutorial_19.scss */
 .activies_page_wrap .attachments_blocks .block {
   float: left;
   width: 100%;
 }
-/* line 83, ../../../dev/pages/tutorial_19/tutorial_19.scss */
+/* line 90, ../../../dev/pages/tutorial_19/tutorial_19.scss */
 .activies_page_wrap .attachments_blocks .block .icon {
   width: 10.1626%;
   float: left;
@@ -163,84 +169,112 @@
   border: 1px solid transparent;
   position: relative;
   margin-right: 1.5625%;
+  -moz-transition-property: border-color;
+  -o-transition-property: border-color;
+  -webkit-transition-property: border-color;
+  transition-property: border-color;
+  -moz-transition-duration: 0.3s;
+  -o-transition-duration: 0.3s;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -moz-transition-timing-function: ease-out;
+  -o-transition-timing-function: ease-out;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
 }
-/* line 92, ../../../dev/pages/tutorial_19/tutorial_19.scss */
-.activies_page_wrap .attachments_blocks .block .icon:hover {
-  border-color: #42CE7F;
-}
-/* line 95, ../../../dev/pages/tutorial_19/tutorial_19.scss */
+/* line 103, ../../../dev/pages/tutorial_19/tutorial_19.scss */
 .activies_page_wrap .attachments_blocks .block .icon img {
   max-width: 100%;
   margin: 0px auto;
   display: block;
 }
-/* line 100, ../../../dev/pages/tutorial_19/tutorial_19.scss */
+/* line 108, ../../../dev/pages/tutorial_19/tutorial_19.scss */
 .activies_page_wrap .attachments_blocks .block .icon .ico_search {
+  display: block;
   position: absolute;
   top: 1.66667em;
   left: 34.24658%;
-  display: none;
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
+  opacity: 0;
+  z-index: 2;
+  -moz-transition-property: opacity;
+  -o-transition-property: opacity;
+  -webkit-transition-property: opacity;
+  transition-property: opacity;
+  -moz-transition-duration: 0.3s;
+  -o-transition-duration: 0.3s;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -moz-transition-timing-function: ease-out;
+  -o-transition-timing-function: ease-out;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
 }
 @media (max-width: 768px) {
-  /* line 100, ../../../dev/pages/tutorial_19/tutorial_19.scss */
+  /* line 108, ../../../dev/pages/tutorial_19/tutorial_19.scss */
   .activies_page_wrap .attachments_blocks .block .icon .ico_search {
     top: 1.4em;
     left: 32.24658%;
   }
 }
-/* line 111, ../../../dev/pages/tutorial_19/tutorial_19.scss */
-.activies_page_wrap .attachments_blocks .block .icon:hover .ico_search {
-  display: block;
+/* line 126, ../../../dev/pages/tutorial_19/tutorial_19.scss */
+.activies_page_wrap .attachments_blocks .block .icon:hover {
+  border-color: #42CE7F;
 }
-/* line 115, ../../../dev/pages/tutorial_19/tutorial_19.scss */
+/* line 128, ../../../dev/pages/tutorial_19/tutorial_19.scss */
+.activies_page_wrap .attachments_blocks .block .icon:hover .ico_search {
+  filter: progid:DXImageTransform.Microsoft.Alpha(enabled=false);
+  opacity: 1;
+}
+/* line 133, ../../../dev/pages/tutorial_19/tutorial_19.scss */
 .activies_page_wrap .attachments_blocks .block .name {
   float: left;
   width: 80%;
   margin-top: 1em;
   position: relative;
 }
-/* line 120, ../../../dev/pages/tutorial_19/tutorial_19.scss */
+/* line 138, ../../../dev/pages/tutorial_19/tutorial_19.scss */
 .activies_page_wrap .attachments_blocks .block .name a.sprite.sprite_ico.ico_basket {
   margin: -0.13333em 0.67751%;
   position: absolute;
 }
-/* line 125, ../../../dev/pages/tutorial_19/tutorial_19.scss */
+/* line 143, ../../../dev/pages/tutorial_19/tutorial_19.scss */
 .activies_page_wrap .attachments_blocks .block .checkbox {
   display: inline-block;
   position: relative;
   margin-top: 0.66667em;
   color: #45484C;
 }
-/* line 131, ../../../dev/pages/tutorial_19/tutorial_19.scss */
+/* line 149, ../../../dev/pages/tutorial_19/tutorial_19.scss */
 .activies_page_wrap .attachments_blocks .block .checkbox label:before {
   position: absolute;
   left: 0px;
   top: -1px;
 }
-/* line 137, ../../../dev/pages/tutorial_19/tutorial_19.scss */
+/* line 155, ../../../dev/pages/tutorial_19/tutorial_19.scss */
 .activies_page_wrap .attachments_blocks .block textarea {
   width: 100%;
   height: 9.5em;
   padding: 0.8em 1.35501%;
   margin-top: 1.33333em;
 }
-/* line 144, ../../../dev/pages/tutorial_19/tutorial_19.scss */
+/* line 162, ../../../dev/pages/tutorial_19/tutorial_19.scss */
 .activies_page_wrap .attachments_blocks .block_options_draft {
   padding: 4em 0;
   border-top: 1px solid #cecfd0;
   margin-top: 4em;
 }
-/* line 149, ../../../dev/pages/tutorial_19/tutorial_19.scss */
+/* line 167, ../../../dev/pages/tutorial_19/tutorial_19.scss */
 .activies_page_wrap .attachments_blocks .block_options_draft button.btn.btn-default {
   width: 27.10027%;
   overflow: hidden;
 }
-/* line 153, ../../../dev/pages/tutorial_19/tutorial_19.scss */
+/* line 171, ../../../dev/pages/tutorial_19/tutorial_19.scss */
 .activies_page_wrap .attachments_blocks .block_options_draft button.btn.btn-default.center {
   margin-left: 9.48509%;
 }
 @media (max-width: 840px) {
-  /* line 157, ../../../dev/pages/tutorial_19/tutorial_19.scss */
+  /* line 175, ../../../dev/pages/tutorial_19/tutorial_19.scss */
   .activies_page_wrap .attachments_blocks .block_options_draft button.btn.btn-default {
     font-size: 12px;
   }

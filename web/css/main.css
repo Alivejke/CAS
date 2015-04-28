@@ -3808,7 +3808,7 @@ textarea {
 /* line 91, ../../dev/sass/specifics/_titles.scss */
 .profile_title {
   font-size: 0.8em;
-  color: #323a45;
+  color: #909294;
   text-transform: uppercase;
 }
 
@@ -6552,19 +6552,19 @@ textarea {
   font-weight: 300;
   color: #909294;
 }
-/* line 61, c:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/css3/_user-interface.scss */
+/* line 61, c:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-core-1.0.3/stylesheets/compass/css3/_user-interface.scss */
 textarea:-moz-placeholder {
   color: #909294;
 }
-/* line 64, c:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/css3/_user-interface.scss */
+/* line 64, c:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-core-1.0.3/stylesheets/compass/css3/_user-interface.scss */
 textarea::-moz-placeholder {
   color: #909294;
 }
-/* line 67, c:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/css3/_user-interface.scss */
+/* line 67, c:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-core-1.0.3/stylesheets/compass/css3/_user-interface.scss */
 textarea:-ms-input-placeholder {
   color: #909294;
 }
-/* line 56, c:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/css3/_user-interface.scss */
+/* line 56, c:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-core-1.0.3/stylesheets/compass/css3/_user-interface.scss */
 textarea::-webkit-input-placeholder {
   color: #909294;
 }
@@ -7260,19 +7260,19 @@ input.input {
   border: 1px solid #dedfdf;
   color: #8F9BA3;
 }
-/* line 61, c:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/css3/_user-interface.scss */
+/* line 61, c:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-core-1.0.3/stylesheets/compass/css3/_user-interface.scss */
 input.input:-moz-placeholder {
   color: #8F9BA3;
 }
-/* line 64, c:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/css3/_user-interface.scss */
+/* line 64, c:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-core-1.0.3/stylesheets/compass/css3/_user-interface.scss */
 input.input::-moz-placeholder {
   color: #8F9BA3;
 }
-/* line 67, c:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/css3/_user-interface.scss */
+/* line 67, c:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-core-1.0.3/stylesheets/compass/css3/_user-interface.scss */
 input.input:-ms-input-placeholder {
   color: #8F9BA3;
 }
-/* line 56, c:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/css3/_user-interface.scss */
+/* line 56, c:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-core-1.0.3/stylesheets/compass/css3/_user-interface.scss */
 input.input::-webkit-input-placeholder {
   color: #8F9BA3;
 }
@@ -7288,19 +7288,19 @@ input.input.complete {
 input.gray {
   color: #7c7c7c;
 }
-/* line 61, c:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/css3/_user-interface.scss */
+/* line 61, c:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-core-1.0.3/stylesheets/compass/css3/_user-interface.scss */
 input.gray:-moz-placeholder {
   color: #7c7c7c;
 }
-/* line 64, c:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/css3/_user-interface.scss */
+/* line 64, c:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-core-1.0.3/stylesheets/compass/css3/_user-interface.scss */
 input.gray::-moz-placeholder {
   color: #7c7c7c;
 }
-/* line 67, c:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/css3/_user-interface.scss */
+/* line 67, c:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-core-1.0.3/stylesheets/compass/css3/_user-interface.scss */
 input.gray:-ms-input-placeholder {
   color: #7c7c7c;
 }
-/* line 56, c:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/css3/_user-interface.scss */
+/* line 56, c:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-core-1.0.3/stylesheets/compass/css3/_user-interface.scss */
 input.gray::-webkit-input-placeholder {
   color: #7c7c7c;
 }
@@ -7419,6 +7419,8 @@ input.gray::-webkit-input-placeholder {
 .manage_img_wrapper {
   padding: 0.26667em 1.21212%;
   border: 1px solid transparent;
+  -moz-border-radius: 100%;
+  -webkit-border-radius: 100%;
   border-radius: 100%;
   width: 21.81818%;
   height: 4.8em;
@@ -7534,13 +7536,8 @@ input.gray::-webkit-input-placeholder {
   border: 1px solid transparent;
   position: relative;
 }
-<<<<<<< HEAD
 /* line 58, ../../dev/sass/specifics/_file_list.scss */
 .block .icon_wrap .icon:hover {
-=======
-/* line 55, ../../dev/sass/specifics/_file_list.scss */
-.attachments_blocks .block .icon_wrap .icon:hover {
->>>>>>> a5f1faa88fad70d6cbcc6ed6439eedad5572097e
   border-color: #42CE7F;
 }
 /* line 61, ../../dev/sass/specifics/_file_list.scss */
@@ -7602,4 +7599,13 @@ input.gray::-webkit-input-placeholder {
   .block .ico_download {
     margin-top: 5px;
   }
+}
+
+/* line 1, ../../dev/sass/specifics/_news_list.scss */
+.profile_text {
+  margin-top: 0.53846em;
+  font-size: 0.86667em;
+  line-height: 1.38462em;
+  color: #909294;
+  font-weight: 300;
 }

@@ -52,13 +52,6 @@ $brand_news_list-width: 295px;
 // 	left: flex(-$activities_changes_item-padding_left, $base-width-content/2);
 // }
 
-.profile_text {
-	margin-top: em(7px, 13px);
-	font-size: em(13px);
-	line-height: em(18px, 13px);
-	color: $gray-color-old;
-}
-
 .brand_news_toolbax {
 	overflow: visible;
 	border-top: 1px solid #cecfd0;

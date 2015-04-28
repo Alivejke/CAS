@@ -1,4 +1,3 @@
-console.log('asd');
 $(document).ready(function() {
 	
 	$('body').on('click', '.js-basket', function (event) {
@@ -7,5 +6,5 @@ $(document).ready(function() {
 
 		$(this).closest('.block').remove();
 	});
-	// $('.')
+	
 })
