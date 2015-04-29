@@ -180,4 +180,9 @@
             }
         }
     }
+    .content_wrap {
+        &.content_wrap_noindent {
+            margin-top: 0;
+        }
+    }
 }
