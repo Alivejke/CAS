@@ -10196,41 +10196,42 @@ input.gray::-webkit-input-placeholder {
   text-transform: uppercase;
   color: #7e8890;
   font-family: 'Brandon Grotesque';
+  font-weight: 700;
 }
-/* line 54, ../../dev/pages/news_feed/news_feed.scss */
+/* line 55, ../../dev/pages/news_feed/news_feed.scss */
 .news_feed_page .wrap.wrap_news_feed .feed .info {
   margin-top: 0.66667em;
   margin-left: 8.65em;
   font-family: 'Brandon Grotesque';
 }
-/* line 59, ../../dev/pages/news_feed/news_feed.scss */
+/* line 60, ../../dev/pages/news_feed/news_feed.scss */
 .news_feed_page .wrap.wrap_news_feed .feed .info span {
   font-weight: 300;
   color: #919191;
 }
-/* line 63, ../../dev/pages/news_feed/news_feed.scss */
+/* line 64, ../../dev/pages/news_feed/news_feed.scss */
 .news_feed_page .wrap.wrap_news_feed .feed .info .brand, .news_feed_page .wrap.wrap_news_feed .feed .info .updated {
   font-weight: 600;
   color: #787878;
 }
-/* line 67, ../../dev/pages/news_feed/news_feed.scss */
+/* line 68, ../../dev/pages/news_feed/news_feed.scss */
 .news_feed_page .wrap.wrap_news_feed .feed .info .status {
   margin-top: 0.66667em;
   font-weight: 600;
   text-transform: uppercase;
   color: #7E7F81;
 }
-/* line 72, ../../dev/pages/news_feed/news_feed.scss */
+/* line 73, ../../dev/pages/news_feed/news_feed.scss */
 .news_feed_page .wrap.wrap_news_feed .feed .info .status .new {
   color: #2ecc71;
   font-weight: 600;
 }
-/* line 76, ../../dev/pages/news_feed/news_feed.scss */
+/* line 77, ../../dev/pages/news_feed/news_feed.scss */
 .news_feed_page .wrap.wrap_news_feed .feed .info .status .updated {
   color: #d7c669;
   font-weight: 600;
 }
-/* line 85, ../../dev/pages/news_feed/news_feed.scss */
+/* line 86, ../../dev/pages/news_feed/news_feed.scss */
 .news_feed_page .ico_eye_wrap {
   width: 3em;
   height: 3em;
@@ -10238,7 +10239,7 @@ input.gray::-webkit-input-placeholder {
   -webkit-border-radius: 100%;
   border-radius: 100%;
 }
-/* line 89, ../../dev/pages/news_feed/news_feed.scss */
+/* line 90, ../../dev/pages/news_feed/news_feed.scss */
 .news_feed_page .ico_eye_wrap .ico_eye {
   width: 100%;
   height: 100%;
