@@ -47,7 +47,8 @@
 				margin-left: 7.22em;
 				font-size: em($feeds_name_font-size);
 	  			text-transform: uppercase;
-	  			color: #60717B;
+	  			// color: #60717B;
+	  			color: #7e8890;
 			}
 			.info {
 				margin-top: em(10px, $base-font-size);
@@ -59,13 +60,18 @@
 				}
 				.brand, .updated {
 					font-weight: 600;
-					color: #787878;
+					// color: #787878;
+					color: #7c7c7c;
+					span {
+						color: #7c7c7c;
+					}
 				}
 				.status {
 					margin-top: em(10px, $base-font-size);
 					font-weight: 600;
 					text-transform: uppercase;
-					color: #7E7F81;
+					// color: #7E7F81;
+					color: #909294;
 					.new {
 						color: #2ecc71;
 						font-weight: 600;

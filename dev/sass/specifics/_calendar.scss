@@ -5,12 +5,14 @@ $calendar-font-size: 12px;
 }
 
 .calendar_input {
+	font-family: 'Brandon Grotesque';
 	font-size: em($calendar-font-size);
 	text-align: center;
 	line-height: em(40px, $calendar-font-size);
 	width: flex(100px);
 	height: em(40px, $calendar-font-size);
 	color: #ABACAE;
+	font-family: 'Brandon Grotesque';
 	&.calendar_from {
 		margin-left: flex(10px);
 	}
@@ -267,6 +269,7 @@ $calendar-font-size: 12px;
         }
     }
 }
+
 .ui-helper-clearfix {
 	display: none;
 	&.ui-widget-header {

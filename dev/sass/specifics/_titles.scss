@@ -27,6 +27,10 @@
 		@media (max-width: 768px) {
 			width: 100%;
 		}
+
+	}
+	&.main_title_department-indent {
+		margin-top: em(50px, $main_title-font-size);
 	}
 	&.main_title-indent {
 		margin-top: em(65px);
@@ -43,7 +47,8 @@
 	line-height: 1;
 	// color: #323a45;
 	// color: $base-color;
-	color: #2c3138;
+	// color: #2c3138;
+	color: #4d4d4d;
 }
 
 .main_menu_title {
@@ -65,7 +70,8 @@
 
 .small_title {
 	@extend .base_title;
-	color: $base-color;
+	// color: $base-color;
+	color: #707070;
 	font-size: em($small_title-font-size, $base-font-size);
 	line-height: 1;
 	text-transform: uppercase;

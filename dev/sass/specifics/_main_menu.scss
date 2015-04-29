@@ -4,6 +4,9 @@ $main_menu_item-width-hover: 367px;
 .main_menu_wrap {
 	text-align: center;
 	margin-top: em(95px, $base-font-size);
+	&.main_menu-indent {
+		margin-top: em(53px);
+	}
 }
 .main_menu {
 	text-align: center;

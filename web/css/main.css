@@ -2061,27 +2061,27 @@ body .ui-tooltip {
 
 /* .ui-icon,
 .ui-widget-content .ui-icon {
-	background-image: url("images/ui-icons_222222_256x240.png");
+  background-image: url("images/ui-icons_222222_256x240.png");
 }
 .ui-widget-header .ui-icon {
-	background-image: url("images/ui-icons_ffffff_256x240.png");
+  background-image: url("images/ui-icons_ffffff_256x240.png");
 }
 .ui-state-default .ui-icon {
-	background-image: url("images/ui-icons_ef8c08_256x240.png");
+  background-image: url("images/ui-icons_ef8c08_256x240.png");
 }
 .ui-state-hover .ui-icon,
 .ui-state-focus .ui-icon {
-	background-image: url("images/ui-icons_ef8c08_256x240.png");
+  background-image: url("images/ui-icons_ef8c08_256x240.png");
 }
 .ui-state-active .ui-icon {
-	background-image: url("images/ui-icons_ef8c08_256x240.png");
+  background-image: url("images/ui-icons_ef8c08_256x240.png");
 }
 .ui-state-highlight .ui-icon {
-	background-image: url("images/ui-icons_228ef1_256x240.png");
+  background-image: url("images/ui-icons_228ef1_256x240.png");
 }
 .ui-state-error .ui-icon,
 .ui-state-error-text .ui-icon {
-	background-image: url("images/ui-icons_ffd27a_256x240.png");
+  background-image: url("images/ui-icons_ffd27a_256x240.png");
 } */
 /* positioning */
 /* line 1005, ../../dev/sass/vendor/jquery-ui.scss */
@@ -3751,21 +3751,25 @@ textarea {
     width: 100%;
   }
 }
-/* line 31, ../../dev/sass/specifics/_titles.scss */
+/* line 32, ../../dev/sass/specifics/_titles.scss */
+.main_title.main_title_department-indent {
+  margin-top: 1.85185em;
+}
+/* line 35, ../../dev/sass/specifics/_titles.scss */
 .main_title.main_title-indent {
   margin-top: 4.33333em;
 }
 
-/* line 36, ../../dev/sass/specifics/_titles.scss */
+/* line 40, ../../dev/sass/specifics/_titles.scss */
 .brand_news_title {
   font-family: 'Brandon Grotesque';
   font-weight: 300;
   font-size: 1.6em;
   line-height: 1;
-  color: #2c3138;
+  color: #4d4d4d;
 }
 
-/* line 49, ../../dev/sass/specifics/_titles.scss */
+/* line 54, ../../dev/sass/specifics/_titles.scss */
 .main_menu_title {
   font-size: 1.11111em;
   line-height: 1.2em;
@@ -3773,7 +3777,7 @@ textarea {
   color: #fff;
 }
 
-/* line 58, ../../dev/sass/specifics/_titles.scss */
+/* line 63, ../../dev/sass/specifics/_titles.scss */
 .toolbox_edit_title {
   color: #000;
   font-size: 1.8em;
@@ -3781,15 +3785,15 @@ textarea {
   text-transform: uppercase;
 }
 
-/* line 66, ../../dev/sass/specifics/_titles.scss */
+/* line 71, ../../dev/sass/specifics/_titles.scss */
 .small_title {
-  color: #000;
+  color: #707070;
   font-size: 0.93333em;
   line-height: 1;
   text-transform: uppercase;
 }
 
-/* line 74, ../../dev/sass/specifics/_titles.scss */
+/* line 80, ../../dev/sass/specifics/_titles.scss */
 .no_reult_title {
   color: #c4c4c4;
   font-size: 3em;
@@ -3800,13 +3804,13 @@ textarea {
   margin: 1.77778em auto 2.66667em;
 }
 
-/* line 85, ../../dev/sass/specifics/_titles.scss */
+/* line 91, ../../dev/sass/specifics/_titles.scss */
 .popup_title {
   font-size: 1.8em;
   color: #000;
 }
 
-/* line 91, ../../dev/sass/specifics/_titles.scss */
+/* line 97, ../../dev/sass/specifics/_titles.scss */
 .profile_title {
   font-size: 0.8em;
   color: #909294;
@@ -3818,8 +3822,12 @@ textarea {
   text-align: center;
   margin-top: 6.33333em;
 }
+/* line 7, ../../dev/sass/specifics/_main_menu.scss */
+.main_menu_wrap.main_menu-indent {
+  margin-top: 3.53333em;
+}
 
-/* line 8, ../../dev/sass/specifics/_main_menu.scss */
+/* line 11, ../../dev/sass/specifics/_main_menu.scss */
 .main_menu {
   text-align: center;
   margin-left: -3.38753%;
@@ -3827,7 +3835,7 @@ textarea {
   left: -11px;
   top: -11px;
 }
-/* line 14, ../../dev/sass/specifics/_main_menu.scss */
+/* line 17, ../../dev/sass/specifics/_main_menu.scss */
 .main_menu > li {
   display: inline-block;
   width: 11.2em;
@@ -3844,14 +3852,14 @@ textarea {
   margin: 11px 0 0 11px;
   cursor: pointer;
 }
-/* line 31, ../../dev/sass/specifics/_main_menu.scss */
+/* line 34, ../../dev/sass/specifics/_main_menu.scss */
 .main_menu > li span {
   display: inline-block;
   vertical-align: middle;
   line-height: 1.33333em;
   font-weight: 600;
 }
-/* line 37, ../../dev/sass/specifics/_main_menu.scss */
+/* line 40, ../../dev/sass/specifics/_main_menu.scss */
 .main_menu > li .main_menu_item {
   width: 100%;
   height: 100%;
@@ -3870,16 +3878,16 @@ textarea {
   -webkit-transition-timing-function: ease-out;
   transition-timing-function: ease-out;
 }
-/* line 48, ../../dev/sass/specifics/_main_menu.scss */
+/* line 51, ../../dev/sass/specifics/_main_menu.scss */
 .main_menu > li .main_menu_item img {
   vertical-align: middle;
   display: inline-block;
 }
-/* line 52, ../../dev/sass/specifics/_main_menu.scss */
+/* line 55, ../../dev/sass/specifics/_main_menu.scss */
 .main_menu > li .main_menu_item img + img {
   display: none;
 }
-/* line 57, ../../dev/sass/specifics/_main_menu.scss */
+/* line 60, ../../dev/sass/specifics/_main_menu.scss */
 .main_menu > li:hover .main_menu_item {
   width: 113.8%;
   height: 113.8%;
@@ -3891,27 +3899,27 @@ textarea {
   z-index: 1;
   position: relative;
 }
-/* line 67, ../../dev/sass/specifics/_main_menu.scss */
+/* line 70, ../../dev/sass/specifics/_main_menu.scss */
 .main_menu > li:hover .main_menu_item img {
   display: none;
 }
-/* line 70, ../../dev/sass/specifics/_main_menu.scss */
+/* line 73, ../../dev/sass/specifics/_main_menu.scss */
 .main_menu > li:hover .main_menu_item img + img {
   display: inline-block;
 }
-/* line 76, ../../dev/sass/specifics/_main_menu.scss */
+/* line 79, ../../dev/sass/specifics/_main_menu.scss */
 .main_menu.main_menu_big {
   text-align: left;
   left: 3em;
   margin-top: 5.33333em;
 }
 @media (max-width: 768px) {
-  /* line 76, ../../dev/sass/specifics/_main_menu.scss */
+  /* line 79, ../../dev/sass/specifics/_main_menu.scss */
   .main_menu.main_menu_big {
     left: 1.4em;
   }
 }
-/* line 85, ../../dev/sass/specifics/_main_menu.scss */
+/* line 88, ../../dev/sass/specifics/_main_menu.scss */
 .main_menu.main_menu_big > li {
   width: 41.19241%;
   height: 20.93333em;
@@ -3919,14 +3927,14 @@ textarea {
   margin: 1.46667em 0 0 2.98103%;
 }
 @media (max-width: 768px) {
-  /* line 85, ../../dev/sass/specifics/_main_menu.scss */
+  /* line 88, ../../dev/sass/specifics/_main_menu.scss */
   .main_menu.main_menu_big > li {
     width: 17.93333em;
     height: 17.93333em;
     margin: 1.46667em 0 0 1.98103%;
   }
 }
-/* line 96, ../../dev/sass/specifics/_main_menu.scss */
+/* line 99, ../../dev/sass/specifics/_main_menu.scss */
 .main_menu.main_menu_big > li .main_menu_item {
   position: relative;
   background: none;
@@ -3947,7 +3955,7 @@ textarea {
   -webkit-transition-timing-function: ease-out;
   transition-timing-function: ease-out;
 }
-/* line 107, ../../dev/sass/specifics/_main_menu.scss */
+/* line 110, ../../dev/sass/specifics/_main_menu.scss */
 .main_menu.main_menu_big > li .main_menu_item img {
   position: absolute;
   top: 0;
@@ -3956,7 +3964,7 @@ textarea {
   width: 100%;
   height: 100%;
 }
-/* line 115, ../../dev/sass/specifics/_main_menu.scss */
+/* line 118, ../../dev/sass/specifics/_main_menu.scss */
 .main_menu.main_menu_big > li .main_menu_item .main_menu_item-bg {
   width: 100%;
   height: 100%;
@@ -3980,7 +3988,7 @@ textarea {
   -webkit-transition-timing-function: ease-out;
   transition-timing-function: ease-out;
 }
-/* line 130, ../../dev/sass/specifics/_main_menu.scss */
+/* line 133, ../../dev/sass/specifics/_main_menu.scss */
 .main_menu.main_menu_big > li .main_menu_item .main_menu_text_wrap {
   position: relative;
   z-index: 5;
@@ -4000,19 +4008,19 @@ textarea {
   -webkit-transition-timing-function: ease-out;
   transition-timing-function: ease-out;
 }
-/* line 140, ../../dev/sass/specifics/_main_menu.scss */
+/* line 143, ../../dev/sass/specifics/_main_menu.scss */
 .main_menu.main_menu_big > li .main_menu_item .main_menu_text_wrap .star_wrap {
   font-family: pragmatica,Helvetica,Arial,sans-serif;
   font-weight: 300;
   font-size: 13px;
   line-height: 1;
 }
-/* line 148, ../../dev/sass/specifics/_main_menu.scss */
+/* line 151, ../../dev/sass/specifics/_main_menu.scss */
 .main_menu.main_menu_big > li .main_menu_item .main_menu_text_wrap .star_wrap .glyphicon.glyphicon-star {
   color: #f4cd24;
   margin-right: 4px;
 }
-/* line 154, ../../dev/sass/specifics/_main_menu.scss */
+/* line 157, ../../dev/sass/specifics/_main_menu.scss */
 .main_menu.main_menu_big > li .main_menu_item .main_menu_text_wrap .main_menu_title {
   margin-top: 1em;
   width: 68%;
@@ -4021,22 +4029,22 @@ textarea {
   max-height: 3.33333em;
 }
 @media (max-width: 768px) {
-  /* line 154, ../../dev/sass/specifics/_main_menu.scss */
+  /* line 157, ../../dev/sass/specifics/_main_menu.scss */
   .main_menu.main_menu_big > li .main_menu_item .main_menu_text_wrap .main_menu_title {
     width: 100%;
   }
 }
-/* line 166, ../../dev/sass/specifics/_main_menu.scss */
+/* line 169, ../../dev/sass/specifics/_main_menu.scss */
 .main_menu.main_menu_big > li .main_menu_item .main_menu_text_wrap .main_menu_text {
   margin-top: 1.33333em;
   text-transform: none;
   line-height: 1.4em;
 }
-/* line 171, ../../dev/sass/specifics/_main_menu.scss */
+/* line 174, ../../dev/sass/specifics/_main_menu.scss */
 .main_menu.main_menu_big > li .main_menu_item .main_menu_text_wrap .main_menu_status_product {
   margin-top: 3.53333em;
 }
-/* line 175, ../../dev/sass/specifics/_main_menu.scss */
+/* line 178, ../../dev/sass/specifics/_main_menu.scss */
 .main_menu.main_menu_big > li .main_menu_item .main_menu_view {
   display: none;
   width: 100%;
@@ -4050,21 +4058,21 @@ textarea {
   color: #fff;
   z-index: 20;
 }
-/* line 188, ../../dev/sass/specifics/_main_menu.scss */
+/* line 191, ../../dev/sass/specifics/_main_menu.scss */
 .main_menu.main_menu_big > li .main_menu_item .ico_status_big_wrap {
   position: absolute;
   top: -1em;
   left: -4.77707%;
   z-index: 10;
 }
-/* line 194, ../../dev/sass/specifics/_main_menu.scss */
+/* line 197, ../../dev/sass/specifics/_main_menu.scss */
 .main_menu.main_menu_big > li .main_menu_item .ico_status_big_wrap .ico_status_big {
   position: absolute;
   top: 50%;
   left: 50%;
   margin: -0.86667em 0 0 -0.86667em;
 }
-/* line 203, ../../dev/sass/specifics/_main_menu.scss */
+/* line 206, ../../dev/sass/specifics/_main_menu.scss */
 .main_menu.main_menu_big > li:hover .main_menu_item {
   margin-top: -2.06667em;
   width: 116.6%;
@@ -4072,16 +4080,16 @@ textarea {
   line-height: 1;
   z-index: 15;
 }
-/* line 210, ../../dev/sass/specifics/_main_menu.scss */
+/* line 213, ../../dev/sass/specifics/_main_menu.scss */
 .main_menu.main_menu_big > li:hover .main_menu_item img {
   display: block;
 }
-/* line 213, ../../dev/sass/specifics/_main_menu.scss */
+/* line 216, ../../dev/sass/specifics/_main_menu.scss */
 .main_menu.main_menu_big > li:hover .main_menu_item .main_menu_item-bg {
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=80);
   opacity: 0.8;
 }
-/* line 216, ../../dev/sass/specifics/_main_menu.scss */
+/* line 219, ../../dev/sass/specifics/_main_menu.scss */
 .main_menu.main_menu_big > li:hover .main_menu_item .ico_status_big_wrap {
   width: 2.46667em;
   height: 2.46667em;
@@ -4089,40 +4097,40 @@ textarea {
   top: -1.26667em;
   left: -5.17711%;
 }
-/* line 223, ../../dev/sass/specifics/_main_menu.scss */
+/* line 226, ../../dev/sass/specifics/_main_menu.scss */
 .main_menu.main_menu_big > li:hover .main_menu_item .ico_status_big_wrap .ico_status_big {
   width: 2em;
   height: 2em;
   margin: -0.93333em 0 0 -0.93333em;
 }
-/* line 229, ../../dev/sass/specifics/_main_menu.scss */
+/* line 232, ../../dev/sass/specifics/_main_menu.scss */
 .main_menu.main_menu_big > li:hover .main_menu_item .main_menu_text_wrap {
   padding: 1.33333em 17.71117% 1.33333em 9.80926%;
 }
-/* line 231, ../../dev/sass/specifics/_main_menu.scss */
+/* line 234, ../../dev/sass/specifics/_main_menu.scss */
 .main_menu.main_menu_big > li:hover .main_menu_item .main_menu_text_wrap .main_menu_status_product {
   margin-top: 2.53333em;
 }
-/* line 235, ../../dev/sass/specifics/_main_menu.scss */
+/* line 238, ../../dev/sass/specifics/_main_menu.scss */
 .main_menu.main_menu_big > li:hover .main_menu_item .main_menu_view {
   display: block;
 }
-/* line 240, ../../dev/sass/specifics/_main_menu.scss */
+/* line 243, ../../dev/sass/specifics/_main_menu.scss */
 .main_menu.main_menu_big > li:nth-child(2n+1) {
   margin-right: -1px;
 }
 
-/* line 246, ../../dev/sass/specifics/_main_menu.scss */
+/* line 249, ../../dev/sass/specifics/_main_menu.scss */
 .main_menu_status_product {
   overflow: hidden;
   margin-top: 3.53333em;
 }
-/* line 249, ../../dev/sass/specifics/_main_menu.scss */
+/* line 252, ../../dev/sass/specifics/_main_menu.scss */
 .main_menu_status_product li {
   float: left;
   margin-left: 4.16667%;
 }
-/* line 252, ../../dev/sass/specifics/_main_menu.scss */
+/* line 255, ../../dev/sass/specifics/_main_menu.scss */
 .main_menu_status_product li:first-child {
   margin-left: 0;
 }
@@ -5016,9 +5024,9 @@ textarea {
 }
 /* line 102, ../../dev/sass/specifics/_sub_header.scss */
 .menu li.active a {
-  color: #45484C;
+  color: #909294;
 }
-/* line 111, ../../dev/sass/specifics/_sub_header.scss */
+/* line 112, ../../dev/sass/specifics/_sub_header.scss */
 .menu li:after {
   content: '';
   display: inline-block;
@@ -5028,13 +5036,13 @@ textarea {
   vertical-align: -1px;
   margin: 0 0.33333em 0 -0.4em;
 }
-/* line 122, ../../dev/sass/specifics/_sub_header.scss */
+/* line 123, ../../dev/sass/specifics/_sub_header.scss */
 .menu li:last-child:after {
   display: none;
   background: none;
 }
 
-/* line 130, ../../dev/sass/specifics/_sub_header.scss */
+/* line 131, ../../dev/sass/specifics/_sub_header.scss */
 .go_to_search {
   font-size: 1em;
   font-family: pragmatica,Helvetica,Arial,sans-serif;
@@ -5043,12 +5051,12 @@ textarea {
   color: #CACACC;
   cursor: pointer;
 }
-/* line 139, ../../dev/sass/specifics/_sub_header.scss */
+/* line 140, ../../dev/sass/specifics/_sub_header.scss */
 .go_to_search span {
   display: inline-block;
   border-bottom: 1px solid #CACACC;
 }
-/* line 145, ../../dev/sass/specifics/_sub_header.scss */
+/* line 146, ../../dev/sass/specifics/_sub_header.scss */
 .go_to_search:after {
   content: '';
   display: inline-block;
@@ -6531,8 +6539,8 @@ textarea {
 
 /* line 1, ../../dev/sass/specifics/_forms.scss */
 .brand_news_textarea {
-  font-size: 15px;
-  line-height: 1;
+  font-size: 1em;
+  line-height: 1.26667em;
   padding: 1em 2.03252%;
   width: 100%;
   height: 7.66667em;
@@ -6553,19 +6561,19 @@ textarea {
   font-weight: 300;
   color: #909294;
 }
-/* line 61, c:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/css3/_user-interface.scss */
+/* line 61, c:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-core-1.0.3/stylesheets/compass/css3/_user-interface.scss */
 textarea:-moz-placeholder {
   color: #909294;
 }
-/* line 64, c:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/css3/_user-interface.scss */
+/* line 64, c:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-core-1.0.3/stylesheets/compass/css3/_user-interface.scss */
 textarea::-moz-placeholder {
   color: #909294;
 }
-/* line 67, c:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/css3/_user-interface.scss */
+/* line 67, c:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-core-1.0.3/stylesheets/compass/css3/_user-interface.scss */
 textarea:-ms-input-placeholder {
   color: #909294;
 }
-/* line 56, c:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/css3/_user-interface.scss */
+/* line 56, c:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-core-1.0.3/stylesheets/compass/css3/_user-interface.scss */
 textarea::-webkit-input-placeholder {
   color: #909294;
 }
@@ -6626,51 +6634,53 @@ label.checkbox {
 
 /* line 7, ../../dev/sass/specifics/_calendar.scss */
 .calendar_input {
+  font-family: 'Brandon Grotesque';
   font-size: 0.8em;
   text-align: center;
   line-height: 3.33333em;
   width: 10.41667%;
   height: 3.33333em;
   color: #ABACAE;
+  font-family: 'Brandon Grotesque';
 }
-/* line 14, ../../dev/sass/specifics/_calendar.scss */
+/* line 16, ../../dev/sass/specifics/_calendar.scss */
 .calendar_input.calendar_from {
   margin-left: 1.04167%;
 }
 
-/* line 19, ../../dev/sass/specifics/_calendar.scss */
+/* line 21, ../../dev/sass/specifics/_calendar.scss */
 .calendar_date-separator {
   display: inline-block;
   margin: 0 0.52083%;
 }
 
-/* line 25, ../../dev/sass/specifics/_calendar.scss */
+/* line 27, ../../dev/sass/specifics/_calendar.scss */
 .calendar_status_wrap .calendar_status {
   font-size: 0.8em;
   font-weight: 700;
   text-transform: uppercase;
   color: #45484C;
 }
-/* line 31, ../../dev/sass/specifics/_calendar.scss */
+/* line 33, ../../dev/sass/specifics/_calendar.scss */
 .calendar_status_wrap .calendar_status.calendar_status-valid {
   display: inline-block;
 }
-/* line 34, ../../dev/sass/specifics/_calendar.scss */
+/* line 36, ../../dev/sass/specifics/_calendar.scss */
 .calendar_status_wrap .calendar_status.calendar_status-error {
   display: none;
 }
 
-/* line 41, ../../dev/sass/specifics/_calendar.scss */
+/* line 43, ../../dev/sass/specifics/_calendar.scss */
 .calendar_date.distinction {
   color: #b70e12;
 }
 
-/* line 48, ../../dev/sass/specifics/_calendar.scss */
+/* line 50, ../../dev/sass/specifics/_calendar.scss */
 .comiseo-daterangepicker-presets {
   display: none;
 }
 
-/* line 54, ../../dev/sass/specifics/_calendar.scss */
+/* line 56, ../../dev/sass/specifics/_calendar.scss */
 .comiseo-daterangepicker.ui-corner-all {
   border-color: #cecfd0;
   -moz-border-radius: 0;
@@ -6678,7 +6688,7 @@ label.checkbox {
   border-radius: 0;
   border-bottom: none;
 }
-/* line 59, ../../dev/sass/specifics/_calendar.scss */
+/* line 61, ../../dev/sass/specifics/_calendar.scss */
 .comiseo-daterangepicker .ui-datepicker-title {
   font-family: pragmatica,Helvetica,Arial,sans-serif;
   font-weight: 600;
@@ -6687,40 +6697,40 @@ label.checkbox {
   color: #7e8890;
   text-transform: uppercase;
 }
-/* line 67, ../../dev/sass/specifics/_calendar.scss */
+/* line 69, ../../dev/sass/specifics/_calendar.scss */
 .comiseo-daterangepicker .ui-datepicker {
   font-family: pragmatica,Helvetica,Arial,sans-serif;
 }
-/* line 69, ../../dev/sass/specifics/_calendar.scss */
+/* line 71, ../../dev/sass/specifics/_calendar.scss */
 .comiseo-daterangepicker .ui-datepicker .ui-state-highlight {
   background: none;
 }
-/* line 75, ../../dev/sass/specifics/_calendar.scss */
+/* line 77, ../../dev/sass/specifics/_calendar.scss */
 .comiseo-daterangepicker .ui-datepicker .ui-state-highlight a.ui-state-default {
   background: none;
   color: #7e8890;
 }
-/* line 81, ../../dev/sass/specifics/_calendar.scss */
+/* line 83, ../../dev/sass/specifics/_calendar.scss */
 .comiseo-daterangepicker .ui-datepicker .ui-datepicker-next {
   top: 25px;
   right: 27px;
 }
-/* line 85, ../../dev/sass/specifics/_calendar.scss */
+/* line 87, ../../dev/sass/specifics/_calendar.scss */
 .comiseo-daterangepicker .ui-datepicker .ui-datepicker-prev {
   top: 25px;
   left: 27px;
 }
-/* line 89, ../../dev/sass/specifics/_calendar.scss */
+/* line 91, ../../dev/sass/specifics/_calendar.scss */
 .comiseo-daterangepicker .ui-datepicker th {
   color: #7e8890;
   font-size: 0.8em;
 }
-/* line 93, ../../dev/sass/specifics/_calendar.scss */
+/* line 95, ../../dev/sass/specifics/_calendar.scss */
 .comiseo-daterangepicker .ui-datepicker td {
   text-align: center;
   padding: 0.73333em 0.13333em;
 }
-/* line 96, ../../dev/sass/specifics/_calendar.scss */
+/* line 98, ../../dev/sass/specifics/_calendar.scss */
 .comiseo-daterangepicker .ui-datepicker td a {
   display: inline-block;
   font-weight: 300;
@@ -6734,21 +6744,21 @@ label.checkbox {
   border-radius: 100%;
   text-align: center;
 }
-/* line 110, ../../dev/sass/specifics/_calendar.scss */
+/* line 112, ../../dev/sass/specifics/_calendar.scss */
 .comiseo-daterangepicker .ui-datepicker td.ui-state-highlight-end a {
   background: #d76969;
   color: #fff;
 }
-/* line 116, ../../dev/sass/specifics/_calendar.scss */
+/* line 118, ../../dev/sass/specifics/_calendar.scss */
 .comiseo-daterangepicker .ui-datepicker td.ui-state-highlight-start a {
   background: #22c866;
   color: #fff;
 }
-/* line 124, ../../dev/sass/specifics/_calendar.scss */
+/* line 126, ../../dev/sass/specifics/_calendar.scss */
 .comiseo-daterangepicker > .comiseo-daterangepicker-main.ui-widget-content {
   border: none;
 }
-/* line 128, ../../dev/sass/specifics/_calendar.scss */
+/* line 130, ../../dev/sass/specifics/_calendar.scss */
 .comiseo-daterangepicker .ui-state-hover,
 .comiseo-daterangepicker .ui-widget-content .ui-state-hover,
 .comiseo-daterangepicker .ui-widget-header .ui-state-hover,
@@ -6757,7 +6767,7 @@ label.checkbox {
 .comiseo-daterangepicker .ui-widget-header .ui-state-focus {
   background: transparent;
 }
-/* line 136, ../../dev/sass/specifics/_calendar.scss */
+/* line 138, ../../dev/sass/specifics/_calendar.scss */
 .comiseo-daterangepicker .ui-widget-content {
   border-width: 0;
   border: none;
@@ -6765,52 +6775,52 @@ label.checkbox {
   background: none;
 }
 
-/* line 144, ../../dev/sass/specifics/_calendar.scss */
+/* line 146, ../../dev/sass/specifics/_calendar.scss */
 .ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default {
   font-family: pragmatica,Helvetica,Arial,sans-serif;
 }
 
-/* line 149, ../../dev/sass/specifics/_calendar.scss */
+/* line 151, ../../dev/sass/specifics/_calendar.scss */
 .comiseo-daterangepicker-right .comiseo-daterangepicker-calendar {
   border: none;
 }
-/* line 152, ../../dev/sass/specifics/_calendar.scss */
+/* line 154, ../../dev/sass/specifics/_calendar.scss */
 .comiseo-daterangepicker-right .comiseo-daterangepicker-buttonpanel {
   display: none;
 }
 
-/* line 157, ../../dev/sass/specifics/_calendar.scss */
+/* line 159, ../../dev/sass/specifics/_calendar.scss */
 .comiseo-daterangepicker {
   padding: 0;
 }
-/* line 159, ../../dev/sass/specifics/_calendar.scss */
+/* line 161, ../../dev/sass/specifics/_calendar.scss */
 .comiseo-daterangepicker .comiseo-daterangepicker-calendar {
   display: block;
   height: auto;
 }
-/* line 163, ../../dev/sass/specifics/_calendar.scss */
+/* line 165, ../../dev/sass/specifics/_calendar.scss */
 .comiseo-daterangepicker .ui-datepicker {
   width: 100%;
 }
-/* line 165, ../../dev/sass/specifics/_calendar.scss */
+/* line 167, ../../dev/sass/specifics/_calendar.scss */
 .comiseo-daterangepicker .ui-datepicker .ui-widget-header {
   border: none;
   background: none;
   color: #45484C;
 }
-/* line 171, ../../dev/sass/specifics/_calendar.scss */
+/* line 173, ../../dev/sass/specifics/_calendar.scss */
 .comiseo-daterangepicker .ui-datepicker .ui-datepicker-prev span {
   background: url(/i/sprite.png) -80px -160px no-repeat;
 }
-/* line 176, ../../dev/sass/specifics/_calendar.scss */
+/* line 178, ../../dev/sass/specifics/_calendar.scss */
 .comiseo-daterangepicker .ui-datepicker .ui-datepicker-next span {
   background: url(/i/sprite.png) -120px -160px no-repeat;
 }
-/* line 180, ../../dev/sass/specifics/_calendar.scss */
+/* line 182, ../../dev/sass/specifics/_calendar.scss */
 .comiseo-daterangepicker .ui-datepicker .ui-widget-content {
   background: #f8faf9;
 }
-/* line 183, ../../dev/sass/specifics/_calendar.scss */
+/* line 185, ../../dev/sass/specifics/_calendar.scss */
 .comiseo-daterangepicker .ui-datepicker .ui-datepicker-header {
   font-size: 0.72727em;
   padding: 2.16667em 0 2.16667em;
@@ -6819,28 +6829,28 @@ label.checkbox {
   -webkit-border-radius: 0;
   border-radius: 0;
 }
-/* line 188, ../../dev/sass/specifics/_calendar.scss */
+/* line 190, ../../dev/sass/specifics/_calendar.scss */
 .comiseo-daterangepicker .ui-datepicker .ui-datepicker-header .ui-datepicker-title {
   font-size: 0.92308em;
 }
-/* line 193, ../../dev/sass/specifics/_calendar.scss */
+/* line 195, ../../dev/sass/specifics/_calendar.scss */
 .comiseo-daterangepicker .ui-datepicker table {
   width: 86%;
   margin: 1.33333em auto 0;
 }
 
-/* line 201, ../../dev/sass/specifics/_calendar.scss */
+/* line 203, ../../dev/sass/specifics/_calendar.scss */
 .comiseo-daterangepicker-triggerbutton.ui-button {
   display: none;
 }
 
-/* line 211, ../../dev/sass/specifics/_calendar.scss */
+/* line 213, ../../dev/sass/specifics/_calendar.scss */
 .datepicker_bottom_block {
   width: 100%;
   z-index: 100;
   font-size: 0.72727em;
 }
-/* line 216, ../../dev/sass/specifics/_calendar.scss */
+/* line 218, ../../dev/sass/specifics/_calendar.scss */
 .datepicker_bottom_block .info_block {
   height: 2.91667em;
   width: 100%;
@@ -6851,12 +6861,12 @@ label.checkbox {
   z-index: 100;
   position: relative;
 }
-/* line 226, ../../dev/sass/specifics/_calendar.scss */
+/* line 228, ../../dev/sass/specifics/_calendar.scss */
 .datepicker_bottom_block .info_block span {
   display: inline-block;
   color: #45484C;
 }
-/* line 230, ../../dev/sass/specifics/_calendar.scss */
+/* line 232, ../../dev/sass/specifics/_calendar.scss */
 .datepicker_bottom_block .info_block span:before {
   content: '';
   width: 11px;
@@ -6867,19 +6877,19 @@ label.checkbox {
   -webkit-border-radius: 100%;
   border-radius: 100%;
 }
-/* line 240, ../../dev/sass/specifics/_calendar.scss */
+/* line 242, ../../dev/sass/specifics/_calendar.scss */
 .datepicker_bottom_block .info_block span.starting:before {
   background-color: #22c866;
 }
-/* line 244, ../../dev/sass/specifics/_calendar.scss */
+/* line 246, ../../dev/sass/specifics/_calendar.scss */
 .datepicker_bottom_block .info_block span.ending {
   margin: 20px 0px 0px 5px;
 }
-/* line 246, ../../dev/sass/specifics/_calendar.scss */
+/* line 248, ../../dev/sass/specifics/_calendar.scss */
 .datepicker_bottom_block .info_block span.ending:before {
   background-color: #d76969;
 }
-/* line 252, ../../dev/sass/specifics/_calendar.scss */
+/* line 254, ../../dev/sass/specifics/_calendar.scss */
 .datepicker_bottom_block .reset_block {
   height: 55px;
   width: 100%;
@@ -6891,18 +6901,18 @@ label.checkbox {
   padding-top: 1.46667em;
   border-bottom: 1px solid #cecfd0;
 }
-/* line 262, ../../dev/sass/specifics/_calendar.scss */
+/* line 264, ../../dev/sass/specifics/_calendar.scss */
 .datepicker_bottom_block .reset_block .reset {
   display: inline-block;
   color: #d76969;
   cursor: pointer;
 }
 
-/* line 270, ../../dev/sass/specifics/_calendar.scss */
+/* line 273, ../../dev/sass/specifics/_calendar.scss */
 .ui-helper-clearfix {
   display: none;
 }
-/* line 272, ../../dev/sass/specifics/_calendar.scss */
+/* line 275, ../../dev/sass/specifics/_calendar.scss */
 .ui-helper-clearfix.ui-widget-header {
   display: block;
 }
@@ -6948,7 +6958,7 @@ label.checkbox.distinction.chacked .label_ico {
 
 /* line 149, ../../dev/sass/specifics/_checkbox.scss */
 .popup_window label.checkbox.chacked .label_ico {
-  background: url(/i/sprite.png) -41px -240px;
+  background: url(/i/sprite.png) -116px -236px;
 }
 /* line 153, ../../dev/sass/specifics/_checkbox.scss */
 .popup_window label.checkbox .label_ico {
@@ -7274,19 +7284,19 @@ input.input {
   border: 1px solid #dedfdf;
   color: #8F9BA3;
 }
-/* line 61, c:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/css3/_user-interface.scss */
+/* line 61, c:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-core-1.0.3/stylesheets/compass/css3/_user-interface.scss */
 input.input:-moz-placeholder {
   color: #8F9BA3;
 }
-/* line 64, c:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/css3/_user-interface.scss */
+/* line 64, c:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-core-1.0.3/stylesheets/compass/css3/_user-interface.scss */
 input.input::-moz-placeholder {
   color: #8F9BA3;
 }
-/* line 67, c:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/css3/_user-interface.scss */
+/* line 67, c:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-core-1.0.3/stylesheets/compass/css3/_user-interface.scss */
 input.input:-ms-input-placeholder {
   color: #8F9BA3;
 }
-/* line 56, c:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/css3/_user-interface.scss */
+/* line 56, c:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-core-1.0.3/stylesheets/compass/css3/_user-interface.scss */
 input.input::-webkit-input-placeholder {
   color: #8F9BA3;
 }
@@ -7302,19 +7312,19 @@ input.input.complete {
 input.gray {
   color: #7c7c7c;
 }
-/* line 61, c:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/css3/_user-interface.scss */
+/* line 61, c:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-core-1.0.3/stylesheets/compass/css3/_user-interface.scss */
 input.gray:-moz-placeholder {
   color: #7c7c7c;
 }
-/* line 64, c:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/css3/_user-interface.scss */
+/* line 64, c:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-core-1.0.3/stylesheets/compass/css3/_user-interface.scss */
 input.gray::-moz-placeholder {
   color: #7c7c7c;
 }
-/* line 67, c:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/css3/_user-interface.scss */
+/* line 67, c:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-core-1.0.3/stylesheets/compass/css3/_user-interface.scss */
 input.gray:-ms-input-placeholder {
   color: #7c7c7c;
 }
-/* line 56, c:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/css3/_user-interface.scss */
+/* line 56, c:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-core-1.0.3/stylesheets/compass/css3/_user-interface.scss */
 input.gray::-webkit-input-placeholder {
   color: #7c7c7c;
 }
@@ -7937,10 +7947,10 @@ input.gray::-webkit-input-placeholder {
   font-weight: 300;
   font-size: 1.6em;
   line-height: 1;
-  color: #000;
+  color: #2c3138;
   margin-bottom: 1.03704em;
 }
-/* line 79, ../../dev/pages/activies_page/activies_page.scss */
+/* line 80, ../../dev/pages/activies_page/activies_page.scss */
 .activies_page .activies_page_wrap .wrap_block p.text {
   font-family: pragmatica,Helvetica,Arial,sans-serif;
   font-weight: 300;
@@ -7949,25 +7959,25 @@ input.gray::-webkit-input-placeholder {
   color: #45484C;
   letter-spacing: 1px;
 }
-/* line 89, ../../dev/pages/activies_page/activies_page.scss */
+/* line 90, ../../dev/pages/activies_page/activies_page.scss */
 .activies_page .activies_page_wrap .content_wrap .btn:nth-last-child(1) {
   margin-bottom: 1px;
 }
-/* line 93, ../../dev/pages/activies_page/activies_page.scss */
+/* line 94, ../../dev/pages/activies_page/activies_page.scss */
 .activies_page .activies_page_wrap .attachments_blocks {
   margin-bottom: 4em;
 }
-/* line 97, ../../dev/pages/activies_page/activies_page.scss */
+/* line 98, ../../dev/pages/activies_page/activies_page.scss */
 .activies_page .activies_page_wrap .attachments_blocks .block {
   width: 46.875%;
   float: left;
   margin-top: 4em;
 }
-/* line 101, ../../dev/pages/activies_page/activies_page.scss */
+/* line 102, ../../dev/pages/activies_page/activies_page.scss */
 .activies_page .activies_page_wrap .attachments_blocks .block:nth-child(2n) {
   margin-left: 6.06936%;
 }
-/* line 104, ../../dev/pages/activies_page/activies_page.scss */
+/* line 105, ../../dev/pages/activies_page/activies_page.scss */
 .activies_page .activies_page_wrap .attachments_blocks .block .icon {
   width: 21.11111%;
   float: left;
@@ -7980,17 +7990,17 @@ input.gray::-webkit-input-placeholder {
   position: relative;
   margin-right: 1.5625%;
 }
-/* line 113, ../../dev/pages/activies_page/activies_page.scss */
+/* line 114, ../../dev/pages/activies_page/activies_page.scss */
 .activies_page .activies_page_wrap .attachments_blocks .block .icon:hover {
   border-color: #42CE7F;
 }
-/* line 116, ../../dev/pages/activies_page/activies_page.scss */
+/* line 117, ../../dev/pages/activies_page/activies_page.scss */
 .activies_page .activies_page_wrap .attachments_blocks .block .icon img {
   max-width: 100%;
   margin: 0px auto;
   display: block;
 }
-/* line 121, ../../dev/pages/activies_page/activies_page.scss */
+/* line 122, ../../dev/pages/activies_page/activies_page.scss */
 .activies_page .activies_page_wrap .attachments_blocks .block .icon .ico_search {
   position: absolute;
   top: 1.66667em;
@@ -7998,23 +8008,23 @@ input.gray::-webkit-input-placeholder {
   display: none;
 }
 @media (max-width: 768px) {
-  /* line 121, ../../dev/pages/activies_page/activies_page.scss */
+  /* line 122, ../../dev/pages/activies_page/activies_page.scss */
   .activies_page .activies_page_wrap .attachments_blocks .block .icon .ico_search {
     top: 1.3em;
     left: 32.24658%;
   }
 }
-/* line 132, ../../dev/pages/activies_page/activies_page.scss */
+/* line 133, ../../dev/pages/activies_page/activies_page.scss */
 .activies_page .activies_page_wrap .attachments_blocks .block .icon:hover .ico_search {
   display: block;
 }
-/* line 136, ../../dev/pages/activies_page/activies_page.scss */
+/* line 137, ../../dev/pages/activies_page/activies_page.scss */
 .activies_page .activies_page_wrap .attachments_blocks .block .name {
   float: left;
   font-weight: 500;
   font-family: 'Brandon Grotesque';
 }
-/* line 141, ../../dev/pages/activies_page/activies_page.scss */
+/* line 142, ../../dev/pages/activies_page/activies_page.scss */
 .activies_page .activies_page_wrap .attachments_blocks .block .text {
   float: left;
   width: 66.66667%;
@@ -8023,64 +8033,64 @@ input.gray::-webkit-input-placeholder {
   line-height: 1.4em;
   font-size: 0.89333em;
 }
-/* line 151, ../../dev/pages/activies_page/activies_page.scss */
+/* line 152, ../../dev/pages/activies_page/activies_page.scss */
 .activies_page .activies_page_wrap .attachments_blocks .block .file_size {
   float: left;
   width: 66.66667%;
   margin-top: 0.2em;
   font-weight: 500;
 }
-/* line 157, ../../dev/pages/activies_page/activies_page.scss */
+/* line 158, ../../dev/pages/activies_page/activies_page.scss */
 .activies_page .activies_page_wrap .attachments_blocks .block .ico_download {
   cursor: pointer;
 }
 @media (max-width: 768px) {
-  /* line 157, ../../dev/pages/activies_page/activies_page.scss */
+  /* line 158, ../../dev/pages/activies_page/activies_page.scss */
   .activies_page .activies_page_wrap .attachments_blocks .block .ico_download {
     margin-top: 5px;
   }
 }
-/* line 169, ../../dev/pages/activies_page/activies_page.scss */
+/* line 170, ../../dev/pages/activies_page/activies_page.scss */
 .activies_page .brand_news .btn_wrap {
   bottom: -1.66667em;
 }
-/* line 176, ../../dev/pages/activies_page/activies_page.scss */
+/* line 177, ../../dev/pages/activies_page/activies_page.scss */
 .activies_page .btn_big_rounded_wrap .btn.btn_big_rounded {
   line-height: 3.57143em;
 }
-/* line 184, ../../dev/pages/activies_page/activies_page.scss */
+/* line 185, ../../dev/pages/activies_page/activies_page.scss */
 .activies_page .wrap_blocks .main_title.main_title_actives {
   margin-top: 4.51852em;
 }
-/* line 190, ../../dev/pages/activies_page/activies_page.scss */
+/* line 191, ../../dev/pages/activies_page/activies_page.scss */
 .activies_page .status_wrap {
   width: 46.07046%;
 }
-/* line 192, ../../dev/pages/activies_page/activies_page.scss */
+/* line 193, ../../dev/pages/activies_page/activies_page.scss */
 .activies_page .status_wrap .valid {
   font-weight: 500;
 }
-/* line 196, ../../dev/pages/activies_page/activies_page.scss */
+/* line 197, ../../dev/pages/activies_page/activies_page.scss */
 .activies_page .status_wrap .btn_big_rounded .ico_status {
   margin-left: 5.67568%;
 }
-/* line 201, ../../dev/pages/activies_page/activies_page.scss */
+/* line 202, ../../dev/pages/activies_page/activies_page.scss */
 .activies_page .wrap_blocks {
   background: #F9F9FB;
   overflow: hidden;
   margin-bottom: -1.4em;
   width: 100%;
 }
-/* line 207, ../../dev/pages/activies_page/activies_page.scss */
+/* line 208, ../../dev/pages/activies_page/activies_page.scss */
 .activies_page #mainarea.activies_page_wrap {
   padding-bottom: 0px;
   margin: 0px auto;
 }
-/* line 211, ../../dev/pages/activies_page/activies_page.scss */
+/* line 212, ../../dev/pages/activies_page/activies_page.scss */
 .activies_page .document {
-  margin: -3em 0 6em;
+  margin: -3em 0 4em;
 }
-/* line 214, ../../dev/pages/activies_page/activies_page.scss */
+/* line 215, ../../dev/pages/activies_page/activies_page.scss */
 .activies_page .document li {
   float: left;
   width: 44.71545%;
@@ -8089,54 +8099,54 @@ input.gray::-webkit-input-placeholder {
   margin-top: 6.33333em;
 }
 @media (max-width: 768px) {
-  /* line 214, ../../dev/pages/activies_page/activies_page.scss */
+  /* line 215, ../../dev/pages/activies_page/activies_page.scss */
   .activies_page .document li {
     float: none;
     width: 100%;
     margin-left: 0;
   }
 }
-/* line 227, ../../dev/pages/activies_page/activies_page.scss */
+/* line 228, ../../dev/pages/activies_page/activies_page.scss */
 .activies_page .document li:nth-child(2n+1) {
   margin-left: 0;
   clear: left;
 }
-/* line 232, ../../dev/pages/activies_page/activies_page.scss */
+/* line 233, ../../dev/pages/activies_page/activies_page.scss */
 .activies_page .document li.odd {
   margin-left: 0;
   clear: left;
 }
-/* line 237, ../../dev/pages/activies_page/activies_page.scss */
+/* line 238, ../../dev/pages/activies_page/activies_page.scss */
 .activies_page .document li .brand_news_title {
   font-size: 1em;
   width: 90.90909%;
 }
 @media (max-width: 768px) {
-  /* line 241, ../../dev/pages/activies_page/activies_page.scss */
+  /* line 242, ../../dev/pages/activies_page/activies_page.scss */
   .activies_page .document li .manage {
     width: 4.13333em;
   }
 }
-/* line 245, ../../dev/pages/activies_page/activies_page.scss */
+/* line 246, ../../dev/pages/activies_page/activies_page.scss */
 .activies_page .document li .manage.img_circle-default {
   line-height: 4.13333em;
 }
-/* line 249, ../../dev/pages/activies_page/activies_page.scss */
+/* line 250, ../../dev/pages/activies_page/activies_page.scss */
 .activies_page .document li .description {
   width: 72.72727%;
   margin-left: 4.54545%;
 }
-/* line 252, ../../dev/pages/activies_page/activies_page.scss */
+/* line 253, ../../dev/pages/activies_page/activies_page.scss */
 .activies_page .document li .description p {
   margin-top: 1.33333em;
   color: #8F979F;
   line-height: 1.26667em;
 }
-/* line 258, ../../dev/pages/activies_page/activies_page.scss */
+/* line 259, ../../dev/pages/activies_page/activies_page.scss */
 .activies_page .document li .description.distinction .brand_news_title {
   color: #b70e12;
 }
-/* line 266, ../../dev/pages/activies_page/activies_page.scss */
+/* line 267, ../../dev/pages/activies_page/activies_page.scss */
 .activies_page .calendar_from, .activies_page .calendar_to {
   background: none;
   border: none;
@@ -8146,7 +8156,7 @@ input.gray::-webkit-input-placeholder {
   color: #7E8D95;
   font-weight: 500;
 }
-/* line 276, ../../dev/pages/activies_page/activies_page.scss */
+/* line 277, ../../dev/pages/activies_page/activies_page.scss */
 .activies_page .calendar_to {
   margin-left: 1.39665%;
 }
@@ -8345,13 +8355,12 @@ input.gray::-webkit-input-placeholder {
 .activities_changes_approval .document_wrap {
   border-top: 1px solid #cecfd0;
   padding-top: 5.33333em;
-  margin-bottom: 2em;
 }
-/* line 141, ../../dev/pages/activities_changes_approval/activities_changes_approval.scss */
+/* line 140, ../../dev/pages/activities_changes_approval/activities_changes_approval.scss */
 .activities_changes_approval .document {
   margin-top: -3em;
 }
-/* line 143, ../../dev/pages/activities_changes_approval/activities_changes_approval.scss */
+/* line 142, ../../dev/pages/activities_changes_approval/activities_changes_approval.scss */
 .activities_changes_approval .document li {
   float: left;
   width: 44.71545%;
@@ -8360,113 +8369,113 @@ input.gray::-webkit-input-placeholder {
   margin-top: 6.33333em;
 }
 @media (max-width: 768px) {
-  /* line 143, ../../dev/pages/activities_changes_approval/activities_changes_approval.scss */
+  /* line 142, ../../dev/pages/activities_changes_approval/activities_changes_approval.scss */
   .activities_changes_approval .document li {
     float: none;
     width: 100%;
     margin-left: 0;
   }
 }
-/* line 156, ../../dev/pages/activities_changes_approval/activities_changes_approval.scss */
+/* line 155, ../../dev/pages/activities_changes_approval/activities_changes_approval.scss */
 .activities_changes_approval .document li:nth-child(2n+1) {
   margin-left: 0;
   clear: left;
 }
-/* line 161, ../../dev/pages/activities_changes_approval/activities_changes_approval.scss */
+/* line 160, ../../dev/pages/activities_changes_approval/activities_changes_approval.scss */
 .activities_changes_approval .document li.odd {
   margin-left: 0;
   clear: left;
 }
-/* line 166, ../../dev/pages/activities_changes_approval/activities_changes_approval.scss */
+/* line 165, ../../dev/pages/activities_changes_approval/activities_changes_approval.scss */
 .activities_changes_approval .document li .brand_news_title {
   font-size: 1em;
   width: 90.90909%;
 }
 @media (max-width: 768px) {
-  /* line 170, ../../dev/pages/activities_changes_approval/activities_changes_approval.scss */
+  /* line 169, ../../dev/pages/activities_changes_approval/activities_changes_approval.scss */
   .activities_changes_approval .document li .manage {
     width: 4.13333em;
   }
 }
-/* line 174, ../../dev/pages/activities_changes_approval/activities_changes_approval.scss */
+/* line 173, ../../dev/pages/activities_changes_approval/activities_changes_approval.scss */
 .activities_changes_approval .document li .manage.img_circle-default {
   line-height: 4.13333em;
 }
-/* line 178, ../../dev/pages/activities_changes_approval/activities_changes_approval.scss */
+/* line 177, ../../dev/pages/activities_changes_approval/activities_changes_approval.scss */
 .activities_changes_approval .document li .description {
   width: 72.72727%;
   margin-left: 4.54545%;
 }
-/* line 181, ../../dev/pages/activities_changes_approval/activities_changes_approval.scss */
+/* line 180, ../../dev/pages/activities_changes_approval/activities_changes_approval.scss */
 .activities_changes_approval .document li .description p {
   margin-top: 1.33333em;
   color: #8F979F;
 }
-/* line 186, ../../dev/pages/activities_changes_approval/activities_changes_approval.scss */
+/* line 185, ../../dev/pages/activities_changes_approval/activities_changes_approval.scss */
 .activities_changes_approval .document li .description.distinction .brand_news_title {
   color: #b70e12;
 }
-/* line 194, ../../dev/pages/activities_changes_approval/activities_changes_approval.scss */
+/* line 193, ../../dev/pages/activities_changes_approval/activities_changes_approval.scss */
 .activities_changes_approval .channel {
   display: inline-block;
   width: 42.00542%;
   margin-left: 13.55014%;
   margin-top: 3.73333em;
 }
-/* line 199, ../../dev/pages/activities_changes_approval/activities_changes_approval.scss */
+/* line 198, ../../dev/pages/activities_changes_approval/activities_changes_approval.scss */
 .activities_changes_approval .channel:nth-child(2n+1) {
   margin-left: 0;
 }
-/* line 203, ../../dev/pages/activities_changes_approval/activities_changes_approval.scss */
+/* line 202, ../../dev/pages/activities_changes_approval/activities_changes_approval.scss */
 .activities_changes_approval .channel.odd {
   margin-left: 0;
 }
-/* line 207, ../../dev/pages/activities_changes_approval/activities_changes_approval.scss */
+/* line 206, ../../dev/pages/activities_changes_approval/activities_changes_approval.scss */
 .activities_changes_approval .channel .name_channels {
   margin-bottom: 1.53333em;
 }
-/* line 212, ../../dev/pages/activities_changes_approval/activities_changes_approval.scss */
+/* line 211, ../../dev/pages/activities_changes_approval/activities_changes_approval.scss */
 .activities_changes_approval .channel input[type="checkbox"] + label::before {
   vertical-align: -3px;
   margin-right: 0.53333em;
 }
-/* line 216, ../../dev/pages/activities_changes_approval/activities_changes_approval.scss */
+/* line 215, ../../dev/pages/activities_changes_approval/activities_changes_approval.scss */
 .activities_changes_approval .channel input[type="checkbox"] + label .label_ico {
   vertical-align: -3px;
   margin-right: 0.53333em;
 }
-/* line 224, ../../dev/pages/activities_changes_approval/activities_changes_approval.scss */
+/* line 223, ../../dev/pages/activities_changes_approval/activities_changes_approval.scss */
 .activities_changes_approval .channel_item_list {
   color: #45484C;
 }
-/* line 226, ../../dev/pages/activities_changes_approval/activities_changes_approval.scss */
+/* line 225, ../../dev/pages/activities_changes_approval/activities_changes_approval.scss */
 .activities_changes_approval .channel_item_list > li {
   margin-top: 1em;
 }
-/* line 228, ../../dev/pages/activities_changes_approval/activities_changes_approval.scss */
+/* line 227, ../../dev/pages/activities_changes_approval/activities_changes_approval.scss */
 .activities_changes_approval .channel_item_list > li:first-child {
   margin-top: 0;
 }
-/* line 234, ../../dev/pages/activities_changes_approval/activities_changes_approval.scss */
+/* line 233, ../../dev/pages/activities_changes_approval/activities_changes_approval.scss */
 .activities_changes_approval .btn_wrap {
   margin-top: 7.33333em;
 }
-/* line 237, ../../dev/pages/activities_changes_approval/activities_changes_approval.scss */
+/* line 236, ../../dev/pages/activities_changes_approval/activities_changes_approval.scss */
 .activities_changes_approval .btn_wrap .btn.btn-default {
   width: 22.49322%;
   margin-left: 4.74255%;
 }
-/* line 241, ../../dev/pages/activities_changes_approval/activities_changes_approval.scss */
+/* line 240, ../../dev/pages/activities_changes_approval/activities_changes_approval.scss */
 .activities_changes_approval .btn_wrap .btn:first-child {
   margin-left: 0;
 }
-/* line 247, ../../dev/pages/activities_changes_approval/activities_changes_approval.scss */
+/* line 246, ../../dev/pages/activities_changes_approval/activities_changes_approval.scss */
 .activities_changes_approval .activities_textarea {
   margin: 2.46154em 0;
   border: 1px solid #dedfdf;
   font-size: 0.86667em;
 }
-/* line 254, ../../dev/pages/activities_changes_approval/activities_changes_approval.scss */
+/* line 253, ../../dev/pages/activities_changes_approval/activities_changes_approval.scss */
 .activities_changes_approval .calendar_from, .activities_changes_approval .calendar_to {
   background: none;
   border: none;
@@ -8476,19 +8485,19 @@ input.gray::-webkit-input-placeholder {
   color: #7E8D95;
   font-weight: 500;
 }
-/* line 264, ../../dev/pages/activities_changes_approval/activities_changes_approval.scss */
+/* line 263, ../../dev/pages/activities_changes_approval/activities_changes_approval.scss */
 .activities_changes_approval .calendar_to {
   margin-left: 1.39665%;
 }
-/* line 268, ../../dev/pages/activities_changes_approval/activities_changes_approval.scss */
+/* line 267, ../../dev/pages/activities_changes_approval/activities_changes_approval.scss */
 .activities_changes_approval .comiseo-daterangepicker.ui-corner-all {
   min-width: 300px;
 }
-/* line 274, ../../dev/pages/activities_changes_approval/activities_changes_approval.scss */
+/* line 273, ../../dev/pages/activities_changes_approval/activities_changes_approval.scss */
 .activities_changes_approval label.checkbox .label_ico {
   border-color: #f0f0f0;
 }
-/* line 278, ../../dev/pages/activities_changes_approval/activities_changes_approval.scss */
+/* line 277, ../../dev/pages/activities_changes_approval/activities_changes_approval.scss */
 .activities_changes_approval label.checkbox.chacked .label_ico {
   background: url(/i/sprite.png) 4px -236px;
 }
@@ -8699,6 +8708,13 @@ input.gray::-webkit-input-placeholder {
 /* line 162, ../../dev/pages/activities_search/activities_search.scss */
 .activities_search_page .select2-results__option {
   padding: 0.86667em 1.33333em;
+}
+/* line 166, ../../dev/pages/activities_search/activities_search.scss */
+.activities_search_page .calendar_input {
+  font-size: 1.13333em;
+  line-height: 2.35294em;
+  height: 2.35294em;
+  color: #909294;
 }
 
 @font-face {
@@ -9000,41 +9016,45 @@ input.gray::-webkit-input-placeholder {
   margin-left: 7.22em;
   font-size: 1.2em;
   text-transform: uppercase;
-  color: #60717B;
+  color: #7e8890;
 }
-/* line 52, ../../dev/pages/approval_flow_list/approval_flow_list.scss */
+/* line 53, ../../dev/pages/approval_flow_list/approval_flow_list.scss */
 .approval_flow_list_page .wrap.wrap_news_feed .feed .info {
   margin-top: 0.66667em;
   margin-left: 8.65em;
 }
-/* line 56, ../../dev/pages/approval_flow_list/approval_flow_list.scss */
+/* line 57, ../../dev/pages/approval_flow_list/approval_flow_list.scss */
 .approval_flow_list_page .wrap.wrap_news_feed .feed .info span {
   font-weight: 300;
   color: #919191;
 }
-/* line 60, ../../dev/pages/approval_flow_list/approval_flow_list.scss */
+/* line 61, ../../dev/pages/approval_flow_list/approval_flow_list.scss */
 .approval_flow_list_page .wrap.wrap_news_feed .feed .info .brand, .approval_flow_list_page .wrap.wrap_news_feed .feed .info .updated {
   font-weight: 600;
-  color: #787878;
+  color: #7c7c7c;
 }
-/* line 64, ../../dev/pages/approval_flow_list/approval_flow_list.scss */
+/* line 65, ../../dev/pages/approval_flow_list/approval_flow_list.scss */
+.approval_flow_list_page .wrap.wrap_news_feed .feed .info .brand span, .approval_flow_list_page .wrap.wrap_news_feed .feed .info .updated span {
+  color: #7c7c7c;
+}
+/* line 69, ../../dev/pages/approval_flow_list/approval_flow_list.scss */
 .approval_flow_list_page .wrap.wrap_news_feed .feed .info .status {
   margin-top: 0.66667em;
   font-weight: 600;
   text-transform: uppercase;
-  color: #7E7F81;
+  color: #909294;
 }
-/* line 69, ../../dev/pages/approval_flow_list/approval_flow_list.scss */
+/* line 75, ../../dev/pages/approval_flow_list/approval_flow_list.scss */
 .approval_flow_list_page .wrap.wrap_news_feed .feed .info .status .new {
   color: #2ecc71;
   font-weight: 600;
 }
-/* line 73, ../../dev/pages/approval_flow_list/approval_flow_list.scss */
+/* line 79, ../../dev/pages/approval_flow_list/approval_flow_list.scss */
 .approval_flow_list_page .wrap.wrap_news_feed .feed .info .status .updated, .approval_flow_list_page .wrap.wrap_news_feed .feed .info .status .on_approval {
   color: #d7c669;
   font-weight: 600;
 }
-/* line 77, ../../dev/pages/approval_flow_list/approval_flow_list.scss */
+/* line 83, ../../dev/pages/approval_flow_list/approval_flow_list.scss */
 .approval_flow_list_page .wrap.wrap_news_feed .feed .info .status .declined {
   color: #d76969;
   font-weight: 600;
@@ -9230,16 +9250,6 @@ input.gray::-webkit-input-placeholder {
 .choise_of_brand_page .main_menu > li {
   width: 11.7em;
   height: 11.7em;
-}
-
-/* line 1, ../../dev/pages/choise_of_department/choise_of_department.scss */
-.choise_of_department_wrap {
-  margin-top: 5em;
-}
-
-/* line 4, ../../dev/pages/choise_of_department/choise_of_department.scss */
-.main_menu_wrap {
-  margin-top: 5.6em;
 }
 
 @font-face {
@@ -10144,38 +10154,38 @@ input.gray::-webkit-input-placeholder {
   margin-left: 7.22em;
   font-size: 1.2em;
   text-transform: uppercase;
-  color: #60717B;
+  color: #7e8890;
   font-family: 'Brandon Grotesque';
 }
-/* line 53, ../../dev/pages/news_feed/news_feed.scss */
+/* line 54, ../../dev/pages/news_feed/news_feed.scss */
 .news_feed_page .wrap.wrap_news_feed .feed .info {
   margin-top: 0.66667em;
   margin-left: 8.65em;
   font-family: 'Brandon Grotesque';
 }
-/* line 58, ../../dev/pages/news_feed/news_feed.scss */
+/* line 59, ../../dev/pages/news_feed/news_feed.scss */
 .news_feed_page .wrap.wrap_news_feed .feed .info span {
   font-weight: 300;
   color: #919191;
 }
-/* line 62, ../../dev/pages/news_feed/news_feed.scss */
+/* line 63, ../../dev/pages/news_feed/news_feed.scss */
 .news_feed_page .wrap.wrap_news_feed .feed .info .brand, .news_feed_page .wrap.wrap_news_feed .feed .info .updated {
   font-weight: 600;
   color: #787878;
 }
-/* line 66, ../../dev/pages/news_feed/news_feed.scss */
+/* line 67, ../../dev/pages/news_feed/news_feed.scss */
 .news_feed_page .wrap.wrap_news_feed .feed .info .status {
   margin-top: 0.66667em;
   font-weight: 600;
   text-transform: uppercase;
   color: #7E7F81;
 }
-/* line 71, ../../dev/pages/news_feed/news_feed.scss */
+/* line 72, ../../dev/pages/news_feed/news_feed.scss */
 .news_feed_page .wrap.wrap_news_feed .feed .info .status .new {
   color: #2ecc71;
   font-weight: 600;
 }
-/* line 75, ../../dev/pages/news_feed/news_feed.scss */
+/* line 76, ../../dev/pages/news_feed/news_feed.scss */
 .news_feed_page .wrap.wrap_news_feed .feed .info .status .updated {
   color: #d7c669;
   font-weight: 600;
@@ -10470,6 +10480,10 @@ input.gray::-webkit-input-placeholder {
 /* line 35, ../../dev/pages/single_brand_page/single_brand_page.scss */
 .single_brand_page .brand_news .btn_big_rounded_wrap.pos_right {
   width: 22.91105%;
+}
+/* line 42, ../../dev/pages/single_brand_page/single_brand_page.scss */
+.single_brand_page .brand_news_title {
+  color: #323a45;
 }
 
 @font-face {

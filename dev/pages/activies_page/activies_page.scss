@@ -73,7 +73,8 @@
                 font-weight: 300;
                 font-size: em($brand_news_title-font-size, $base-font-size);
                 line-height: 1;
-                color: $base-color;
+                // color: $base-color;
+                color: #2c3138;
                 margin-bottom: em(28px, $main_title-font-size);
             }
             p.text {
