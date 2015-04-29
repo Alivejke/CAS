@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -3865,10 +3866,10 @@ textarea {
   height: 100%;
   background-color: #d5d5d5;
   padding: 0 1em;
-  -moz-transition-property: width, height, background-color, padding, margin, color;
-  -o-transition-property: width, height, background-color, padding, margin, color;
-  -webkit-transition-property: width, height, background-color, padding, margin, color;
-  transition-property: width, height, background-color, padding, margin, color;
+  -moz-transition-property: width, height, background-color, padding, margin, color╨▒, line-height;
+  -o-transition-property: width, height, background-color, padding, margin, color╨▒, line-height;
+  -webkit-transition-property: width, height, background-color, padding, margin, color╨▒, line-height;
+  transition-property: width, height, background-color, padding, margin, color╨▒ line-height;
   -moz-transition-duration: 0.3s;
   -o-transition-duration: 0.3s;
   -webkit-transition-duration: 0.3s;
@@ -4064,15 +4065,39 @@ textarea {
   top: -1em;
   left: -4.77707%;
   z-index: 10;
+  -moz-transition-property: top, left, margin, border-width, width, height;
+  -o-transition-property: top, left, margin, border-width, width, height;
+  -webkit-transition-property: top, left, margin, border-width, width, height;
+  transition-property: top, left, margin, border-width, width, height;
+  -moz-transition-duration: 0.3s;
+  -o-transition-duration: 0.3s;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -moz-transition-timing-function: ease-out;
+  -o-transition-timing-function: ease-out;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
 }
-/* line 197, ../../dev/sass/specifics/_main_menu.scss */
+/* line 201, ../../dev/sass/specifics/_main_menu.scss */
 .main_menu.main_menu_big > li .main_menu_item .ico_status_big_wrap .ico_status_big {
   position: absolute;
   top: 50%;
   left: 50%;
   margin: -0.86667em 0 0 -0.86667em;
+  -moz-transition-property: top, left, margin, width, height;
+  -o-transition-property: top, left, margin, width, height;
+  -webkit-transition-property: top, left, margin, width, height;
+  transition-property: top, left, margin, width, height;
+  -moz-transition-duration: 0.3s;
+  -o-transition-duration: 0.3s;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -moz-transition-timing-function: ease-out;
+  -o-transition-timing-function: ease-out;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
 }
-/* line 206, ../../dev/sass/specifics/_main_menu.scss */
+/* line 214, ../../dev/sass/specifics/_main_menu.scss */
 .main_menu.main_menu_big > li:hover .main_menu_item {
   margin-top: -2.06667em;
   width: 116.6%;
@@ -4080,16 +4105,16 @@ textarea {
   line-height: 1;
   z-index: 15;
 }
-/* line 213, ../../dev/sass/specifics/_main_menu.scss */
+/* line 221, ../../dev/sass/specifics/_main_menu.scss */
 .main_menu.main_menu_big > li:hover .main_menu_item img {
   display: block;
 }
-/* line 216, ../../dev/sass/specifics/_main_menu.scss */
+/* line 224, ../../dev/sass/specifics/_main_menu.scss */
 .main_menu.main_menu_big > li:hover .main_menu_item .main_menu_item-bg {
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=80);
   opacity: 0.8;
 }
-/* line 219, ../../dev/sass/specifics/_main_menu.scss */
+/* line 227, ../../dev/sass/specifics/_main_menu.scss */
 .main_menu.main_menu_big > li:hover .main_menu_item .ico_status_big_wrap {
   width: 2.46667em;
   height: 2.46667em;
@@ -4097,40 +4122,40 @@ textarea {
   top: -1.26667em;
   left: -5.17711%;
 }
-/* line 226, ../../dev/sass/specifics/_main_menu.scss */
+/* line 234, ../../dev/sass/specifics/_main_menu.scss */
 .main_menu.main_menu_big > li:hover .main_menu_item .ico_status_big_wrap .ico_status_big {
   width: 2em;
   height: 2em;
   margin: -0.93333em 0 0 -0.93333em;
 }
-/* line 232, ../../dev/sass/specifics/_main_menu.scss */
+/* line 240, ../../dev/sass/specifics/_main_menu.scss */
 .main_menu.main_menu_big > li:hover .main_menu_item .main_menu_text_wrap {
   padding: 1.33333em 17.71117% 1.33333em 9.80926%;
 }
-/* line 234, ../../dev/sass/specifics/_main_menu.scss */
+/* line 242, ../../dev/sass/specifics/_main_menu.scss */
 .main_menu.main_menu_big > li:hover .main_menu_item .main_menu_text_wrap .main_menu_status_product {
   margin-top: 2.53333em;
 }
-/* line 238, ../../dev/sass/specifics/_main_menu.scss */
+/* line 246, ../../dev/sass/specifics/_main_menu.scss */
 .main_menu.main_menu_big > li:hover .main_menu_item .main_menu_view {
   display: block;
 }
-/* line 243, ../../dev/sass/specifics/_main_menu.scss */
+/* line 251, ../../dev/sass/specifics/_main_menu.scss */
 .main_menu.main_menu_big > li:nth-child(2n+1) {
   margin-right: -1px;
 }
 
-/* line 249, ../../dev/sass/specifics/_main_menu.scss */
+/* line 257, ../../dev/sass/specifics/_main_menu.scss */
 .main_menu_status_product {
   overflow: hidden;
   margin-top: 3.53333em;
 }
-/* line 252, ../../dev/sass/specifics/_main_menu.scss */
+/* line 260, ../../dev/sass/specifics/_main_menu.scss */
 .main_menu_status_product li {
   float: left;
   margin-left: 4.16667%;
 }
-/* line 255, ../../dev/sass/specifics/_main_menu.scss */
+/* line 263, ../../dev/sass/specifics/_main_menu.scss */
 .main_menu_status_product li:first-child {
   margin-left: 0;
 }
@@ -7520,42 +7545,69 @@ input.gray::-webkit-input-placeholder {
   border: 1px solid transparent;
   position: relative;
   margin-right: 1.5625%;
+  -moz-transition-property: border-color;
+  -o-transition-property: border-color;
+  -webkit-transition-property: border-color;
+  transition-property: border-color;
+  -moz-transition-duration: 0.3s;
+  -o-transition-duration: 0.3s;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -moz-transition-timing-function: ease-out;
+  -o-transition-timing-function: ease-out;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
 }
-/* line 24, ../../dev/sass/specifics/_file_list.scss */
+/* line 28, ../../dev/sass/specifics/_file_list.scss */
 .block .icon:hover {
   border-color: #42CE7F;
 }
-/* line 27, ../../dev/sass/specifics/_file_list.scss */
+/* line 31, ../../dev/sass/specifics/_file_list.scss */
 .block .icon img {
   max-width: 100%;
   margin: 0px auto;
   display: block;
 }
-/* line 32, ../../dev/sass/specifics/_file_list.scss */
+/* line 36, ../../dev/sass/specifics/_file_list.scss */
 .block .icon .ico_search {
   position: absolute;
-  top: 1.66667em;
-  left: 34.24658%;
-  display: none;
+  top: 1.7em;
+  left: 34.28571%;
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
+  opacity: 0;
+  z-index: 2;
+  -moz-transition-property: opacity;
+  -o-transition-property: opacity;
+  -webkit-transition-property: opacity;
+  transition-property: opacity;
+  -moz-transition-duration: 0.3s;
+  -o-transition-duration: 0.3s;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -moz-transition-timing-function: ease-out;
+  -o-transition-timing-function: ease-out;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
 }
 @media (max-width: 768px) {
-  /* line 32, ../../dev/sass/specifics/_file_list.scss */
+  /* line 36, ../../dev/sass/specifics/_file_list.scss */
   .block .icon .ico_search {
     top: 1.3em;
     left: 32.24658%;
   }
 }
-/* line 43, ../../dev/sass/specifics/_file_list.scss */
+/* line 52, ../../dev/sass/specifics/_file_list.scss */
 .block .icon:hover .ico_search {
-  display: block;
+  filter: progid:DXImageTransform.Microsoft.Alpha(enabled=false);
+  opacity: 1;
 }
-/* line 47, ../../dev/sass/specifics/_file_list.scss */
+/* line 56, ../../dev/sass/specifics/_file_list.scss */
 .block .icon_wrap {
   float: left;
   width: 21.11111%;
   margin: -0.33333em 3.33333% -0.33333em 0;
 }
-/* line 51, ../../dev/sass/specifics/_file_list.scss */
+/* line 60, ../../dev/sass/specifics/_file_list.scss */
 .block .icon_wrap .icon {
   width: 100%;
   padding: 0.33333em 1.66667%;
@@ -7566,45 +7618,60 @@ input.gray::-webkit-input-placeholder {
   border: 1px solid transparent;
   position: relative;
 }
-/* line 58, ../../dev/sass/specifics/_file_list.scss */
+/* line 67, ../../dev/sass/specifics/_file_list.scss */
 .block .icon_wrap .icon:hover {
   border-color: #42CE7F;
 }
-/* line 61, ../../dev/sass/specifics/_file_list.scss */
+/* line 70, ../../dev/sass/specifics/_file_list.scss */
 .block .icon_wrap .icon img {
   max-width: 100%;
   margin: 0px auto;
   display: block;
 }
-/* line 66, ../../dev/sass/specifics/_file_list.scss */
+/* line 75, ../../dev/sass/specifics/_file_list.scss */
 .block .icon_wrap .icon .ico_search {
   position: absolute;
-  top: 1.66667em;
-  left: 34.24658%;
-  display: none;
+  top: 1.7em;
+  left: 34.28571%;
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
+  opacity: 0;
+  z-index: 2;
+  -moz-transition-property: opacity;
+  -o-transition-property: opacity;
+  -webkit-transition-property: opacity;
+  transition-property: opacity;
+  -moz-transition-duration: 0.3s;
+  -o-transition-duration: 0.3s;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -moz-transition-timing-function: ease-out;
+  -o-transition-timing-function: ease-out;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
 }
 @media (max-width: 768px) {
-  /* line 66, ../../dev/sass/specifics/_file_list.scss */
+  /* line 75, ../../dev/sass/specifics/_file_list.scss */
   .block .icon_wrap .icon .ico_search {
     top: 1.3em;
     left: 32.24658%;
   }
 }
-/* line 77, ../../dev/sass/specifics/_file_list.scss */
+/* line 91, ../../dev/sass/specifics/_file_list.scss */
 .block .icon_wrap .icon:hover .ico_search {
-  display: block;
+  filter: progid:DXImageTransform.Microsoft.Alpha(enabled=false);
+  opacity: 1;
 }
-/* line 82, ../../dev/sass/specifics/_file_list.scss */
+/* line 96, ../../dev/sass/specifics/_file_list.scss */
 .block .icon_wrap .center .sprite_ico {
   margin-top: 0.66667em;
 }
-/* line 87, ../../dev/sass/specifics/_file_list.scss */
+/* line 101, ../../dev/sass/specifics/_file_list.scss */
 .block .name {
   float: left;
   font-family: 'Brandon Grotesque';
   font-weight: 300;
 }
-/* line 93, ../../dev/sass/specifics/_file_list.scss */
+/* line 107, ../../dev/sass/specifics/_file_list.scss */
 .block .text {
   float: left;
   width: 66.66667%;
@@ -7613,19 +7680,19 @@ input.gray::-webkit-input-placeholder {
   line-height: 1.4em;
   font-size: 0.89333em;
 }
-/* line 103, ../../dev/sass/specifics/_file_list.scss */
+/* line 117, ../../dev/sass/specifics/_file_list.scss */
 .block .file_size {
   float: left;
   width: 66.66667%;
   margin-top: 0.2em;
   font-weight: 500;
 }
-/* line 109, ../../dev/sass/specifics/_file_list.scss */
+/* line 123, ../../dev/sass/specifics/_file_list.scss */
 .block .ico_download {
   cursor: pointer;
 }
 @media (max-width: 768px) {
-  /* line 109, ../../dev/sass/specifics/_file_list.scss */
+  /* line 123, ../../dev/sass/specifics/_file_list.scss */
   .block .ico_download {
     margin-top: 5px;
   }
