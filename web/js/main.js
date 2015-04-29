@@ -28,6 +28,7 @@ function initializeCheckboxes () {
 		});
 
 		$dateWrap.find('.calendar_block').show();
+
 	};
 
 	if($(".datepicker").length) {
@@ -36,24 +37,30 @@ function initializeCheckboxes () {
 			datepickerOptions : {
 		        numberOfMonths : 1,
 		        firstDay: 1,
-				maxDate: null
-		    },
-		    onChange: function(instance) {
-		    	setTimeout(function() {
-			    	var $start = instance.dpDiv.find('.ui-state-highlight-start'),
-			    		$end = instance.dpDiv.find('.ui-state-highlight-end'),
-			    		startDay = ("0" +  $start.find('a').text()).slice(-2),
-			    		startMonth =("0" +  $start.data('month')).slice(-2),
-			    		startYear = $start.data('year'),
-			    		endDay = ("0" +  $end.find('a').text()).slice(-2),
-			    		endMonth = ("0" +  $end.data('month')).slice(-2),
-			    		endYear = $end.data('year'),
-			    		startDate = startDay && startMonth && startYear ? startDay + '.' + startMonth + '.' + startYear : '',
-			    		endDate = endDay && endMonth && endYear ? endDay + '.' + endMonth + '.' + endYear : '';
+				maxDate: null,
+			    onSelect: function(dateText, instance, range) {
+			    	var startDate = '',
+			    		endDate = '';
+
+			    	if(range.start) {
+				    	var startDay = ("0" +  range.start.getDate()).slice(-2),
+				    		startMonth =("0" +  range.start.getMonth()).slice(-2),
+				    		startYear = range.start.getFullYear();
+
+				    	startDate = startDay + '.' + startMonth + '.' + startYear;
+			    	}
+
+			    	if(range.end) {
+				    	var endDay = ("0" +  range.end.getDate()).slice(-2),
+				    		endMonth = ("0" +  range.end.getMonth()).slice(-2),
+				    		endYear = range.end.getFullYear();
+
+			    		endDate = endDay + '.' + endMonth + '.' + endYear;
+			    	}
 
 			    	$('.calendarWrap.active').find('.calendar_from').val( startDate );
 			    	$('.calendarWrap.active').find('.calendar_to').val( endDate );
-		    	}, 0);
+			    }
 		    }
 		});
 
@@ -66,6 +73,7 @@ function initializeCheckboxes () {
 			$datepicker.daterangepicker("open");
 
 			calendarPositions ($this);
+
 		});
 
 		$(window).resize(function(){
@@ -384,9 +392,9 @@ function initializeCheckboxes () {
 	$(document).on('click', function (event) {
 	    var $container = $('.status_wrap');
 	    // debugger
-	    if ( $container.has(event.target).length === 0 && $('.datepicker_bottom_block').has(event.target).length === 0 && $('.comiseo-daterangepicker').has(event.target).length === 0 ){
-	        $container.find('.calendar_block').hide();
-	    }
+	    // if ( $container.has(event.target).length === 0 && $('.datepicker_bottom_block').has(event.target).length === 0 && $('.comiseo-daterangepicker').has(event.target).length === 0 ){
+	    //     $container.find('.calendar_block').hide();
+	    // }
 	});
 
 
@@ -399,13 +407,14 @@ function initializeCheckboxes () {
 		$('.document:nth-child(2n+1)').addClass('odd');
 	}
 
-	$(document).on('click', function (event) {
-	    var $container = $('.status_wrap');
+	// $(document).on('click', function (event) {
+	//     var $container = $('.status_wrap');
 	    
-	    if ( $container.has(event.target).length === 0 && $('.datepicker_bottom_block').has(event.target).length === 0 && $('.comiseo-daterangepicker').has(event.target).length === 0 ){
-	        $container.removeClass('active').find('.calendar_block').hide();
-	    }
-	});
+	//     if ( $container.has(event.target).length === 0 && $('.datepicker_bottom_block').has(event.target).length === 0 && $('.comiseo-daterangepicker').has(event.target).length === 0 ){
+	       
+	//         $container.removeClass('active').find('.calendar_block').hide();
+	//     }
+	// });
 	
 });;;$(function() {
 // 	if ( navigator.userAgent.toLowerCase().indexOf('msie') != -1) {
@@ -607,9 +616,9 @@ function initializeCheckboxes () {
 	$(document).on('click', function (event) {
 	    var $container = $('.status_wrap');
 	    // debugger
-	    if ( $container.has(event.target).length === 0 && $('.datepicker_bottom_block').has(event.target).length === 0 && $('.comiseo-daterangepicker').has(event.target).length === 0 ){
-	        $container.find('.calendar_block').hide();
-	    }
+	    // if ( $container.has(event.target).length === 0 && $('.datepicker_bottom_block').has(event.target).length === 0 && $('.comiseo-daterangepicker').has(event.target).length === 0 ){
+	    //     $container.find('.calendar_block').hide();
+	    // }
 	});
 
 

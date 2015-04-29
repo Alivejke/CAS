@@ -204,11 +204,7 @@
 				range.end = selectedDate;
 			}
 			if (options.datepickerOptions.hasOwnProperty('onSelect')) {
-				options.datepickerOptions.onSelect(dateText, instance);
-			}
-			
-			if (options.onChange) {
-				options.onChange(instance);
+				options.datepickerOptions.onSelect(dateText, instance, range);
 			}
 		}
 
@@ -364,6 +360,7 @@
 					reset();
 				}
 			});
+
 			render();
 			autoFit();
 			reset();
@@ -587,7 +584,9 @@
 			if (isOpen) {
 				$container.hide();
 				$mask.hide();
-				triggerButton.getElement().removeClass(classname + '-active');
+				triggerButton.getElement()
+								.removeClass(classname + '-active')
+								.closest('.calendarWrap').removeClass('active');
 				isOpen = false;
 			}
 			if (options.onClose) {

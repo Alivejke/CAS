@@ -5,12 +5,13 @@
 		$('.document:nth-child(2n+1)').addClass('odd');
 	}
 
-	$(document).on('click', function (event) {
-	    var $container = $('.status_wrap');
+	// $(document).on('click', function (event) {
+	//     var $container = $('.status_wrap');
 	    
-	    if ( $container.has(event.target).length === 0 && $('.datepicker_bottom_block').has(event.target).length === 0 && $('.comiseo-daterangepicker').has(event.target).length === 0 ){
-	        $container.removeClass('active').find('.calendar_block').hide();
-	    }
-	});
+	//     if ( $container.has(event.target).length === 0 && $('.datepicker_bottom_block').has(event.target).length === 0 && $('.comiseo-daterangepicker').has(event.target).length === 0 ){
+	       
+	//         $container.removeClass('active').find('.calendar_block').hide();
+	//     }
+	// });
 	
 });

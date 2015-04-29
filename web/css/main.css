@@ -6891,7 +6891,7 @@ label.checkbox {
 }
 /* line 254, ../../dev/sass/specifics/_calendar.scss */
 .datepicker_bottom_block .reset_block {
-  height: 55px;
+  height: 4.58333em;
   width: 100%;
   background: #eeeeee;
   z-index: 100;
@@ -6915,6 +6915,12 @@ label.checkbox {
 /* line 275, ../../dev/sass/specifics/_calendar.scss */
 .ui-helper-clearfix.ui-widget-header {
   display: block;
+}
+
+/* line 280, ../../dev/sass/specifics/_calendar.scss */
+.ui-icon {
+  width: 6px;
+  height: 12px;
 }
 
 /* line 1, ../../dev/sass/specifics/_checkbox.scss */
