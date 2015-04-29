@@ -52,7 +52,9 @@ $(document).ready(function() {
 		    }
 		});
 
-		$(".calendarWrap").on('click', function () {
+		$(".calendarWrap").on('click', function (event) {
+			event.preventDefault();
+
 			var $this = $(this),
 				$datepicker = $this.find('.datepicker');
 
