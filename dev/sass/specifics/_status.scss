@@ -8,6 +8,7 @@ $status_wrap-width: 300px;
 	right: 0;
 	background: $white-color;
 	width: flex($status_wrap-width, $base-width-content);
+	@include border-radius(30px);
 	.btn_big_rounded {
 		width: 100%;
 		height: em(42px, $btn-font-size);

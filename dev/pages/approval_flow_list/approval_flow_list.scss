@@ -1,4 +1,5 @@
 @import '../../sass/base/__base';
+@import "compass/css3";
 
 .approval_flow_list_page {
 	$feeds_name_font-size: 18px;
@@ -22,7 +23,7 @@
 		  	position: relative;
 		  	color: $gray-color;
 		  	margin-top: em(40px, $base-font-size);
-		  	a.sprite.btn.btn_circle.ico_eye {
+		  	.ico_eye_wrap {
 			  	position: absolute;
 			  	left: -15%;
 	  			top: 1.9em;
@@ -86,6 +87,16 @@
 					}
 				}
 			}
+		}
+	}
+
+	.ico_eye_wrap {
+		width: em(45px);
+		height: em(45px);
+		@include border-radius(100%);
+		.ico_eye {
+			width: 100%;
+			height: 100%;
 		}
 	}
 }

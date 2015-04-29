@@ -96,6 +96,9 @@ textarea {
 	&.bg_gray {
 		background-color: #f8faf9;
 	}
+	&.content_wrap_noindent {
+		margin-top: 0;
+	}
 }
 
 .js-img_wrap {
