@@ -14,7 +14,7 @@ function initializeCheckboxes () {
 	var calendarPaddingWidth = 19;
 
 	function calendarPositions ($dateWrap) {
-		// debugger
+
 		$('.comiseo-daterangepicker').css({
 			'top': $dateWrap.offset().top + $dateWrap.height(),
 			'left': $dateWrap.offset().left + calendarPaddingWidth,
@@ -87,6 +87,12 @@ function initializeCheckboxes () {
 	    $(document).scroll(function(){
 	        var $calendarWrap = $('.calendarWrap'),
 	        	body = $(document).scrollTop();
+
+	        if(  $('.calendarWrap.active').length ){
+				$calendarWrap = $('.calendarWrap.active');
+	        } else {
+				$calendarWrap = $('.calendarWrap');
+	        }
 
 	        if ( body > 10 ) {
 	            calendarPositions ($calendarWrap);
