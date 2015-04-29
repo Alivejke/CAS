@@ -45,7 +45,7 @@ $main_menu_item-width-hover: 367px;
 			// padding: 0 flex(10px, $base-width-content) 0 0;
 
 			
-			@include transition-property(width, height, background-color, padding, margin, color);
+			@include transition-property(width, height, background-color, padding, margin, colorб line-height);
 			@include transition-duration(0.3s);
 			@include transition-timing-function(ease-out);
 			img {
@@ -194,11 +194,19 @@ $main_menu_item-width-hover: 367px;
 					top: em(-15px, $base-font-size);
 					left: flex(-15px, $main_menu_item-width);
 					z-index: 10;
+			
+					@include transition-property(top, left, margin, border-width, width, height);
+					@include transition-duration(0.3s);
+					@include transition-timing-function(ease-out);
 					.ico_status_big {
 						position: absolute;
 						top: 50%;
 						left: 50%;
 						margin: em(-13px) 0 0 em(-13px);
+			
+						@include transition-property(top, left, margin, width, height);
+						@include transition-duration(0.3s);
+						@include transition-timing-function(ease-out);
 					}
 				}
 			}
