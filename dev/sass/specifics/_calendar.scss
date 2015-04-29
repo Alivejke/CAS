@@ -268,5 +268,8 @@ $calendar-font-size: 12px;
     }
 }
 .ui-helper-clearfix {
-  display: none;
+	display: none;
+	&.ui-widget-header {
+		display: block;
+	}
 }
