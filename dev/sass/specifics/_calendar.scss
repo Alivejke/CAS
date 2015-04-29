@@ -252,7 +252,7 @@ $calendar-font-size: 12px;
         }
     }
     .reset_block {
-        height: 55px;
+        height: em(55px, 12px);
         width: 100%;
         background: #eeeeee;
         z-index: 100;
@@ -275,4 +275,9 @@ $calendar-font-size: 12px;
 	&.ui-widget-header {
 		display: block;
 	}
+}
+
+.ui-icon {
+	width: 6px;
+	height: 12px;
 }
