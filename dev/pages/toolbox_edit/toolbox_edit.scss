@@ -43,7 +43,12 @@
 			}
 		}
 		.toolbox_edit_title {
-			margin: em(38px, $main_title-font-size) 0 em(55px, $main_title-font-size);
+			margin: em(33px, $main_title-font-size) 0 em(50px, $main_title-font-size);
+			border: 1px solid transparent;
+			padding: em(5px) flex(10px);
+			&:hover, &:focus {
+				border-color: #dedfdf;
+			}
 		}
 	}
 	.toolbox_edit_list {

@@ -12,6 +12,19 @@
         $popupWrap.removeClass('popup_active');
     }
 
+    function validationFields () {
+        $('.requiredFields').each(function () {
+            // debugger
+            if( $(this).val().length < 4 ){
+                alert(' должно быть не менее 4-х символов!');
+                $(this).addClass('error');
+                return false;
+            } else{
+                $(this).removeClass('error');
+            }
+        });
+    }
+
     function openPopup (data) {
         var tpl = _.template(accessManagementPopupHtml);
 
@@ -107,6 +120,8 @@
                     alert('Something went wrong');
                 }
             });
+
+            validationFields();
         });
 
         $accessPopup.on('click', '.btn-cansel', function (event) {

@@ -88,6 +88,7 @@
 			// color: $gray-color;
 			color: #909294;
 			line-height: em(23px, $base-font-size);
+			text-align: justify;
 			&.for_approval {
 				color: #b70e12;
 			}
@@ -111,6 +112,7 @@
 			.profile_text {
 				margin: 0 0 0 flex(70px, $base-width-content);
 				width: flex(590px, $base-width-content);
+				text-align: justify;
 
 				@media (max-width: 768px) {
 	                margin: -0.26667em 0 0 5.48509%;

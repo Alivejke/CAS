@@ -1,140 +1,159 @@
 @import '../../sass/base/__base';
 
 .email_notifications_page {
-	.email-notification-content {
-		margin-top: em(60px);
+	&.logs_page {
+		.email-notification-content {
+			margin-top: em(60px);
 
-		h1 {
-			font-weight: bold;
-			margin: 0;
+			h1 {
+				font-weight: bold;
+				margin: 0;
+			}
 		}
-	}
 
-	.email-notification-table {
-		margin-top: em(60px);
-	}
+		.email-notification-table {
+			margin-top: em(60px);
+		}
 
-	.approval_flow_wrap {
+		.approval_flow_wrap {
+			.table-header {
+				.approval_table {
+					td {
+						font-family: 'Brandon Grotesque';
+						font-weight: 600;
+						// color: $table_th-gray-color;
+						color: #5f676f;
+					}
+				}
+			}
+			&.email-notification {
+				.approval_table {
+					&.table_log {
+						td {
+							font-size: em(13px);
+						}
+					}
+				}
+				.wrap_table {
+					&.table-header {
+						.approval_table {
+							&.table_log {
+								td {
+									font-size: em(15px);
+								}
+							}
+						}
+					}
+				}
+			}
+		}
 		.table-header {
-			.approval_table {
-				td {
+			margin-bottom: 0.33em;
+
+			.table-unit {
+				font-weight: bold;
+			}
+		}
+
+		.approval_table {
+			.btn {
+				width: 100%;
+				height: em(27px, 11px);
+				font-size: em(11px, $small_btn-font-size);
+			}
+		}
+
+		.add-notification {
+			position: relative;
+			margin-top: 5.333em;
+			margin-bottom: 5.333em;
+
+			&:before {
+				content: "";
+				position: absolute;
+				left: 7.4em;
+				right: 7.4em;
+				height: 2px;
+				background: #ededee;
+				top: -2.200em;
+			}
+		}
+
+		.edit-notification {
+			position: fixed;
+			top: 50%;
+			left: 50%;
+			width: 37.200em;
+			height: 34.667em;
+			padding: 2.000em 2.200em;
+			margin-left: -18.600em;
+			margin-top: -17.333em;
+			background: #ffffff;
+			border: 1px solid #ededee;
+
+			& > span {
+				font-size: 28px;
+			}
+
+			input {
+				display: block;
+				width: 100%;
+				height: 3.15385em;
+				line-height: 3.15385em;
+				border: 1px solid #cbcbcb;
+				padding: 0 1.15385em;
+				font-size: 0.86667em;
+			}
+
+			textarea {
+				padding: 1em 2.03252%;
+				width: 100%;
+				height: 8.76667em;
+				border: 1px solid #cbcbcb;
+				margin-top: 0;
+			}
+
+			.subject,
+			.text {
+				margin-top: 2.200em;
+				padding: 0 0.267em 0 0.200em;
+
+				label {
+					font-size: 12px;
+					margin-bottom: 1.084em;
+					display: inline-block;
+					color: #77808b;
+				}
+			}
+
+			.text {
+				label {
+					margin-bottom: 1.334em;
+				}
+			}
+
+			.notes {
+				margin-top: 1.067em;
+
+				.notes-unit {
+					float: left;
+					color: #77808b;
+					font-size: 11px;
+					line-height: 1.546em;
 					font-family: 'Brandon Grotesque';
-					font-weight: 600;
-					color: $table_th-gray-color;
+					&:first-child {
+						margin-right: 2.091em;
+					}
 				}
 			}
-		}
-	}
-	.table-header {
-		margin-bottom: 0.33em;
 
-		.table-unit {
-			font-weight: bold;
-		}
-	}
+			.control {
+				margin-top: 2.467em;
+				padding: 0 0.200em;
 
-	.approval_table {
-		.btn {
-			width: 100%;
-			height: em(27px, 11px);
-			font-size: em(11px, $small_btn-font-size);
-		}
-	}
-
-	.add-notification {
-		position: relative;
-		margin-top: 5.333em;
-		margin-bottom: 5.333em;
-
-		&:before {
-			content: "";
-			position: absolute;
-			left: 7.4em;
-			right: 7.4em;
-			height: 2px;
-			background: #ededee;
-			top: -2.200em;
-		}
-	}
-
-
-
-
-
-	.edit-notification {
-		position: fixed;
-		top: 50%;
-		left: 50%;
-		width: 37.200em;
-		height: 34.667em;
-		padding: 2.000em 2.200em;
-		margin-left: -18.600em;
-		margin-top: -17.333em;
-		background: #ffffff;
-		border: 1px solid #ededee;
-
-		& > span {
-			font-size: 28px;
-		}
-
-		input {
-			display: block;
-			width: 100%;
-			height: 3.15385em;
-			line-height: 3.15385em;
-			border: 1px solid #cbcbcb;
-			padding: 0 1.15385em;
-			font-size: 0.86667em;
-		}
-
-		textarea {
-			padding: 1em 2.03252%;
-			width: 100%;
-			height: 8.76667em;
-			border: 1px solid #cbcbcb;
-			margin-top: 0;
-		}
-
-		.subject,
-		.text {
-			margin-top: 2.200em;
-			padding: 0 0.267em 0 0.200em;
-
-			label {
-				font-size: 12px;
-				margin-bottom: 1.084em;
-				display: inline-block;
-				color: #77808b;
-			}
-		}
-
-		.text {
-			label {
-				margin-bottom: 1.334em;
-			}
-		}
-
-		.notes {
-			margin-top: 1.067em;
-
-			.notes-unit {
-				float: left;
-				color: #77808b;
-				font-size: 11px;
-				line-height: 1.546em;
-				font-family: 'Brandon Grotesque';
-				&:first-child {
-					margin-right: 2.091em;
+				button {
+					width: 24.5%;
 				}
-			}
-		}
-
-		.control {
-			margin-top: 2.467em;
-			padding: 0 0.200em;
-
-			button {
-				width: 24.5%;
 			}
 		}
 	}

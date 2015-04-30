@@ -6,4 +6,15 @@
 			padding: em(23px) 0 em(15px);
 		}
 	}
+	.approval_flow_wrap {
+		.approval_table {
+			&.table_log {
+				td {
+					font-size: em($table_td-font-size + 2px);
+					line-height: em($table_td-font-size + 2px + $default_increase-line-height, $table_td-font-size + 2px);
+					color: #707171;
+				}
+			}
+		}
+	}
 }

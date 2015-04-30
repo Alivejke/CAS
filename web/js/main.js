@@ -231,6 +231,19 @@ function initializeCheckboxes () {
         $popupWrap.removeClass('popup_active');
     }
 
+    function validationFields () {
+        $('.requiredFields').each(function () {
+            // debugger
+            if( $(this).val().length < 4 ){
+                alert(' должно быть не менее 4-х символов!');
+                $(this).addClass('error');
+                return false;
+            } else{
+                $(this).removeClass('error');
+            }
+        });
+    }
+
     function openPopup (data) {
         var tpl = _.template(accessManagementPopupHtml);
 
@@ -326,6 +339,8 @@ function initializeCheckboxes () {
                     alert('Something went wrong');
                 }
             });
+
+            validationFields();
         });
 
         $accessPopup.on('click', '.btn-cansel', function (event) {
@@ -424,6 +439,30 @@ function initializeCheckboxes () {
 	//     }
 	// });
 	
+});;;$(function() {
+	var $self = $(this)
+		$tabsNav = $('.tabs_nav', $self),
+		$tabsNavItems = $tabsNav.find('li'),
+		$tabsContentWrap = $('.tabs_content'),
+		idx = 0;
+
+	$tabsContentWrap.find('> li:first').addClass('active');
+
+	$tabsNavItems.each(function (index, element) {
+		$(this).attr("data-page", idx);
+        idx++; 
+	});
+
+	$tabsNavItems.on('click', function(event){
+		event.preventDefault();
+		
+		var $this = $(this);
+
+		idx = $this.data('page');
+		$this.addClass('active').siblings().removeClass('active');
+		$tabsContentWrap.find('> li').eq(idx).addClass('active').siblings().removeClass('active');
+
+	});
 });;;$(function() {
 // 	if ( navigator.userAgent.toLowerCase().indexOf('msie') != -1) {
 // 		$('.wrap_table > div:nth-child(odd)').addClass('odd');

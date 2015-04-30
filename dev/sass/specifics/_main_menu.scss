@@ -76,6 +76,24 @@ $main_menu_item-width-hover: 367px;
 			}
 		}
 	}
+	&.main_menu-big_default {
+		top: em(-22px);
+		left: flex(-22px, $base-width-content);
+		> li {
+			width: flex(304px, $base-width-content);
+			height: em(314px);
+			margin: em(22px) 0 0 flex(21px, $base-width-content);
+			.main_menu_item {
+				line-height: em(314px - 2px);
+				padding: 0 em(60px);
+			}
+			&:hover {
+				.main_menu_item {
+					line-height: em(357px - 2px);
+				}
+			}
+		}
+	}
 	&.main_menu_big {
 		text-align: left;
 		left: em(45px, $base-font-size);

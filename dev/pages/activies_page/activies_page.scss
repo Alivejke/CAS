@@ -84,6 +84,7 @@
                 line-height: em(21px, $base-font-size);
                 color: $gray-color;
                 letter-spacing: 1px;
+                text-align: justify;
             }
         }
         .content_wrap {
@@ -169,6 +170,13 @@
     .brand_news {
         .btn_wrap {
             bottom: em(-25px);
+        }
+        .brand_news_list {
+            li {
+                p {
+                    text-align: justify;
+                }
+            }
         }
     }
 

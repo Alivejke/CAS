@@ -73,7 +73,8 @@ $table_td-font-size: 11px;
 		margin: 0 auto;
 		td {
 			// color: $gray-color-old;
-			color: #A0A0A0;
+			// color: #A0A0A0;
+			color: #707171;
 			width: 16%;
 			padding: 0 em(5px);
 			font-family: pragmatica,Helvetica,Arial,sans-serif;
@@ -145,7 +146,9 @@ $table_td-font-size: 11px;
 				width: flex(750px, $base-width-content-one);
 				margin: 0;
 				th {
-					font-size: em(12px);
+					font-size: em(15px);
+					line-height: em(15px + $default_increase-line-height);
+					color: #5f676f;
 					width: 15%;
 					text-align: left;
 					&+th {

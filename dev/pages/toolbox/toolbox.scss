@@ -48,6 +48,13 @@
 				width: flex(170px, 742px);
 			}
 		}
+		.brand_news_list {
+			li {
+				p {
+					text-align: justify;	
+				}
+			}
+		}
 	}
 	.brand_news_title {
 		font-size: em(27px, $base-font-size);
@@ -77,5 +84,13 @@
 
 	.calendar_to {
 	    margin-left: flex(5px, 370px - 6px * 2);
+	}
+
+	.brand_news_toolbax {
+		&.description {
+			.brand_news_toolbax_list {
+				width: flex(296px, $base-width-content);
+			}
+		}
 	}
 }

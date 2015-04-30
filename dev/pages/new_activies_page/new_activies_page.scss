@@ -297,4 +297,16 @@
     .calendar_to {
         margin-left: flex(5px, 370px - 6px * 2);
     }
+
+    .main_title {
+        &.main_title_actives {
+            border: 1px solid transparent;
+            padding: em(5px, $main_title-font-size) flex(10px);
+            margin-top: em(55px, $main_title-font-size);
+            margin-bottom: em(-5px, $main_title-font-size);
+            &:hover, &:focus {
+                border-color: #dedfdf;
+            }   
+        }
+    }
 }

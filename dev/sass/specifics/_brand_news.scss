@@ -114,7 +114,8 @@
 	}
 }
 .brand_news_toolbax_list {
-	margin-top: em(49px, $base-font-size);
+	// margin-top: em(49px, $base-font-size);
+	margin-top: em(2px);
 	li {
 		margin-top: em(35px, $base-font-size);
 		&:first-child {
