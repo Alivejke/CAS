@@ -12,16 +12,64 @@
         $popupWrap.removeClass('popup_active');
     }
 
+    function isValidDate(date) {
+        var matches = /^(\d{2})[-\/](\d{2})[-\/](\d{4})$/.exec(date);
+        if (matches == null) return false;
+        var d = matches[2];
+        var m = matches[1] - 1;
+        var y = matches[3];
+        var composedDate = new Date(y, m, d);
+        return composedDate.getDate() == d &&
+                composedDate.getMonth() == m &&
+                composedDate.getFullYear() == y;
+    }
+    // console.log(isValidDate('10-12-1961'));
+
     function validationFields () {
         $('.requiredFields').each(function () {
             // debugger
-            if( $(this).val().length < 4 ){
-                alert(' должно быть не менее 4-х символов!');
-                $(this).addClass('error');
-                return false;
-            } else{
-                $(this).removeClass('error');
+            if( $(this).hasClass('requiredFieldsDate') ) {
+                var date = $(this).val();
+
+                if( isValidDate( date ) === false ) {
+                    $(this).closest('.btn_big_rounded').addClass('error_validation');
+                } else {
+                    $(this).closest('.btn_big_rounded').removeClass('error_validation');
+                }
+
+            } else if( $(this).hasClass('requiredFieldsSelect') ) {
+                if( $(this).find('select').val() > 0 ) {
+                    $(this).removeClass('error_validation');
+                } else {
+                    $(this).addClass('error_validation');
+                }
+            } else if( $(this).hasClass('requiredFieldsTitle') ) {
+                if( $(this).text().length < 4 ){
+                    $(this).addClass('error_validation');
+                } else {
+                    $(this).removeClass('error_validation');
+                }
+            } else if( $(this).hasClass('requiredFieldsImage') ){
+                if( !$(this).find('img').length ) {
+                    $(this).addClass('error_validation');
+                } else {
+                    $(this).removeClass('error_validation');
+                }
+            } else if( $(this).hasClass('requiredFieldsCheckBox') ) {
+                if( !$(this).find('input[type="checkbox"]').is(':checked') ){
+                    $(this).addClass('error_validation');
+                } else {
+                    $(this).removeClass('error_validation');
+                }
+            } else {
+                if( $(this).val().length < 4 ){
+                    // alert(' должно быть не менее 4-х символов!');
+                    $(this).addClass('error_validation');
+                } else{
+                    $(this).removeClass('error_validation');
+                }
             }
+
         });
     }
 
@@ -78,43 +126,46 @@
                 dataType: 'json',
                 data: sendData,
                 success: function (responce) {
-                    closePopup();
+                    if( !$('.error_validation').length ) {
+                        closePopup();
 
-                    if(data && data.id) {
-                        var idx = _.findIndex(accessManagementData, function(item) {
-                                return item.id == data.id;
-                            }),
-                            $changedItem = $accessManagementItems.filter('[data-id="' + data.id + '"]');
+                        if(data && data.id) {
+                            var idx = _.findIndex(accessManagementData, function(item) {
+                                    return item.id == data.id;
+                                }),
+                                $changedItem = $accessManagementItems.filter('[data-id="' + data.id + '"]');
 
-                        $.extend(accessManagementData[idx], sendData);
-                        accessManagementData[idx].adGroups = sendData.adGroups;
+                            $.extend(accessManagementData[idx], sendData);
+                            accessManagementData[idx].adGroups = sendData.adGroups;
 
-                        $changedItem.find('.access-management-name').text(data.name);
-                        $changedItem.find('.access-management-activity-view').text(data.activity.view ? 'Yes' : 'No');
-                        $changedItem.find('.access-management-activity-change').text(data.activity.change ? 'Yes' : 'No');
-                        $changedItem.find('.access-management-activity-approve').text(data.activity.approve ? 'Yes' : 'No');
-                        $changedItem.find('.access-management-ad-groups').html(data.adGroups ? data.adGroups.join(', <br>') : '');
-                        $changedItem.find('.access-management-toolbox-view').text(data.toolbox.view ? 'Yes' : 'No');
-                        $changedItem.find('.access-management-toolbox-change').text(data.toolbox.change ? 'Yes' : 'No');
-                        $changedItem.find('.access-management-toolbox-approve').text(data.toolbox.approve ? 'Yes' : 'No');
-                        $changedItem.find('.access-management-brand-view').text(data.brand.view ? 'Yes' : 'No');
-                        $changedItem.find('.access-management-brand-change').text(data.brand.change ? 'Yes' : 'No');
-                        $changedItem.find('.access-management-brand-approve').text(data.brand.approve ? 'Yes' : 'No');
-                        $changedItem.find('.access-management-access-management-view').text(data.accessManagement.view ? 'Yes' : 'No');
-                        $changedItem.find('.access-management-access-management-change').text(data.accessManagement.change ? 'Yes' : 'No');
-                        $changedItem.find('.access-management-access-management-approve').text(data.accessManagement.approve ? 'Yes' : 'No');
-                    } else {
+                            $changedItem.find('.access-management-name').text(data.name);
+                            $changedItem.find('.access-management-activity-view').text(data.activity.view ? 'Yes' : 'No');
+                            $changedItem.find('.access-management-activity-change').text(data.activity.change ? 'Yes' : 'No');
+                            $changedItem.find('.access-management-activity-approve').text(data.activity.approve ? 'Yes' : 'No');
+                            $changedItem.find('.access-management-ad-groups').html(data.adGroups ? data.adGroups.join(', <br>') : '');
+                            $changedItem.find('.access-management-toolbox-view').text(data.toolbox.view ? 'Yes' : 'No');
+                            $changedItem.find('.access-management-toolbox-change').text(data.toolbox.change ? 'Yes' : 'No');
+                            $changedItem.find('.access-management-toolbox-approve').text(data.toolbox.approve ? 'Yes' : 'No');
+                            $changedItem.find('.access-management-brand-view').text(data.brand.view ? 'Yes' : 'No');
+                            $changedItem.find('.access-management-brand-change').text(data.brand.change ? 'Yes' : 'No');
+                            $changedItem.find('.access-management-brand-approve').text(data.brand.approve ? 'Yes' : 'No');
+                            $changedItem.find('.access-management-access-management-view').text(data.accessManagement.view ? 'Yes' : 'No');
+                            $changedItem.find('.access-management-access-management-change').text(data.accessManagement.change ? 'Yes' : 'No');
+                            $changedItem.find('.access-management-access-management-approve').text(data.accessManagement.approve ? 'Yes' : 'No');
+                        } else {
 
-                        if(!sendData.id) sendData.id = Math.random() + "";
+                            if(!sendData.id) sendData.id = Math.random() + "";
 
-                        var itemTpl = _.template(accessManagementItemHtml),
-                            $item = itemTpl({ data: responce.data ? responce.data : sendData, isOdd: $accessManagementItems.length % 2 == 0 });
+                            var itemTpl = _.template(accessManagementItemHtml),
+                                $item = itemTpl({ data: responce.data ? responce.data : sendData, isOdd: $accessManagementItems.length % 2 == 0 });
 
-                        $accessManagementBlock.append( $item );
-                        $accessManagementItems = $accessManagementBlock.find('.access-management-item');
+                            $accessManagementBlock.append( $item );
+                            $accessManagementItems = $accessManagementBlock.find('.access-management-item');
 
-                        accessManagementData.push(responce.data ? responce.data : sendData);
+                            accessManagementData.push(responce.data ? responce.data : sendData);
+                        }
                     }
+
                 },
                 error: function (argument) {
                     alert('Something went wrong');
@@ -190,5 +241,21 @@
 
     $popupWrap.on('click', '#popup_fone', function () {
         closePopup();
+    });
+
+    $('body').on('keyup', '.requiredFields', function () {
+        if( $(this).val().length < 4 ) {
+            $(this).addClass('error_validation');
+        } else {
+            $(this).removeClass('error_validation');
+        }
+    });
+
+    $('form').on('submit', function(event) {
+        validationFields();
+
+        if( $('.error_validation').length ) {
+            event.preventDefault();
+        }
     });
 });

@@ -161,7 +161,7 @@
                             </li>
                         </ul>
                     </div>
-                    <h1 class="main_title main_title_actives" contenteditable="true">Parliament Carat SSL enter activity name</h1>
+                    <h1 class="main_title main_title_actives requiredFields requiredFieldsTitle" contenteditable="true">Parliament Carat SSL enter activity name</h1>
                 </div>
             </div>
             <section class="content_wrap">
@@ -175,9 +175,9 @@
                                         <span class="ico_status_text">active</span> 
                                         <span class="sprite sprite_ico ico_calendar ico_calendar_big"></span>
                                         <span class="valid">VALID: </span>
-                                        <input type="text" class="calendar_from" placeholder="dd.mm.yyyy">
+                                        <input type="text" class="calendar_from requiredFields requiredFieldsDate" placeholder="dd.mm.yyyy">
                                          — 
-                                        <input type="text" class="calendar_to" placeholder="dd.mm.yyyy">
+                                        <input type="text" class="calendar_to requiredFields requiredFieldsDate" placeholder="dd.mm.yyyy">
                                     </a>
                                     <div class="calendar_block">
                                         <div class="datepicker"></div>
@@ -188,19 +188,19 @@
                                 <ul class="brand_news_list float-left">
                                     <li>
                                         <h2 class="brand_news_title">Description</h2>
-                                        <textarea name="" id=""></textarea>
+                                        <textarea name="" id="" class="requiredFields"></textarea>
                                     </li>
                                 </ul>
                                 <ul class="brand_news_toolbax_list float-right">
                                     <li>
-                                        <a href="#" class="block_img">
+                                        <a href="#" class="block_img requiredFields requiredFieldsImage">
                                             <button class="btn btn-default btn-upload js-uploader">upload image</button>
                                         </a>
                                     </li>
                                     
                                 </ul>
                             </div>
-                            <div class="wrap_block clearfix">
+                            <div class="wrap_block clearfix requiredFields requiredFieldsCheckBox">
                                 <ul class="channel">
                                     <li>
                                         <h2 class="name_channels">NTP channels</h2>
@@ -349,7 +349,7 @@
                                 <button class="btn btn-default btn-decline float-right">decline draft</button>
                             </div>
                             <div class="block_request_comment">
-                                <div class="select_wrap select_default">
+                                <div class="select_wrap select_default requiredFields requiredFieldsSelect">
                                     <select name="" id="" class="js-example-basic-single">
                                         <option value="1">choose approver for request</option>
                                         <option value="2">choose approver for request</option>
@@ -358,7 +358,7 @@
                                 </div>
                                 <textarea name="" id="" placeholder="Add comment"></textarea>
                                 <span>
-                                    <button class="btn btn-default btn-save">save</button>
+                                    <button type="submit" class="btn btn-default btn-save">save</button>
                                     <button class="btn btn-default btn-delete">delete</button>
                                 </span>
                             </div>

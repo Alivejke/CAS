@@ -23,6 +23,9 @@ textarea {
 	@include input-placeholder {
 	    color: #909294;
 	}
+	&.error_validation {
+		border-color:#b70e12;
+	}
 }
 
 label {

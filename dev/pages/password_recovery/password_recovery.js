@@ -4,12 +4,12 @@
 	function validationMail ($field) {
 
 		if(! (/^[a-zA-Z0-9_\-\.]+@[a-zA-Z0-9\-]+\.[a-zA-Z0-9\-\.]+$/.test($field.val()))){
-			alert("Ошибка в E-mail!");
+			// alert("Ошибка в E-mail!");
 			$field.focus();
-			$field.addClass('error').removeClass('complete');
+			$field.addClass('error_validation').removeClass('complete');
 			return false;
 		} else {
-			$field.removeClass('error').addClass('complete');
+			$field.removeClass('error_validation').addClass('complete');
 		}
 	};
 

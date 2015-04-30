@@ -156,6 +156,16 @@ $select_multiple_default-width: 289px;
 			} 
 		}
 	}
+	&.error_validation {
+		border: 1px solid #b70e12;
+		.select2-container {
+			&.select2-container--default {
+				.select2-selection--single {
+					border: none;
+				}
+			}
+		}
+	}
 
 	.select2-container {
 		overflow: hidden;
@@ -244,6 +254,9 @@ $select_multiple_default-width: 289px;
 
 .select2-dropdown {
 	z-index: 1101;
+	&.error_validation {
+		border-color: #b70e12;
+	}
 }
 
 .select2-container--open {

@@ -13,6 +13,23 @@
 		$popupWrap.removeClass('popup_active');
 	}
 
+	function closePopup () {
+        $accessPopup.off('click');
+        $accessPopup.remove();
+        $popupWrap.removeClass('popup_active');
+    }
+
+    function validationFields () {
+        $('.requiredFields').each(function () {
+            if( $(this).val().length < 4 ){
+                // alert(' должно быть не менее 4-х символов!');
+                $(this).addClass('error_validation');
+            } else{
+                $(this).removeClass('error_validation');
+            }
+        });
+    }
+
 	function openEmailNotifPopup (data) {
 		var tpl = _.template(emailNotifHtml);
 
@@ -35,35 +52,39 @@
 				dataType: 'json',
 				data: sendData,
 				success: function (responce) {
-					closeEmailNotifPopup();
+					if( !$('.error_validation').length ) {
+                        closeEmailNotifPopup();
 
-					if(data && data.id) {
-						var idx = _.findIndex(emailNotificationsData, function(item) {
-								return item.id == data.id;
-							}),
-							$changedItem = $emailNotificationItems.filter('[data-id="' + data.id + '"]');
+						if(data && data.id) {
+							var idx = _.findIndex(emailNotificationsData, function(item) {
+									return item.id == data.id;
+								}),
+								$changedItem = $emailNotificationItems.filter('[data-id="' + data.id + '"]');
 
-						$.extend(emailNotificationsData[idx], sendData);
-						$changedItem.find('.email-notification-label').text(data.label);
-						$changedItem.find('.email-notification-subject').text(data.subject);
-						$changedItem.find('.email-notification-text').text(data.text);
-					} else {
+							$.extend(emailNotificationsData[idx], sendData);
+							$changedItem.find('.email-notification-label').text(data.label);
+							$changedItem.find('.email-notification-subject').text(data.subject);
+							$changedItem.find('.email-notification-text').text(data.text);
+						} else {
 
-						if(!sendData.id) sendData.id = Math.random() + "";
+							if(!sendData.id) sendData.id = Math.random() + "";
 
-						var itemTpl = _.template(emailNotifItemHtml),
-							$item = itemTpl({ data: responce.data ? responce.data : sendData, isOdd: $emailNotificationItems.length % 2 == 0 });
+							var itemTpl = _.template(emailNotifItemHtml),
+								$item = itemTpl({ data: responce.data ? responce.data : sendData, isOdd: $emailNotificationItems.length % 2 == 0 });
 
-						$emailNotificationItemsWrap.append( $item );
-						$emailNotificationItems = $emailNotificationItemsWrap.find('.email-notification-item');
+							$emailNotificationItemsWrap.append( $item );
+							$emailNotificationItems = $emailNotificationItemsWrap.find('.email-notification-item');
 
-						emailNotificationsData.push(responce.data ? responce.data : sendData);
-					}
+							emailNotificationsData.push(responce.data ? responce.data : sendData);
+						}
+                    }
 				},
 				error: function (argument) {
 					alert('Something went wrong');
 				}
 			});
+
+			validationFields();
 		});
 
 		$popupWrap.addClass('popup_active').append($emailNotifPopup);

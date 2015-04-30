@@ -50,6 +50,9 @@
                     border-color: #cecfd0;
                     background-color: #f8faf9;
                     text-align: center;
+                    &.error_validation {
+                        border-color: #b70e12;
+                    }
                     .btn {
                         width: flex(340px, $base-width-content);
                         left: 27.5%;
@@ -117,6 +120,16 @@
                 line-height: em(21px, $base-font-size);
                 color: $gray-color;
                 letter-spacing: 1px;
+            }
+            &.error_validation {
+                label {
+                    &.checkbox {
+                        color: #b70e12;
+                        .label_ico {
+                            border-color: #b70e12;
+                        }
+                    }
+                }
             }
         }
         // .content_wrap {
@@ -306,7 +319,10 @@
             margin-bottom: em(-5px, $main_title-font-size);
             &:hover, &:focus {
                 border-color: #dedfdf;
-            }   
+            }
+            &.error_validation {
+                border-color: #b70e12;
+            }
         }
     }
 }

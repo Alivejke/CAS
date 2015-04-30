@@ -105,6 +105,9 @@
 				background-position: -760px 0px;
 			}
 		}
+		&.error_validation {
+			border-color: #b70e12;
+		}
 		.ico_upload {
 			position: relative;
 			top: em(5px, $btn-font-size);

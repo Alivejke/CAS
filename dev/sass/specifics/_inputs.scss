@@ -13,10 +13,10 @@ input {
 		@include input-placeholder {
 		    color: #8F9BA3;
 		}
-		&.error {
+		&.error, &.error_validation {
 			border-color: #b70e12;
 		}
-		&.complete {
+		&.complete, &.complete_validation {
 			border-color: #00CD6B;
 		}
 	}
@@ -25,6 +25,9 @@ input {
 		@include input-placeholder {
 		    color: $gray-color-light;
 		}
+	}
+	&.error_validation {
+		border-color: #b70e12;
 	}
 }
 
@@ -36,5 +39,8 @@ input {
 	border: 1px solid #cbcbcb;
 	padding: 0 em(15px, $input-font-size);
 	font-size: em($input-font-size);
+	&.error_validation {
+		border-color: #b70e12;
+	}
 }
 

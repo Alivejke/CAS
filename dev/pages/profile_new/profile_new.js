@@ -3,23 +3,23 @@
 
 	function validationPass ($field) {
 		if( $field.val() == '' ){
-			alert('пароль не указан');
+			// alert('пароль не указан');
 			$field.focus();
-			$field.addClass('error');
+			$field.addClass('error_validation');
 			return false;
 		}
 
 		if( $field.val().length < 4 ){
-			alert(' должно быть не менее 4-х символов!');
+			// alert(' должно быть не менее 4-х символов!');
 			$field.focus();
-			$field.addClass('error');
+			$field.addClass('error_validation');
 			return false;
 		};
 
 		if(! (/^[a-zA-Z0-9]+$/.test( $field.val() )) ){
-			alert('пароль должен состоять из комбинации латинских букв и арабских цифр!');
+			// alert('пароль должен состоять из комбинации латинских букв и арабских цифр!');
 			$field.focus();
-			$field.addClass('error');
+			$field.addClass('error_validation');
 			return false;
 		};
 	}
@@ -29,14 +29,14 @@
 			$fieldConfirm.focus();
 			return false;
 		} else if( $field.val() !== $fieldConfirm.val() ){
-			$field.addClass('error');
+			$field.addClass('error_validation');
 			$field.removeClass('complete');
-			$fieldConfirm.addClass('error');
+			$fieldConfirm.addClass('error_validation');
 			$fieldConfirm.removeClass('complete');
 		} else {
-			$field.removeClass('error');
+			$field.removeClass('error_validation');
 			$field.addClass('complete');
-			$fieldConfirm.removeClass('error');
+			$fieldConfirm.removeClass('error_validation');
 			$fieldConfirm.addClass('complete');
 		}
 	}

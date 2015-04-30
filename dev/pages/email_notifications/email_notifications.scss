@@ -103,6 +103,9 @@
 				border: 1px solid #cbcbcb;
 				padding: 0 1.15385em;
 				font-size: 0.86667em;
+				&.error_validation {
+					border-color: #b70e12;
+				}
 			}
 
 			textarea {
@@ -111,6 +114,9 @@
 				height: 8.76667em;
 				border: 1px solid #cbcbcb;
 				margin-top: 0;
+				&.error_validation {
+					border-color: #b70e12;
+				}
 			}
 
 			.subject,
