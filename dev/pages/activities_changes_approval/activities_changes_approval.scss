@@ -37,7 +37,7 @@
 		// overflow: hidden;
 		// margin-top: em(60px);
 		border-top: 1px solid #cecfd0;
-		margin-bottom: -1px;
+		// margin-bottom: -1px;
 		> li {
 			float: left;
 			width: 50%;
@@ -48,6 +48,9 @@
 				border-right: 1px solid #cecfd0;
 				margin-right: -1px;
 			}
+		}
+		.error {
+			background: #F7F7F9;
 		}
 	}
 
