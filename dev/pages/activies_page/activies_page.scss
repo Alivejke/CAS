@@ -207,16 +207,19 @@
             }
         }
     }
+
     .wrap_blocks {
         background: #F9F9FB;
         overflow: hidden;
         margin-bottom: -1.4em;
         width: 100%;
     }
+
     #mainarea.activies_page_wrap {
         padding-bottom: 0px;
         margin: 0px auto;
     }
+
     .document {
         margin: em(-45px) 0 em(90px);
 
@@ -284,5 +287,42 @@
 
     .calendar_to {
         margin-left: flex(5px, 370px - 6px * 2);
+    }
+
+    .calendar_wrap {
+        width: flex(289px, $base-width-content/2);
+        text-align: right;
+
+        @media (max-width: 640px) {
+            text-align: left;
+        }
+    }
+
+    .calendar_input {
+        width: flex(101px, 289px);
+        font-size: em(17px);
+        line-height: em(40px, 17px);
+        height: em(40px, 17px);
+        color: #909294;
+        border: 1px solid #cbcccd;
+
+        @media (max-width: 768px) {
+            width: 32.93%;
+        }
+
+        &.calendar_from {
+            margin-left: flex(10px, 289px);
+        }
+    }
+
+    .calendar_date-separator {
+        margin: 0 flex(5px, 289px);
+    }
+
+    .select_wrap_list-el_wrap {
+        margin-top: em(60px);
+        &:first-child {
+            margin-top: 0;
+        }
     }
 }

@@ -5105,6 +5105,7 @@ textarea {
 
 /* line 132, ../../dev/sass/specifics/_sub_header.scss */
 .go_to_search {
+  position: relative;
   font-size: 1em;
   font-family: pragmatica,Helvetica,Arial,sans-serif;
   font-weight: 300;
@@ -5112,12 +5113,24 @@ textarea {
   color: #CACACC;
   cursor: pointer;
 }
-/* line 141, ../../dev/sass/specifics/_sub_header.scss */
+/* line 142, ../../dev/sass/specifics/_sub_header.scss */
 .go_to_search span {
   display: inline-block;
   border-bottom: 1px solid #CACACC;
 }
 /* line 147, ../../dev/sass/specifics/_sub_header.scss */
+.go_to_search span.glyphicon {
+  display: none;
+  position: absolute;
+  top: 50%;
+  right: 0;
+  margin-top: -5px;
+  border: none;
+  font-size: 0.66667em;
+  font-weight: 300;
+  color: #888;
+}
+/* line 159, ../../dev/sass/specifics/_sub_header.scss */
 .go_to_search:after {
   content: '';
   display: inline-block;
@@ -5125,6 +5138,17 @@ textarea {
   border-color: #888 transparent transparent transparent;
   border-width: 5px 5px 0 5px;
   margin-left: 5px;
+  filter: progid:DXImageTransform.Microsoft.Alpha(enabled=false);
+  opacity: 1;
+}
+/* line 170, ../../dev/sass/specifics/_sub_header.scss */
+.go_to_search.active span.glyphicon {
+  display: inline-block;
+}
+/* line 174, ../../dev/sass/specifics/_sub_header.scss */
+.go_to_search.active:after {
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
+  opacity: 0;
 }
 
 /* line 1, ../../dev/sass/specifics/_brand_news.scss */
@@ -5190,7 +5214,7 @@ textarea {
   -moz-border-radius: 100%;
   -webkit-border-radius: 100%;
   border-radius: 100%;
-  width: 16.33045%;
+  width: 21.62162%;
   height: 3.33333em;
   position: absolute;
   bottom: 0;
@@ -7772,6 +7796,54 @@ input.error_validation {
   display: block;
 }
 
+/* line 1, ../../dev/sass/specifics/_search_field_drop_down.scss */
+.search_block_wrap {
+  display: none;
+}
+
+/* line 6, ../../dev/sass/specifics/_search_field_drop_down.scss */
+.activies_search_list > li {
+  border-top: 1px solid #ededee;
+  padding: 2.33333em 0 0;
+  margin: 2.93333em 0;
+}
+/* line 10, ../../dev/sass/specifics/_search_field_drop_down.scss */
+.activies_search_list > li:first-child {
+  border-top-color: transparent;
+}
+
+/* line 16, ../../dev/sass/specifics/_search_field_drop_down.scss */
+.select_wrap_list {
+  display: inline-block;
+  width: 50%;
+}
+/* line 19, ../../dev/sass/specifics/_search_field_drop_down.scss */
+.select_wrap_list > li {
+  margin-top: 2.66667em;
+}
+/* line 21, ../../dev/sass/specifics/_search_field_drop_down.scss */
+.select_wrap_list > li:first-child {
+  margin-top: 0;
+}
+/* line 24, ../../dev/sass/specifics/_search_field_drop_down.scss */
+.select_wrap_list > li.select_wrap_list_indent {
+  padding-top: 1.93333em;
+}
+/* line 27, ../../dev/sass/specifics/_search_field_drop_down.scss */
+.select_wrap_list > li .select_wrap_list-el {
+  width: 50%;
+  color: #45484C;
+}
+/* line 30, ../../dev/sass/specifics/_search_field_drop_down.scss */
+.select_wrap_list > li .select_wrap_list-el input[type="checkbox"] + label::before {
+  vertical-align: -3px;
+  margin-right: 0.33333em;
+}
+/* line 36, ../../dev/sass/specifics/_search_field_drop_down.scss */
+.select_wrap_list .small_title {
+  margin-bottom: 1.07143em;
+}
+
 @font-face {
   font-family: 'Brandon Grotesque';
   src: url("../fonts/brandon_bld.eot");
@@ -8217,23 +8289,23 @@ input.error_validation {
 .activies_page .status_wrap .btn_big_rounded .ico_status {
   margin-left: 5.67568%;
 }
-/* line 210, ../../dev/pages/activies_page/activies_page.scss */
+/* line 211, ../../dev/pages/activies_page/activies_page.scss */
 .activies_page .wrap_blocks {
   background: #F9F9FB;
   overflow: hidden;
   margin-bottom: -1.4em;
   width: 100%;
 }
-/* line 216, ../../dev/pages/activies_page/activies_page.scss */
+/* line 218, ../../dev/pages/activies_page/activies_page.scss */
 .activies_page #mainarea.activies_page_wrap {
   padding-bottom: 0px;
   margin: 0px auto;
 }
-/* line 220, ../../dev/pages/activies_page/activies_page.scss */
+/* line 223, ../../dev/pages/activies_page/activies_page.scss */
 .activies_page .document {
   margin: -3em 0 6em;
 }
-/* line 223, ../../dev/pages/activies_page/activies_page.scss */
+/* line 226, ../../dev/pages/activies_page/activies_page.scss */
 .activies_page .document li {
   float: left;
   width: 44.71545%;
@@ -8242,54 +8314,54 @@ input.error_validation {
   margin-top: 6.33333em;
 }
 @media (max-width: 768px) {
-  /* line 223, ../../dev/pages/activies_page/activies_page.scss */
+  /* line 226, ../../dev/pages/activies_page/activies_page.scss */
   .activies_page .document li {
     float: none;
     width: 100%;
     margin-left: 0;
   }
 }
-/* line 236, ../../dev/pages/activies_page/activies_page.scss */
+/* line 239, ../../dev/pages/activies_page/activies_page.scss */
 .activies_page .document li:nth-child(2n+1) {
   margin-left: 0;
   clear: left;
 }
-/* line 241, ../../dev/pages/activies_page/activies_page.scss */
+/* line 244, ../../dev/pages/activies_page/activies_page.scss */
 .activies_page .document li.odd {
   margin-left: 0;
   clear: left;
 }
-/* line 246, ../../dev/pages/activies_page/activies_page.scss */
+/* line 249, ../../dev/pages/activies_page/activies_page.scss */
 .activies_page .document li .brand_news_title {
   font-size: 1em;
   width: 90.90909%;
 }
 @media (max-width: 768px) {
-  /* line 250, ../../dev/pages/activies_page/activies_page.scss */
+  /* line 253, ../../dev/pages/activies_page/activies_page.scss */
   .activies_page .document li .manage {
     width: 4.13333em;
   }
 }
-/* line 254, ../../dev/pages/activies_page/activies_page.scss */
+/* line 257, ../../dev/pages/activies_page/activies_page.scss */
 .activies_page .document li .manage.img_circle-default {
   line-height: 4.13333em;
 }
-/* line 258, ../../dev/pages/activies_page/activies_page.scss */
+/* line 261, ../../dev/pages/activies_page/activies_page.scss */
 .activies_page .document li .description {
   width: 72.72727%;
   margin-left: 4.54545%;
 }
-/* line 261, ../../dev/pages/activies_page/activies_page.scss */
+/* line 264, ../../dev/pages/activies_page/activies_page.scss */
 .activies_page .document li .description p {
   margin-top: 1.33333em;
   color: #8F979F;
   line-height: 1.26667em;
 }
-/* line 267, ../../dev/pages/activies_page/activies_page.scss */
+/* line 270, ../../dev/pages/activies_page/activies_page.scss */
 .activies_page .document li .description.distinction .brand_news_title {
   color: #b70e12;
 }
-/* line 275, ../../dev/pages/activies_page/activies_page.scss */
+/* line 278, ../../dev/pages/activies_page/activies_page.scss */
 .activies_page .calendar_from, .activies_page .calendar_to {
   background: none;
   border: none;
@@ -8299,9 +8371,51 @@ input.error_validation {
   color: #7E8D95;
   font-weight: 500;
 }
-/* line 285, ../../dev/pages/activies_page/activies_page.scss */
+/* line 288, ../../dev/pages/activies_page/activies_page.scss */
 .activies_page .calendar_to {
   margin-left: 1.39665%;
+}
+/* line 292, ../../dev/pages/activies_page/activies_page.scss */
+.activies_page .calendar_wrap {
+  width: 78.31978%;
+  text-align: right;
+}
+@media (max-width: 640px) {
+  /* line 292, ../../dev/pages/activies_page/activies_page.scss */
+  .activies_page .calendar_wrap {
+    text-align: left;
+  }
+}
+/* line 301, ../../dev/pages/activies_page/activies_page.scss */
+.activies_page .calendar_input {
+  width: 34.9481%;
+  font-size: 1.13333em;
+  line-height: 2.35294em;
+  height: 2.35294em;
+  color: #909294;
+  border: 1px solid #cbcccd;
+}
+@media (max-width: 768px) {
+  /* line 301, ../../dev/pages/activies_page/activies_page.scss */
+  .activies_page .calendar_input {
+    width: 32.93%;
+  }
+}
+/* line 313, ../../dev/pages/activies_page/activies_page.scss */
+.activies_page .calendar_input.calendar_from {
+  margin-left: 3.46021%;
+}
+/* line 318, ../../dev/pages/activies_page/activies_page.scss */
+.activies_page .calendar_date-separator {
+  margin: 0 1.7301%;
+}
+/* line 322, ../../dev/pages/activies_page/activies_page.scss */
+.activies_page .select_wrap_list-el_wrap {
+  margin-top: 4em;
+}
+/* line 324, ../../dev/pages/activies_page/activies_page.scss */
+.activies_page .select_wrap_list-el_wrap:first-child {
+  margin-top: 0;
 }
 
 @font-face {
@@ -8653,6 +8767,92 @@ input.error_validation {
 .activities_changes_approval label.checkbox.chacked .label_ico {
   background: url(/i/sprite.png) 4px -236px;
 }
+/* line 291, ../../dev/pages/activities_changes_approval/activities_changes_approval.scss */
+.activities_changes_approval .calendar_from, .activities_changes_approval .calendar_to {
+  background: none;
+  border: none;
+  display: inline-block;
+  width: 22.34637%;
+  margin-left: 0.83799%;
+  color: #7E8D95;
+  font-weight: 500;
+}
+/* line 301, ../../dev/pages/activities_changes_approval/activities_changes_approval.scss */
+.activities_changes_approval .calendar_to {
+  margin-left: 1.39665%;
+}
+/* line 305, ../../dev/pages/activities_changes_approval/activities_changes_approval.scss */
+.activities_changes_approval .calendar_wrap {
+  width: 78.31978%;
+  text-align: right;
+}
+@media (max-width: 640px) {
+  /* line 305, ../../dev/pages/activities_changes_approval/activities_changes_approval.scss */
+  .activities_changes_approval .calendar_wrap {
+    text-align: left;
+  }
+}
+/* line 314, ../../dev/pages/activities_changes_approval/activities_changes_approval.scss */
+.activities_changes_approval .calendar_input {
+  width: 34.9481%;
+  font-size: 1.13333em;
+  line-height: 2.35294em;
+  height: 2.35294em;
+  color: #909294;
+  border: 1px solid #cbcccd;
+}
+@media (max-width: 768px) {
+  /* line 314, ../../dev/pages/activities_changes_approval/activities_changes_approval.scss */
+  .activities_changes_approval .calendar_input {
+    width: 32.93%;
+  }
+}
+/* line 326, ../../dev/pages/activities_changes_approval/activities_changes_approval.scss */
+.activities_changes_approval .calendar_input.calendar_from {
+  margin-left: 3.46021%;
+}
+/* line 331, ../../dev/pages/activities_changes_approval/activities_changes_approval.scss */
+.activities_changes_approval .calendar_date-separator {
+  margin: 0 1.7301%;
+}
+/* line 335, ../../dev/pages/activities_changes_approval/activities_changes_approval.scss */
+.activities_changes_approval .select_wrap_list-el_wrap {
+  margin-top: 4em;
+}
+/* line 337, ../../dev/pages/activities_changes_approval/activities_changes_approval.scss */
+.activities_changes_approval .select_wrap_list-el_wrap:first-child {
+  margin-top: 0;
+}
+/* line 342, ../../dev/pages/activities_changes_approval/activities_changes_approval.scss */
+.activities_changes_approval .wrap_block {
+  margin: 4em 0 5.33333em;
+}
+/* line 344, ../../dev/pages/activities_changes_approval/activities_changes_approval.scss */
+.activities_changes_approval .wrap_block .title {
+  font-family: pragmatica,Helvetica,Arial,sans-serif;
+  font-weight: 300;
+  font-size: 1.6em;
+  line-height: 1;
+  color: #000;
+  margin-bottom: 1.03704em;
+}
+/* line 352, ../../dev/pages/activities_changes_approval/activities_changes_approval.scss */
+.activities_changes_approval .wrap_block p.text {
+  font-family: pragmatica,Helvetica,Arial,sans-serif;
+  font-weight: 300;
+  font-size: 1em;
+  line-height: 1.4em;
+  color: #45484C;
+  letter-spacing: 1px;
+}
+/* line 362, ../../dev/pages/activities_changes_approval/activities_changes_approval.scss */
+.activities_changes_approval .wrap_block.error_validation label.checkbox {
+  color: #b70e12;
+}
+/* line 364, ../../dev/pages/activities_changes_approval/activities_changes_approval.scss */
+.activities_changes_approval .wrap_block.error_validation label.checkbox .label_ico {
+  border-color: #b70e12;
+}
 
 @font-face {
   font-family: 'Brandon Grotesque';
@@ -8744,47 +8944,6 @@ input.error_validation {
   vertical-align: -3px;
   margin-right: 0.66667em;
 }
-/* line 35, ../../dev/pages/activities_search/activities_search.scss */
-.activities_search_page .select_wrap_list {
-  display: inline-block;
-  width: 50%;
-}
-/* line 38, ../../dev/pages/activities_search/activities_search.scss */
-.activities_search_page .select_wrap_list > li {
-  margin-top: 2.66667em;
-}
-/* line 40, ../../dev/pages/activities_search/activities_search.scss */
-.activities_search_page .select_wrap_list > li:first-child {
-  margin-top: 0;
-}
-/* line 43, ../../dev/pages/activities_search/activities_search.scss */
-.activities_search_page .select_wrap_list > li.select_wrap_list_indent {
-  padding-top: 1.93333em;
-}
-/* line 46, ../../dev/pages/activities_search/activities_search.scss */
-.activities_search_page .select_wrap_list > li .select_wrap_list-el {
-  width: 50%;
-  color: #45484C;
-}
-/* line 49, ../../dev/pages/activities_search/activities_search.scss */
-.activities_search_page .select_wrap_list > li .select_wrap_list-el input[type="checkbox"] + label::before {
-  vertical-align: -3px;
-  margin-right: 0.33333em;
-}
-/* line 55, ../../dev/pages/activities_search/activities_search.scss */
-.activities_search_page .select_wrap_list .small_title {
-  margin-bottom: 1.07143em;
-}
-/* line 61, ../../dev/pages/activities_search/activities_search.scss */
-.activities_search_page .activies_search_list > li {
-  border-top: 1px solid #ededee;
-  padding: 2.33333em 0 0;
-  margin: 2.93333em 0;
-}
-/* line 65, ../../dev/pages/activities_search/activities_search.scss */
-.activities_search_page .activies_search_list > li:first-child {
-  border-top-color: transparent;
-}
 /* line 75, ../../dev/pages/activities_search/activities_search.scss */
 .activities_search_page .select_wrap .select2-container.select2-container--default .select2-selection--single .select2-selection__arrow {
   width: 24.22145%;
@@ -8833,7 +8992,11 @@ input.error_validation {
 }
 /* line 139, ../../dev/pages/activities_search/activities_search.scss */
 .activities_search_page .calendar_input {
-  width: 35.29412%;
+  width: 34.9481%;
+  font-size: 1.13333em;
+  line-height: 2.35294em;
+  height: 2.35294em;
+  color: #909294;
 }
 @media (max-width: 768px) {
   /* line 139, ../../dev/pages/activities_search/activities_search.scss */
@@ -8841,32 +9004,55 @@ input.error_validation {
     width: 32.93%;
   }
 }
-/* line 146, ../../dev/pages/activities_search/activities_search.scss */
+/* line 150, ../../dev/pages/activities_search/activities_search.scss */
 .activities_search_page .calendar_input.calendar_from {
   margin-left: 3.46021%;
 }
-/* line 151, ../../dev/pages/activities_search/activities_search.scss */
+/* line 155, ../../dev/pages/activities_search/activities_search.scss */
 .activities_search_page .calendar_date-separator {
   margin: 0 1.7301%;
 }
-/* line 155, ../../dev/pages/activities_search/activities_search.scss */
+/* line 159, ../../dev/pages/activities_search/activities_search.scss */
 .activities_search_page .btn_activies_search_wrap {
   margin-top: 3.66667em;
 }
-/* line 157, ../../dev/pages/activities_search/activities_search.scss */
+/* line 161, ../../dev/pages/activities_search/activities_search.scss */
 .activities_search_page .btn_activies_search_wrap .btn-link {
   margin: 1.42857em 0 2.14286em;
 }
-/* line 162, ../../dev/pages/activities_search/activities_search.scss */
+/* line 166, ../../dev/pages/activities_search/activities_search.scss */
 .activities_search_page .select2-results__option {
   padding: 0.86667em 1.33333em;
 }
-/* line 166, ../../dev/pages/activities_search/activities_search.scss */
-.activities_search_page .calendar_input {
-  font-size: 1.13333em;
-  line-height: 2.35294em;
-  height: 2.35294em;
-  color: #909294;
+/* line 170, ../../dev/pages/activities_search/activities_search.scss */
+.activities_search_page .wrap_block {
+  margin: 4em 0 5.33333em;
+}
+/* line 172, ../../dev/pages/activities_search/activities_search.scss */
+.activities_search_page .wrap_block .title {
+  font-family: pragmatica,Helvetica,Arial,sans-serif;
+  font-weight: 300;
+  font-size: 1.6em;
+  line-height: 1;
+  color: #000;
+  margin-bottom: 1.03704em;
+}
+/* line 180, ../../dev/pages/activities_search/activities_search.scss */
+.activities_search_page .wrap_block p.text {
+  font-family: pragmatica,Helvetica,Arial,sans-serif;
+  font-weight: 300;
+  font-size: 1em;
+  line-height: 1.4em;
+  color: #45484C;
+  letter-spacing: 1px;
+}
+/* line 190, ../../dev/pages/activities_search/activities_search.scss */
+.activities_search_page .wrap_block.error_validation label.checkbox {
+  color: #b70e12;
+}
+/* line 192, ../../dev/pages/activities_search/activities_search.scss */
+.activities_search_page .wrap_block.error_validation label.checkbox .label_ico {
+  border-color: #b70e12;
 }
 
 @font-face {
@@ -10254,6 +10440,62 @@ input.error_validation {
 .new_activies_page .main_title.main_title_actives.error_validation {
   border-color: #b70e12;
 }
+/* line 329, ../../dev/pages/new_activies_page/new_activies_page.scss */
+.new_activies_page .calendar_from, .new_activies_page .calendar_to {
+  background: none;
+  border: none;
+  display: inline-block;
+  width: 22.34637%;
+  margin-left: 0.83799%;
+  color: #7E8D95;
+  font-weight: 500;
+}
+/* line 339, ../../dev/pages/new_activies_page/new_activies_page.scss */
+.new_activies_page .calendar_to {
+  margin-left: 1.39665%;
+}
+/* line 343, ../../dev/pages/new_activies_page/new_activies_page.scss */
+.new_activies_page .calendar_wrap {
+  width: 78.31978%;
+  text-align: right;
+}
+@media (max-width: 640px) {
+  /* line 343, ../../dev/pages/new_activies_page/new_activies_page.scss */
+  .new_activies_page .calendar_wrap {
+    text-align: left;
+  }
+}
+/* line 352, ../../dev/pages/new_activies_page/new_activies_page.scss */
+.new_activies_page .calendar_input {
+  width: 34.9481%;
+  font-size: 1.13333em;
+  line-height: 2.35294em;
+  height: 2.35294em;
+  color: #909294;
+  border: 1px solid #cbcccd;
+}
+@media (max-width: 768px) {
+  /* line 352, ../../dev/pages/new_activies_page/new_activies_page.scss */
+  .new_activies_page .calendar_input {
+    width: 32.93%;
+  }
+}
+/* line 364, ../../dev/pages/new_activies_page/new_activies_page.scss */
+.new_activies_page .calendar_input.calendar_from {
+  margin-left: 3.46021%;
+}
+/* line 369, ../../dev/pages/new_activies_page/new_activies_page.scss */
+.new_activies_page .calendar_date-separator {
+  margin: 0 1.7301%;
+}
+/* line 373, ../../dev/pages/new_activies_page/new_activies_page.scss */
+.new_activies_page .select_wrap_list-el_wrap {
+  margin-top: 4em;
+}
+/* line 375, ../../dev/pages/new_activies_page/new_activies_page.scss */
+.new_activies_page .select_wrap_list-el_wrap:first-child {
+  margin-top: 0;
+}
 
 @font-face {
   font-family: 'Brandon Grotesque';
@@ -10723,6 +10965,10 @@ input.error_validation {
 .single_brand_page .brand_news_title {
   color: #323a45;
 }
+/* line 47, ../../dev/pages/single_brand_page/single_brand_page.scss */
+.single_brand_page.activities_search_page .main_title {
+  margin-top: 2.22222em;
+}
 
 @font-face {
   font-family: 'Brandon Grotesque';
@@ -10858,8 +11104,8 @@ input.error_validation {
 .toolbox_page .status_wrap .btn_big_rounded .ico_calendar {
   margin: 0 1.66667% 0 3.33333%;
 }
-/* line 75, ../../dev/pages/toolbox/toolbox.scss */
-.toolbox_page .calendar_from, .toolbox_page .calendar_to {
+/* line 76, ../../dev/pages/toolbox/toolbox.scss */
+.toolbox_page .brand_news .calendar_from, .toolbox_page .brand_news .calendar_to {
   background: none;
   border: none;
   display: inline-block;
@@ -10868,13 +11114,17 @@ input.error_validation {
   color: #7E8D95;
   font-weight: 500;
 }
-/* line 85, ../../dev/pages/toolbox/toolbox.scss */
+/* line 87, ../../dev/pages/toolbox/toolbox.scss */
 .toolbox_page .calendar_to {
   margin-left: 1.39665%;
 }
-/* line 91, ../../dev/pages/toolbox/toolbox.scss */
+/* line 93, ../../dev/pages/toolbox/toolbox.scss */
 .toolbox_page .brand_news_toolbax.description .brand_news_toolbax_list {
   width: 40.1084%;
+}
+/* line 99, ../../dev/pages/toolbox/toolbox.scss */
+.toolbox_page .select2-results__option {
+  padding: 0.86667em 1.33333em;
 }
 
 @font-face {
@@ -11202,22 +11452,26 @@ input.error_validation {
 .toolbox_edit_page .toolbox_edit .toolbox_edit_title:hover, .toolbox_edit_page .toolbox_edit .toolbox_edit_title:focus {
   border-color: #dedfdf;
 }
-/* line 55, ../../dev/pages/toolbox_edit/toolbox_edit.scss */
+/* line 52, ../../dev/pages/toolbox_edit/toolbox_edit.scss */
+.toolbox_edit_page .toolbox_edit .toolbox_edit_title.error_validation {
+  border-color: #b70e12;
+}
+/* line 58, ../../dev/pages/toolbox_edit/toolbox_edit.scss */
 .toolbox_edit_page .toolbox_edit_list li {
   border-top: 1px solid #ededee;
   padding: 2.33333em 0 0;
   margin: 2.93333em 0;
 }
-/* line 59, ../../dev/pages/toolbox_edit/toolbox_edit.scss */
+/* line 62, ../../dev/pages/toolbox_edit/toolbox_edit.scss */
 .toolbox_edit_page .toolbox_edit_list li .main_title {
   margin: 0.25926em 0 0.96296em;
   text-transform: none;
 }
-/* line 64, ../../dev/pages/toolbox_edit/toolbox_edit.scss */
+/* line 67, ../../dev/pages/toolbox_edit/toolbox_edit.scss */
 .toolbox_edit_page .toolbox_edit_list li .brand_news_textarea.indent-top {
   margin-top: 3.33333em;
 }
-/* line 70, ../../dev/pages/toolbox_edit/toolbox_edit.scss */
+/* line 73, ../../dev/pages/toolbox_edit/toolbox_edit.scss */
 .toolbox_edit_page .select2-results__option {
   padding-left: 0.93333em;
   padding-right: 1.33333em;

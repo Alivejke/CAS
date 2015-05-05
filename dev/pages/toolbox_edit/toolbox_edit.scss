@@ -49,6 +49,9 @@
 			&:hover, &:focus {
 				border-color: #dedfdf;
 			}
+			&.error_validation {
+				border-color: #b70e12;
+			}
 		}
 	}
 	.toolbox_edit_list {

@@ -42,4 +42,10 @@
 	.brand_news_title {
 		color: #323a45;
 	}
+
+	&.activities_search_page {
+		.main_title {
+			margin-top: em(60px, $main_title-font-size);
+		}
+	}
 }

@@ -26,6 +26,7 @@
 	        	if( $this.parent().hasClass('block_img') ){
 	        		$this.hide();
 	        		$this.closest('.block_img').append('<img src="' + urlCheck + '" alt="">');   
+	        		$this.closest('.requiredFields').removeClass('error_validation');
 	        	} else {
 		            var template = _.template($("#template").html());
 		            // $this.closest('form').find('.attachments_block_wrap').append(template({url: url, size: size, name: name}));

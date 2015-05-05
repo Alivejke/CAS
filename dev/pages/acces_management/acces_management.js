@@ -1,19 +1,9 @@
-;$(function () {
-    var $accessManagementBlock = $('.access-management-block'),
-        $accessManagementItems = $accessManagementBlock.find('.access-management-item'),
-        accessManagementPopupHtml = $('#popup-acces-managment-tpl').html(),
-        accessManagementItemHtml = $('#popup-acces-item-tpl').html(),
-        $popupWrap = $('#popup_block'),
-        $accessPopup;
+function checkFieldsGlobal () {
 
-    function closePopup () {
-        $accessPopup.off('click');
-        $accessPopup.remove();
-        $popupWrap.removeClass('popup_active');
-    }
+    // checkFieldsGlobal.checkFields($this);
 
     function isValidDate(date) {
-        var matches = /^(\d{2})[-\/](\d{2})[-\/](\d{4})$/.exec(date);
+        var matches = /^(\d{2})[.\/](\d{2})[.\/](\d{4})$/.exec(date);
         if (matches == null) return false;
         var d = matches[2];
         var m = matches[1] - 1;
@@ -23,53 +13,78 @@
                 composedDate.getMonth() == m &&
                 composedDate.getFullYear() == y;
     }
-    // console.log(isValidDate('10-12-1961'));
+
+    function checkFields ($this) {
+        if( $this.hasClass('requiredFieldsDate') ) {
+            var date = $this.val();
+
+            if( this.isValidDate( date ) === false ) {
+                $this.closest('.btn_big_rounded').addClass('error_validation');
+            } else {
+                $this.closest('.btn_big_rounded').removeClass('error_validation');
+            }
+
+        } else if( $this.hasClass('requiredFieldsSelect') ) {
+            if( $this.find('select').val() > 0 ) {
+                $this.removeClass('error_validation');
+            } else {
+                $this.addClass('error_validation');
+            }
+        } else if( $this.hasClass('requiredFieldsTitle') ) {
+            if( $this.text().length < 4 ){
+                $this.addClass('error_validation');
+            } else {
+                $this.removeClass('error_validation');
+            }
+        } else if( $this.hasClass('requiredFieldsImage') ){
+            if( !$this.find('img').length ) {
+                $this.addClass('error_validation');
+            } else {
+                $this.removeClass('error_validation');
+            }
+        } else if( $this.hasClass('requiredFieldsCheckBox') ) {
+            if( !$this.find('input[type="checkbox"]').is(':checked') ){
+                $this.addClass('error_validation');
+            } else {
+                $this.removeClass('error_validation');
+            }
+        } else {
+            if( $this.val().length < 4 ){
+                // alert(' должно быть не менее 4-х символов!');
+                $this.addClass('error_validation');
+            } else{
+                $this.removeClass('error_validation');
+            }
+        }
+    };
+
+    return {
+        checkFields: checkFields,
+        isValidDate: isValidDate
+    };
+}
+
+
+var checkFieldsGlobal = checkFieldsGlobal();
+
+;$(function () {
+    var $accessManagementBlock = $('.access-management-block'),
+        $accessManagementItems = $accessManagementBlock.find('.access-management-item'),
+        accessManagementPopupHtml = $('#popup-acces-managment-tpl').html(),
+        accessManagementItemHtml = $('#popup-acces-item-tpl').html(),
+        $popupWrap = $('#popup_block'),
+        $requiredFields = $('.requiredFields'),
+        $accessPopup;
+
+    function closePopup () {
+        $accessPopup.off('click');
+        $accessPopup.remove();
+        $popupWrap.removeClass('popup_active');
+    }
 
     function validationFields () {
         $('.requiredFields').each(function () {
-            // debugger
-            if( $(this).hasClass('requiredFieldsDate') ) {
-                var date = $(this).val();
-
-                if( isValidDate( date ) === false ) {
-                    $(this).closest('.btn_big_rounded').addClass('error_validation');
-                } else {
-                    $(this).closest('.btn_big_rounded').removeClass('error_validation');
-                }
-
-            } else if( $(this).hasClass('requiredFieldsSelect') ) {
-                if( $(this).find('select').val() > 0 ) {
-                    $(this).removeClass('error_validation');
-                } else {
-                    $(this).addClass('error_validation');
-                }
-            } else if( $(this).hasClass('requiredFieldsTitle') ) {
-                if( $(this).text().length < 4 ){
-                    $(this).addClass('error_validation');
-                } else {
-                    $(this).removeClass('error_validation');
-                }
-            } else if( $(this).hasClass('requiredFieldsImage') ){
-                if( !$(this).find('img').length ) {
-                    $(this).addClass('error_validation');
-                } else {
-                    $(this).removeClass('error_validation');
-                }
-            } else if( $(this).hasClass('requiredFieldsCheckBox') ) {
-                if( !$(this).find('input[type="checkbox"]').is(':checked') ){
-                    $(this).addClass('error_validation');
-                } else {
-                    $(this).removeClass('error_validation');
-                }
-            } else {
-                if( $(this).val().length < 4 ){
-                    // alert(' должно быть не менее 4-х символов!');
-                    $(this).addClass('error_validation');
-                } else{
-                    $(this).removeClass('error_validation');
-                }
-            }
-
+            checkFieldsGlobal.checkFields( $(this) );
         });
     }
 
@@ -193,6 +208,34 @@
         initializeCheckboxes();
     }
 
+    $('.requiredFields').on('change', function() {
+        checkFieldsGlobal.checkFields( $(this) );
+    });
+
+    // $('.requiredFieldsTitle').each( function () {
+    //     $(this).addEventListener('input', function() {
+    //         console.log( $(this) )
+    //     }, false);
+    // });
+
+    $('body').on('change', '[contenteditable]', function() {
+        var $this = $(this);
+        // checkFieldsGlobal.checkFields( $this );
+
+        $this.data('before', $this.html());
+        return $this;
+
+
+    }).on('blur keyup paste input', '[contenteditable]', function() {
+        var $this = $(this);
+
+        if ($this.data('before') !== $this.html()) {
+            $this.data('before', $this.html());
+            $this.trigger('change');
+        }
+        return $this;
+    });
+
     $accessManagementBlock.on('click', '.btn_delete', function (event) {
         event.preventDefault();
 
@@ -244,10 +287,12 @@
     });
 
     $('body').on('keyup', '.requiredFields', function () {
-        if( $(this).val().length < 4 ) {
-            $(this).addClass('error_validation');
-        } else {
-            $(this).removeClass('error_validation');
+        if( !$(this).hasClass('requiredFieldsTitle') ){
+            if( $(this).val().length < 4 ) {
+                $(this).addClass('error_validation');
+            } else {
+                $(this).removeClass('error_validation');
+            }
         }
     });
 

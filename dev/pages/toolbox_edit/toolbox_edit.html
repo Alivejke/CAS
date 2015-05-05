@@ -127,9 +127,10 @@
                 <div class="wrap">
                     <div class="toolbox_edit">
                         <form action="#">
-                            <h1 class="toolbox_edit_title" contenteditable="true">Enter toolbox name</h1>
-                            <div class="select_wrap select_default">
+                            <h1 class="toolbox_edit_title requiredFields requiredFieldsTitle" contenteditable="true">Enter toolbox name</h1>
+                            <div class="select_wrap select_default requiredFields requiredFieldsSelect">
                                 <select name="" class="js-example-basic-single">
+                                    <!-- <option value="0"></option> -->
                                     <option value="1">BRAND</option>
                                     <option value="2">BRANDd</option>
                                     <option value="3">BRANDd</option>
@@ -138,7 +139,7 @@
                             <ul class="toolbox_edit_list">
                                 <li>
                                     <h2 class="main_title">Description</h2>
-                                    <textarea name="" class="brand_news_textarea"></textarea>
+                                    <textarea name="" class="brand_news_textarea requiredFields"></textarea>
                                     <div class="toolbox_edit_btn_wrap">
                                         <button class="btn btn-default">save as draft</button><!--
                                         --><button class="btn btn-default btn_long">exit without saving</button><!--
@@ -146,7 +147,7 @@
                                     </div>
                                 </li>
                                 <li>
-                                    <div class="select_wrap select_default">
+                                    <div class="select_wrap select_default requiredFields requiredFieldsSelect">
                                         <select name="" class="js-approver_for_request" data-text="choose approver for request">
                                             <option></option>
                                             <option value="1">BRAND</option>

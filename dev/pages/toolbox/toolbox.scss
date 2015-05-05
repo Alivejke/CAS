@@ -72,14 +72,16 @@
 	    }
 	}
 
-	.calendar_from, .calendar_to {
-	    background: none;
-	    border: none;
-	    display: inline-block;
-	    width: flex(90px, 370px - 6px * 2);
-	    margin-left: flex(3px, 370px - 6px * 2);
-	    color: #7E8D95;
-	    font-weight: 500;
+	.brand_news {
+		.calendar_from, .calendar_to {
+		    background: none;
+		    border: none;
+		    display: inline-block;
+		    width: flex(90px, 370px - 6px * 2);
+		    margin-left: flex(3px, 370px - 6px * 2);
+		    color: #7E8D95;
+		    font-weight: 500;
+		}
 	}
 
 	.calendar_to {
@@ -92,5 +94,9 @@
 				width: flex(296px, $base-width-content);
 			}
 		}
+	}
+
+	.select2-results__option {
+		padding: em(13px) em(20px);
 	}
 }

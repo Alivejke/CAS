@@ -287,4 +287,85 @@
 			}
 		}
 	}
+
+	.calendar_from, .calendar_to {
+        background: none;
+        border: none;
+        display: inline-block;
+        width: flex(80px, 370px - 6px * 2);
+        margin-left: flex(3px, 370px - 6px * 2);
+        color: #7E8D95;
+        font-weight: 500;
+    }
+
+    .calendar_to {
+        margin-left: flex(5px, 370px - 6px * 2);
+    }
+
+    .calendar_wrap {
+        width: flex(289px, $base-width-content/2);
+        text-align: right;
+
+        @media (max-width: 640px) {
+            text-align: left;
+        }
+    }
+
+    .calendar_input {
+        width: flex(101px, 289px);
+        font-size: em(17px);
+        line-height: em(40px, 17px);
+        height: em(40px, 17px);
+        color: #909294;
+        border: 1px solid #cbcccd;
+
+        @media (max-width: 768px) {
+            width: 32.93%;
+        }
+
+        &.calendar_from {
+            margin-left: flex(10px, 289px);
+        }
+    }
+
+    .calendar_date-separator {
+        margin: 0 flex(5px, 289px);
+    }
+
+    .select_wrap_list-el_wrap {
+        margin-top: em(60px);
+        &:first-child {
+            margin-top: 0;
+        }
+    }
+
+    .wrap_block {
+        margin: em(60px) 0 em(80px);
+        .title {
+            font-family: pragmatica,Helvetica,Arial,sans-serif;
+            font-weight: 300;
+            font-size: em($brand_news_title-font-size, $base-font-size);
+            line-height: 1;
+            color: $base-color;
+            margin-bottom: em(28px, $main_title-font-size);
+        }
+        p.text {
+            font-family: pragmatica,Helvetica,Arial,sans-serif;
+            font-weight: 300;
+            font-size: em($base-font-size, $base-font-size);
+            line-height: em(21px, $base-font-size);
+            color: $gray-color;
+            letter-spacing: 1px;
+        }
+        &.error_validation {
+            label {
+                &.checkbox {
+                    color: #b70e12;
+                    .label_ico {
+                        border-color: #b70e12;
+                    }
+                }
+            }
+        }
+    }
 }

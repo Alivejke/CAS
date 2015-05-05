@@ -1,4 +1,4 @@
-$(document).ready(function() {
+;$(function () {
 	var calendarPaddingWidth = 19;
 
 	function calendarPositions ($dateWrap) {
@@ -48,6 +48,9 @@ $(document).ready(function() {
 
 			    	$('.calendarWrap.active').find('.calendar_from').val( startDate );
 			    	$('.calendarWrap.active').find('.calendar_to').val( endDate );
+
+			    	checkFieldsGlobal.checkFields( $('.calendarWrap.active').find('.calendar_from') );
+			    	checkFieldsGlobal.checkFields( $('.calendarWrap.active').find('.calendar_to') );
 			    }
 		    }
 		});
@@ -95,5 +98,5 @@ $(document).ready(function() {
 		
 	}
 
-
 });
+
