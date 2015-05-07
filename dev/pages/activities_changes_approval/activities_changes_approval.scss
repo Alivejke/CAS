@@ -34,7 +34,7 @@
 	}
 
 	.activities_changes_approval_list {
-		// overflow: hidden;
+		overflow: hidden;
 		// margin-top: em(60px);
 		border-top: 1px solid #cecfd0;
 		// margin-bottom: -1px;
@@ -51,6 +51,8 @@
 		}
 		.error {
 			background: #F7F7F9;
+			padding-bottom: 1000px;
+			margin-bottom: -1000px;
 		}
 	}
 
@@ -231,6 +233,9 @@
 		color: $gray-color;
 		> li {
 			margin-top: em(15px);
+			label {
+				white-space: nowrap;
+			}
 			&:first-child {
 				margin-top: 0;
 			}
@@ -296,6 +301,9 @@
         margin-left: flex(3px, 370px - 6px * 2);
         color: #7E8D95;
         font-weight: 500;
+        &.approval_input {
+        	width: flex(75px, 294px);
+        }
     }
 
     .calendar_to {

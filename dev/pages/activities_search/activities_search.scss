@@ -195,5 +195,53 @@
                 }
             }
         }
+        &.wrap_block_indent {
+        	margin-top: em(-10px);
+        }
+    }
+
+    .channel {
+    	width: 50%;
+    	.name_channels {
+            font-size: em($base-font-size);
+            line-height: 1;
+            padding: em(15px, $base-font-size) 0;
+        }
+        ul {
+        	overflow: hidden;
+        	position: relative;
+        	top: em(-46px);
+            li {
+                margin: em(56px, $base-font-size) 0 0;
+				float: left;
+				width: 50%;
+				padding-right: em(5px);
+                a {
+                    color: $gray-color;
+                    position: relative;
+                    display: block;
+                    padding: em(5px, $base-font-size) 0;
+                    text-decoration: none;
+                    &:before {
+                        content: '';
+                        width: 4px;
+                        height: 4px;
+                        @include border-radius(100%);
+                        background-color: $gray-color;
+                        position: absolute;
+                        display: block;
+                        left: -12px;
+                        top: 12px;
+                    }
+                }
+                label {
+                    // margin-left: flex(90px, 246px);
+                    // color: $gray-color;
+                }
+            }
+        }
+        &.float-right {
+        	width: 45%;
+        }
     }
 }

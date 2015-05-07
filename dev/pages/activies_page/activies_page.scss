@@ -2,6 +2,38 @@
 @import "compass/css3";
 
 .activies_page {
+    .global_name_channels {
+        font-family: 'Brandon Grotesque';
+        font-weight: 300;
+        font-size: em(21px , $base-font-size);
+        line-height: 1;
+        // color: $base-color;
+        color: #2c3138;
+        text-align: center;
+        padding: em(15px, $base-font-size) 0;
+    }
+
+    .global_name_channels_links {
+        color: #A9ADB0;
+        position: relative;
+        margin-left: flex(90px, 246px);
+        display: block;
+        padding: em(5px, $base-font-size) 0;
+        text-decoration: none;
+        &:before {
+            content: '';
+            width: 4px;
+            height: 4px;
+            @include border-radius(100%);
+            // background-color: $gray-color;
+            background-color: #7e8890;
+            position: absolute;
+            display: block;
+            left: em(-10px);
+            top: em(10px);
+        }
+    }
+
     .activies_page_wrap {
         .content_wrap, .wrap_block {
             margin-top: em(60px, $base-font-size);
@@ -325,4 +357,28 @@
             margin-top: 0;
         }
     }
+
+    .mechanics_list_wrap {
+        overflow: hidden;
+        margin: em(92px) 0 0 flex(47px, 740px);
+        > li {
+            .title {
+                @extend .global_name_channels;
+                text-transform: uppercase;
+                text-align: left;
+            }
+            .mechanics_list_wrap_items {
+                li {
+                    a {
+                        @extend .global_name_channels_links;
+                        margin-left: em(10px);
+                    }
+                }
+            }
+            &.float-right {
+                margin-right: 60px;
+            }
+        }
+    }
+
 }
