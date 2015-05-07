@@ -10,14 +10,13 @@
 
         <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800&subset=latin,cyrillic-ext' rel='stylesheet' type='text/css'>
         <link rel="stylesheet" href="/css/main.css">
-        <link rel="stylesheet" href="single_brand_page.css">
 
         <!--[if lt IE 9]>
             <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
             <script>window.html5 || document.write('<script src="js/vendor/html5shiv.js"><\/script>')</script>
         <![endif]-->
     </head>
-    <body>
+    <body class="single_brand_page activities_search_page">
         <div id="mainarea">
             <header class="header">
                 <div class="wrap">
@@ -135,8 +134,9 @@
                             </li>
                         </ul>
                     </div>
-                    <div class="go_to_search float-right">
+                    <div class="go_to_search float-right js_search">
                         <span>Go to search</span>
+                        <span class="glyphicon glyphicon-remove"></span>
                     </div>
                 </div>
             </div>
@@ -175,7 +175,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="wrap single_brand">
+                <div class="wrap single_brand search_block_wrapper">
                     <div class="main_menu_wrap">
                         <div class="select_wrap select_long">
                             <select name="activities_search" id="" class="js-example-basic-single">
@@ -185,6 +185,169 @@
                             </select>
                         </div>
                     </div>
+                    <form action="#" class="search_block_wrap">
+                        <ul class="activies_search_list">
+                            <li class="clearfix">
+                                <ul class="select_wrap_list float-left">
+                                    <li>
+                                        <h2 class="small_title">brands</h2>
+                                        <div class="select_wrap select_default select_multiple_default select_multiple_search">
+                                            <select class="js-example-basic-multiple" multiple="multiple">
+                                                <option value="1">Marlboro</option>
+                                                <option value="2">Parliament</option>
+                                                <option value="3">L&M</option>
+                                                <option value="4">Chesterfield</option>
+                                                <option value="5">Bond</option>
+                                            </select>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <h2 class="small_title">keywords</h2>
+                                        <div class="select_wrap select_default select_multiple_default select_multiple_search">
+                                            <select class="js-example-basic-multiple" multiple="multiple">
+                                                <option value="1">Marlboro</option>
+                                                <option value="2">Parliament</option>
+                                                <option value="3">L&M</option>
+                                                <option value="4">Chesterfield</option>
+                                                <option value="5">Bond</option>
+                                            </select>
+                                        </div>
+                                    </li>
+                                </ul>
+                                <ul class="select_wrap_list float-left">
+                                    <li>
+                                        <h2 class="small_title">toolboxes</h2>
+                                        <div class="select_wrap select_default select_multiple_default select_multiple_search">
+                                            <select class="js-example-basic-multiple" multiple="multiple">
+                                                <option value="1">Marlboro</option>
+                                                <option value="2">Parliament</option>
+                                                <option value="3">L&M</option>
+                                                <option value="4">Chesterfield</option>
+                                                <option value="5">Bond</option>
+                                            </select>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="clearfix">
+                                <ul class="select_wrap_list float-left">
+                                    <li>
+                                        <h2 class="small_title">channels</h2>
+                                        <div class="select_wrap select_default select_multiple_default">
+                                            <select class="js-example-basic-single">
+                                                <option value="1">Marlboro</option>
+                                                <option value="2">Parliament</option>
+                                                <option value="3">L&M</option>
+                                                <option value="4">Chesterfield</option>
+                                                <option value="5">Bond</option>
+                                            </select>
+                                        </div>
+                                    </li>
+                                </ul>
+                                <ul class="select_wrap_list float-left">
+                                    <li class="select_wrap_list_indent">
+                                        <div class="select_wrap select_default select_multiple_default">
+                                            <select class="js-example-basic-single">
+                                                <option value="0"></option>
+                                                <option value="1">Marlboro</option>
+                                                <option value="2">Parliament</option>
+                                                <option value="3">L&M</option>
+                                                <option value="4">Chesterfield</option>
+                                                <option value="5">Bond</option>
+                                            </select>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="select_wrap select_default select_multiple_default">
+                                            <select class="js-example-basic-single">
+                                                <option value="1">Marlboro</option>
+                                                <option value="2">Parliament</option>
+                                                <option value="3">L&M</option>
+                                                <option value="4">Chesterfield</option>
+                                                <option value="5">Bond</option>
+                                            </select>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="clearfix">
+                                <div class="wrap_block">
+                                    <h2 class="title">Mechanics type</h2>
+                                    <p class="text">Pack revealer. Can be used as an ice-breaker for different mechanic types to inform LAS about factual characteristics of a product.</p>
+                                </div>
+                                <ul class="select_wrap_list float-left">
+                                    <li>
+                                        <h2 class="small_title">other parameters</h2>
+                                        <div class="select_wrap select_default select_multiple_default">
+                                            <select class="js-example-basic-single">
+                                                <option value="1">Status</option>
+                                                <option value="2">Status</option>
+                                            </select>
+                                        </div>
+                                        <div class="calendarWrap">
+                                            <div class="calendar_wrap">
+                                                <span class="calendar_status_wrap">
+                                                    <span class="calendar_status calendar_status-valid">valid</span>
+                                                    <span class="calendar_status calendar_status-error">error</span>
+                                                </span>
+                                                <input type="text" placeholder="dd.mm.yyyy" class="calendar_input calendar_from">
+                                                <span class="calendar_date-separator">&mdash;</span>
+                                                <input type="text" placeholder="dd.mm.yyyy" class="calendar_input calendar_to">
+                                            </div>
+                                            <div class="calendar_block">
+                                                <div class="datepicker"></div>
+                                            </div>
+                                            
+                                        </div>
+                                    </li>
+                                </ul>
+                                <ul class="select_wrap_list float-left">
+                                    <li class="select_wrap_list_indent">
+                                        <div class="select_wrap_list-el_wrap clearfix">
+                                            <div class="select_wrap_list-el float-left">
+                                                <label class="checkbox">
+                                                    <span class="label_ico"></span>
+                                                    <input type="checkbox" checked="" hidden="">
+                                                    1-2-1
+                                                </label>
+                                            </div>
+                                            <div class="select_wrap_list-el float-right">
+                                                <label class="checkbox">
+                                                    <span class="label_ico"></span>
+                                                    <input type="checkbox" hidden="">
+                                                    Private party
+                                                </label>
+                                            </div>
+                                        </div>
+                                        <div class="select_wrap_list-el_wrap clearfix">
+                                            <div class="select_wrap_list-el float-left">
+                                                <label class="checkbox">
+                                                    <span class="label_ico"></span>
+                                                    <input type="checkbox" hidden="">
+                                                    Name generation needed
+                                                </label>
+                                            </div>
+                                            <div class="select_wrap_list-el float-right">
+                                                <label class="checkbox">
+                                                    <span class="label_ico"></span>
+                                                    <input type="checkbox" hidden="">
+                                                    Others
+                                                </label>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                        <div class="btn_activies_search_wrap center">
+                            <button class="btn btn-default">Search</button>
+                            <br>
+                            <button class="btn btn-default btn-link">Reset</button>
+                        </div>
+                    </form>
+                </div>
+
+                <div class="wrap">
                     <h1 class="main_title">toolboxes</h1>
                     <div class="main_menu_wrap">
                         <ul class="main_menu main_menu_big">
@@ -281,7 +444,9 @@
         <script src="/js/vendor/jquery-ui.min.js"></script>
         <script src="/js/vendor/checked_polyfill.min.js"></script>
         <script src="/js/vendor/select2.min.js"></script>
+        <script src="/js/vendor/moment.js"></script>
+        <script src="/js/vendor/datepicker.js"></script>
+        <script src="/js/vendor/jquery.comiseo.daterangepicker.custom.js"></script>
         <script src="/js/main.js"></script>
-        <script src="single_brand_page.js"></script>
     </body>
 </html>

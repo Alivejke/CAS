@@ -4,7 +4,7 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title>profile</title>
+        <title>approval_flow_table</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -16,8 +16,8 @@
             <script>window.html5 || document.write('<script src="js/vendor/html5shiv.js"><\/script>')</script>
         <![endif]-->
     </head>
-    <body class="profile_page">
-        <div id="mainarea">
+    <body class="approval_flow_table_page">
+        <div id="mainarea" class="approval_flow_wrap">
             <header class="header">
                 <div class="wrap">
                     <nav class="navbar navbar-blue" role="navigation">
@@ -113,104 +113,135 @@
                                 </div>
                             </div>
                         </div>
-                        
                     </nav>
                 </div>
             </header>
+
             <div class="wrap">
                 <div class="menu_wrap clearfix">
                     <div class="menu_scroll_wrap">
-                        <ul class="menu float-left">
+                        <ul class="menu">
                             <li>
                                 <a href="#">cas Department</a>
                             </li>
                             <li class="active">
-                                <a href="#">profile</a>
+                                <a href="#">approval flow</a>
                             </li>
                         </ul>
-                        </div>
+                    </div>
+                    <h1 class="main_title main_title_approval">Waiting for approval</h1>
                 </div>
             </div>
-
-            <section class="content_wrap">
-                <div class="wrap">
-                    <h1 class="main_title main_title_actives">my profile</h1>
-                    <form action="#">
-                        <div class="profile_wrap clearfix">
-                            <div class="profile_settings float-left">
-                                <div class="profile_name_wrap clearfix">
-                                    <div class="profile_name float-left">
-                                        <h2 class="profile_title">name</h2>
-                                        <div class="profile_text">User Name</div>
-                                    </div>
-                                    <div class="profile_roles float-left">
-                                        <h2 class="profile_title">roles</h2>
-                                        <div class="profile_text">CAS Approver, Trade initiator</div>
-                                    </div>
-                                </div>
-                                <h2 class="profile_title profile_new_title-indent">Department</h2>
-                                <div class="select_wrap select_default select_mini">
-                                    <select class="js-example-basic-single">
-                                        <option value="1">Marlboro</option>
-                                        <option value="2">Bond</option>
-                                        <option value="3">Parliament</option>
-                                    </select>
-                                </div>
-                            </div>
-                            <div class="profile_description float-left">
-                                <h2 class="profile_title">subscriptions</h2>
-                                <ul class="profile_description_list">
-                                    <li>
-                                        <label class="checkbox">
-                                            <span class="label_ico"></span>
-                                            <input type="checkbox" checked>
-                                            Marlboro
-                                        </label>
-                                    </li>
-                                    <li>
-                                        <label class="checkbox">
-                                            <span class="label_ico"></span>
-                                            <input type="checkbox" checked>
-                                            Bond
-                                        </label>
-                                    </li>
-                                    <li>
-                                        <label class="checkbox">
-                                            <span class="label_ico"></span>
-                                            <input type="checkbox" checked>
-                                            Parliament
-                                        </label>
-                                    </li>
-                                    <li>
-                                        <label class="checkbox">
-                                            <span class="label_ico"></span>
-                                            <input type="checkbox" checked>
-                                            L&M
-                                        </label>
-                                    </li>
-                                    <li>
-                                        <label class="checkbox">
-                                            <span class="label_ico"></span>
-                                            <input type="checkbox" checked>
-                                            Chesterfield
-                                        </label>
-                                    </li>
-                                    <li>
-                                        <label class="checkbox">
-                                            <span class="label_ico"></span>
-                                            <input type="checkbox" checked>
-                                            Next
-                                        </label>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="profile_btn_wrap">
-                            <button class="btn btn-default btn-save" type="submit">save changes</button>
-                        </div>
-                    </form>
+            <div class="title_table">
+                <div class="wrap padding-left">
+                    <table>
+                        <tr>
+                            <th>instance</th>
+                            <th>last update</th>
+                            <th>updated by</th>
+                            <th>comments</th>
+                            <th>Action</th>
+                        </tr>
+                    </table>
                 </div>
-            </section>
+            </div>
+            <div class="wrap_table">
+                <div>
+                    <div class="wrap padding-left">
+                        <table class="approval_table wrap">
+                            <tr>
+                                <td>Toolbox<br> "Test Toolbox"</td>
+                                <td>12:45 2014-12-12</td>
+                                <td>User name <br>(admin@pmi.com)</td>
+                                <td class="wrap_comments_table">
+
+                                    <div class="comment_table">
+                                        <div class="user_name">User name (12:45 2014-12-12)</div>
+                                        Lorem ipsum dolor sit amet,
+                                        consectetur adipisicing elit, sed do
+                                    </div>
+                                    
+                                    <div class="comment_table">
+                                        <div class="user_name">User name (12:45 2014-12-12)</div>
+                                        Lorem ipsum dolor sit amet,
+                                        consectetur adipisicing elit, sed do
+                                    </div>
+                                </td>   
+                                <td class="button_table">
+                                    <button class="btn btn_rounded btn_gray">view</button>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+                <div>
+                    <div class="wrap padding-left">
+                        <table class="approval_table">
+                            <tr>
+                                <td>Toolbox<br> "Test Toolbox"</td>
+                                <td>12:45 2014-12-12</td>
+                                <td>User name <br>(admin@pmi.com)</td>
+                                <td class="comments_table">
+                                    No comments.
+                                </td>
+                                <td class="button_table">
+                                    <button class="btn btn_rounded btn_gray">view</button>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+                <div>
+                    <div class="wrap padding-left">
+                        <table class="approval_table">
+                            <tr>
+                                <td>Toolbox<br> "Test Toolbox"</td>
+                                <td>12:45 2014-12-12</td>
+                                <td>User name <br>(admin@pmi.com)</td>
+                                <td class="comments_table">
+                                    No comments.
+                                <td class="button_table">
+                                    <button class="btn btn_rounded btn_gray">view</button>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+                <div>
+                    <div class="wrap padding-left">
+                        <table class="approval_table">
+                            <tr>
+                                <td>Toolbox<br> "Test Toolbox"</td>
+                                <td>12:45 2014-12-12</td>
+                                <td>User name <br>(admin@pmi.com)</td>
+                                <td class="comments_table">
+                                    No comments.
+                                </td>
+                                <td class="button_table">
+                                    <button class="btn btn_rounded btn_gray">view</button>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+                <div class="indent-bottom">
+                    <div class="wrap padding-left">
+                        <table class="approval_table">
+                            <tr>
+                                <td>Toolbox<br> "Test Toolbox"</td>
+                                <td>12:45 2014-12-12</td>
+                                <td>User name <br>(admin@pmi.com)</td>
+                                <td class="comments_table">
+                                    No comments.
+                                </td>
+                                <td class="button_table">
+                                    <button class="btn btn_rounded btn_gray">view</button>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+            </div>
 
         </div>
         <footer class="footer">

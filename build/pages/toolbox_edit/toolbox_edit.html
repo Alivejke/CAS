@@ -10,14 +10,13 @@
 
         <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800&subset=latin,cyrillic-ext' rel='stylesheet' type='text/css'>
         <link rel="stylesheet" href="/css/main.css">
-        <link rel="stylesheet" href="toolbox_edit.css">
 
         <!--[if lt IE 9]>
             <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
             <script>window.html5 || document.write('<script src="js/vendor/html5shiv.js"><\/script>')</script>
         <![endif]-->
     </head>
-    <body>
+    <body class="toolbox_edit_page">
         <div id="mainarea">
             <header class="header">
                 <div class="wrap">
@@ -120,7 +119,7 @@
             </header>
             <div class="element_header edit_brand">
                 <div class="wrap padding-none center js-img_wrap">
-                    <button class="btn btn-default btn-upload btn_small js-uploader" data-upload-text="upload image">upload image</button>
+                    <button class="btn btn-default btn-upload btn_small js-uploader-image" data-upload-text="upload image">upload image</button>
                 </div>
             </div>
 
@@ -128,9 +127,10 @@
                 <div class="wrap">
                     <div class="toolbox_edit">
                         <form action="#">
-                            <h1 class="toolbox_edit_title">Enter toolbox name</h1>
-                            <div class="select_wrap select_default">
+                            <h1 class="toolbox_edit_title requiredFields requiredFieldsTitle" contenteditable="true">Enter toolbox name</h1>
+                            <div class="select_wrap select_default requiredFields requiredFieldsSelect">
                                 <select name="" class="js-example-basic-single">
+                                    <!-- <option value="0"></option> -->
                                     <option value="1">BRAND</option>
                                     <option value="2">BRANDd</option>
                                     <option value="3">BRANDd</option>
@@ -139,7 +139,7 @@
                             <ul class="toolbox_edit_list">
                                 <li>
                                     <h2 class="main_title">Description</h2>
-                                    <textarea name="" class="brand_news_textarea"></textarea>
+                                    <textarea name="" class="brand_news_textarea requiredFields"></textarea>
                                     <div class="toolbox_edit_btn_wrap">
                                         <button class="btn btn-default">save as draft</button><!--
                                         --><button class="btn btn-default btn_long">exit without saving</button><!--
@@ -147,7 +147,7 @@
                                     </div>
                                 </li>
                                 <li>
-                                    <div class="select_wrap select_default">
+                                    <div class="select_wrap select_default requiredFields requiredFieldsSelect">
                                         <select name="" class="js-approver_for_request" data-text="choose approver for request">
                                             <option></option>
                                             <option value="1">BRAND</option>
@@ -198,6 +198,5 @@
         <script src="/js/vendor/checked_polyfill.min.js"></script>
         <script src="/js/vendor/select2.min.js"></script>
         <script src="/js/main.js"></script>
-        <script src="toolbox_edit.js"></script>
     </body>
 </html>
