@@ -44,15 +44,15 @@ function initializeCheckboxes () {
 
 			    	if(range.start) {
 				    	var startDay = ("0" +  range.start.getDate()).slice(-2),
-				    		startMonth =("0" +  range.start.getMonth()).slice(-2),
+				    		startMonth =("0" +  (range.start.getMonth() + 1)).slice(-2),
 				    		startYear = range.start.getFullYear();
 
 				    	startDate = startDay + '.' + startMonth + '.' + startYear;
 			    	}
-
+// debugger
 			    	if(range.end) {
 				    	var endDay = ("0" +  range.end.getDate()).slice(-2),
-				    		endMonth = ("0" +  range.end.getMonth()).slice(-2),
+				    		endMonth = ("0" +  (range.end.getMonth() + 1)).slice(-2),
 				    		endYear = range.end.getFullYear();
 
 			    		endDate = endDay + '.' + endMonth + '.' + endYear;
@@ -110,9 +110,7 @@ function initializeCheckboxes () {
 		
 	}
 
-});
-
-;$(document).ready(function() {
+});;$(document).ready(function() {
 	var $self = $(this),
 		$selects = $('.js-example-basic-single'),
 		$approverSelects = $('.js-approver_for_request'),
