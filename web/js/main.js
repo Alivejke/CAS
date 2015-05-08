@@ -222,22 +222,32 @@ function initializeCheckboxes () {
 
     // checkFieldsGlobal.checkFields($this);
 
+    // function isValidDate(date) {
+    //     var matches = /^(\d{2})[.\/](\d{2})[.\/](\d{4})$/.exec(date);
+    //     if (matches == null) return false;
+    //     var d = matches[2];
+    //     var m = matches[1] - 1;
+    //     var y = matches[3];
+    //     var composedDate = new Date(y, m, d);
+    //     return composedDate.getDate() == d &&
+    //             composedDate.getMonth() == m &&
+    //             composedDate.getFullYear() == y;
+    // }
+
     function isValidDate(date) {
-        var matches = /^(\d{2})[.\/](\d{2})[.\/](\d{4})$/.exec(date);
-        if (matches == null) return false;
-        var d = matches[2];
-        var m = matches[1] - 1;
-        var y = matches[3];
-        var composedDate = new Date(y, m, d);
-        return composedDate.getDate() == d &&
-                composedDate.getMonth() == m &&
-                composedDate.getFullYear() == y;
+        var val_r = date.split(".");
+        var curDate = new Date(val_r[2], val_r[1], val_r[0]);
+        return (
+            curDate.getFullYear() == val_r[2]
+            && curDate.getMonth() == val_r[1]
+            && curDate.getDate() == val_r[0]
+        );
     }
 
     function checkFields ($this) {
         if( $this.hasClass('requiredFieldsDate') ) {
             var date = $this.val();
-
+debugger
             if( this.isValidDate( date ) === false ) {
                 $this.closest('.btn_big_rounded').addClass('error_validation');
             } else {
