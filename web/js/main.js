@@ -235,13 +235,14 @@ function initializeCheckboxes () {
     // }
 
     function isValidDate(date) {
-        var val_r = date.split(".");
-        var curDate = new Date(val_r[2], val_r[1], val_r[0]);
-        return (
-            curDate.getFullYear() == val_r[2]
-            && curDate.getMonth() == val_r[1]
-            && curDate.getDate() == val_r[0]
-        );
+        var arrD = date.split(".");
+        arrD[1] -= 1;
+        var d = new Date(arrD[2], arrD[1], arrD[0]);
+        if ((d.getFullYear() == arrD[2]) && (d.getMonth() == arrD[1]) && (d.getDate() == arrD[0])) {
+            return true;
+        } else {
+            return false;
+        }
     }
 
     function checkFields ($this) {
