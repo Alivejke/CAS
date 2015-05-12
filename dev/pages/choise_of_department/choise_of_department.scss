@@ -1,5 +1,8 @@
 .choise_of_department_wrap {
 	margin-top: em(75px);
+	.main_menu > li span {
+		font-size: $main_title-font-size;
+	}
 }
 .main_menu_wrap {
 	margin-top: em(84px);
