@@ -6649,19 +6649,19 @@ textarea {
   font-weight: 300;
   color: #909294;
 }
-/* line 61, c:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-core-1.0.3/stylesheets/compass/css3/_user-interface.scss */
+/* line 61, c:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/css3/_user-interface.scss */
 textarea:-moz-placeholder {
   color: #909294;
 }
-/* line 64, c:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-core-1.0.3/stylesheets/compass/css3/_user-interface.scss */
+/* line 64, c:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/css3/_user-interface.scss */
 textarea::-moz-placeholder {
   color: #909294;
 }
-/* line 67, c:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-core-1.0.3/stylesheets/compass/css3/_user-interface.scss */
+/* line 67, c:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/css3/_user-interface.scss */
 textarea:-ms-input-placeholder {
   color: #909294;
 }
-/* line 56, c:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-core-1.0.3/stylesheets/compass/css3/_user-interface.scss */
+/* line 56, c:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/css3/_user-interface.scss */
 textarea::-webkit-input-placeholder {
   color: #909294;
 }
@@ -7387,19 +7387,19 @@ input.input {
   border: 1px solid #dedfdf;
   color: #8F9BA3;
 }
-/* line 61, c:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-core-1.0.3/stylesheets/compass/css3/_user-interface.scss */
+/* line 61, c:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/css3/_user-interface.scss */
 input.input:-moz-placeholder {
   color: #8F9BA3;
 }
-/* line 64, c:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-core-1.0.3/stylesheets/compass/css3/_user-interface.scss */
+/* line 64, c:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/css3/_user-interface.scss */
 input.input::-moz-placeholder {
   color: #8F9BA3;
 }
-/* line 67, c:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-core-1.0.3/stylesheets/compass/css3/_user-interface.scss */
+/* line 67, c:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/css3/_user-interface.scss */
 input.input:-ms-input-placeholder {
   color: #8F9BA3;
 }
-/* line 56, c:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-core-1.0.3/stylesheets/compass/css3/_user-interface.scss */
+/* line 56, c:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/css3/_user-interface.scss */
 input.input::-webkit-input-placeholder {
   color: #8F9BA3;
 }
@@ -7415,19 +7415,19 @@ input.input.complete, input.input.complete_validation {
 input.gray {
   color: #7c7c7c;
 }
-/* line 61, c:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-core-1.0.3/stylesheets/compass/css3/_user-interface.scss */
+/* line 61, c:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/css3/_user-interface.scss */
 input.gray:-moz-placeholder {
   color: #7c7c7c;
 }
-/* line 64, c:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-core-1.0.3/stylesheets/compass/css3/_user-interface.scss */
+/* line 64, c:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/css3/_user-interface.scss */
 input.gray::-moz-placeholder {
   color: #7c7c7c;
 }
-/* line 67, c:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-core-1.0.3/stylesheets/compass/css3/_user-interface.scss */
+/* line 67, c:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/css3/_user-interface.scss */
 input.gray:-ms-input-placeholder {
   color: #7c7c7c;
 }
-/* line 56, c:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-core-1.0.3/stylesheets/compass/css3/_user-interface.scss */
+/* line 56, c:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/css3/_user-interface.scss */
 input.gray::-webkit-input-placeholder {
   color: #7c7c7c;
 }
@@ -8294,51 +8294,55 @@ input.error_validation {
     margin-top: 5px;
   }
 }
-/* line 203, ../../dev/pages/activies_page/activies_page.scss */
+/* line 202, ../../dev/pages/activies_page/activies_page.scss */
+.activies_page .brand_news {
+  background: #F9F9FB;
+}
+/* line 204, ../../dev/pages/activies_page/activies_page.scss */
 .activies_page .brand_news .btn_wrap {
   bottom: -1.66667em;
 }
-/* line 208, ../../dev/pages/activies_page/activies_page.scss */
+/* line 209, ../../dev/pages/activies_page/activies_page.scss */
 .activies_page .brand_news .brand_news_list li p {
   text-align: justify;
 }
-/* line 217, ../../dev/pages/activies_page/activies_page.scss */
+/* line 218, ../../dev/pages/activies_page/activies_page.scss */
 .activies_page .btn_big_rounded_wrap .btn.btn_big_rounded {
   line-height: 3.57143em;
 }
-/* line 225, ../../dev/pages/activies_page/activies_page.scss */
+/* line 226, ../../dev/pages/activies_page/activies_page.scss */
 .activies_page .wrap_blocks .main_title.main_title_actives {
   margin-top: 4.51852em;
 }
-/* line 231, ../../dev/pages/activies_page/activies_page.scss */
+/* line 232, ../../dev/pages/activies_page/activies_page.scss */
 .activies_page .status_wrap {
   width: 46.07046%;
 }
-/* line 233, ../../dev/pages/activies_page/activies_page.scss */
+/* line 234, ../../dev/pages/activies_page/activies_page.scss */
 .activies_page .status_wrap .valid {
   font-weight: 500;
 }
-/* line 237, ../../dev/pages/activies_page/activies_page.scss */
+/* line 238, ../../dev/pages/activies_page/activies_page.scss */
 .activies_page .status_wrap .btn_big_rounded .ico_status {
   margin-left: 5.67568%;
 }
-/* line 243, ../../dev/pages/activies_page/activies_page.scss */
+/* line 244, ../../dev/pages/activies_page/activies_page.scss */
 .activies_page .wrap_blocks {
   background: #F9F9FB;
   overflow: hidden;
   margin-bottom: -1.4em;
   width: 100%;
 }
-/* line 250, ../../dev/pages/activies_page/activies_page.scss */
+/* line 251, ../../dev/pages/activies_page/activies_page.scss */
 .activies_page #mainarea.activies_page_wrap {
   padding-bottom: 0px;
   margin: 0px auto;
 }
-/* line 255, ../../dev/pages/activies_page/activies_page.scss */
+/* line 256, ../../dev/pages/activies_page/activies_page.scss */
 .activies_page .document {
   margin: -3em 0 6em;
 }
-/* line 258, ../../dev/pages/activies_page/activies_page.scss */
+/* line 259, ../../dev/pages/activies_page/activies_page.scss */
 .activies_page .document li {
   float: left;
   width: 44.71545%;
@@ -8347,54 +8351,54 @@ input.error_validation {
   margin-top: 6.33333em;
 }
 @media (max-width: 768px) {
-  /* line 258, ../../dev/pages/activies_page/activies_page.scss */
+  /* line 259, ../../dev/pages/activies_page/activies_page.scss */
   .activies_page .document li {
     float: none;
     width: 100%;
     margin-left: 0;
   }
 }
-/* line 271, ../../dev/pages/activies_page/activies_page.scss */
+/* line 272, ../../dev/pages/activies_page/activies_page.scss */
 .activies_page .document li:nth-child(2n+1) {
   margin-left: 0;
   clear: left;
 }
-/* line 276, ../../dev/pages/activies_page/activies_page.scss */
+/* line 277, ../../dev/pages/activies_page/activies_page.scss */
 .activies_page .document li.odd {
   margin-left: 0;
   clear: left;
 }
-/* line 281, ../../dev/pages/activies_page/activies_page.scss */
+/* line 282, ../../dev/pages/activies_page/activies_page.scss */
 .activies_page .document li .brand_news_title {
   font-size: 1em;
   width: 90.90909%;
 }
 @media (max-width: 768px) {
-  /* line 285, ../../dev/pages/activies_page/activies_page.scss */
+  /* line 286, ../../dev/pages/activies_page/activies_page.scss */
   .activies_page .document li .manage {
     width: 4.13333em;
   }
 }
-/* line 289, ../../dev/pages/activies_page/activies_page.scss */
+/* line 290, ../../dev/pages/activies_page/activies_page.scss */
 .activies_page .document li .manage.img_circle-default {
   line-height: 4.13333em;
 }
-/* line 293, ../../dev/pages/activies_page/activies_page.scss */
+/* line 294, ../../dev/pages/activies_page/activies_page.scss */
 .activies_page .document li .description {
   width: 72.72727%;
   margin-left: 4.54545%;
 }
-/* line 296, ../../dev/pages/activies_page/activies_page.scss */
+/* line 297, ../../dev/pages/activies_page/activies_page.scss */
 .activies_page .document li .description p {
   margin-top: 1.33333em;
   color: #8F979F;
   line-height: 1.26667em;
 }
-/* line 302, ../../dev/pages/activies_page/activies_page.scss */
+/* line 303, ../../dev/pages/activies_page/activies_page.scss */
 .activies_page .document li .description.distinction .brand_news_title {
   color: #b70e12;
 }
-/* line 310, ../../dev/pages/activies_page/activies_page.scss */
+/* line 311, ../../dev/pages/activies_page/activies_page.scss */
 .activies_page .calendar_from, .activies_page .calendar_to {
   background: none;
   border: none;
@@ -8404,22 +8408,22 @@ input.error_validation {
   color: #7E8D95;
   font-weight: 500;
 }
-/* line 320, ../../dev/pages/activies_page/activies_page.scss */
+/* line 321, ../../dev/pages/activies_page/activies_page.scss */
 .activies_page .calendar_to {
   margin-left: 1.39665%;
 }
-/* line 324, ../../dev/pages/activies_page/activies_page.scss */
+/* line 325, ../../dev/pages/activies_page/activies_page.scss */
 .activies_page .calendar_wrap {
   width: 78.31978%;
   text-align: right;
 }
 @media (max-width: 640px) {
-  /* line 324, ../../dev/pages/activies_page/activies_page.scss */
+  /* line 325, ../../dev/pages/activies_page/activies_page.scss */
   .activies_page .calendar_wrap {
     text-align: left;
   }
 }
-/* line 333, ../../dev/pages/activies_page/activies_page.scss */
+/* line 334, ../../dev/pages/activies_page/activies_page.scss */
 .activies_page .calendar_input {
   width: 34.9481%;
   font-size: 1.13333em;
@@ -8429,42 +8433,42 @@ input.error_validation {
   border: 1px solid #cbcccd;
 }
 @media (max-width: 768px) {
-  /* line 333, ../../dev/pages/activies_page/activies_page.scss */
+  /* line 334, ../../dev/pages/activies_page/activies_page.scss */
   .activies_page .calendar_input {
     width: 32.93%;
   }
 }
-/* line 345, ../../dev/pages/activies_page/activies_page.scss */
+/* line 346, ../../dev/pages/activies_page/activies_page.scss */
 .activies_page .calendar_input.calendar_from {
   margin-left: 3.46021%;
 }
-/* line 350, ../../dev/pages/activies_page/activies_page.scss */
+/* line 351, ../../dev/pages/activies_page/activies_page.scss */
 .activies_page .calendar_date-separator {
   margin: 0 1.7301%;
 }
-/* line 354, ../../dev/pages/activies_page/activies_page.scss */
+/* line 355, ../../dev/pages/activies_page/activies_page.scss */
 .activies_page .select_wrap_list-el_wrap {
   margin-top: 4em;
 }
-/* line 356, ../../dev/pages/activies_page/activies_page.scss */
+/* line 357, ../../dev/pages/activies_page/activies_page.scss */
 .activies_page .select_wrap_list-el_wrap:first-child {
   margin-top: 0;
 }
-/* line 361, ../../dev/pages/activies_page/activies_page.scss */
+/* line 362, ../../dev/pages/activies_page/activies_page.scss */
 .activies_page .mechanics_list_wrap {
   overflow: hidden;
   margin: 6.13333em 0 0 6.35135%;
 }
-/* line 365, ../../dev/pages/activies_page/activies_page.scss */
+/* line 366, ../../dev/pages/activies_page/activies_page.scss */
 .activies_page .mechanics_list_wrap > li .title {
   text-transform: uppercase;
   text-align: left;
 }
-/* line 372, ../../dev/pages/activies_page/activies_page.scss */
+/* line 373, ../../dev/pages/activies_page/activies_page.scss */
 .activies_page .mechanics_list_wrap > li .mechanics_list_wrap_items li a {
   margin-left: 0.66667em;
 }
-/* line 378, ../../dev/pages/activies_page/activies_page.scss */
+/* line 379, ../../dev/pages/activies_page/activies_page.scss */
 .activies_page .mechanics_list_wrap > li.float-right {
   margin-right: 60px;
 }
@@ -9722,8 +9726,12 @@ input.error_validation {
 .choise_of_department_wrap {
   margin-top: 5em;
 }
+/* line 3, ../../dev/pages/choise_of_department/choise_of_department.scss */
+.choise_of_department_wrap .main_menu > li span {
+  font-size: 27px;
+}
 
-/* line 4, ../../dev/pages/choise_of_department/choise_of_department.scss */
+/* line 7, ../../dev/pages/choise_of_department/choise_of_department.scss */
 .main_menu_wrap {
   margin-top: 5.6em;
 }
