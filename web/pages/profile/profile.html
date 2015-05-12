@@ -16,7 +16,7 @@
             <script>window.html5 || document.write('<script src="js/vendor/html5shiv.js"><\/script>')</script>
         <![endif]-->
     </head>
-    <body class="profile_page">
+    <body class="approval_flow_list_page news_feed_page profile_page">
         <div id="mainarea">
             <header class="header">
                 <div class="wrap">
@@ -31,14 +31,14 @@
                             </span>
                             <div class="navigation_dropdown_block">
                                 <div class="navigation_dropdown_block_wrap">
-                                    <ul class="navigation_dropdown_list">
-                                        <li class="active">
+                                    <ul class="navigation_dropdown_list tabs_nav">
+                                        <li>
                                             <a href="#">Approval FLOW</a>
                                         </li>
                                         <li>
                                             <a href="#">news feed</a>
                                         </li>
-                                        <li>
+                                        <li class="active">
                                             <a href="#">My profile</a>
                                         </li>
                                     </ul>
@@ -113,104 +113,275 @@
                                 </div>
                             </div>
                         </div>
-                        
+                        <div class="menu_navigate nav">
+                            <a href="#">Access management</a>
+                            <a href="#">Logs</a>
+                            <a href="#">Email Notification</a>
+                        </div>
                     </nav>
                 </div>
             </header>
-            <div class="wrap">
-                <div class="menu_wrap clearfix">
-                    <div class="menu_scroll_wrap">
-                        <ul class="menu float-left">
-                            <li>
-                                <a href="#">cas Department</a>
-                            </li>
-                            <li class="active">
-                                <a href="#">profile</a>
-                            </li>
-                        </ul>
+            <div class="tabs_content_wrap">
+                <ul class="tabs_content">
+                    <li>
+                        <div class="wrap">
+                            <div class="menu_wrap clearfix">
+                                <div class="menu_scroll_wrap">
+                                    <ul class="menu">
+                                        <li>
+                                            <a href="#">cas Department</a>
+                                        </li>
+                                        <li class="active">
+                                            <a href="#">Profile</a>
+                                        </li>
+                                    </ul>
+                                    </div>
+                                <h1 class="main_title main_title_actives">APPROVAL FLOW</h1>
+                            </div>
                         </div>
-                </div>
-            </div>
+                        <section class="content_wrap">
+                            <div class="wrap wrap_news_feed">
+                                <div class="feed">
+                                    <div class="ico_eye_wrap">
+                                        <a href="#" class="sprite btn btn_circle ico_eye"></a>
+                                    </div>
+                                    <div class="line"></div>
+                                    <img src="/img/feeds.png" alt="">
+                                    <div class="name float_left">parliament carat ssl silk <div>(ipad app | pack revealer)</div></div>
+                                    <div class="info float_left">
+                                        <div class="brand">Brand: <span>Parliament</span></div>
+                                        <div class="updated">Updated: <span>14.06.15 by Username (username@pmi.com)</span></div>
+                                        <div class="status">activity <span class="new">approwed</span></div>
+                                    </div>
+                                </div>
 
-            <section class="content_wrap">
-                <div class="wrap">
-                    <h1 class="main_title main_title_actives">my profile</h1>
-                    <form action="#">
-                        <div class="profile_wrap clearfix">
-                            <div class="profile_settings float-left">
-                                <div class="profile_name_wrap clearfix">
-                                    <div class="profile_name float-left">
-                                        <h2 class="profile_title">name</h2>
-                                        <div class="profile_text">User Name</div>
+                                <div class="feed">
+                                    <div class="ico_eye_wrap">
+                                        <a href="#" class="sprite btn btn_circle ico_eye"></a>
                                     </div>
-                                    <div class="profile_roles float-left">
-                                        <h2 class="profile_title">roles</h2>
-                                        <div class="profile_text">CAS Approver, Trade initiator</div>
+                                    <div class="line"></div>
+                                    <img src="/img/feeds.png" alt="">
+                                    <div class="name float_left">parliament carat ssl silk <div>(ipad app | pack revealer)</div></div>
+                                    <div class="info float_left">
+                                        <div class="brand">Brand: <span>Parliament</span></div>
+                                        <div class="updated">Updated: <span>14.06.15 by Username (username@pmi.com)</span></div>
+                                        <div class="status">toolbox <span class="declined">declined</span></div>
                                     </div>
                                 </div>
-                                <h2 class="profile_title profile_new_title-indent">Department</h2>
-                                <div class="select_wrap select_default select_mini">
-                                    <select class="js-example-basic-single">
-                                        <option value="1">Marlboro</option>
-                                        <option value="2">Bond</option>
-                                        <option value="3">Parliament</option>
-                                    </select>
+
+                                <div class="feed">
+                                    <div class="ico_eye_wrap">
+                                        <a href="#" class="sprite btn btn_circle ico_eye"></a>
+                                    </div>
+                                    <div class="line"></div>
+                                    <img src="/img/feeds.png" alt="">
+                                    <div class="name float_left">parliament carat ssl silk <div>(ipad app | pack revealer)</div></div>
+                                    <div class="info float_left">
+                                        <div class="brand">Brand: <span>Parliament</span></div>
+                                        <div class="updated">Updated: <span>14.06.15 by Username (username@pmi.com)</span></div>
+                                        <div class="status">draft <span class="on_approval">on approval</span></div>
+                                    </div>
+                                </div>
+
+                                <div class="feed">
+                                    <div class="ico_eye_wrap">
+                                        <a href="#" class="sprite btn btn_circle ico_eye"></a>
+                                    </div>
+                                    <div class="line"></div>
+                                    <img src="/img/feeds.png" alt="">
+                                    <div class="name float_left">parliament carat ssl silk <div>(ipad app | pack revealer)</div></div>
+                                    <div class="info float_left">
+                                        <div class="brand">Brand: <span>Parliament</span></div>
+                                        <div class="updated">Updated: <span>14.06.15 by Username (username@pmi.com)</span></div>
+                                        <div class="status">activity draft</div>
+                                    </div>
                                 </div>
                             </div>
-                            <div class="profile_description float-left">
-                                <h2 class="profile_title">subscriptions</h2>
-                                <ul class="profile_description_list">
-                                    <li>
-                                        <label class="checkbox">
-                                            <span class="label_ico"></span>
-                                            <input type="checkbox" checked>
-                                            Marlboro
-                                        </label>
-                                    </li>
-                                    <li>
-                                        <label class="checkbox">
-                                            <span class="label_ico"></span>
-                                            <input type="checkbox" checked>
-                                            Bond
-                                        </label>
-                                    </li>
-                                    <li>
-                                        <label class="checkbox">
-                                            <span class="label_ico"></span>
-                                            <input type="checkbox" checked>
-                                            Parliament
-                                        </label>
-                                    </li>
-                                    <li>
-                                        <label class="checkbox">
-                                            <span class="label_ico"></span>
-                                            <input type="checkbox" checked>
-                                            L&M
-                                        </label>
-                                    </li>
-                                    <li>
-                                        <label class="checkbox">
-                                            <span class="label_ico"></span>
-                                            <input type="checkbox" checked>
-                                            Chesterfield
-                                        </label>
-                                    </li>
-                                    <li>
-                                        <label class="checkbox">
-                                            <span class="label_ico"></span>
-                                            <input type="checkbox" checked>
-                                            Next
-                                        </label>
-                                    </li>
-                                </ul>
+                        </section>
+                    </li>
+                    <li>
+                        <div class="wrap">
+                            <div class="menu_wrap clearfix">
+                                <div class="menu_scroll_wrap">
+                                    <ul class="menu">
+                                        <li>
+                                            <a href="#">cas Department</a>
+                                        </li>
+                                        <li class="active">
+                                            <a href="#">Profile</a>
+                                        </li>
+                                    </ul>
+                                    </div>
+                                <h1 class="main_title main_title_actives">news feed</h1>
                             </div>
                         </div>
-                        <div class="profile_btn_wrap">
-                            <button class="btn btn-default btn-save" type="submit">save changes</button>
+                        <section class="content_wrap">
+                            <div class="wrap wrap_news_feed">
+                                <div class="feed">
+                                    <div class="ico_eye_wrap">
+                                        <a href="#" class="sprite btn btn_circle ico_eye"></a>
+                                    </div>
+                                    <div class="line"></div>
+                                    <img src="/img/feeds.png" alt="">
+                                    <div class="name float_left">parliament carat ssl silk <div>(ipad app | pack revealer)</div></div>
+                                    <div class="info float_left">
+                                        <div class="brand">Brand: <span>Parliament</span></div>
+                                        <div class="updated">Updated: <span>14.06.15 by Username (username@pmi.com)</span></div>
+                                        <div class="status">activity <span class="new">new</span></div>
+                                    </div>
+                                </div>
+
+                                <div class="feed">
+                                    <div class="ico_eye_wrap">
+                                        <a href="#" class="sprite btn btn_circle ico_eye"></a>
+                                    </div>
+                                    <div class="line"></div>
+                                    <img src="/img/feeds.png" alt="">
+                                    <div class="name float_left">parliament carat ssl silk <div>(ipad app | pack revealer)</div></div>
+                                    <div class="info float_left">
+                                        <div class="brand">Brand: <span>Parliament</span></div>
+                                        <div class="updated">Updated: <span>14.06.15 by Username (username@pmi.com)</span></div>
+                                        <div class="status">toolbox <span class="new">new</span></div>
+                                    </div>
+                                </div>
+
+                                <div class="feed">
+                                    <div class="ico_eye_wrap">
+                                        <a href="#" class="sprite btn btn_circle ico_eye"></a>
+                                    </div>
+                                    <div class="line"></div>
+                                    <img src="/img/feeds.png" alt="">
+                                    <div class="name float_left">parliament carat ssl silk <div>(ipad app | pack revealer)</div></div>
+                                    <div class="info float_left">
+                                        <div class="brand">Brand: <span>Parliament</span></div>
+                                        <div class="updated">Updated: <span>14.06.15 by Username (username@pmi.com)</span></div>
+                                        <div class="status">activity <span class="updated">updated</span></div>
+                                    </div>
+                                </div>
+
+                                <div class="feed">
+                                    <div class="ico_eye_wrap">
+                                        <a href="#" class="sprite btn btn_circle ico_eye"></a>
+                                    </div>
+                                    <div class="line"></div>
+                                    <img src="/img/feeds.png" alt="">
+                                    <div class="name float_left">parliament carat ssl silk <div>(ipad app | pack revealer)</div></div>
+                                    <div class="info float_left">
+                                        <div class="brand">Brand: <span>Parliament</span></div>
+                                        <div class="updated">Updated: <span>14.06.15 by Username (username@pmi.com)</span></div>
+                                        <div class="status">activity <span class="updated">updated</span></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                    </li>
+                    <li class="active">
+                        <div class="wrap">
+                            <div class="menu_wrap clearfix">
+                                <div class="menu_scroll_wrap">
+                                    <ul class="menu float-left">
+                                        <li>
+                                            <a href="#">cas Department</a>
+                                        </li>
+                                        <li class="active">
+                                            <a href="#">profile</a>
+                                        </li>
+                                    </ul>
+                                    </div>
+                            </div>
                         </div>
-                    </form>
-                </div>
-            </section>
+                        <section class="content_wrap">
+                            <div class="wrap">
+                                <h1 class="main_title main_title_actives">my profile</h1>
+                                <form action="#">
+                                    <div class="profile_wrap clearfix">
+                                        <div class="profile_settings float-left">
+                                            <div class="profile_name_wrap clearfix">
+                                                <div class="profile_name float-left">
+                                                    <h2 class="profile_title">name</h2>
+                                                    <div class="profile_text">User Name</div>
+                                                </div>
+                                                <div class="profile_roles float-left">
+                                                    <h2 class="profile_title">roles</h2>
+                                                    <div class="profile_text">CAS Approver, Trade initiator</div>
+                                                </div>
+                                            </div>
+                                            <h2 class="profile_title profile_new_title-indent">Department</h2>
+                                            <div class="select_wrap select_default select_mini">
+                                                <select class="js-example-basic-single">
+                                                    <option value="1">Marlboro</option>
+                                                    <option value="2">Bond</option>
+                                                    <option value="3">Parliament</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <div class="profile_description float-left">
+                                            <h2 class="profile_title">subscriptions</h2>
+                                            <ul class="profile_description_list">
+                                                <li>
+                                                    <label class="checkbox">
+                                                        <span class="label_ico"></span>
+                                                        <input type="checkbox" checked>
+                                                        Marlboro
+                                                    </label>
+                                                </li>
+                                                <li>
+                                                    <label class="checkbox">
+                                                        <span class="label_ico"></span>
+                                                        <input type="checkbox" checked>
+                                                        Bond
+                                                    </label>
+                                                </li>
+                                                <li>
+                                                    <label class="checkbox">
+                                                        <span class="label_ico"></span>
+                                                        <input type="checkbox" checked>
+                                                        Parliament
+                                                    </label>
+                                                </li>
+                                                <li>
+                                                    <label class="checkbox">
+                                                        <span class="label_ico"></span>
+                                                        <input type="checkbox" checked>
+                                                        L&M
+                                                    </label>
+                                                </li>
+                                                <li>
+                                                    <label class="checkbox">
+                                                        <span class="label_ico"></span>
+                                                        <input type="checkbox" checked>
+                                                        Chesterfield
+                                                    </label>
+                                                </li>
+                                                <li>
+                                                    <label class="checkbox">
+                                                        <span class="label_ico"></span>
+                                                        <input type="checkbox" checked>
+                                                        Next
+                                                    </label>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="password_wrap clearfix">
+                                        <div class="password float-left">
+                                            <h2 class="profile_title">CHANGE PASSWORD</h2>
+                                            <input id="password" class="input" type="password" placeholder="Enter new password">
+                                        </div>
+                                        <div class="password_confirm float-left">
+                                            <h2 class="profile_title">CONFIRM NEW PASSWORD</h2>
+                                            <input id="confirm_password" class="input" type="password" placeholder="Enter new password">
+                                        </div>
+                                    </div>
+                                    <div class="profile_btn_wrap">
+                                        <button class="btn btn-default btn-save" type="submit">save changes</button>
+                                    </div>
+                                </form>
+                            </div>
+                        </section>
+                    </li>
+                </ul>
+            </div>
 
         </div>
         <footer class="footer">

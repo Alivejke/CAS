@@ -1,5 +1,8 @@
 .search_block_wrap {
     display: none;
+    &.active {
+        display: block;
+    }
 }
 
 .activies_search_list {
@@ -35,5 +38,18 @@
     }
     .small_title {
         margin-bottom: em(15px, $small_title-font-size);
+    }
+}
+
+.js-tabs_content {
+    height: 0;
+    overflow: hidden;
+    > li {
+        display: none;
+        position: relative;
+        z-index: -100;
+        &.active {
+            display: block;
+        }
     }
 }

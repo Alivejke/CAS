@@ -2,11 +2,23 @@ $(document).ready(function() {
     var $self = $(this),
     	$navigationDropdown = $('.navigation_dropdown', $self),
     	$navigationDropdownBlock = $('.navigation_dropdown_block', $self),
+        $menu = $('ul.menu'),
+        $menuScrollWrap = $('.menu_scroll_wrap'),
+        $header = $('.header'),
+        $headerImg = $('.element_header')
     	speed = 500,
         speedFast = 200,
         animationBlock = false;
 
-    
+    function addScroll () {
+        $menu.addClass('scroll');
+        $menuScrollWrap.addClass('scrollWrap');
+    };
+
+    function removeScroll () {
+        $menu.removeClass('scroll');
+        $menuScrollWrap.removeClass('scrollWrap');
+    };
 
     $navigationDropdownBlock.on('click', function(event){
     	event.stopPropagation();
@@ -14,12 +26,18 @@ $(document).ready(function() {
 
     $(document).scroll(function(){
         var body = $(document).scrollTop();
-        if ( body > 78 ) {
-            $('ul.menu').addClass('scroll');
-            $('.menu_scroll_wrap').addClass('scrollWrap');
+        if( $('body').hasClass('bigIndentScroll') ) {
+            if( body > $header.outerHeight() + $headerImg.outerHeight() ) {
+                addScroll();
+            } else {
+                removeScroll();
+            }
         } else {
-            $('ul.menu').removeClass('scroll');
-            $('.menu_scroll_wrap').removeClass('scrollWrap');
+            if ( body > 78 ) {
+                addScroll();
+            } else {
+                removeScroll();
+            }
         }
     });
 

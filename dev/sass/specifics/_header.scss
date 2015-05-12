@@ -47,6 +47,9 @@ $navigation_dropdown_list_news-font-size: 11px;
 	// height: em(65px, $base-font-size);
 	color: $white-color;
 	background-color: #7e8890;
+	@include transition-property(background-color, color);
+	@include transition-duration(0.3s);
+	@include transition-timing-function(ease-out);
 	border: none;
 	padding: 0px flex(39px, $base-width-content);
 	cursor: pointer;
@@ -79,6 +82,7 @@ $navigation_dropdown_list_news-font-size: 11px;
 	}
 	&:hover {
 		background-color: #bec3c7;
+		
 	}
 
 	// @media (max-width: 768px) {

@@ -5,6 +5,9 @@
 			margin-top: em(75px);
 			.main_menu_wrap {
 				margin: em(71px) em(-1px) 0 em(17px);
+				&.indent-none {
+					margin-left: 0;
+				}
 			}
 			.select_long {
 				&.select_wrap {

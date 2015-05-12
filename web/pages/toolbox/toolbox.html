@@ -17,7 +17,7 @@
             <script>window.html5 || document.write('<script src="js/vendor/html5shiv.js"><\/script>')</script>
         <![endif]-->
     </head>
-    <body class="activities_search_page toolbox_page">
+    <body class="activities_search_page toolbox_page bigIndentScroll">
         <div id="mainarea" class="toolbox_wrap">
             <header class="header">
                 <div class="wrap">
@@ -156,9 +156,9 @@
                                     <span class="sprite sprite_ico ico_status"></span>
                                     active
                                     <span class="sprite sprite_ico ico_calendar ico_calendar_big"></span>
-                                    <input type="text" class="calendar_from" placeholder="dd.mm.yyyy">
+                                    <input type="text" class="calendar_from" placeholder="dd.mm.yyyy" readonly="readonly">
                                      — 
-                                    <input type="text" class="calendar_to" placeholder="dd.mm.yyyy">
+                                    <input type="text" class="calendar_to" placeholder="dd.mm.yyyy" readonly="readonly">
                                 </a>
                                 <div class="calendar_block">
                                     <div class="datepicker"></div>
@@ -202,189 +202,531 @@
                 <div class="wrap single_brand search_block_wrapper">
                     <div class="main_menu_wrap">
                         <div class="select_wrap select_long">
-                            <select name="activities_search" id="" class="js-example-basic-single">
-                                <option value="1">ACTIVITIES SEARCH</option>
-                                <option value="2">ACTIVITIES SEARCH</option>
-                                <option value="3">ACTIVITIES SEARCH</option>
+                            <select name="activities_search" id="" class="js-example-basic-single js-activities-search js-tabs_nav">
+                                <option value="0">ACTIVITIES SEARCH</option>
+                                <option value="1">ACTIVITIES SEARCH2</option>
+                                <option value="2">ACTIVITIES SEARCH3</option>
                             </select>
                         </div>
                     </div>
-                    <form action="#" class="search_block_wrap">
-                        <ul class="activies_search_list">
-                            <li class="clearfix">
-                                <ul class="select_wrap_list float-left">
-                                    <li>
-                                        <h2 class="small_title">brands</h2>
-                                        <div class="select_wrap select_default select_multiple_default select_multiple_search">
-                                            <select class="js-example-basic-multiple" multiple="multiple">
-                                                <option value="1">Marlboro</option>
-                                                <option value="2">Parliament</option>
-                                                <option value="3">L&M</option>
-                                                <option value="4">Chesterfield</option>
-                                                <option value="5">Bond</option>
-                                            </select>
-                                        </div>
+                    <ul class="js-tabs_content">
+                        <li class="active">
+                            <form action="#" class="search_block_wrap active">
+                                <ul class="activies_search_list">
+                                    <li class="clearfix">
+                                        <ul class="select_wrap_list float-left">
+                                            <li>
+                                                <h2 class="small_title">brands</h2>
+                                                <div class="select_wrap select_default select_multiple_default select_multiple_search">
+                                                    <select class="js-example-basic-multiple" multiple="multiple">
+                                                        <option value="1">Marlboro</option>
+                                                        <option value="2">Parliament</option>
+                                                        <option value="3">L&M</option>
+                                                        <option value="4">Chesterfield</option>
+                                                        <option value="5">Bond</option>
+                                                    </select>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <h2 class="small_title">keywords</h2>
+                                                <div class="select_wrap select_default select_multiple_default select_multiple_search">
+                                                    <select class="js-example-basic-multiple" multiple="multiple">
+                                                        <option value="1">Marlboro</option>
+                                                        <option value="2">Parliament</option>
+                                                        <option value="3">L&M</option>
+                                                        <option value="4">Chesterfield</option>
+                                                        <option value="5">Bond</option>
+                                                    </select>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                        <ul class="select_wrap_list float-left">
+                                            <li>
+                                                <h2 class="small_title">toolboxes</h2>
+                                                <div class="select_wrap select_default select_multiple_default select_multiple_search">
+                                                    <select class="js-example-basic-multiple" multiple="multiple">
+                                                        <option value="1">Marlboro</option>
+                                                        <option value="2">Parliament</option>
+                                                        <option value="3">L&M</option>
+                                                        <option value="4">Chesterfield</option>
+                                                        <option value="5">Bond</option>
+                                                    </select>
+                                                </div>
+                                            </li>
+                                        </ul>
                                     </li>
-                                    <li>
-                                        <h2 class="small_title">keywords</h2>
-                                        <div class="select_wrap select_default select_multiple_default select_multiple_search">
-                                            <select class="js-example-basic-multiple" multiple="multiple">
-                                                <option value="1">Marlboro</option>
-                                                <option value="2">Parliament</option>
-                                                <option value="3">L&M</option>
-                                                <option value="4">Chesterfield</option>
-                                                <option value="5">Bond</option>
-                                            </select>
+                                    <li class="clearfix">
+                                        <ul class="select_wrap_list float-left">
+                                            <li>
+                                                <h2 class="small_title">channels</h2>
+                                                <div class="select_wrap select_default select_multiple_default">
+                                                    <select class="js-example-basic-single">
+                                                        <option value="1">Marlboro</option>
+                                                        <option value="2">Parliament</option>
+                                                        <option value="3">L&M</option>
+                                                        <option value="4">Chesterfield</option>
+                                                        <option value="5">Bond</option>
+                                                    </select>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                        <ul class="select_wrap_list float-left">
+                                            <li class="select_wrap_list_indent">
+                                                <div class="select_wrap select_default select_multiple_default">
+                                                    <select class="js-example-basic-single">
+                                                        <option value="0"></option>
+                                                        <option value="1">Marlboro</option>
+                                                        <option value="2">Parliament</option>
+                                                        <option value="3">L&M</option>
+                                                        <option value="4">Chesterfield</option>
+                                                        <option value="5">Bond</option>
+                                                    </select>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="select_wrap select_default select_multiple_default">
+                                                    <select class="js-example-basic-single">
+                                                        <option value="1">Marlboro</option>
+                                                        <option value="2">Parliament</option>
+                                                        <option value="3">L&M</option>
+                                                        <option value="4">Chesterfield</option>
+                                                        <option value="5">Bond</option>
+                                                    </select>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="clearfix">
+                                        <div class="wrap_block wrap_block_indent clearfix">
+                                            <ul class="channel float-left">
+                                                <li>
+                                                    <h2 class="name_channels">other parameters</h2>
+                                                </li>
+                                                <li>
+                                                    <ul>
+                                                        <li>
+                                                            <label class="checkbox">
+                                                                <span class="label_ico"></span>
+                                                                <input type="checkbox" checked>
+                                                                1-2-1
+                                                            </label>
+                                                        </li>
+                                                        <li>
+                                                            <label class="checkbox">
+                                                                <span class="label_ico"></span>
+                                                                <input type="checkbox">
+                                                                Privat party
+                                                            </label>
+                                                        </li>
+                                                        <li>
+                                                            <label class="checkbox">
+                                                                <span class="label_ico"></span>
+                                                                <input type="checkbox">
+                                                                Name generation needed
+                                                            </label>
+                                                        </li>
+                                                        <li>
+                                                            <label class="checkbox">
+                                                                <span class="label_ico"></span>
+                                                                <input type="checkbox">
+                                                                Others
+                                                            </label>
+                                                        </li>
+                                                        <li>
+                                                            <label class="checkbox">
+                                                                <span class="label_ico"></span>
+                                                                <input type="checkbox">
+                                                                Brand ambassador
+                                                            </label>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                            </ul>
+                                            <ul class="channel float-right">
+                                                <li>
+                                                    <h2 class="name_channels">Mechanics type</h2>
+                                                </li>
+                                                <li>
+                                                    <ul>
+                                                        <li>
+                                                            <label class="checkbox">
+                                                                <span class="label_ico"></span>
+                                                                <input type="checkbox" checked>
+                                                                Hostess
+                                                            </label>
+                                                        </li>
+                                                        <li>
+                                                            <label class="checkbox">
+                                                                <span class="label_ico"></span>
+                                                                <input type="checkbox">
+                                                                Plugin
+                                                            </label>
+                                                        </li>
+                                                        <li>
+                                                            <label class="checkbox">
+                                                                <span class="label_ico"></span>
+                                                                <input type="checkbox">
+                                                                Trade programm
+                                                            </label>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                            </ul>
                                         </div>
                                     </li>
                                 </ul>
-                                <ul class="select_wrap_list float-left">
-                                    <li>
-                                        <h2 class="small_title">toolboxes</h2>
-                                        <div class="select_wrap select_default select_multiple_default select_multiple_search">
-                                            <select class="js-example-basic-multiple" multiple="multiple">
-                                                <option value="1">Marlboro</option>
-                                                <option value="2">Parliament</option>
-                                                <option value="3">L&M</option>
-                                                <option value="4">Chesterfield</option>
-                                                <option value="5">Bond</option>
-                                            </select>
-                                        </div>
-                                    </li>
-                                </ul>
-                            </li>
-                            <li class="clearfix">
-                                <ul class="select_wrap_list float-left">
-                                    <li>
-                                        <h2 class="small_title">channels</h2>
-                                        <div class="select_wrap select_default select_multiple_default">
-                                            <select class="js-example-basic-single">
-                                                <option value="1">Marlboro</option>
-                                                <option value="2">Parliament</option>
-                                                <option value="3">L&M</option>
-                                                <option value="4">Chesterfield</option>
-                                                <option value="5">Bond</option>
-                                            </select>
-                                        </div>
-                                    </li>
-                                </ul>
-                                <ul class="select_wrap_list float-left">
-                                    <li class="select_wrap_list_indent">
-                                        <div class="select_wrap select_default select_multiple_default">
-                                            <select class="js-example-basic-single">
-                                                <option value="0"></option>
-                                                <option value="1">Marlboro</option>
-                                                <option value="2">Parliament</option>
-                                                <option value="3">L&M</option>
-                                                <option value="4">Chesterfield</option>
-                                                <option value="5">Bond</option>
-                                            </select>
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <div class="select_wrap select_default select_multiple_default">
-                                            <select class="js-example-basic-single">
-                                                <option value="1">Marlboro</option>
-                                                <option value="2">Parliament</option>
-                                                <option value="3">L&M</option>
-                                                <option value="4">Chesterfield</option>
-                                                <option value="5">Bond</option>
-                                            </select>
-                                        </div>
-                                    </li>
-                                </ul>
-                            </li>
-                            <li class="clearfix">
-                                <div class="wrap_block">
-                                    <h2 class="title">Mechanics type</h2>
-                                    <p class="text">Pack revealer. Can be used as an ice-breaker for different mechanic types to inform LAS about factual characteristics of a product.</p>
+                                <div class="btn_activies_search_wrap center">
+                                    <button class="btn btn-default">Search</button>
+                                    <br>
+                                    <button class="btn btn-default btn-link">Reset</button>
                                 </div>
-                                <ul class="select_wrap_list float-left">
-                                    <li>
-                                        <h2 class="small_title">other parameters</h2>
-                                        <div class="select_wrap select_default select_multiple_default">
-                                            <select class="js-example-basic-single">
-                                                <option value="1">Status</option>
-                                                <option value="2">Status</option>
-                                            </select>
+                            </form>
+                        </li>
+                        <li>
+                            <form action="#" class="search_block_wrap active">
+                                <ul class="activies_search_list">
+                                    <li class="clearfix">
+                                        <ul class="select_wrap_list float-left">
+                                            <li>
+                                                <h2 class="small_title">brands1</h2>
+                                                <div class="select_wrap select_default select_multiple_default select_multiple_search">
+                                                    <select class="js-example-basic-multiple" multiple="multiple">
+                                                        <option value="1">Marlboro</option>
+                                                        <option value="2">Parliament</option>
+                                                        <option value="3">L&M</option>
+                                                        <option value="4">Chesterfield</option>
+                                                        <option value="5">Bond</option>
+                                                    </select>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <h2 class="small_title">keywords</h2>
+                                                <div class="select_wrap select_default select_multiple_default select_multiple_search">
+                                                    <select class="js-example-basic-multiple" multiple="multiple">
+                                                        <option value="1">Marlboro</option>
+                                                        <option value="2">Parliament</option>
+                                                        <option value="3">L&M</option>
+                                                        <option value="4">Chesterfield</option>
+                                                        <option value="5">Bond</option>
+                                                    </select>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                        <ul class="select_wrap_list float-left">
+                                            <li>
+                                                <h2 class="small_title">toolboxes</h2>
+                                                <div class="select_wrap select_default select_multiple_default select_multiple_search">
+                                                    <select class="js-example-basic-multiple" multiple="multiple">
+                                                        <option value="1">Marlboro</option>
+                                                        <option value="2">Parliament</option>
+                                                        <option value="3">L&M</option>
+                                                        <option value="4">Chesterfield</option>
+                                                        <option value="5">Bond</option>
+                                                    </select>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="clearfix">
+                                        <ul class="select_wrap_list float-left">
+                                            <li>
+                                                <h2 class="small_title">channels</h2>
+                                                <div class="select_wrap select_default select_multiple_default">
+                                                    <select class="js-example-basic-single">
+                                                        <option value="1">Marlboro</option>
+                                                        <option value="2">Parliament</option>
+                                                        <option value="3">L&M</option>
+                                                        <option value="4">Chesterfield</option>
+                                                        <option value="5">Bond</option>
+                                                    </select>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                        <ul class="select_wrap_list float-left">
+                                            <li class="select_wrap_list_indent">
+                                                <div class="select_wrap select_default select_multiple_default">
+                                                    <select class="js-example-basic-single">
+                                                        <option value="0"></option>
+                                                        <option value="1">Marlboro</option>
+                                                        <option value="2">Parliament</option>
+                                                        <option value="3">L&M</option>
+                                                        <option value="4">Chesterfield</option>
+                                                        <option value="5">Bond</option>
+                                                    </select>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="select_wrap select_default select_multiple_default">
+                                                    <select class="js-example-basic-single">
+                                                        <option value="1">Marlboro</option>
+                                                        <option value="2">Parliament</option>
+                                                        <option value="3">L&M</option>
+                                                        <option value="4">Chesterfield</option>
+                                                        <option value="5">Bond</option>
+                                                    </select>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="clearfix">
+                                        <div class="wrap_block wrap_block_indent clearfix">
+                                            <ul class="channel float-left">
+                                                <li>
+                                                    <h2 class="name_channels">other parameters</h2>
+                                                </li>
+                                                <li>
+                                                    <ul>
+                                                        <li>
+                                                            <label class="checkbox">
+                                                                <span class="label_ico"></span>
+                                                                <input type="checkbox" checked>
+                                                                1-2-1
+                                                            </label>
+                                                        </li>
+                                                        <li>
+                                                            <label class="checkbox">
+                                                                <span class="label_ico"></span>
+                                                                <input type="checkbox">
+                                                                Privat party
+                                                            </label>
+                                                        </li>
+                                                        <li>
+                                                            <label class="checkbox">
+                                                                <span class="label_ico"></span>
+                                                                <input type="checkbox">
+                                                                Name generation needed
+                                                            </label>
+                                                        </li>
+                                                        <li>
+                                                            <label class="checkbox">
+                                                                <span class="label_ico"></span>
+                                                                <input type="checkbox">
+                                                                Others
+                                                            </label>
+                                                        </li>
+                                                        <li>
+                                                            <label class="checkbox">
+                                                                <span class="label_ico"></span>
+                                                                <input type="checkbox">
+                                                                Brand ambassador
+                                                            </label>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                            </ul>
+                                            <ul class="channel float-right">
+                                                <li>
+                                                    <h2 class="name_channels">Mechanics type</h2>
+                                                </li>
+                                                <li>
+                                                    <ul>
+                                                        <li>
+                                                            <label class="checkbox">
+                                                                <span class="label_ico"></span>
+                                                                <input type="checkbox" checked>
+                                                                Hostess
+                                                            </label>
+                                                        </li>
+                                                        <li>
+                                                            <label class="checkbox">
+                                                                <span class="label_ico"></span>
+                                                                <input type="checkbox">
+                                                                Plugin
+                                                            </label>
+                                                        </li>
+                                                        <li>
+                                                            <label class="checkbox">
+                                                                <span class="label_ico"></span>
+                                                                <input type="checkbox">
+                                                                Trade programm
+                                                            </label>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                            </ul>
                                         </div>
-                                        <div class="calendarWrap">
-                                            <div class="calendar_wrap">
-                                                <span class="calendar_status_wrap">
-                                                    <span class="calendar_status calendar_status-valid">valid</span>
-                                                    <span class="calendar_status calendar_status-error">error</span>
-                                                </span>
-                                                <input type="text" placeholder="dd.mm.yyyy" class="calendar_input calendar_from">
-                                                <span class="calendar_date-separator">&mdash;</span>
-                                                <input type="text" placeholder="dd.mm.yyyy" class="calendar_input calendar_to">
-                                            </div>
-                                            <div class="calendar_block">
-                                                <div class="datepicker"></div>
-                                            </div>
-                                            
-                                        </div>
-
-                            <!-- <div class="status_wrap">
-                                <button class="btn btn_big_rounded">
-                                    <span class="sprite sprite_ico ico_status"></span>
-                                    <span class="ico_status_text">active</span> 
-                                    <span class="sprite sprite_ico ico_calendar ico_calendar_big"></span>
-                                    <span class="valid">VALID: </span>
-                                    <input type="text" class="calendar_from" placeholder="dd.mm.yyyy">
-                                     — 
-                                    <input type="text" class="calendar_to" placeholder="dd.mm.yyyy">
-                                </button>
-                                <div class="calendar_block">
-                                    <div id="datepicker"></div>
+                                    </li>
+                                </ul>
+                                <div class="btn_activies_search_wrap center">
+                                    <button class="btn btn-default">Search</button>
+                                    <br>
+                                    <button class="btn btn-default btn-link">Reset</button>
                                 </div>
-                            </div> -->
-
+                            </form>
+                        </li>
+                        <li>
+                            <form action="#" class="search_block_wrap active">
+                                <ul class="activies_search_list">
+                                    <li class="clearfix">
+                                        <ul class="select_wrap_list float-left">
+                                            <li>
+                                                <h2 class="small_title">brands2</h2>
+                                                <div class="select_wrap select_default select_multiple_default select_multiple_search">
+                                                    <select class="js-example-basic-multiple" multiple="multiple">
+                                                        <option value="1">Marlboro</option>
+                                                        <option value="2">Parliament</option>
+                                                        <option value="3">L&M</option>
+                                                        <option value="4">Chesterfield</option>
+                                                        <option value="5">Bond</option>
+                                                    </select>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <h2 class="small_title">keywords</h2>
+                                                <div class="select_wrap select_default select_multiple_default select_multiple_search">
+                                                    <select class="js-example-basic-multiple" multiple="multiple">
+                                                        <option value="1">Marlboro</option>
+                                                        <option value="2">Parliament</option>
+                                                        <option value="3">L&M</option>
+                                                        <option value="4">Chesterfield</option>
+                                                        <option value="5">Bond</option>
+                                                    </select>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                        <ul class="select_wrap_list float-left">
+                                            <li>
+                                                <h2 class="small_title">toolboxes</h2>
+                                                <div class="select_wrap select_default select_multiple_default select_multiple_search">
+                                                    <select class="js-example-basic-multiple" multiple="multiple">
+                                                        <option value="1">Marlboro</option>
+                                                        <option value="2">Parliament</option>
+                                                        <option value="3">L&M</option>
+                                                        <option value="4">Chesterfield</option>
+                                                        <option value="5">Bond</option>
+                                                    </select>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="clearfix">
+                                        <ul class="select_wrap_list float-left">
+                                            <li>
+                                                <h2 class="small_title">channels</h2>
+                                                <div class="select_wrap select_default select_multiple_default">
+                                                    <select class="js-example-basic-single">
+                                                        <option value="1">Marlboro</option>
+                                                        <option value="2">Parliament</option>
+                                                        <option value="3">L&M</option>
+                                                        <option value="4">Chesterfield</option>
+                                                        <option value="5">Bond</option>
+                                                    </select>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                        <ul class="select_wrap_list float-left">
+                                            <li class="select_wrap_list_indent">
+                                                <div class="select_wrap select_default select_multiple_default">
+                                                    <select class="js-example-basic-single">
+                                                        <option value="0"></option>
+                                                        <option value="1">Marlboro</option>
+                                                        <option value="2">Parliament</option>
+                                                        <option value="3">L&M</option>
+                                                        <option value="4">Chesterfield</option>
+                                                        <option value="5">Bond</option>
+                                                    </select>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="select_wrap select_default select_multiple_default">
+                                                    <select class="js-example-basic-single">
+                                                        <option value="1">Marlboro</option>
+                                                        <option value="2">Parliament</option>
+                                                        <option value="3">L&M</option>
+                                                        <option value="4">Chesterfield</option>
+                                                        <option value="5">Bond</option>
+                                                    </select>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="clearfix">
+                                        <div class="wrap_block wrap_block_indent clearfix">
+                                            <ul class="channel float-left">
+                                                <li>
+                                                    <h2 class="name_channels">other parameters</h2>
+                                                </li>
+                                                <li>
+                                                    <ul>
+                                                        <li>
+                                                            <label class="checkbox">
+                                                                <span class="label_ico"></span>
+                                                                <input type="checkbox" checked>
+                                                                1-2-1
+                                                            </label>
+                                                        </li>
+                                                        <li>
+                                                            <label class="checkbox">
+                                                                <span class="label_ico"></span>
+                                                                <input type="checkbox">
+                                                                Privat party
+                                                            </label>
+                                                        </li>
+                                                        <li>
+                                                            <label class="checkbox">
+                                                                <span class="label_ico"></span>
+                                                                <input type="checkbox">
+                                                                Name generation needed
+                                                            </label>
+                                                        </li>
+                                                        <li>
+                                                            <label class="checkbox">
+                                                                <span class="label_ico"></span>
+                                                                <input type="checkbox">
+                                                                Others
+                                                            </label>
+                                                        </li>
+                                                        <li>
+                                                            <label class="checkbox">
+                                                                <span class="label_ico"></span>
+                                                                <input type="checkbox">
+                                                                Brand ambassador
+                                                            </label>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                            </ul>
+                                            <ul class="channel float-right">
+                                                <li>
+                                                    <h2 class="name_channels">Mechanics type</h2>
+                                                </li>
+                                                <li>
+                                                    <ul>
+                                                        <li>
+                                                            <label class="checkbox">
+                                                                <span class="label_ico"></span>
+                                                                <input type="checkbox" checked>
+                                                                Hostess
+                                                            </label>
+                                                        </li>
+                                                        <li>
+                                                            <label class="checkbox">
+                                                                <span class="label_ico"></span>
+                                                                <input type="checkbox">
+                                                                Plugin
+                                                            </label>
+                                                        </li>
+                                                        <li>
+                                                            <label class="checkbox">
+                                                                <span class="label_ico"></span>
+                                                                <input type="checkbox">
+                                                                Trade programm
+                                                            </label>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                            </ul>
+                                        </div>
                                     </li>
                                 </ul>
-                                <ul class="select_wrap_list float-left">
-                                    <li class="select_wrap_list_indent">
-                                        <div class="select_wrap_list-el_wrap clearfix">
-                                            <div class="select_wrap_list-el float-left">
-                                                <label class="checkbox">
-                                                    <span class="label_ico"></span>
-                                                    <input type="checkbox" checked="" hidden="">
-                                                    1-2-1
-                                                </label>
-                                            </div>
-                                            <div class="select_wrap_list-el float-right">
-                                                <label class="checkbox">
-                                                    <span class="label_ico"></span>
-                                                    <input type="checkbox" hidden="">
-                                                    Private party
-                                                </label>
-                                            </div>
-                                        </div>
-                                        <div class="select_wrap_list-el_wrap clearfix">
-                                            <div class="select_wrap_list-el float-left">
-                                                <label class="checkbox">
-                                                    <span class="label_ico"></span>
-                                                    <input type="checkbox" hidden="">
-                                                    Name generation needed
-                                                </label>
-                                            </div>
-                                            <div class="select_wrap_list-el float-right">
-                                                <label class="checkbox">
-                                                    <span class="label_ico"></span>
-                                                    <input type="checkbox" hidden="">
-                                                    Others
-                                                </label>
-                                            </div>
-                                        </div>
-                                    </li>
-                                </ul>
-                            </li>
-                        </ul>
-                        <div class="btn_activies_search_wrap center">
-                            <button class="btn btn-default">Search</button>
-                            <br>
-                            <button class="btn btn-default btn-link">Reset</button>
-                        </div>
-                    </form>
+                                <div class="btn_activies_search_wrap center">
+                                    <button class="btn btn-default">Search</button>
+                                    <br>
+                                    <button class="btn btn-default btn-link">Reset</button>
+                                </div>
+                            </form>
+                        </li>
+                    </ul>
                 </div>
 
                 <div class="wrap">

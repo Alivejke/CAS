@@ -11,7 +11,7 @@ body {
 
 #mainarea {
 	position: relative;
-	padding-bottom: em(77px, $base-font-size);
+	padding-bottom: em(57px, $base-font-size);
 	min-height: 100%;
 	height: auto !important;
 	margin: 0 auto em(-57px, $base-font-size);
@@ -28,6 +28,9 @@ body {
 	}
 	&.padding-none {
 		padding: 0;
+	}
+	&.indent_bottom {
+		margin-bottom: em(62px);
 	}
 
 	@media (max-width: 768px) {
@@ -86,7 +89,7 @@ textarea {
 }
 
 .content_wrap {
-	margin-top: em(20px, $base-font-size);
+	margin: em(20px) 0;
 	&.content_wrap_indent {
 		margin-top: em(88px, $base-font-size);
 	}
@@ -98,6 +101,9 @@ textarea {
 	}
 	&.content_wrap_noindent {
 		margin-top: 0;
+	}
+	&.min_indent_bottom {
+		margin-bottom: em(62px);
 	}
 }
 

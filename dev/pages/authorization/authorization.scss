@@ -25,12 +25,12 @@
 		}
 		.authorization {
 			overflow: hidden;
-			padding: em(30px, $base-font-size) 0;
+			padding: em(30px) 0;
 		}
 		.button_block {
 			border-top: 1px solid #cecfd0;
 			overflow: hidden;
-			padding: em(30px, $base-font-size) 0;
+			padding: em(30px) 0 em(1px);
 		}
 	}
 }

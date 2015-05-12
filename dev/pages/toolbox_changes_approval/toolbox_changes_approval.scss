@@ -2,52 +2,6 @@
 @import "compass/css3";
 
 .toolbox_changes_approval_page {
-	.left {
-		float: left;
-	}
-	.right {
-		float: right;
-		// background-color: #F7F7F9;
-		overflow: hidden;
-	}
-	.container {
-		position: relative;
-		border-bottom: 1px solid #cecfd0;
-		overflow: hidden;
-		height: 100%;
-		&:after, &:before {
-			content: '';
-			position: absolute;
-			width: 50%;
-			height: 100%;
-			top: 0;
-			bottom: 0;
-			z-index: 1;
-		}
-		&:before {
-			background: #fff;
-			left: 0;
-		}
-		&:after {
-			background: #F7F7F9;
-			right: 0;
-		}
-	}
-	.block_change {
-		padding: em(60px, $base-font-size) 0;
-		textarea {
-	        width: 100%;
-	        height: em(142.5px, $base-font-size);
-	        padding: em(12px, $base-font-size) flex(10px, $base-width-content);
-	        margin: em(60px, $base-font-size) 0 em(30px, $base-font-size);
-	    }
-	    .btn.btn-default {
-	    	width: flex(170px, $base-width-content);
-			&.second {
-				margin-left: flex(40px, $base-width-content);
-			}
-		}
-	}
 	.left, .right {
 		width: 50%;
 		height: 100%;
@@ -96,6 +50,56 @@
 		.btn.btn-default {
 			width: flex(400px, $base-width-content);
 			margin: em(45px, $base-font-size) 0;
+		}
+	}
+	.left {
+		float: left;
+	}
+	.right {
+		float: right;
+		// background-color: #F7F7F9;
+		overflow: hidden;
+		margin-bottom: -1000px;
+		padding-bottom: 1000px;
+		border-left: 1px solid #cecfd0;
+	}
+	.container {
+		position: relative;
+		border-top: 1px solid #cecfd0;
+		border-bottom: 1px solid #cecfd0;
+		overflow: hidden;
+		height: 100%;
+		&:after, &:before {
+			content: '';
+			position: absolute;
+			width: 50%;
+			height: 100%;
+			top: 0;
+			bottom: 0;
+			z-index: 1;
+		}
+		&:before {
+			background: #fff;
+			left: 0;
+		}
+		&:after {
+			background: #F7F7F9;
+			right: 0;
+		}
+	}
+	.block_change {
+		padding: em(60px, $base-font-size) 0 0;
+		textarea {
+	        width: 100%;
+	        height: em(142.5px, $base-font-size);
+	        padding: em(12px, $base-font-size) flex(10px, $base-width-content);
+	        margin: em(60px, $base-font-size) 0 em(30px, $base-font-size);
+	    }
+	    .btn.btn-default {
+	    	width: flex(170px, $base-width-content);
+			&.second {
+				margin-left: flex(40px, $base-width-content);
+			}
 		}
 	}
 	.activities_changes_approval_list_info {

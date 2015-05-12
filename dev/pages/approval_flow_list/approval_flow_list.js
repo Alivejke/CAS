@@ -5,7 +5,7 @@
 		$tabsContentWrap = $('.tabs_content'),
 		idx = 0;
 
-	$tabsContentWrap.find('> li:first').addClass('active');
+	// $tabsContentWrap.find('> li:first').addClass('active');
 
 	$tabsNavItems.each(function (index, element) {
 		$(this).attr("data-page", idx);

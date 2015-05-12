@@ -7,6 +7,9 @@ $main_menu_item-width-hover: 367px;
 	&.main_menu-indent {
 		margin-top: em(53px);
 	}
+	&.indent-none {
+		margin-left: 0;
+	}
 }
 .main_menu {
 	text-align: center;

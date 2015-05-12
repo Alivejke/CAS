@@ -142,11 +142,23 @@ function initializeCheckboxes () {
     var $self = $(this),
     	$navigationDropdown = $('.navigation_dropdown', $self),
     	$navigationDropdownBlock = $('.navigation_dropdown_block', $self),
+        $menu = $('ul.menu'),
+        $menuScrollWrap = $('.menu_scroll_wrap'),
+        $header = $('.header'),
+        $headerImg = $('.element_header')
     	speed = 500,
         speedFast = 200,
         animationBlock = false;
 
-    
+    function addScroll () {
+        $menu.addClass('scroll');
+        $menuScrollWrap.addClass('scrollWrap');
+    };
+
+    function removeScroll () {
+        $menu.removeClass('scroll');
+        $menuScrollWrap.removeClass('scrollWrap');
+    };
 
     $navigationDropdownBlock.on('click', function(event){
     	event.stopPropagation();
@@ -154,12 +166,18 @@ function initializeCheckboxes () {
 
     $(document).scroll(function(){
         var body = $(document).scrollTop();
-        if ( body > 78 ) {
-            $('ul.menu').addClass('scroll');
-            $('.menu_scroll_wrap').addClass('scrollWrap');
+        if( $('body').hasClass('bigIndentScroll') ) {
+            if( body > $header.outerHeight() + $headerImg.outerHeight() ) {
+                addScroll();
+            } else {
+                removeScroll();
+            }
         } else {
-            $('ul.menu').removeClass('scroll');
-            $('.menu_scroll_wrap').removeClass('scrollWrap');
+            if ( body > 78 ) {
+                addScroll();
+            } else {
+                removeScroll();
+            }
         }
     });
 
@@ -571,7 +589,7 @@ var checkFieldsGlobal = checkFieldsGlobal();
 		$tabsContentWrap = $('.tabs_content'),
 		idx = 0;
 
-	$tabsContentWrap.find('> li:first').addClass('active');
+	// $tabsContentWrap.find('> li:first').addClass('active');
 
 	$tabsNavItems.each(function (index, element) {
 		$(this).attr("data-page", idx);
@@ -891,6 +909,78 @@ var checkFieldsGlobal = checkFieldsGlobal();
 	
 
 });;$(document).ready(function() {
+	var $self = $(this)
+		$tabsNav = $('.js-tabs_nav', $self),
+		$tabsNavItems = $tabsNav.find('option'),
+		$tabsContentWrap = $('.js-tabs_content'),
+		$searchBlockWrapper = $('.search_block_wrapper'),
+		$searchBlock = $searchBlockWrapper.find('.search_block_wrap'),
+		speed = 1000,
+		animationBlock = false;
+		idx = 0;
+	// $tabsContentWrap.find('> li:first').addClass('active');
+
+	$tabsNavItems.each(function (index, element) {
+		$(this).attr("data-page", idx);
+        idx++; 
+	});
+
+	// $tabsNav.on('change', function(event){
+	// 	event.preventDefault();
+		
+	// 	var $this = $(this);
+
+	// 	idx = $this.val();
+	// 	// $this.addClass('active').siblings().removeClass('active');
+	// 	$tabsContentWrap.find('> li').eq(idx).addClass('active').siblings().removeClass('active');
+
+	// 	$tabsContentWrap.find('> li.active').find('.search_block_wrap').animate({
+	// 	    height: "toggle"
+	// 	}, speed, function () {
+	// 		$tabsContentWrap.find('> li.active').find('.search_block_wrap').animate({
+	// 			"z-index": "1",
+	// 			"height": "auto"
+	// 		}, speed);
+	// 		animationBlock = false;
+	// 	});
+
+	// });
+
+	// $searchBlock.animate({
+	//     height: "toggle"
+	// }, speed, function () {
+	// 	animationBlock = false;
+	// });
+
+	$tabsNav.on('change', function(event){
+		event.preventDefault();
+
+		var $this = $(this),
+			idx = $this.val(),
+			$activeForm = $tabsContentWrap.find('> li').eq(idx),
+			activeFormHeight = $activeForm.outerHeight(),
+			baseIndentValue = 20;
+
+		// $this.addClass('active').siblings().removeClass('active');
+		// $activeForm.addClass('active').siblings().removeClass('active');
+
+		$activeForm.animate({
+		    "height": 0
+		}, speed, function () {
+			$activeForm.addClass('active').siblings().removeClass('active');
+			$tabsContentWrap.animate({
+				"z-index": 1,
+				"height": activeFormHeight + baseIndentValue
+			}, speed);
+
+			$activeForm.animate({
+			    "height": activeFormHeight + baseIndentValue
+			}, speed);
+
+			animationBlock = false;
+		});
+
+	});
 
 	$('.ico_star').click(function() {
 		$(this).toggleClass('active');
@@ -900,34 +990,58 @@ var checkFieldsGlobal = checkFieldsGlobal();
 
 	var $icoStar = $('.ico_star'),
 		$search = $('.js_search'),
+		$activitiesSearch = $('.js-activities-search'),
+		$searchBlockWrapper = $('.search_block_wrapper'),
+		$searchBlock = $searchBlockWrapper.find('.js-tabs_content li.active'),
+		$menuScrollWrap = $('.menu_scroll_wrap'),
+		searchBlockHeight = $searchBlock.outerHeight(),
 		speed = 1000,
 		speedFast = 500,
-		animationBlock = false;
+		animationBlock = false,
+		baseIndentValue = 20,
+		headerFixedHeight = 45
+
+	function animateSearchBlock () {
+		$searchBlock.animate({
+		    height: searchBlockHeight
+		}, speed, function () {
+			$searchBlockWrapper.find('.js-tabs_content').animate({
+				height: searchBlockHeight + baseIndentValue
+			});
+			animationBlock = false;
+		});
+	}
 
 	$icoStar.on ('click', function() {
 		$(this).toggleClass('active');
 	});
 
 	$search.on('click', function() {
-		var $this = $(this),
-			$searchBlockWrapper = $('.search_block_wrapper'),
-			$searchBlock = $searchBlockWrapper.find('.search_block_wrap');
+		var $this = $(this);
 
-		if(animationBlock) return;
+		if( $('.js-tabs_content').outerHeight() == 0 ){
+			if(animationBlock) return;
 
-		$this.toggleClass('active');
-
-		$('body').animate({
-		      scrollTop: $searchBlockWrapper.offset().top
-		}, speedFast, function () {
-			$searchBlock.animate({
-			    height: "toggle"
-			}, speed, function () {
-				animationBlock = false;
+			$this.toggleClass('active');
+			$('body').animate({
+			      scrollTop: $searchBlockWrapper.offset().top + $searchBlockWrapper.outerHeight()
+			}, speedFast, function () {
+				animateSearchBlock();
 			});
-		});
+		} else {
+			$this.removeClass('active');
+			$('body').animate({
+			      scrollTop: $searchBlockWrapper.offset().top - headerFixedHeight	
+			}, speedFast);
+		}
 
-		
+	});
+
+	$activitiesSearch.on('change', function() {
+		var $this = $(this);
+
+		// animateSearchBlock();
+		// $search.toggleClass('active');
 	});
 
 });;;$(function() {
