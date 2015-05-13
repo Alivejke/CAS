@@ -5,7 +5,8 @@ $(document).ready(function() {
         $menu = $('ul.menu'),
         $menuScrollWrap = $('.menu_scroll_wrap'),
         $header = $('.header'),
-        $headerImg = $('.element_header')
+        $headerImg = $('.element_header'),
+        $tabsNavFix = $('.navigation_dropdown_list_fixed'),
     	speed = 500,
         speedFast = 200,
         animationBlock = false;
@@ -13,11 +14,13 @@ $(document).ready(function() {
     function addScroll () {
         $menu.addClass('scroll');
         $menuScrollWrap.addClass('scrollWrap');
+        $tabsNavFix.addClass('navigation_dropdown_list_fixed_scroll');
     };
 
     function removeScroll () {
         $menu.removeClass('scroll');
         $menuScrollWrap.removeClass('scrollWrap');
+        $tabsNavFix.removeClass('navigation_dropdown_list_fixed_scroll');
     };
 
     $navigationDropdownBlock.on('click', function(event){

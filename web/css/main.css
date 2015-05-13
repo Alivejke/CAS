@@ -3240,6 +3240,10 @@ body {
 .wrap.indent_bottom {
   margin-bottom: 4.13333em;
 }
+/* line 35, ../../dev/sass/specifics/_common.scss */
+.wrap.wrap_navigation_relative {
+  position: relative;
+}
 @media (max-width: 768px) {
   /* line 20, ../../dev/sass/specifics/_common.scss */
   .wrap {
@@ -3247,54 +3251,54 @@ body {
   }
 }
 
-/* line 41, ../../dev/sass/specifics/_common.scss */
+/* line 44, ../../dev/sass/specifics/_common.scss */
 .float-right {
   float: right;
 }
 
-/* line 45, ../../dev/sass/specifics/_common.scss */
+/* line 48, ../../dev/sass/specifics/_common.scss */
 .float-left {
   float: left;
 }
 
-/* line 49, ../../dev/sass/specifics/_common.scss */
+/* line 52, ../../dev/sass/specifics/_common.scss */
 .center {
   text-align: center;
 }
 
-/* line 53, ../../dev/sass/specifics/_common.scss */
+/* line 56, ../../dev/sass/specifics/_common.scss */
 textarea {
   resize: none;
 }
 
-/* line 57, ../../dev/sass/specifics/_common.scss */
+/* line 60, ../../dev/sass/specifics/_common.scss */
 .clearfix:before, .clearfix:after {
   display: table;
   content: " ";
 }
 
-/* line 62, ../../dev/sass/specifics/_common.scss */
+/* line 65, ../../dev/sass/specifics/_common.scss */
 .clearfix:after {
   clear: both;
 }
 
-/* line 66, ../../dev/sass/specifics/_common.scss */
+/* line 69, ../../dev/sass/specifics/_common.scss */
 .clear {
   clear: both;
 }
 
-/* line 70, ../../dev/sass/specifics/_common.scss */
+/* line 73, ../../dev/sass/specifics/_common.scss */
 *, :after, :before {
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
-/* line 75, ../../dev/sass/specifics/_common.scss */
+/* line 78, ../../dev/sass/specifics/_common.scss */
 *:focus, :after:focus, :before:focus {
   outline: none;
 }
 
-/* line 80, ../../dev/sass/specifics/_common.scss */
+/* line 83, ../../dev/sass/specifics/_common.scss */
 .caret {
   display: inline-block;
   width: 0;
@@ -3306,54 +3310,54 @@ textarea {
   border-left: 4px solid transparent;
 }
 
-/* line 91, ../../dev/sass/specifics/_common.scss */
+/* line 94, ../../dev/sass/specifics/_common.scss */
 .content_wrap {
   margin: 1.33333em 0;
 }
-/* line 93, ../../dev/sass/specifics/_common.scss */
+/* line 96, ../../dev/sass/specifics/_common.scss */
 .content_wrap.content_wrap_indent {
   margin-top: 5.86667em;
 }
-/* line 96, ../../dev/sass/specifics/_common.scss */
+/* line 99, ../../dev/sass/specifics/_common.scss */
 .content_wrap.content_wrap_indent_bottom {
   margin-bottom: 5em;
 }
-/* line 99, ../../dev/sass/specifics/_common.scss */
+/* line 102, ../../dev/sass/specifics/_common.scss */
 .content_wrap.bg_gray {
   background-color: #f8faf9;
 }
-/* line 102, ../../dev/sass/specifics/_common.scss */
+/* line 105, ../../dev/sass/specifics/_common.scss */
 .content_wrap.content_wrap_noindent {
   margin-top: 0;
 }
-/* line 105, ../../dev/sass/specifics/_common.scss */
+/* line 108, ../../dev/sass/specifics/_common.scss */
 .content_wrap.min_indent_bottom {
   margin-bottom: 4.13333em;
 }
 
-/* line 110, ../../dev/sass/specifics/_common.scss */
+/* line 113, ../../dev/sass/specifics/_common.scss */
 .js-img_wrap {
   overflow: hidden;
 }
-/* line 112, ../../dev/sass/specifics/_common.scss */
+/* line 115, ../../dev/sass/specifics/_common.scss */
 .js-img_wrap img {
   display: block;
   width: 100%;
 }
 
-/* line 119, ../../dev/sass/specifics/_common.scss */
+/* line 122, ../../dev/sass/specifics/_common.scss */
 .ui_list {
   margin: 50px 25px;
   overflow: hidden;
 }
-/* line 122, ../../dev/sass/specifics/_common.scss */
+/* line 125, ../../dev/sass/specifics/_common.scss */
 .ui_list li {
   float: left;
   width: 33%;
   padding: 1px 10px;
 }
 
-/* line 129, ../../dev/sass/specifics/_common.scss */
+/* line 132, ../../dev/sass/specifics/_common.scss */
 .select2-results__option:empty {
   display: none;
 }
@@ -3605,6 +3609,23 @@ textarea {
 .navigation_dropdown_list_news_text {
   line-height: 1.18182em;
   margin-top: 0.45455em;
+}
+
+/* line 237, ../../dev/sass/specifics/_header.scss */
+.navigation_dropdown_list_fixed {
+  position: absolute;
+  top: -0.26667em;
+  right: 0;
+  width: 26em;
+  z-index: 1;
+}
+/* line 243, ../../dev/sass/specifics/_header.scss */
+.navigation_dropdown_list_fixed.navigation_dropdown_list_fixed_scroll {
+  position: fixed;
+  top: 18px;
+  z-index: 1500;
+  right: auto;
+  margin-left: 459px;
 }
 
 /* line 1, ../../dev/sass/specifics/_footer.scss */

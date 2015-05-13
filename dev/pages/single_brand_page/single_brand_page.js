@@ -13,10 +13,10 @@ $(document).ready(function() {
 		activeFormHeight = $activeForm.outerHeight();
 	// $tabsContentWrap.find('> li:first').addClass('active');
 
-	$tabsNavItems.each(function (index, element) {
-		$(this).attr("data-page", idx);
-        idx++; 
-	});
+	// $tabsNavItems.each(function (index, element) {
+	// 	$(this).attr("data-page", idx);
+ //        idx++; 
+	// });
 
 	// $tabsNav.on('change', function(event){
 	// 	event.preventDefault();

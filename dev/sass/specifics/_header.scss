@@ -233,3 +233,18 @@ $navigation_dropdown_list_news-font-size: 11px;
 	line-height: em(13px, $navigation_dropdown_list_news-font-size);
 	margin-top: em(5px, $navigation_dropdown_list_news-font-size);
 }
+
+.navigation_dropdown_list_fixed {
+	position: absolute;
+	top: em(-4px);
+	right: 0;
+	width: em(390px);
+	z-index: 1;
+	&.navigation_dropdown_list_fixed_scroll {
+		position: fixed;
+		top: 18px;
+		z-index: 1500;
+		right: auto;
+		margin-left: 459px;
+	}
+}

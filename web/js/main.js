@@ -145,7 +145,8 @@ function initializeCheckboxes () {
         $menu = $('ul.menu'),
         $menuScrollWrap = $('.menu_scroll_wrap'),
         $header = $('.header'),
-        $headerImg = $('.element_header')
+        $headerImg = $('.element_header'),
+        $tabsNavFix = $('.navigation_dropdown_list_fixed'),
     	speed = 500,
         speedFast = 200,
         animationBlock = false;
@@ -153,11 +154,13 @@ function initializeCheckboxes () {
     function addScroll () {
         $menu.addClass('scroll');
         $menuScrollWrap.addClass('scrollWrap');
+        $tabsNavFix.addClass('navigation_dropdown_list_fixed_scroll');
     };
 
     function removeScroll () {
         $menu.removeClass('scroll');
         $menuScrollWrap.removeClass('scrollWrap');
+        $tabsNavFix.removeClass('navigation_dropdown_list_fixed_scroll');
     };
 
     $navigationDropdownBlock.on('click', function(event){
@@ -589,13 +592,19 @@ var checkFieldsGlobal = checkFieldsGlobal();
 		$tabsNav = $('.tabs_nav', $self),
 		$tabsNavItems = $tabsNav.find('li'),
 		$tabsContentWrap = $('.tabs_content'),
-		idx = 0;
+		idx = 0,
+		idxFix = 0; 
 
 	// $tabsContentWrap.find('> li:first').addClass('active');
 
 	$tabsNavItems.each(function (index, element) {
-		$(this).attr("data-page", idx);
-        idx++; 
+        if( $(this).parent().hasClass('js-tabs_nav_fix') ){
+        	$(this).attr("data-page", idxFix);
+        	idxFix++;
+        } else {
+        	$(this).attr("data-page", idx);
+        	idx++;
+        }
 	});
 
 	$tabsNavItems.on('click', function(event){
@@ -607,6 +616,24 @@ var checkFieldsGlobal = checkFieldsGlobal();
 		idx = $this.data('page');
 		$this.addClass('active').siblings().removeClass('active');
 		$tabsContentWrap.find('> li').eq(idx).addClass('active').siblings().removeClass('active');
+
+		if( $this.parent().hasClass('js-tabs_nav_fix') ) {
+			$this.closest('.tabs_content_wrap').prev('.header').find('.tabs_nav li').each( function(){
+				if( $(this).data('page') == $this.data('page') ) {
+					$(this).addClass('active');
+				} else {
+					$(this).removeClass('active');
+				}
+			});
+		} else {
+			$this.closest('.header').next('.tabs_content_wrap').find('.tabs_nav li').each( function () {
+				if( $(this).data('page') == $this.data('page') ) {
+					$(this).addClass('active');
+				} else {
+					$(this).removeClass('active');
+				}
+			})
+		}
 
 	});
 });;;$(function() {
@@ -922,10 +949,10 @@ var checkFieldsGlobal = checkFieldsGlobal();
 		activeFormHeight = $activeForm.outerHeight();
 	// $tabsContentWrap.find('> li:first').addClass('active');
 
-	$tabsNavItems.each(function (index, element) {
-		$(this).attr("data-page", idx);
-        idx++; 
-	});
+	// $tabsNavItems.each(function (index, element) {
+	// 	$(this).attr("data-page", idx);
+ //        idx++; 
+	// });
 
 	// $tabsNav.on('change', function(event){
 	// 	event.preventDefault();

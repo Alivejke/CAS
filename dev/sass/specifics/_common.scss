@@ -32,6 +32,9 @@ body {
 	&.indent_bottom {
 		margin-bottom: em(62px);
 	}
+	&.wrap_navigation_relative {
+		position: relative;
+	}
 
 	@media (max-width: 768px) {
 		padding: 0 1.4em;
