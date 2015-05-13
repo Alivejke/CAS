@@ -15,7 +15,8 @@
 	$tabsNavItems.on('click', function(event){
 		event.preventDefault();
 		
-		var $this = $(this);
+		var $this = $(this),
+			$tabsContentWrap = $('.tabs_content');
 
 		idx = $this.data('page');
 		$this.addClass('active').siblings().removeClass('active');

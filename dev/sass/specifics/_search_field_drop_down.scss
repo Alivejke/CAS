@@ -47,7 +47,7 @@
     > li {
         display: none;
         position: relative;
-        z-index: -100;
+        // z-index: -100;
         &.active {
             display: block;
         }

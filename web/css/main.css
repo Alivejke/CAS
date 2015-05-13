@@ -3486,7 +3486,6 @@ textarea {
 .nav img {
   display: inline-block;
   vertical-align: middle;
-  margin: 2px 0 0 0;
 }
 
 /* line 136, ../../dev/sass/specifics/_header.scss */
@@ -7489,8 +7488,6 @@ input.error_validation {
 /* line 8, ../../dev/sass/specifics/_img_circle.scss */
 .img_circle img {
   position: absolute;
-  top: -255px;
-  left: -351px;
   z-index: 1;
 }
 /* line 13, ../../dev/sass/specifics/_img_circle.scss */
@@ -7881,7 +7878,6 @@ input.error_validation {
 .js-tabs_content > li {
   display: none;
   position: relative;
-  z-index: -100;
 }
 /* line 51, ../../dev/sass/specifics/_search_field_drop_down.scss */
 .js-tabs_content > li.active {
