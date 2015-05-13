@@ -8,7 +8,9 @@ $(document).ready(function() {
 		speed = 700,
 		speedFast = 100,
 		animationBlock = false;
-		idx = 0;
+		idx = 0,
+		$activeForm = $tabsContentWrap.find('> li').eq(idx),
+		activeFormHeight = $activeForm.outerHeight();
 	// $tabsContentWrap.find('> li:first').addClass('active');
 
 	$tabsNavItems.each(function (index, element) {
@@ -48,8 +50,6 @@ $(document).ready(function() {
 
 		var $this = $(this),
 			idx = $this.val(),
-			$activeForm = $tabsContentWrap.find('> li').eq(idx),
-			activeFormHeight = $activeForm.outerHeight(),
 			baseIndentValue = 20;
 
 		// $this.addClass('active').siblings().removeClass('active');

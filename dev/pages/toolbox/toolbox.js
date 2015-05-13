@@ -35,6 +35,9 @@ $(document).ready(function() {
 			if(animationBlock) return;
 
 			$this.toggleClass('active');
+
+			$activitiesSearch.val('0').change();
+
 			$('body').animate({
 			      scrollTop: $searchBlockWrapper.offset().top + $searchBlockWrapper.outerHeight()
 			}, speedFast, function () {

@@ -25,4 +25,19 @@
 			height: em(175.5px, $base-font-size);
 		}
 	}
+
+	&.activities_search_page {
+		.btn_activies_search_wrap {
+			margin-top: 0;
+			padding-bottom: em(20px);
+		}
+		.content_wrap {
+			&.bg_gray {
+				margin-top: em(60px);
+			}
+		}
+		.wrap_block {
+			margin-bottom: 0;
+		}
+	}
 }

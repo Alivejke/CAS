@@ -37,7 +37,7 @@
 
 				    	startDate = startDay + '.' + startMonth + '.' + startYear;
 			    	}
-// debugger
+
 			    	if(range.end) {
 				    	var endDay = ("0" +  range.end.getDate()).slice(-2),
 				    		endMonth = ("0" +  (range.end.getMonth() + 1)).slice(-2),

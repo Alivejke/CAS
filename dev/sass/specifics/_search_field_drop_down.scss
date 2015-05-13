@@ -12,6 +12,7 @@
         margin: em(44px, $base-font-size) 0;
         &:first-child {
             border-top-color: transparent;
+            padding: 0;
         }
     }
 }

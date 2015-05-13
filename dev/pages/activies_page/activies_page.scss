@@ -200,7 +200,7 @@
     }
 
     .brand_news {
-        background: #F9F9FB;
+        // background: #F9F9FB;
         .btn_wrap {
             bottom: em(-25px);
         }
@@ -208,6 +208,7 @@
             li {
                 p {
                     text-align: justify;
+                    color: $gray-color;
                 }
             }
         }

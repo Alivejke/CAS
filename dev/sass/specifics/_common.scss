@@ -125,3 +125,7 @@ textarea {
 		padding: 1px 10px;
 	}
 }
+
+.select2-results__option:empty {
+	display: none;
+}

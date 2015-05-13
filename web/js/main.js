@@ -49,7 +49,7 @@ function initializeCheckboxes () {
 
 				    	startDate = startDay + '.' + startMonth + '.' + startYear;
 			    	}
-// debugger
+
 			    	if(range.end) {
 				    	var endDay = ("0" +  range.end.getDate()).slice(-2),
 				    		endMonth = ("0" +  (range.end.getMonth() + 1)).slice(-2),
@@ -917,7 +917,9 @@ var checkFieldsGlobal = checkFieldsGlobal();
 		speed = 700,
 		speedFast = 100,
 		animationBlock = false;
-		idx = 0;
+		idx = 0,
+		$activeForm = $tabsContentWrap.find('> li').eq(idx),
+		activeFormHeight = $activeForm.outerHeight();
 	// $tabsContentWrap.find('> li:first').addClass('active');
 
 	$tabsNavItems.each(function (index, element) {
@@ -957,8 +959,6 @@ var checkFieldsGlobal = checkFieldsGlobal();
 
 		var $this = $(this),
 			idx = $this.val(),
-			$activeForm = $tabsContentWrap.find('> li').eq(idx),
-			activeFormHeight = $activeForm.outerHeight(),
 			baseIndentValue = 20;
 
 		// $this.addClass('active').siblings().removeClass('active');
@@ -1023,6 +1023,9 @@ var checkFieldsGlobal = checkFieldsGlobal();
 			if(animationBlock) return;
 
 			$this.toggleClass('active');
+
+			$activitiesSearch.val('0').change();
+
 			$('body').animate({
 			      scrollTop: $searchBlockWrapper.offset().top + $searchBlockWrapper.outerHeight()
 			}, speedFast, function () {

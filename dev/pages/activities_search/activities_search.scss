@@ -20,6 +20,17 @@
 		}
 	}
 
+	&.toolbox_page {
+		.wrap_block {
+        	margin: em(60px) 0 0;
+        }
+        .content_wrap.padding_none {
+        	.btn_activies_search_wrap {
+				padding-bottom: em(40px);
+        	}
+        }
+	}
+
 	.select_wrap_list-el_wrap {
 		margin-top: em(60px);
 		&:first-child {

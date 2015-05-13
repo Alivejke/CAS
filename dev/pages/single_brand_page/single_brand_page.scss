@@ -48,4 +48,16 @@
 			margin-top: em(60px, $main_title-font-size);
 		}
 	}
+
+	.content_wrap {
+		&.padding_none {
+			margin-top: em(60px);
+		}
+	}
+
+	&.activities_search_page {
+		.wrap_block {
+			margin-bottom: 0;
+		}
+	}
 }
