@@ -28,7 +28,7 @@ function checkFieldsGlobal () {
     function checkFields ($this) {
         if( $this.hasClass('requiredFieldsDate') ) {
             var date = $this.val();
-debugger
+
             if( this.isValidDate( date ) === false ) {
                 $this.closest('.btn_big_rounded').addClass('error_validation');
             } else {
@@ -87,7 +87,7 @@ var checkFieldsGlobal = checkFieldsGlobal();
         $requiredFields = $('.requiredFields'),
         $accessPopup;
 
-    function closePopup () {
+    function closeAccessPopup () {
         $accessPopup.off('click');
         $accessPopup.remove();
         $popupWrap.removeClass('popup_active');
@@ -153,7 +153,7 @@ var checkFieldsGlobal = checkFieldsGlobal();
                 data: sendData,
                 success: function (responce) {
                     if( !$('.error_validation').length ) {
-                        closePopup();
+                        closeAccessPopup();
 
                         if(data && data.id) {
                             var idx = _.findIndex(accessManagementData, function(item) {
@@ -204,7 +204,7 @@ var checkFieldsGlobal = checkFieldsGlobal();
         $accessPopup.on('click', '.btn-cansel', function (event) {
             event.preventDefault();
 
-            closePopup();
+            closeAccessPopup();
         });
 
         $popupWrap.addClass('popup_active').append($accessPopup);
@@ -294,7 +294,9 @@ var checkFieldsGlobal = checkFieldsGlobal();
     });
 
     $popupWrap.on('click', '#popup_fone', function () {
-        closePopup();
+        if($accessPopup && $accessPopup.length) {
+            closeAccessPopup();
+        }
     });
 
     $('body').on('keyup', '.requiredFields', function () {

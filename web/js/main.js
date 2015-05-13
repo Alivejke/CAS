@@ -266,7 +266,7 @@ function initializeCheckboxes () {
     function checkFields ($this) {
         if( $this.hasClass('requiredFieldsDate') ) {
             var date = $this.val();
-debugger
+
             if( this.isValidDate( date ) === false ) {
                 $this.closest('.btn_big_rounded').addClass('error_validation');
             } else {
@@ -325,7 +325,7 @@ var checkFieldsGlobal = checkFieldsGlobal();
         $requiredFields = $('.requiredFields'),
         $accessPopup;
 
-    function closePopup () {
+    function closeAccessPopup () {
         $accessPopup.off('click');
         $accessPopup.remove();
         $popupWrap.removeClass('popup_active');
@@ -391,7 +391,7 @@ var checkFieldsGlobal = checkFieldsGlobal();
                 data: sendData,
                 success: function (responce) {
                     if( !$('.error_validation').length ) {
-                        closePopup();
+                        closeAccessPopup();
 
                         if(data && data.id) {
                             var idx = _.findIndex(accessManagementData, function(item) {
@@ -442,7 +442,7 @@ var checkFieldsGlobal = checkFieldsGlobal();
         $accessPopup.on('click', '.btn-cansel', function (event) {
             event.preventDefault();
 
-            closePopup();
+            closeAccessPopup();
         });
 
         $popupWrap.addClass('popup_active').append($accessPopup);
@@ -532,7 +532,9 @@ var checkFieldsGlobal = checkFieldsGlobal();
     });
 
     $popupWrap.on('click', '#popup_fone', function () {
-        closePopup();
+        if($accessPopup && $accessPopup.length) {
+            closeAccessPopup();
+        }
     });
 
     $('body').on('keyup', '.requiredFields', function () {
@@ -669,12 +671,6 @@ var checkFieldsGlobal = checkFieldsGlobal();
 		$popupWrap.removeClass('popup_active');
 	}
 
-	function closePopup () {
-        $accessPopup.off('click');
-        $accessPopup.remove();
-        $popupWrap.removeClass('popup_active');
-    }
-
     function validationFields () {
         $('.requiredFields').each(function () {
             if( $(this).val().length < 4 ){
@@ -766,7 +762,9 @@ var checkFieldsGlobal = checkFieldsGlobal();
 	});
 
 	$popupWrap.on('click', '#popup_fone', function () {
-		closeEmailNotifPopup();
+		if($emailNotifPopup && $emailNotifPopup.length) {
+		    closeEmailNotifPopup();
+		}
 	});
 
 });;;$(function() {
@@ -916,7 +914,8 @@ var checkFieldsGlobal = checkFieldsGlobal();
 		$tabsContentWrap = $('.js-tabs_content'),
 		$searchBlockWrapper = $('.search_block_wrapper'),
 		$searchBlock = $searchBlockWrapper.find('.search_block_wrap'),
-		speed = 1000,
+		speed = 700,
+		speedFast = 100,
 		animationBlock = false;
 		idx = 0;
 	// $tabsContentWrap.find('> li:first').addClass('active');
@@ -967,7 +966,7 @@ var checkFieldsGlobal = checkFieldsGlobal();
 
 		$activeForm.animate({
 		    "height": 0
-		}, speed, function () {
+		}, speedFast, function () {
 			$activeForm.addClass('active').siblings().removeClass('active');
 			$tabsContentWrap.animate({
 				"z-index": 1,
@@ -996,11 +995,11 @@ var checkFieldsGlobal = checkFieldsGlobal();
 		$searchBlock = $searchBlockWrapper.find('.js-tabs_content li.active'),
 		$menuScrollWrap = $('.menu_scroll_wrap'),
 		searchBlockHeight = $searchBlock.outerHeight(),
-		speed = 1000,
-		speedFast = 500,
+		speed = 500,
+		speedFast = 300,
 		animationBlock = false,
 		baseIndentValue = 20,
-		headerFixedHeight = 45
+		headerFixedHeight = 45;
 
 	function animateSearchBlock () {
 		$searchBlock.animate({

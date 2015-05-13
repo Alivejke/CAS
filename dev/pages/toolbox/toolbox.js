@@ -7,11 +7,11 @@ $(document).ready(function() {
 		$searchBlock = $searchBlockWrapper.find('.js-tabs_content li.active'),
 		$menuScrollWrap = $('.menu_scroll_wrap'),
 		searchBlockHeight = $searchBlock.outerHeight(),
-		speed = 1000,
-		speedFast = 500,
+		speed = 500,
+		speedFast = 300,
 		animationBlock = false,
 		baseIndentValue = 20,
-		headerFixedHeight = 45
+		headerFixedHeight = 45;
 
 	function animateSearchBlock () {
 		$searchBlock.animate({

@@ -5,7 +5,8 @@ $(document).ready(function() {
 		$tabsContentWrap = $('.js-tabs_content'),
 		$searchBlockWrapper = $('.search_block_wrapper'),
 		$searchBlock = $searchBlockWrapper.find('.search_block_wrap'),
-		speed = 1000,
+		speed = 700,
+		speedFast = 100,
 		animationBlock = false;
 		idx = 0;
 	// $tabsContentWrap.find('> li:first').addClass('active');
@@ -56,7 +57,7 @@ $(document).ready(function() {
 
 		$activeForm.animate({
 		    "height": 0
-		}, speed, function () {
+		}, speedFast, function () {
 			$activeForm.addClass('active').siblings().removeClass('active');
 			$tabsContentWrap.animate({
 				"z-index": 1,

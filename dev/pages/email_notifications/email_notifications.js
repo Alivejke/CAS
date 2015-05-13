@@ -13,12 +13,6 @@
 		$popupWrap.removeClass('popup_active');
 	}
 
-	function closePopup () {
-        $accessPopup.off('click');
-        $accessPopup.remove();
-        $popupWrap.removeClass('popup_active');
-    }
-
     function validationFields () {
         $('.requiredFields').each(function () {
             if( $(this).val().length < 4 ){
@@ -110,7 +104,9 @@
 	});
 
 	$popupWrap.on('click', '#popup_fone', function () {
-		closeEmailNotifPopup();
+		if($emailNotifPopup && $emailNotifPopup.length) {
+		    closeEmailNotifPopup();
+		}
 	});
 
 });
