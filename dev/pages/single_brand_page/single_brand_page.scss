@@ -60,4 +60,12 @@
 			margin-bottom: 0;
 		}
 	}
+
+	.btn {
+		&.btn_select { 
+			&.indent-top {
+				margin-top: em(35px);
+			}
+		}
+	}
 }

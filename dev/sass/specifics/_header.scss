@@ -169,6 +169,7 @@ $navigation_dropdown_list_news-font-size: 11px;
 			color: #cdd1d3;
 			text-decoration: none;
 			text-transform: uppercase;
+			font-family: 'Brandon Grotesque';
 		}
 		&.active {
 			a {
@@ -236,15 +237,21 @@ $navigation_dropdown_list_news-font-size: 11px;
 
 .navigation_dropdown_list_fixed {
 	position: absolute;
-	top: em(-4px);
 	right: 0;
+	top: em(-28px);
 	width: em(390px);
+	line-height: em(62px);
+	border: 1px solid #eeefee;
+	background-color: #f8faf9;
 	z-index: 1;
 	&.navigation_dropdown_list_fixed_scroll {
 		position: fixed;
-		top: 18px;
+		top: em(18px);
 		z-index: 1500;
 		right: auto;
-		margin-left: 459px;
+		margin-left: em(459px);
+		line-height: 1;
+		background: none;
+		border: none;
 	}
 }

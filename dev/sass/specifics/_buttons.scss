@@ -10,6 +10,46 @@
 	overflow: hidden;
 	color: #8F9BA3;
 	text-decoration: none;
+	&.btn_select {
+		position: relative;
+		width: 100%;
+		background: none;
+		line-height: em(59px);
+		height: em(59px);
+		border: 1px solid #929191;
+		font-size: em(15px);
+		text-align: left;
+		padding: 0 em(40px);
+		font-weight: bold;
+		.btn_select_arrow {
+			border-color: #4d4d4d transparent transparent transparent;
+			border-style: solid;
+			border-width: 7px 7px 0 7px;
+			margin: -3px 0 0 -7px;
+			height: 0;
+			position: absolute;
+			right: 17px;
+			top: 50%;
+			width: 0;
+		}
+		.btn_select_decor {
+			position: absolute;
+			top: 0;
+			right: 49px;
+			width: 2px;
+			height: 100%;
+			background-color: #929191;
+		}
+		&.active {
+			.btn_select_arrow {
+				border-width: 0px 7px 7px 7px;
+				border-color: transparent transparent #888 transparent;
+			}
+		}
+		&.indent-top {
+			margin-top: em(31px);
+		}
+	}
 	&.btn_circle {
 		width: 45px;
 		height: 45px;

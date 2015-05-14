@@ -17,6 +17,15 @@
 					}
 				}
 			}
+			.btn {
+				&.btn_select {
+					text-align: center;
+					font-weight: 600;
+					&.indent-top {
+						margin-top: em(3px);
+					}
+				}
+			}
 		}
 	}
 
@@ -171,6 +180,10 @@
 		margin-top: em(55px);
 		.btn-link {
 			margin: em(20px, $btn-font-size) 0 em(30px, $btn-font-size);
+		}
+		&.btn_activies_search-indent_none {
+			margin-top: 0;
+			padding-bottom: em(20px);
 		}
 	}
 

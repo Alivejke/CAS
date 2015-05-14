@@ -15,6 +15,13 @@
             padding: 0;
         }
     }
+    &.indent-top {
+        > li {
+            &:first-child {
+                padding: em(35px) 0 0;
+            }
+        }
+    }
 }
 
 .select_wrap_list {
@@ -52,5 +59,14 @@
         &.active {
             display: block;
         }
+    }
+}
+
+.form_search_wrap {
+    height: 0;
+    overflow: hidden;
+    position: relative;
+    &.active {
+        display: block;
     }
 }
