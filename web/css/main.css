@@ -10791,6 +10791,12 @@ input.error_validation {
 .new_activies_page .select_wrap_list-el_wrap:first-child {
   margin-top: 0;
 }
+/* line 385, ../../dev/pages/new_activies_page/new_activies_page.scss */
+.new_activies_page .toolbox_edit_page .toolbox_edit_list li {
+  padding: 2.93333em 0 0;
+  margin: 2.93333em 0;
+  border-color: #cecfd0;
+}
 
 @font-face {
   font-family: 'Brandon Grotesque';
@@ -11741,57 +11747,61 @@ input.error_validation {
 .toolbox_edit_page .toolbox_edit_btn_wrap .btn:first-child {
   margin-left: 0;
 }
-/* line 15, ../../dev/pages/toolbox_edit/toolbox_edit.scss */
-.toolbox_edit_page .toolbox_edit .select_wrap {
+/* line 12, ../../dev/pages/toolbox_edit/toolbox_edit.scss */
+.toolbox_edit_page .toolbox_edit_btn_wrap.indent-none {
+  margin-top: 0;
+}
+/* line 17, ../../dev/pages/toolbox_edit/toolbox_edit.scss */
+.toolbox_edit_page .select_wrap {
   width: 39.43089%;
 }
-/* line 19, ../../dev/pages/toolbox_edit/toolbox_edit.scss */
-.toolbox_edit_page .toolbox_edit .select_wrap .select2-container .select2-selection--single .select2-selection__rendered {
+/* line 21, ../../dev/pages/toolbox_edit/toolbox_edit.scss */
+.toolbox_edit_page .select_wrap .select2-container .select2-selection--single .select2-selection__rendered {
   padding: 0 6.87285% 0 4.811%;
   font-weight: 600;
 }
-/* line 26, ../../dev/pages/toolbox_edit/toolbox_edit.scss */
-.toolbox_edit_page .toolbox_edit .select_wrap .select2-container.select2-container--default .select2-selection--single .select2-selection__arrow {
+/* line 28, ../../dev/pages/toolbox_edit/toolbox_edit.scss */
+.toolbox_edit_page .select_wrap .select2-container.select2-container--default .select2-selection--single .select2-selection__arrow {
   width: 6.87285%;
 }
-/* line 28, ../../dev/pages/toolbox_edit/toolbox_edit.scss */
-.toolbox_edit_page .toolbox_edit .select_wrap .select2-container.select2-container--default .select2-selection--single .select2-selection__arrow b {
+/* line 30, ../../dev/pages/toolbox_edit/toolbox_edit.scss */
+.toolbox_edit_page .select_wrap .select2-container.select2-container--default .select2-selection--single .select2-selection__arrow b {
   border-width: 5px 5px 0 5px;
 }
-/* line 36, ../../dev/pages/toolbox_edit/toolbox_edit.scss */
-.toolbox_edit_page .toolbox_edit .select_wrap .select2-container.select2-container--default.select2-container--open .select2-selection--single .select2-selection__arrow b {
+/* line 38, ../../dev/pages/toolbox_edit/toolbox_edit.scss */
+.toolbox_edit_page .select_wrap .select2-container.select2-container--default.select2-container--open .select2-selection--single .select2-selection__arrow b {
   border-width: 0 5px 5px 5px;
 }
-/* line 45, ../../dev/pages/toolbox_edit/toolbox_edit.scss */
+/* line 48, ../../dev/pages/toolbox_edit/toolbox_edit.scss */
 .toolbox_edit_page .toolbox_edit .toolbox_edit_title {
   margin: 1.22222em 0 1.85185em;
   border: 1px solid transparent;
   padding: 0.33333em 1.04167%;
 }
-/* line 49, ../../dev/pages/toolbox_edit/toolbox_edit.scss */
+/* line 52, ../../dev/pages/toolbox_edit/toolbox_edit.scss */
 .toolbox_edit_page .toolbox_edit .toolbox_edit_title:hover, .toolbox_edit_page .toolbox_edit .toolbox_edit_title:focus {
   border-color: #dedfdf;
 }
-/* line 52, ../../dev/pages/toolbox_edit/toolbox_edit.scss */
+/* line 55, ../../dev/pages/toolbox_edit/toolbox_edit.scss */
 .toolbox_edit_page .toolbox_edit .toolbox_edit_title.error_validation {
   border-color: #b70e12;
 }
-/* line 58, ../../dev/pages/toolbox_edit/toolbox_edit.scss */
+/* line 61, ../../dev/pages/toolbox_edit/toolbox_edit.scss */
 .toolbox_edit_page .toolbox_edit_list li {
   border-top: 1px solid #ededee;
   padding: 2.33333em 0 0;
   margin: 2.93333em 0;
 }
-/* line 62, ../../dev/pages/toolbox_edit/toolbox_edit.scss */
+/* line 65, ../../dev/pages/toolbox_edit/toolbox_edit.scss */
 .toolbox_edit_page .toolbox_edit_list li .main_title {
   margin: 0.25926em 0 0.96296em;
   text-transform: none;
 }
-/* line 67, ../../dev/pages/toolbox_edit/toolbox_edit.scss */
+/* line 70, ../../dev/pages/toolbox_edit/toolbox_edit.scss */
 .toolbox_edit_page .toolbox_edit_list li .brand_news_textarea.indent-top {
   margin-top: 3.33333em;
 }
-/* line 73, ../../dev/pages/toolbox_edit/toolbox_edit.scss */
+/* line 76, ../../dev/pages/toolbox_edit/toolbox_edit.scss */
 .toolbox_edit_page .select2-results__option {
   padding-left: 0.93333em;
   padding-right: 1.33333em;

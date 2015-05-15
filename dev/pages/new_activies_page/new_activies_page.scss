@@ -379,4 +379,14 @@
             margin-top: 0;
         }
     }
+
+    .toolbox_edit_page {
+        .toolbox_edit_list {
+            li {
+                padding: em(44px) 0 0;
+                margin: em(44px) 0;
+                border-color: #cecfd0;
+            }
+        }
+    }
 }
