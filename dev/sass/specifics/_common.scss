@@ -132,3 +132,16 @@ textarea {
 .select2-results__option:empty {
 	display: none;
 }
+
+.hidden {
+	display: none;
+}
+
+.profile_btn_wrap {
+	&.profile-indent {
+		margin-top: em(50px);
+		margin-bottom: em(50px);
+		padding-top: em(30px);
+		border-top: 1px solid #cecfd0;
+	}
+}

@@ -76,8 +76,9 @@
                 padding: em(15px, $base-font-size) 0;
             }
             ul {
+                margin-top: em(-7px);
                 li {
-                    margin: em(7px, $base-font-size) 0;
+                    margin: em(14px, $base-font-size) 0;
                     a {
                         color: $gray-color;
                         position: relative;
@@ -256,7 +257,6 @@
         @include border-radius(100%);
         width: flex(71px, $base-width-content);
         height: em(71px);
-
         @include transition-property(border-color);
         @include transition-duration(0.3s);
         @include transition-timing-function(ease-out);

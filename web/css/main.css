@@ -3362,6 +3362,19 @@ textarea {
   display: none;
 }
 
+/* line 136, ../../dev/sass/specifics/_common.scss */
+.hidden {
+  display: none;
+}
+
+/* line 141, ../../dev/sass/specifics/_common.scss */
+.profile_btn_wrap.profile-indent {
+  margin-top: 3.33333em;
+  margin-bottom: 3.33333em;
+  padding-top: 2em;
+  border-top: 1px solid #cecfd0;
+}
+
 /* line 5, ../../dev/sass/specifics/_header.scss */
 .header {
   height: 4.33333em;
@@ -3776,7 +3789,7 @@ textarea {
 }
 
 /* line 1, ../../dev/sass/specifics/_titles.scss */
-.base_title, .main_title, .main_menu_title, .toolbox_edit_title, .small_title, .no_reult_title, .popup_title, .profile_title, .channel, .approval_flow_wrap .title_table th {
+.base_title, .main_title, .main_menu_title, .toolbox_edit_title, .small_title, .no_result_title, .popup_title, .profile_title, .channel, .approval_flow_wrap .title_table th {
   font-family: 'Brandon Grotesque';
   font-weight: 600;
 }
@@ -3851,7 +3864,7 @@ textarea {
 }
 
 /* line 80, ../../dev/sass/specifics/_titles.scss */
-.no_reult_title {
+.no_result_title {
   color: #c4c4c4;
   font-size: 3em;
   line-height: 1.15556em;
@@ -3872,6 +3885,10 @@ textarea {
   font-size: 0.8em;
   color: #909294;
   text-transform: uppercase;
+}
+/* line 103, ../../dev/sass/specifics/_titles.scss */
+.profile_title.authorization {
+  color: #7e8890;
 }
 
 /* line 4, ../../dev/sass/specifics/_main_menu.scss */
@@ -7684,6 +7701,47 @@ input.error_validation {
   width: 72.72727%;
 }
 
+/* line 101, ../../dev/sass/specifics/_img_circle.scss */
+.img_circle_wrap.circle_block {
+  margin-right: 2.03252%;
+  padding: 0.26667em;
+  border: 1px solid transparent;
+  -moz-border-radius: 100%;
+  -webkit-border-radius: 100%;
+  border-radius: 100%;
+  width: 9.6206%;
+  height: 4.73333em;
+  -moz-transition-property: border-color;
+  -o-transition-property: border-color;
+  -webkit-transition-property: border-color;
+  transition-property: border-color;
+  -moz-transition-duration: 0.3s;
+  -o-transition-duration: 0.3s;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -moz-transition-timing-function: ease-out;
+  -o-transition-timing-function: ease-out;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+/* line 111, ../../dev/sass/specifics/_img_circle.scss */
+.img_circle_wrap.circle_block .img_circle {
+  width: 100%;
+  height: 100%;
+  -moz-border-radius: 100%;
+  -webkit-border-radius: 100%;
+  border-radius: 100%;
+}
+/* line 116, ../../dev/sass/specifics/_img_circle.scss */
+.img_circle_wrap.circle_block:hover {
+  border-color: #42CE7F;
+}
+/* line 118, ../../dev/sass/specifics/_img_circle.scss */
+.img_circle_wrap.circle_block:hover .ico_search {
+  filter: progid:DXImageTransform.Microsoft.Alpha(enabled=false);
+  opacity: 1;
+}
+
 /* line 1, ../../dev/sass/specifics/_img_in_square_frame.scss */
 .block_img {
   border: 1px solid #cecfd0;
@@ -9781,6 +9839,11 @@ input.error_validation {
   overflow: hidden;
   padding: 2em 0 0.06667em;
 }
+/* line 37, ../../dev/pages/authorization/authorization.scss */
+.authorization_page .profile_btn_wrap.profile-indent {
+  margin-top: 0.13333em;
+  margin-bottom: 0;
+}
 
 @font-face {
   font-family: 'Brandon Grotesque';
@@ -10449,11 +10512,15 @@ input.error_validation {
   text-align: center;
   padding: 1em 0;
 }
-/* line 79, ../../dev/pages/new_activies_page/new_activies_page.scss */
-.new_activies_page .activies_page_wrap .channel ul li {
-  margin: 0.46667em 0;
+/* line 78, ../../dev/pages/new_activies_page/new_activies_page.scss */
+.new_activies_page .activies_page_wrap .channel ul {
+  margin-top: -0.46667em;
 }
-/* line 81, ../../dev/pages/new_activies_page/new_activies_page.scss */
+/* line 80, ../../dev/pages/new_activies_page/new_activies_page.scss */
+.new_activies_page .activies_page_wrap .channel ul li {
+  margin: 0.93333em 0;
+}
+/* line 82, ../../dev/pages/new_activies_page/new_activies_page.scss */
 .new_activies_page .activies_page_wrap .channel ul li a {
   color: #45484C;
   position: relative;
@@ -10462,7 +10529,7 @@ input.error_validation {
   padding: 0.33333em 0;
   text-decoration: none;
 }
-/* line 88, ../../dev/pages/new_activies_page/new_activies_page.scss */
+/* line 89, ../../dev/pages/new_activies_page/new_activies_page.scss */
 .new_activies_page .activies_page_wrap .channel ul li a:before {
   content: '';
   width: 4px;
@@ -10476,11 +10543,11 @@ input.error_validation {
   left: -12px;
   top: 12px;
 }
-/* line 100, ../../dev/pages/new_activies_page/new_activies_page.scss */
+/* line 101, ../../dev/pages/new_activies_page/new_activies_page.scss */
 .new_activies_page .activies_page_wrap .channel ul li label {
   margin-left: 36.58537%;
 }
-/* line 108, ../../dev/pages/new_activies_page/new_activies_page.scss */
+/* line 109, ../../dev/pages/new_activies_page/new_activies_page.scss */
 .new_activies_page .activies_page_wrap .wrap_block .title {
   font-family: pragmatica,Helvetica,Arial,sans-serif;
   font-weight: 300;
@@ -10489,7 +10556,7 @@ input.error_validation {
   color: #000;
   margin-bottom: 1.03704em;
 }
-/* line 116, ../../dev/pages/new_activies_page/new_activies_page.scss */
+/* line 117, ../../dev/pages/new_activies_page/new_activies_page.scss */
 .new_activies_page .activies_page_wrap .wrap_block p.text {
   font-family: pragmatica,Helvetica,Arial,sans-serif;
   font-weight: 300;
@@ -10498,137 +10565,137 @@ input.error_validation {
   color: #45484C;
   letter-spacing: 1px;
 }
-/* line 126, ../../dev/pages/new_activies_page/new_activies_page.scss */
+/* line 127, ../../dev/pages/new_activies_page/new_activies_page.scss */
 .new_activies_page .activies_page_wrap .wrap_block.error_validation label.checkbox {
   color: #b70e12;
 }
-/* line 128, ../../dev/pages/new_activies_page/new_activies_page.scss */
+/* line 129, ../../dev/pages/new_activies_page/new_activies_page.scss */
 .new_activies_page .activies_page_wrap .wrap_block.error_validation label.checkbox .label_ico {
   border-color: #b70e12;
 }
-/* line 134, ../../dev/pages/new_activies_page/new_activies_page.scss */
+/* line 135, ../../dev/pages/new_activies_page/new_activies_page.scss */
 .new_activies_page .activies_page_wrap .wrap_block.mechanics_indent {
   margin-top: 7em;
 }
-/* line 143, ../../dev/pages/new_activies_page/new_activies_page.scss */
+/* line 144, ../../dev/pages/new_activies_page/new_activies_page.scss */
 .new_activies_page .activies_page_wrap .attachments_blocks {
   margin-bottom: 2.8em;
 }
-/* line 146, ../../dev/pages/new_activies_page/new_activies_page.scss */
+/* line 147, ../../dev/pages/new_activies_page/new_activies_page.scss */
 .new_activies_page .activies_page_wrap .attachments_blocks .block {
   float: left;
   width: 100%;
   margin-top: 4em;
 }
-/* line 152, ../../dev/pages/new_activies_page/new_activies_page.scss */
+/* line 153, ../../dev/pages/new_activies_page/new_activies_page.scss */
 .new_activies_page .activies_page_wrap .attachments_blocks .block .name {
   float: left;
   width: 80%;
   margin-top: 1em;
   position: relative;
 }
-/* line 157, ../../dev/pages/new_activies_page/new_activies_page.scss */
+/* line 158, ../../dev/pages/new_activies_page/new_activies_page.scss */
 .new_activies_page .activies_page_wrap .attachments_blocks .block .name a.sprite.sprite_ico.ico_basket {
   margin: -0.4em 1.35501%;
   position: absolute;
 }
-/* line 162, ../../dev/pages/new_activies_page/new_activies_page.scss */
+/* line 163, ../../dev/pages/new_activies_page/new_activies_page.scss */
 .new_activies_page .activies_page_wrap .attachments_blocks .block .checkbox {
   display: inline-block;
   position: relative;
   margin-top: 0.8em;
   color: #45484C;
 }
-/* line 167, ../../dev/pages/new_activies_page/new_activies_page.scss */
+/* line 168, ../../dev/pages/new_activies_page/new_activies_page.scss */
 .new_activies_page .activies_page_wrap .attachments_blocks .block .checkbox label:before {
   position: absolute;
   left: 0px;
   top: -1px;
 }
-/* line 173, ../../dev/pages/new_activies_page/new_activies_page.scss */
+/* line 174, ../../dev/pages/new_activies_page/new_activies_page.scss */
 .new_activies_page .activies_page_wrap .attachments_blocks .block textarea {
   width: 100%;
   height: 9.5em;
   padding: 0.8em 1.35501%;
   margin-top: 1.33333em;
 }
-/* line 179, ../../dev/pages/new_activies_page/new_activies_page.scss */
+/* line 180, ../../dev/pages/new_activies_page/new_activies_page.scss */
 .new_activies_page .activies_page_wrap .attachments_blocks .block .file_size {
   float: none;
   width: auto;
 }
-/* line 184, ../../dev/pages/new_activies_page/new_activies_page.scss */
+/* line 185, ../../dev/pages/new_activies_page/new_activies_page.scss */
 .new_activies_page .activies_page_wrap .attachments_blocks .block_upload_file {
   margin: 2em 0 3.33333em;
 }
-/* line 187, ../../dev/pages/new_activies_page/new_activies_page.scss */
+/* line 188, ../../dev/pages/new_activies_page/new_activies_page.scss */
 .new_activies_page .activies_page_wrap .attachments_blocks .block_upload_file span {
   margin-left: 2.71003%;
   color: #45484C;
 }
 @media (max-width: 768px) {
-  /* line 187, ../../dev/pages/new_activies_page/new_activies_page.scss */
+  /* line 188, ../../dev/pages/new_activies_page/new_activies_page.scss */
   .new_activies_page .activies_page_wrap .attachments_blocks .block_upload_file span {
     display: block;
     margin-left: 0;
     margin-top: 1em;
   }
 }
-/* line 198, ../../dev/pages/new_activies_page/new_activies_page.scss */
+/* line 199, ../../dev/pages/new_activies_page/new_activies_page.scss */
 .new_activies_page .activies_page_wrap .attachments_blocks .block_options_draft {
   padding: 3.33333em 0;
   border-top: 1px solid #cecfd0;
   border-bottom: 1px solid #cecfd0;
 }
-/* line 202, ../../dev/pages/new_activies_page/new_activies_page.scss */
+/* line 203, ../../dev/pages/new_activies_page/new_activies_page.scss */
 .new_activies_page .activies_page_wrap .attachments_blocks .block_options_draft button.btn.btn-default {
   width: 27.10027%;
   overflow: hidden;
 }
-/* line 206, ../../dev/pages/new_activies_page/new_activies_page.scss */
+/* line 207, ../../dev/pages/new_activies_page/new_activies_page.scss */
 .new_activies_page .activies_page_wrap .attachments_blocks .block_options_draft button.btn.btn-default.center {
   margin-left: 9.48509%;
 }
 @media (max-width: 840px) {
-  /* line 210, ../../dev/pages/new_activies_page/new_activies_page.scss */
+  /* line 211, ../../dev/pages/new_activies_page/new_activies_page.scss */
   .new_activies_page .activies_page_wrap .attachments_blocks .block_options_draft button.btn.btn-default {
     font-size: 12px;
   }
 }
-/* line 215, ../../dev/pages/new_activies_page/new_activies_page.scss */
+/* line 216, ../../dev/pages/new_activies_page/new_activies_page.scss */
 .new_activies_page .activies_page_wrap .attachments_blocks .block_request_comment {
   margin-top: 4em;
 }
-/* line 217, ../../dev/pages/new_activies_page/new_activies_page.scss */
+/* line 218, ../../dev/pages/new_activies_page/new_activies_page.scss */
 .new_activies_page .activies_page_wrap .attachments_blocks .block_request_comment textarea {
   width: 100%;
   height: 9.5em;
   padding: 0.8em 1.35501%;
   margin: 2em 0;
 }
-/* line 223, ../../dev/pages/new_activies_page/new_activies_page.scss */
+/* line 224, ../../dev/pages/new_activies_page/new_activies_page.scss */
 .new_activies_page .activies_page_wrap .attachments_blocks .block_request_comment .select_wrap {
   width: 48.10298%;
 }
-/* line 227, ../../dev/pages/new_activies_page/new_activies_page.scss */
+/* line 228, ../../dev/pages/new_activies_page/new_activies_page.scss */
 .new_activies_page .activies_page_wrap .attachments_blocks .block_request_comment .select_wrap .select2-container .select2-selection--single .select2-selection__rendered {
   padding-left: 1.33333em;
   padding-right: 1.33333em;
 }
-/* line 239, ../../dev/pages/new_activies_page/new_activies_page.scss */
+/* line 240, ../../dev/pages/new_activies_page/new_activies_page.scss */
 .new_activies_page .attachments_blocks .block:nth-child(2n) {
   margin-left: 0;
 }
-/* line 243, ../../dev/pages/new_activies_page/new_activies_page.scss */
+/* line 244, ../../dev/pages/new_activies_page/new_activies_page.scss */
 .new_activies_page .select2-results__option {
   padding-left: 1.33333em;
   padding-right: 1.33333em;
 }
-/* line 248, ../../dev/pages/new_activies_page/new_activies_page.scss */
+/* line 249, ../../dev/pages/new_activies_page/new_activies_page.scss */
 .new_activies_page .attachments_block_wrap {
   overflow: hidden;
 }
-/* line 252, ../../dev/pages/new_activies_page/new_activies_page.scss */
+/* line 253, ../../dev/pages/new_activies_page/new_activies_page.scss */
 .new_activies_page .img_circle_wrap {
   margin-right: 2.03252%;
   padding: 0.26667em;
@@ -11039,12 +11106,6 @@ input.error_validation {
   font-family: 'Glyphicons Halflings';
   src: url("../fonts/glyphicons-halflings-regular.eot");
   src: url("../fonts/glyphicons-halflings-regular.eot?#iefix") format("embedded-opentype"), url("../fonts/glyphicons-halflings-regular.woff2") format("woff2"), url("../fonts/glyphicons-halflings-regular.woff") format("woff"), url("../fonts/glyphicons-halflings-regular.ttf") format("truetype"), url("../fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular") format("svg");
-}
-/* line 7, ../../dev/pages/profile/profile.scss */
-.profile_page .profile_btn_wrap {
-  margin-top: 3.33333em;
-  padding-top: 2em;
-  border-top: 1px solid #cecfd0;
 }
 /* line 12, ../../dev/pages/profile/profile.scss */
 .profile_page .profile_btn_wrap .btn.btn-default {
@@ -11557,32 +11618,33 @@ input.error_validation {
   vertical-align: middle;
   width: 100%;
   height: 100%;
-  padding: 8em 0;
+  line-height: 17em;
+  overflow: hidden;
 }
-/* line 36, ../../dev/pages/toolbox_changes_approval/toolbox_changes_approval.scss */
+/* line 38, ../../dev/pages/toolbox_changes_approval/toolbox_changes_approval.scss */
 .toolbox_changes_approval_page .left .toolbox div img, .toolbox_changes_approval_page .right .toolbox div img {
   margin: auto;
 }
-/* line 41, ../../dev/pages/toolbox_changes_approval/toolbox_changes_approval.scss */
+/* line 43, ../../dev/pages/toolbox_changes_approval/toolbox_changes_approval.scss */
 .toolbox_changes_approval_page .left .text, .toolbox_changes_approval_page .right .text {
   color: #909294;
   line-height: 1.53333em;
   text-align: justify;
 }
-/* line 46, ../../dev/pages/toolbox_changes_approval/toolbox_changes_approval.scss */
+/* line 48, ../../dev/pages/toolbox_changes_approval/toolbox_changes_approval.scss */
 .toolbox_changes_approval_page .left .text.for_approval, .toolbox_changes_approval_page .right .text.for_approval {
   color: #b70e12;
 }
-/* line 50, ../../dev/pages/toolbox_changes_approval/toolbox_changes_approval.scss */
+/* line 52, ../../dev/pages/toolbox_changes_approval/toolbox_changes_approval.scss */
 .toolbox_changes_approval_page .left .btn.btn-default, .toolbox_changes_approval_page .right .btn.btn-default {
   width: 54.20054%;
   margin: 3em 0;
 }
-/* line 55, ../../dev/pages/toolbox_changes_approval/toolbox_changes_approval.scss */
+/* line 57, ../../dev/pages/toolbox_changes_approval/toolbox_changes_approval.scss */
 .toolbox_changes_approval_page .left {
   float: left;
 }
-/* line 58, ../../dev/pages/toolbox_changes_approval/toolbox_changes_approval.scss */
+/* line 60, ../../dev/pages/toolbox_changes_approval/toolbox_changes_approval.scss */
 .toolbox_changes_approval_page .right {
   float: right;
   overflow: hidden;
@@ -11590,7 +11652,7 @@ input.error_validation {
   padding-bottom: 1000px;
   border-left: 1px solid #cecfd0;
 }
-/* line 66, ../../dev/pages/toolbox_changes_approval/toolbox_changes_approval.scss */
+/* line 68, ../../dev/pages/toolbox_changes_approval/toolbox_changes_approval.scss */
 .toolbox_changes_approval_page .container {
   position: relative;
   border-top: 1px solid #cecfd0;
@@ -11598,7 +11660,7 @@ input.error_validation {
   overflow: hidden;
   height: 100%;
 }
-/* line 72, ../../dev/pages/toolbox_changes_approval/toolbox_changes_approval.scss */
+/* line 74, ../../dev/pages/toolbox_changes_approval/toolbox_changes_approval.scss */
 .toolbox_changes_approval_page .container:after, .toolbox_changes_approval_page .container:before {
   content: '';
   position: absolute;
@@ -11608,60 +11670,60 @@ input.error_validation {
   bottom: 0;
   z-index: 1;
 }
-/* line 81, ../../dev/pages/toolbox_changes_approval/toolbox_changes_approval.scss */
+/* line 83, ../../dev/pages/toolbox_changes_approval/toolbox_changes_approval.scss */
 .toolbox_changes_approval_page .container:before {
   background: #fff;
   left: 0;
 }
-/* line 85, ../../dev/pages/toolbox_changes_approval/toolbox_changes_approval.scss */
+/* line 87, ../../dev/pages/toolbox_changes_approval/toolbox_changes_approval.scss */
 .toolbox_changes_approval_page .container:after {
   background: #F7F7F9;
   right: 0;
 }
-/* line 90, ../../dev/pages/toolbox_changes_approval/toolbox_changes_approval.scss */
+/* line 92, ../../dev/pages/toolbox_changes_approval/toolbox_changes_approval.scss */
 .toolbox_changes_approval_page .block_change {
   padding: 4em 0 0;
 }
-/* line 92, ../../dev/pages/toolbox_changes_approval/toolbox_changes_approval.scss */
+/* line 94, ../../dev/pages/toolbox_changes_approval/toolbox_changes_approval.scss */
 .toolbox_changes_approval_page .block_change textarea {
   width: 100%;
   height: 9.5em;
   padding: 0.8em 1.35501%;
   margin: 4em 0 2em;
 }
-/* line 98, ../../dev/pages/toolbox_changes_approval/toolbox_changes_approval.scss */
+/* line 100, ../../dev/pages/toolbox_changes_approval/toolbox_changes_approval.scss */
 .toolbox_changes_approval_page .block_change .btn.btn-default {
   width: 23.03523%;
 }
-/* line 100, ../../dev/pages/toolbox_changes_approval/toolbox_changes_approval.scss */
+/* line 102, ../../dev/pages/toolbox_changes_approval/toolbox_changes_approval.scss */
 .toolbox_changes_approval_page .block_change .btn.btn-default.second {
   margin-left: 5.42005%;
 }
-/* line 105, ../../dev/pages/toolbox_changes_approval/toolbox_changes_approval.scss */
+/* line 107, ../../dev/pages/toolbox_changes_approval/toolbox_changes_approval.scss */
 .toolbox_changes_approval_page .activities_changes_approval_list_info {
   margin-top: 2em;
 }
-/* line 107, ../../dev/pages/toolbox_changes_approval/toolbox_changes_approval.scss */
+/* line 109, ../../dev/pages/toolbox_changes_approval/toolbox_changes_approval.scss */
 .toolbox_changes_approval_page .activities_changes_approval_list_info > li {
   overflow: hidden;
 }
-/* line 109, ../../dev/pages/toolbox_changes_approval/toolbox_changes_approval.scss */
+/* line 111, ../../dev/pages/toolbox_changes_approval/toolbox_changes_approval.scss */
 .toolbox_changes_approval_page .activities_changes_approval_list_info > li .profile_title {
   width: 10.0271%;
 }
-/* line 111, ../../dev/pages/toolbox_changes_approval/toolbox_changes_approval.scss */
+/* line 113, ../../dev/pages/toolbox_changes_approval/toolbox_changes_approval.scss */
 .toolbox_changes_approval_page .activities_changes_approval_list_info > li .profile_title .profile_text {
   margin-top: 0.38095em;
   margin-left: 0;
 }
-/* line 116, ../../dev/pages/toolbox_changes_approval/toolbox_changes_approval.scss */
+/* line 118, ../../dev/pages/toolbox_changes_approval/toolbox_changes_approval.scss */
 .toolbox_changes_approval_page .activities_changes_approval_list_info > li .profile_text {
   margin: 0 0 0 9.48509%;
   width: 79.9458%;
   text-align: justify;
 }
 @media (max-width: 768px) {
-  /* line 116, ../../dev/pages/toolbox_changes_approval/toolbox_changes_approval.scss */
+  /* line 118, ../../dev/pages/toolbox_changes_approval/toolbox_changes_approval.scss */
   .toolbox_changes_approval_page .activities_changes_approval_list_info > li .profile_text {
     margin: -0.26667em 0 0 5.48509%;
   }

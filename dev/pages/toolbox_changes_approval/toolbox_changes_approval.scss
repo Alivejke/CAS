@@ -32,7 +32,9 @@
 				vertical-align: middle;
 				width: 100%;
 				height: 100%;
-				padding: em(120px, $base-font-size) 0;
+				// padding: em(120px, $base-font-size) 0;
+				line-height: em(255px);
+				overflow: hidden;
 				img {
 					margin: auto;
 				}
