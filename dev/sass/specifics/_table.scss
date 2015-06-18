@@ -198,18 +198,18 @@ $table_td-font-size: 11px;
 .wrap_table {
 	& > div {
 		// padding: em(15px) 0;
-		&:nth-child(odd){
-			background-color: #f8faf9;
-			.title_table {
-				background-color: #f8faf9;
-			}
-		}
-		&.odd {
-			background-color: #f8faf9;
-			.title_table {
-				background-color: #f8faf9;
-			}
-		}
+		// &:nth-child(odd){
+		// 	background-color: #f8faf9;
+		// 	.title_table {
+		// 		background-color: #f8faf9;
+		// 	}
+		// }
+		// &.odd {
+		// 	background-color: #f8faf9;
+		// 	.title_table {
+		// 		background-color: #f8faf9;
+		// 	}
+		// }
 		&.indent-bottom {
 			margin-bottom: em(100px);
 		}
@@ -234,8 +234,21 @@ $table_td-font-size: 11px;
 .access-management-block {
 	.access-management-item {
 		margin-top: em(58px);
+		.wrap.padding-left{
+			padding: 20px 0; 
+			border-bottom: 1px solid #cecfd0;
+		}
 		&:first-child {
+			.wrap.padding-left{
+				padding: 20px 0; 
+				border-bottom: none;
+			}
+		}
+		&:last-child {
 			margin-top: 0;
+			.wrap.padding-left{
+				border-bottom: none;
+			}
 		}
 	}
 }
