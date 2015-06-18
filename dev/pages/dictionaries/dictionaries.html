@@ -6,7 +6,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>CAS Department</title>
+    <title>Channels</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="shortcut icon" href="/favicon.ico?v=2" />
@@ -20,7 +20,7 @@
         <script>window.html5 || document.write('<script src="/scripts/vendor/html5shiv.js"><\/script>')</script>
     <![endif]-->
 </head>
-<body>
+<body class="dictionaries-list">
     <div id="mainarea">
         <header class="header">
             <div class="wrap">
@@ -56,7 +56,7 @@
 
                                     <a href="/isadmin/users">Users</a>
                                                                     <a href="/isadmin/accessmanagement">Access management</a>
-                                                                    <a>Logs</a>
+                                                                    <a href="/isadmin/logs">Logs</a>
                                                                     <a href="/businessadmin/dictionaries">Dictionaries</a>
                                 <div class="search-btn">
                                     <a href="/search"><img src="/img/cas_menu_search.png" /></a>
@@ -69,90 +69,71 @@
         <div class="wrap">
             <div class="menu_wrap clearfix">
                 
+                    <h1 class="main_title main_title_actives">Channels</h1>
             </div>
         </div>
-        <section class="content_wrap choise_of_brands">
+        <section class="content_wrap content_wrap content_wrap_indent">
             
 
-
-<div class="wrap">
-    <div class="main_menu_wrap">
-        <ul class="main_menu">
-                <li data-brand-url="/cas/brands/parliament">
-                    <div class="main_menu_item">
-                            <img src="/img/parliament_logo.png" alt="">
-                            <img src="/img/parliament_logo_white.png" alt="">
-                    </div>
-                </li>
-                <li data-brand-url="/cas/brands/marlboro">
-                    <div class="main_menu_item">
-                            <img src="/img/marlboro_logo.png" alt="">
-                            <img src="/img/marlboro_logo_white.png" alt="">
-                    </div>
-                </li>
-                <li data-brand-url="/cas/brands/eve">
-                    <div class="main_menu_item">
-                            <img src="/img/eve_logo.png" alt="">
-                            <img src="/img/eve_logo_white.png" alt="">
-                    </div>
-                </li>
-                <li data-brand-url="/cas/brands/chesterfield">
-                    <div class="main_menu_item">
-                            <img src="/img/chesterfield_logo.png" alt="">
-                            <img src="/img/chesterfield_logo_white.png" alt="">
-                    </div>
-                </li>
-                <li data-brand-url="/cas/brands/lm">
-                    <div class="main_menu_item">
-                            <img src="/img/lm_logo.png" alt="">
-                            <img src="/img/lm_logo_white.png" alt="">
-                    </div>
-                </li>
-                <li data-brand-url="/cas/brands/bond">
-                    <div class="main_menu_item">
-                            <img src="/img/bond_logo.png" alt="">
-                            <img src="/img/bond_logo_white.png" alt="">
-                    </div>
-                </li>
-                <li data-brand-url="/cas/brands/next">
-                    <div class="main_menu_item">
-                            <img src="/img/next_logo.png" alt="">
-                            <img src="/img/next_logo_white.png" alt="">
-                    </div>
-                </li>
-                <li data-brand-url="/cas/brands/philip_morris">
-                    <div class="main_menu_item">
-                            <img src="/img/philip_morris_logo.png" alt="">
-                            <img src="/img/philip_morris_logo_white.png" alt="">
-                    </div>
-                </li>
-                <li data-brand-url="/cas/brands/optima">
-                    <div class="main_menu_item">
-                            <img src="/img/optima_logo.png" alt="">
-                            <img src="/img/optima_logo_white.png" alt="">
-                    </div>
-                </li>
-                <li data-brand-url="/cas/brands/apollo">
-                    <div class="main_menu_item">
-                            <img src="/img/apollo_logo.png" alt="">
-                            <img src="/img/apollo_logo_white.png" alt="">
-                    </div>
-                </li>
-                <li data-brand-url="/cas/brands/multibrand">
-                    <div class="main_menu_item">
-                            <span>MULTIBRAND</span>
-                    </div>
-                </li>
-            <li data-brand-url="/cas/tutorials">
-                <div class="main_menu_item">
-                    <span>Tutorials</span>
-                </div>
-            </li>
-        </ul>
+<div class="brand_news">
+    <div class="wrap">
+        <div class="btn_wrap">
+            <div class="btn_big_rounded_wrap btn_toolbox pos_left">
+                <button class="btn btn_big_rounded" data-goto="/businessadmin/dictionaries/newproperty">
+                    <span class="sprite sprite_ico ico_add"></span>
+                    add channel
+                </button>
+            </div>
+        </div>
     </div>
 </div>
 
-
+<div class="wrap">
+    <table class="table">
+        <tr>
+            <th colspan="2">Channel name</th>
+            <th colspan="2">Parameters</th>
+        </tr>
+        <tbody>
+                <tr>
+                    <td><img src="/img/channel_dummy.png" /></td>
+                    <td>NTP</td>
+                    <td>Beach, Park, Car parking, Car wash, Airport, Railway station, Bus station, Business centre, Metro, Shopping mall, Fabrics, Embankment , Pedestrian area, Port, Resthouse</td>
+                    <td><a href="/businessadmin/dictionaries/editproperty/deac76ad-6000-e511-80bc-0050568c233a">edit</a></td>
+                </tr>
+                <tr>
+                    <td><img src="/img/channel_dummy.png" /></td>
+                    <td>LAMP</td>
+                    <td>Bar, Cafe, Night club, Event hall, Restaurant, Pub, Canteen</td>
+                    <td><a href="/businessadmin/dictionaries/editproperty/e2ac76ad-6000-e511-80bc-0050568c233a">edit</a></td>
+                </tr>
+                <tr>
+                    <td><img src="/img/channel_dummy.png" /></td>
+                    <td>Retail</td>
+                    <td>Kiosk, Grocery, Vendor, Supermarket, Hypermarket, Tobacconist, Ikea</td>
+                    <td><a href="/businessadmin/dictionaries/editproperty/e6ac76ad-6000-e511-80bc-0050568c233a">edit</a></td>
+                </tr>
+                <tr>
+                    <td><img src="/img/channel_dummy.png" /></td>
+                    <td>Mechanics type</td>
+                    <td>Hostess, Trade programm, Plugin, 1-2-1</td>
+                    <td><a href="/businessadmin/dictionaries/editproperty/eaac76ad-6000-e511-80bc-0050568c233a">edit</a></td>
+                </tr>
+                <tr>
+                    <td><img src="/img/channel_dummy.png" /></td>
+                    <td>Other parameters</td>
+                    <td>1-2-1, Privat party, Name generation needed, Brand ambassador, Others</td>
+                    <td><a href="/businessadmin/dictionaries/editproperty/eeac76ad-6000-e511-80bc-0050568c233a">edit</a></td>
+                </tr>
+                <tr>
+                    <td><img src="/img/channel_dummy.png" /></td>
+                    <td>Business</td>
+                    <td>City, Downtown</td>
+                    <td><a href="/businessadmin/dictionaries/editproperty/74279052-fa14-e511-80bc-0050568c233a">edit</a></td>
+                </tr>
+        </tbody>
+    </table>
+</div>
         </section>
     </div>
     <footer class="footer">
@@ -187,19 +168,12 @@
             <span class="loader-percents"></span>
         </div>
     </div>
-
-<!--    <script src="/bundles/jquery?v=sBBLuo2iUJ3glkweHyoRyJs3S0FzgTkD4NO3tIU6vAo1"></script>
+    <script src="/bundles/jquery?v=sBBLuo2iUJ3glkweHyoRyJs3S0FzgTkD4NO3tIU6vAo1"></script>
     <script src="/bundles/jqueryval?v=sTM6z75i3uDpVeh__Zai1IpnDnqY9pO-TNy0Ztaw6Y81"></script>
     <script src="/bundles/msajax?v=5tqVdsYZPNvN_lyOiLwx3h1MMuv5DrbKZsxaIuSDILM1"></script>
-    <script src="/bundles/ko?v=yotrpQRIlYHB2DUWZeGBFubasoQ9wBuTfwm2IdYuNC41"></script> -->
+    <script src="/bundles/ko?v=yotrpQRIlYHB2DUWZeGBFubasoQ9wBuTfwm2IdYuNC41"></script>
 
     
-    <script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
-    <script>
-        $(".main_menu_item").on("click", function () {
-            window.location.href = $(this).parent().data().brandUrl;
-        });
-    </script>
     <script src="/js/vendor/jquery-ui.min.js"></script>
     <script src="/js/vendor/lodash.min.js"></script>
     <script src="/js/vendor/fileuploader.js"></script>
@@ -213,6 +187,5 @@
     <script src="/js/datepicker.js"></script>
     <script src="/js/additional.js"></script>
     <script src="/js/searchForm.js"></script>
-
 </body>
 </html>

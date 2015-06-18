@@ -3225,22 +3225,21 @@ body {
   width: 960px;
   max-width: 100%;
   margin: 0 auto;
-  padding: 0 7.4em;
   height: 100%;
 }
-/* line 26, ../../dev/sass/specifics/_common.scss */
+/* line 25, ../../dev/sass/specifics/_common.scss */
 .header .wrap, .footer .wrap, .wrap.padding-left {
   padding-right: 0;
 }
-/* line 29, ../../dev/sass/specifics/_common.scss */
+/* line 28, ../../dev/sass/specifics/_common.scss */
 .wrap.padding-none {
   padding: 0;
 }
-/* line 32, ../../dev/sass/specifics/_common.scss */
+/* line 31, ../../dev/sass/specifics/_common.scss */
 .wrap.indent_bottom {
   margin-bottom: 4.13333em;
 }
-/* line 35, ../../dev/sass/specifics/_common.scss */
+/* line 34, ../../dev/sass/specifics/_common.scss */
 .wrap.wrap_navigation_relative {
   position: relative;
 }
@@ -3251,54 +3250,54 @@ body {
   }
 }
 
-/* line 44, ../../dev/sass/specifics/_common.scss */
+/* line 43, ../../dev/sass/specifics/_common.scss */
 .float-right {
   float: right;
 }
 
-/* line 48, ../../dev/sass/specifics/_common.scss */
+/* line 47, ../../dev/sass/specifics/_common.scss */
 .float-left {
   float: left;
 }
 
-/* line 52, ../../dev/sass/specifics/_common.scss */
+/* line 51, ../../dev/sass/specifics/_common.scss */
 .center {
   text-align: center;
 }
 
-/* line 56, ../../dev/sass/specifics/_common.scss */
+/* line 55, ../../dev/sass/specifics/_common.scss */
 textarea {
   resize: none;
 }
 
-/* line 60, ../../dev/sass/specifics/_common.scss */
+/* line 59, ../../dev/sass/specifics/_common.scss */
 .clearfix:before, .clearfix:after {
   display: table;
   content: " ";
 }
 
-/* line 65, ../../dev/sass/specifics/_common.scss */
+/* line 64, ../../dev/sass/specifics/_common.scss */
 .clearfix:after {
   clear: both;
 }
 
-/* line 69, ../../dev/sass/specifics/_common.scss */
+/* line 68, ../../dev/sass/specifics/_common.scss */
 .clear {
   clear: both;
 }
 
-/* line 73, ../../dev/sass/specifics/_common.scss */
+/* line 72, ../../dev/sass/specifics/_common.scss */
 *, :after, :before {
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
-/* line 78, ../../dev/sass/specifics/_common.scss */
+/* line 77, ../../dev/sass/specifics/_common.scss */
 *:focus, :after:focus, :before:focus {
   outline: none;
 }
 
-/* line 83, ../../dev/sass/specifics/_common.scss */
+/* line 82, ../../dev/sass/specifics/_common.scss */
 .caret {
   display: inline-block;
   width: 0;
@@ -3310,64 +3309,64 @@ textarea {
   border-left: 4px solid transparent;
 }
 
-/* line 94, ../../dev/sass/specifics/_common.scss */
+/* line 93, ../../dev/sass/specifics/_common.scss */
 .content_wrap {
   margin: 1.33333em 0;
 }
-/* line 96, ../../dev/sass/specifics/_common.scss */
+/* line 95, ../../dev/sass/specifics/_common.scss */
 .content_wrap.content_wrap_indent {
   margin-top: 5.86667em;
 }
-/* line 99, ../../dev/sass/specifics/_common.scss */
+/* line 98, ../../dev/sass/specifics/_common.scss */
 .content_wrap.content_wrap_indent_bottom {
   margin-bottom: 5em;
 }
-/* line 102, ../../dev/sass/specifics/_common.scss */
+/* line 101, ../../dev/sass/specifics/_common.scss */
 .content_wrap.bg_gray {
   background-color: #f8faf9;
 }
-/* line 105, ../../dev/sass/specifics/_common.scss */
+/* line 104, ../../dev/sass/specifics/_common.scss */
 .content_wrap.content_wrap_noindent {
   margin-top: 0;
 }
-/* line 108, ../../dev/sass/specifics/_common.scss */
+/* line 107, ../../dev/sass/specifics/_common.scss */
 .content_wrap.min_indent_bottom {
   margin-bottom: 4.13333em;
 }
 
-/* line 113, ../../dev/sass/specifics/_common.scss */
+/* line 112, ../../dev/sass/specifics/_common.scss */
 .js-img_wrap {
   overflow: hidden;
 }
-/* line 115, ../../dev/sass/specifics/_common.scss */
+/* line 114, ../../dev/sass/specifics/_common.scss */
 .js-img_wrap img {
   display: block;
   width: 100%;
 }
 
-/* line 122, ../../dev/sass/specifics/_common.scss */
+/* line 121, ../../dev/sass/specifics/_common.scss */
 .ui_list {
   margin: 50px 25px;
   overflow: hidden;
 }
-/* line 125, ../../dev/sass/specifics/_common.scss */
+/* line 124, ../../dev/sass/specifics/_common.scss */
 .ui_list li {
   float: left;
   width: 33%;
   padding: 1px 10px;
 }
 
-/* line 132, ../../dev/sass/specifics/_common.scss */
+/* line 131, ../../dev/sass/specifics/_common.scss */
 .select2-results__option:empty {
   display: none;
 }
 
-/* line 136, ../../dev/sass/specifics/_common.scss */
+/* line 135, ../../dev/sass/specifics/_common.scss */
 .hidden {
   display: none;
 }
 
-/* line 141, ../../dev/sass/specifics/_common.scss */
+/* line 140, ../../dev/sass/specifics/_common.scss */
 .profile_btn_wrap.profile-indent {
   margin-top: 3.33333em;
   margin-bottom: 3.33333em;
@@ -6765,19 +6764,19 @@ textarea {
   font-weight: 300;
   color: #909294;
 }
-/* line 61, c:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-core-1.0.3/stylesheets/compass/css3/_user-interface.scss */
+/* line 61, c:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/css3/_user-interface.scss */
 textarea:-moz-placeholder {
   color: #909294;
 }
-/* line 64, c:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-core-1.0.3/stylesheets/compass/css3/_user-interface.scss */
+/* line 64, c:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/css3/_user-interface.scss */
 textarea::-moz-placeholder {
   color: #909294;
 }
-/* line 67, c:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-core-1.0.3/stylesheets/compass/css3/_user-interface.scss */
+/* line 67, c:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/css3/_user-interface.scss */
 textarea:-ms-input-placeholder {
   color: #909294;
 }
-/* line 56, c:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-core-1.0.3/stylesheets/compass/css3/_user-interface.scss */
+/* line 56, c:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/css3/_user-interface.scss */
 textarea::-webkit-input-placeholder {
   color: #909294;
 }
@@ -7503,19 +7502,19 @@ input.input {
   border: 1px solid #dedfdf;
   color: #8F9BA3;
 }
-/* line 61, c:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-core-1.0.3/stylesheets/compass/css3/_user-interface.scss */
+/* line 61, c:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/css3/_user-interface.scss */
 input.input:-moz-placeholder {
   color: #8F9BA3;
 }
-/* line 64, c:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-core-1.0.3/stylesheets/compass/css3/_user-interface.scss */
+/* line 64, c:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/css3/_user-interface.scss */
 input.input::-moz-placeholder {
   color: #8F9BA3;
 }
-/* line 67, c:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-core-1.0.3/stylesheets/compass/css3/_user-interface.scss */
+/* line 67, c:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/css3/_user-interface.scss */
 input.input:-ms-input-placeholder {
   color: #8F9BA3;
 }
-/* line 56, c:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-core-1.0.3/stylesheets/compass/css3/_user-interface.scss */
+/* line 56, c:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/css3/_user-interface.scss */
 input.input::-webkit-input-placeholder {
   color: #8F9BA3;
 }
@@ -7531,19 +7530,19 @@ input.input.complete, input.input.complete_validation {
 input.gray {
   color: #7c7c7c;
 }
-/* line 61, c:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-core-1.0.3/stylesheets/compass/css3/_user-interface.scss */
+/* line 61, c:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/css3/_user-interface.scss */
 input.gray:-moz-placeholder {
   color: #7c7c7c;
 }
-/* line 64, c:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-core-1.0.3/stylesheets/compass/css3/_user-interface.scss */
+/* line 64, c:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/css3/_user-interface.scss */
 input.gray::-moz-placeholder {
   color: #7c7c7c;
 }
-/* line 67, c:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-core-1.0.3/stylesheets/compass/css3/_user-interface.scss */
+/* line 67, c:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/css3/_user-interface.scss */
 input.gray:-ms-input-placeholder {
   color: #7c7c7c;
 }
-/* line 56, c:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-core-1.0.3/stylesheets/compass/css3/_user-interface.scss */
+/* line 56, c:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/css3/_user-interface.scss */
 input.gray::-webkit-input-placeholder {
   color: #7c7c7c;
 }
