@@ -43,6 +43,9 @@
         @media (max-width: 770px) {
             width: flex(900px, $base-width);
         }
+        &.full-size {
+			min-width: $base-width;
+		}
 	}
 	.btn_big_rounded_wrap {
 		display: inline-block;
@@ -61,6 +64,17 @@
 				.ico_add {
 					left: flex(-17px, 218px - 12px);
 				}
+				.ico_search{
+					left: flex(-17px, 218px - 12px);
+					position: absolute;
+					top: 11px;
+					left: 16px;
+				}
+			}
+		}
+		.btn_search{
+			input{
+				border: none;
 			}
 		}
 		&.btn_toolbox {

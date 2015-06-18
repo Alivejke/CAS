@@ -1,0 +1,66 @@
+@import '../../sass/base/__base';
+body{
+	display: none;
+}
+.users-page{
+	display: none;
+	.approval_flow_wrap {
+		.approval_table {
+			td {
+				width: 25%;
+				&+td {
+					width: 25%;
+					&+td {
+						width: 25%;
+						&+td {
+							width: 15%;
+							&+td {
+								width: 15%;
+							}
+						}
+					}
+				}
+			}
+		}
+		.title_table {
+			table {
+				&.table_log {
+					th {
+						width: 15%;
+						&+th {
+							width: 19%;
+							&+th {
+								width: 13%;
+								&+th {
+									width: 20%;
+									&+th {
+										width: 18%;
+										&+th {
+											width: 14%;
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+			th {
+				width: 16%;
+				&+th {
+					width: 18%;
+					&+th {
+						width: 19%;
+						&+th {
+							width: 25%;
+							&+th {
+								width: 22%;
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+
+}
