@@ -44,9 +44,11 @@
             width: flex(900px, $base-width);
         }
         &.full-size {
-			min-width: $base-width;
+			min-width: initial;
+			width: 30%;
+			right: 0;
 			.btn_big_rounded_wrap{
-				width: 30%;
+				width: 100%;
 			}
 		}
 	}
@@ -67,8 +69,7 @@
 				.ico_add {
 					left: flex(-17px, 218px - 12px);
 				}
-				.ico_search{
-					left: flex(-17px, 218px - 12px);
+				.ico_search_gray{
 					position: absolute;
 					top: 11px;
 					left: 16px;
@@ -84,6 +85,7 @@
 				font-weight: 600;
 				margin-left: 40px;
 				float: left;
+				padding-right: 5px;
 			}
 		}
 		&.btn_toolbox {
