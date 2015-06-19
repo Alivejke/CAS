@@ -6,7 +6,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Channels</title>
+    <title>Users</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="shortcut icon" href="/favicon.ico?v=2" />
@@ -18,9 +18,9 @@
         <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
         <script>window.html5 || document.write('<script src="/scripts/vendor/html5shiv.js"><\/script>')</script>
     <![endif]-->
-</head>
-<body class="dictionaries-list">
-    <div id="mainarea">
+</head> 
+<body class="acces_management_page users-page">
+    <div id="mainarea" class="approval_flow_wrap">
         <header class="header">
             <div class="wrap">
                 <nav class="navbar navbar-blue" role="navigation">
@@ -66,71 +66,95 @@
         <div class="wrap">
             <div class="menu_wrap clearfix">
                 
-                    <h1 class="main_title main_title_actives">Dictionaries</h1>
+                    <h1 class="main_title main_title_actives">Users</h1>
             </div>
         </div>
-        <section class="content_wrap content_wrap content_wrap_indent">
-            
+        <section class="content_wrap">
+            <style>
+                .access-management-block .access-management-item {
+                    margin-top: 0;
+                }
 
-<div class="brand_news">
-    <div class="wrap">
-        <div class="btn_wrap">
-            <div class="btn_big_rounded_wrap btn_toolbox pos_left">
-                <button class="btn btn_big_rounded" data-goto="/businessadmin/dictionaries/newproperty">
-                    <span class="sprite sprite_ico ico_add"></span>
-                    add channel
-                </button>
+                .acces_management_page .button_table .btn {
+                    margin-top: 0;
+                }
+            </style>
+
+
+<!--             <div class="wrap">
+                <button class="btn btn-default btn-add-role" onclick="window.location.href='/isadmin/users/new'">add user</button>
+            </div> -->
+            <div class="brand_news">
+                <div class="wrap">
+                    <div class="btn_wrap">
+                        <div class="btn_big_rounded_wrap btn_toolbox pos_left">
+                            <button class="btn btn_big_rounded" data-goto="/businessadmin/dictionaries/newproperty">
+                                <span class="sprite sprite_ico ico_add"></span>
+                                add user
+                            </button>
+                        </div>
+                    </div>
+                    <div class="btn_wrap full-size">
+                        <div class="btn_big_rounded_wrap btn_toolbox pos_right">
+                            <button class="btn btn_big_rounded btn_search" data-goto="/businessadmin/dictionaries/newproperty">
+                                <span class="sprite sprite_ico ico_search"></span>
+                                <input type="text">
+                            </button>
+                        </div>
+                    </div>
+
+                </div>
             </div>
-        </div>
-    </div>
-</div>
 
-<div class="wrap">
-    <table class="table">
-        <tr>
-            <th colspan="2">Channel name</th>
-            <th colspan="2">Parameters</th>
-        </tr>
-        <tbody>
-                <tr>
-                    <td><img src="/img/channel_dummy.png" /></td>
-                    <td>NTP</td>
-                    <td>Beach, Park, Car parking, Car wash, Airport, Railway station, Bus station, Business centre, Metro, Shopping mall, Fabrics, Embankment , Pedestrian area, Port, Resthouse</td>
-                    <td><a href="/businessadmin/dictionaries/editproperty/deac76ad-6000-e511-80bc-0050568c233a">edit</a></td>
-                </tr>
-                <tr>
-                    <td><img src="/img/channel_dummy.png" /></td>
-                    <td>LAMP</td>
-                    <td>Bar, Cafe, Night club, Event hall, Restaurant, Pub, Canteen</td>
-                    <td><a href="/businessadmin/dictionaries/editproperty/e2ac76ad-6000-e511-80bc-0050568c233a">edit</a></td>
-                </tr>
-                <tr>
-                    <td><img src="/img/channel_dummy.png" /></td>
-                    <td>Retail</td>
-                    <td>Kiosk, Grocery, Vendor, Supermarket, Hypermarket, Tobacconist, Ikea</td>
-                    <td><a href="/businessadmin/dictionaries/editproperty/e6ac76ad-6000-e511-80bc-0050568c233a">edit</a></td>
-                </tr>
-                <tr>
-                    <td><img src="/img/channel_dummy.png" /></td>
-                    <td>Mechanics type</td>
-                    <td>Hostess, Trade programm, Plugin, 1-2-1</td>
-                    <td><a href="/businessadmin/dictionaries/editproperty/eaac76ad-6000-e511-80bc-0050568c233a">edit</a></td>
-                </tr>
-                <tr>
-                    <td><img src="/img/channel_dummy.png" /></td>
-                    <td>Other parameters</td>
-                    <td>1-2-1, Privat party, Name generation needed, Brand ambassador, Others</td>
-                    <td><a href="/businessadmin/dictionaries/editproperty/eeac76ad-6000-e511-80bc-0050568c233a">edit</a></td>
-                </tr>
-                <tr>
-                    <td><img src="/img/channel_dummy.png" /></td>
-                    <td>Business</td>
-                    <td>City, Downtown</td>
-                    <td><a href="/businessadmin/dictionaries/editproperty/74279052-fa14-e511-80bc-0050568c233a">edit</a></td>
-                </tr>
-        </tbody>
-    </table>
-</div>
+
+            <div class="wrap_table access-management-block">
+                <div class="access-management-item" data-id="1">
+                    <div class="title_table">
+                        <div class="wrap padding-left">
+                            <table>
+                                <tr>
+                                    <th>user</th>
+                                    <th>roles</th>
+                                    <th>last login</th>
+                                    <th>status</th>
+                                    <th class="last-item"></th>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="access-management-item">
+                    <div class="wrap padding-left">
+                        <table class="approval_table wrap">
+                            <tr>
+                                <td>
+                                    Cas ISAdmin
+                                </td>
+                                <td>IS Admin, Viewer</td>
+                                <td>12.05.15 10.47</td>
+                                <td class="button_table">Active</td>
+                                <td class="last-item"><a href="#" class="sprite btn btn_circle ico_edit"></a></td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+                <div class="access-management-item">
+                    <div class="wrap padding-left">
+                        <table class="approval_table wrap">
+                            <tr>
+                                <td>
+                                    Cas BusinessAdmin
+                                </td>
+                                <td>IS Admin, Viewer</td>
+                                <td>12.05.15 10.47</td>
+                                <td class="button_table">Blocked</td>
+                                <td class="last-item"><a href="#" class="sprite btn btn_circle ico_edit"></a></td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+            </div>
         </section>
     </div>
     <footer class="footer">
@@ -166,11 +190,24 @@
         </div>
     </div>
     <script src="/bundles/jquery?v=sBBLuo2iUJ3glkweHyoRyJs3S0FzgTkD4NO3tIU6vAo1"></script>
+
     <script src="/bundles/jqueryval?v=sTM6z75i3uDpVeh__Zai1IpnDnqY9pO-TNy0Ztaw6Y81"></script>
+
     <script src="/bundles/msajax?v=5tqVdsYZPNvN_lyOiLwx3h1MMuv5DrbKZsxaIuSDILM1"></script>
+
+    
     <script src="/bundles/ko?v=yotrpQRIlYHB2DUWZeGBFubasoQ9wBuTfwm2IdYuNC41"></script>
 
+
     <script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
+
+    <script>
+        function lockButtonClick (btn) {
+                btn.attr("disabled", "disabled");
+                btn.next("form").submit();
+        };
+    </script>
+
     <script src="/js/vendor/jquery-ui.min.js"></script>
     <script src="/js/vendor/lodash.min.js"></script>
     <script src="/js/vendor/fileuploader.js"></script>
