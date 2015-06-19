@@ -107,11 +107,13 @@
 			right: 0;
 		}
 		&.btn_big_rounded_top {
-			top: -22px;
-			height: 44px;
+			top: em(-22px);
+			height: em(44px);
+			// width: flex(164px);
+			width: 13%;
 			.btn_big_rounded {
-				height: 44px;
-				line-height: 44px;
+				height: em(44px, 12px);
+				line-height: em(44px, 12px);
 			}
 		}
 		.btn_big_rounded {

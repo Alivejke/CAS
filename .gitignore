@@ -1,6 +1,6 @@
 dev/node_modules/
 dev/.sass-cache
 build/**/*
-web/
+web/**/*
 
 .idea

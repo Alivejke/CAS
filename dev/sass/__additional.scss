@@ -150,25 +150,25 @@ h1.error, div.error, a.error, .input-validation-error, span.error {
 .activies_page .mechanics_list_wrap > li .mechanics_list_wrap_items li span {
     color: #777;
     position: relative;
-    margin-left: 2em;
+    margin-left: 0.8em;
     display: block;
     padding: 0.3em 0;
     text-decoration: none;
 }
 
-    .activies_page .mechanics_list_wrap > li .mechanics_list_wrap_items li span:before {
-        content: '';
-        width: 4px;
-        height: 4px;
-        -moz-border-radius: 100%;
-        -webkit-border-radius: 100%;
-        border-radius: 100%;
-        background-color: #7e8890;
-        position: absolute;
-        display: block;
-        left: -0.66667em;
-        top: 0.66667em;
-    }
+.activies_page .mechanics_list_wrap > li .mechanics_list_wrap_items li span:before {
+    content: '';
+    width: 4px;
+    height: 4px;
+    -moz-border-radius: 100%;
+    -webkit-border-radius: 100%;
+    border-radius: 100%;
+    background-color: #7e8890;
+    position: absolute;
+    display: block;
+    left: -0.66667em;
+    top: 0.66667em;
+}
 
 .main_title.main_title_actives[contenteditable] {
     padding: 8px 10px 7px 10px;
@@ -437,9 +437,9 @@ h1.error, div.error, a.error, .input-validation-error, span.error {
     height: 3em;
 }
 
-.activies_page .btn_big_rounded_wrap .btn.btn_big_rounded {
-    line-height: 3em;
-}
+// .activies_page .btn_big_rounded_wrap .btn.btn_big_rounded {
+//     line-height: 3em;
+// }
 
 .brand_news .btn_big_rounded_wrap .btn.btn_big_rounded .ico_edit {
     left: 0;
@@ -556,7 +556,7 @@ h1.error, div.error, a.error, .input-validation-error, span.error {
     font-size: 1.4em;
     line-height: 1;
     color: #333;
-    text-align: center;
+    text-align: left;
     padding: 1em 0 0.5em;
 }
 
@@ -567,10 +567,6 @@ h1.error, div.error, a.error, .input-validation-error, span.error {
     float: left;
     font-family: Arial,Helvetica,sans-serif;
     font-weight: normal;
-}
-
-.activies_page .mechanics_list_wrap {
-    margin-top: 3em;
 }
 
 /* PACK NUMBER 8 */

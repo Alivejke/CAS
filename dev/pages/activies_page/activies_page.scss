@@ -214,14 +214,6 @@
         }
     }
 
-    .btn_big_rounded_wrap {
-        .btn {
-            &.btn_big_rounded {
-                // line-height: em(50px, $btn-font-size);
-            }
-        }
-    }
-
     .wrap_blocks {
         .main_title {
             &.main_title_actives {
@@ -362,8 +354,11 @@
 
     .mechanics_list_wrap {
         overflow: hidden;
-        margin: em(92px) 0 0 flex(47px, 740px);
         > li {
+            float: left;
+            width: 33%;
+            padding: 0 5px;
+            margin-top: em(92px);
             .title {
                 @extend .global_name_channels;
                 text-transform: uppercase;
@@ -377,9 +372,14 @@
                     }
                 }
             }
-            &.float-right {
-                margin-right: 60px;
-            }
+        }
+    }
+
+    .mechanics_inside_items {
+        display: inline-block;
+        text-align: center;
+        .mechanics_list_wrap_items {
+            text-align: left;
         }
     }
 

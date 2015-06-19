@@ -9,6 +9,12 @@ $status_wrap-width: 300px;
 	background: $white-color;
 	width: flex($status_wrap-width, $base-width-content);
 	@include border-radius(30px);
+	.btn {
+		&.btn_big_rounded {
+			height: em(44px, 12px);
+			line-height: em(44px, 12px);
+		}
+	}
 	.btn_big_rounded {
 		width: 100%;
 		height: em(44px, $btn-font-size);
