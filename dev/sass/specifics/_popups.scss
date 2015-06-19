@@ -35,6 +35,25 @@
 	            margin: -270px 0 0 -300px;
 	        }
 		}
+
+		&.output_block {
+			&.output_small {
+				width: 246px;
+				height: 63px;
+			}
+			&.output_info {
+				background-color: #8cd1f5;
+			}
+			&.output_warning {
+				background-color: #d7c669;
+			}
+			&.output_succes {
+				background-color: #2ecc71;
+			}
+			&.output_error {
+				background-color: #b70e12;
+			}
+		}
 	}
 	&.popup_active {
 		z-index: 1100;
