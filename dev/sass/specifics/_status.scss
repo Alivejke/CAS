@@ -11,8 +11,8 @@ $status_wrap-width: 300px;
 	@include border-radius(30px);
 	.btn_big_rounded {
 		width: 100%;
-		height: em(42px, $btn-font-size);
-		line-height: em(42px, $btn-font-size);
+		height: em(44px, $btn-font-size);
+		line-height: em(44px, $btn-font-size);
 		// text-transform: none;
 		.ico_calendar {
 			margin: 0 0 0 flex(20px, $status_wrap-width);
