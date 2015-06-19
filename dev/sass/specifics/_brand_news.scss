@@ -80,6 +80,14 @@
 		&.pos_right {
 			right: 0;
 		}
+		&.btn_big_rounded_top {
+			top: -22px;
+			height: 44px;
+			.btn_big_rounded {
+				height: 44px;
+				line-height: 44px;
+			}
+		}
 		.btn_big_rounded {
 			background-color: #fff;
 		}
