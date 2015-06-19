@@ -121,6 +121,9 @@
 		@include transition-property(opacity);
 		@include transition-duration(0.3s);
 		@include transition-timing-function(ease-out);
+		&.no-hover:hover{
+			@include opacity(1);
+		}
 		&:hover {
 			@include opacity(0.5);
 			.ico_upload {
