@@ -512,11 +512,6 @@ h1.error, div.error, a.error, .input-validation-error, span.error {
   height: 3em;
 }
 
-/* line 455, ../../dev/sass/additional.scss */
-.activies_page .btn_big_rounded_wrap .btn.btn_big_rounded {
-  line-height: 3em;
-}
-
 /* line 459, ../../dev/sass/additional.scss */
 .brand_news .btn_big_rounded_wrap .btn.btn_big_rounded .ico_edit {
   left: 0;
