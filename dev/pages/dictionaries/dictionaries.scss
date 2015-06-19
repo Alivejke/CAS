@@ -1,0 +1,82 @@
+@import '../../sass/base/__base';
+
+/*DICTIONARIES PAGE*/
+.dictionaries-list{
+
+    .content_wrap.content_wrap_indent{
+        margin-top: 68px;
+    }
+    .brand_news .btn_wrap{
+        max-width: initial;
+        width:18%;
+        .btn_big_rounded_wrap{
+            width: 100%;
+            .btn_big_rounded{
+                text-align: left;
+                padding-left: 45px;
+                font-size: 13px;
+                .ico_add{
+                    position: absolute;
+                    left: 18px;
+                    top: 13px;
+                }
+            }
+        }
+    }
+    table {
+        margin-top: 76px;
+        .sprite{
+            display: inline-block;
+            .ico_cart {
+                width: 45px;
+                height: 45px;
+            }
+        }
+        th{
+            font-size: 0.8em;
+            text-align: left;
+            text-transform: uppercase;
+            color: #849199;
+            padding: 0;
+        }
+        tbody:first-child{
+            tr{
+                border-bottom: none;
+                height: 27px;
+            }
+        }
+        tr {
+            border-bottom: 1px solid #ddd;
+            height: 105px;
+            &:last-child{
+                border-bottom: none;
+            }
+           
+            td {
+                vertical-align: middle;
+                padding: 30px 10px 30px 0px;
+                color: #707171;
+                font-size: 13px;
+                line-height: 18px;
+                font-family: pragmatica,Helvetica,Arial,sans-serif;
+                &:nth-child(1) {
+                    width: 63px;
+                }
+                &:nth-child(2) {
+                    width: 172px;
+                    padding: 13px 0px 20px 0px;
+                }
+                &:nth-child(3) {
+                    padding: 13px 70px 20px 0px;
+                }
+                &:nth-child(4) {
+                    padding-right: 0;
+                    border-bottom: none;
+                }
+            }
+        }
+    }
+
+}
+
+/*END OF DICTIONARY PAGE*/
