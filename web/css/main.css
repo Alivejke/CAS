@@ -3226,20 +3226,21 @@ body {
   max-width: 100%;
   margin: 0 auto;
   height: 100%;
+  position: relative;
 }
-/* line 25, ../../dev/sass/specifics/_common.scss */
+/* line 26, ../../dev/sass/specifics/_common.scss */
 .header .wrap, .footer .wrap, .wrap.padding-left {
   padding-right: 0;
 }
-/* line 28, ../../dev/sass/specifics/_common.scss */
+/* line 29, ../../dev/sass/specifics/_common.scss */
 .wrap.padding-none {
   padding: 0;
 }
-/* line 31, ../../dev/sass/specifics/_common.scss */
+/* line 32, ../../dev/sass/specifics/_common.scss */
 .wrap.indent_bottom {
   margin-bottom: 4.13333em;
 }
-/* line 34, ../../dev/sass/specifics/_common.scss */
+/* line 35, ../../dev/sass/specifics/_common.scss */
 .wrap.wrap_navigation_relative {
   position: relative;
 }
@@ -3250,54 +3251,54 @@ body {
   }
 }
 
-/* line 43, ../../dev/sass/specifics/_common.scss */
+/* line 44, ../../dev/sass/specifics/_common.scss */
 .float-right {
   float: right;
 }
 
-/* line 47, ../../dev/sass/specifics/_common.scss */
+/* line 48, ../../dev/sass/specifics/_common.scss */
 .float-left {
   float: left;
 }
 
-/* line 51, ../../dev/sass/specifics/_common.scss */
+/* line 52, ../../dev/sass/specifics/_common.scss */
 .center {
   text-align: center;
 }
 
-/* line 55, ../../dev/sass/specifics/_common.scss */
+/* line 56, ../../dev/sass/specifics/_common.scss */
 textarea {
   resize: none;
 }
 
-/* line 59, ../../dev/sass/specifics/_common.scss */
+/* line 60, ../../dev/sass/specifics/_common.scss */
 .clearfix:before, .clearfix:after {
   display: table;
   content: " ";
 }
 
-/* line 64, ../../dev/sass/specifics/_common.scss */
+/* line 65, ../../dev/sass/specifics/_common.scss */
 .clearfix:after {
   clear: both;
 }
 
-/* line 68, ../../dev/sass/specifics/_common.scss */
+/* line 69, ../../dev/sass/specifics/_common.scss */
 .clear {
   clear: both;
 }
 
-/* line 72, ../../dev/sass/specifics/_common.scss */
+/* line 73, ../../dev/sass/specifics/_common.scss */
 *, :after, :before {
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
-/* line 77, ../../dev/sass/specifics/_common.scss */
+/* line 78, ../../dev/sass/specifics/_common.scss */
 *:focus, :after:focus, :before:focus {
   outline: none;
 }
 
-/* line 82, ../../dev/sass/specifics/_common.scss */
+/* line 83, ../../dev/sass/specifics/_common.scss */
 .caret {
   display: inline-block;
   width: 0;
@@ -3309,64 +3310,64 @@ textarea {
   border-left: 4px solid transparent;
 }
 
-/* line 93, ../../dev/sass/specifics/_common.scss */
+/* line 94, ../../dev/sass/specifics/_common.scss */
 .content_wrap {
   margin: 1.33333em 0;
 }
-/* line 95, ../../dev/sass/specifics/_common.scss */
+/* line 96, ../../dev/sass/specifics/_common.scss */
 .content_wrap.content_wrap_indent {
   margin-top: 5.86667em;
 }
-/* line 98, ../../dev/sass/specifics/_common.scss */
+/* line 99, ../../dev/sass/specifics/_common.scss */
 .content_wrap.content_wrap_indent_bottom {
   margin-bottom: 5em;
 }
-/* line 101, ../../dev/sass/specifics/_common.scss */
+/* line 102, ../../dev/sass/specifics/_common.scss */
 .content_wrap.bg_gray {
   background-color: #f8faf9;
 }
-/* line 104, ../../dev/sass/specifics/_common.scss */
+/* line 105, ../../dev/sass/specifics/_common.scss */
 .content_wrap.content_wrap_noindent {
   margin-top: 0;
 }
-/* line 107, ../../dev/sass/specifics/_common.scss */
+/* line 108, ../../dev/sass/specifics/_common.scss */
 .content_wrap.min_indent_bottom {
   margin-bottom: 4.13333em;
 }
 
-/* line 112, ../../dev/sass/specifics/_common.scss */
+/* line 113, ../../dev/sass/specifics/_common.scss */
 .js-img_wrap {
   overflow: hidden;
 }
-/* line 114, ../../dev/sass/specifics/_common.scss */
+/* line 115, ../../dev/sass/specifics/_common.scss */
 .js-img_wrap img {
   display: block;
   width: 100%;
 }
 
-/* line 121, ../../dev/sass/specifics/_common.scss */
+/* line 122, ../../dev/sass/specifics/_common.scss */
 .ui_list {
   margin: 50px 25px;
   overflow: hidden;
 }
-/* line 124, ../../dev/sass/specifics/_common.scss */
+/* line 125, ../../dev/sass/specifics/_common.scss */
 .ui_list li {
   float: left;
   width: 33%;
   padding: 1px 10px;
 }
 
-/* line 131, ../../dev/sass/specifics/_common.scss */
+/* line 132, ../../dev/sass/specifics/_common.scss */
 .select2-results__option:empty {
   display: none;
 }
 
-/* line 135, ../../dev/sass/specifics/_common.scss */
+/* line 136, ../../dev/sass/specifics/_common.scss */
 .hidden {
   display: none;
 }
 
-/* line 140, ../../dev/sass/specifics/_common.scss */
+/* line 141, ../../dev/sass/specifics/_common.scss */
 .profile_btn_wrap.profile-indent {
   margin-top: 3.33333em;
   margin-bottom: 3.33333em;
@@ -4754,6 +4755,13 @@ textarea {
 }
 
 /* line 180, ../../dev/sass/specifics/_icons.scss */
+.ico_search_gray {
+  height: 20px;
+  width: 20px;
+  background-position: -28px -118px;
+}
+
+/* line 185, ../../dev/sass/specifics/_icons.scss */
 .ico_spam {
   background-position: 0px -280px;
   width: 13px;
@@ -5323,9 +5331,15 @@ textarea {
 }
 /* line 46, ../../dev/sass/specifics/_brand_news.scss */
 .brand_news .btn_wrap.full-size {
-  min-width: 960px;
+  min-width: initial;
+  width: 30%;
+  right: 0;
 }
 /* line 50, ../../dev/sass/specifics/_brand_news.scss */
+.brand_news .btn_wrap.full-size .btn_big_rounded_wrap {
+  width: 100%;
+}
+/* line 55, ../../dev/sass/specifics/_brand_news.scss */
 .brand_news .btn_big_rounded_wrap {
   display: inline-block;
   background-color: #fff;
@@ -5337,106 +5351,112 @@ textarea {
   position: absolute;
   bottom: 0;
 }
-/* line 61, ../../dev/sass/specifics/_brand_news.scss */
+/* line 66, ../../dev/sass/specifics/_brand_news.scss */
 .brand_news .btn_big_rounded_wrap .btn.btn_big_rounded .ico_edit {
   left: -8.25243%;
 }
-/* line 64, ../../dev/sass/specifics/_brand_news.scss */
+/* line 69, ../../dev/sass/specifics/_brand_news.scss */
 .brand_news .btn_big_rounded_wrap .btn.btn_big_rounded .ico_add {
   left: -8.25243%;
 }
-/* line 67, ../../dev/sass/specifics/_brand_news.scss */
-.brand_news .btn_big_rounded_wrap .btn.btn_big_rounded .ico_search {
-  left: -8.25243%;
+/* line 72, ../../dev/sass/specifics/_brand_news.scss */
+.brand_news .btn_big_rounded_wrap .btn.btn_big_rounded .ico_search_gray {
   position: absolute;
   top: 11px;
   left: 16px;
 }
-/* line 76, ../../dev/sass/specifics/_brand_news.scss */
+/* line 80, ../../dev/sass/specifics/_brand_news.scss */
 .brand_news .btn_big_rounded_wrap .btn_search input {
   border: none;
+  font-family: 'Brandon Grotesque';
+  font-size: 12px;
+  letter-spacing: 0px;
+  font-weight: 600;
+  margin-left: 40px;
+  float: left;
+  padding-right: 5px;
 }
-/* line 80, ../../dev/sass/specifics/_brand_news.scss */
+/* line 91, ../../dev/sass/specifics/_brand_news.scss */
 .brand_news .btn_big_rounded_wrap.btn_toolbox {
   height: 3.53333em;
 }
-/* line 83, ../../dev/sass/specifics/_brand_news.scss */
+/* line 94, ../../dev/sass/specifics/_brand_news.scss */
 .brand_news .btn_big_rounded_wrap.btn_toolbox .btn_big_rounded {
   height: 100%;
   line-height: 3.78571em;
 }
-/* line 86, ../../dev/sass/specifics/_brand_news.scss */
+/* line 97, ../../dev/sass/specifics/_brand_news.scss */
 .brand_news .btn_big_rounded_wrap.btn_toolbox .btn_big_rounded .ico_edit, .brand_news .btn_big_rounded_wrap.btn_toolbox .btn_big_rounded .ico_add, .brand_news .btn_big_rounded_wrap.btn_toolbox .btn_big_rounded .ico_upload {
   left: -2.94118%;
 }
-/* line 91, ../../dev/sass/specifics/_brand_news.scss */
+/* line 102, ../../dev/sass/specifics/_brand_news.scss */
 .brand_news .btn_big_rounded_wrap.pos_left {
   left: 0;
 }
-/* line 94, ../../dev/sass/specifics/_brand_news.scss */
+/* line 105, ../../dev/sass/specifics/_brand_news.scss */
 .brand_news .btn_big_rounded_wrap.pos_right {
   right: 0;
 }
-/* line 97, ../../dev/sass/specifics/_brand_news.scss */
+/* line 108, ../../dev/sass/specifics/_brand_news.scss */
 .brand_news .btn_big_rounded_wrap.btn_big_rounded_top {
   top: -1.46667em;
   height: 2.93333em;
   width: 13%;
 }
-/* line 102, ../../dev/sass/specifics/_brand_news.scss */
+/* line 113, ../../dev/sass/specifics/_brand_news.scss */
 .brand_news .btn_big_rounded_wrap.btn_big_rounded_top .btn_big_rounded {
   height: 3.66667em;
   line-height: 3.66667em;
 }
-/* line 107, ../../dev/sass/specifics/_brand_news.scss */
+/* line 118, ../../dev/sass/specifics/_brand_news.scss */
 .brand_news .btn_big_rounded_wrap .btn_big_rounded {
   background-color: #fff;
 }
 @media (max-width: 768px) {
-  /* line 50, ../../dev/sass/specifics/_brand_news.scss */
+  /* line 55, ../../dev/sass/specifics/_brand_news.scss */
   .brand_news .btn_big_rounded_wrap {
     width: 10.8em;
   }
 }
 
-/* line 117, ../../dev/sass/specifics/_brand_news.scss */
+/* line 128, ../../dev/sass/specifics/_brand_news.scss */
 .brand_news_toolbax {
   overflow: hidden;
 }
-/* line 120, ../../dev/sass/specifics/_brand_news.scss */
+/* line 131, ../../dev/sass/specifics/_brand_news.scss */
 .brand_news_toolbax.description .brand_news_list {
   width: 40.625%;
 }
-/* line 123, ../../dev/sass/specifics/_brand_news.scss */
+/* line 134, ../../dev/sass/specifics/_brand_news.scss */
 .brand_news_toolbax.description .brand_news_toolbax_list {
   margin-left: 0;
 }
-/* line 127, ../../dev/sass/specifics/_brand_news.scss */
+/* line 138, ../../dev/sass/specifics/_brand_news.scss */
 .brand_news_toolbax .brand_news_list {
   width: 47.91667%;
 }
-/* line 129, ../../dev/sass/specifics/_brand_news.scss */
+/* line 140, ../../dev/sass/specifics/_brand_news.scss */
 .brand_news_toolbax .brand_news_list .btn {
   margin-top: 4em;
 }
-/* line 131, ../../dev/sass/specifics/_brand_news.scss */
+/* line 142, ../../dev/sass/specifics/_brand_news.scss */
 .brand_news_toolbax .brand_news_list .btn.btn_small {
   width: 31.95652%;
 }
-/* line 136, ../../dev/sass/specifics/_brand_news.scss */
+/* line 147, ../../dev/sass/specifics/_brand_news.scss */
 .brand_news_toolbax .brand_news_toolbax_list {
   margin-left: 10.41667%;
 }
 
-/* line 140, ../../dev/sass/specifics/_brand_news.scss */
+/* line 151, ../../dev/sass/specifics/_brand_news.scss */
 .brand_news_toolbax_list {
   margin-top: 0.13333em;
 }
-/* line 143, ../../dev/sass/specifics/_brand_news.scss */
+/* line 154, ../../dev/sass/specifics/_brand_news.scss */
 .brand_news_toolbax_list li {
   margin-top: 2.33333em;
 }
-/* line 145, ../../dev/sass/specifics/_brand_news.scss */
+/* line 156, ../../dev/sass/specifics/_brand_news.scss */
 .brand_news_toolbax_list li:first-child {
   margin-top: 0;
 }
@@ -7440,7 +7460,7 @@ label.checkbox.distinction.chacked .label_ico {
 }
 /* line 237, ../../dev/sass/specifics/_table.scss */
 .access-management-block .access-management-item .wrap.padding-left {
-  padding: 20px 0;
+  padding: 35px 0;
   border-bottom: 1px solid #cecfd0;
 }
 /* line 242, ../../dev/sass/specifics/_table.scss */
@@ -12403,6 +12423,151 @@ input.error_validation {
   width: 100%;
 }
 
+@font-face {
+  font-family: 'Brandon Grotesque';
+  src: url("../fonts/brandon_bld.eot");
+  src: url("../fonts/brandon_bld.eot?#iefix") format("embedded-opentype"), url("../fonts/brandon_bld.woff2") format("woff2"), url("../fonts/brandon_bld.woff") format("woff"), url("../fonts/brandon_bld.ttf") format("truetype"), url("../fonts/brandon_bld.svg#brandon_grotesquebold") format("svg");
+  font-weight: 800;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Brandon Grotesque';
+  src: url("../fonts/brandon_med.eot");
+  src: url("../fonts/brandon_med.eot?#iefix") format("embedded-opentype"), url("../fonts/brandon_med.woff2") format("woff2"), url("../fonts/brandon_med.woff") format("woff"), url("../fonts/brandon_med.ttf") format("truetype"), url("../fonts/brandon_med.svg#brandon_grotesquemedium") format("svg");
+  font-weight: 600;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Brandon Grotesque';
+  src: url("../fonts/brandon_reg.eot");
+  src: url("../fonts/brandon_reg.eot?#iefix") format("embedded-opentype"), url("../fonts/brandon_reg.woff2") format("woff2"), url("../fonts/brandon_reg.woff") format("woff"), url("../fonts/brandon_reg.ttf") format("truetype"), url("../fonts/brandon_reg.svg#brandon_grotesque_regularRg") format("svg");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'proxima_nova_cn_rgregular';
+  src: url("../fonts/proximanovacond-regular.eot");
+  src: url("../fonts/proximanovacond-regular.eot?#iefix") format("embedded-opentype"), url("../fonts/proximanovacond-regular.woff2") format("woff2"), url("../fonts/proximanovacond-regular.woff") format("woff"), url("../fonts/proximanovacond-regular.ttf") format("truetype"), url("../fonts/proximanovacond-regular.svg#proxima_nova_cn_rgregular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'proxima_novalight';
+  src: url("../fonts/proximanova-light.eot");
+  src: url("../fonts/proximanova-light.eot?#iefix") format("embedded-opentype"), url("../fonts/proximanova-light.woff2") format("woff2"), url("../fonts/proximanova-light.woff") format("woff"), url("../fonts/proximanova-light.ttf") format("truetype"), url("../fonts/proximanova-light.svg#proxima_novalight") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: pragmatica-el;
+  src: url(../fonts/pragmatica-extralight-v2.eot);
+  src: url(../fonts/pragmatica-extralight-v2.eot?#iefix) format("embedded-opentype"), url(../fonts/pragmatica-extralight-v2.woff) format("woff"), url(../fonts/pragmatica-extralight-v2.ttf) format("truetype");
+  font-weight: 100;
+  font-style: normal;
+}
+@font-face {
+  font-family: pragmatica;
+  src: url(../fonts/pragmatica-light-v2.eot);
+  src: url(../fonts/pragmatica-light-v2.eot?#iefix) format("embedded-opentype"), url(../fonts/pragmatica-light-v2.woff) format("woff"), url(../fonts/pragmatica-light-v2.ttf) format("truetype");
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: pragmatica;
+  src: url(../fonts/pragmatica-regular-v2.eot);
+  src: url(../fonts/pragmatica-regular-v2.eot?#iefix) format("embedded-opentype"), url(../fonts/pragmatica-regular-v2.woff) format("woff"), url(../fonts/pragmatica-regular-v2.ttf) format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: pragmatica;
+  src: url(../fonts/pragmatica-medium-v2.eot);
+  src: url(../fonts/pragmatica-medium-v2.eot?#iefix) format("embedded-opentype"), url(../fonts/pragmatica-medium-v2.woff) format("woff"), url(../fonts/pragmatica-medium-v2.ttf) format("truetype");
+  font-weight: 600;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Glyphicons Halflings';
+  src: url("../fonts/glyphicons-halflings-regular.eot");
+  src: url("../fonts/glyphicons-halflings-regular.eot?#iefix") format("embedded-opentype"), url("../fonts/glyphicons-halflings-regular.woff2") format("woff2"), url("../fonts/glyphicons-halflings-regular.woff") format("woff"), url("../fonts/glyphicons-halflings-regular.ttf") format("truetype"), url("../fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular") format("svg");
+}
+/* line 4, ../../dev/pages/users/users.scss */
+.users-page .status-row {
+  position: relative;
+}
+/* line 7, ../../dev/pages/users/users.scss */
+.users-page .icon-active {
+  width: 8px;
+  height: 8px;
+  display: inline-block;
+  background: #2ecc71;
+  border-radius: 50%;
+  margin: auto;
+  position: relative;
+  top: -1px;
+}
+/* line 17, ../../dev/pages/users/users.scss */
+.users-page .icon-blocked {
+  width: 8px;
+  height: 8px;
+  display: inline-block;
+  background: #b70e12;
+  border-radius: 50%;
+  margin: auto;
+  position: relative;
+  top: -1px;
+}
+/* line 29, ../../dev/pages/users/users.scss */
+.users-page .approval_flow_wrap .approval_table td {
+  width: 30%;
+  padding: 0 !important;
+  vertical-align: middle;
+}
+/* line 33, ../../dev/pages/users/users.scss */
+.users-page .approval_flow_wrap .approval_table td b {
+  display: block;
+  font-weight: bold;
+}
+/* line 37, ../../dev/pages/users/users.scss */
+.users-page .approval_flow_wrap .approval_table td + td {
+  width: 25%;
+}
+/* line 39, ../../dev/pages/users/users.scss */
+.users-page .approval_flow_wrap .approval_table td + td + td {
+  width: 25%;
+}
+/* line 41, ../../dev/pages/users/users.scss */
+.users-page .approval_flow_wrap .approval_table td + td + td + td {
+  width: 5%;
+  text-align: center;
+}
+/* line 44, ../../dev/pages/users/users.scss */
+.users-page .approval_flow_wrap .approval_table td + td + td + td + td {
+  width: 13%;
+  text-align: right;
+}
+/* line 54, ../../dev/pages/users/users.scss */
+.users-page .approval_flow_wrap .title_table th {
+  padding: 0;
+  width: 30%;
+}
+/* line 57, ../../dev/pages/users/users.scss */
+.users-page .approval_flow_wrap .title_table th + th {
+  width: 25%;
+}
+/* line 59, ../../dev/pages/users/users.scss */
+.users-page .approval_flow_wrap .title_table th + th + th {
+  width: 25%;
+}
+/* line 61, ../../dev/pages/users/users.scss */
+.users-page .approval_flow_wrap .title_table th + th + th + th {
+  width: 5%;
+}
+/* line 63, ../../dev/pages/users/users.scss */
+.users-page .approval_flow_wrap .title_table th + th + th + th + th {
+  width: 13%;
+}
+
 /* ----- ADDITIONAL STYLES ----- */
 /* line 3, ../../dev/sass/__additional.scss */
 .custom-fileupload {
@@ -12462,17 +12627,6 @@ input.error_validation {
 /* line 52, ../../dev/sass/__additional.scss */
 .select_wrap.select_default.select_multiple_default .select2-container--default .select2-selection--multiple .select2-selection__choice__remove {
   position: relative;
-}
-
-/* line 56, ../../dev/sass/__additional.scss */
-.users-page .approval_flow_wrap .approval_table td {
-  line-height: 50px;
-  padding: 0;
-}
-
-/* line 62, ../../dev/sass/__additional.scss */
-.users-page .approval_flow_wrap .title_table th {
-  line-height: 50px;
 }
 
 /* line 67, ../../dev/sass/__additional.scss */
@@ -13341,7 +13495,7 @@ input.input {
 }
 
 /* line 836, ../../dev/sass/__additional.scss */
-.tutorials-list .brand_news, .dictionaries-list .brand_news {
+.tutorials-list .brand_news, .dictionaries-list .brand_news, .users-page .brand_news {
   padding: 0;
   border-top-width: 0px;
 }

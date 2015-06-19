@@ -39,16 +39,16 @@ module.exports = function(grunt) {
             //         dest: '../build/'
             //     }]
             // },
-            jsVendorBuild: {
-                expand: true,
-                cwd: 'js/vendor',
-                src: '*',
-                dest: '../build/js/vendor'
-            },
-            jsBuild: {
-                src: ['js/**/*.js', '!js/main.js', 'js/main.js', '!js/vendor/**/*', 'pages/**/*.js'],
-                dest: '../build/js/main.js'
-            }
+            // jsVendorBuild: {
+            //     expand: true,
+            //     cwd: 'js/vendor',
+            //     src: '*',
+            //     dest: '../build/js/vendor'
+            // },
+            // jsBuild: {
+            //     src: ['js/**/*.js', '!js/main.js', 'js/main.js', '!js/vendor/**/*', 'pages/**/*.js'],
+            //     dest: '../build/js/main.js'
+            // }
         },
 
         compass: {
@@ -57,7 +57,7 @@ module.exports = function(grunt) {
                     sassDir: 'sass',
                     cssDir: '../web/css'
                 }
-            },
+            }
             /*pages: {
                 options: {
                     sassDir: 'pages',
@@ -65,13 +65,13 @@ module.exports = function(grunt) {
                 }
             },*/
 
-            globalBuild: {
+            /*,globalBuild: {
                 options: {
                     sassDir: 'sass',
                     cssDir: '../build/css',
                     environment: 'production'
                 }
-            }/*,
+            }
             pagesBuild: {
                 options: {
                     sassDir: 'pages',
@@ -88,12 +88,12 @@ module.exports = function(grunt) {
                 src: 'pages/**/*.html',
                 dest: '../web/'
             },
-            htmlBuild: {
-                expand: true,
-                cwd: '',
-                src: 'pages/**/*.html',
-                dest: '../build/'
-            },
+            // htmlBuild: {
+            //     expand: true,
+            //     cwd: '',
+            //     src: 'pages/**/*.html',
+            //     dest: '../build/'
+            // },
             img: {
                 expand: true,
                 cwd: 'img/',
@@ -112,12 +112,12 @@ module.exports = function(grunt) {
                 src: '*',
                 dest: '../web/fonts/'
             },
-            fontsBuild: {
-                expand: true,
-                cwd: 'fonts/',
-                src: '*',
-                dest: '../build/fonts/'
-            },
+            // fontsBuild: {
+            //     expand: true,
+            //     cwd: 'fonts/',
+            //     src: '*',
+            //     dest: '../build/fonts/'
+            // },
             jsvendor: {
                 expand: true,
                 cwd: 'js/vendor',
@@ -130,12 +130,12 @@ module.exports = function(grunt) {
                 src: '*',
                 dest: '../web/'
             },
-            jsonBuild: {
-                expand: true,
-                cwd: 'json/',
-                src: '*',
-                dest: '../build/'
-            }
+            // jsonBuild: {
+            //     expand: true,
+            //     cwd: 'json/',
+            //     src: '*',
+            //     dest: '../build/'
+            // }
             // jspages: {
             //     expand: true,
             //     cwd: '',
@@ -144,20 +144,20 @@ module.exports = function(grunt) {
             // }
         },
 
-        imgo: {
-            iBuild: {
-                src: 'i/*',
-                dest: '../build/i/',
-                options: '-m -b',
-                skip: require('os').platform() === 'win32'
-            },
-            imgBuild: {
-                src: 'img/*',
-                dest: '../build/img/',
-                options: '-m -b',
-                skip: require('os').platform() === 'win32'
-            }
-        },
+        // imgo: {
+        //     iBuild: {
+        //         src: 'i/*',
+        //         dest: '../build/i/',
+        //         options: '-m -b',
+        //         skip: require('os').platform() === 'win32'
+        //     },
+        //     imgBuild: {
+        //         src: 'img/*',
+        //         dest: '../build/img/',
+        //         options: '-m -b',
+        //         skip: require('os').platform() === 'win32'
+        //     }
+        // },
 
         watch: {
             options: {
@@ -223,14 +223,14 @@ module.exports = function(grunt) {
     });
 
     grunt.registerTask('default', ['connect', 'watch']);
-    grunt.registerTask('build', [
-        'compass:globalBuild', 
-        'uglify:jsBuild', 
-        'uglify:jsVendorBuild', 
-        'copy:htmlBuild', 
-        'copy:fontsBuild', 
-        'copy:jsonBuild',
-        'imgo'
-    ]);
+    // grunt.registerTask('build', [
+    //     // 'compass:globalBuild', 
+    //     // 'uglify:jsBuild', 
+    //     // 'uglify:jsVendorBuild', 
+    //     // 'copy:htmlBuild', 
+    //     // 'copy:fontsBuild', 
+    //     // 'copy:jsonBuild',
+    //     // 'imgo'
+    // ]);
 
 };

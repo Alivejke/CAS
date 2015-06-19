@@ -1,21 +1,49 @@
 @import '../../sass/base/__base';
-body{
-	display: none;
-}
+
 .users-page{
-	display: none;
+	.status-row{
+		position: relative;
+	}
+	.icon-active{
+		width: 8px;
+		height: 8px;
+		display: inline-block;
+		background: #2ecc71;
+		border-radius: 50%;
+		margin: auto;
+		position: relative;
+		top: -1px;
+	}
+	.icon-blocked{
+		width: 8px;
+		height: 8px;
+		display: inline-block;
+		background: #b70e12;
+		border-radius: 50%;
+		margin: auto;
+		position: relative;
+		top: -1px;
+	}
 	.approval_flow_wrap {
 		.approval_table {
 			td {
-				width: 25%;
+				width: 30%;
+				padding: 0!important;
+				vertical-align: middle;
+				b{
+					display: block;
+					font-weight: bold;
+				}
 				&+td {
 					width: 25%;
 					&+td {
 						width: 25%;
 						&+td {
-							width: 15%;
+							width: 5%;
+							text-align: center;
 							&+td {
-								width: 15%;
+								width: 13%;
+								text-align: right;
 							}
 						}
 					}
@@ -23,38 +51,17 @@ body{
 			}
 		}
 		.title_table {
-			table {
-				&.table_log {
-					th {
-						width: 15%;
+			th {
+				padding: 0;
+				width: 30%;
+				&+th {
+					width: 25%;
+					&+th {
+						width: 25%;
 						&+th {
-							width: 19%;
+							width: 5%;
 							&+th {
 								width: 13%;
-								&+th {
-									width: 20%;
-									&+th {
-										width: 18%;
-										&+th {
-											width: 14%;
-										}
-									}
-								}
-							}
-						}
-					}
-				}
-			}
-			th {
-				width: 16%;
-				&+th {
-					width: 18%;
-					&+th {
-						width: 19%;
-						&+th {
-							width: 25%;
-							&+th {
-								width: 22%;
 							}
 						}
 					}
