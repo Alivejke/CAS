@@ -1,13 +1,33 @@
 @import '../../sass/base/__base';
-body{
-	display: none;
-}
+
 .users-page{
-	display: none;
+	.status-row{
+		position: relative;
+		.icon-active{
+			width: 8px;
+			height: 8px;
+			display: block;
+			background: #2ecc71;
+			border-radius: 50%;
+			margin: auto;
+			left: 0;
+			right: 0;
+		}
+		.icon-blocked{
+			width: 8px;
+			height: 8px;
+			display: block;
+			background: #b70e12;
+			border-radius: 50%;
+			margin: auto;
+			left: 0;
+			right: 0;
+		}
+	}
 	.approval_flow_wrap {
 		.approval_table {
 			td {
-				width: 25%;
+				width: 30%;
 				&+td {
 					width: 25%;
 					&+td {
@@ -15,7 +35,7 @@ body{
 						&+td {
 							width: 15%;
 							&+td {
-								width: 15%;
+								width: 5%;
 							}
 						}
 					}
@@ -23,38 +43,17 @@ body{
 			}
 		}
 		.title_table {
-			table {
-				&.table_log {
-					th {
-						width: 15%;
-						&+th {
-							width: 19%;
-							&+th {
-								width: 13%;
-								&+th {
-									width: 20%;
-									&+th {
-										width: 18%;
-										&+th {
-											width: 14%;
-										}
-									}
-								}
-							}
-						}
-					}
-				}
-			}
 			th {
-				width: 16%;
+				padding: 0;
+				width: 30%;
 				&+th {
-					width: 18%;
+					width: 25%;
 					&+th {
-						width: 19%;
+						width: 25%;
 						&+th {
-							width: 25%;
+							width: 15%;
 							&+th {
-								width: 22%;
+								width: 5%;
 							}
 						}
 					}

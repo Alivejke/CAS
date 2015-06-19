@@ -45,6 +45,9 @@
         }
         &.full-size {
 			min-width: $base-width;
+			.btn_big_rounded_wrap{
+				width: 30%;
+			}
 		}
 	}
 	.btn_big_rounded_wrap {
@@ -75,6 +78,12 @@
 		.btn_search{
 			input{
 				border: none;
+				font-family: 'Brandon Grotesque';
+				font-size: 12px;
+				letter-spacing: 0px;
+				font-weight: 600;
+				margin-left: 40px;
+				float: left;
 			}
 		}
 		&.btn_toolbox {
