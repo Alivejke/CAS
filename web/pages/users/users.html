@@ -64,12 +64,19 @@
         </header>
         
         <div class="wrap">
-            <div class="menu_wrap clearfix">
-                
-                    <h1 class="main_title main_title_actives">Users</h1>
+            <div class="menu_wrap clearfix">                
+                <div class="breadcrumbs">
+                    <ul>
+                        <li data-goto="">CAS DEPARTMENT /</li>
+                        <li class="current-page">USERS</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="menu_wrap clearfix">                
+                <h1 class="main_title main_title_actives">Users</h1>
             </div>
         </div>
-        <section class="content_wrap">
+        <section class="content_wrap content_wrap_indent">
             <style>
                 .access-management-block .access-management-item {
                     margin-top: 0;
@@ -80,10 +87,6 @@
                 }
             </style>
 
-
-<!--             <div class="wrap">
-                <button class="btn btn-default btn-add-role" onclick="window.location.href='/isadmin/users/new'">add user</button>
-            </div> -->
             <div class="brand_news">
                 <div class="wrap">
                     <div class="btn_wrap">
@@ -96,9 +99,9 @@
                     </div>
                     <div class="btn_wrap full-size">
                         <div class="btn_big_rounded_wrap btn_toolbox pos_right">
-                            <button class="btn btn_big_rounded btn_search" data-goto="/businessadmin/dictionaries/newproperty">
-                                <span class="sprite sprite_ico ico_search"></span>
-                                <input type="text">
+                            <button class="btn btn_big_rounded btn_search">
+                                <span class="sprite sprite_ico ico_search_gray"></span>
+                                <input type="text" placeholder="SEARCH">
                             </button>
                         </div>
                     </div>
@@ -106,8 +109,70 @@
                 </div>
             </div>
 
+            <div class="wrap">
+                <table class="table">
+                    <tr>
+                        <th>user</th>
+                        <th>roles</th>
+                        <th>last login</th>
+                        <th>status</th>
+                        <th></th>
+                    </tr>
+                    <tbody>
+                        <tr>
+                            <td>Cas ISAdmin
+                                <b>ISAdmin@cas.castest</b>
+                            </td>
+                            <td>IS Admin, Viewer</td>
+                            <td>12.05.15 <br>10.47</td>
+                            <td class="button_table">  
+                                <i class="icon-active"></i><br>
+                                <span class="status-row">Active</span>
+                            </td>
+                            <td><a href="#" class="sprite btn btn_circle ico_edit"></a></td>
+                        </tr>
+                        <tr>
+                            <td>Cas BusinessAdmin
+                                <b>ISAdmin@cas.castest</b>
+                            </td>
+                            <td>IS Admin, Viewer</td>
+                            <td>12.05.15 <br>10.47</td>
+                            <td class="button_table">
+                                <i class="icon-blocked"></i><br>
+                                <span class="status-row">Blocked</span>
+                            </td>
+                            <td><a href="#" class="sprite btn btn_circle ico_edit"></a></td>
+                        </tr>
+                        <tr>
+                            <td>Cas BusinessAdmin
+                                <b>ISAdmin@cas.castest</b>
+                            </td>
+                            <td>IS Admin, Viewer</td>
+                            <td>12.05.15 <br>10.47</td>
+                            <td class="button_table">
+                                <i class="icon-blocked"></i><br>
+                                <span class="status-row">Blocked</span>
+                            </td>
+                            <td><a href="#" class="sprite btn btn_circle ico_edit"></a></td>
+                        </tr>
+                        <tr>
+                            <td>Cas ISAdmin
+                                <b>ISAdmin@cas.castest</b>
+                            </td>
+                            <td>IS Admin, Viewer</td>
+                            <td>12.05.15 <br>10.47</td>
+                            <td class="button_table">  
+                                <i class="icon-active"></i><br>
+                                <span class="status-row">Active</span>
+                            </td>
+                            <td><a href="#" class="sprite btn btn_circle ico_edit"></a></td>
+                        </tr>
 
-            <div class="wrap_table access-management-block">
+                    </tbody>
+                </table>
+            </div>
+
+<!--             <div class="wrap_table access-management-block">
                 <div class="access-management-item" data-id="1">
                     <div class="title_table">
                         <div class="wrap padding-left">
@@ -117,7 +182,7 @@
                                     <th>roles</th>
                                     <th>last login</th>
                                     <th>status</th>
-                                    <th class="last-item"></th>
+                                    <th></th>
                                 </tr>
                             </table>
                         </div>
@@ -128,13 +193,16 @@
                     <div class="wrap padding-left">
                         <table class="approval_table wrap">
                             <tr>
-                                <td>
-                                    Cas ISAdmin
+                                <td>Cas ISAdmin
+                                    <b>ISAdmin@cas.castest</b>
                                 </td>
                                 <td>IS Admin, Viewer</td>
-                                <td>12.05.15 10.47</td>
-                                <td class="button_table">Active</td>
-                                <td class="last-item"><a href="#" class="sprite btn btn_circle ico_edit"></a></td>
+                                <td>12.05.15 <br>10.47</td>
+                                <td class="button_table">  
+                                    <i class="icon-active"></i><br>
+                                    <span class="status-row">Active</span>
+                                </td>
+                                <td><a href="#" class="sprite btn btn_circle ico_edit"></a></td>
                             </tr>
                         </table>
                     </div>
@@ -143,18 +211,39 @@
                     <div class="wrap padding-left">
                         <table class="approval_table wrap">
                             <tr>
-                                <td>
-                                    Cas BusinessAdmin
+                                <td>Cas BusinessAdmin
+                                    <b>ISAdmin@cas.castest</b>
                                 </td>
                                 <td>IS Admin, Viewer</td>
-                                <td>12.05.15 10.47</td>
-                                <td class="button_table">Blocked</td>
-                                <td class="last-item"><a href="#" class="sprite btn btn_circle ico_edit"></a></td>
+                                <td>12.05.15 <br>10.47</td>
+                                <td class="button_table">
+                                    <i class="icon-blocked"></i><br>
+                                    <span class="status-row">Blocked</span>
+                                </td>
+                                <td><a href="#" class="sprite btn btn_circle ico_edit"></a></td>
                             </tr>
                         </table>
                     </div>
                 </div>
-            </div>
+                <div class="access-management-item">
+                    <div class="wrap padding-left">
+                        <table class="approval_table wrap">
+                            <tr>
+                                <td>Cas BusinessAdmin
+                                    <b>ISAdmin@cas.castest</b>
+                                </td>
+                                <td>IS Admin, Viewer</td>
+                                <td>12.05.15 <br>10.47</td>
+                                <td class="button_table">
+                                    <i class="icon-blocked"></i><br>
+                                    <span class="status-row">Blocked</span>
+                                </td>
+                                <td><a href="#" class="sprite btn btn_circle ico_edit"></a></td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+            </div> -->
         </section>
     </div>
     <footer class="footer">
@@ -189,17 +278,12 @@
             <span class="loader-percents"></span>
         </div>
     </div>
-    <script src="/bundles/jquery?v=sBBLuo2iUJ3glkweHyoRyJs3S0FzgTkD4NO3tIU6vAo1"></script>
-
-    <script src="/bundles/jqueryval?v=sTM6z75i3uDpVeh__Zai1IpnDnqY9pO-TNy0Ztaw6Y81"></script>
-
-    <script src="/bundles/msajax?v=5tqVdsYZPNvN_lyOiLwx3h1MMuv5DrbKZsxaIuSDILM1"></script>
-
-    
-    <script src="/bundles/ko?v=yotrpQRIlYHB2DUWZeGBFubasoQ9wBuTfwm2IdYuNC41"></script>
-
 
     <script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
+    <script src="/js/vendor/jqueryv=sBBLuo2iUJ3glkweHyoRyJs3S0FzgTkD4NO3tIU6vAo1.js"></script>
+    <script src="/js/vendor/jqueryvalv=sTM6z75i3uDpVeh__Zai1IpnDnqY9pO-TNy0Ztaw6Y81.js"></script>
+    <script src="/js/vendor/msajaxv=5tqVdsYZPNvN_lyOiLwx3h1MMuv5DrbKZsxaIuSDILM1.js"></script>
+    <script src="/js/vendor/kov=yotrpQRIlYHB2DUWZeGBFubasoQ9wBuTfwm2IdYuNC41.js"></script>
 
     <script>
         function lockButtonClick (btn) {
@@ -217,9 +301,5 @@
     <script src="/js/vendor/datepicker.js"></script>
     <script src="/js/vendor/jquery.comiseo.daterangepicker.custom.js"></script>
     <script src="/js/main.js"></script>
-    <script src="/js/select.js"></script>
-    <script src="/js/datepicker.js"></script>
-    <script src="/js/additional.js"></script>
-    <script src="/js/searchForm.js"></script>
 </body>
 </html>
