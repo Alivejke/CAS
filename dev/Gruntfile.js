@@ -64,21 +64,21 @@ module.exports = function(grunt) {
                     sassDir: 'pages',
                     cssDir: '../web/pages'
                 }
-            },
-            globalBuild: {
-                options: {
-                    sassDir: 'sass',
-                    cssDir: '../build/css',
-                    environment: 'production'
-                }
-            },
-            pagesBuild: {
-                options: {
-                    sassDir: 'pages',
-                    cssDir: '../build/pages',
-                    environment: 'production'
-                }
             }
+            // globalBuild: {
+            //     options: {
+            //         sassDir: 'sass',
+            //         cssDir: '../build/css',
+            //         environment: 'production'
+            //     }
+            // },
+            // pagesBuild: {
+            //     options: {
+            //         sassDir: 'pages',
+            //         cssDir: '../build/pages',
+            //         environment: 'production'
+            //     }
+            // }
         },
 
         copy: {
