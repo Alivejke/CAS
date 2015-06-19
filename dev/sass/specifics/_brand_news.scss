@@ -78,14 +78,15 @@
 		}
 		.btn_search{
 			input{
-				border: none;
-				font-family: 'Brandon Grotesque';
-				font-size: 12px;
-				letter-spacing: 0px;
-				font-weight: 600;
-				margin-left: 40px;
-				float: left;
-				padding-right: 5px;
+			  border: none;
+			  font-family: 'Brandon Grotesque';
+			  font-size: 13px;
+			  letter-spacing: 0px;
+			  font-weight: 600;
+			  margin-left: 0px;
+			  float: left;
+			  padding-right: 5px;
+			  line-height: 42px;
 			}
 		}
 		&.btn_toolbox {

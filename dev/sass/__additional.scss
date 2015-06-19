@@ -53,21 +53,6 @@
     position: relative;
 }
 
-.users-page .approval_flow_wrap .approval_table td {
-    // line-height: 50px;
-    // padding: 0;
-    // width: 25%;
-}
-
-.users-page .approval_flow_wrap .title_table th {
-    // line-height: 50px;
-    // width: 25% !important;
-}
-
-.users-page .wrap_table > div:nth-child(odd) .title_table {
-    padding: 0;
-}
-
 
 
 
@@ -872,37 +857,7 @@ input.input {
 }
 
 
-/*DICTIONARIES PAGE*/
 
-.dictionaries-list table {
-    margin-top: 60px;
-}
-
-    .dictionaries-list table tbody tr td {
-        vertical-align: middle;
-        border-bottom: 1px solid #ddd;
-        padding: 50px 10px 50px 0px;
-    }
-
-        .dictionaries-list table tbody tr td:nth-child(1) {
-            width: 60px;
-        }
-
-        .dictionaries-list table tbody tr td:nth-child(2) {
-            width: 200px;
-        }
-
-        .dictionaries-list table tbody tr td:nth-child(4) {
-            width: 50px;
-        }
-
-        .dictionaries-list table tbody tr td:nth-child(1) img {
-            width: 60px;
-            height: 60px;
-            border-radius: 50%;
-        }
-
-/*END OF DICTIONARY PAGE*/
 
 .table th {
     font-family: 'Brandon Grotesque';
