@@ -8704,6 +8704,15 @@ input.error_validation {
 .activies_page .mechanics_list_wrap > li .mechanics_list_wrap_items li a {
   margin-left: 0.66667em;
 }
+/* line 378, ../../dev/pages/activies_page/activies_page.scss */
+.activies_page .mechanics_inside_items {
+  display: inline-block;
+  text-align: center;
+}
+/* line 381, ../../dev/pages/activies_page/activies_page.scss */
+.activies_page .mechanics_inside_items .mechanics_list_wrap_items {
+  text-align: left;
+}
 
 @font-face {
   font-family: 'Brandon Grotesque';

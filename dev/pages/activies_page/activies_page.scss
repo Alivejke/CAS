@@ -375,4 +375,12 @@
         }
     }
 
+    .mechanics_inside_items {
+        display: inline-block;
+        text-align: center;
+        .mechanics_list_wrap_items {
+            text-align: left;
+        }
+    }
+
 }
