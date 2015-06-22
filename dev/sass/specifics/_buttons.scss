@@ -90,6 +90,16 @@
 				background-position: -346px -149px;
 			}
 		}
+		&.ico_archive {
+			background-position: -1229px -68px;
+			@include transition-property(opacity);
+			@include transition-duration(0.3s);
+			@include transition-timing-function(ease-out);
+			&:hover {
+				// background-position: -270px -65px;
+				@include opacity(0.6);
+			}
+		}
 	}
 	&.btn_rounded {
 		border: none;

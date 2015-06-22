@@ -1,6 +1,14 @@
 @import '../../sass/base/__base';
 @import "compass/css3";
 
+.ico_rounded_wrap {
+	position: absolute;
+	right: 0;
+	top: 0;
+	background-color: #fff;
+	z-index: 2;
+}
+
 .news_feed_page {
 	$feeds_name_font-size: 18px;
 	.wrap.wrap_news_feed {
@@ -23,13 +31,13 @@
 		  	position: relative;
 		  	color: $gray-color;
 		  	margin-top: em(40px, $base-font-size);
+		  	overflow: hidden;
 		  	.ico_eye_wrap {
-			  	position: absolute;
-			  	// left: -15%;
-			  	right: 0;
-	  			top: 1.9em;
-	  			background-color: #fff;
-	  			z-index: 2;
+			  	@extend .ico_rounded_wrap;
+			}
+			.ico_archive_wrap {
+				@extend .ico_rounded_wrap;
+				right: 69px;
 			}
 			.line {
 				position: absolute;
@@ -42,6 +50,7 @@
 			}
 			img {
 				display: block;
+				width: 100px;
 	  			float: left;
 			}
 			.name {
