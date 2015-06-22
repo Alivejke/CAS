@@ -12,24 +12,24 @@
     <link rel="shortcut icon" href="/favicon.ico?v=2" />
     <link href='//fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800&subset=latin,cyrillic-ext' rel='stylesheet' type='text/css'>
     
-    <link rel="stylesheet" href="../../css/main.css">
+    <link rel="stylesheet" href="/css/main.css">
     <!--[if lt IE 9]>
         <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
         <script>window.html5 || document.write('<script src="/scripts/vendor/html5shiv.js"><\/script>')</script>
     <![endif]-->
 </head>
-<body class="acces_management_page users-page dictionary-edit-property">
-    <div id="mainarea" class="approval_flow_wrap">
+<body class="dictionary-edit-page">
+    <div id="mainarea">
         <header class="header">
             <div class="wrap">
                 <nav class="navbar navbar-blue" role="navigation">
                     <div class="nav navbar-logo float-left">
-                        <img src="../../img/logo.png" width="120" height="29" alt="" onclick="window.location.href='/'">
+                        <img src="/img/logo.png" width="120" height="29" alt="" onclick="window.location.href='/'">
                     </div>
                             <div class="nav navbar-nav js-navigation_dropdown navigation_dropdown float-right">
                                 <span class="navigation_dropdown_text navigation_ico-big">
                                     &nbsp;
-                                    <img src="/content/img/cas_menu_icon.png" />
+                                    <img src="/img/cas_menu_icon.png" />
                                 </span>
                                 <div class="navigation_dropdown_block">
                                     <div class="navigation_dropdown_block_wrap">
@@ -53,40 +53,58 @@
                                 <a href="/news">News</a>
 
                                     <a href="/isadmin/users">Users</a>
-                                    <a href="/isadmin/accessmanagement">Access management</a>
-                                    <a href="/isadmin/log">Logs</a>
-                                    <a href="/businessadmin/dictionaries">Dictionaries</a>
+                                                                    <a href="/isadmin/accessmanagement">Access management</a>
+                                                                    <a href="/isadmin/log">Logs</a>
+                                                                    <a href="/businessadmin/dictionaries">Dictionaries</a>
                                 <div class="search-btn">
-                                    <a href="/search"><img src="/content/img/cas_menu_search.png" /></a>
+                                    <a href="/search"><img src="/img/cas_menu_search.png" /></a>
                                 </div>
                             </div>
                 </nav>
             </div>
         </header>
         
-        <div class="wrap">
-            <div class="menu_wrap clearfix">
-                
-            </div>
-        </div>
         <section class="content_wrap">
             
 
 <form action="/businessadmin/dictionaries/editproperty/deac76ad-6000-e511-80bc-0050568c233a" class="wrap_table edit_dictionary_property" method="post"><input data-val="true" data-val-required="The Id field is required." id="Id" name="Id" type="hidden" value="deac76ad-6000-e511-80bc-0050568c233a" /><input id="IconId" name="IconId" type="hidden" value="fbf6cd21-0670-4bb5-bb1f-cccd9ed9b334" /><textarea cols="20" data-bind="value: visual" id="IconData" name="IconData" rows="2" style="visibility: hidden; height: 0px; margin: 0; padding: 0; border-width: 0;">
-</textarea>    <div id="validationSummary" class="wrap">
+</textarea>    
+    <div id="validationSummary" class="wrap">
         <span class="field-validation-valid" data-valmsg-for="Name" data-valmsg-replace="true"></span>
     </div>
     <div class="wrap padding-left">
-        <ul class="toolbox_edit_list">
-            <li>
+        <ul class="properties_list">
+            <li class="channel_name">
                 <h2 class="main_title">Channel name</h2>
                 <input class="edit_title" data-val="true" data-val-required="The Name field is required." id="Name" name="Name" type="text" value="NTP" />
             </li>
-            <li>
+            <li class="parameters">
                 <h2 class="main_title">Parameters</h2>
                 <!-- ko foreach: values -->
 
-                <table class="approval_table wrap">
+                <table>
+                    <tr>
+                        <td>
+                            <input type="hidden" data-bind="attr: { name : 'Values[' + index() + '].Id', disabled: isDeleted }, value: id" value="false" />
+                            <input type="text" data-bind="attr: { name : 'Values[' + index() + '].Name' }, value: name" class="input" />
+                            <a class="sprite sprite_ico ico_basket" href="#" data-bind="event: { click: toggleDelete }"></a>
+
+                        </td>
+                    </tr>
+                </table>
+
+                <table>
+                    <tr>
+                        <td>
+                            <input type="hidden" data-bind="attr: { name : 'Values[' + index() + '].Id', disabled: isDeleted }, value: id" value="false" />
+                            <input type="text" data-bind="attr: { name : 'Values[' + index() + '].Name' }, value: name" class="input" />
+                            <a class="sprite sprite_ico ico_basket" href="#" data-bind="event: { click: toggleDelete }"></a>
+
+                        </td>
+                    </tr>
+                </table>
+
+                <table>
                     <tr>
                         <td>
                             <input type="hidden" data-bind="attr: { name : 'Values[' + index() + '].Id', disabled: isDeleted }, value: id" value="false" />
@@ -98,21 +116,20 @@
                 </table>
                 <!-- /ko -->
 
-                <button class="btn btn-default btn-save" type="button" name="SaveDraft" data-bind="event: { click: add }">add value</button>
+                <button class="btn btn-default btn-add" type="button" name="SaveDraft" data-bind="event: { click: add }">add value</button>
             </li>
-            <li>
+            <li class="upload_icon">
                 <h2 class="main_title">Upload icon</h2>
                 <div href="#" class="channel-icon-upload" id="iconPlaceholder">
                     <input type="file" class="custom-fileupload" name="upload" id="icon" data-bind="visible: !uploaded(), event: { change: onFileSelected }" />
                     <img data-bind="attr : { src : visual }, visible : uploaded" alt="">
-                    <button class="btn btn-default btn-upload" type="button" onclick="document.getElementById('icon').click();">
-                        UPLOAD IMAGE
-                    </button>
+                    <button class="btn btn-default btn-upload" type="button" onclick="document.getElementById('icon').click();"></button>
                 </div>
             </li>
         </ul>
     </div>
-    <div class="wrap">
+    <div class="wrap grey-line"></div>
+    <div class="wrap buttons">
         <button class="btn btn-default btn-save" type="submit" name="SaveDraft">save</button>
         <button class="btn btn-default btn-cancel" type="button" data-goto="/businessadmin/dictionaries">cancel</button>
             <button class="btn btn-default btn-delete" type="submit" name="Delete" onclick="return confirm('Are you sure?');">delete</button>
@@ -123,7 +140,7 @@
     <footer class="footer">
         <div class="wrap">
             <a href="#" class="footer_logo float-left">
-                <img src="/content/img/logo_gray.png" width="100" height="22" alt="">
+                <img src="/img/logo_gray.png" width="100" height="22" alt="">
             </a>
             <div class="footer_navigate_wrap float-left">
                 <nav class="footer_navigate nav">
@@ -148,7 +165,7 @@
 
     <div id="LoaderOverlay">
         <div class="loader">
-            <img src="/content/img/loader.gif?v=2" /><br />
+            <img src="/img/loader.gif?v=2" /><br />
             <span class="loader-percents"></span>
         </div>
     </div>

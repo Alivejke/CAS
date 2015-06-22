@@ -1,22 +1,83 @@
 @import '../../sass/base/__base';
 
-.access-management-block .access-management-item {
-    margin-top: 0;
-}
+.dictionary-edit-page{
+    .grey-line{
+        margin: 30px auto 72px;
+    }
+    .content_wrap{
+        margin-top: 86px;
+        .main_title{
+            font-size: 27px;
+            text-transform: initial;
+            margin: 0;
+            font-family: Open Sans;
+            font-weight: 100;
+            letter-spacing: 0px;
+        }
+        .properties_list{
+            .channel_name{
+                margin-top: 10px;
+                input[type="text"]{
+                    width: 311px;
+                    margin-top: 21px;
+                }
+            }
+            .parameters{
+                margin-top: 58px;
+                .main_title{
+                    margin-bottom: 5px;
+                }
+                input[type='text'] {
+                    margin-top: 16px;
+                    margin-bottom: 2px;
+                }
+            }
+            .upload_icon{
+                margin-top: 45px;
+            }
+            .btn-add{
+                margin-top: 43px;
+                width: 121px;
+                height: 41px;
+                font-size: 13px;
+            }
+        }
+        .buttons{
+            .btn{
+                width: 119px;
+                height: 41px;
+                margin-right: 22px;
+            }
+        }
+        .ico_basket {
+            margin-bottom: -8px;
+            margin-left: 11px;
+        }
+        input[type='text'] {
+            width: 173px;
+            padding: 0px 13px;
+            height: 41px;
+            font-size: 13px;
+        }
 
-.acces_management_page .button_table .btn {
-    margin-top: 0;
-}
+        .channel-icon-upload {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            position: relative;
+            margin-bottom: 7px;
+            button {
+                width: 60px;
+                margin-left: 30px;
+                margin-top: 25px;
+                opacity: 0.6;
+                background: #F00;
+                border-radius: 50%;
+                height: 60px;
+                border: none;
+            }
+        }
 
-.wrap_table > div:nth-child(odd) {
-    background: none;
-}
+    }
 
-.edit_dictionary_property input[type='text'] {
-    width: 200px;
-    padding: 0 2%;
-}
-
-.ico_basket {
-    margin-bottom: -10px;
 }
