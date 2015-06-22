@@ -58,20 +58,19 @@ module.exports = function(grunt) {
                     cssDir: '../web/css'
                 }
             },
-
             pages: {
                 options: {
                     sassDir: 'pages',
                     cssDir: '../web/pages'
                 }
+            },
+            globalBuild: {
+                options: {
+                    sassDir: 'sass',
+                    cssDir: '../build/css',
+                    environment: 'production'
+                }
             }
-            // globalBuild: {
-            //     options: {
-            //         sassDir: 'sass',
-            //         cssDir: '../build/css',
-            //         environment: 'production'
-            //     }
-            // },
             // pagesBuild: {
             //     options: {
             //         sassDir: 'pages',
@@ -232,8 +231,8 @@ module.exports = function(grunt) {
         'copy:jsonBuild',
         'copy:img',
         'copy:i',
-        'copy:fonts',
-        'imgo'
+        'copy:fonts'
+      //  'imgo'
     ]);
 
 };

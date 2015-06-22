@@ -1,0 +1,213 @@
+<!doctype html>
+<!--[if IE 8]>         <html class="no-js lt-ie9" lang=""> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js" lang="">
+<!--<![endif]-->
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>NTP</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="/favicon.ico?v=2" />
+    <link href='//fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800&subset=latin,cyrillic-ext' rel='stylesheet' type='text/css'>
+    
+    <link rel="stylesheet" href="/css/main.css">
+    <!--[if lt IE 9]>
+        <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+        <script>window.html5 || document.write('<script src="/scripts/vendor/html5shiv.js"><\/script>')</script>
+    <![endif]-->
+</head>
+<body class="dictionary-edit-page">
+    <div id="mainarea">
+        <header class="header">
+            <div class="wrap">
+                <nav class="navbar navbar-blue" role="navigation">
+                    <div class="nav navbar-logo float-left">
+                        <img src="/img/logo.png" width="120" height="29" alt="" onclick="window.location.href='/'">
+                    </div>
+                            <div class="nav navbar-nav js-navigation_dropdown navigation_dropdown float-right">
+                                <span class="navigation_dropdown_text navigation_ico-big">
+                                    &nbsp;
+                                    <img src="/img/cas_menu_icon.png" />
+                                </span>
+                                <div class="navigation_dropdown_block">
+                                    <div class="navigation_dropdown_block_wrap">
+                                        <ul class="navigation_dropdown_list">
+
+                                            <li>
+                                                <a href="/account/profile">My profile</a>
+                                            </li>
+
+                                            <li>
+                                                <a href="/account/logoff">Log off</a>
+                                            </li>
+                                        </ul>
+
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="menu_navigate nav">
+
+                                <a href="/news">News</a>
+
+                                    <a href="/isadmin/users">Users</a>
+                                                                    <a href="/isadmin/accessmanagement">Access management</a>
+                                                                    <a href="/isadmin/log">Logs</a>
+                                                                    <a href="/businessadmin/dictionaries">Dictionaries</a>
+                                <div class="search-btn">
+                                    <a href="/search"><img src="/img/cas_menu_search.png" /></a>
+                                </div>
+                            </div>
+                </nav>
+            </div>
+        </header>
+        <div class="wrap">
+            <div class="menu_wrap clearfix">                
+                <div class="breadcrumbs">
+                    <ul>
+                        <li data-goto="">DICTIONARIES /</li>
+                        <li class="current-page">CHANNEL</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        
+        <section class="content_wrap">
+            
+
+<form action="/businessadmin/dictionaries/editproperty/deac76ad-6000-e511-80bc-0050568c233a" class="wrap_table edit_dictionary_property" method="post"><input data-val="true" data-val-required="The Id field is required." id="Id" name="Id" type="hidden" value="deac76ad-6000-e511-80bc-0050568c233a" /><input id="IconId" name="IconId" type="hidden" value="fbf6cd21-0670-4bb5-bb1f-cccd9ed9b334" /><textarea cols="20" data-bind="value: visual" id="IconData" name="IconData" rows="2" style="visibility: hidden; height: 0px; margin: 0; padding: 0; border-width: 0;">
+</textarea>    
+    <div id="validationSummary" class="wrap">
+        <span class="field-validation-valid" data-valmsg-for="Name" data-valmsg-replace="true"></span>
+    </div>
+    <div class="wrap padding-left">
+        <ul class="properties_list">
+            <li class="channel_name">
+                <h2 class="main_title">Channel name</h2>
+                <input class="edit_title" data-val="true" data-val-required="The Name field is required." id="Name" name="Name" type="text" value="NTP" />
+            </li>
+            <li class="parameters">
+                <h2 class="main_title">Parameters</h2>
+                <!-- ko foreach: values -->
+
+                <table>
+                    <tr>
+                        <td>
+                            <input type="hidden" data-bind="attr: { name : 'Values[' + index() + '].Id', disabled: isDeleted }, value: id" value="false" />
+                            <input type="text" data-bind="attr: { name : 'Values[' + index() + '].Name' }, value: name" class="input" />
+                            <a class="sprite sprite_ico ico_basket" href="#" data-bind="event: { click: toggleDelete }"></a>
+
+                        </td>
+                    </tr>
+                </table>
+
+                <table>
+                    <tr>
+                        <td>
+                            <input type="hidden" data-bind="attr: { name : 'Values[' + index() + '].Id', disabled: isDeleted }, value: id" value="false" />
+                            <input type="text" data-bind="attr: { name : 'Values[' + index() + '].Name' }, value: name" class="input" />
+                            <a class="sprite sprite_ico ico_basket" href="#" data-bind="event: { click: toggleDelete }"></a>
+
+                        </td>
+                    </tr>
+                </table>
+
+                <table>
+                    <tr>
+                        <td>
+                            <input type="hidden" data-bind="attr: { name : 'Values[' + index() + '].Id', disabled: isDeleted }, value: id" value="false" />
+                            <input type="text" data-bind="attr: { name : 'Values[' + index() + '].Name' }, value: name" class="input" />
+                            <a class="sprite sprite_ico ico_basket" href="#" data-bind="event: { click: toggleDelete }"></a>
+
+                        </td>
+                    </tr>
+                </table>
+                <!-- /ko -->
+
+                <button class="btn btn-default btn-add" type="button" name="SaveDraft" data-bind="event: { click: add }">add value</button>
+            </li>
+            <li class="upload_icon">
+                <h2 class="main_title">Upload icon</h2>
+                <div href="#" class="channel-icon-upload" id="iconPlaceholder" onclick="document.getElementById('icon').click();">
+                    <input type="file" class="custom-fileupload" name="upload" id="icon" data-bind="visible: !uploaded(), event: { change: onFileSelected }" />
+                    <img data-bind="attr : { src : visual }, visible : uploaded" alt="">
+                    <span class="sprite sprite_ico ico_download_white"></span>
+                </div>
+            </li>
+        </ul>
+    </div>
+    <div class="wrap grey-line"></div>
+    <div class="wrap buttons">
+        <button class="btn btn-default btn-save" type="submit" name="SaveDraft">save</button>
+        <button class="btn btn-default btn-cancel" type="button" data-goto="/businessadmin/dictionaries">cancel</button>
+            <button class="btn btn-default btn-delete" type="submit" name="Delete" onclick="return confirm('Are you sure?');">delete</button>
+    </div>
+</form>
+        </section>
+    </div>
+    <footer class="footer">
+        <div class="wrap">
+            <a href="#" class="footer_logo float-left">
+                <img src="/img/logo_gray.png" width="100" height="22" alt="">
+            </a>
+            <div class="footer_navigate_wrap float-left">
+                <nav class="footer_navigate nav">
+                    <a href="/">Главная</a>
+                    
+                </nav>
+                <div class="footer_copyright">
+                    © 2002-2014 Philip Morris International Management SA
+                </div>
+            </div>
+            <div class="clear"></div>
+        </div>
+    </footer>
+
+    <div class="js-popup popup">
+        <div class="js-popup-close popup_overlay"></div>
+        <div class="popup_box">
+            <h1>hello</h1>
+            <img src="">
+        </div>
+    </div>
+
+    <div id="LoaderOverlay">
+        <div class="loader">
+            <img src="/img/loader.gif?v=2" /><br />
+            <span class="loader-percents"></span>
+        </div>
+    </div>
+    <script src="/bundles/jquery?v=CpvbKQ7pkbnbZxWv64nYQEOeJlRJx9V8aTbDRh531jo1"></script>
+
+    <script src="/bundles/jqueryval?v=sTM6z75i3uDpVeh__Zai1IpnDnqY9pO-TNy0Ztaw6Y81"></script>
+
+    <script src="/bundles/msajax?v=5tqVdsYZPNvN_lyOiLwx3h1MMuv5DrbKZsxaIuSDILM1"></script>
+
+    
+    <script src="/bundles/ko?v=yotrpQRIlYHB2DUWZeGBFubasoQ9wBuTfwm2IdYuNC41"></script>
+
+    
+    <script src="/scripts/models/DictionaryPropertyModel.js"></script>
+    <script>
+        var values = [{"Id":"dfac76ad-6000-e511-80bc-0050568c233a","Order":0,"Name":"Beach","IsChecked":false},{"Id":"e0ac76ad-6000-e511-80bc-0050568c233a","Order":0,"Name":"Park","IsChecked":false},{"Id":"e1ac76ad-6000-e511-80bc-0050568c233a","Order":0,"Name":"Car parking","IsChecked":false},{"Id":"274411b4-580f-e511-80bc-0050568c233a","Order":0,"Name":"Car wash","IsChecked":false},{"Id":"284411b4-580f-e511-80bc-0050568c233a","Order":0,"Name":"Airport","IsChecked":false},{"Id":"294411b4-580f-e511-80bc-0050568c233a","Order":0,"Name":"Railway station","IsChecked":false},{"Id":"2a4411b4-580f-e511-80bc-0050568c233a","Order":0,"Name":"Bus station","IsChecked":false},{"Id":"2b4411b4-580f-e511-80bc-0050568c233a","Order":0,"Name":"Business centre","IsChecked":false},{"Id":"2c4411b4-580f-e511-80bc-0050568c233a","Order":0,"Name":"Metro","IsChecked":false},{"Id":"2d4411b4-580f-e511-80bc-0050568c233a","Order":0,"Name":"Shopping mall","IsChecked":false},{"Id":"2e4411b4-580f-e511-80bc-0050568c233a","Order":0,"Name":"Fabrics","IsChecked":false},{"Id":"2f4411b4-580f-e511-80bc-0050568c233a","Order":0,"Name":"Embankment ","IsChecked":false},{"Id":"304411b4-580f-e511-80bc-0050568c233a","Order":0,"Name":"Pedestrian area","IsChecked":false},{"Id":"314411b4-580f-e511-80bc-0050568c233a","Order":0,"Name":"Port","IsChecked":false},{"Id":"1846f484-590f-e511-80bc-0050568c233a","Order":0,"Name":"Resthouse","IsChecked":false}];
+        DictionaryPropertyModel.init(values, '/assets/image/fbf6cd21-0670-4bb5-bb1f-cccd9ed9b334');
+        ko.applyBindings(DictionaryPropertyModel, $("#mainarea")['0']);
+    </script>
+
+    <script src="/scripts/vendor/jquery-ui.min.js"></script>
+    <script src="/scripts/vendor/lodash.min.js"></script>
+    <script src="/scripts/vendor/fileuploader.js"></script>
+    
+    <script src="/scripts/vendor/select2.min.js"></script>
+    <script src="/scripts/vendor/moment.js"></script>
+    <script src="/scripts/vendor/datepicker.js"></script>
+    <script src="/scripts/vendor/jquery.comiseo.daterangepicker.custom.js"></script>
+    <script src="/scripts/main.js"></script>
+    <script src="/scripts/select.js"></script>
+    <script src="/scripts/datepicker.js"></script>
+    <script src="/scripts/additional.js"></script>
+    <script src="/Scripts/searchForm.js"></script>
+</body>
+</html>
