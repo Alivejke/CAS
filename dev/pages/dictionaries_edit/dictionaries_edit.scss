@@ -1,0 +1,22 @@
+@import '../../sass/base/__base';
+
+.access-management-block .access-management-item {
+    margin-top: 0;
+}
+
+.acces_management_page .button_table .btn {
+    margin-top: 0;
+}
+
+.wrap_table > div:nth-child(odd) {
+    background: none;
+}
+
+.edit_dictionary_property input[type='text'] {
+    width: 200px;
+    padding: 0 2%;
+}
+
+.ico_basket {
+    margin-bottom: -10px;
+}
