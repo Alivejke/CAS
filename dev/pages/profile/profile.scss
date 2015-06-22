@@ -62,8 +62,8 @@
 		position: relative;
 		left: flex(-40px, $profile_description-width);
 		overflow: hidden;
-		font-size: em(13px);
-		margin-top: em(20px, 13px);
+		font-size: 1em;
+		margin-top: 0;
 		li {
 			float: left;
 			width: flex(106px, $profile_description-width);

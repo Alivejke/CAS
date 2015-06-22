@@ -221,7 +221,7 @@ module.exports = function(grunt) {
         }
     });
 
-    grunt.registerTask('default', ['copy', 'compass', 'connect', 'watch']);
+    grunt.registerTask('default', ['copy','concat:js','compass', 'connect', 'watch']);
     grunt.registerTask('build', [
         'compass', 
         'copy'

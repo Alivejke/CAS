@@ -167,3 +167,162 @@ textarea {
 	height: 1px;
 	background: #CBCCCD;
 }
+
+.custom-fileupload {
+    position: absolute;
+    right: 9999px;
+}
+
+#LoaderOverlay {
+    background: rgba(300, 300, 300, 0.9);
+    width: 100%;
+    height: 100%;
+    z-index: 2000;
+    top: 0;
+    left: 0;
+    position: fixed;
+    cursor: progress;
+    display: none;
+    .loader {
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        width: 300px;
+        height: 200px;
+        margin-left: -150px;
+        margin-top: -100px;
+        text-align: center;
+        z-index: 3000;
+        -webkit-user-select: none;
+        -khtml-user-select: none;
+        -moz-user-select: none;
+        -o-user-select: none;
+        user-select: none;
+        img {
+            width: 100px;
+            height: 100px;
+        }
+
+        span {
+            font-size: 1.5em;
+            color: #555;
+        }
+    }
+}
+
+.act-image-box {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: inline-block;
+    vertical-align: top;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.tutorials-other-format {
+    display: inline-block;
+    vertical-align: top;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background: #999;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.icon.no-hover {
+    border: 0 !important;
+    cursor: default !important;
+}
+
+
+.tutorials-list .brand_news, .dictionaries-list .brand_news, .users-page .brand_news{
+    padding: 0;
+    border-top-width: 0px;
+}
+
+.tutorials-list .tutorial-search-input {
+    cursor: text;
+    padding: 0 10px 0 35px;
+}
+
+.tutorials-list .tutorial-search-icon {
+    position: absolute;
+    left: 9px;
+    top: 9px;
+    background-image: url(/content/img/search_icon.png);
+    background-size: 135%;
+    background-position: -4px -3px;
+    width: 22px;
+    height: 22px;
+}
+
+.tutorials-view .activities_changes_approval .document {
+    margin-top: 0;
+}
+
+.tutorials-view .img_circle.img_circle-default img {
+    display: inline;
+}
+
+.tutorials-view .img_circle img.img_circle_side_pack {
+    top: 0;
+    left: 0;
+}
+
+.table th {
+    font-family: 'Brandon Grotesque';
+    font-weight: 600;
+    text-align: left;
+    text-transform: uppercase;
+    padding: 0 0.33em;
+    font-size: 1em;
+    line-height: 1.3em;
+    color: #5f676f;
+}
+
+#validationSummary {
+    border: 1px solid #999;
+    width: 740px;
+    padding: 1em;
+    margin-top: 1em;
+    border-left: 4px solid #e00000 !important;
+    display: none;
+}
+
+#warningsSummary {
+    border: 1px solid #ff6a00;
+    width: 740px;
+    padding: 1em;
+    margin-top: 1em;
+    border-left: 4px solid #ff6a00 !important;
+}
+
+#successSummary {
+    border: 1px solid #4cff00;
+    width: 740px;
+    padding: 1em;
+    margin-top: 1em;
+    border-left: 4px solid #4cff00 !important;
+    span {
+    	color: #000;
+	}
+}
+
+.field-validation-error, #warningsSummary span, #successSummary span {
+    color: #cd0a0a;
+    font-size: 1em;
+    line-height: 1.4em;
+    display: list-item;
+    margin-left: 1em;
+}
+
+.search-btn {
+    float: right;
+}
+
+.brand-activities .main_title {
+    margin: 2.5em 0 0 0;
+}

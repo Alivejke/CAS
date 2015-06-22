@@ -99,8 +99,8 @@ $main_menu_item-width-hover: 367px;
 	}
 	&.main_menu_big {
 		text-align: left;
-		left: em(45px, $base-font-size);
-		margin-top: em(80px, $base-font-size);
+		left: 0;
+		margin-top: 3em;
 
 		@media (max-width: 768px) {
 			left: 1.4em;

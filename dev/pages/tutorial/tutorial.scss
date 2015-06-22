@@ -2,6 +2,27 @@
 @import "compass/css3";
 
 .tutorial_page {
+
+    .block .icon_wrap .icon {
+        width: 73px;
+        height: 73px;
+        text-align: center;
+        line-height: 73px;
+        img {
+            border-radius: 50%;
+        }
+    }
+
+    .brand_news .btn_wrap {
+        bottom: auto;
+        top: -25px;
+    }
+
+    .btn.btn_big_rounded .ico_upload {
+        left: -7px;
+    }
+
+
     .main_title_actives {
         margin-bottom: em(120px, $main_title-font-size);
     }
