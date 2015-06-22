@@ -19,6 +19,7 @@
 	}
 	.wrap.wrap_news_feed {
 		margin-bottom: em(60px, $base-font-size);
+		margin-top: em(58px);
 		// padding: 0 0 0 em($base-margin)*2;
 
 		@media (max-width: 768px) {
