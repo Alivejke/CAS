@@ -1,8 +1,22 @@
 @import '../../sass/base/__base';
 @import "compass/css3";
 
+.ico_rounded_wrap {
+	position: absolute;
+	right: 0;
+	top: 0;
+	background-color: #fff;
+	z-index: 2;
+}
+
 .approval_flow_list_page {
 	$feeds_name_font-size: 18px;
+	#mainarea {
+		padding-bottom: em(58px);
+	}
+	.content_wrap {
+		margin-bottom: 0;
+	}
 	.wrap.wrap_news_feed {
 		margin-bottom: em(60px, $base-font-size);
 		// padding: 0 0 0 em($base-margin)*2;
@@ -23,13 +37,14 @@
 		  	position: relative;
 		  	color: $gray-color;
 		  	margin-top: em(40px, $base-font-size);
+		  	overflow: hidden;
 		  	.ico_eye_wrap {
-			  	position: absolute;
-			  	// left: -15%;
-			  	right: 0;
-	  			top: 1.9em;
-	  			background-color: #fff;
-	  			z-index: 2;
+			  	@extend .ico_rounded_wrap;
+			}
+			.ico_archive_wrap {
+				@extend .ico_rounded_wrap;
+				right: 69px;
+				@include border-radius(100%);
 			}
 			.line {
 				position: absolute;
@@ -98,6 +113,14 @@
 		.ico_eye {
 			width: 100%;
 			height: 100%;
+		}
+	}
+
+	.archive_wrap {
+		background-color: #f9f9fb;
+		padding: em(54px) 0 em(228px);
+		.wrap.wrap_news_feed {
+			margin-bottom: 0;
 		}
 	}
 }
