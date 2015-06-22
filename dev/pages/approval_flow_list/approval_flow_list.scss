@@ -5,7 +5,7 @@
 	$feeds_name_font-size: 18px;
 	.wrap.wrap_news_feed {
 		margin-bottom: em(60px, $base-font-size);
-		padding: 0 0 0 em($base-margin)*2;
+		// padding: 0 0 0 em($base-margin)*2;
 
 		@media (max-width: 768px) {
 	        margin-bottom: 0;
@@ -25,10 +25,11 @@
 		  	margin-top: em(40px, $base-font-size);
 		  	.ico_eye_wrap {
 			  	position: absolute;
-			  	left: -15%;
+			  	// left: -15%;
+			  	right: 0;
 	  			top: 1.9em;
-	  			 background-color: #fff;
-	  			 z-index: 2;
+	  			background-color: #fff;
+	  			z-index: 2;
 			}
 			.line {
 				position: absolute;

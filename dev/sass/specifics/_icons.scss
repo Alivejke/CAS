@@ -12,6 +12,18 @@
 	height: 20px;
 }
 
+.ico_output_warning {
+	background-position: -880px -160px;
+	width: 23px;
+	height: 20px;
+}
+
+.ico_output_succes {
+	background-position: -920px -160px;
+	width: 20px;
+	height: 20px;
+}
+
 .ico_star {
 	background-position: -79px 1px;
 	width: 18px;
@@ -22,6 +34,12 @@
 	&:active {
 		background-position: -80px -80px;
 	}
+}
+
+.ico_output_info_big {
+	background-position: -960px -160px;
+	width: 31px;
+	height: 31px;
 }
 
 .ico_basket {
