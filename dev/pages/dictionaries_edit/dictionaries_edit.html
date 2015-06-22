@@ -63,6 +63,16 @@
                 </nav>
             </div>
         </header>
+        <div class="wrap">
+            <div class="menu_wrap clearfix">                
+                <div class="breadcrumbs">
+                    <ul>
+                        <li data-goto="">DICTIONARIES /</li>
+                        <li class="current-page">CHANNEL</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
         
         <section class="content_wrap">
             
@@ -120,10 +130,10 @@
             </li>
             <li class="upload_icon">
                 <h2 class="main_title">Upload icon</h2>
-                <div href="#" class="channel-icon-upload" id="iconPlaceholder">
+                <div href="#" class="channel-icon-upload" id="iconPlaceholder" onclick="document.getElementById('icon').click();">
                     <input type="file" class="custom-fileupload" name="upload" id="icon" data-bind="visible: !uploaded(), event: { change: onFileSelected }" />
                     <img data-bind="attr : { src : visual }, visible : uploaded" alt="">
-                    <button class="btn btn-default btn-upload" type="button" onclick="document.getElementById('icon').click();"></button>
+                    <span class="sprite sprite_ico ico_download_white"></span>
                 </div>
             </li>
         </ul>

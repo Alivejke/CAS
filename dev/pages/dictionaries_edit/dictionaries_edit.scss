@@ -5,7 +5,7 @@
         margin: 30px auto 72px;
     }
     .content_wrap{
-        margin-top: 86px;
+        margin-top: 31px;
         .main_title{
             font-size: 27px;
             text-transform: initial;
@@ -61,20 +61,21 @@
         }
 
         .channel-icon-upload {
-            width: 100px;
-            height: 100px;
-            border-radius: 50%;
+            width: 60px;
+            height: 60px;
             position: relative;
             margin-bottom: 7px;
-            button {
-                width: 60px;
-                margin-left: 30px;
-                margin-top: 25px;
-                opacity: 0.6;
-                background: #F00;
-                border-radius: 50%;
-                height: 60px;
-                border: none;
+            background: url(/img/tutor-1.png) no-repeat;
+            background-size: cover;
+            cursor: pointer;
+            margin: 25px 10px 22px 33px;
+            .ico_download_white{
+                position: absolute;
+                top: 0;
+                bottom: 0;
+                left: 0;
+                right: 0;
+                margin: auto;
             }
         }
 
