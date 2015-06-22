@@ -63,14 +63,14 @@ module.exports = function(grunt) {
                     sassDir: 'pages',
                     cssDir: '../web/pages'
                 }
-            },
-            globalBuild: {
-                options: {
-                    sassDir: 'sass',
-                    cssDir: '../build/css',
-                    environment: 'production'
-                }
             }
+            // globalBuild: {
+            //     options: {
+            //         sassDir: 'sass',
+            //         cssDir: '../build/css',
+            //         environment: 'production'
+            //     }
+            // }
             // pagesBuild: {
             //     options: {
             //         sassDir: 'pages',
@@ -87,12 +87,12 @@ module.exports = function(grunt) {
                 src: 'pages/**/*.html',
                 dest: '../web/'
             },
-            htmlBuild: {
-                expand: true,
-                cwd: '',
-                src: 'pages/**/*.html',
-                dest: '../build/'
-            },
+            // htmlBuild: {
+            //     expand: true,
+            //     cwd: '',
+            //     src: 'pages/**/*.html',
+            //     dest: '../build/'
+            // },
             img: {
                 expand: true,
                 cwd: 'img/',
@@ -111,12 +111,12 @@ module.exports = function(grunt) {
                 src: '*',
                 dest: '../web/fonts/'
             },
-            fontsBuild: {
-                expand: true,
-                cwd: 'fonts/',
-                src: '*',
-                dest: '../build/fonts/'
-            },
+            // fontsBuild: {
+            //     expand: true,
+            //     cwd: 'fonts/',
+            //     src: '*',
+            //     dest: '../build/fonts/'
+            // },
             jsvendor: {
                 expand: true,
                 cwd: 'js/vendor',
@@ -129,12 +129,12 @@ module.exports = function(grunt) {
                 src: '*',
                 dest: '../web/'
             },
-            jsonBuild: {
-                expand: true,
-                cwd: 'json/',
-                src: '*',
-                dest: '../build/'
-            },
+            // jsonBuild: {
+            //     expand: true,
+            //     cwd: 'json/',
+            //     src: '*',
+            //     dest: '../build/'
+            // },
             jspages: {
                 expand: true,
                 cwd: '',
@@ -221,18 +221,19 @@ module.exports = function(grunt) {
         }
     });
 
-    grunt.registerTask('default', ['connect', 'watch']);
+    grunt.registerTask('default', ['copy', 'compass', 'connect', 'watch']);
     grunt.registerTask('build', [
-        'compass:globalBuild', 
-        'uglify:jsBuild', 
-        'uglify:jsVendorBuild', 
-        'copy:htmlBuild', 
-        'copy:fontsBuild', 
-        'copy:jsonBuild',
-        'copy:img',
-        'copy:i',
-        'copy:fonts'
-      //  'imgo'
+        'compass', 
+        'copy'
+        // 'uglify:jsBuild', 
+        // 'uglify:jsVendorBuild', 
+        // 'copy:htmlBuild', 
+        // 'copy:fontsBuild', 
+        // 'copy:jsonBuild',
+        // 'copy:img',
+        // 'copy:i',
+        // 'copy:fonts'
+        // 'imgo'
     ]);
 
 };
