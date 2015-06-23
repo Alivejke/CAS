@@ -1,6 +1,6 @@
 .brand_news {
 	position: relative;
-	padding: em(90px, $base-font-size) 0 em(100px, $base-font-size) 0;
+	padding: 4em 0 4em 0;
 	border-top: 1px solid #cecfd0;
 	border-bottom: 1px solid #cecfd0;
 	.btn_circle {
@@ -21,6 +21,7 @@
 				color: $gray-color;
 				color: #909294;
 				letter-spacing: 1px;
+				text-align: justify;
 			}
 			.brand_news_title {
 				margin-bottom: em(28px, $main_title-font-size);
@@ -136,7 +137,7 @@
 		}
 	}
 	.brand_news_list {
-		width: flex(460px, $base-width-content);
+		width: 100%;
 		.btn {
 			margin-top: em(60px, $base-font-size);
 			&.btn_small {

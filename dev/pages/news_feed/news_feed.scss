@@ -12,6 +12,9 @@
 
 .news_feed_page {
 	$feeds_name_font-size: 18px;
+	.calendar_to{
+		margin-left: 0;
+	}
 	.wrap.wrap_news_feed {
 		margin-bottom: em(60px, $base-font-size);
 		// padding: 0 0 0 em($base-margin)*2;
@@ -41,13 +44,17 @@
 				right: 69px;
 			}
 			.line {
-				position: absolute;
-	 	 		left: -10000%;
-	 	 		top: 3.2em;
-	 	 		width: 10000%;
-	 	 		height: 1px;
-	 	 		background: #cecfd0;
-	 	 		z-index: 1;
+				// position: absolute;
+	 	 // 		left: -10000%;
+	 	 // 		top: 3.2em;
+	 	 // 		width: 10000%;
+	 	 // 		height: 1px;
+	 	 // 		background: #cecfd0;
+	 	 // 		z-index: 1;
+
+				// left: -68px;
+				// top: 50px;
+				// width: 68px;
 			}
 			img {
 				display: block;

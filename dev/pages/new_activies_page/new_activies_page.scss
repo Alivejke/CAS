@@ -88,6 +88,8 @@
                         display: block;
                         padding: em(5px, $base-font-size) 0;
                         text-decoration: none;
+                        cursor: default;
+                        color: #777;
                         &:before {
                             content: '';
                             width: 4px;
@@ -202,8 +204,10 @@
                 padding: em(50px, $base-font-size) 0;
                 border-top: 1px solid #cecfd0;
                 border-bottom: 1px solid #cecfd0;
+                padding-top: 5px;
+                border-top-width: 0px;
                 button.btn.btn-default {
-                    width: flex(200px, $base-width-content);
+                    width: 20%;
                     overflow: hidden;
                 }
                 button.btn.btn-default.center {
@@ -225,6 +229,8 @@
                 }
                 .select_wrap  {
                     width: flex(355px, $base-width-content);
+                    float: left;
+                    margin-right: 5px;
                     .select2-container {
                         .select2-selection--single {
                             .select2-selection__rendered {
@@ -303,7 +309,7 @@
     .wrap_blocks {
         .main_title {
             &.main_title_actives {
-                margin-top: em(122px, $main_title-font-size);
+                margin-top: 2em;
             }
         }
     }
@@ -332,6 +338,10 @@
             }
             &.error_validation {
                 border-color: #b70e12;
+            }
+            &[contenteditable] {
+                padding: 8px 10px 7px 10px;
+                border: 1px solid #cbcccd;
             }
         }
     }

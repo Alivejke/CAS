@@ -1,15 +1,18 @@
 .btn {
-	font-size: em($btn-font-size, $base-font-size);
-	display: inline-block;
-	background-color: transparent;
-	cursor: pointer;
-	font-family: 'Brandon Grotesque';
-	font-weight: 600;
-	text-transform: uppercase;
-	vertical-align: middle;
-	overflow: hidden;
-	color: #8F9BA3;
-	text-decoration: none;
+	font-size: 0.8em;
+    display: inline-block;
+    background-color: transparent;
+    cursor: pointer;
+    font-family: 'Brandon Grotesque';
+    font-weight: 600;
+    text-transform: uppercase;
+    vertical-align: middle;
+    overflow: hidden;
+    color: #666;
+    text-decoration: none;
+    &.btn_inactive {
+    	cursor: pointer;
+	}
 	&.btn_select {
 		position: relative;
 		width: 100%;
@@ -123,7 +126,7 @@
 		@include border-radius(30px);
 		// width: 218px;
 		width: 100%;
-		height: em(50px, $btn-font-size);
+		height: 3em;
 		line-height: em(42px, $btn-font-size);
 		// color: #909294;
 		// color: $gray-color;
@@ -172,16 +175,16 @@
 			left: -17px;
 		}
 		.ico_add {
-			position: relative;
-			top: em(5px, $btn-font-size);
-			left: -17px;
+		    position: relative;
+		    top: 2px;
+		    left: 0;
 		}
 	}
 	&.btn-default {
-		width: flex(146px, $base-width-content);
-		height: em(41px, $btn-font-size);
+		width: 20%;
+		height: 3em;
+		border: 1px solid #ccc;
 		line-height: em(41px, $btn-font-size);
-		border: 1px solid #dedfdf;
 		@include transition-property(background-color, color);
 		@include transition-duration(0.3s);
 		@include transition-timing-function(ease-out);

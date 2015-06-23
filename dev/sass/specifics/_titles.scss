@@ -17,13 +17,12 @@
 	line-height: 1;
 	color: #323a45;
 	text-transform: uppercase;
-	margin: 0 0 0 2px;
+	margin: 1em 0 0 0;
 	font-weight: 600;
 	&.main_title_actives {
-		font-size: em($main_title-font-size, $base-font-size);
-		width: flex(400px, $base-width-content);
-		margin-top: em(60px, $main_title-font-size);
-
+	    font-size: 1.8em;
+	    width: 100%;
+	    margin-top: 1.5em;
 		@media (max-width: 768px) {
 			width: 100%;
 		}
@@ -86,6 +85,7 @@
 	width: flex(280px, $base-width-content);
 	text-align: center;
 	margin: em(80px, 45px) auto em(120px, 45px);
+	margin-top: 1em;
 }
 
 .popup_title {

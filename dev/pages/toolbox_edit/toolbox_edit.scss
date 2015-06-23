@@ -1,8 +1,20 @@
 @import '../../sass/base/__base';
 
 .toolbox_edit_page {
+	.toolbox_edit_approver{
+		float: left;
+		margin-right: 5px;
+	}
+	.block_options_draft {
+	    padding-top: 5px;
+	    padding: 3.33333em 0;
+	    border-bottom: 1px solid #cecfd0;
+	}
 	.toolbox_edit_btn_wrap {
-		margin-top: em(40px, $base-font-size);
+		margin-top: 0;
+		.btn-delete {
+			margin-left: 0px;
+		}
 		.btn {
 			margin-left: flex(30px, $base-width-content);
 			&:first-child {
@@ -57,14 +69,23 @@
 			}
 		}
 	}
+	.main_title {
+		margin-left: 0;
+	}
 	.toolbox_edit_list {
 		li {
-			border-top: 1px solid #ededee;
+		    margin: 0;
 			padding: em(35px, $base-font-size) 0 0;
-			margin: em(44px, $base-font-size) 0;
+			&:first-child{
+				padding-top: 0;
+			}
 			.main_title {
-				margin: em(7px, $main_title-font-size) 0 em(26px, $main_title-font-size);
+				margin: 1em 0 0em !important;
+				font-size: 1.5em;
 				text-transform: none;
+				&:first-of-type {
+					margin: 0;
+				}
 			}
 			.brand_news_textarea {
 				&.indent-top {
