@@ -5,7 +5,7 @@
 	border-bottom: 1px solid #cecfd0;
 	.btn_circle {
 		position: absolute;
-		top: em(-23px, $btn-font-size);
+		top: -1.6em;
 		background-color: $white-color;
 	}
 	.brand_news_list {
@@ -33,10 +33,10 @@
 	.btn_wrap {
 		width: flex(900px, $base-width);
 		max-width: 740px;
-		height: em(50px, $base-font-size);
+		height: 3em;
 		margin: 0 auto;
 		position: absolute;
-		bottom: em(-28px);
+		bottom: -1.5em;
 		@media (max-width: 960px) {
             width: flex(700px, $base-width);
         }
@@ -57,17 +57,16 @@
 		background-color: #fff;
 		@include border-radius(100%);
 		width: flex(160px, 740px);
-		// width: 11.8em;
-		height: em(50px);
+		height: 3em;
 		position: absolute;
 		bottom: 0;
 		.btn {
 			&.btn_big_rounded {
 				.ico_edit {
-					left: flex(-17px, 218px - 12px);
+					left: 0;
 				}
 				.ico_add {
-					left: flex(-17px, 218px - 12px);
+					left: 0;
 				}
 				.ico_search_gray{
 					position: absolute;
@@ -91,12 +90,12 @@
 		}
 		&.btn_toolbox {
 			// width: flex(170px, $base-width - $base-margin);
-			height: em(53px, $base-font-size);
+			height: 3em;
 			.btn_big_rounded {
 				height: 100%;
-				line-height: em(53px, $btn-font-size);
+				line-height: 3em;
 				.ico_edit, .ico_add, .ico_upload {
-					left: flex(-5px, 170px);
+					left: 0;
 				}
 			}
 		}

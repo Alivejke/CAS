@@ -50,6 +50,7 @@
                     border-color: #cecfd0;
                     background-color: #f8faf9;
                     text-align: center;
+                    min-height: 280px;
                     &.error_validation {
                         border-color: #b70e12;
                     }
@@ -78,7 +79,8 @@
             ul {
                 margin-top: em(-7px);
                 li {
-                    margin: em(14px, $base-font-size) 0;
+                    margin: 20px 0;
+                    padding-left: 80px;
                     a {
                         color: $gray-color;
                         position: relative;
@@ -282,6 +284,11 @@
             }
             img {
                 @include border-radius(100%);
+            }
+            &.img_circle-default{
+                img{
+                    display: block;
+                }
             }
         }
         &:hover {

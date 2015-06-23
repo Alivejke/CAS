@@ -48,7 +48,8 @@
 	position: relative;
 	font-family: 'Brandon Grotesque';
 	position: relative;
-	top: em(-$default_increase-line-height);
+    top: 0;
+    font-size: 0.8em;
 	// &.scroll {
 	// 	position: fixed;
 	// 	top: em(15px, $base-font-size);
@@ -114,10 +115,10 @@
 			content: '';
 			display: inline-block;
 			width: 11px;
-			height: 12px;
+			height: 10px;
 			background: url(/i/sprite.png) 6px -40px no-repeat;
 			vertical-align: -1px;
-			margin: 0 em(5px) 0 em(-6px);
+       		margin: 0 0.4em 0 -0.4em;
 		}
 
 		&:last-child {

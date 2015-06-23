@@ -20,7 +20,7 @@ $navigation_dropdown_list_news-font-size: 11px;
 		display: inline-block;
 		// font-family: 'brandon_grotesquebold';
 		font-family: pragmatica,Helvetica,Arial,sans-serif;
-		font-weight: 300;
+		font-weight: 600;
 		// font-size: em($base-font-size, $base-font-size);
 		font-size: em(11px);
 		color: $white-color;
@@ -44,15 +44,15 @@ $navigation_dropdown_list_news-font-size: 11px;
 .navigation_dropdown {
 	$navigation_dropdown-min-width: flex($dropdown_btn-width, $base-width-content-one);
 	position: relative;
-	// min-width: $navigation_dropdown-min-width;
-	// height: em(65px, $base-font-size);
 	color: $white-color;
-	background-color: #7e8890;
+	background: none;
+	min-width: auto;
+
 	@include transition-property(background-color, color);
 	@include transition-duration(0.3s);
 	@include transition-timing-function(ease-out);
 	border: none;
-	padding: 0px flex(39px, $base-width-content);
+	padding: 0;
 	cursor: pointer;
 	max-height: em(65px);
 	margin: 0 2px 0 -1px;
@@ -62,7 +62,8 @@ $navigation_dropdown_list_news-font-size: 11px;
 	}
 	&.active {
 		background-color: $white-color;
-		color: #778890;
+	    background-color: #0f3e6e;
+	    color: #778890;
 		.caret {
 			// border-top: none;
 			// border-bottom: 4px dashed #778890;
@@ -83,8 +84,7 @@ $navigation_dropdown_list_news-font-size: 11px;
 		}
 	}
 	&:hover {
-		background-color: #bec3c7;
-		
+		background: none;
 	}
 
 	// @media (max-width: 768px) {
@@ -93,13 +93,13 @@ $navigation_dropdown_list_news-font-size: 11px;
 }
 
 .navigation_dropdown_text {
-	font-family: 'Brandon Grotesque';
-	font-weight: 800;
-	font-size: em(10px, $base-font-size);
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: normal;
+	font-size: 1em;
 	letter-spacing: 1px;
 	text-transform: uppercase;
 	position: relative;
-
+	float: right;
 	&.navigation_ico-big {
 		&:before {
 			background-position: 0 -80px;
@@ -109,14 +109,14 @@ $navigation_dropdown_list_news-font-size: 11px;
 		}
 	}
 	&:before {
-		content: '';
-		display: inline-block;
-		width: 19px;
-		height: 20px;
-		background: url(../i/sprite.png) 0px 0px no-repeat;
-		position: absolute;
-		top: -6px;
-		left: -25px;
+		// content: '';
+		// display: inline-block;
+		// width: 19px;
+		// height: 20px;
+		// background: url(../i/sprite.png) 0px 0px no-repeat;
+		// position: absolute;
+		// top: -6px;
+		// left: -25px;
 	}
 	&:after {
 		content: '';
@@ -171,12 +171,15 @@ $navigation_dropdown_list_news-font-size: 11px;
 
 .navigation_dropdown_list {
 	position: relative;
-	left: flex(-30px, $dropdown-width);
+	left: 150px;
 	overflow: hidden;
 	padding: 0 em(35px);
 	> li {
 		float: left;
 		margin-left: flex(30px, $dropdown-width);
+		&:hover a {
+    		color: #45484C;
+		}
 		a {
 			font-size: em(12px);
 			color: #cdd1d3;

@@ -273,8 +273,10 @@
             }
 
             .brand_news_title {
-                font-size: em($base-font-size, $base-font-size);
-                width: flex(230px, 253px);
+                font-size: 1em;
+                width: 90%;
+                line-height: 1.5em;
+                margin-top: 0.5em;
             }
             .manage {
                 @media (max-width: 768px) {
