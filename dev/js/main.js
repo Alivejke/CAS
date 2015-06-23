@@ -36,7 +36,7 @@ $(document).ready(function() {
                 removeScroll();
             }
         } else {
-            if ( body > 78 ) {
+            if ( body > 65 ) {
                 addScroll();
             } else {
                 removeScroll();
