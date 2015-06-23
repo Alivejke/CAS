@@ -43,20 +43,20 @@ $(function () {
         });
     }
 
-    $btnSelect.on('click', function () {
-        var $this = $(this),
-            $searchWrap = $this.closest('.search_block_wrapper').next('.content_wrap.bg_gray').find('.js-form_search-wrap'),
-            searchBlockHeight = $searchWrap.find('.search_block_wrap').outerHeight();
+    // $btnSelect.on('click', function () {
+    //     var $this = $(this),
+    //         $searchWrap = $this.closest('.search_block_wrapper').next('.content_wrap.bg_gray').find('.js-form_search-wrap'),
+    //         searchBlockHeight = $searchWrap.find('.search_block_wrap').outerHeight();
 
-        $this.toggleClass('active');
-        $search.toggleClass('active');
+    //     $this.toggleClass('active');
+    //     $search.toggleClass('active');
 
-        if ($this.hasClass('active')) {
-            animateSearchWrap($searchWrap, searchBlockHeight);
-        } else {
-            animateSearchWrap($searchWrap, -baseIndentValue - 70);
-        }
-    });
+    //     if ($this.hasClass('active')) {
+    //         animateSearchWrap($searchWrap, searchBlockHeight);
+    //     } else {
+    //         animateSearchWrap($searchWrap, -baseIndentValue - 70);
+    //     }
+    // });
 
     $(".image-viewer").on("click", function () {
         var url = $(this).data().url;

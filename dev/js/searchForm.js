@@ -1,29 +1,31 @@
-function animateSearchBlock() {
-    $searchBlock.animate({
-        height: searchBlockHeight
-    }, speed, function () {
-        $searchBlockWrapper.find('.js-tabs_content').animate({
-            height: searchBlockHeight + baseIndentValue
-        });
-        animationBlock = false;
-    });
-}
-
-function animateSearchWrap(searchField, blockHeight) {
-    searchField.animate({
-        height: blockHeight + baseIndentValue + 70
-    }, speed, function () {
-        animationBlock = false;
-    });
-}
-
-var $search = $('.js_search');
 $(function () {
+    var $search = $('.js_search');
+
+    function animateSearchBlock() {
+        $searchBlock.animate({
+            height: searchBlockHeight
+        }, speed, function () {
+            $searchBlockWrapper.find('.js-tabs_content').animate({
+                height: searchBlockHeight + baseIndentValue
+            });
+            animationBlock = false;
+        });
+    }
+
+    function animateSearchWrap(searchField, blockHeight) {
+        searchField.animate({
+            height: blockHeight + baseIndentValue + 70
+        }, speed, function () {
+            animationBlock = false;
+        });
+    }
+
     if ($search && $search.length > 0) {
 
         var $activitiesSearch = $('.js-activities-search'),
             $searchBlockWrapper = $('.search_block_wrapper'),
-            $searchBlock = $searchBlockWrapper.find('.js-tabs_content li.active'),            
+            $searchBlock = $searchBlockWrapper.find('.js-tabs_content li.active'),
+            $btnSelect = $('.js-btn_select'),    
             searchBlockHeight = $searchBlock.outerHeight(),
             speed = 500,
             speedFast = 300,

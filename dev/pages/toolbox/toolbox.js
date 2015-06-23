@@ -61,18 +61,18 @@ $(document).ready(function() {
 		// 	}, speedFast);
 		// }
 
-		$this.toggleClass('active');
-		$btnSelect.toggleClass('active');
+		// $this.toggleClass('active');
+		// $btnSelect.toggleClass('active');
 
-		$('body').animate({
-			scrollTop: $searchBlockWrapper.offset().top
-		}, speedFast, function () {
-			if( $this.hasClass('active') ) {
-				animateSearchWrap ($searchWrap, searchBlockHeight);
-			} else {
-				animateSearchWrap ($searchWrap, -baseIndentValue);
-			}
-		});
+		// $('body').animate({
+		// 	scrollTop: $searchBlockWrapper.offset().top
+		// }, speedFast, function () {
+		// 	if( $this.hasClass('active') ) {
+		// 		animateSearchWrap ($searchWrap, searchBlockHeight);
+		// 	} else {
+		// 		animateSearchWrap ($searchWrap, -baseIndentValue);
+		// 	}
+		// });
 
 	});
 
