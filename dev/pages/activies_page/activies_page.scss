@@ -57,8 +57,10 @@
             // height: em(283px, $base-font-size);
         }
         .channel {
-            width: flex(320px, $base-width);
+            width: 33.33333%;
             float: left;
+            font-family: Arial,Helvetica,sans-serif;
+            font-weight: normal;
 
             .icon {
                 margin: 0px auto;
@@ -77,12 +79,13 @@
             ul {
                 li {
                     a {
-                        color: #A9ADB0;
                         position: relative;
                         margin-left: flex(90px, 246px);
                         display: block;
                         padding: em(5px, $base-font-size) 0;
                         text-decoration: none;
+                        cursor: default;
+                        color: #777;
                         &:before {
                             content: '';
                             width: 4px;
@@ -134,6 +137,9 @@
                 margin-top: em(60px, $base-font-size);
                 &:nth-child(2n) {
                     margin-left: flex(21px, 346px);
+                }
+                textarea {
+                    margin-bottom: 1.3333em;
                 }
                 .icon {
                     width: flex(95px, 450px);
@@ -190,7 +196,7 @@
                 }
                 .ico_download {
                     cursor: pointer;
-
+                    margin-top: 1em;
                     @media (max-width: 768px) {
                         margin-top: 5px;
                     }
@@ -217,7 +223,7 @@
     .wrap_blocks {
         .main_title {
             &.main_title_actives {
-                margin-top: em(122px, $main_title-font-size);
+                margin-top: 3em;
             }
         }
     }
@@ -235,7 +241,7 @@
     }
 
     .wrap_blocks {
-        background: #F9F9FB;
+        background: #FFFFFF;
         overflow: hidden;
         margin-bottom: -1.4em;
         width: 100%;
@@ -247,14 +253,14 @@
     }
 
     .document {
-        margin: em(-45px) 0 em(90px);
+        margin: 0em 0 3em;
 
         li {
             float: left;
             width: flex(330px, $base-width-content);
             margin-left: flex(63px, $base-width-content);
             overflow: hidden;
-            margin-top: em(95px);
+            margin-top: 3em;
 
             @media (max-width: 768px) {
                 float: none;
@@ -277,6 +283,7 @@
                 width: 90%;
                 line-height: 1.5em;
                 margin-top: 0.5em;
+                margin-right: 5px;
             }
             .manage {
                 @media (max-width: 768px) {
@@ -290,14 +297,18 @@
                 width: flex(240px, 330px);
                 margin-left: flex(15px, 330px);
                 p {
-                    margin-top: em(20px);
-                    color: #8F979F;
-                    line-height: em($base-font-size + $default_increase-line-height);
+                    margin-top: 0em;
+                    color: #666;
+                    line-height: 1em;
+                    width: 90%;
                 }
                 &.distinction {
                     .brand_news_title {
                         color: $distinction-color;
                     }
+                }
+                .ico_download {
+                    margin-top: 1em;
                 }
             }
         }
@@ -365,12 +376,35 @@
                 @extend .global_name_channels;
                 text-transform: uppercase;
                 text-align: left;
+                color: #333;
+                padding: 1em 0 0.5em;
             }
             .mechanics_list_wrap_items {
                 li {
                     a {
                         @extend .global_name_channels_links;
                         margin-left: em(10px);
+                    }
+                    span{
+                        color: #777;
+                        position: relative;
+                        margin-left: 0.8em;
+                        display: block;
+                        padding: 0.3em 0;
+                        text-decoration: none;
+                        &:before {
+                            content: '';
+                            width: 4px;
+                            height: 4px;
+                            -moz-border-radius: 100%;
+                            -webkit-border-radius: 100%;
+                            border-radius: 100%;
+                            background-color: #7e8890;
+                            position: absolute;
+                            display: block;
+                            left: -0.66667em;
+                            top: 0.66667em;
+                        }
                     }
                 }
             }

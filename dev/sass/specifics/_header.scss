@@ -61,7 +61,6 @@ $navigation_dropdown_list_news-font-size: 11px;
 		min-width: $navigation_dropdown-min-width / 2;	
 	}
 	&.active {
-		background-color: $white-color;
 	    background-color: #0f3e6e;
 	    color: #778890;
 		.caret {

@@ -52,12 +52,13 @@ $select_multiple_default-width: 289px;
 			&.select2-container--default {
 				.select2-selection--single {
 					background-color: transparent;
+					height: 2.4em;
 					.select2-selection__rendered {
-						line-height: em(42px, $base-font-size);
+						line-height: 2.4em;
 					}
 					.select2-selection__arrow {
 						border-left: none;
-						height: em(41px, $base-font-size);
+						line-height: 2.4em;
 					}
 				}
 			}
@@ -93,10 +94,16 @@ $select_multiple_default-width: 289px;
 						float: right;
 						margin: 0 0 0 em(5px, $base-font-size);
 						color: $gray-color;
+						position: relative;
 					}
 					.select2-selection__rendered{
+						position: relative;
 						padding: 0 flex(15px, $select_multiple_default-width) 0 flex(20px, $select_multiple_default-width);
 						margin-bottom: -0.1em;
+						li{
+							max-width: 180px;
+							text-overflow: ellipsis;
+						}
 					}
 				}
 			}
@@ -177,12 +184,11 @@ $select_multiple_default-width: 289px;
 				border-color: #cbcccd;
 				@include border-radius(0px);
 				.select2-selection__rendered {
-					line-height: em(78px, $base-font-size);
+					line-height: 2.4em;
 				}
 				.select2-selection__arrow {
-					height: em(78px, $base-font-size);
 					width: flex(70px, $select-base-width);
-					border-left: 1px solid #929191;
+   					height: 2.4em;
 					&:hover {
 						b {
 							border-top-color: #a6a6a6;
