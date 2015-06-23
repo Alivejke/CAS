@@ -155,9 +155,21 @@ textarea {
 			font-family: 'Brandon Grotesque';
 			letter-spacing: 0.3px;
 			cursor: pointer;
+			text-transform: uppercase;
 			&.current-page{
 				color: #707171;
 				cursor: initial;
+				font-weight: bold;
+				a {
+					color: #707171;
+					cursor: text;
+					font-weight: bold;
+				}
+			}
+			a {
+				text-transform: uppercase;
+				color: #6E6C6C;
+				text-decoration: none;
 			}
 		}
 	}
@@ -166,4 +178,18 @@ textarea {
 .grey-line{
 	height: 1px;
 	background: #CBCCCD;
+}
+
+.menu_scroll_wrap {
+	&.scrollWrap {
+		.scroll {
+			display: inline-block;
+			margin: 0 auto;
+			top: 1em;
+			left: 50%;
+			font-size: 0.8em;
+			font-family: 'Brandon Grotesque';
+			position: relative;
+		}
+	}
 }

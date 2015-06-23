@@ -4,7 +4,8 @@
 .ico_rounded_wrap {
 	position: absolute;
 	right: 0;
-	top: 0;
+	top: 50%;
+	margin-top: -22px;
 	background-color: #fff;
 	z-index: 2;
 }
@@ -37,7 +38,7 @@
 		.feed {
 		  	position: relative;
 		  	color: $gray-color;
-		  	margin-top: em(40px, $base-font-size);
+		  	margin-top: em(53px, $base-font-size);
 		  	overflow: hidden;
 		  	.ico_eye_wrap {
 			  	@extend .ico_rounded_wrap;
