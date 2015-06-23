@@ -97,10 +97,20 @@
 .profile_title {
 	font-size: em(12px);
 	@extend .base_title;
-	// color: $base-color;
 	color: #909294;
 	text-transform: uppercase;
+	&.indent-top {
+		margin-top: em(20px, 12px);
+	}
 	&.authorization {
 		color: #7e8890;
 	}
+}
+
+.title_os {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 27px;
+	line-height: 34px;
+	text-transform: none;
+	font-weight: 300;
 }

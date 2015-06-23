@@ -290,6 +290,16 @@
 					background: url(/i/sprite.png) 4px -236px;
 				}
 			}
+			&.distinction {
+				.label_ico {
+					border-color: $distinction-color;
+				}
+				&.chacked {
+					.label_ico {
+						background-position: -76px -236px;
+					}
+				}
+			}
 		}
 	}
 

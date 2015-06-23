@@ -10,6 +10,9 @@ input {
 		font-size: em(13px);
 		border: 1px solid #dedfdf;
 		color: #8F9BA3;
+		&.indent-top {
+			margin-top: 25px;
+		}
 		@include input-placeholder {
 		    color: #8F9BA3;
 		}

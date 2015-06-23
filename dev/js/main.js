@@ -2,7 +2,7 @@ $(document).ready(function() {
     var $self = $(this),
     	$navigationDropdown = $('.navigation_dropdown', $self),
     	$navigationDropdownBlock = $('.navigation_dropdown_block', $self),
-        $menu = $('ul.menu'),
+        $menu = $('.breadcrumbs ul'),
         $menuScrollWrap = $('.menu_scroll_wrap'),
         $header = $('.header'),
         $headerImg = $('.element_header'),
