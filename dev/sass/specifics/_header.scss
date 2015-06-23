@@ -152,7 +152,7 @@ $navigation_dropdown_list_news-font-size: 11px;
 	background-color: #f8faf9;
 	position: absolute;
 	top: em(65px);
-	right: 0;
+	right: -2px;
 	// width: flex($dropdown-width, $dropdown_btn-width);
 	width: 26.09em;
 	// padding: 0 0 em(35px) 0;
@@ -170,9 +170,15 @@ $navigation_dropdown_list_news-font-size: 11px;
 
 .navigation_dropdown_list {
 	position: relative;
-	left: 150px;
 	overflow: hidden;
 	padding: 0 em(35px);
+	&.align-right{
+		text-align: right;
+		> li {
+			float: none;
+			display: inline-block;
+		}
+	}
 	> li {
 		float: left;
 		margin-left: flex(30px, $dropdown-width);
