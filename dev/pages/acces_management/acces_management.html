@@ -175,28 +175,32 @@
                 </nav>
             </div>
         </header>
-            <div class="wrap breadcrumbs">
-                <div class="menu_scroll_wrap">        
-                    <ul>
-                        <li><a href="#">cas Department</a></li>
-                        <li class="current-page"><a href="#">access management</a></li>
-                    </ul>
-                </div>
-                <div class="menu_wrap clearfix">
-                    <h1 class="main_title main_title_actives">Access management</h1>
-                </div>
+        <div class="wrap breadcrumbs">
+            <div class="menu_scroll_wrap">        
+                <ul>
+                    <li>
+                        <a href="#">cas Department</a>
+                    </li>
+                    <li class="current-page">
+                        <a href="#">access management</a>
+                    </li>
+                </ul>
             </div>
-            
-            <div class="wrap_table access-management-block">
+            <div class="menu_wrap clearfix">
+                <h1 class="main_title main_title_actives">Access management</h1>
+            </div>
+        </div>
+        
+        <section class="content_wrap">
+            <div class="wrap_table table_three table_bg access-management-block">
                 <div class="access-management-item" data-id="1">
-                    <div class="title_table">
+                    <div class="title_table table_three indent-none">
                         <div class="wrap padding-left">
                             <table>
                                 <tr>
                                     <th>name</th>
                                     <th>entity</th>
                                     <th>Rights</th>
-                                    <th>AD groups</th>
                                     <th>Action</th>
                                 </tr>
                             </table>
@@ -212,10 +216,6 @@
                                     <span class="table_text_bold">Change:</span> <span class="access-management-activity-change">Yes</span> <br>
                                     <span class="table_text_bold">Approve:</span> <span class="access-management-activity-approve">No</span> <br>
                                 </td>
-                                <td class="access-management-ad-groups">
-                                    AD Business Admin, <br>
-                                    AD CAS Initiator <br>
-                                </td>   
                                 <td class="button_table">   
                                     <button class="btn btn_rounded btn_gray btn_edit">edit</button><br>
                                     <button class="btn btn_rounded btn_red btn_delete">delete</button>
@@ -229,7 +229,6 @@
                                     <span class="table_text_bold">Approve:</span> <span class="access-management-toolbox-approve">No</span> <br>
                                 </td>
                                 <td></td>
-                                <td></td>
                             </tr>
                             <tr>
                                 <td>Brand</td>
@@ -238,7 +237,6 @@
                                     <span class="table_text_bold">Change:</span> <span class="access-management-brand-change">Yes</span> <br>
                                     <span class="table_text_bold">Approve:</span> <span class="access-management-brand-approve">No</span> <br>
                                 </td>
-                                <td></td>
                                 <td></td>
                             </tr>
                             <tr>
@@ -249,20 +247,18 @@
                                     <span class="table_text_bold">Approve:</span> <span class="access-management-access-management-approve">No</span> <br>
                                 </td>
                                 <td></td>
-                                <td></td>
                             </tr>
                         </table>
                     </div>
                 </div>
                 <div class="access-management-item" data-id="2">
-                    <div class="title_table">
+                    <div class="title_table table_three indent-none">
                         <div class="wrap padding-left">
                             <table>
                                 <tr>
                                     <th>name</th>
                                     <th>entity</th>
                                     <th>Rights</th>
-                                    <th>AD groups</th>
                                     <th>Action</th>
                                 </tr>
                             </table>
@@ -278,11 +274,6 @@
                                     <span class="table_text_bold">Change:</span> <span class="access-management-activity-change">Yes</span> <br>
                                     <span class="table_text_bold">Approve:</span> <span class="access-management-activity-approve">No</span> <br>
                                 </td>
-                                <td class="access-management-ad-groups">
-                                    AD Business Admin, <br>
-                                    AD CAS Initiator, <br>
-                                    AD Trade Approver <br>
-                                </td>   
                                 <td class="button_table">   
                                     <button class="btn btn_rounded btn_gray btn_edit">edit</button><br>
                                     <button class="btn btn_rounded btn_red btn_delete">delete</button>
@@ -296,7 +287,6 @@
                                     <span class="table_text_bold">Approve:</span> <span class="access-management-toolbox-approve">No</span> <br>
                                 </td>
                                 <td></td>
-                                <td></td>
                             </tr>
                             <tr>
                                 <td>Brand</td>
@@ -306,7 +296,6 @@
                                     <span class="table_text_bold">Approve:</span> <span class="access-management-brand-approve">No</span> <br>
                                 </td>
                                 <td></td>
-                                <td></td>
                             </tr>
                             <tr>
                                 <td>Access <br> management</td>
@@ -315,7 +304,6 @@
                                     <span class="table_text_bold">Change:</span> <span class="access-management-access-management-change">No</span> <br>
                                     <span class="table_text_bold">Approve:</span> <span class="access-management-access-management-approve">No</span> <br>
                                 </td>
-                                <td></td>
                                 <td></td>
                             </tr>
                         </table>
@@ -327,6 +315,7 @@
                     <button class="btn btn-default btn-add-role">add role</button>
                 </div>
             </div>
+        </section>
 
         </div>
         <footer class="footer">
@@ -472,14 +461,13 @@
 
         <script type="text/html" id="popup-acces-item-tpl">
         	<div class="access-management-item" data-id="<%= data.id %>">
-                <div class="title_table">
+                <div class="title_table table_three indent-none">
                     <div class="wrap padding-left">
                         <table>
                             <tr>
                                 <th>name</th>
                                 <th>entity</th>
                                 <th>Rights</th>
-                                <th>AD groups</th>
                                 <th>Action</th>
                             </tr>
                         </table>
@@ -495,9 +483,6 @@
                                 <span class="table_text_bold">Change:</span> <span class="access-management-activity-change"><%= data.activity.change ? 'Yes' : 'No' %></span> <br>
                                 <span class="table_text_bold">Approve:</span> <span class="access-management-activity-approve"><%= data.activity.approve ? 'Yes' : 'No' %></span> <br>
                             </td>
-                            <td class="access-management-ad-groups">
-                                <%= data.adGroups ? data.adGroups.join(', <br>') : '' %>
-                            </td>   
                             <td class="button_table">   
                                 <button class="btn btn_rounded btn_gray btn_edit">edit</button><br>
                                 <button class="btn btn_rounded btn_red btn_delete">delete</button>
@@ -511,7 +496,6 @@
                                 <span class="table_text_bold">Approve:</span> <span class="access-management-toolbox-approve"><%= data.toolbox.approve ? 'Yes' : 'No' %></span> <br>
                             </td>
                             <td></td>
-                            <td></td>
                         </tr>
                         <tr>
                             <td>Brand</td>
@@ -521,7 +505,6 @@
                                 <span class="table_text_bold">Approve:</span> <span class="access-management-brand-approve"><%= data.brand.approve ? 'Yes' : 'No' %></span> <br>
                             </td>
                             <td></td>
-                            <td></td>
                         </tr>
                         <tr>
                             <td>Access <br> management</td>
@@ -530,7 +513,6 @@
                                 <span class="table_text_bold">Change:</span> <span class="access-management-access-management-change"><%= data.accessManagement.change ? 'Yes' : 'No' %></span> <br>
                                 <span class="table_text_bold">Approve:</span> <span class="access-management-access-management-approve"><%= data.accessManagement.approve ? 'Yes' : 'No' %></span> <br>
                             </td>
-                            <td></td>
                             <td></td>
                         </tr>
                     </table>

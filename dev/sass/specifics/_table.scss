@@ -192,6 +192,74 @@ $table_td-font-size: 11px;
 				}
 			}
 		}
+		&.indent-none {
+			margin-top: 0;
+		}
+		&.table_four {
+			.table_log {
+				th {
+					width: 15%;
+				}
+				th + th {
+					width: 32%;
+				}
+				th + th + th {
+					width: 21%;
+				}
+				th + th + th + th {
+					width: 32%;
+				}
+			}
+		}
+		&.table_three {
+			th {
+				width: 20%;
+			}
+			th + th {
+				width: 25%;
+			}
+			th + th + th {
+				width: 40%;
+			}
+			th + th + th + th {
+				width: 15%;
+			}
+		}
+	}
+	
+	.wrap_table {
+		&.table_four {
+			.approval_table.table_log {
+				td {
+					width: 15%;
+				}
+				td + td {
+					width: 32%;
+				}
+				td + td + td {
+					width: 21%;
+				}
+				td + td + td + td {
+					width: 32%;
+				}
+			}
+		}
+		&.table_three {
+			.approval_table {
+				td {
+					width: 20%;
+					&+td {
+						width: 25%;
+						&+td {
+							width: 40%;
+							&+td {
+								width: 15%;
+							}
+						}
+					}
+				}
+			}
+		}
 	}
 }
 
@@ -214,6 +282,12 @@ $table_td-font-size: 11px;
 			margin-bottom: em(100px);
 		}
 	}
+
+	&.table_bg {
+		& > div:nth-child(odd) {
+			background-color: #f8faf9;
+		}
+	}
 }
 
 .button_table {
@@ -233,20 +307,20 @@ $table_td-font-size: 11px;
 
 .access-management-block {
 	.access-management-item {
-		margin-top: em(58px);
-		.wrap.padding-left{
-			padding: 35px 0; 
-			border-bottom: 1px solid #cecfd0;
+		// margin-top: em(58px);
+		.wrap {
+			padding: 5px 0; 
+			// border-bottom: 1px solid #cecfd0;
 		}
 		&:first-child {
-			.wrap.padding-left{
-				padding: 20px 0; 
+			.wrap {
+				// padding: 20px 0;
 				border-bottom: none;
 			}
 		}
 		&:last-child {
 			margin-top: 0;
-			.wrap.padding-left{
+			.wrap {
 				border-bottom: none;
 			}
 		}
