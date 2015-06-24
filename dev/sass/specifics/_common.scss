@@ -158,7 +158,6 @@ textarea {
 			text-transform: uppercase;
             &:not(.current-page):after{
                 content: '/';
-                margin-left: 5px;
             }
 			&.current-page{
 				color: #707171;
@@ -266,10 +265,10 @@ textarea {
     cursor: default !important;
 }
 
-.tutorials-list .brand_news, .dictionaries-list .brand_news, .users-page .brand_news{
-    padding: 0;
-    border-top-width: 0px;
-}
+// .tutorials-list .brand_news, .dictionaries-list .brand_news, .users-page .brand_news{
+//     padding: 0;
+//     border-top-width: 0px;
+// }
 
 .tutorials-list .tutorial-search-input {
     cursor: text;
@@ -407,17 +406,6 @@ h1.error, div.error, a.error, .input-validation-error, span.error {
 
 .profile_roles {
     margin-left: 0 !important;
-}
-
-.profile_title {
-    font-size: 1em;
-}
-
-.profile_text {
-    font-size: 1em !important;
-    margin-bottom: 2em;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: normal;
 }
 
 .profile_page .profile_btn_wrap {

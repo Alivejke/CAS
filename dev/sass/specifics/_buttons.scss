@@ -261,6 +261,7 @@
 	&.btn_small {
 		font-size: em($base-font-size, $base-font-size);
 		height: em(41px, $base-font-size);
+		height: 41px;
 		line-height: em(41px, $base-font-size);
 		width: flex(147px, $base-width-content);
 	}

@@ -29,7 +29,8 @@
 			overflow: hidden;
 		}
 	}
-	.brand_news {
+	.content-wrap-inner {
+		border-bottom: 1px solid #cecfd0;
 		&.edit_brand {
 			padding: em(33px, $base-font-size) 0 em(55px, $base-font-size) 0;
 		}

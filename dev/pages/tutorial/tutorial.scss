@@ -13,45 +13,39 @@
         }
     }
 
-    .brand_news .btn_wrap {
-        bottom: auto;
-        top: -25px;
-    }
-
     .btn.btn_big_rounded .ico_upload {
         left: -7px;
     }
 
-
     .main_title_actives {
-        margin-bottom: em(120px, $main_title-font-size);
+        margin-bottom: 68px;
     }
 
-    .tutorial_heading {
-        border-bottom: 1px solid #CECFD0;
-        position: relative;
-        .btn_wrap {
-            width: $base-width - $base-margin;
-            max-width: flex($base-width - $base-margin*2);
-            height: em(50px, $base-font-size);
-            margin: 0 auto;
-            position: absolute;
-            bottom: em(-28px);
-        }
-        .btn_big_rounded_wrap {
-            display: inline-block;
-            background-color: $white-color;
-            // width: flex(218px, $base-width - $base-margin);
-            width: 14.55em;
-            height: em(50px, $btn-font-size);
-            position: absolute;
-            bottom: 0;
-            @include border-radius(30px);
-            &.pos_left {
-                left: 0;
-            }
-        }
-    }
+    // .tutorial_heading {
+    //     border-bottom: 1px solid #CECFD0;
+    //     position: relative;
+    //     .btn_wrap {
+    //         width: $base-width - $base-margin;
+    //         max-width: flex($base-width - $base-margin*2);
+    //         height: em(50px, $base-font-size);
+    //         margin: 0 auto;
+    //         position: absolute;
+    //         bottom: em(-28px);
+    //     }
+    //     .btn_big_rounded_wrap {
+    //         display: inline-block;
+    //         background-color: $white-color;
+    //         // width: flex(218px, $base-width - $base-margin);
+    //         width: 14.55em;
+    //         height: em(50px, $btn-font-size);
+    //         position: absolute;
+    //         bottom: 0;
+    //         @include border-radius(30px);
+    //         &.pos_left {
+    //             left: 0;
+    //         }
+    //     }
+    // }
     .tutorial_documents {
         margin: em(42px) auto 0 auto;
         width: $base-width-content;

@@ -2,6 +2,9 @@
 @import "compass/css3";
 
 .new_activies_page {
+    .content-wrap-inner {
+        padding: 4em 0 4em 0;
+    }
     .activies_page_wrap {
         .content_wrap, .wrap_block {
             margin-top: em(60px, $base-font-size);
