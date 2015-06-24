@@ -52,9 +52,8 @@
                 max-width: 100%;
             }
         }
-        .brand_news_toolbax_list  {
-            width: flex(296px, $base-width-content);
-            // height: em(283px, $base-font-size);
+        .toolbox-wrapper__description  {
+            width: flex(390px, $base-width-content);
         }
         .channel {
             width: 33.33333%;
@@ -212,7 +211,7 @@
         .btn_wrap {
             bottom: em(-25px);
         }
-        .brand_news_list {
+        .toolbox-wrapper__description {
             li {
                 p {
                     text-align: justify;

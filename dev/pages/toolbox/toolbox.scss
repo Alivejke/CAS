@@ -56,13 +56,17 @@
 				width: flex(170px, 742px);
 			}
 		}
-		.brand_news_list {
+		.toolbox-wrapper__description {
+            width: flex(390px, $base-width-content);
 			li {
 				p {
 					text-align: justify;
 					color: $gray-color;
 				}
 			}
+		}
+		.toolbox-wrapper__image-block{
+			margin-left: 0;
 		}
 		.calendar_from, .calendar_to {
 		    background: none;
@@ -94,11 +98,9 @@
 	    margin-left: flex(5px, 370px - 6px * 2);
 	}
 
-	.brand_news_toolbax {
-		&.description {
-			.brand_news_toolbax_list {
-				width: flex(296px, $base-width-content);
-			}
+	.toolbox-wrapper  {
+		&__image-block {
+			width: flex(296px, $base-width-content);
 		}
 	}
 

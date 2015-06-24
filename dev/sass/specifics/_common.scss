@@ -208,7 +208,7 @@ textarea {
         top: -1.6em;
         background-color: $white-color;
     }
-    .brand_news_list {
+    .toolbox-wrapper__description {
         li {
             margin-top: em(43px, $base-font-size);
             p {
@@ -326,17 +326,9 @@ textarea {
     }
 }
 
-.brand_news_toolbax {
+.toolbox-wrapper {
     overflow: hidden;
-    &.description {
-        .brand_news_list {
-            width: flex(390px, $base-width-content);
-        }
-        .brand_news_toolbax_list {
-            margin-left: 0;
-        }
-    }
-    .brand_news_list {
+    &__description {
         width: 100%;
         .btn {
             margin-top: em(60px, $base-font-size);
@@ -345,7 +337,7 @@ textarea {
             }
         }
     }
-    .brand_news_toolbax_list {
+    &__image-block {
         margin-left: flex(100px, $base-width-content);
     }
 }

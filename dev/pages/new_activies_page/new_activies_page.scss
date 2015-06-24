@@ -8,6 +8,10 @@
     .activies_page_wrap {
         .content_wrap, .wrap_block {
             margin-top: em(60px, $base-font-size);
+            
+            .toolbox-wrapper__description  {
+                width: flex(390px, $base-width-content);
+            }
         }
         .status_wrap {
             width: flex(370px, $base-width-content);
@@ -42,7 +46,7 @@
             height: em( 146px, $base-font-size);
             margin-top: 0;
         }
-        .brand_news_toolbax_list  {
+        .toolbox-wrapper__image-block  {
             width: flex(296px, $base-width-content);
             height: em(283px, $base-font-size);
             li {
