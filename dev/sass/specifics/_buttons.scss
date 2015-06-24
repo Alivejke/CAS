@@ -182,9 +182,9 @@
 	}
 	&.btn-default {
 		width: 20%;
-		height: 3em;
+		height: em(41px, 12px);
 		border: 1px solid #ccc;
-		line-height: em(41px, $btn-font-size);
+		line-height: em(41px, 12px);
 		@include transition-property(background-color, color);
 		@include transition-duration(0.3s);
 		@include transition-timing-function(ease-out);
