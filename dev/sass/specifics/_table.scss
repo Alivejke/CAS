@@ -192,6 +192,41 @@ $table_td-font-size: 11px;
 				}
 			}
 		}
+		&.table_four {
+			.table_log {
+				th {
+					width: 15%;
+				}
+				th + th {
+					width: 32%;
+				}
+				th + th + th {
+					width: 21%;
+				}
+				th + th + th + th {
+					width: 32%;
+				}
+			}
+		}
+	}
+	
+	.wrap_table {
+		&.table_four {
+			.approval_table.table_log {
+				td {
+					width: 15%;
+				}
+				td + td {
+					width: 32%;
+				}
+				td + td + td {
+					width: 21%;
+				}
+				td + td + td + td {
+					width: 32%;
+				}
+			}
+		}
 	}
 }
 
@@ -212,6 +247,12 @@ $table_td-font-size: 11px;
 		// }
 		&.indent-bottom {
 			margin-bottom: em(100px);
+		}
+	}
+
+	&.table_bg {
+		& > div:nth-child(odd) {
+			background-color: #f8faf9;
 		}
 	}
 }

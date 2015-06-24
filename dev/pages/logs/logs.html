@@ -113,6 +113,16 @@
                                 </div>
                             </div>
                         </div>
+                        <div class="menu_navigate nav">
+                            <a href="/news">News</a>
+                            <a href="/isadmin/users">Users</a>
+                            <a href="/isadmin/accessmanagement">Access management</a>
+                            <a href="/isadmin/logs">Logs</a>
+                            <a href="/businessadmin/dictionaries">Dictionaries</a>
+                            <div class="search-btn">
+                                <a href="/search"><img src="/img/cas_menu_search.png" /></a>
+                            </div>
+                        </div>
                     </nav>
                 </div>
             </header>
@@ -131,102 +141,866 @@
                     <h1 class="main_title main_title_actives">LOGS</h1>
                 </div>
             </div>
-            <div class="title_table">
+            <div class="title_table table_four">
                 <div class="wrap padding-left">
                     <table class="table_log">
                         <tr>
-                            <th>date</th>
-                            <th>instance</th>
-                            <th>status</th>
-                            <th>fields changed</th>
-                            <th>updated by</th>
-                            <th>comment</th>
+                            <th>DATE</th>
+                            <th>USER</th>
+                            <th>EVENT</th>
+                            <th>INSTANCE</th>
                         </tr>
                     </table>
                 </div>
             </div>
-            <div class="wrap_table">
+            <div class="wrap_table table_four table_bg" id="logList">
                 <div>
                     <div class="wrap padding-left">
                         <table class="approval_table table_log wrap">
-                            <tr>
-                                <td>12:45 2014-09-21</td>
-                                <td>Toolbox “Test Toolbox”</td>
-                                <td>Draft — Active</td>
-                                <td>LAMP, NTP</td>
-                                <td>User name <br> (admin@pmi.com)</td>
-                                <td>Fields change <br> required</td>
-                            </tr>
+                            <tbody>
+                                <tr>
+                                    <td>24.06.2015 08:58:43</td>
+                                    <td>
+                                        Frontend Test
+                                        <small>(toolbox@affect.ru)</small>
+                                    </td>
+                                    <td>BrandUpdated</td>
+                                    <td>L&amp;M</td>
+                                </tr>
+                            </tbody>
                         </table>
                     </div>
                 </div>
                 <div>
                     <div class="wrap padding-left">
                         <table class="approval_table table_log wrap">
-                            <tr>
-                                <td>12:45 2014-09-21</td>
-                                <td>Toolbox “Test Toolbox”</td>
-                                <td>Draft — Active</td>
-                                <td>LAMP, NTP</td>
-                                <td>User name <br> (admin@pmi.com)</td>
-                                <td>Fields change <br> required</td>
-                            </tr>
+                            <tbody>
+                                <tr>
+                                    <td>23.06.2015 03:56:18</td>
+                                    <td>
+                                        Dmitry Koptelov                                
+                                        <small>(Dmitry.Koptelov@pmi.com)</small>
+                                    </td>
+                                    <td>DraftApproved</td>
+                                    <td>New Toolbox "BOND STREET Mainline Pack Upgrade"</td>
+                                </tr>
+                            </tbody>
                         </table>
                     </div>
                 </div>
                 <div>
                     <div class="wrap padding-left">
                         <table class="approval_table table_log wrap">
-                            <tr>
-                                <td>12:45 2014-09-21</td>
-                                <td>Toolbox “Test Toolbox”</td>
-                                <td>Draft — Active</td>
-                                <td>LAMP, NTP</td>
-                                <td>User name <br> (admin@pmi.com)</td>
-                                <td>Fields change <br> required</td>
-                            </tr>
+                            <tbody>
+                                <tr>
+                                    <td>23.06.2015 03:56:16</td>
+                                    <td>
+                                        Elena Vinokurova
+                                        <small>(elena.vinokurova@pmi.com)</small>
+                                    </td>
+                                    <td>ToolboxCreated</td>
+                                    <td>BOND STREET Mainline Pack Upgrade</td>
+                                </tr>
+                            </tbody>
                         </table>
                     </div>
                 </div>
                 <div>
                     <div class="wrap padding-left">
                         <table class="approval_table table_log wrap">
-                            <tr>
-                                <td>12:45 2014-09-21</td>
-                                <td>Toolbox “Test Toolbox”</td>
-                                <td>Draft — Active</td>
-                                <td>LAMP, NTP</td>
-                                <td>User name <br> (admin@pmi.com)</td>
-                                <td>Fields change <br> required</td>
-                            </tr>
+                            <tbody>
+                                <tr>
+                                    <td>23.06.2015 03:56:08</td>
+                                    <td>
+                                        Dmitry Koptelov 
+                                        <small>(Dmitry.Koptelov@pmi.com)</small>
+                                    </td>
+                                    <td>DraftApproved</td>
+                                    <td>New Toolbox "2015 Russia Multi-brand Day/NightTabletalkerToolbox"</td>
+                                </tr>
+                            </tbody>
                         </table>
                     </div>
                 </div>
                 <div>
                     <div class="wrap padding-left">
                         <table class="approval_table table_log wrap">
-                            <tr>
-                                <td>12:45 2014-09-21</td>
-                                <td>Toolbox “Test Toolbox”</td>
-                                <td>Draft — Active</td>
-                                <td>LAMP, NTP</td>
-                                <td>User name <br> (admin@pmi.com)</td>
-                                <td>Fields change <br> required</td>
-                            </tr>
+                            <tbody>
+                                <tr>
+                                    <td>23.06.2015 03:56:05</td>
+                                    <td>
+                                        Elena Vinokurova
+                                        <small>(elena.vinokurova@pmi.com)</small>
+                                    </td>
+                                    <td>ToolboxCreated</td>
+                                    <td>2015 Russia Multi-brand Day/NightTabletalkerToolbox</td>
+                                </tr>
+                            </tbody>
                         </table>
                     </div>
                 </div>
-                <div class="indent-bottom">
+                <div>
                     <div class="wrap padding-left">
                         <table class="approval_table table_log wrap">
-                            <tr>
-                                <td>12:45 2014-09-21</td>
-                                <td>Toolbox “Test Toolbox”</td>
-                                <td>Draft — Active</td>
-                                <td>LAMP, NTP</td>
-                                <td>User name <br> (admin@pmi.com)</td>
-                                <td>Fields change <br> required</td>
-                            </tr>
+                            <tbody>
+                                <tr>
+                                    <td>23.06.2015 03:55:36</td>
+                                    <td>
+                                        Dmitry Koptelov
+                                        <small>(Dmitry.Koptelov@pmi.com)</small>
+                                    </td>
+                                    <td>DraftApproved</td>
+                                    <td>Delete Activity "Test upload 100"</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                <div>
+                    <div class="wrap padding-left">
+                        <table class="approval_table table_log wrap">
+                            <tbody>
+                                <tr>
+                                    <td>23.06.2015 03:55:33</td>
+                                    <td>
+                                        Elena Vinokurova
+                                        <small>(elena.vinokurova@pmi.com)</small>
+                                    </td>
+                                    <td>ActivityDeleted</td>
+                                    <td>Test upload 100</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                <div>
+                    <div class="wrap padding-left">
+                        <table class="approval_table table_log wrap">
+                            <tbody>
+                                <tr>
+                                    <td>23.06.2015 03:55:23</td>
+                                    <td>
+                                        Dmitry Koptelov
+                                        <small>(Dmitry.Koptelov@pmi.com)</small>
+                                    </td>
+                                    <td>DraftApproved</td>
+                                    <td>New Toolbox "BOND STREET Mainline Pack Upgrade"</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                <div>
+                    <div class="wrap padding-left">
+                        <table class="approval_table table_log wrap">
+                            <tbody>
+                                <tr>
+                                    <td>23.06.2015 03:55:21</td>
+                                    <td>
+                                        Elena Vinokurova
+                                        <small>(elena.vinokurova@pmi.com)</small>
+                                    </td>
+                                    <td>ToolboxCreated</td>
+                                    <td>BOND STREET Mainline Pack Upgrade</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                <div>
+                    <div class="wrap padding-left">
+                        <table class="approval_table table_log wrap">
+                            <tbody>
+                                <tr>
+                                    <td>23.06.2015 03:55:12</td>
+                                    <td>
+                                        Dmitry Koptelov
+                                        <small>(Dmitry.Koptelov@pmi.com)</small>
+                                    </td>
+                                    <td>DraftApproved</td>
+                                    <td>New Activity "L&amp;M COMPACT Hostess brief"</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                <div>
+                    <div class="wrap padding-left">
+                        <table class="approval_table table_log wrap">
+                            <tbody>
+                                <tr>
+                                    <td>23.06.2015 03:55:09</td>
+                                    <td>
+                                        Elena Vinokurova
+                                        <small>(elena.vinokurova@pmi.com)</small>
+                                    </td>
+                                    <td>ActivityCreated</td>
+                                    <td>L&amp;M COMPACT Hostess brief</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                <div>
+                    <div class="wrap padding-left">
+                        <table class="approval_table table_log wrap">
+                            <tbody>
+                                <tr>
+                                    <td>23.06.2015 03:54:58</td>
+                                    <td>
+                                        Dmitry Koptelov
+                                        <small>(Dmitry.Koptelov@pmi.com)</small>
+                                    </td>
+                                    <td>DraftApproved</td>
+                                    <td>Delete Toolbox "Test"</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                <div>
+                    <div class="wrap padding-left">
+                        <table class="approval_table table_log wrap">
+                            <tbody>
+                                <tr>
+                                    <td>23.06.2015 03:54:55</td>
+                                    <td>
+                                        Elena Vinokurova
+                                        <small>(elena.vinokurova@pmi.com)</small>
+                                    </td>
+                                    <td>ToolboxDeleted</td>
+                                    <td>Test</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                <div>
+                    <div class="wrap padding-left">
+                        <table class="approval_table table_log wrap">
+                            <tbody>
+                                <tr>
+                                    <td>23.06.2015 03:54:46</td>
+                                    <td>
+                                        Dmitry Koptelov
+                                        <small>(Dmitry.Koptelov@pmi.com)</small>
+                                    </td>
+                                    <td>DraftApproved</td>
+                                    <td>Delete Activity "123"</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                <div>
+                    <div class="wrap padding-left">
+                        <table class="approval_table table_log wrap">
+                            <tbody>
+                                <tr>
+                                    <td>23.06.2015 03:54:44</td>
+                                    <td>
+                                        Elena Vinokurova
+                                        <small>(elena.vinokurova@pmi.com)</small>
+                                    </td>
+                                    <td>ActivityDeleted</td>
+                                    <td>123</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                <div>
+                    <div class="wrap padding-left">
+                        <table class="approval_table table_log wrap">
+                            <tbody>
+                                <tr>
+                                    <td>23.06.2015 03:54:33</td>
+                                    <td>
+                                        Dmitry Koptelov
+                                        <small>(Dmitry.Koptelov@pmi.com)</small>
+                                    </td>
+                                    <td>DraftApproved</td>
+                                    <td>Delete Toolbox "Test TT"</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                <div>
+                    <div class="wrap padding-left">
+                        <table class="approval_table table_log wrap">
+                            <tbody>
+                                <tr>
+                                    <td>23.06.2015 03:54:30</td>
+                                    <td>
+                                        Elena Vinokurova
+                                        <small>(elena.vinokurova@pmi.com)</small>
+                                    </td>
+                                    <td>ToolboxDeleted</td>
+                                    <td>Test TT</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                <div>
+                    <div class="wrap padding-left">
+                        <table class="approval_table table_log wrap">
+                            <tbody>
+                                <tr>
+                                    <td>23.06.2015 03:54:09</td>
+                                    <td>
+                                        Dmitry Koptelov
+                                        <small>(Dmitry.Koptelov@pmi.com)</small>
+                                    </td>
+                                    <td>DraftApproved</td>
+                                    <td>Delete Toolbox "Big attach TB Plus"</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                <div>
+                    <div class="wrap padding-left">
+                        <table class="approval_table table_log wrap">
+                            <tbody>
+                                <tr>
+                                    <td>23.06.2015 03:54:06</td>
+                                    <td>
+                                        Dmitry Koptelov
+                                        <small>(Dmitry.Koptelov@pmi.com)</small>
+                                    </td>
+                                    <td>DraftDeleted</td>
+                                    <td>Delete Activity "Test small attachments"</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                <div>
+                    <div class="wrap padding-left">
+                        <table class="approval_table table_log wrap">
+                            <tbody>
+                                <tr>
+                                    <td>23.06.2015 03:54:06</td>
+                                    <td>
+                                        Dmitry Koptelov
+                                        <small>(Dmitry.Koptelov@pmi.com)</small>
+                                    </td>
+                                    <td>DraftDeleted</td>
+                                    <td>New Activity "Test email"</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                <div>
+                    <div class="wrap padding-left">
+                        <table class="approval_table table_log wrap">
+                            <tbody>
+                                <tr>
+                                    <td>23.06.2015 03:54:06</td>
+                                    <td>
+                                        Dmitry Koptelov
+                                        <small>(Dmitry.Koptelov@pmi.com)</small>
+                                    </td>
+                                    <td>DraftDeleted</td>
+                                    <td>New Activity "Test big file"</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                <div>
+                    <div class="wrap padding-left">
+                        <table class="approval_table table_log wrap">
+                            <tbody>
+                                <tr>
+                                    <td>23.06.2015 03:54:06</td>
+                                    <td>
+                                        Dmitry Koptelov
+                                        <small>(Dmitry.Koptelov@pmi.com)</small>
+                                    </td>
+                                    <td>DraftDeleted</td>
+                                    <td>Activity Changes "Test big file CHANGES"</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                <div>
+                    <div class="wrap padding-left">
+                        <table class="approval_table table_log wrap">
+                            <tbody>
+                                <tr>
+                                    <td>23.06.2015 03:54:06</td>
+                                    <td>
+                                        Dmitry Koptelov
+                                        <small>(Dmitry.Koptelov@pmi.com)</small>
+                                    </td>
+                                    <td>DraftDeleted</td>
+                                    <td>New Activity "Test 96mb attachmnets"</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                <div>
+                    <div class="wrap padding-left">
+                        <table class="approval_table table_log wrap">
+                            <tbody>
+                                <tr>
+                                    <td>23.06.2015 03:54:06</td>
+                                    <td>
+                                        Dmitry Koptelov
+                                        <small>(Dmitry.Koptelov@pmi.com)</small>
+                                    </td>
+                                    <td>DraftDeleted</td>
+                                    <td>New Activity "Test EXE"</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                <div>
+                    <div class="wrap padding-left">
+                        <table class="approval_table table_log wrap">
+                            <tbody>
+                                <tr>
+                                    <td>23.06.2015 03:54:06</td>
+                                    <td>
+                                        Dmitry Koptelov
+                                        <small>(Dmitry.Koptelov@pmi.com)</small>
+                                    </td>
+                                    <td>DraftDeleted</td>
+                                    <td>New Activity "Big file"</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                <div>
+                    <div class="wrap padding-left">
+                        <table class="approval_table table_log wrap">
+                            <tbody>
+                                <tr>
+                                    <td>23.06.2015 03:54:06</td>
+                                    <td>
+                                        Dmitry Koptelov
+                                        <small>(Dmitry.Koptelov@pmi.com)</small>
+                                    </td>
+                                    <td>DraftDeleted</td>
+                                    <td>New Activity "Test big file"</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                <div>
+                    <div class="wrap padding-left">
+                        <table class="approval_table table_log wrap">
+                            <tbody>
+                                <tr>
+                                    <td>23.06.2015 03:54:06</td>
+                                    <td>
+                                        Dmitry Koptelov
+                                        <small>(Dmitry.Koptelov@pmi.com)</small>
+                                    </td>
+                                    <td>DraftDeleted</td>
+                                    <td>Activity Changes "Test 96mb attachments"</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                <div>
+                    <div class="wrap padding-left">
+                        <table class="approval_table table_log wrap">
+                            <tbody>
+                                <tr>
+                                    <td>23.06.2015 03:54:06</td>
+                                    <td>
+                                        Elena Vinokurova
+                                        <small>(elena.vinokurova@pmi.com)</small>
+                                    </td>
+                                    <td>ActivityDeleted</td>
+                                    <td>Test EXE</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                <div>
+                    <div class="wrap padding-left">
+                        <table class="approval_table table_log wrap">
+                            <tbody>
+                                <tr>
+                                    <td>23.06.2015 03:54:06</td>
+                                    <td>
+                                        Elena Vinokurova
+                                        <small>(elena.vinokurova@pmi.com)</small>
+                                    </td>
+                                    <td>ToolboxDeleted</td>
+                                    <td>Big attach TB Plus</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                <div>
+                    <div class="wrap padding-left">
+                        <table class="approval_table table_log wrap">
+                            <tbody>
+                                <tr>
+                                    <td>23.06.2015 03:54:06</td>
+                                    <td>
+                                        Elena Vinokurova
+                                        <small>(elena.vinokurova@pmi.com)</small>
+                                    </td>
+                                    <td>ActivityDeleted</td>
+                                    <td>Test 96mb attachments</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                <div>
+                    <div class="wrap padding-left">
+                        <table class="approval_table table_log wrap">
+                            <tbody>
+                                <tr>
+                                    <td>23.06.2015 03:54:05</td>
+                                    <td>
+                                        Elena Vinokurova
+                                        <small>(elena.vinokurova@pmi.com)</small>
+                                    </td>
+                                    <td>ActivityDeleted</td>
+                                    <td>Test big file</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                <div>
+                    <div class="wrap padding-left">
+                        <table class="approval_table table_log wrap">
+                            <tbody>
+                                <tr>
+                                    <td>23.06.2015 03:36:51</td>
+                                    <td>
+                                        Dmitry Koptelov
+                                        <small>(Dmitry.Koptelov@pmi.com)</small>
+                                    </td>
+                                    <td>DraftSendToApprove</td>
+                                    <td>Delete Toolbox "Big attach TB Plus"</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                <div>
+                    <div class="wrap padding-left">
+                        <table class="approval_table table_log wrap">
+                            <tbody>
+                                <tr>
+                                    <td>23.06.2015 03:36:51</td>
+                                    <td>
+                                        Elena Vinokurova
+                                        <small>(elena.vinokurova@pmi.com)</small>
+                                    </td>
+                                    <td>DraftCreated</td>
+                                    <td>Delete Toolbox "Big attach TB Plus"</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                <div>
+                    <div class="wrap padding-left">
+                        <table class="approval_table table_log wrap">
+                            <tbody>
+                                <tr>
+                                    <td>23.06.2015 03:36:02</td>
+                                    <td>
+                                        Dmitry Koptelov
+                                        <small>(Dmitry.Koptelov@pmi.com)</small>
+                                    </td>
+                                    <td>DraftSendToApprove</td>
+                                    <td>Delete Toolbox "Test TT"</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                <div>
+                    <div class="wrap padding-left">
+                        <table class="approval_table table_log wrap">
+                            <tbody>
+                                <tr>
+                                    <td>23.06.2015 03:36:02</td>
+                                    <td>
+                                        Elena Vinokurova
+                                        <small>(elena.vinokurova@pmi.com)</small>
+                                    </td>
+                                    <td>DraftCreated</td>
+                                    <td>Delete Toolbox "Test TT"</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                <div>
+                    <div class="wrap padding-left">
+                        <table class="approval_table table_log wrap">
+                            <tbody>
+                                <tr>
+                                    <td>23.06.2015 03:35:11</td>
+                                    <td>
+                                        Dmitry Koptelov
+                                        <small>(Dmitry.Koptelov@pmi.com)</small>
+                                    </td>
+                                    <td>DraftSendToApprove</td>
+                                    <td>Delete Activity "123"</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                <div>
+                    <div class="wrap padding-left">
+                        <table class="approval_table table_log wrap">
+                            <tbody>
+                                <tr>
+                                    <td>23.06.2015 03:35:11</td>
+                                    <td>
+                                        Elena Vinokurova
+                                        <small>(elena.vinokurova@pmi.com)</small>
+                                    </td>
+                                    <td>DraftCreated</td>
+                                    <td>Delete Activity "123"</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                <div>
+                    <div class="wrap padding-left">
+                        <table class="approval_table table_log wrap">
+                            <tbody>
+                                <tr>
+                                    <td>23.06.2015 03:34:34</td>
+                                    <td>
+                                        Dmitry Koptelov
+                                        <small>(Dmitry.Koptelov@pmi.com)</small>
+                                    </td>
+                                    <td>DraftSendToApprove</td>
+                                    <td>Delete Toolbox "Test"</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                <div>
+                    <div class="wrap padding-left">
+                        <table class="approval_table table_log wrap">
+                            <tbody>
+                                <tr>
+                                    <td>23.06.2015 03:34:34</td>
+                                    <td>
+                                        Elena Vinokurova
+                                        <small>(elena.vinokurova@pmi.com)</small>
+                                    </td>
+                                    <td>DraftCreated</td>
+                                    <td>Delete Toolbox "Test"</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                <div>
+                    <div class="wrap padding-left">
+                        <table class="approval_table table_log wrap">
+                            <tbody>
+                                <tr>
+                                    <td>23.06.2015 03:07:25</td>
+                                    <td>
+                                        Cas Approver
+                                        <small>(Approver@cas.castest)</small>
+                                    </td>
+                                    <td>DraftSendToApprove</td>
+                                    <td>New Toolbox "333"</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                <div>
+                    <div class="wrap padding-left">
+                        <table class="approval_table table_log wrap">
+                            <tbody>
+                                <tr>
+                                    <td>23.06.2015 03:07:25</td>
+                                    <td>
+                                        Elena Vinokurova
+                                        <small>(elena.vinokurova@pmi.com)</small>
+                                    </td>
+                                    <td>DraftCreated</td>
+                                    <td>New Toolbox "333"</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                <div>
+                    <div class="wrap padding-left">
+                        <table class="approval_table table_log wrap">
+                            <tbody>
+                                <tr>
+                                    <td>23.06.2015 03:06:24</td>
+                                    <td>
+                                        Cas Approver
+                                        <small>(Approver@cas.castest)</small>
+                                    </td>
+                                    <td>DraftSendToApprove</td>
+                                    <td>New Toolbox "222"</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                <div>
+                    <div class="wrap padding-left">
+                        <table class="approval_table table_log wrap">
+                            <tbody>
+                                <tr>
+                                    <td>23.06.2015 03:06:24</td>
+                                    <td>
+                                        Elena Vinokurova
+                                        <small>(elena.vinokurova@pmi.com)</small>
+                                    </td>
+                                    <td>DraftCreated</td>
+                                    <td>New Toolbox "222"</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                <div>
+                    <div class="wrap padding-left">
+                        <table class="approval_table table_log wrap">
+                            <tbody>
+                                <tr>
+                                    <td>23.06.2015 03:04:36</td>
+                                    <td>
+                                        Cas Approver
+                                        <small>(Approver@cas.castest)</small>
+                                    </td>
+                                    <td>DraftSendToApprove</td>
+                                    <td>New Toolbox "111"</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                <div>
+                    <div class="wrap padding-left">
+                        <table class="approval_table table_log wrap">
+                            <tbody>
+                                <tr>
+                                    <td>23.06.2015 03:04:36</td>
+                                    <td>
+                                        Elena Vinokurova
+                                        <small>(elena.vinokurova@pmi.com)</small>
+                                    </td>
+                                    <td>DraftCreated</td>
+                                    <td>New Toolbox "111"</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                <div>
+                    <div class="wrap padding-left">
+                        <table class="approval_table table_log wrap">
+                            <tbody>
+                                <tr>
+                                    <td>23.06.2015 03:03:40</td>
+                                    <td>
+                                        Cas Approver 
+                                        <small> (Approver@cas.castest)</small>
+                                    </td>
+                                    <td>DraftSendToApprove</td>
+                                    <td>New Toolbox "Test"</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                <div>
+                    <div class="wrap padding-left">
+                        <table class="approval_table table_log wrap">
+                            <tbody>
+                                <tr>
+                                    <td>23.06.2015 03:03:40</td>
+                                    <td>
+                                        Elena Vinokurova
+                                        <small> (elena.vinokurova@pmi.com)</small>
+                                    </td>
+                                    <td>DraftCreated</td>
+                                    <td>New Toolbox "Test"</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                <div>
+                    <div class="wrap padding-left">
+                        <table class="approval_table table_log wrap">
+                            <tbody>
+                                <tr>
+                                    <td>23.06.2015 03:01:49</td>
+                                    <td>
+                                        Cas Approver 
+                                        <small> (Approver@cas.castest) </small>
+                                    </td>
+                                    <td>DraftSendToApprove</td>
+                                    <td>New Toolbox "Test activity"</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                <div>
+                    <div class="wrap padding-left">
+                        <table class="approval_table table_log wrap">
+                            <tbody>
+                                <tr>
+                                    <td>23.06.2015 03:01:49</td>
+                                    <td>
+                                        Elena Vinokurova 
+                                        <small> (elena.vinokurova@pmi.com)</small>
+                                    </td>
+                                    <td>DraftCreated</td>
+                                    <td>New Toolbox "Test activity"</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                <div id="#loadMoreWaypoint0">
+                    <div class="wrap padding-left">
+                        <table class="approval_table table_log wrap">
+                            <tbody>
+                                <tr>
+                                    <td>23.06.2015 03:00:02</td>
+                                    <td>
+                                        Dmitry Koptelov
+                                        <small>(Dmitry.Koptelov@pmi.com)</small>
+                                    </td>
+                                    <td>DraftSendToApprove</td>
+                                    <td>New Activity "L&amp;M COMPACT Hostess brief"</td>
+                                </tr>
+                            </tbody>
                         </table>
                     </div>
                 </div>
