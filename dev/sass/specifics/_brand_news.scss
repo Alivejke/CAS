@@ -34,7 +34,7 @@
 	.btn_wrap {
 		width: flex(900px, $base-width);
 		max-width: 740px;
-		height: 3em;
+		height: em(41px);
 		margin: 0 auto;
 		position: absolute;
 		bottom: -1.5em;

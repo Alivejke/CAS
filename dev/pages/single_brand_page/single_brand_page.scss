@@ -12,14 +12,15 @@
 
 	.brand_news {
 		.btn_wrap {
-			bottom: em(-22px);
-			height: em(44px);
+			bottom: em(-21px);
+			height: em(41px);
 		}
 		.btn_big_rounded_wrap {
 			height: 100%;
 			.btn {
 				&.btn_big_rounded {
-					line-height: em(44px, $btn-font-size);
+					// line-height: em(41px, $btn-font-size);
+					line-height: em(41px, 12px);
 					height: 100%;
 					.ico_edit {
 						left: em(-8px, $btn-font-size);

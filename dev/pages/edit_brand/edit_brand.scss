@@ -7,20 +7,25 @@
 		li {
 			float: left;
 			// width: flex(147px, $base-width-content-one);
-			width: 8em;
+			min-width: 8em;
 			margin-left: flex(35px, $base-width-content-one);
 			&:first-child {
 				margin-left: 0;
 			}
 			.btn {
+				background: $white-color;
+				&:hover {
+					background-color: #0f3e6e;
+				}
 				&.btn_small {
 					width: 100%;
+					padding: 0 10px;
 				}
 			}
 		}
 		&.btn_wrap {
 			position: absolute;
-			bottom: em(-95px, $base-font-size);
+			bottom: em(-21px, $base-font-size);
 			overflow: hidden;
 		}
 	}
