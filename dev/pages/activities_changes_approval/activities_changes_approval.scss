@@ -243,7 +243,6 @@
 	}
 
 	.btn_wrap {
-		margin-top: em(110px);
 		.btn {
 			&.btn-default {
 				width: flex(166px, $base-width-content);
@@ -252,6 +251,9 @@
 			&:first-child {
 				margin-left: 0;
 			}
+		}
+		&.indent-top {
+			margin-top: em(110px);
 		}
 	}
 
@@ -358,7 +360,7 @@
     }
 
     .wrap_block {
-        margin: em(60px) 0 em(80px);
+        margin: em(24px) 0 em(80px);
         .title {
             font-family: pragmatica,Helvetica,Arial,sans-serif;
             font-weight: 300;

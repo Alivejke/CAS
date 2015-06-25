@@ -196,6 +196,9 @@
 			background-color: $white-color;
 			color: #738189;
 		}
+		&.indent-top {
+			margin-top: 48px;
+		}
 	}
 	&.btn-save {
 		&:hover {
