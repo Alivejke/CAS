@@ -209,6 +209,14 @@ textarea {
         background-color: $white-color;
     }
     .toolbox-wrapper__description {
+        &__title {
+            margin-bottom: em(28px, $main_title-font-size);
+            font-family: 'Brandon Grotesque';
+            font-weight: 300;
+            font-size: em($brand_news_title-font-size, $base-font-size);
+            line-height: 1;
+            color: #4d4d4d;
+        }
         li {
             margin-top: em(43px, $base-font-size);
             p {
@@ -222,9 +230,6 @@ textarea {
                 color: #909294;
                 letter-spacing: 1px;
                 text-align: justify;
-            }
-            .brand_news_title {
-                margin-bottom: em(28px, $main_title-font-size);
             }
             &:first-child {
                 margin-top: 0;

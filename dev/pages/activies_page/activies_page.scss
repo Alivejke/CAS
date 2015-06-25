@@ -256,6 +256,13 @@
     .document {
         margin: 0em 0 3em;
 
+        &__title {
+            font-size: 1em;
+            width: 90%;
+            line-height: 1.5em;
+            margin-top: 0.5em;
+            margin-right: 5px;
+        }
         li {
             float: left;
             width: flex(330px, $base-width-content);
@@ -279,13 +286,6 @@
                 clear: left;
             }
 
-            .brand_news_title {
-                font-size: 1em;
-                width: 90%;
-                line-height: 1.5em;
-                margin-top: 0.5em;
-                margin-right: 5px;
-            }
             .manage {
                 @media (max-width: 768px) {
                     width: em(62px);
