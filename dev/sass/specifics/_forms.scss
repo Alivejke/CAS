@@ -26,6 +26,13 @@ textarea {
 	&.error_validation {
 		border-color:#b70e12;
 	}
+	&.textarea_hidden {
+		visibility: hidden;
+		height: 0px;
+		margin: 0;
+		padding: 0;
+		border-width: 0;
+	}
 }
 
 label {
