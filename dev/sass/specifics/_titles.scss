@@ -37,21 +37,14 @@
 }
 
 .brand_news_title {
-	// font-family: 'proxima_novalight';
 	font-family: 'Brandon Grotesque';
 	font-weight: 300;
-	// font-family: pragmatica,Helvetica,Arial,sans-serif;
-	// font-weight: 300;
 	font-size: em($brand_news_title-font-size, $base-font-size);
 	line-height: 1;
-	// color: #323a45;
-	// color: $base-color;
-	// color: #2c3138;
 	color: #4d4d4d;
 }
 
 .main_menu_title {
-	// font-family: 'brandon_grotesquebold';
 	@extend .base_title;
 	font-size: em($main_menu_title-font-size, $main_menu-font-size);
 	line-height: em(24px, $main_menu_title-font-size);

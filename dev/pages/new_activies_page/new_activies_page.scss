@@ -11,6 +11,12 @@
             
             .toolbox-wrapper__description  {
                 width: flex(390px, $base-width-content);
+
+                textarea{
+                    width: 100%;
+                    height: em( 146px, $base-font-size);
+                    margin-top: 0;
+                }
             }
         }
         .status_wrap {
@@ -39,13 +45,6 @@
 
             }
         }
-        .description textarea{
-            // width: 388px;
-            // height: 126px;
-            width: 100%;
-            height: em( 146px, $base-font-size);
-            margin-top: 0;
-        }
         .toolbox-wrapper__image-block  {
             width: flex(296px, $base-width-content);
             height: em(283px, $base-font-size);
@@ -64,7 +63,7 @@
                     .btn {
                         width: flex(340px, $base-width-content);
                         left: 27.5%;
-                        top: 8em;
+                        top: 40%;
                         position: absolute;
                     }
                 }
