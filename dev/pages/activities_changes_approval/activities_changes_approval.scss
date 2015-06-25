@@ -82,7 +82,7 @@
 	   		}
 		}
 		&.description {
-			.brand_news_list {
+			.activities_changes_brand_news_list {
 				width: flex($brand_news_list-width, $base-width-content/2);
 				color: $gray-color-old;
 				margin-top: em(53px);
@@ -96,16 +96,12 @@
 				&.distinction {
 					color: $distinction-color;
 				}
+				.btn.btn-default{
+					margin-top: 4em;
+					width: flex(146px, $brand_news_list-width);
+				}
 			}
 		} 
-	}
-
-	.brand_news_list {
-		.btn {
-			&.btn-default {
-				width: flex(146px, $brand_news_list-width);
-			}
-		}
 	}
 
 	.main_title {
