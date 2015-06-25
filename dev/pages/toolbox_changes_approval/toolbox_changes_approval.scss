@@ -5,9 +5,10 @@
 	.left, .right {
 		width: 50%;
 		height: 100%;
-		padding: em(30px, $base-font-size) flex(20px, $base-width-content);
+		padding: em(30px, $base-font-size) flex(26px, $base-width) em(30px, $base-font-size) 0;
 		z-index: 2;
 		position: relative;
+		
 		.main_title.main_title_actives {
 			width: 100%;
 			text-align: left;
@@ -45,12 +46,13 @@
 			color: #909294;
 			line-height: em(23px, $base-font-size);
 			text-align: justify;
+			width: flex(300px, $base-width/2 - 40px);
 			&.for_approval {
 				color: #b70e12;
 			}
 		}
 		.btn.btn-default {
-			width: flex(400px, $base-width-content);
+			width: flex(146px, $base-width/2 - 40px);
 			margin: em(45px, $base-font-size) 0;
 		}
 	}
@@ -59,6 +61,7 @@
 	}
 	.right {
 		float: right;
+		padding: em(30px, $base-font-size) flex(26px, $base-width);
 		// background-color: #F7F7F9;
 		overflow: hidden;
 		margin-bottom: -1000px;

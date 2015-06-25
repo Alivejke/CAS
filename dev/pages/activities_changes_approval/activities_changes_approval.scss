@@ -83,7 +83,7 @@
 		}
 		&.description {
 			.activities_changes_brand_news_list {
-				width: flex($brand_news_list-width, $base-width-content/2);
+				width: flex($brand_news_list-width, $base-width-content/2 - $base-margin);
 				color: $gray-color-old;
 				margin-top: em(53px);
 				p {
@@ -121,7 +121,7 @@
 		margin-top: em(75px);
 		> li {
 			.block_img {
-				width: flex(296px, $base-width-content/2);
+				width: flex(296px, $base-width-content/2 - $base-margin);
 			}
 		}
 	}
