@@ -3,7 +3,11 @@
 
 .new_activies_page {
     .content-wrap-inner {
-        padding: 4em 0 4em 0;
+        .btn_rounded_wrap {
+            &.btn_right {
+                width: flex(340px);
+            }
+        }
     }
     .activies_page_wrap {
         .content_wrap, .wrap_block {
@@ -19,23 +23,9 @@
                 }
             }
         }
-        .status_wrap {
-            width: flex(370px, $base-width-content);
-            .valid {
-                font-weight: 500;
-            }
-            .btn_big_rounded {
-                .ico_status {
-                    margin-left: flex(21px, 370px);
-                }
-            }
-        }
         .block_img {
             border: 1px solid #cecfd0;
             @include border-radius(4px);
-            // width: 296px;
-            // height: 283px;
-            // padding: 13px;
             padding: em(13px, $base-font-size) flex(13px, 296px);
             width: 100%;
             display: block;

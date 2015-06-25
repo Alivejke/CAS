@@ -23,9 +23,8 @@
 			}
 		}
 		&.btn_wrap {
-			position: absolute;
-			bottom: em(-21px, $base-font-size);
-			overflow: hidden;
+			position: relative;
+			bottom: em(-105px);
 		}
 	}
 	.content-wrap-inner {

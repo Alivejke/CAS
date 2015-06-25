@@ -3,12 +3,12 @@ $status_wrap-width: 300px;
 	position: relative;
 }
 .status_wrap {
-	position: absolute;
-	top: -5.4em;
-	right: 0;
-	background: $white-color;
-	width: flex($status_wrap-width, $base-width-content);
-	@include border-radius(30px);
+	// position: absolute;
+	// top: -5.4em;
+	// right: 0;
+	// background: $white-color;
+	// width: flex($status_wrap-width, $base-width-content);
+	// @include border-radius(30px);
 	.btn {
 		&.btn_big_rounded {
 			height: em(44px, 12px);
@@ -27,6 +27,7 @@ $status_wrap-width: 300px;
 		}
 		.ico_status {
 			vertical-align: -2px;
+			margin-left: flex(21px, 370px);
 		}
 		.ico_status_text {
 			text-transform: uppercase;

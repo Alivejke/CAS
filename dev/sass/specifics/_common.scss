@@ -201,8 +201,12 @@ textarea {
 .content-wrap-inner {
     position: relative;
     border-top: 1px solid #cecfd0;
-    // padding: 4em 0 4em 0;
-    // border-bottom: 1px solid #cecfd0;
+    &.inner-indent{
+        padding: $content-inner-padding 0 $content-inner-padding 0;
+        .btn_rounded_wrap{
+            bottom: em($content-inner-padding - $btn-rounded-height/2);
+        }
+    }
     .btn_circle {
         position: absolute;
         top: -1.6em;
@@ -236,20 +240,20 @@ textarea {
             }
         }
     }
-    .btn_wrap {
-        width: flex(900px, $base-width);
-        max-width: 740px;
-        height: em(41px);
-        margin: 0 auto;
+    .btn_rounded_wrap {
+        // width: flex(900px, $base-width);
+        // max-width: 740px;
+        // margin: 0 auto;
+        background-color: #fff;
         position: absolute;
-        bottom: -1.5em;
+        bottom: em(-$btn-rounded-height/2);
         @media (max-width: 960px) {
             width: flex(700px, $base-width);
         }
         @media (max-width: 770px) {
             width: flex(900px, $base-width);
         }
-        &.full-size {
+        &__search{
             min-width: initial;
             width: 30%;
             right: 0;
@@ -257,78 +261,78 @@ textarea {
                 width: 100%;
             }
         }
-    }
-    .btn_big_rounded_wrap {
-        display: inline-block;
-        background-color: #fff;
-        @include border-radius(100%);
-        width: flex(160px, 740px);
-        height: 3em;
-        position: absolute;
-        bottom: 0;
-        .btn {
-            &.btn_big_rounded {
-                .ico_edit {
-                    left: 0;
-                }
-                .ico_add {
-                    left: 0;
-                }
-                .ico_search_gray{
-                    position: absolute;
-                    top: 13px;
-                    left: 20px;
-                }
-            }
-        }
-        .btn_search{
-            input{
-              border: none;
-              font-family: 'Brandon Grotesque';
-              font-size: 13px;
-              letter-spacing: 0px;
-              font-weight: 600;
-              margin-left: 0px;
-              float: left;
-              padding-right: 5px;
-              line-height: 42px;
-            }
-        }
-        &.btn_toolbox {
-            // width: flex(170px, $base-width - $base-margin);
-            height: 3em;
-            .btn_big_rounded {
-                height: 100%;
-                line-height: 3em;
-                .ico_edit, .ico_add, .ico_upload {
-                    left: 0;
-                }
-            }
-        }
-        &.pos_left {
+        &.btn_left {
             left: 0;
         }
-        &.pos_right {
+        &.btn_right {
             right: 0;
         }
-        &.btn_big_rounded_top {
-            top: em(-22px);
-            height: em(44px);
-            // width: flex(164px);
-            width: 13%;
-            .btn_big_rounded {
-                height: em(44px, 12px);
-                line-height: em(44px, 12px);
-            }
-        }
-        .btn_big_rounded {
-            background-color: #fff;
-        }
-
-        @media (max-width: 768px) {
-            width: 10.8em;
-        }
     }
+    // .btn_big_rounded_wrap {
+    //     display: inline-block;
+    //     background-color: #fff;
+    //     @include border-radius(100%);
+    //     width: flex(160px, 740px);
+    //     height: 3em;
+    //     position: absolute;
+    //     bottom: 0;
+    //     .btn {
+    //         &.btn_big_rounded {
+    //             .ico_edit {
+    //                 left: 0;
+    //             }
+    //             .ico_add {
+    //                 left: 0;
+    //             }
+    //             .ico_search_gray{
+    //                 position: absolute;
+    //                 top: 13px;
+    //                 left: 20px;
+    //             }
+    //         }
+    //     }
+    //     .btn_search{
+    //         input{
+    //           border: none;
+    //           font-family: 'Brandon Grotesque';
+    //           font-size: 13px;
+    //           letter-spacing: 0px;
+    //           font-weight: 600;
+    //           margin-left: 0px;
+    //           float: left;
+    //           padding-right: 5px;
+    //           line-height: 42px;
+    //         }
+    //     }
+    //     &.btn_toolbox {
+    //         // width: flex(170px, $base-width - $base-margin);
+    //         height: 3em;
+    //         .btn_big_rounded {
+    //             height: 100%;
+    //             line-height: 3em;
+    //             .ico_edit, .ico_add, .ico_upload {
+    //                 left: 0;
+    //             }
+    //         }
+    //     }
+    //     &.btn_big_rounded_top {
+    //         top: em(-22px);
+    //         height: em(44px);
+    //         // width: flex(164px);
+    //         width: 13%;
+    //         .btn_big_rounded {
+    //             height: em(44px, 12px);
+    //             line-height: em(44px, 12px);
+    //         }
+    //     }
+    //     .btn_big_rounded {
+    //         background-color: #fff;
+    //     }
+
+    //     @media (max-width: 768px) {
+    //         width: 10.8em;
+    //     }
+    // }
 }
 
 .toolbox-wrapper {

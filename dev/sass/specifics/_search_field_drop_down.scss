@@ -13,6 +13,7 @@
         &:first-child {
             border-top-color: transparent;
             padding: 0;
+            margin-top: em(23px);
         }
     }
     &.indent-top {

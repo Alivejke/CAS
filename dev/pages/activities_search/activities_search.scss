@@ -2,6 +2,7 @@
 @import "compass/css3";
 .activities_search_page {
 	.content_wrap {
+		margin-bottom: em(23px);
 		&.activiities_search {
 			.select_wrap {
 				&.select_long {
@@ -23,7 +24,7 @@
 					text-align: center;
 					font-weight: 600;
 					&.indent-top {
-						margin-top: em(3px);
+						margin-top: em(23px);
 					}
 				}
 			}

@@ -65,11 +65,13 @@
 		border-top: 1px solid #cecfd0;
 		margin-top: em(65px);
 		.status_wrap {
-			top: em(-20px);
+			position: absolute;
+			bottom: em(-$btn-rounded-height/2);
+			background: $white-color;
 			left: 50%;
 			width: flex($brand_news_list-width, $base-width/2);
 			margin-left: flex(-129px, $base-width/2);
-
+			@include border-radius(30px);
 			@media (max-width: 768px) {
 	    		left: 43%;
 	    		width: 75.45833%;
@@ -144,6 +146,10 @@
 
 	.document {
 		margin-top: em(-45px);
+		&__title {
+			font-size: em($base-font-size, $base-font-size);
+			width: flex(230px, 253px);
+		}
 		li {
 			float: left;
 			width: flex(330px, $base-width-content);
@@ -167,10 +173,6 @@
 				clear: left;
 			}
 
-			.brand_news_title {
-				font-size: em($base-font-size, $base-font-size);
-				width: flex(230px, 253px);
-			}
 			.manage {
 				@media (max-width: 768px) {
 			 		width: em(62px);
@@ -187,7 +189,7 @@
 					color: #8F979F;
 				}
 				&.distinction {
-					.brand_news_title {
+					.document__title {
 						color: $distinction-color;
 					}
 				}

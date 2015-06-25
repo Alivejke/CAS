@@ -4,24 +4,23 @@
 	.content_wrap.content_wrap_indent{
 		margin-top: 68px;
 	}
-	.content-wrap-inner .btn_wrap{
-		max-width: initial;
-		width:18%;
-		.btn_big_rounded_wrap{
-			width: 100%;
-			.btn_big_rounded{
-				text-align: left;
-				padding-left: 59px;
-				font-size: 13px;
-				.ico_add{
-					position: absolute;
-					left: 18px;
-					top: 13px;
+	.content-wrap-inner{
+		.btn_rounded_wrap{
+			&.btn_left{
+				width:17.5%;
+				.btn_big_rounded{
+					padding-left: 23px;
+					letter-spacing: 1px;
 				}
 			}
-		}
-		&.full-size {
-			width: 30%;
+			&.btn_right {
+				width: 30%;
+			}
+			.ico_add{
+				position: absolute;
+				left: 18px;
+				top: 13px;
+			}
 		}
 	}
 	.status-row{

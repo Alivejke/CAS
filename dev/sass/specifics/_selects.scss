@@ -52,13 +52,13 @@ $select_multiple_default-width: 289px;
 			&.select2-container--default {
 				.select2-selection--single {
 					background-color: transparent;
-					height: 2.4em;
+					height: em(41px);
 					.select2-selection__rendered {
-						line-height: 2.4em;
+						line-height: em(41px);
 					}
 					.select2-selection__arrow {
 						border-left: none;
-						line-height: 2.4em;
+						line-height: em(41px);
 					}
 				}
 			}
@@ -184,11 +184,11 @@ $select_multiple_default-width: 289px;
 				border-color: #cbcccd;
 				@include border-radius(0px);
 				.select2-selection__rendered {
-					line-height: 2.4em;
+					line-height: em(41px);
 				}
 				.select2-selection__arrow {
 					width: flex(70px, $select-base-width);
-   					height: 2.4em;
+   					height: em(41px);
 					&:hover {
 						b {
 							border-top-color: #a6a6a6;
