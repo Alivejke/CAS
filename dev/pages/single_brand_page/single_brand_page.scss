@@ -21,7 +21,6 @@
 			height: 100%;
 			.btn {
 				&.btn_big_rounded {
-					// line-height: em(41px, $btn-font-size);
 					line-height: em(41px, 12px);
 					height: 100%;
 					.ico_edit {
@@ -36,35 +35,11 @@
 				width: flex(153px, 742px);
 			}
 			&.pos_right {
-				// right: flex(300px, 742px);
 				width: flex(170px, 742px);
 			}
 		}
-		.brand_news_list {
-			.brand_news_title {
-				color: #323a45;
-				margin-bottom: em(28px, $main_title-font-size);
-			}
-	        li {
-	            margin-top: em(43px, $base-font-size);
-	            p {
-	                font-family: pragmatica,Helvetica,Arial,sans-serif;
-	                font-weight: 300;
-	                font-size: em($base-font-size, $base-font-size);
-	                line-height: em(21px, $base-font-size);
-	                color: $gray-color;
-	                color: #909294;
-	                letter-spacing: 1px;
-	                text-align: justify;
-	            }
-	            &:first-child {
-	                margin-top: 0;
-	            }
-	        }
-	    }
+
 	}
-
-
 
 	&.activities_search_page {
 		.main_title {

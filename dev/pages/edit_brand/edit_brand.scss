@@ -6,7 +6,6 @@
 	.brand_edit {
 		li {
 			float: left;
-			// width: flex(147px, $base-width-content-one);
 			min-width: 8em;
 			margin-left: flex(35px, $base-width-content-one);
 			&:first-child {
@@ -34,9 +33,11 @@
 		&.edit_brand {
 			padding: em(33px, $base-font-size) 0 em(55px, $base-font-size) 0;
 		}
-	}
-	.brand_news_title {
-		font-size: em(27px, $base-font-size);
+		.brand_news_list {
+			.brand_news_title {
+				font-size: em(27px, $base-font-size);
+			}
+	    }
 	}
 
 	.brand_news_textarea {

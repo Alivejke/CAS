@@ -346,6 +346,7 @@ textarea {
         margin-left: flex(100px, $base-width-content);
     }
 }
+
 .brand_news_toolbax_list {
     // margin-top: em(49px, $base-font-size);
     margin-top: em(2px);
@@ -357,6 +358,28 @@ textarea {
     }
 }
 
+.brand_news_list {
+    .brand_news_title {
+        color: #323a45;
+        margin-bottom: em(28px, $main_title-font-size);
+    }
+    li {
+        margin-top: em(43px, $base-font-size);
+        p {
+            font-family: pragmatica,Helvetica,Arial,sans-serif;
+            font-weight: 300;
+            font-size: em($base-font-size, $base-font-size);
+            line-height: em(21px, $base-font-size);
+            color: $gray-color;
+            color: #909294;
+            letter-spacing: 1px;
+            text-align: justify;
+        }
+        &:first-child {
+            margin-top: 0;
+        }
+    }
+}
 
 .custom-fileupload {
     position: absolute;
