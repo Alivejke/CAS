@@ -19,7 +19,10 @@
 	        },
 	        onComplete: function () {
 	            $this.text(buttonDefaultText);
-	            $this.hide();
+	            // $this.hide();
+	            if( $this.closest('.js-img_wrap').find('.elem_logo_big').length ){
+	            	$this.closest('.js-img_wrap').find('.elem_logo_big').hide();
+	            }
 	            $this.closest('.js-img_wrap').append('<img src="' + urlCheck + '" alt="">');           
 	        }
 	    });
