@@ -201,7 +201,10 @@
 		.ico_edit {
 			position: relative;
 			top: em(4px, $btn-font-size);
-			left: -17px;
+			left: flex(-17px, 164px);
+			@media (max-width: 768px) {
+     			left: 0;
+    		}
 		}
 		.ico_add {
 		    position: relative;

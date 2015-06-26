@@ -35,9 +35,6 @@
     }
 
     .activies_page_wrap {
-        .content_wrap, .wrap_block {
-            margin-top: em(60px, $base-font-size);
-        }
 
         .block_img {
             border: 1px solid #cecfd0;
@@ -204,18 +201,17 @@
         }
     }
 
-    .content-wrap-inner {
-        padding: 4em 0 4em 0;
-        border-bottom: 1px solid #cecfd0;
+    .buttons-wrap {
+        
+        &__bottom{
+            margin: 38px 0 0 0;
+        }
         .btn_rounded_wrap {
             &.btn_left{
                 width: flex(164px);
             }
             &.btn_right {
                 width: flex(340px);
-                // .ico_status{
-                //    margin-left: flex(21px, 370px);
-                // }
             }
         }
         .toolbox-wrapper__description {
@@ -229,19 +225,16 @@
     }
 
     .wrap_blocks {
-        .main_title {
-            &.main_title_actives {
-                margin-top: 3em;
-            }
-        }
-    }
-    .wrap_blocks {
         background: #FFFFFF;
         overflow: hidden;
         margin-bottom: -1.4em;
         width: 100%;
+        .main_title {
+            &.main_title_actives {
+                margin-top: 60px;
+            }
+        }
     }
-
     #mainarea.activies_page_wrap {
         padding-bottom: 0px;
         margin: 0px auto;
