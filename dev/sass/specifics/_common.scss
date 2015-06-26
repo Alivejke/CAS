@@ -329,7 +329,8 @@ textarea {
 .toolbox-wrapper__description {
     &__title {
         margin-bottom: em(28px, $main_title-font-size);
-        font-family: 'Brandon Grotesque';
+        // font-family: 'Brandon Grotesque';
+        font-family: 'Open Sans', sans-serif;
         font-weight: 300;
         font-size: em($brand_news_title-font-size, $base-font-size);
         line-height: 1;
@@ -615,4 +616,8 @@ h1.error, div.error, a.error, .input-validation-error, span.error {
     border-top: 1px solid #EEEEEE;
     padding: em(30px) 0;
     margin-bottom: em(100px);
+}
+
+.search-btn {
+    float: right;
 }
