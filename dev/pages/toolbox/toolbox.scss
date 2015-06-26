@@ -42,36 +42,39 @@
 			overflow: hidden;
 		}
 	}
-	.content-wrap-inner {
-		padding: 4em 0 4em 0;
-		border-bottom: 1px solid #cecfd0;
-		&.edit_brand {
-			padding: em(33px, $base-font-size) 0 em(55px, $base-font-size) 0;
-		}
-		.btn_big_rounded_wrap {
-			&:first-child {
-				width: flex(153px, 742px);
-			}
-			&.pos_right {
-				width: flex(170px, 742px);
-			}
-		}
-		.toolbox-wrapper__description {
-            width: flex(390px, $base-width-content);
-            &__title{
-            	font-size: em(27px, $base-font-size);
+    .buttons-wrap {
+    	margin: 38px 0 55px 0;
+   	    .btn_rounded_wrap {
+            &.btn_right {
+                width: flex(340px);
             }
-			li {
-				p {
-					text-align: justify;
-					color: $gray-color;
-				}
+        } 
+        &__bottom{
+            margin: 106px 0 0 0;
+	        .btn_rounded_wrap {
+	        	&.btn_left{
+	        		width: flex(164px);
+	        	}
+	            &.btn_right {
+	                width: flex(168px);
+	            }
+	        }
+        }
+    }
+	.toolbox-wrapper__description {
+        width: flex(390px, $base-width-content);
+        &__title{
+        	font-size: em(27px, $base-font-size);
+        }
+		li {
+			p {
+				text-align: justify;
+				color: $gray-color;
 			}
 		}
-		.toolbox-wrapper__image-block{
-			margin-left: 0;
-		}
-
+	}
+	.toolbox-wrapper__image-block{
+		margin-left: 0;
 	}
 
 	.status_wrap {

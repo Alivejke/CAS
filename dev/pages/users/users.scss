@@ -1,28 +1,47 @@
 @import '../../sass/base/__base';
 
 .users-page{
-	.content_wrap.content_wrap_indent{
-		margin-top: 68px;
-	}
-	.content-wrap-inner{
-		.btn_rounded_wrap{
-			&.btn_left{
-				width:17.5%;
-				.btn_big_rounded{
-					padding-left: 23px;
-					letter-spacing: 1px;
-				}
-			}
-			&.btn_right {
-				width: 30%;
-			}
-			.ico_add{
-				position: absolute;
-				left: 18px;
-				top: 13px;
-			}
-		}
-	}
+	.main_title_actives{
+        margin-top: 50px;
+    }
+	.buttons-wrap {
+        .btn_rounded_wrap{
+            &.btn_left{
+                width:17.5%;
+                .btn_big_rounded{
+                    padding-left: 23px;
+                    letter-spacing: 1px;
+                }
+            }
+            &.btn_right {
+                width: 30%;
+            }
+            .ico_add{
+                position: absolute;
+                left: 18px;
+                top: 13px;
+            }
+        }
+    }
+	// .content-wrap-inner{
+	// 	.btn_rounded_wrap{
+	// 		&.btn_left{
+	// 			width:17.5%;
+	// 			.btn_big_rounded{
+	// 				padding-left: 23px;
+	// 				letter-spacing: 1px;
+	// 			}
+	// 		}
+	// 		&.btn_right {
+	// 			width: 30%;
+	// 		}
+	// 		.ico_add{
+	// 			position: absolute;
+	// 			left: 18px;
+	// 			top: 13px;
+	// 		}
+	// 	}
+	// }
 	.status-row{
 		position: relative;
 	}
@@ -48,7 +67,7 @@
 	}
 
 	table {
-		margin-top: 76px;
+		margin-top: 56px;
 	    width: 100%;
 	    .sprite{
 	        display: inline-block;

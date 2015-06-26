@@ -185,4 +185,17 @@
             margin-top: 0;
         }
     }
+
+    .grey-line {
+        margin: 59px 0 51px;
+    }
+
+    .btn {
+        &.btn-default {
+            width: flex(146px);
+            &.btn_long {
+                width: flex(186px);
+            }
+        }
+    }
 }

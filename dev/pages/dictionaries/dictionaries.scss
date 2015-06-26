@@ -2,7 +2,11 @@
 
 /*DICTIONARIES PAGE*/
 .dictionaries-list{
+    .main_title_actives{
+        margin-top: 50px;
+    }
     .buttons-wrap {
+        margin: 45px 0 0 0;
         .btn_rounded_wrap{
             &.btn_left{
                 width:17.5%;
@@ -22,7 +26,7 @@
         }
     }
     table {
-        margin-top: 76px;
+        margin-top: 56px;
         .sprite{
             display: inline-block;
             .ico_cart {

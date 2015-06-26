@@ -11,7 +11,10 @@
 	    border-bottom: 1px solid #cecfd0;
 	}
 	.toolbox_edit_btn_wrap {
-		margin-top: 0;
+		margin-top: 44px;
+		&.indent-top{
+			margin-top: 28px;
+		}
 		.btn-delete {
 			margin-left: 0px;
 		}
