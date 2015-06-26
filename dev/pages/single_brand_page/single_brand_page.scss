@@ -10,40 +10,24 @@
 		}
 	}
 
-	.content-wrap-inner {
-		padding: 4em 0 4em 0;
-		border-bottom: 1px solid #CECFD0;
-		.btn_wrap {
-			bottom: em(-21px);
-			height: em(41px);
-		}
-		.btn_big_rounded_wrap {
-			height: 100%;
-			.btn {
-				&.btn_big_rounded {
-					line-height: em(41px, 12px);
-					height: 100%;
-					.ico_edit {
-						left: em(-8px, $btn-font-size);
-					}
-					.ico_add {
-						left: em(-6px, $btn-font-size);
-					}
-				}
-			}
-			&:first-child {
-				width: flex(153px, 742px);
-			}
-			&.pos_right {
-				width: flex(170px, 742px);
-			}
-		}
-
-	}
+    .buttons-wrap {
+        
+        &__bottom{
+            margin: 78px 0 0 0;
+	        .btn_rounded_wrap {
+	            &.btn_left{
+	                width: flex(151px);
+	            }
+	            &.btn_right {
+	                width: flex(164px);
+	            }
+	        }
+        }
+    }
 
 	&.activities_search_page {
 		.main_title {
-			margin-top: em(60px, $main_title-font-size);
+			margin-top: em(26px, $main_title-font-size);
 		}
 	}
 

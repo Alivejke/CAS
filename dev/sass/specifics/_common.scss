@@ -222,12 +222,10 @@ textarea {
     //     }
     // }
     .btn_circle {
-        position: absolute;
-        top: -1.6em;
         background-color: $white-color;
     }
     .btn_rounded_wrap {
-        background-color: #fff;
+        background-color: $white-color;
         bottom: em(-$btn-rounded-height/2);
         @media (max-width: 960px) {
             width: flex(700px, $base-width);
@@ -243,12 +241,12 @@ textarea {
                 width: 100%;
             }
         }
-        &.btn_left {
-            float: left;
-        }
-        &.btn_right {
-            float: right;
-        }
+    }
+    .btn_left {
+        float: left;
+    }
+    .btn_right {
+        float: right;
     }
     // .btn_big_rounded_wrap {
     //     display: inline-block;
