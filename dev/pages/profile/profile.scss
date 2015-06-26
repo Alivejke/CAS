@@ -9,9 +9,8 @@
 	}
 
 	.profile_btn_wrap {
-		// margin-top: em(50px);
-		// padding-top: em(30px);
-		// border-top: 1px solid #cecfd0;
+			margin-top: 34px;
+			padding-top: 31px;
 		.btn {
 			&.btn-default {
 				width: flex(120px, $base-width-content);
@@ -99,8 +98,14 @@
 
 	.password_wrap {
 		margin-top: em(12px);
+		&.indent-top{
+			margin-top: em(54px);
+		}
 		.password {
 			width: flex(312px, $base-width-content);
+			input[type="text"]{
+				margin-top: 20px;
+			}
 		}
 		.password_confirm {
 			width: flex(312px, $base-width-content);

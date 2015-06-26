@@ -2,16 +2,16 @@
 @import "compass/css3";
 
 .new_activies_page {
-    .content-wrap-inner {
+    .buttons-wrap {
         .btn_rounded_wrap {
             &.btn_right {
-                width: flex(340px);
+                width: flex(390px);
             }
         }
     }
     .activies_page_wrap {
         .content_wrap, .wrap_block {
-            margin-top: em(60px, $base-font-size);
+            margin-top: em(30px, $base-font-size);
             
             .toolbox-wrapper__description  {
                 width: flex(390px, $base-width-content);
@@ -51,13 +51,19 @@
                         border-color: #b70e12;
                     }
                     .btn {
-                        width: flex(340px, $base-width-content);
-                        left: 27.5%;
-                        top: 40%;
+                        width: flex(146px, 296px);
+                        right: 0;
+                        left: 0;
+                        bottom: 0;
+                        top: 0;
+                        margin: auto;
                         position: absolute;
                     }
                 }
             }
+        }
+        .toolbox_edit_btn_wrap{
+            margin-top: 34px;
         }
         .channel {
             width: flex(320px, $base-width);
@@ -69,14 +75,12 @@
             .name_channels {
                 font-size: em($base-font-size);
                 line-height: 1;
-                text-align: center;
                 padding: em(15px, $base-font-size) 0;
             }
             ul {
                 margin-top: em(-7px);
                 li {
                     margin: 20px 0;
-                    padding-left: 80px;
                     a {
                         color: $gray-color;
                         position: relative;
@@ -99,7 +103,6 @@
                         }
                     }
                     label {
-                        margin-left: flex(90px, 246px);
                         // color: $gray-color;
                     }
                 }

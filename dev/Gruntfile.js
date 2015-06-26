@@ -57,13 +57,13 @@ module.exports = function(grunt) {
                     sassDir: 'sass',
                     cssDir: '../web/css'
                 }
-            },
-            pages: {
-                options: {
-                    sassDir: 'pages',
-                    cssDir: '../web/pages'
-                }
             }
+            // pages: {
+            //     options: {
+            //         sassDir: 'pages',
+            //         cssDir: '../web/pages'
+            //     }
+            // }
             // globalBuild: {
             //     options: {
             //         sassDir: 'sass',
