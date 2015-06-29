@@ -86,7 +86,7 @@
 	color: $base-color;
 }
 
-.profile_title {
+.profile_title, .new_user_title {
 	font-size: em(12px);
 	@extend .base_title;
 	color: #909294;
