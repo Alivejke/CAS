@@ -26,14 +26,17 @@
                 color: $gray-color;
                 letter-spacing: 1px;
                 text-align: justify;
-                margin-top: em(37px);
+                margin-top: em(13px);
+                &.indent-top {
+                    margin-top: em(37px);
+                }
             }
             &:first-child {
                 margin-top: 0;
             }
         }
         .btn {
-            margin-top: em(60px, $base-font-size);
+            margin-top: em(32px, 12px);
             &.btn_small {
                 width: flex(147px, 390px);
             }

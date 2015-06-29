@@ -347,7 +347,7 @@
                 text-transform: uppercase;
                 text-align: left;
                 color: #333;
-                padding: 1em 0 0.5em;
+                padding: em(19px, 21px) 0 0.5em;
             }
             .mechanics_list_wrap_items {
                 li {
@@ -402,7 +402,7 @@
             font-family: 'Open Sans', sans-serif;
             font-weight: 100;
             text-transform: none;
-            margin-top: em(30px, 27px);
+            margin-top: em(33px, 27px);
         }
     }
 }
