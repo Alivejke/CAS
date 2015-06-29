@@ -1,57 +1,57 @@
 @import '../../sass/base/__base';
 .edit_brand_page {
-	.content_wrap {
-		margin-top: 2em;
-		padding-bottom: em(95px + 57px, $base-font-size);
-	}
-	.brand_edit {
-		li {
-			float: left;
-			min-width: 8em;
-			margin-left: flex(35px, $base-width-content-one);
-			&:first-child {
-				margin-left: 0;
-			}
-			.btn {
-				background: $white-color;
-				&:hover {
-					background-color: #0f3e6e;
-				}
-				&.btn_small {
-					width: 100%;
-					padding: 0 10px;
-				}
-			}
-		}
-		&.btn_wrap {
-			position: relative;
-			bottom: em(-105px);
-		}
-	}
-	.menu_wrap {
-		margin-top: 30px;
-	}
-	.main_title.main_title_actives{
-		margin-top: 35px;
-	}
-	.menu_scroll_wrap:after{
-		content: '';
-		position: absolute;
-		left: 0;
-		width: 100%;
-		border-top: 1px solid #CECFD0;
-		margin-top: 30px;
-	}
-	.edit_brand {
-		border-bottom: 1px solid #cecfd0;
-		padding: em(33px, $base-font-size) 0 em(55px, $base-font-size) 0;
-	}
-	.brand_news_list {
-		.brand_news_title {
-			font-size: em(27px, $base-font-size);
-		}
+    .content_wrap {
+        margin-top: 2em;
+        padding-bottom: em(95px + 57px, $base-font-size);
     }
-	.brand_news_textarea {
-		margin-top: 0;
-	}
+    .brand_edit {
+        li {
+            float: left;
+            min-width: 8em;
+            margin-left: flex(35px, $base-width-content-one);
+            &:first-child {
+                margin-left: 0;
+            }
+            .btn {
+                background: $white-color;
+                &:hover {
+                    background-color: #0f3e6e;
+                }
+                &.btn_small {
+                    width: 100%;
+                    padding: 0 10px;
+                }
+            }
+        }
+        &.btn_wrap {
+            position: relative;
+            bottom: em(-105px);
+        }
+    }
+    .menu_wrap {
+        margin-top: 30px;
+    }
+    .main_title.main_title_actives {
+        margin-top: 35px;
+    }
+    .menu_scroll_wrap:after {
+        content: '';
+        position: absolute;
+        left: 0;
+        width: 100%;
+        border-top: 1px solid #CECFD0;
+        margin-top: 30px;
+    }
+    .edit_brand {
+        border-bottom: 1px solid #cecfd0;
+        padding: em(33px, $base-font-size) 0 em(55px, $base-font-size) 0;
+    }
+    .brand_news_list {
+        .brand_news_title {
+            font-size: em(27px, $base-font-size);
+        }
+    }
+    .brand_news_textarea {
+        margin-top: 0;
+    }
 }

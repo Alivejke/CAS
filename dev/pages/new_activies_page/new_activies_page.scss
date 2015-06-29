@@ -1,6 +1,5 @@
 @import '../../sass/base/__base';
 @import "compass/css3";
-
 .new_activies_page {
     .buttons-wrap {
         .btn_rounded_wrap {
@@ -43,13 +42,12 @@
                 }
             }
         }
-        .toolbox_edit_btn_wrap{
+        .toolbox_edit_btn_wrap {
             margin-top: 34px;
         }
         .channel {
             width: flex(320px, $base-width);
             float: left;
-
             .icon {
                 margin: 0px auto;
             }
@@ -83,15 +81,12 @@
                             top: 12px;
                         }
                     }
-                    label {
-                        // color: $gray-color;
-                    }
                 }
             }
         }
         .wrap_block {
             .title {
-                font-family: pragmatica,Helvetica,Arial,sans-serif;
+                font-family: pragmatica, Helvetica, Arial, sans-serif;
                 font-weight: 300;
                 font-size: em($brand_news_title-font-size, $base-font-size);
                 line-height: 1;
@@ -99,7 +94,7 @@
                 margin-bottom: em(28px, $main_title-font-size);
             }
             p.text {
-                font-family: pragmatica,Helvetica,Arial,sans-serif;
+                font-family: pragmatica, Helvetica, Arial, sans-serif;
                 font-weight: 300;
                 font-size: em($base-font-size, $base-font-size);
                 line-height: em(21px, $base-font-size);
@@ -120,20 +115,12 @@
                 margin-top: em(105px);
             }
         }
-        // .content_wrap {
-        //     .btn:nth-last-child(1) {
-        //         margin-bottom: 1px;
-        //     }
-        // }
         .attachments_blocks {
             margin-bottom: em(42px, $base-font-size);
-
             .block {
-                // width: flex(450px, $base-width);
                 float: left;
                 width: 100%;
                 margin-top: em(60px, $base-font-size);
-                
                 .name {
                     float: left;
                     width: 80%;
@@ -172,7 +159,6 @@
                 span {
                     margin-left: flex(20px, $base-width-content);
                     color: $gray-color;
-
                     @media (max-width: 768px) {
                         display: block;
                         margin-left: 0;
@@ -207,7 +193,7 @@
                     padding: em(12px, $base-font-size) flex(10px, $base-width-content);
                     margin: em(30px, $base-font-size) 0;
                 }
-                .select_wrap  {
+                .select_wrap {
                     width: flex(355px, $base-width-content);
                     float: left;
                     margin-right: 5px;
@@ -222,22 +208,17 @@
                 }
             }
         }
-        
     }
-
     .attachments_blocks .block:nth-child(2n) {
         margin-left: 0;
     }
-
     .select2-results__option {
         padding-left: em(20px, $base-font-size);
         padding-right: em(20px, $base-font-size);
     }
-
     .attachments_block_wrap {
         overflow: hidden;
     }
-
     .img_circle_wrap {
         margin-right: flex(15px, $base-width-content);
         padding: em(4px);
@@ -258,11 +239,9 @@
                 left: flex(24px, 73px);
                 @include opacity(0);
                 z-index: 2;
-
                 @include transition-property(opacity);
                 @include transition-duration(0.3s);
                 @include transition-timing-function(ease-out);
-
                 @media (max-width: 768px) {
                     top: 1.3em;
                     left: 32.24658%;
@@ -271,21 +250,19 @@
             img {
                 @include border-radius(100%);
             }
-            &.img_circle-default{
-                img{
+            &.img_circle-default {
+                img {
                     display: block;
                 }
             }
         }
         &:hover {
             border-color: #42CE7F;
-            .ico_search{
+            .ico_search {
                 @include opacity(1);
             }
         }
     }
-
-
     .wrap_blocks {
         .main_title {
             &.main_title_actives {
@@ -293,7 +270,8 @@
             }
         }
     }
-    .calendar_from, .calendar_to {
+    .calendar_from,
+    .calendar_to {
         background: none;
         border: none;
         display: inline-block;
@@ -302,11 +280,9 @@
         color: #7E8D95;
         font-weight: 500;
     }
-
     .calendar_to {
         margin-left: flex(5px, 370px - 6px * 2);
     }
-
     .main_title {
         &.main_title_actives {
             border: 1px solid transparent;
@@ -325,8 +301,8 @@
             }
         }
     }
-
-    .calendar_from, .calendar_to {
+    .calendar_from,
+    .calendar_to {
         background: none;
         border: none;
         display: inline-block;
@@ -335,20 +311,16 @@
         color: #7E8D95;
         font-weight: 500;
     }
-
     .calendar_to {
         margin-left: flex(5px, 370px - 6px * 2);
     }
-
     .calendar_wrap {
         width: flex(289px, $base-width-content/2);
         text-align: right;
-
         @media (max-width: 640px) {
             text-align: left;
         }
     }
-
     .calendar_input {
         width: flex(101px, 289px);
         font-size: em(17px);
@@ -356,27 +328,22 @@
         height: em(40px, 17px);
         color: #909294;
         border: 1px solid #cbcccd;
-
         @media (max-width: 768px) {
             width: 32.93%;
         }
-
         &.calendar_from {
             margin-left: flex(10px, 289px);
         }
     }
-
     .calendar_date-separator {
         margin: 0 flex(5px, 289px);
     }
-
     .select_wrap_list-el_wrap {
         margin-top: em(60px);
         &:first-child {
             margin-top: 0;
         }
     }
-
     .toolbox_edit_page {
         .toolbox_edit_list {
             li {

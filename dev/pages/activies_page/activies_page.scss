@@ -1,18 +1,15 @@
 @import '../../sass/base/__base';
 @import "compass/css3";
-
 .activies_page {
     .global_name_channels {
         font-family: 'Brandon Grotesque';
         font-weight: 300;
-        font-size: em(21px , $base-font-size);
+        font-size: em(21px, $base-font-size);
         line-height: 1;
-        // color: $base-color;
         color: #2c3138;
         text-align: center;
         padding: em(15px, $base-font-size) 0;
     }
-
     .global_name_channels_links {
         color: #A9ADB0;
         position: relative;
@@ -25,7 +22,6 @@
             width: 4px;
             height: 4px;
             @include border-radius(100%);
-            // background-color: $gray-color;
             background-color: #7e8890;
             position: absolute;
             display: block;
@@ -33,29 +29,25 @@
             top: em(10px);
         }
     }
-
     .activies_page_wrap {
-
-        // .block_img {
-        //     border: 1px solid #cecfd0;
-        //     @include border-radius(4px);
-        //     // width: 296px;
-        //     // height: 283px;
-        //     // padding: 13px;
-        //     padding: em(13px, $base-font-size) flex(13px, 296px);
-        //     width: 100%;
-        //     display: block;
-        //     img {
-        //         max-width: 100%;
-        //     }
-        // }
-        
+        .block_img {
+            border: 1px solid #cecfd0;
+            @include border-radius(4px);
+            padding: em(13px, $base-font-size) flex(13px, 296px);
+            width: 100%;
+            display: block;
+            img {
+                max-width: 100%;
+            }
+        }
+        .toolbox-wrapper__description {
+            width: flex(390px, $base-width-content);
+        }
         .channel {
             width: 33.33333%;
             float: left;
-            font-family: Arial,Helvetica,sans-serif;
+            font-family: Arial, Helvetica, sans-serif;
             font-weight: normal;
-
             .icon {
                 margin: 0px auto;
                 display: block;
@@ -63,9 +55,8 @@
             .name_channels {
                 font-family: 'Brandon Grotesque';
                 font-weight: 300;
-                font-size: em(21px , $base-font-size);
+                font-size: em(21px, $base-font-size);
                 line-height: 1;
-                // color: $base-color;
                 color: #2c3138;
                 text-align: center;
                 padding: em(15px, $base-font-size) 0;
@@ -85,7 +76,6 @@
                             width: 4px;
                             height: 4px;
                             @include border-radius(100%);
-                            // background-color: $gray-color;
                             background-color: #7e8890;
                             position: absolute;
                             display: block;
@@ -102,12 +92,11 @@
                 font-weight: 300;
                 font-size: em($brand_news_title-font-size, $base-font-size);
                 line-height: 1;
-                // color: $base-color;
                 color: #2c3138;
                 margin-bottom: em(28px, $main_title-font-size);
             }
             p.text {
-                font-family: pragmatica,Helvetica,Arial,sans-serif;
+                font-family: pragmatica, Helvetica, Arial, sans-serif;
                 font-weight: 300;
                 font-size: em($base-font-size, $base-font-size);
                 line-height: em(21px, $base-font-size);
@@ -117,14 +106,12 @@
             }
         }
         .content_wrap {
-            .btn:nth-last-child(1) {
+            .btn: nth-last-child(1) {
                 margin-bottom: 1px;
             }
         }
         .attachments_blocks {
-            // margin-top: em(30px, $base-font-size);
             margin-bottom: em(60px, $base-font-size);
-
             .block {
                 width: flex(450px, $base-width);
                 float: left;
@@ -157,13 +144,12 @@
                         top: em(25px, $base-font-size);
                         left: flex(25px, 73px);
                         display: none;
-
                         @media (max-width: 768px) {
                             top: 1.3em;
                             left: 32.24658%;
                         }
                     }
-                    &:hover .ico_search{
+                    &:hover .ico_search {
                         display: block;
                     }
                 }
@@ -176,8 +162,6 @@
                     float: left;
                     width: flex(300px, 450px);
                     margin-top: em(10px, $base-font-size);
-                    // color: $gray-color;
-                    // color: #8F979F;
                     color: #5a636e;
                     line-height: em(21px, $base-font-size);
                     font-size: em(13.4px, $base-font-size);
@@ -198,14 +182,12 @@
             }
         }
     }
-
     .buttons-wrap {
-        
-        &__bottom{
+        &__bottom {
             margin: 38px 0 0 0;
         }
         .btn_rounded_wrap {
-            &.btn_left{
+            &.btn_left {
                 width: flex(164px);
             }
             &.btn_right {
@@ -221,7 +203,6 @@
             }
         }
     }
-
     .wrap_blocks {
         background: #FFFFFF;
         overflow: hidden;
@@ -237,10 +218,8 @@
         padding-bottom: 0px;
         margin: 0px auto;
     }
-
     .document {
         margin: 0em 0 3em;
-
         &__title {
             font-size: 1em;
             width: 90%;
@@ -254,23 +233,19 @@
             margin-left: flex(63px, $base-width-content);
             overflow: hidden;
             margin-top: 3em;
-
             @media (max-width: 768px) {
                 float: none;
                 width: 100%;
                 margin-left: 0;
             }
-
             &:nth-child(2n+1) {
                 margin-left: 0;
                 clear: left;
             }
-
             &.odd {
                 margin-left: 0;
                 clear: left;
             }
-
             .manage {
                 @media (max-width: 768px) {
                     width: em(62px);
@@ -299,8 +274,8 @@
             }
         }
     }
-
-    .calendar_from, .calendar_to {
+    .calendar_from,
+    .calendar_to {
         background: none;
         border: none;
         display: inline-block;
@@ -309,20 +284,16 @@
         color: #7E8D95;
         font-weight: 500;
     }
-
     .calendar_to {
         margin-left: flex(5px, 370px - 6px * 2);
     }
-
     .calendar_wrap {
         width: flex(289px, $base-width-content/2);
         text-align: right;
-
         @media (max-width: 640px) {
             text-align: left;
         }
     }
-
     .calendar_input {
         width: flex(101px, 289px);
         font-size: em(17px);
@@ -330,27 +301,22 @@
         height: em(40px, 17px);
         color: #909294;
         border: 1px solid #cbcccd;
-
         @media (max-width: 768px) {
             width: 32.93%;
         }
-
         &.calendar_from {
             margin-left: flex(10px, 289px);
         }
     }
-
     .calendar_date-separator {
         margin: 0 flex(5px, 289px);
     }
-
     .select_wrap_list-el_wrap {
         margin-top: em(60px);
         &:first-child {
             margin-top: 0;
         }
     }
-
     .mechanics_list_wrap {
         overflow: hidden;
         > li {
@@ -371,7 +337,7 @@
                         @extend .global_name_channels_links;
                         margin-left: em(10px);
                     }
-                    span{
+                    span {
                         color: #777;
                         position: relative;
                         margin-left: 0.8em;
@@ -396,7 +362,6 @@
             }
         }
     }
-
     .mechanics_inside_items {
         display: inline-block;
         text-align: left;
@@ -404,7 +369,6 @@
             text-align: left;
         }
     }
-
     .buttons-wrap {
         margin-bottom: 50px;
     }

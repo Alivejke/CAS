@@ -1,16 +1,14 @@
 @import '../../sass/base/__base';
-
-/*DICTIONARIES PAGE*/
-.dictionaries-list{
-    .main_title_actives{
+.dictionaries-list {
+    .main_title_actives {
         margin-top: 50px;
     }
     .buttons-wrap {
         margin: 45px 0 0 0;
-        .btn_rounded_wrap{
-            &.btn_left{
-                width:17.5%;
-                .btn_big_rounded{
+        .btn_rounded_wrap {
+            &.btn_left {
+                width: 17.5%;
+                .btn_big_rounded {
                     padding-left: 23px;
                     letter-spacing: 1px;
                 }
@@ -18,7 +16,7 @@
             &.btn_right {
                 width: 30%;
             }
-            .ico_add{
+            .ico_add {
                 position: absolute;
                 left: 18px;
                 top: 13px;
@@ -27,22 +25,22 @@
     }
     table {
         margin-top: 56px;
-        .sprite{
+        .sprite {
             display: inline-block;
             .ico_cart {
                 width: 45px;
                 height: 45px;
             }
         }
-        th{
+        th {
             font-size: 0.8em;
             text-align: left;
             text-transform: uppercase;
             color: #849199;
             padding: 0;
         }
-        tbody:first-child{
-            tr{
+        tbody:first-child {
+            tr {
                 border-bottom: none;
                 height: 27px;
             }
@@ -50,10 +48,9 @@
         tr {
             border-bottom: 1px solid #ddd;
             height: 105px;
-            &:last-child{
+            &:last-child {
                 border-bottom: none;
             }
-           
             td {
                 vertical-align: middle;
                 padding: 30px 10px 30px 0px;
@@ -78,7 +75,4 @@
             }
         }
     }
-
 }
-
-/*END OF DICTIONARY PAGE*/

@@ -1,119 +1,97 @@
 @import '../../sass/base/__base';
 @import "compass/css3";
-
 .ico_rounded_wrap {
-	position: absolute;
-	right: 0;
-	top: 50%;
-	margin-top: -22px;
-	background-color: #fff;
-	z-index: 2;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    margin-top: -22px;
+    background-color: #fff;
+    z-index: 2;
 }
 
 .news_feed_page {
-	$feeds_name_font-size: 18px;
-	.calendar_to{
-		margin-left: 0;
-	}
-	.wrap.wrap_news_feed {
-		margin-bottom: em(60px, $base-font-size);
-		// padding: 0 0 0 em($base-margin)*2;
-
-		@media (max-width: 768px) {
-	        margin-bottom: 0;
-	        padding: 0 9.4em;
-	        padding-right: 0;
-	    }
-
-		@media (max-width: 640px) {
-	        margin-bottom: 0;
-	        padding: 0 7.4em;
-	        padding-right: 0;
-	    }
-
-		.feed {
-		  	position: relative;
-		  	color: $gray-color;
-		  	margin-top: em(53px, $base-font-size);
-		  	overflow: hidden;
-		  	.ico_eye_wrap {
-			  	@extend .ico_rounded_wrap;
-			}
-			.ico_archive_wrap {
-				@extend .ico_rounded_wrap;
-				right: 69px;
-			}
-			.line {
-				// position: absolute;
-	 	 // 		left: -10000%;
-	 	 // 		top: 3.2em;
-	 	 // 		width: 10000%;
-	 	 // 		height: 1px;
-	 	 // 		background: #cecfd0;
-	 	 // 		z-index: 1;
-
-				// left: -68px;
-				// top: 50px;
-				// width: 68px;
-			}
-			img {
-				display: block;
-				width: 100px;
-	  			float: left;
-			}
-			.name {
-				// margin-left: flex(130px, $base-width-content);
-				width: flex(450px);
-				margin-left: 7.22em;
-				font-size: em($feeds_name_font-size);
-	  			text-transform: uppercase;
-	  			// color: #60717B;
-	  			color: #7e8890;
-	  			font-family: 'Brandon Grotesque';
-	  			font-weight: 600;
-			}
-			.info {
-				margin-top: em(10px, 12px);
-				margin-left: flex(130px, $base-width-content);
-				// margin-left: 8.65em;
-				// font-family: 'Brandon Grotesque';
-				font-family: 'Open Sans', sans-serif;
-				font-size: em(12px);
-				line-height: em(15px, 12px);
-				span {
-					font-weight: 300;
-					color: #919191;
-				}
-				.brand, .updated {
-					font-weight: 600;
-					color: #787878;
-				}
-				.status {
-					margin-top: em(12px, 12px);
-					font-weight: 600;
-					text-transform: uppercase;
-					color: #7E7F81;
-					font-family: 'Brandon Grotesque';
-					.new {
-						color: #2ecc71;
-						font-weight: 600;
-					}
-					.updated {
-						color: #d7c669;
-						font-weight: 600;
-					}
-				}
-			}
-		}
-	}
-	
-	.ico_eye_wrap {
-		width: em(45px);
-		height: em(45px);
-		@include border-radius(100%);
-		.ico_eye {
-			width: 100%;
-			height: 100%;
-		}
-	}
+    $feeds_name_font-size: 18px;
+    .calendar_to {
+        margin-left: 0;
+    }
+    .wrap.wrap_news_feed {
+        margin-bottom: em(60px, $base-font-size);
+        @media (max-width: 768px) {
+            margin-bottom: 0;
+            padding: 0 9.4em;
+            padding-right: 0;
+        }
+        @media (max-width: 640px) {
+            margin-bottom: 0;
+            padding: 0 7.4em;
+            padding-right: 0;
+        }
+        .feed {
+            position: relative;
+            color: $gray-color;
+            margin-top: em(53px, $base-font-size);
+            overflow: hidden;
+            .ico_eye_wrap {
+                @extend .ico_rounded_wrap;
+            }
+            .ico_archive_wrap {
+                @extend .ico_rounded_wrap;
+                right: 69px;
+            }
+            img {
+                display: block;
+                width: 100px;
+                float: left;
+            }
+            .name {
+                width: flex(450px);
+                margin-left: 7.22em;
+                font-size: em($feeds_name_font-size);
+                text-transform: uppercase;
+                color: #7e8890;
+                font-family: 'Brandon Grotesque';
+                font-weight: 600;
+            }
+            .info {
+                margin-top: em(10px, 12px);
+                margin-left: flex(130px, $base-width-content);
+                font-family: 'Open Sans', sans-serif;
+                font-size: em(12px);
+                line-height: em(15px, 12px);
+                span {
+                    font-weight: 300;
+                    color: #919191;
+                }
+                .brand,
+                .updated {
+                    font-weight: 600;
+                    color: #787878;
+                }
+                .status {
+                    margin-top: em(12px, 12px);
+                    font-weight: 600;
+                    text-transform: uppercase;
+                    color: #7E7F81;
+                    font-family: 'Brandon Grotesque';
+                    .new {
+                        color: #2ecc71;
+                        font-weight: 600;
+                    }
+                    .updated {
+                        color: #d7c669;
+                        font-weight: 600;
+                    }
+                }
+            }
+        }
+    }
+    .ico_eye_wrap {
+        width: em(45px);
+        height: em(45px);
+        @include border-radius(100%);
+        .ico_eye {
+            width: 100%;
+            height: 100%;
+        }
+    }
 }

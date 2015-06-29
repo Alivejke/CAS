@@ -1,310 +1,275 @@
 @import '../../sass/base/__base';
 @import "compass/css3";
-
 .activities_changes_approval {
-	$brand_news_list-width: 295px;
-
-	.content_wrap {
-		margin-top: em(50px);
-	}
-
-	.activities_changes_approval_list_info {
-		> li {
-			overflow: hidden;
-			.profile_title {
-				width: flex(74px, $base-width-content);
-				.profile_text {
-					margin-top: em(4px, 10.5px);
-					margin-left: 0;
-				}
-			}
-			.profile_text {
-				margin: em(-3px) 0 0 flex(70px, $base-width-content);
-				width: flex(590px, $base-width-content);
-				text-align: justify;
-
-				@media (max-width: 768px) {
-	                margin: -0.26667em 0 0 5.48509%;
-	            }
-			}
-		}
-	}
-
-	.activities_changes_approval_wrap {
-		margin-top: em(60px);
-	}
-
-	.activities_changes_approval_list {
-		overflow: hidden;
-		// margin-top: em(60px);
-		border-top: 1px solid #cecfd0;
-		// margin-bottom: -1px;
-		> li {
-			float: left;
-			width: 50%;
-			padding-bottom: em(98px);
-			border-left: 1px solid #cecfd0;
-			&:first-child {
-				border: none;
-				border-right: 1px solid #cecfd0;
-				margin-right: -1px;
-			}
-		}
-		.error {
-			background: #F7F7F9;
-			padding-bottom: 1000px;
-			margin-bottom: -1000px;
-		}
-	}
-
-	// .status_wrap_center {
-	// 	left: flex(-$activities_changes_item-padding_left, $base-width-content/2);
-	// }
-
-	.activities-settings {
-		overflow: visible;
-		border-top: 1px solid #cecfd0;
-		margin-top: em(65px);
-		.status_wrap {
-			position: absolute;
-			bottom: em(-$btn-rounded-height/2);
-			background: $white-color;
-			left: 50%;
-			width: flex($brand_news_list-width, $base-width/2);
-			margin-left: flex(-129px, $base-width/2);
-			@include border-radius(30px);
-			@media (max-width: 768px) {
-	    		left: 43%;
-	    		width: 75.45833%;
-	   		}
-
-	   		.btn_big_rounded {
-	   			.ico_status {
-					margin-left: flex(10px, $brand_news_list-width);
-	   			}
-	   		}
-		}
-		&.description {
-			.activities_changes_brand_news_list {
-				width: flex($brand_news_list-width, $base-width-content/2 - $base-margin);
-				color: $gray-color-old;
-				margin-top: em(53px);
-				p {
-					margin-top: em(37px);
-					line-height: em(18px);
-					&.distinction {
-						color: $distinction-color;
-					}
-				}
-				&.distinction {
-					color: $distinction-color;
-				}
-				.btn.btn-default{
-					margin-top: 4em;
-					width: flex(146px, $brand_news_list-width);
-				}
-			}
-		} 
-	}
-
-	.main_title {
-		&.main_title-indent {
-			margin-top: em(60px, $main_title-font-size);
-		}
-	}
-
-	.approval_list {
-		margin-top: em(23px, 21px);
-		font-size: em(21px);
-		color: $gray-color;
-		color: #2c3138;
-	}
-
-	.brand_news_toolbax_list {
-		margin-top: em(75px);
-		> li {
-			.block_img {
-				width: flex(296px, $base-width-content/2 - $base-margin);
-			}
-		}
-	}
-
-	.activities_changes_approval_list_wrap {
-		padding: 0 0 0 flex($base-margin, $base-width/2);
-	}
-
-	.activities_changes_approval_list_wrap_list {
-		@media (max-width: 768px) {
-	        padding: 0 0 0 10%;
-	    }
-	}
-
-	.document_wrap {
-		border-top: 1px solid #cecfd0;
-		padding-top: em(80px);
-		margin-bottom: em(62px);
-	}
-
-	.document {
-		margin-top: em(-45px);
-		&__title {
-			font-size: em($base-font-size, $base-font-size);
-			width: flex(230px, 253px);
-		}
-		li {
-			float: left;
-			width: flex(330px, $base-width-content);
-			margin-left: flex(63px, $base-width-content);
-			overflow: hidden;
-			margin-top: em(95px);
-
-			@media (max-width: 768px) {
-	     		float: none;
-	     		width: 100%;
-	     		margin-left: 0;
-	     	}
-
-			&:nth-child(2n+1) {
-				margin-left: 0;
-				clear: left;
-			}
-
-			&.odd {
-				margin-left: 0;
-				clear: left;
-			}
-
-			.manage {
-				@media (max-width: 768px) {
-			 		width: em(62px);
-			 	}
-				&.img_circle-default {
-					line-height: em(62px);
-				}
-			}
-			.description {
-				width: flex(240px, 330px);
-				margin-left: flex(15px, 330px);
-				p {
-					margin-top: em(20px);
-					color: #8F979F;
-				}
-				&.distinction {
-					.document__title {
-						color: $distinction-color;
-					}
-				}
-			}
-		}
-	}
-
-	.channel {
-		display: inline-block;
-		width: flex(155px, $base-width/2 - $base-margin);
-		margin-left: flex(50px, $base-width/2 - $base-margin);
-		margin-top: em(56px);
-		&:nth-child(2n+1) {
-			margin-left: 0;
-		}
-
-		&.odd {
-			margin-left: 0;
-		}
-
-		.name_channels {
-			margin-bottom: em(23px);
-		}
-		input[type="checkbox"] {
-			&+ label {
-				&::before {
-					vertical-align: -3px;
-					margin-right: em(8px);
-				}
-				.label_ico {
-					vertical-align: -3px;
-					margin-right: em(8px);
-				}
-			}
-		}
-	}
-
-	.channel_item_list {
-		color: $gray-color;
-		> li {
-			margin-top: em(15px);
-			label {
-				white-space: nowrap;
-			}
-			&:first-child {
-				margin-top: 0;
-			}
-		}
-	}
-
-	.btn_wrap {
-		.btn {
-			&.btn-default {
-				width: flex(166px, $base-width-content);
-				margin-left: flex(35px, $base-width-content);
-			}
-			&:first-child {
-				margin-left: 0;
-			}
-		}
-		&.indent-top {
-			margin-top: em(110px);
-		}
-	}
-
-	.activities_textarea {
-		margin: em(32px, 13px) 0;
-		border: 1px solid #dedfdf;
-		font-size: em(13px);
-	}
-
-
-	.calendar_from, .calendar_to {
-	    background: none;
-	    border: none;
-	    display: inline-block;
-	    width: flex(75px, 294px);
-	    margin-left: flex(3px, 370px - 6px * 2);
-	    color: #7E8D95;
-	    font-weight: 500;
-	}
-
-	.calendar_to {
-	    margin-left: flex(5px, 370px - 6px * 2);
-	}
-
-	.comiseo-daterangepicker.ui-corner-all {
-		min-width: 300px;
-	}
-
-	label {
-		&.checkbox {
-			.label_ico {
-				border-color: #f0f0f0;
-			}
-			&.chacked {
-				.label_ico {
-					background: url(/i/sprite.png) 4px -236px;
-				}
-			}
-			&.distinction {
-				.label_ico {
-					border-color: $distinction-color;
-				}
-				&.chacked {
-					.label_ico {
-						background-position: -76px -236px;
-					}
-				}
-			}
-		}
-	}
-
-	.calendar_from, .calendar_to {
+    $brand_news_list-width: 295px;
+    .content_wrap {
+        margin-top: em(50px);
+    }
+    .activities_changes_approval_list_info {
+        > li {
+            overflow: hidden;
+            .profile_title {
+                width: flex(74px, $base-width-content);
+                .profile_text {
+                    margin-top: em(4px, 10.5px);
+                    margin-left: 0;
+                }
+            }
+            .profile_text {
+                margin: em(-3px) 0 0 flex(70px, $base-width-content);
+                width: flex(590px, $base-width-content);
+                text-align: justify;
+                @media (max-width: 768px) {
+                    margin: -0.26667em 0 0 5.48509%;
+                }
+            }
+        }
+    }
+    .activities_changes_approval_wrap {
+        margin-top: em(60px);
+    }
+    .activities_changes_approval_list {
+        overflow: hidden;
+        border-top: 1px solid #cecfd0;
+        > li {
+            float: left;
+            width: 50%;
+            padding-bottom: em(98px);
+            border-left: 1px solid #cecfd0;
+            &:first-child {
+                border: none;
+                border-right: 1px solid #cecfd0;
+                margin-right: -1px;
+            }
+        }
+        .error {
+            background: #F7F7F9;
+            padding-bottom: 1000px;
+            margin-bottom: -1000px;
+        }
+    }
+    .activities-settings {
+        overflow: visible;
+        border-top: 1px solid #cecfd0;
+        margin-top: em(65px);
+        .status_wrap {
+            position: absolute;
+            bottom: em(-$btn-rounded-height/2);
+            background: $white-color;
+            left: 50%;
+            width: flex($brand_news_list-width, $base-width/2);
+            margin-left: flex(-129px, $base-width/2);
+            @include border-radius(30px);
+            @media (max-width: 768px) {
+                left: 43%;
+                width: 75.45833%;
+            }
+            .btn_big_rounded {
+                .ico_status {
+                    margin-left: flex(10px, $brand_news_list-width);
+                }
+            }
+        }
+        &.description {
+            .activities_changes_brand_news_list {
+                width: flex($brand_news_list-width, $base-width-content/2 - $base-margin);
+                color: $gray-color-old;
+                margin-top: em(53px);
+                p {
+                    margin-top: em(37px);
+                    line-height: em(18px);
+                    &.distinction {
+                        color: $distinction-color;
+                    }
+                }
+                &.distinction {
+                    color: $distinction-color;
+                }
+                .btn.btn-default {
+                    margin-top: 4em;
+                    width: flex(146px, $brand_news_list-width);
+                }
+            }
+        }
+    }
+    .main_title {
+        &.main_title-indent {
+            margin-top: em(60px, $main_title-font-size);
+        }
+    }
+    .approval_list {
+        margin-top: em(23px, 21px);
+        font-size: em(21px);
+        color: $gray-color;
+        color: #2c3138;
+    }
+    .brand_news_toolbax_list {
+        margin-top: em(75px);
+        > li {
+            .block_img {
+                width: flex(296px, $base-width-content/2 - $base-margin);
+            }
+        }
+    }
+    .activities_changes_approval_list_wrap {
+        padding: 0 0 0 flex($base-margin, $base-width/2);
+    }
+    .activities_changes_approval_list_wrap_list {
+        @media (max-width: 768px) {
+            padding: 0 0 0 10%;
+        }
+    }
+    .document_wrap {
+        border-top: 1px solid #cecfd0;
+        padding-top: em(80px);
+        margin-bottom: em(62px);
+    }
+    .document {
+        margin-top: em(-45px);
+        &__title {
+            font-size: em($base-font-size, $base-font-size);
+            width: flex(230px, 253px);
+        }
+        li {
+            float: left;
+            width: flex(330px, $base-width-content);
+            margin-left: flex(63px, $base-width-content);
+            overflow: hidden;
+            margin-top: em(95px);
+            @media (max-width: 768px) {
+                float: none;
+                width: 100%;
+                margin-left: 0;
+            }
+            &:nth-child(2n+1) {
+                margin-left: 0;
+                clear: left;
+            }
+            &.odd {
+                margin-left: 0;
+                clear: left;
+            }
+            .manage {
+                @media (max-width: 768px) {
+                    width: em(62px);
+                }
+                &.img_circle-default {
+                    line-height: em(62px);
+                }
+            }
+            .description {
+                width: flex(240px, 330px);
+                margin-left: flex(15px, 330px);
+                p {
+                    margin-top: em(20px);
+                    color: #8F979F;
+                }
+                &.distinction {
+                    .document__title {
+                        color: $distinction-color;
+                    }
+                }
+            }
+        }
+    }
+    .channel {
+        display: inline-block;
+        width: flex(155px, $base-width/2 - $base-margin);
+        margin-left: flex(50px, $base-width/2 - $base-margin);
+        margin-top: em(56px);
+        &:nth-child(2n+1) {
+            margin-left: 0;
+        }
+        &.odd {
+            margin-left: 0;
+        }
+        .name_channels {
+            margin-bottom: em(23px);
+        }
+        input[type="checkbox"] {
+            &+ label {
+                &::before {
+                    vertical-align: -3px;
+                    margin-right: em(8px);
+                }
+                .label_ico {
+                    vertical-align: -3px;
+                    margin-right: em(8px);
+                }
+            }
+        }
+    }
+    .channel_item_list {
+        color: $gray-color;
+        > li {
+            margin-top: em(15px);
+            label {
+                white-space: nowrap;
+            }
+            &:first-child {
+                margin-top: 0;
+            }
+        }
+    }
+    .btn_wrap {
+        .btn {
+            &.btn-default {
+                width: flex(166px, $base-width-content);
+                margin-left: flex(35px, $base-width-content);
+            }
+            &:first-child {
+                margin-left: 0;
+            }
+        }
+        &.indent-top {
+            margin-top: em(110px);
+        }
+    }
+    .activities_textarea {
+        margin: em(32px, 13px) 0;
+        border: 1px solid #dedfdf;
+        font-size: em(13px);
+    }
+    .calendar_from,
+    .calendar_to {
+        background: none;
+        border: none;
+        display: inline-block;
+        width: flex(75px, 294px);
+        margin-left: flex(3px, 370px - 6px * 2);
+        color: #7E8D95;
+        font-weight: 500;
+    }
+    .calendar_to {
+        margin-left: flex(5px, 370px - 6px * 2);
+    }
+    .comiseo-daterangepicker.ui-corner-all {
+        min-width: 300px;
+    }
+    label {
+        &.checkbox {
+            .label_ico {
+                border-color: #f0f0f0;
+            }
+            &.chacked {
+                .label_ico {
+                    background: url(/i/sprite.png) 4px -236px;
+                }
+            }
+            &.distinction {
+                .label_ico {
+                    border-color: $distinction-color;
+                }
+                &.chacked {
+                    .label_ico {
+                        background-position: -76px -236px;
+                    }
+                }
+            }
+        }
+    }
+    .calendar_from,
+    .calendar_to {
         background: none;
         border: none;
         display: inline-block;
@@ -313,23 +278,19 @@
         color: #7E8D95;
         font-weight: 500;
         &.approval_input {
-        	width: flex(75px, 294px);
+            width: flex(75px, 294px);
         }
     }
-
     .calendar_to {
         margin-left: flex(5px, 370px - 6px * 2);
     }
-
     .calendar_wrap {
         width: flex(289px, $base-width-content/2);
         text-align: right;
-
         @media (max-width: 640px) {
             text-align: left;
         }
     }
-
     .calendar_input {
         width: flex(101px, 289px);
         font-size: em(17px);
@@ -337,31 +298,26 @@
         height: em(40px, 17px);
         color: #909294;
         border: 1px solid #cbcccd;
-
         @media (max-width: 768px) {
             width: 32.93%;
         }
-
         &.calendar_from {
             margin-left: flex(10px, 289px);
         }
     }
-
     .calendar_date-separator {
         margin: 0 flex(5px, 289px);
     }
-
     .select_wrap_list-el_wrap {
         margin-top: em(60px);
         &:first-child {
             margin-top: 0;
         }
     }
-
     .wrap_block {
         margin: em(24px) 0 em(80px);
         .title {
-            font-family: pragmatica,Helvetica,Arial,sans-serif;
+            font-family: pragmatica, Helvetica, Arial, sans-serif;
             font-weight: 300;
             font-size: em($brand_news_title-font-size, $base-font-size);
             line-height: 1;
@@ -369,7 +325,7 @@
             margin-bottom: em(28px, $main_title-font-size);
         }
         p.text {
-            font-family: pragmatica,Helvetica,Arial,sans-serif;
+            font-family: pragmatica, Helvetica, Arial, sans-serif;
             font-weight: 300;
             font-size: em($base-font-size, $base-font-size);
             line-height: em(21px, $base-font-size);
