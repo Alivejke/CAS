@@ -1,104 +1,103 @@
 @import '../../sass/base/__base';
-
 .toolbox_edit_page {
-	.toolbox_edit_approver{
-		float: left;
-		margin-right: 5px;
-	}
-	.block_options_draft {
-	    padding-top: 5px;
-	    padding: 3.33333em 0;
-	    border-bottom: 1px solid #cecfd0;
-	}
-	.toolbox_edit_btn_wrap {
-		margin-top: 44px;
-		&.indent-top{
-			margin-top: 28px;
-		}
-		.btn-delete {
-			margin-left: 0px;
-		}
-		.btn {
-			margin-left: flex(30px, $base-width-content);
-			&:first-child {
-				margin-left: 0;
-			}
-		}
-		&.indent-none {
-			margin-top: 0;
-		}
-	}
-	$toolbox_select-width: 291px;
-	.select_wrap {
-		width: flex($toolbox_select-width, $base-width-content);
-		.select2-container {
-			.select2-selection--single {
-				.select2-selection__rendered {
-					padding: 0 flex(20px, $toolbox_select-width) 0 flex(14px, $toolbox_select-width);
-					font-weight: 600;
-				}
-			}
-			&.select2-container--default {
-				.select2-selection--single {
-					.select2-selection__arrow {
-						width: flex(20px, $toolbox_select-width);
-						b {
-							border-width: 5px 5px 0 5px;
-						}
-					}
-				}
-				&.select2-container--open {
-					.select2-selection--single {
-						.select2-selection__arrow {
-							b {
-								border-width: 0 5px 5px 5px;
-							}
-						}
-					}
-				}
-			}
-		}
-	}
-	.toolbox_edit {
-		.toolbox_edit_title {
-			margin: em(33px, $main_title-font-size) 0 em(50px, $main_title-font-size);
-			border: 1px solid transparent;
-			padding: em(5px) flex(10px);
-			&:hover, &:focus {
-				border-color: #dedfdf;
-			}
-			&.error_validation {
-				border-color: #b70e12;
-			}
-		}
-	}
-	.main_title {
-		margin-left: 0;
-	}
-	.toolbox_edit_list {
-		li {
-		    margin: 0;
-			padding: em(35px, $base-font-size) 0 0;
-			&:first-child{
-				padding-top: 0;
-			}
-			.main_title {
-				margin: 1em 0 0em !important;
-				font-size: 1.5em;
-				text-transform: none;
-				&:first-of-type {
-					margin: 0;
-				}
-			}
-			.brand_news_textarea {
-				&.indent-top {
-					margin-top: em(50px, $base-font-size);
-				}
-			}
-		}
-	}
-	.select2-results__option {
-		padding-left: em(14px);
-		padding-right: em(20px);
-	}
+    .toolbox_edit_approver {
+        float: left;
+        margin-right: 5px;
+    }
+    .block_options_draft {
+        padding-top: 5px;
+        padding: 3.33333em 0;
+        border-bottom: 1px solid #cecfd0;
+    }
+    .toolbox_edit_btn_wrap {
+        margin-top: 44px;
+        &.indent-top {
+            margin-top: 28px;
+        }
+        .btn-delete {
+            margin-left: 0px;
+        }
+        .btn {
+            margin-left: flex(30px, $base-width-content);
+            &:first-child {
+                margin-left: 0;
+            }
+        }
+        &.indent-none {
+            margin-top: 0;
+        }
+    }
+    $toolbox_select-width: 291px;
+    .select_wrap {
+        width: flex($toolbox_select-width, $base-width-content);
+        .select2-container {
+            .select2-selection--single {
+                .select2-selection__rendered {
+                    padding: 0 flex(20px, $toolbox_select-width) 0 flex(14px, $toolbox_select-width);
+                    font-weight: 600;
+                }
+            }
+            &.select2-container--default {
+                .select2-selection--single {
+                    .select2-selection__arrow {
+                        width: flex(20px, $toolbox_select-width);
+                        b {
+                            border-width: 5px 5px 0 5px;
+                        }
+                    }
+                }
+                &.select2-container--open {
+                    .select2-selection--single {
+                        .select2-selection__arrow {
+                            b {
+                                border-width: 0 5px 5px 5px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .toolbox_edit {
+        .toolbox_edit_title {
+            margin: em(33px, $main_title-font-size) 0 em(50px, $main_title-font-size);
+            border: 1px solid transparent;
+            padding: em(5px) flex(10px);
+            &:hover, &:focus {
+                border-color: #dedfdf;
+            }
+            &.error_validation {
+                border-color: #b70e12;
+            }
+        }
+    }
+    .main_title {
+        margin-left: 0;
+    }
+    .toolbox_edit_list {
+        li {
+            margin: 0;
+            padding: em(35px, $base-font-size) 0 0;
+            &:first-child {
+                padding-top: 0;
+            }
+            .main_title {
+                margin: 1em 0 0em !important;
+                font-size: 1.5em;
+                text-transform: none;
+                &:first-of-type {
+                    margin: 0;
+                }
+            }
+            .brand_news_textarea {
+                &.indent-top {
+                    margin-top: em(50px, $base-font-size);
+                }
+            }
+        }
+    }
+    .select2-results__option {
+        padding-left: em(14px);
+        padding-right: em(20px);
+    }
 }

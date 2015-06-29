@@ -1,107 +1,104 @@
 @import '../../sass/base/__base';
 @import "compass/css3";
-
 .approval_flow_table_page {
-	$th_base-width: flex($base-width-content/5, $base-width-content);
-	.approval_flow_wrap {
-		.main_title {
-			font-size: $main_title-font-size;
-			font-weight: 600;
-		}
-		.main_title_approval {
-			margin-top: em(65px, $main_title-font-size);
-		}
-		.approval_table {
-			width: 100%;
-			max-width: 960px;
-			margin: 0 auto;
-			td {
-				color: $gray-color-old;
-				width: 16%;
-				padding: 0 em(5px);
-				&+td {
-					width: 18%;
-					&+td {
-						width: 19%;
-						&+td {
-							width: 25%;
-							&+td {
-								width: 22%;
-							}
-						}
-					}
-				}
-			}
-			.wrap_comments_table {
-				.user_name{
-					color: $gray-color;
-				}
-				.comment_table {
-					margin-bottom: em(10px);
-					// color: #c2c4c3;
-					color: $gray-color-light;
-					// padding: 0 em(5px);
-				}
-			}
-		}
-		.title_table {
-			width: 100%;
-			background-color: #f8faf9;
-			padding: em(25px) 0 0;
-			margin-top: em(25px);
-			table {
-				max-width: 960px;
-				margin: 0 auto 0;
-				width: 100%;
-			}
-			th {
-				font-family: pragmatica,Helvetica,Arial,sans-serif;
-				font-size: em(12px);
-				text-align: left;
-				text-transform: uppercase;
-				// color: $gray-color;
-				color: $table_th-gray-color;
-				// color: $gray-color-light;
-				width: 16%;
-				padding: 0 em(5px, 12px);
-				&+th {
-					width: 18%;
-					&+th {
-						width: 19%;
-						&+th {
-							width: 25%;
-							&+th {
-								width: 22%;
-							}
-						}
-					}
-				}
-			}
-		}
-	}
-
-	.wrap_table {
-		& > div {
-			padding: em(15px) 0;
-			&:nth-child(odd){
-				background-color: #f8faf9;
-			}
-			&.odd {
-				background-color: #f8faf9;
-			}
-			&.indent-bottom {
-				margin-bottom: em(100px);
-			}
-		}
-	}
-
-	.button_table {
-		.btn {
-			&.btn_rounded {
-				width: flex(75px, $base-width-content-one*0.22);
-				height: em(28px, 11px);
-				font-size: em(11px, 11px);
-			}
-		}
-	}
+    $th_base-width: flex($base-width-content/5, $base-width-content);
+    .approval_flow_wrap {
+        .main_title {
+            font-size: $main_title-font-size;
+            font-weight: 600;
+        }
+        .main_title_approval {
+            margin-top: em(65px, $main_title-font-size);
+        }
+        .approval_table {
+            width: 100%;
+            max-width: 960px;
+            margin: 0 auto;
+            td {
+                color: $gray-color-old;
+                width: 16%;
+                padding: 0 em(5px);
+                &+td {
+                    width: 18%;
+                    &+td {
+                        width: 19%;
+                        &+td {
+                            width: 25%;
+                            &+td {
+                                width: 22%;
+                            }
+                        }
+                    }
+                }
+            }
+            .wrap_comments_table {
+                .user_name {
+                    color: $gray-color;
+                }
+                .comment_table {
+                    margin-bottom: em(10px);
+                    // color: #c2c4c3;
+                    color: $gray-color-light;
+                    // padding: 0 em(5px);
+                }
+            }
+        }
+        .title_table {
+            width: 100%;
+            background-color: #f8faf9;
+            padding: em(25px) 0 0;
+            margin-top: em(25px);
+            table {
+                max-width: 960px;
+                margin: 0 auto 0;
+                width: 100%;
+            }
+            th {
+                font-family: pragmatica, Helvetica, Arial, sans-serif;
+                font-size: em(12px);
+                text-align: left;
+                text-transform: uppercase;
+                // color: $gray-color;
+                color: $table_th-gray-color;
+                // color: $gray-color-light;
+                width: 16%;
+                padding: 0 em(5px, 12px);
+                &+th {
+                    width: 18%;
+                    &+th {
+                        width: 19%;
+                        &+th {
+                            width: 25%;
+                            &+th {
+                                width: 22%;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .wrap_table {
+        & > div {
+            padding: em(15px) 0;
+            &:nth-child(odd) {
+                background-color: #f8faf9;
+            }
+            &.odd {
+                background-color: #f8faf9;
+            }
+            &.indent-bottom {
+                margin-bottom: em(100px);
+            }
+        }
+    }
+    .button_table {
+        .btn {
+            &.btn_rounded {
+                width: flex(75px, $base-width-content-one*0.22);
+                height: em(28px, 11px);
+                font-size: em(11px, 11px);
+            }
+        }
+    }
 }

@@ -1,128 +1,118 @@
 @import '../../sass/base/__base';
 @import "compass/css3";
-
 .ico_rounded_wrap {
-	position: absolute;
-	right: 0;
-	top: 50%;
-	margin-top: -22px;
-	background-color: #fff;
-	z-index: 2;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    margin-top: -22px;
+    background-color: #fff;
+    z-index: 2;
 }
 
 .approval_flow_list_page {
-	$feeds_name_font-size: 18px;
-	#mainarea {
-		padding-bottom: em(58px);
-	}
-	.content_wrap {
-		margin-bottom: 0;
-	}
-	.wrap.wrap_news_feed {
-		margin-bottom: em(60px, $base-font-size);
-		margin-top: em(58px);
-		// padding: 0 0 0 em($base-margin)*2;
-
-		@media (max-width: 768px) {
-	        margin-bottom: 0;
-	        padding: 0 9.4em;
-	        padding-right: 0;
-	    }
-
-		@media (max-width: 640px) {
-	        margin-bottom: 0;
-	        padding: 0 7.4em;
-	        padding-right: 0;
-	    }
-
-		.feed {
-		  	position: relative;
-		  	color: $gray-color;
-		  	margin-top: em(53px, $base-font-size);
-		  	overflow: hidden;
-		  	.ico_eye_wrap {
-			  	@extend .ico_rounded_wrap;
-			}
-			.ico_archive_wrap {
-				@extend .ico_rounded_wrap;
-				right: 69px;
-				@include border-radius(100%);
-			}
-			.line {
-				position: absolute;
-	 	 		left: -10000%;
-	 	 		top: 3.2em;
-	 	 		width: 10000%;
-	 	 		height: 1px;
-	 	 		background: #cecfd0;
-	 	 		z-index: 1;
-			}
-			img {
-				display: block;
-	  			float: left;
-			}
-			.name {
-				// margin-left: flex(130px, $base-width-content);
-				margin-left: 7.22em;
-				font-size: em($feeds_name_font-size);
-	  			text-transform: uppercase;
-	  			// color: #60717B;
-	  			color: #7e8890;
-			}
-			.info {
-				margin-top: em(10px, $base-font-size);
-				// margin-left: flex(130px, $base-width-content);
-				margin-left: 8.65em;
-				span {
-					font-weight: 300;
-					color: #919191;
-				}
-				.brand, .updated {
-					font-weight: 600;
-					// color: #787878;
-					color: #7c7c7c;
-					span {
-						color: #7c7c7c;
-					}
-				}
-				.status {
-					margin-top: em(10px, $base-font-size);
-					font-weight: 600;
-					text-transform: uppercase;
-					// color: #7E7F81;
-					color: #909294;
-					.new {
-						color: #2ecc71;
-						font-weight: 600;
-					}
-					.updated, .on_approval {
-						color: #d7c669;
-						font-weight: 600;
-					}
-					.declined {
-						color: #d76969;
-						font-weight: 600;
-					}
-				}
-			}
-		}
-	}
-
-	.ico_eye_wrap {
-		width: em(45px);
-		height: em(45px);
-		@include border-radius(100%);
-		.ico_eye {
-			width: 100%;
-			height: 100%;
-		}
-	}
-
-	.archive_wrap {
-		background-color: #f9f9fb;
-		padding: em(54px) 0 em(228px);
-		.wrap.wrap_news_feed {
-			margin-bottom: 0;
-		}
-	}
+    $feeds_name_font-size: 18px;
+    #mainarea {
+        padding-bottom: em(58px);
+    }
+    .content_wrap {
+        margin-bottom: 0;
+    }
+    .wrap.wrap_news_feed {
+        margin-bottom: em(60px, $base-font-size);
+        margin-top: em(58px);
+        @media (max-width: 768px) {
+            margin-bottom: 0;
+            padding: 0 9.4em;
+            padding-right: 0;
+        }
+        @media (max-width: 640px) {
+            margin-bottom: 0;
+            padding: 0 7.4em;
+            padding-right: 0;
+        }
+        .feed {
+            position: relative;
+            color: $gray-color;
+            margin-top: em(53px, $base-font-size);
+            overflow: hidden;
+            .ico_eye_wrap {
+                @extend .ico_rounded_wrap;
+            }
+            .ico_archive_wrap {
+                @extend .ico_rounded_wrap;
+                right: 69px;
+                @include border-radius(100%);
+            }
+            .line {
+                position: absolute;
+                left: -10000%;
+                top: 3.2em;
+                width: 10000%;
+                height: 1px;
+                background: #cecfd0;
+                z-index: 1;
+            }
+            img {
+                display: block;
+                float: left;
+            }
+            .name {
+                margin-left: 7.22em;
+                font-size: em($feeds_name_font-size);
+                text-transform: uppercase;
+                color: #7e8890;
+            }
+            .info {
+                margin-top: em(10px, $base-font-size);
+                margin-left: 8.65em;
+                span {
+                    font-weight: 300;
+                    color: #919191;
+                }
+                .brand,
+                .updated {
+                    font-weight: 600;
+                    color: #7c7c7c;
+                    span {
+                        color: #7c7c7c;
+                    }
+                }
+                .status {
+                    margin-top: em(10px, $base-font-size);
+                    font-weight: 600;
+                    text-transform: uppercase;
+                    color: #909294;
+                    .new {
+                        color: #2ecc71;
+                        font-weight: 600;
+                    }
+                    .updated,
+                    .on_approval {
+                        color: #d7c669;
+                        font-weight: 600;
+                    }
+                    .declined {
+                        color: #d76969;
+                        font-weight: 600;
+                    }
+                }
+            }
+        }
+    }
+    .ico_eye_wrap {
+        width: em(45px);
+        height: em(45px);
+        @include border-radius(100%);
+        .ico_eye {
+            width: 100%;
+            height: 100%;
+        }
+    }
+    .archive_wrap {
+        background-color: #f9f9fb;
+        padding: em(54px) 0 em(228px);
+        .wrap.wrap_news_feed {
+            margin-bottom: 0;
+        }
+    }
 }

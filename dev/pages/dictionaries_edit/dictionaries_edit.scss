@@ -1,12 +1,11 @@
 @import '../../sass/base/__base';
-
-.dictionary-edit-page{
-    .grey-line{
+.dictionary-edit-page {
+    .grey-line {
         margin: 35px auto 72px;
     }
-    .content_wrap{
+    .content_wrap {
         margin-top: 41px;
-        .main_title{
+        .main_title {
             font-size: 27px;
             text-transform: initial;
             margin: 0;
@@ -14,18 +13,18 @@
             font-weight: 100;
             letter-spacing: 0px;
         }
-        .properties_list{
-            .channel_name{
+        .properties_list {
+            .channel_name {
                 margin-top: 10px;
-                input[type="text"]{
+                input[type="text"] {
                     width: 311px;
                     margin-top: 21px;
                     border: 1px solid #CBCCCD;
                 }
             }
-            .parameters{
+            .parameters {
                 margin-top: 58px;
-                .main_title{
+                .main_title {
                     margin-bottom: 5px;
                 }
                 input[type='text'] {
@@ -33,18 +32,18 @@
                     margin-bottom: 2px;
                 }
             }
-            .upload_icon{
+            .upload_icon {
                 margin-top: 45px;
             }
-            .btn-add{
+            .btn-add {
                 margin-top: 43px;
                 width: 121px;
                 height: 41px;
                 font-size: 13px;
             }
         }
-        .buttons{
-            .btn{
+        .buttons {
+            .btn {
                 width: 119px;
                 height: 41px;
                 margin-right: 22px;
@@ -60,7 +59,6 @@
             height: 41px;
             font-size: 13px;
         }
-
         .channel-icon-upload {
             width: 60px;
             height: 60px;
@@ -70,7 +68,7 @@
             background-size: cover;
             cursor: pointer;
             margin: 25px 10px 22px 33px;
-            .ico_download_white{
+            .ico_download_white {
                 position: absolute;
                 top: 0;
                 bottom: 0;
@@ -79,7 +77,5 @@
                 margin: auto;
             }
         }
-
     }
-
 }
