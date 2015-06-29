@@ -11,29 +11,13 @@
     .activies_page_wrap {
         .content_wrap, .wrap_block {
             margin-top: em(30px, $base-font-size);
-            .toolbox-wrapper__description {
-                width: flex(390px, $base-width-content);
-                textarea {
-                    width: 100%;
-                    height: em( 146px, $base-font-size);
-                    margin-top: 0;
-                }
-            }
         }
         .block_img {
-            border: 1px solid #cecfd0;
-            @include border-radius(4px);
-            padding: em(13px, $base-font-size) flex(13px, 296px);
-            width: 100%;
-            display: block;
             img {
-                max-width: 100%;
                 display: inline-block;
             }
         }
-        .toolbox-wrapper__image-block {
-            width: flex(296px, $base-width-content);
-            height: em(283px, $base-font-size);
+        .img_upload_wrap__image-block  {
             li {
                 height: 100%;
                 a {

@@ -310,49 +310,6 @@ textarea {
     // }
 }
 
-.toolbox-wrapper {
-    overflow: hidden;
-    &__description {
-        width: 100%;
-        .btn {
-            margin-top: em(60px, $base-font-size);
-            &.btn_small {
-                width: flex(147px, 460px);
-            }
-        }
-    }
-    &__image-block {
-        margin-left: flex(100px, $base-width-content);
-    }
-}
-
-.toolbox-wrapper__description {
-    &__title {
-        margin-bottom: em(28px, $main_title-font-size);
-        // font-family: 'Brandon Grotesque';
-        font-family: 'Open Sans', sans-serif;
-        font-weight: 300;
-        font-size: em($brand_news_title-font-size, $base-font-size);
-        line-height: 1;
-        color: #4d4d4d;
-    }
-    li {
-        margin-top: em(43px, $base-font-size);
-        p {
-            font-family: pragmatica,Helvetica,Arial,sans-serif;
-            font-weight: 300;
-            font-size: em($base-font-size, $base-font-size);
-            line-height: em(21px, $base-font-size);
-            color: $gray-color;
-            letter-spacing: 1px;
-            text-align: justify;
-        }
-        &:first-child {
-            margin-top: 0;
-        }
-    }
-}
-
 .calendar_from, .calendar_to {
     background: none;
     border: none;
