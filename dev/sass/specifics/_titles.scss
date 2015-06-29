@@ -19,14 +19,13 @@
 	text-transform: uppercase;
 	margin: 1em 0 0 0;
 	font-weight: 600;
+	margin-top: 50px;
 	&.main_title_actives {
 	    font-size: 1.8em;
 	    width: 100%;
-	    margin-top: 1.5em;
 		@media (max-width: 768px) {
 			width: 100%;
 		}
-
 	}
 	&.main_title_department-indent {
 		margin-top: em(50px, $main_title-font-size);

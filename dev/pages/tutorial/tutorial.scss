@@ -13,9 +13,6 @@
     .btn.btn_big_rounded .ico_upload {
         left: -7px;
     }
-    .main_title_actives {
-        margin-bottom: 68px;
-    }
     .tutorial_documents {
         margin: em(80px) auto 0 auto;
         width: $base-width-content;
@@ -90,7 +87,6 @@
         }
     }
     .buttons-wrap {
-        margin: -13px 0 0 0;
         .btn_rounded_wrap {
             &.btn_left {
                 width: flex(165px);
