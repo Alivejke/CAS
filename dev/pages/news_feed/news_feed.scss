@@ -70,13 +70,16 @@
 	  			// color: #60717B;
 	  			color: #7e8890;
 	  			font-family: 'Brandon Grotesque';
-	  			font-weight: 700;
+	  			font-weight: 600;
 			}
 			.info {
-				margin-top: em(10px, $base-font-size);
-				// margin-left: flex(130px, $base-width-content);
-				margin-left: 8.65em;
-				font-family: 'Brandon Grotesque';
+				margin-top: em(10px, 12px);
+				margin-left: flex(130px, $base-width-content);
+				// margin-left: 8.65em;
+				// font-family: 'Brandon Grotesque';
+				font-family: 'Open Sans', sans-serif;
+				font-size: em(12px);
+				line-height: em(15px, 12px);
 				span {
 					font-weight: 300;
 					color: #919191;
@@ -86,10 +89,11 @@
 					color: #787878;
 				}
 				.status {
-					margin-top: em(10px, $base-font-size);
+					margin-top: em(12px, 12px);
 					font-weight: 600;
 					text-transform: uppercase;
 					color: #7E7F81;
+					font-family: 'Brandon Grotesque';
 					.new {
 						color: #2ecc71;
 						font-weight: 600;
