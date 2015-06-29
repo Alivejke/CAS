@@ -578,3 +578,11 @@ h1.error, div.error, a.error, .input-validation-error, span.error {
 .search-btn {
     float: right;
 }
+
+.bottom_info_wrapper {
+    background-color: #f9f9fb;
+    padding: em(54px) 0 em(228px);
+    .wrap.wrap_news_feed {
+        margin-bottom: 0;
+    }
+}

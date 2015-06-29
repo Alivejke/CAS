@@ -1,50 +1,46 @@
 .img_upload_wrap {
     overflow: hidden;
     &__description {
-        width: 100%;
+        width: flex(390px, $base-width-content);
+        &__title {
+            margin-bottom: em(28px, $main_title-font-size);
+            // font-family: 'Brandon Grotesque';
+            font-family: 'Open Sans', sans-serif;
+            font-weight: 300;
+            font-size: em($brand_news_title-font-size, $base-font-size);
+            line-height: 1;
+            color: #4d4d4d;
+        }
+        textarea {
+            width: 100%;
+            height: em( 146px, $base-font-size);
+            margin-top: em(14px);
+        }
+        li {
+            margin-top: em(43px, $base-font-size);
+            p {
+                font-family: pragmatica,Helvetica,Arial,sans-serif;
+                font-weight: 300;
+                font-size: em($base-font-size, $base-font-size);
+                line-height: em(21px, $base-font-size);
+                color: $gray-color;
+                letter-spacing: 1px;
+                text-align: justify;
+                margin-top: em(37px);
+            }
+            &:first-child {
+                margin-top: 0;
+            }
+        }
         .btn {
             margin-top: em(60px, $base-font-size);
             &.btn_small {
-                width: flex(147px, 460px);
+                width: flex(147px, 390px);
             }
         }
     }
     &__image-block {
         margin-left: flex(100px, $base-width-content);
-    }
-}
-
-.img_upload_wrap__description {
-    width: flex(390px, $base-width-content);
-    &__title {
-        margin-bottom: em(28px, $main_title-font-size);
-        // font-family: 'Brandon Grotesque';
-        font-family: 'Open Sans', sans-serif;
-        font-weight: 300;
-        font-size: em($brand_news_title-font-size, $base-font-size);
-        line-height: 1;
-        color: #4d4d4d;
-    }
-    textarea {
-        width: 100%;
-        height: em( 146px, $base-font-size);
-        margin-top: em(14px);
-    }
-    li {
-        margin-top: em(43px, $base-font-size);
-        p {
-            font-family: pragmatica,Helvetica,Arial,sans-serif;
-            font-weight: 300;
-            font-size: em($base-font-size, $base-font-size);
-            line-height: em(21px, $base-font-size);
-            color: $gray-color;
-            letter-spacing: 1px;
-            text-align: justify;
-            margin-top: em(37px);
-        }
-        &:first-child {
-            margin-top: 0;
-        }
     }
 }
 
