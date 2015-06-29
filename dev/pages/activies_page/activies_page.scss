@@ -36,22 +36,20 @@
 
     .activies_page_wrap {
 
-        .block_img {
-            border: 1px solid #cecfd0;
-            @include border-radius(4px);
-            // width: 296px;
-            // height: 283px;
-            // padding: 13px;
-            padding: em(13px, $base-font-size) flex(13px, 296px);
-            width: 100%;
-            display: block;
-            img {
-                max-width: 100%;
-            }
-        }
-        .toolbox-wrapper__description  {
-            width: flex(390px, $base-width-content);
-        }
+        // .block_img {
+        //     border: 1px solid #cecfd0;
+        //     @include border-radius(4px);
+        //     // width: 296px;
+        //     // height: 283px;
+        //     // padding: 13px;
+        //     padding: em(13px, $base-font-size) flex(13px, 296px);
+        //     width: 100%;
+        //     display: block;
+        //     img {
+        //         max-width: 100%;
+        //     }
+        // }
+        
         .channel {
             width: 33.33333%;
             float: left;
@@ -407,4 +405,7 @@
         }
     }
 
+    .buttons-wrap {
+        margin-bottom: 50px;
+    }
 }
