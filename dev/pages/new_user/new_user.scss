@@ -1,0 +1,76 @@
+@import '../../sass/base/__base';
+@import "compass/css3";
+.new_user_page {
+    $profile_description-width: 300px;
+    #mainarea {
+        padding-bottom: em(58px);
+    }
+    .new_user_page_btn_wrap {
+        margin-top: 19px;
+        padding-top: 61px;
+        .btn {
+            &.btn-default {
+                width: flex(120px, $base-width-content);
+                height: em(41px, 12px);
+                margin-left: flex(20px, $base-width-content);
+                &.btn-small {
+                    width: flex(101px, $base-width-content);
+                }
+            }
+            &:first-child {
+                margin-left: 0;
+            }
+        }
+    }
+    .new_user_wrap {
+        margin-top: em(35px);
+    }
+    .new_user_title {
+        margin-bottom: 5px;
+    }
+    .checkboxes_wrapper {
+        width: flex(480px, $base-width-content);
+        margin-top: 16px;
+        &.first{
+            margin-top: 49px;
+        }
+        @media (max-width: 768px) {
+            width: 43.65041%;
+        }
+    }
+    .checkboxes_wrapper_list {
+        position: relative;
+        left: -2%;
+        top: em(-43px);
+        overflow: hidden;
+        font-size: 1em;
+        margin-top: em(22px);
+        li {
+            float: left;
+            width: 36%;
+            margin-left: 12px;
+            margin-top: 47px;
+            color: #909294;
+            input[type="checkbox"] + label::before {
+                vertical-align: -4px;
+            }
+        }
+    }
+    .name_wrap {
+        margin-top: em(20px);
+        margin-bottom: em(30px);
+        &.indent-top {
+            margin-top: 19px;
+        }
+        > div {
+            width: flex(312px, $base-width-content);
+            input{
+                padding: 0 4%;
+                margin-top: 19px;
+            }
+        }
+    }
+    .btn {
+        color: #7e8890;
+    }
+}
