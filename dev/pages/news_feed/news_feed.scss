@@ -45,7 +45,7 @@
             }
             .name {
                 width: flex(450px);
-                margin-left: 7.22em;
+                margin-left: flex(125px);
                 font-size: em($feeds_name_font-size);
                 text-transform: uppercase;
                 color: #7e8890;
@@ -53,8 +53,8 @@
                 font-weight: 600;
             }
             .info {
-                margin-top: em(10px, 12px);
-                margin-left: flex(130px, $base-width-content);
+                margin-top: em(11px, 12px);
+                margin-left: flex(125px);
                 font-family: 'Open Sans', sans-serif;
                 font-size: em(12px);
                 line-height: em(15px, 12px);
@@ -68,7 +68,7 @@
                     color: #787878;
                 }
                 .status {
-                    margin-top: em(12px, 12px);
+                    margin-top: em(11px, 12px);
                     font-weight: 600;
                     text-transform: uppercase;
                     color: #7E7F81;
