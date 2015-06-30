@@ -40,14 +40,15 @@
 			@include box-sizing(border-box);
 			padding: 0;
 			display: table;
-			top: 128px;
+			top: 119px;
+			left: 282px;
 			.popup_output_wrap {
 				position: relative;
 				font-family: 'Open Sans', sans-serif;
 				font-weight: 600;
 				color: $white-color;
 				font-size: 9px;
-				line-height: 13px;
+				line-height: 1;
 				vertical-align: middle;
 				display: table-cell;
 				padding: 0 10px 0 65px;
@@ -90,13 +91,14 @@
 				padding: 27px 0 28px;
 			}
 			&.output_big {
+				left: 50%;
 				width: 90%;
 				margin-left: -45%;
 				padding: 25px 0 25px 65px;
 				.popup_output_wrap {
 					padding: 0 10px 0 145px;
 					font-size: 12px;
-					line-height: 16px;
+					line-height: 14px;
 				}
 				.ico_output_info_big {
 					margin-top: -17px;
@@ -119,13 +121,13 @@
 			&.output_succes {
 				background-color: #2ecc71;
 				.ico_output_succes {
-					margin-top: -23px;
+					margin-top: -19px;
 				}
 			}
 			&.output_error {
 				background-color: #b70e12;
 				.ico_output_info {
-					margin-top: -23px;
+					margin-top: -19px;
 				}
 			}
 		}

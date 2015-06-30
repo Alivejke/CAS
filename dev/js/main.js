@@ -37,8 +37,10 @@ $(document).ready(function() {
             }
         } else {
             if ( body > 65 ) {
+                $('body').css( "padding", "15px 0" );
                 addScroll();
             } else {
+                $('body').css( "padding", "0" );
                 removeScroll();
             }
         }
