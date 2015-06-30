@@ -13,6 +13,10 @@
     &.btn_inactive {
     	cursor: pointer;
 	}
+	&.margin-auto{
+		display: block;
+		margin: 0 auto;
+	}
 	&.btn_status {
         .valid {
             font-weight: 500;

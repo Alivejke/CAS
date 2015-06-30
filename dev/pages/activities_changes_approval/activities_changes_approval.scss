@@ -3,22 +3,54 @@
 .activities_changes_approval {
     $brand_news_list-width: 295px;
     .content_wrap {
-        margin-top: em(50px);
+        margin-top: em(46px);
+    }
+    > .btn{
+        margin-top: 15px;
     }
     .activities_changes_approval_list_info {
+        margin-bottom: em(50px);
         > li {
             overflow: hidden;
-            .profile_title {
-                width: flex(74px, $base-width-content);
-                .profile_text {
-                    margin-top: em(4px, 10.5px);
-                    margin-left: 0;
+            margin-top: 29px;
+            .activities_changes_title {
+                width: 100%;
+                color: #3F4A55;
+                font-size: 14px;
+                font-weight: bold;
+                font-family: 'Brandon Grotesque';
+                color: #3F4A55;
+                text-transform: uppercase;
+                letter-spacing: 1px;
+                position: relative;
+                .point{
+                    font-size: 14px;
+                    color: #909294;
+                    margin: 0 10px 0 6px;
+                }
+                .activities_changes_title_info {
+                    font-size: 13px;
+                    line-height: em(18px, 13px);
+                    color: #909294;
+                    font-weight: 300;
+                    text-transform: lowercase;
+                    letter-spacing: 0.4px;
+                    &:first-child{
+                        font-size: 11px;
+                        margin-left: em(18px, 12px);
+                    }
                 }
             }
-            .profile_text {
-                margin: em(-3px) 0 0 flex(70px, $base-width-content);
-                width: flex(590px, $base-width-content);
+            .activities_changes_text {
+                width: flex(725px, $base-width-content);
                 text-align: justify;
+                font-family: pragmatica, Helvetica, Arial, sans-serif;
+                font-size: em(13px);
+                margin-top: em(16px);
+                line-height: em(17px, 13px);
+                letter-spacing: 0.6px;
+                color: #909294;
+                font-weight: 300;
                 @media (max-width: 768px) {
                     margin: -0.26667em 0 0 5.48509%;
                 }
@@ -26,7 +58,7 @@
         }
     }
     .activities_changes_approval_wrap {
-        margin-top: em(60px);
+        margin-top: em(37px);
     }
     .activities_changes_approval_list {
         overflow: hidden;
@@ -34,12 +66,26 @@
         > li {
             float: left;
             width: 50%;
-            padding-bottom: em(98px);
-            border-left: 1px solid #cecfd0;
+            padding-bottom: em(10px);
+            // border-left: 1px solid #cecfd0;
+            .activities_changes_approval_list_wrap {
+                padding: 0 0 0 10%;
+            }
+            .status_wrap_center{
+                padding: 0 0 0 10%;
+            }
+            .status_wrap 
             &:first-child {
                 border: none;
-                border-right: 1px solid #cecfd0;
+                // border-right: 1px solid #cecfd0;
                 margin-right: -1px;
+
+                .status_wrap_center{
+                    padding: 0;
+                }
+                .activities_changes_approval_list_wrap {
+                    padding: 0;
+                }
             }
         }
         .error {
@@ -49,19 +95,13 @@
         }
     }
     .activities-settings {
-        overflow: visible;
-        border-top: 1px solid #cecfd0;
-        margin-top: em(65px);
+        margin-top: em(39px);
         .status_wrap {
-            position: absolute;
-            bottom: em(-$btn-rounded-height/2);
             background: $white-color;
             left: 50%;
             width: flex($brand_news_list-width, $base-width/2);
-            margin-left: flex(-129px, $base-width/2);
             @include border-radius(30px);
             @media (max-width: 768px) {
-                left: 43%;
                 width: 75.45833%;
             }
             .btn_big_rounded {
@@ -74,10 +114,20 @@
             .activities_changes_brand_news_list {
                 width: flex($brand_news_list-width, $base-width-content/2 - $base-margin);
                 color: $gray-color-old;
-                margin-top: em(53px);
+                margin-top: em(45px);
+                font-family: Open sans;
+                h2{
+                    font-weight: 300;
+                    font-size: 27px;
+                    line-height: 1;
+                    color: #4d4d4d;
+                    letter-spacing: -0.3px;
+                }
                 p {
-                    margin-top: em(37px);
-                    line-height: em(18px);
+                    margin-top: 39px;
+                    line-height: 18px;
+                    font-size: 13px;
+                    width: 75%;
                     &.distinction {
                         color: $distinction-color;
                     }
@@ -86,33 +136,43 @@
                     color: $distinction-color;
                 }
                 .btn.btn-default {
-                    margin-top: 4em;
-                    width: flex(146px, $brand_news_list-width);
+                    margin: 36px 0 0 12%;
+                    display: block;
+                    width: 38%;
                 }
             }
         }
     }
     .main_title {
+        font-family: Open sans;
+        font-weight: 300;
+        text-transform: capitalize;
         &.main_title-indent {
             margin-top: em(60px, $main_title-font-size);
         }
     }
     .approval_list {
-        margin-top: em(23px, 21px);
-        font-size: em(21px);
-        color: $gray-color;
-        color: #2c3138;
+        margin-top: 25px;
+        font-size: em(20px);
+        font-weight: normal;
+        line-height: 28px;
+        font-family: Open sans;
+        color: #3F4A55;
+        letter-spacing: 0.3px;
+        font-weight: 300;
     }
     .brand_news_toolbax_list {
         margin-top: em(75px);
         > li {
             .block_img {
                 width: flex(296px, $base-width-content/2 - $base-margin);
+                img{
+                    border: 1px solid #c5c5c5;
+                    @include border-radius(6px);
+                    padding: 12px;
+                }
             }
         }
-    }
-    .activities_changes_approval_list_wrap {
-        padding: 0 0 0 flex($base-margin, $base-width/2);
     }
     .activities_changes_approval_list_wrap_list {
         @media (max-width: 768px) {
@@ -121,7 +181,7 @@
     }
     .document_wrap {
         border-top: 1px solid #cecfd0;
-        padding-top: em(80px);
+        padding-top: em(17px);
         margin-bottom: em(62px);
     }
     .document {
@@ -133,7 +193,7 @@
         li {
             float: left;
             width: flex(330px, $base-width-content);
-            margin-left: flex(63px, $base-width-content);
+            margin-left: flex(150px, $base-width-content);
             overflow: hidden;
             margin-top: em(95px);
             @media (max-width: 768px) {
@@ -159,10 +219,13 @@
             }
             .description {
                 width: flex(240px, 330px);
-                margin-left: flex(15px, 330px);
+                margin-left: flex(6px, 340px);
                 p {
-                    margin-top: em(20px);
+                    margin-top: 21px;
                     color: #8F979F;
+                    font-size: 13px;
+                    font-family: Open sans;
+                    line-height: 17px;
                 }
                 &.distinction {
                     .document__title {
@@ -174,8 +237,8 @@
     }
     .channel {
         display: inline-block;
-        width: flex(155px, $base-width/2 - $base-margin);
-        margin-left: flex(50px, $base-width/2 - $base-margin);
+        width: 37%;
+       // margin-left: flex(50px, $base-width/2 - $base-margin);
         margin-top: em(56px);
         &:nth-child(2n+1) {
             margin-left: 0;
