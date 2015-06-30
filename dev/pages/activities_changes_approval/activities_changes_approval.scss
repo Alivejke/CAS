@@ -1,7 +1,7 @@
 @import '../../sass/base/__base';
 @import "compass/css3";
 .activities_changes_approval {
-    $brand_news_list-width: 295px;
+    $brand_news_list-width: 297px;
     .content_wrap {
         margin-top: em(46px);
     }
@@ -75,7 +75,11 @@
             .status_wrap_center{
                 padding: 0 0 0 10%;
             }
-            .status_wrap 
+            .activities-settings {
+                .status_wrap {
+                    width: flex($brand_news_list-width, $base-width/2 - 48px);
+                }
+            }
             &:first-child {
                 border: none;
                 // border-right: 1px solid #cecfd0;
@@ -87,13 +91,10 @@
                 .activities_changes_approval_list_wrap {
                     padding: 0;
                 }
-            }
-            &:first-child {
-                .status_wrap_center {
-                    padding: 0;
-                }
-                .activities_changes_approval_list_wrap {
-                    padding: 0;
+                .activities-settings {
+                    .status_wrap {
+                        width: flex($brand_news_list-width, $base-width/2);
+                    }
                 }
             }
         }
@@ -108,7 +109,7 @@
         .status_wrap {
             background: $white-color;
             left: 50%;
-            width: flex($brand_news_list-width, $base-width/2);
+            // width: flex($brand_news_list-width, $base-width/2);
             @include border-radius(30px);
             @media (max-width: 768px) {
                 width: 75.45833%;
