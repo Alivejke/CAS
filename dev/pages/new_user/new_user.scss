@@ -5,6 +5,12 @@
     #mainarea {
         padding-bottom: em(58px);
     }
+    .content_wrap{
+        margin-top: 63px;
+    }
+    .main_title{
+        margin-top: 0;
+    }
     .new_user_page_btn_wrap {
         margin-top: 19px;
         padding-top: 61px;
@@ -23,7 +29,11 @@
         }
     }
     .new_user_wrap {
-        margin-top: em(35px);
+        .first-name{
+            input{
+                margin-top: 17px;
+            }
+        }
     }
     .new_user_title {
         margin-bottom: 5px;
@@ -57,7 +67,6 @@
         }
     }
     .name_wrap {
-        margin-top: em(20px);
         margin-bottom: em(30px);
         &.indent-top {
             margin-top: 19px;

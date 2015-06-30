@@ -10,7 +10,7 @@
                 }
             }
             &.btn_right {
-                width: 30%;
+                width: flex(283px);
             }
             .ico_add {
                 position: absolute;
@@ -43,7 +43,7 @@
         top: -1px;
     }
     table {
-        margin-top: 70px;
+        margin-top: 56px;
         width: 100%;
         .sprite {
             display: inline-block;
