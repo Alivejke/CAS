@@ -17,6 +17,17 @@
     .content_wrap {
         margin-bottom: 0;
     }
+    .bottom_info_wrapper{
+        padding: em(48px) 0 em(167px);
+        
+        .wrap.wrap_news_feed {
+            margin-top: 0;
+        }
+        .main_title{
+            margin-top: 0;
+            margin-bottom: 74px;
+        }
+    }
     .wrap.wrap_news_feed {
         margin-bottom: em(60px, $base-font-size);
         margin-top: em(58px);
