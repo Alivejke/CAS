@@ -85,7 +85,7 @@ $main_menu_item-width-hover: 367px;
 		> li {
 			width: flex(304px, $base-width-content);
 			height: em(314px);
-			margin: em(22px) 0 0 flex(21px, $base-width-content);
+			margin: em(22px) 0 0 flex(20px, $base-width-content);
 			.main_menu_item {
 				line-height: em(314px - 2px);
 				padding: 0 em(60px);
