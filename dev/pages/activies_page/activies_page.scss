@@ -221,7 +221,6 @@
             margin-top: em(7px);
         }
         &__title {
-            font-size: 1em;
             width: 90%;
             line-height: 1.5em;
             margin-top: 0.5em;
@@ -231,41 +230,8 @@
             }
         }
         li {
-            float: left;
-            width: flex(330px, $base-width-content);
-            margin-left: flex(63px, $base-width-content);
-            overflow: hidden;
-            margin-top: 3em;
-            @media (max-width: 768px) {
-                float: none;
-                width: 100%;
-                margin-left: 0;
-            }
-            &:nth-child(2n+1) {
-                margin-left: 0;
-                clear: left;
-            }
-            &.odd {
-                margin-left: 0;
-                clear: left;
-            }
-            .manage {
-                @media (max-width: 768px) {
-                    width: em(62px);
-                }
-                &.img_circle-default {
-                    line-height: em(62px);
-                }
-            }
             .description {
-                width: flex(240px, 330px);
-                margin-left: flex(15px, 330px);
-                p {
-                    margin-top: 0em;
-                    color: #666;
-                    line-height: 1em;
-                    width: 90%;
-                }
+                margin-left: flex(15px, 340px);
                 &.distinction {
                     .brand_news_title {
                         color: $distinction-color;

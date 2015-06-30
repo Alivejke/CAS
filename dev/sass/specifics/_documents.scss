@@ -1,0 +1,63 @@
+.document {
+    &__title {
+        font-family: 'Open Sans', sans-serif;
+        font-size: em($base-font-size, $base-font-size);
+        width: flex(230px, 253px);
+    }
+    li {
+        float: left;
+        width: flex(340px, $base-width-content);
+        margin-left: flex(184px, $base-width-content);
+        overflow: hidden;
+        margin-top: em(91px);
+        @media (max-width: 768px) {
+            float: none;
+            width: 100%;
+            margin-left: 0;
+        }
+        &:nth-child(2n+1) {
+            margin-left: 0;
+            clear: left;
+        }
+        &.odd {
+            margin-left: 0;
+            clear: left;
+        }
+        .manage {
+            @media (max-width: 768px) {
+                width: em(62px);
+            }
+            &.img_circle-default {
+                line-height: em(62px);
+            }
+        }
+        .manage_img_wrapper {
+            .sprite {
+                &.ico_download,
+                &.ico_edit {
+                    display: block;
+                    margin: 14px auto 0;
+                }
+            }
+        }
+        .description {
+            width: flex(240px, 330px);
+            margin-left: flex(6px, 340px);
+            p {
+                margin-top: 21px;
+                color: #5a636e;
+                font-size: 13px;
+                font-family: 'Open Sans', sans-serif;
+                line-height: 17px;
+            }
+            &.distinction {
+                .document__title {
+                    color: $distinction-color;
+                }
+            }
+        }
+        .sprite.sprite_ico {
+            margin-left: 2px;
+        }
+    }
+}
