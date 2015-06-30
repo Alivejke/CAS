@@ -9,7 +9,7 @@
         margin-top: 15px;
     }
     .activities_changes_approval_list_info {
-        margin-bottom: em(50px);
+        margin-bottom: em(48px);
         > li {
             overflow: hidden;
             margin-top: 29px;
@@ -26,18 +26,19 @@
                 .point{
                     font-size: 14px;
                     color: #909294;
-                    margin: 0 10px 0 6px;
+                    margin: 0 9px 0 5px;
                 }
                 .activities_changes_title_info {
-                    font-size: 13px;
-                    line-height: em(18px, 13px);
+                    font-family: 'Open Sans', sans-serif;
+                    font-size: 11px;
+                    line-height: em(18px, 11px);
                     color: #909294;
                     font-weight: 300;
                     text-transform: lowercase;
                     letter-spacing: 0.4px;
                     &:first-child{
                         font-size: 11px;
-                        margin-left: em(18px, 12px);
+                        margin-left: em(19px, 11px);
                     }
                 }
             }
@@ -46,7 +47,7 @@
                 text-align: justify;
                 font-family: pragmatica, Helvetica, Arial, sans-serif;
                 font-size: em(13px);
-                margin-top: em(16px);
+                margin-top: em(16px, 13px);
                 line-height: em(17px, 13px);
                 letter-spacing: 0.6px;
                 color: #909294;
@@ -87,6 +88,14 @@
                     padding: 0;
                 }
             }
+            &:first-child {
+                .status_wrap_center {
+                    padding: 0;
+                }
+                .activities_changes_approval_list_wrap {
+                    padding: 0;
+                }
+            }
         }
         .error {
             background: #F7F7F9;
@@ -115,7 +124,7 @@
                 width: flex($brand_news_list-width, $base-width-content/2 - $base-margin);
                 color: $gray-color-old;
                 margin-top: em(45px);
-                font-family: Open sans;
+                font-family: 'Open Sans', sans-serif;
                 h2{
                     font-weight: 300;
                     font-size: 27px;
@@ -136,7 +145,7 @@
                     color: $distinction-color;
                 }
                 .btn.btn-default {
-                    margin: 36px 0 0 12%;
+                    margin: 34px 0 0 12%;
                     display: block;
                     width: 38%;
                 }
@@ -144,7 +153,7 @@
         }
     }
     .main_title {
-        font-family: Open sans;
+        font-family: 'Open Sans', sans-serif;
         font-weight: 300;
         text-transform: capitalize;
         &.main_title-indent {
@@ -156,10 +165,13 @@
         font-size: em(20px);
         font-weight: normal;
         line-height: 28px;
-        font-family: Open sans;
+        font-family: 'Open Sans', sans-serif;
         color: #3F4A55;
         letter-spacing: 0.3px;
         font-weight: 300;
+        li {
+            letter-spacing: 0px;
+        }
     }
     .brand_news_toolbax_list {
         margin-top: em(75px);
@@ -192,10 +204,10 @@
         }
         li {
             float: left;
-            width: flex(330px, $base-width-content);
-            margin-left: flex(150px, $base-width-content);
+            width: flex(340px, $base-width-content);
+            margin-left: flex(184px, $base-width-content);
             overflow: hidden;
-            margin-top: em(95px);
+            margin-top: em(91px);
             @media (max-width: 768px) {
                 float: none;
                 width: 100%;
@@ -224,7 +236,7 @@
                     margin-top: 21px;
                     color: #8F979F;
                     font-size: 13px;
-                    font-family: Open sans;
+                    font-family: 'Open Sans', sans-serif;
                     line-height: 17px;
                 }
                 &.distinction {
@@ -232,6 +244,9 @@
                         color: $distinction-color;
                     }
                 }
+            }
+            .sprite.sprite_ico {
+                margin-left: 2px;
             }
         }
     }
@@ -263,6 +278,7 @@
         }
     }
     .channel_item_list {
+        margin-top: em(19px);
         color: $gray-color;
         > li {
             margin-top: em(15px);
@@ -277,8 +293,8 @@
     .btn_wrap {
         .btn {
             &.btn-default {
-                width: flex(166px, $base-width-content);
-                margin-left: flex(35px, $base-width-content);
+                width: flex(186px, $base-width-content);
+                margin-left: flex(39px, $base-width-content);
             }
             &:first-child {
                 margin-left: 0;
@@ -405,5 +421,8 @@
                 }
             }
         }
+    }
+    .document__title {
+        font-family: 'Open Sans', sans-serif;
     }
 }
