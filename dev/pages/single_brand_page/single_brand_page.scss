@@ -11,14 +11,6 @@
     .buttons-wrap {
         &__bottom {
             margin: 78px 0 0 0;
-            .btn_rounded_wrap {
-                &.btn_left {
-                    width: flex(151px);
-                }
-                &.btn_right {
-                    width: flex(164px);
-                }
-            }
         }
     }
     &.activities_search_page {

@@ -3,12 +3,9 @@
 .tutorial_search-page {
 	.buttons-wrap {
 		.btn_rounded_wrap {
-			&.btn_left {
-				width: flex(168px);	
-			}
 			&.btn_right  {
-				width: flex(283px);
-			}
+		        width: flex(283px);
+		    }
 		}
 	}
 	.main_menu_wrap {

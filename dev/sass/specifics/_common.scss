@@ -224,7 +224,17 @@ textarea {
     }
     .btn_rounded_wrap {
         background-color: $white-color;
-        // bottom: em(-$btn-rounded-height/2);
+        width: flex(168px);
+        &.btn_rounded_wrap__search {
+            .btn_big_rounded {
+                padding-left: 59px;
+            }
+        }
+        .btn_big_rounded {
+            position: relative;
+            padding-left: 24px;
+            letter-spacing: 1px;
+        }
         @media (max-width: 960px) {
             width: flex(700px, $base-width);
         }

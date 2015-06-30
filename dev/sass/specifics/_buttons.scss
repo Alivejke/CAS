@@ -211,9 +211,9 @@
     		}
 		}
 		.ico_add {
-		    position: relative;
-		    top: 2px;
-		    left: flex(-17px, 164px);
+			position: absolute;
+			left: flex(18px, 168px);
+			top: 13px;
 		}
 	}
 	&.btn-default {
