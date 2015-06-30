@@ -51,20 +51,20 @@
     margin-top: em(63px);
     width: flex(296px);
     height: em(282px);
-    .block_img {
-        border: 1px solid #cecfd0;
-        @include border-radius(4px);
-        // width: 296px;
-        // height: 283px;
-        // padding: 13px;
-        padding: em(13px, $base-font-size) flex(13px, 296px);
-        width: 100%;
-        display: block;
-        text-align: center;
-        img {
-            max-height: em(252px);
-            max-width: 100%;
-            // height: 100%;
-        }
+}
+.block_img {
+    border: 1px solid #cecfd0;
+    @include border-radius(4px);
+    // width: 296px;
+    // height: 283px;
+    // padding: 13px;
+    padding: em(13px, $base-font-size) flex(13px, 296px);
+    width: 100%;
+    display: block;
+    text-align: center;
+    img {
+        max-height: em(252px);
+        max-width: 100%;
+        // height: 100%;
     }
 }
