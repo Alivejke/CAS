@@ -292,8 +292,14 @@
         > li {
             float: left;
             width: 33%;
-            padding: 0 5px;
+            padding: 0 150px 0 0;
             margin-top: em(29px);
+            &:nth-child(3n+2) {
+                padding: 0 75px 0 75px;
+            }
+            &:nth-child(3n) {
+                padding: 0 0 0 150px;
+            }
             @media (min-width: 481px) {
                 &:nth-child(3n+1) {
                     clear: left;
@@ -349,7 +355,8 @@
     }
     .mechanics_inside_items {
         display: inline-block;
-        text-align: left;
+        width: 100%;
+        text-align: center;
         .mechanics_list_wrap_items {
             text-align: left;
         }

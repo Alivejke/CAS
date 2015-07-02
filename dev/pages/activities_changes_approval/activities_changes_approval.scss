@@ -116,7 +116,10 @@
             }
             .btn_big_rounded {
                 .ico_status {
-                    margin-left: flex(10px, $brand_news_list-width);
+                    margin: 0 flex(5px, 297px) 0 flex(35px, 297px);
+                }
+                .ico_calendar {
+                    margin: 0 flex(2px, 297px) 0 flex(44px, 297px);
                 }
             }
         }
@@ -154,11 +157,13 @@
         }
     }
     .main_title {
-        font-family: 'Open Sans', sans-serif;
-        font-weight: 300;
-        text-transform: capitalize;
         &.main_title-indent {
             margin-top: em(60px, $main_title-font-size);
+        }
+        &.main_title_document {
+            font-family: 'Open Sans', sans-serif;
+            font-weight: 300;
+            text-transform: capitalize;
         }
     }
     .approval_list {
@@ -259,19 +264,6 @@
         border: 1px solid #dedfdf;
         font-size: em(13px);
     }
-    .calendar_from,
-    .calendar_to {
-        background: none;
-        border: none;
-        display: inline-block;
-        width: flex(75px, 294px);
-        margin-left: flex(3px, 370px - 6px * 2);
-        color: #7E8D95;
-        font-weight: 500;
-    }
-    .calendar_to {
-        margin-left: flex(5px, 370px - 6px * 2);
-    }
     .comiseo-daterangepicker.ui-corner-all {
         min-width: 300px;
     }
@@ -307,11 +299,19 @@
         color: #7E8D95;
         font-weight: 500;
         &.approval_input {
+            font-family: 'Brandon Grotesque';
+            font-size: 12px;
+            font-weight: 600;
             width: flex(75px, 294px);
         }
     }
     .calendar_to {
         margin-left: flex(5px, 370px - 6px * 2);
+    }
+    .calendar_from {
+        &.approval_input {
+            width: flex(32px, 297px);
+        }
     }
     .calendar_wrap {
         width: flex(289px, $base-width-content/2);

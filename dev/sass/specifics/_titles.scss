@@ -89,7 +89,8 @@
 .profile_title, .new_user_title {
 	font-size: em(12px);
 	@extend .base_title;
-	color: #909294;
+	// color: #909294;
+	color: #555;
 	text-transform: uppercase;
 	letter-spacing: 1px;
 	&.indent-top {

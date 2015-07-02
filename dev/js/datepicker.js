@@ -61,11 +61,16 @@
 			var $this = $(this),
 				$datepicker = $this.find('.datepicker');
 
-			$this.addClass('active');
+			if( $this.hasClass('calendarReadonly') ) {
+				return;
+			} else {
+				$this.addClass('active');
 
-			$datepicker.daterangepicker("open");
+				$datepicker.daterangepicker("open");
 
-			calendarPositions ($this);
+				calendarPositions ($this);				
+			}
+
 
 		});
 
