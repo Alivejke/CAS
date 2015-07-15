@@ -4,7 +4,7 @@
         width: flex(390px, $base-width-content);
         &__title {
             margin-bottom: em(28px, $main_title-font-size);
-            // font-family: 'Brandon Grotesque';
+            // font-family: 'Brandon Grotesque', Arial,Helvetica,sans-serif;
             font-family: 'Open Sans', sans-serif;
             font-weight: 300;
             font-size: em($brand_news_title-font-size, $base-font-size);

@@ -177,7 +177,7 @@ $select_multiple_default-width: 289px;
 	.select2-container {
 		overflow: hidden;
 		width: $select-base-width !important;
-		font-family: 'Brandon Grotesque';
+		font-family: 'Brandon Grotesque', Arial,Helvetica,sans-serif;
 		
 		&.select2-container--default {
 			.select2-selection--single {
@@ -218,7 +218,7 @@ $select_multiple_default-width: 289px;
 		.select2-selection--single {
 			height: em(41px, $base-font-size);
 			color: #323a45;
-			font-family: 'Brandon Grotesque';
+			font-family: 'Brandon Grotesque', Arial,Helvetica,sans-serif;
 			font-size: em($base-font-size, $base-font-size);
 			.select2-selection__rendered {
 				padding: 0 flex(70px, $select-base-width) 0 flex(20px, $select-base-width);
@@ -230,7 +230,7 @@ $select_multiple_default-width: 289px;
 .select2-results__option {
 	padding: em(13px, $base-font-size) em(40px, $base-font-size);
 	color: #8F9BA3;
-	font-family: 'Brandon Grotesque';
+	font-family: 'Brandon Grotesque', Arial,Helvetica,sans-serif;
 	.select2-results__option--highlighted {
 		background: #7e8890;
 	}

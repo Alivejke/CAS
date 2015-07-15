@@ -5,14 +5,14 @@ $calendar-font-size: 12px;
 }
 
 .calendar_input {
-	font-family: 'Brandon Grotesque';
+	font-family: 'Brandon Grotesque', Arial,Helvetica,sans-serif;
 	font-size: em($calendar-font-size);
 	text-align: center;
 	line-height: em(40px, $calendar-font-size);
 	width: flex(100px);
 	height: em(40px, $calendar-font-size);
 	color: #ABACAE;
-	font-family: 'Brandon Grotesque';
+	font-family: 'Brandon Grotesque', Arial,Helvetica,sans-serif;
 	&.calendar_from {
 		margin-left: flex(10px);
 	}

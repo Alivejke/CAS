@@ -155,7 +155,7 @@ textarea {
         li {
             font-size: 12px;
             display: inline-block;
-            font-family: 'Brandon Grotesque';
+            font-family: 'Brandon Grotesque', Arial,Helvetica,sans-serif;
             letter-spacing: 0.3px;
             cursor: pointer;
             text-transform: uppercase;
@@ -195,7 +195,7 @@ textarea {
             top: 1em;
             left: 50%;
             font-size: 0.8em;
-            font-family: 'Brandon Grotesque';
+            font-family: 'Brandon Grotesque', Arial,Helvetica,sans-serif;
             position: relative;
         }
         &:after {
@@ -400,7 +400,7 @@ textarea {
 }
 
 .table th {
-    font-family: 'Brandon Grotesque';
+    font-family: 'Brandon Grotesque', Arial,Helvetica,sans-serif;
     font-weight: 600;
     text-align: left;
     text-transform: uppercase;

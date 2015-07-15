@@ -2,7 +2,7 @@
 @import "compass/css3";
 .activies_page {
     .global_name_channels {
-        font-family: 'Brandon Grotesque';
+        font-family: 'Brandon Grotesque', Arial,Helvetica,sans-serif;
         font-weight: 300;
         font-size: em(21px, $base-font-size);
         line-height: 1;
@@ -53,7 +53,7 @@
                 display: block;
             }
             .name_channels {
-                font-family: 'Brandon Grotesque';
+                font-family: 'Brandon Grotesque', Arial,Helvetica,sans-serif;
                 font-weight: 300;
                 font-size: em(21px, $base-font-size);
                 line-height: 1;
@@ -88,7 +88,7 @@
         }
         .wrap_block {
             .title {
-                font-family: 'Brandon Grotesque';
+                font-family: 'Brandon Grotesque', Arial,Helvetica,sans-serif;
                 font-weight: 300;
                 font-size: em($brand_news_title-font-size, $base-font-size);
                 line-height: 1;
@@ -156,7 +156,7 @@
                 .name {
                     float: left;
                     font-weight: 500;
-                    font-family: 'Brandon Grotesque';
+                    font-family: 'Brandon Grotesque', Arial,Helvetica,sans-serif;
                 }
                 .text {
                     float: left;

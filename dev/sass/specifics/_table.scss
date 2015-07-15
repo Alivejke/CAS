@@ -1,5 +1,6 @@
 $th_base-width: flex($base-width-content/5, $base-width-content);
-$table_td-font-size: 11px; 
+$table_td-font-size: 11px;
+$brand_news_list-width: 297px;
 
 .approval_flow_wrap {
 	.main_title {
@@ -322,6 +323,53 @@ $table_td-font-size: 11px;
 			margin-top: 0;
 			.wrap {
 				border-bottom: none;
+			}
+		}
+	}
+}
+
+.modified_data {
+	table-layout: fixed;
+	border-top: 1px solid #cecfd0;
+	border-bottom: 1px solid #cecfd0;
+	tr {
+		td {
+			width: 50%;
+			.activities_changes_brand_news_list {
+                width: flex($brand_news_list-width, $base-width-content/2 - $base-margin);
+                color: $gray-color-old;
+                margin-top: em(45px);
+                font-family: 'Open Sans', sans-serif;
+                h2{
+                    font-weight: 300;
+                    font-size: 27px;
+                    line-height: 1;
+                    color: #4d4d4d;
+                    letter-spacing: -0.3px;
+                }
+                p {
+                    margin-top: 39px;
+                    line-height: 18px;
+                    font-size: 13px;
+                    width: 75%;
+                    &.distinction {
+                        color: $distinction-color;
+                    }
+                }
+                &.distinction {
+                    color: $distinction-color;
+                }
+                .btn.btn-default {
+                    margin: 34px 0 0 12%;
+                    display: block;
+                    width: 38%;
+                }
+            }
+			&.error {
+				background: #F7F7F9;
+			}
+			& + td {
+				padding: 0 0 0 5%;
 			}
 		}
 	}

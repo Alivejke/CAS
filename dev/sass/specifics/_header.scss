@@ -19,7 +19,7 @@ $navigation_dropdown_list_news-font-size: 11px;
 	a {
 		display: inline-block;
 		// font-family: 'brandon_grotesquebold';
-		font-family: 'Brandon Grotesque';
+		font-family: 'Brandon Grotesque', Arial,Helvetica,sans-serif;
 		// font-family: pragmatica,Helvetica,Arial,sans-serif;
 		font-weight: 600;
 		// font-size: em($base-font-size, $base-font-size);
@@ -191,7 +191,7 @@ $navigation_dropdown_list_news-font-size: 11px;
 			color: #cdd1d3;
 			text-decoration: none;
 			text-transform: uppercase;
-			font-family: 'Brandon Grotesque';
+			font-family: 'Brandon Grotesque', Arial,Helvetica,sans-serif;
 		}
 		&.active {
 			a {

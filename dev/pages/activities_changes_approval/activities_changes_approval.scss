@@ -18,7 +18,7 @@
                 color: #3F4A55;
                 font-size: 14px;
                 font-weight: bold;
-                font-family: 'Brandon Grotesque';
+                font-family: 'Brandon Grotesque', Arial,Helvetica,sans-serif;
                 color: #3F4A55;
                 text-transform: uppercase;
                 letter-spacing: 1px;
@@ -62,8 +62,13 @@
         margin-top: em(37px);
     }
     .activities_changes_approval_list {
-        overflow: hidden;
-        border-top: 1px solid #cecfd0;
+        // overflow: hidden;
+        // border-top: 1px solid #cecfd0;
+        .activities-settings {
+            .status_wrap {
+                width: flex($brand_news_list-width, $base-width/2 - 48px);
+            }
+        }
         > li {
             float: left;
             width: 50%;
@@ -74,11 +79,6 @@
             }
             .status_wrap_center{
                 padding: 0 0 0 10%;
-            }
-            .activities-settings {
-                .status_wrap {
-                    width: flex($brand_news_list-width, $base-width/2 - 48px);
-                }
             }
             &:first-child {
                 border: none;
@@ -100,8 +100,8 @@
         }
         .error {
             background: #F7F7F9;
-            padding-bottom: 1000px;
-            margin-bottom: -1000px;
+            // padding-bottom: 1000px;
+            // margin-bottom: -1000px;
         }
     }
     .activities-settings {
@@ -198,7 +198,7 @@
         }
     }
     .document_wrap {
-        border-top: 1px solid #cecfd0;
+        // border-top: 1px solid #cecfd0;
         padding-top: em(17px);
         margin-bottom: em(62px);
     }
@@ -299,7 +299,7 @@
         color: #7E8D95;
         font-weight: 500;
         &.approval_input {
-            font-family: 'Brandon Grotesque';
+            font-family: 'Brandon Grotesque', Arial,Helvetica,sans-serif;
             font-size: 12px;
             font-weight: 600;
             width: flex(75px, 294px);

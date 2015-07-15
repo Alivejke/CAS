@@ -1,7 +1,7 @@
 .base_title {
 	// font-family: pragmatica,Helvetica,Arial,sans-serif;
 	// font-weight: 700;
-	font-family: 'Brandon Grotesque';
+	font-family: 'Brandon Grotesque', Arial,Helvetica,sans-serif;
 	font-weight: 600;
 }
 
@@ -36,7 +36,7 @@
 }
 
 .brand_news_title {
-	font-family: 'Brandon Grotesque';
+	font-family: 'Brandon Grotesque', Arial,Helvetica,sans-serif;
 	font-weight: 300;
 	font-size: em($brand_news_title-font-size, $base-font-size);
 	line-height: 1;
@@ -111,7 +111,7 @@
 }
 
 .document__title {
-	font-family: 'Brandon Grotesque';
+	font-family: 'Brandon Grotesque', Arial,Helvetica,sans-serif;
 	font-weight: 300;
 	color: #4D4D4D
 }
